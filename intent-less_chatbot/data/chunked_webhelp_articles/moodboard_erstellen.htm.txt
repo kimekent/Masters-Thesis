@@ -1,0 +1,26 @@
+Key: Neue Moodboard- Slides erstellen
+Navigation:  Seitenelemente > Moodboard
+
+Advanced Users - via Backend
+1) Backend Fenster öffnen (Ribbon > Campus > Backend)
+2) Data Ordner der entsprechenden Seite öffnen. Darin befindet sich der Ordner Moodboard für alle lokalen Slides. Den Moodboard Ordner ankicken.
+3) Auf dem Ordner Moodboard das Kontextmenü öffnen: Insert > Slide wählen.
+4) Dem Slide einen Namen vergeben > Neues Slide wird im Ordner Moodboard angelegt.
+ 
+Normale Anleitung:
+1) Mit der Maus in den rot umrandeten Moodboard Bereich klicken und anschliessend oben links auf das Add-Icon klicken.
+ 
+Achtung: Die entsprechende Sprachversion für das Slide wählen.
+
+2) Im neuen Fenster das Rendering Board auswählen.
+ 
+3) Weiter auf OK klicken und die Seite Speichern .
+ 
+Wichtig: Das erste Slide-Item wurde erstellt und lokal im Data-Ordner der Seite gesichert. Das Slide enthält auch noch keine Daten.
+
+Wie Text und Bild dem Elment zugewiesen werden kann steht hier beschrieben: 
+https://applsupport.hslu.ch/webhelp/index.html?hm_titel2.htm
+https://applsupport.hslu.ch/webhelp/index.html?hm_neues_bild_direkt_hochladen.htm
+
+Link: https://applsupport.hslu.ch/webhelp/hm_moodboard_erstellen.htm
+

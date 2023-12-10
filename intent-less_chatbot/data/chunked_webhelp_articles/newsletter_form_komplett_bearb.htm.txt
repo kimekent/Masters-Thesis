@@ -1,0 +1,7 @@
+Key: Newsletter Form (Komplett) bearbeiten
+Navigation:  Seitenelemente > Content Container > Newsletter Form (Komplett)
+
+Die Bearbeitung vom Newsletter Form erfolgt in Inxmail, ein externes Newsletter System, welches von M&K verwaltet wird.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_newsletter_form_komplett_bearb.htm
+

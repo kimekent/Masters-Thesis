@@ -1,0 +1,28 @@
+Key: Quick Link löschen
+Navigation:  Seitenelemente > Footer > Quick Links
+
+In dieser Anleitung wird beschrieben wie eine Quicklink der unten im Footer einer Seite angezeigt wird, gelöscht werden kann. Dabei ist zu beachten, dass beim Footer alle Unterseiten von der darüberliegendenseite erben. Wird also ein Link entfernt, wird er auch bei allen darunterliegenden Seiten entfernt und muss gegebenenfalls bei den Unterseitne wieder neu hinzugefügt werden. Wie Links einer Seite zugewiesen werden steht hier geschrieben:https://applsupport.hslu.ch/webhelp/index.html?hm_quicklinks_zuweisen.htm
+
+Shared Data Fenster öffnen (Ribbon > Campus > Shared Data)
+
+1) Im Ordner Quick Links zu löschender Link auswählen. Auf dem Link Item das Kontext-Menü öffnen und Delete auswählen.
+ 
+2) Zuerst wird nachgefragt, ob der Quick Link wirklich gelöscht werden soll.
+Danach stehen drei Optionen zur Auswahl:
+ 
+•Remove Links:
+- Löscht das Link Item.
+- Und alle Links auf den Seiten werden entfernt, bei welchen dieses Item zugewiesen wurde.
+ 
+•Linkt to Another Item:
+- Löscht das Link Item.
+- Für die Links auf den Seiten, bei welchen dieses Item zugewiesen wurde, kann ein Ersatz Link Item zugewiesen werden.
+ 
+•Leave Links - the Links will Appear in the Broken Links Report:
+- Löscht das Link Item.
+- Belässt aber die Links auf den Seiten, welche keine Verknüpfung mehr haben > Broken Links!
+  
+3) Eine der ersten zwei Option wählen und auf Continue klicken
+
+Link: https://applsupport.hslu.ch/webhelp/hm_quick_link_loeschen.htm
+

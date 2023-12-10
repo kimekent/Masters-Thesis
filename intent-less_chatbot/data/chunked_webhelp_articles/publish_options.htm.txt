@@ -1,0 +1,22 @@
+Key: Publish Options
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Campus
+
+In diesem Webhelp-Artikel sind die verschiedenen Publishing Options von Seiten und Elementen beschrieben. Elemente und Seiten können in Sitecore erstellt werden aber so eingestellt werden, dass diese nicht publiziert werden oder erst zu einem gewissen Zeitpunkt Live geschatltet werden. Wie das geht und was dabie beachtet werden muss ist hier beschrieben. 
+
+HINWEIS: Will ein Redaktor einen Inhalt vor der Veröffentlichung mehrmals editieren oder bis zu einem gewissen Zeitpunkt zurückhalten, können die Publish Options genutzt werden. Diese Funktion sollte aber nur bei neuen Seiten verwendet werden, welche noch nie publiziert wurden.
+
+HINWEIS: Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert die Redaktion, ob und wann Inhalte publiziert werden.
+
+•Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Zurzeit können keine Sitecore-Items zeitgenau publiziert werden, sondern immer nur für die gesamte Zeitspanne zwischen 2 Publishing-Jobs.  Auch wenn die Publishing-Zeit auf 09:00 Uhr gestellt ist, wird da Item erst beim kommenden Publish um 12:05 Uhr veröffentlicht.
+•Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+•Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+ 
+ACHTUNG: Bei bestehenden Seiten, welche schon veröffentlicht wurden, muss zuerst eine Umleitung eingerichtet werden. Ansonsten können beim Besucher Fehlerseiten entstehen (404 Seite nicht gefunden). Melden Sie sich dazu via eMail beim Web-Support.
+
+ 
+Die Publish-Funktionalität steht nicht nur für Seiten, sondern auch für einzelne Elemente zur Verfügung. So können etwa auch Teaser über den "Manual Teaser bearbeiten" zu einem bestimmten Zeitpunkt publiziert und zurückgezogen werden oder vor einer vorzeitigen Publikation geschützt werden.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_publish_options.htm
+

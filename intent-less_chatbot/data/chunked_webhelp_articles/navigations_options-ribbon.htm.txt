@@ -1,0 +1,20 @@
+Key: Navigations Options
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Campus
+
+In den Navigations Options definiert die Redaktion die Texte, welche in der Flyout-Navigation, in der Side-Navigation und in den Breadcrumbs angezeigt werden.
+ 
+Pfad im Page-Editor: Ribbon-Menü > Campus > Navigatons Options
+ 
+Die folgenden sechs Felder stehen in den "Navigations Options" zur Verfügung:
+ 
+1.Linktext für Flyout, Mobile-Navigation und Breacrumb (https://applsupport.hslu.ch/webhelp/hm_linktext_fuer_flyout_mobile_navigation_und_breadcrumb.htm)
+2.Überschrift im Flyout (https://applsupport.hslu.ch/webhelp/hm_ueberschrift_im_flyout.htm)
+3.Überschrift für Side-Navigation (https://applsupport.hslu.ch/webhelp/hm_ueberschrift_fuer_side-navigat.htm)
+4.Linktext der Hauptseite in der Side-Navigation (https://applsupport.hslu.ch/webhelp/hm_linktext_der_hauptseite_in_der.htm)
+5.Linktext in der Side-Navigation (https://applsupport.hslu.ch/webhelp/hm_linktext_in_der_side-navigatio.htm)
+6.Sichtbarkeit in den Navigationen (https://applsupport.hslu.ch/webhelp/hm_linktexte_iin_navigation_ein_ausblenden.htm)
+
+Hinweis: Mehr Optionen für die Anzeige von Links in Listen / Quickliks bieten die vertieften Navigations Options (https://applsupport.hslu.ch/webhelp/hm_vertiefte_navigations_options.htm) im Content Editor.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_navigations_options-ribbon.htm
+

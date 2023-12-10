@@ -1,0 +1,30 @@
+Key: Page Options
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Campus
+
+In den Page Options bestimmt die Redaktion die wichtigsten Meta-Daten und weist einer Seite Moodboards und Infoboxen zu.
+
+Metadaten:
+In den Page Options lassen sich die beiden wichtigsten Meta-Tags bewirtschaften:
+ 
+1.Das Feld "Seitentitel im Browser" übersteuert den automatischen Page Title.
+ 
+2.Das Feld "Meta Description" übersteuert die automatisch generierte Meta Description.
+ 
+Werden die Felder nicht gefüllt, übernimmt das System den "Titel 1" für den Page Title und den "Intro Text" als Meta Description.
+ 
+Weitere Optionen für Meta-Daten bietet der Content Editor. Im Content Editor können zusätzlich Keywords definiert, die Indexierbarkeit einer Seite bestimmt und Open Graph Meta Tags hinterlegt werden.
+
+Moodboard und Infoboxen:
+In den "Page Options" lassen sich ausserdem Moodboard Slides und Infoboxen einer Seite zuweisen.
+ 
+3. Im Feld "Moodboard Slides" und "Moodboard Slides (Mobile)" können die verfügbaren Slides via Pfeil-Button in den "Selected"-Bereich verschoben und so für die Seite ausgewählt werden.
+ 
+4. Im Feld "Infobox" kann eine Infobox aus den verfügbaren Vorlagen ausgewählt und so auf der Seite platziert werden.
+
+Nur für Administratoren:
+5. Die Checkbox "Seite mit dynamischer Infobox" dient aktuell nur für die Infobox der Helpdeskseite https://www.hslu.ch/helpdesk. Hiermit wird der Inhalt der Infobox dynamisch vom Intranet in die Infobox übertragen, wie z.B. Unterbrüche oder Störungen.
+ 
+6. GTM Tag ist das Feld für den Google Tag Manager. So kann bei einzelnen Seiten ein Google Tag gesetzt werden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_page_options.htm
+

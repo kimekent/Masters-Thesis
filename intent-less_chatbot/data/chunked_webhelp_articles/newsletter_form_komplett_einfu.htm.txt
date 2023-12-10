@@ -1,0 +1,17 @@
+Key: Newsletter Form (Komplett) einfügen
+Navigation:  Seitenelemente > Content Container
+
+In dieser Anleitung wird erklärt, wie ein Newsletterform auf einer Webseite eingefügt werden kann.
+
+Newsletter Form (Komplett) 
+
+1) Im Content Container auf Add to here klicken.
+ 
+2) Im neuen Fenster New Form auswählen und mit Select bestätigen.
+ 
+3) Das Formular wird automatisch auf der Seite eingebunden und platziert.
+ 
+Hinweis: Das Newsletter-Formular kann von den Webautoren nicht weiter bearbeitet werden. Es kann einzig verschoben oder wieder gelöscht werden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_newsletter_form_komplett_einfu.htm
+

@@ -1,0 +1,18 @@
+Key: Optionen für die Empfehlen Buttons
+Navigation:  Seitenelemente > Content Container > Empfehlen-Buttons
+
+In diesem Webhelp-Aetikel wird das Element Epfehlen-Buttons (Social Media Buttons) vorgestellt und aufgelistet, welche Einstellungen bei diesem Element vorgenommen werden können. 
+
+1) In die Empfehlen Buttons klicken und das Edit-Icon anklicken.
+ 
+Achtung: Whatsapp - nur Mobile ist eine Beta-Version und funktioniert nicht mit allen Browser
+ 
+Hinweis: Es sollten maximal 5 Elemente aktiviert werden, damit keine zweite Reihe von Buttons erscheint
+ 
+2) Im neuen Fenstern können folgende Einstellungen bearbeitet werden:
+ 
+•Es kann ausgewählt werden, welche Buttons angezeigt werden sollen.
+•Es kann ein Empfehlen Text eingegeben werden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_optionen_fuer_die_empfehlen_bu.htm
+

@@ -1,0 +1,34 @@
+Key: Manueller Teaser YouTube Video einbinden
+Navigation:  Seitenelemente > Content Container > Teaser
+
+In dieser Anleitung wird erklärt, wie YouTube Videos einsprachig oder zweisprachig auf der Website eingebunden werden können. Ausserdem wird angegeben, wer für das Hochladen der YouTube Videos verantwortlich ist. 
+
+Video einsprachig:
+Hinweis: Videos, die auf YouTube hochgeladen werden müssen, bitte an socialmedia@hslu.ch schicken.
+ 
+1) Auf der YouTube Webseite http://www.youtube.com/ ein Video auswählen, auf Teilen klicken und die ID kopieren (z.B. EPTHpG7ovak):
+ 
+Hinweis: Es wird nur der letzte Teil vom Link benötigt.
+
+2) In den Manuellen Teaser klicken und das Edit-Icon "Edit manual teaser" anklicken.
+ 
+3) Im Feld Bild ein Start-Bild zum Video auswählen.
+ 
+Achtung: Es muss zwingend ein Startbild definiert werden, ansonsten steht keine Videofunktionalität zur Verfügung!
+ 
+4) Im Feld Video ID die kopierte ID (letzter Teil vom Link, z.B. EPTHpG7ovak) einfügen.
+5) Im Feld Video Typ "YouTube" wählen.
+
+Video mehrsprachig: 
+Die zusätzliche zweite Video ID (Mehrsprachig möglich) der englischen Filmfassung, kann nur via Backend oder Shared Data zum "Manuellen Teaser" hinzugefügt werden:
+ 
+1.Der Manuelle-Teaser via Backend im Data-Ordner der entsprechenden Seite oder unter Shared Data im Content-Tree auswählen.
+2.Wenn nötig, im Content auf Lock and Edit klicken, damit der Inhalt bearbeitet werden kann.
+3.Unter Video, beim Feld Video ID (Mehrsprachig möglich), die Video ID's der jeweiligen Fassung einfügen.
+ 
+Hinweis: Oberes Feld Video ID leer lassen.
+Unteres Feld Video ID (Mehrsprachig): Auf der DE Seite die Video ID der deutschen Fassung eingeben.
+Unteres Feld Video ID (Mehrsprachig): Auf der EN Seite die Video ID der englischen Fassung eingeben.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_manueller_teaser_video_einbind.htm
+

@@ -1,0 +1,16 @@
+Key: Header konfigurieren
+Navigation:  Navigation > Header
+ 
+In dieser Anleitung wird beschrieben wo die Header Settings der Website konfiguriert werden können. Diese Einstellungen können nur durch Administratoren vorgenommen werden. 
+
+BEARBEITUNG DURCH ADMINISTRATOR
+Admin - Content Editor
+1) sitecore > System > Configuration > Campus > www > Header Settings
+2) Logo: Unter Header > Logo auf "Browse" klicken und ein Logo auswählen und einfügen. Alt-Text anpassen.
+3) Sprache: Unter Header > Sprachen die gewünschten Sprachen nach "Selected" verschieben.
+4) Login: Unter Header > Loginseite auf "Insert Link" klicken, um URL Login-Seite auszuwählen.
+ 
+Achtung: Das Logo wird auf allen Seiten platziert.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_neues_hslu_logo_einfuegen.htm
+

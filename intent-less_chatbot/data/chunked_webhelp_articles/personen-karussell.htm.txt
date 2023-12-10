@@ -1,0 +1,9 @@
+Key: Personen-Karussell (Dozenten-Teaser)
+Navigation:  Seitenelemente > Content Container
+
+Das Personen-Karussell stellt beliebige Mitarbeitende der Hochschule Luzern dar.
+Das Element sollte eingesetzt werden, solange weniger als 10 Personen angezeigt werden.
+Müssen deutlich mehr als 10 Personen dargestellt werden, empfiehlt es sich stattdessen auf eine Personen-Filter-Liste zu verweisen.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_personen-karussell.htm
+
