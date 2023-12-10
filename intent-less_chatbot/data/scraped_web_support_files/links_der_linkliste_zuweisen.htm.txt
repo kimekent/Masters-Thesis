@@ -1,0 +1,59 @@
+Key: Links zuweisen
+Navigation:  Seitenelemente > Sidebar Container > Call-to-Action-Teaser
+
+In dieser Anleitung wird erklärt, wie einem Call-to-Action Teaser Links zugewiesen werden können. Es wird auch erklärt unter welchen Bedingungen automatisch Infoenvent, WeVe und ONLA Anmeldungslinks im Call-to-Action-Teaser generiert werden. 
+
+1) Im Kontext-Menü auf den Editier-Button klicken.
+ 
+2) Im neuen Fenster können die folgenden Felder editiert werden:
+ 
+•Titel
+ 
+•Linkliste - Durch Klicken auf Insert Link / Insert Media Link oder Insert External Link können Links der Linkliste hinzugefügt werden (siehe Punkt 3)
+Link Position ändern: In der Linkliste einen Link auswählen und durch das Klicken auf den Pfeil nach oben oder nach unten verschieben.
+Link löschen: In der Linkliste einen Link auswählen und durch Klicken auf das Lösch-Icon den Link entfernen.
+Link editieren: In der Linkliste einen Link auswählen und durch Klicken auf das Editier-Icon den Link anpassen.
+ 
+•Text
+ 
+•Telefonnummer
+ 
+•E-Mail
+ 
+•Checkbox: Kontextabhängige Informationen aus Evento anzeigen
+Achtung: Damit die Anmeldung über ONLA / WeVe funktioniert, muss diese Checkbox aktiviert sein (Standard)! Bei einer deaktivierten Checkbox, wird entsprechend kein Link bzw. Status Meldung angezeigt.
+
+Diese Checkbox hat nur bei einer Aus-, Weiterbildungs- oder Eventsseite einen Einfluss, sofern auf der entsprechenden Spezialseite (Factsliste Ausbildung / Factsliste Weiterbildung / Event-Intro) ein Evento Anlass bzw. eine Evento ID hinterlegt wurde. Zudem muss der Call-to-Action-Teaser bei diesen Spezialseiten manuell auf der Seite platziert werden.
+Wurde ein Anlass / Evento-ID hinterlegt, wird automatisch im Call-To-Action-Teaser der WeVe-Link (Event) bzw. ONLA-Link (Aus-, Weiterbildung) mit einer grünen Status Meldung angezeigt.
+
+3) Durch Klicken eines Insert ... Buttons öffnet sich ein neues Fenster. Je nach Linktyp sehen die Fenster unterschiedlich aus. Die entsprechenden Felder ausfüllen und den Link durch OK der Linkliste hinzufügen:
+ 
+Wichtig: Auf Speichern klicken, damit dieses Element auch gesichert und die Änderungen sichtbar werden!
+ 
+Hinweis: Die Namen der Seiten-Items können auch in englischer Sprache erscheinen. Für die Verlinkung spielt dies jedoch keine Rolle, da der Link auf das Seiten-Item zeigt und nicht auf eine Sprachversion.
+
+Aufmerksamkeitsstärkeren Call-to-Action auf mobilen Geräten anzeigen lassen:
+Wie das aussieht und funktioniert, seht ihr im Video hier: https://inside.hslu.ch/fs/it/gap/sitecoreschulungen/Seiten/Startseite.aspx#Action
+ 
+•Checkbox: Kontextabhängige Information aus Evento auch beim zusätzlichen mobilen Call-to-Action anzeigen (wenn Evento-ID hinterlegt wurde
+ 
+•Link: Wenn letztere Checkbox nicht angekreuzt: Manueller Link für den zusätzlichen mobilen Call-to-Action (bitte auch Linkbeschreibung ausfüllen):
+ 
+•Drop-Down: Hintergrundfarbe für den zusätzlichen mobilen Call-to-Action: Magenta, Darkblue
+ 
+Insert Internal Link:
+Mit Insert Link können interne Sitecore-Seiten verlinkt werden.
+
+Insert Media Library Link:
+Mit insert Medialink können PDF's und Bilder aus der Media Library verlinkt werden.
+
+Insert External Link:
+Mit insert external Link können externe Seiten verlinkt werden.
+
+E-Mail Link
+Ein E-Mail Link muss als ein externer Link erfasst werden.
+ 
+Hinweis: E-Mail einfügen funktioniert für den mobilen Call-to-Action nicht. Will man einen E-Mail-Link erstellen, muss dies mit einem "Hack" auch unter "Externen Link einfügen" und mailto:emailadresse gemacht werden. 
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_links_der_linkliste_zuweisen.htm
+

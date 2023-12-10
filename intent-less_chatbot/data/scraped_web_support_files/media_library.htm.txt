@@ -1,0 +1,18 @@
+Key: Media Library
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Campus
+
+Die Media Library enthält alle Medien (Bilder, PDFs, Dateien), welche die Hochschule Luzern im Internet veröffentlicht. Damit Dateien und Medien im Internet zur Verfügung stehen, müssen sie zuerst via Upload auf die Server der Hochschule Luzern hochgeladen werden.
+ 
+Die Media Library funktioniert sehr ähnlich wie der Windows Explorer. Dateien sind in einem Baum abgelegt und können darin verschoben werden. Die Media Library besteht aus drei Stufen:
+ 
+1.Files und Images: Dateien (PDFs und Bilder)
+2.Bildtypen: Ein Bild fürs Moodboard wird im Moodboard-Ordner abgelegt.
+3.Departements- und OE-Ordner: Ein Moodboard des Departements Wirtschaft wird im Moodboard-Ordner und im Unterordner "w" für Wirtschaft abgelegt.
+4.Innerhalb der Departements- und OE-Ordner sollen die Departemente weitere Unterordner nach freiem Ermessen erstellen.
+ 
+Es sollten nie mehr als 100 Items in einem Ordner liegen.
+ 
+Pfad im Page-Editor: Ribbon-Menü > Campus > Media Library
+
+Link: https://applsupport.hslu.ch/webhelp/hm_media_library.htm
+

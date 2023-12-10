@@ -1,0 +1,41 @@
+Key: Login
+Navigation:  Tools
+
+Dieser Webhelp Artikel enthält informationen wie man sich im CMS Sitecore einloggen kann.
+
+1) Der Login Screen zu Sitecore ist unter den folgenden URL-Adressen zu finden:
+ 
+•Schulungssystem: https://int-stage-www.hslu.ch/sitecore/login
+ 
+•LIVESYSTEM: https://stage-www.hslu.ch/sitecore/login
+ 
+Achtung: Wer von zu Hause aus arbeitet, muss mit dem VPN der Hochschule verbunden sein.
+ 
+2) Bitte öffnen Sie Google Chrome und kopieren Sie die entsprechende URL in die Browser-Adresszeile.
+ 
+Hinweis: Während der Schulungen kann es vorkommen, dass alle Sitecore Lizenzen aufgebraucht sind. Die Lizenzen können jedoch temporär erhöht werden.
+ 
+3) Klick auf Button Mit HSLU-Login anmelden
+ 
+4) Verwenden Sie bitte die E-Mail-Adresse und das Passwort Ihres HSLU Kontos.
+ 
+> Nach einem erfolgreichen Login gelangt man zur Sitecore Experience Management Oberfläche.
+ 
+Hinweis: Das ehemaliges Sitecore-Login mit campus\Benutzername und Passwort funktioniert weiterhin (folgend).
+ 
+3) Zum Einloggen geben Sie im ersten Eingabefeld ihre Domäne, gefolgt von einem Backslash und ihrem Benutzername der HSLU ein: campus\Benutzername
+ 
+Beachten Sie den Backslash \:
+ 
+Die Windows Tastenkombination: AltGr + \
+ 
+Die Mac Tastenkombination: Shift + alt + 7
+ 
+4) Im zweiten Feld geben Sie ihr HSLU-Passwort ein
+ 
+5) Klicken Sie auf Log in.
+  
+> Nach einem erfolgreichen Login gelangt man zur Sitecore Experience Management Oberfläche.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_login.htm
+

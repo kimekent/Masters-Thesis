@@ -1,0 +1,11 @@
+Key: Quick Links
+Navigation:  Seitenelemente > Footer >
+
+Dieser Websupport-Artikel erklärt was Quicklinks sind.
+
+Alle Links im Footer, egal ob unter der Rubrik Direkteinstieg oder unter der Rubrik Quicklinks oder bei den allgemeinen Links (ohne Rubrik), werden im Folgenden als Quick Links bezeichnet.
+ 
+Pfad im Page-Editor: Ribbon-Menü > Campus > Shared Data
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_links.htm
+

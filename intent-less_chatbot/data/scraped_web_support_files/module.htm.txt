@@ -1,0 +1,23 @@
+Key: Module
+Navigation:  Seitentypen > Ausbildung (Studium) > Studiengangsstruktur (Modul Generator)
+
+In dieser Anleitung wird beschrieben, wie ein neues Modul für eine Ausbildungsseite erfasst werden kann. 
+
+BEARBEITUNG DURCH ADMINISTRATOR
+1) Im Content-Editor neue Module im Ordner Shared Data erfassen.
+ 
+2) Module können eine Modulbeschreibung, eine ECTS-Angabe und einen weiterführenden Link enthalten. Mittels Checkboxen kann die Darstellung variiert werden.
+ 
+•Name: Modulname
+•Beschreibung: Kurze Beschreibung über den Modulinhalt
+•Ects-Punkte: Anzahl der Punkte
+•Ects-Punkte anzeigen: Checkbox muss aktiviert sein, wenn die Punkte angezeigt werden sollen. Ansonsten wird keine Zahl angezeigt.
+•Link: Zum Beispiel ein Link auf eine Modulbeschreibung im PDF Format.
+•nur Link Anzeigen: Ist diese Checkbox gewählt, wird nur der Link und dessen Titel angezeigt. Der Name vom Modul samt Beschreibung wird ausgeblendet.
+ 
+Hinweis: Die Module können später beim Modulelement Bereich zugewiesen werden.
+ 
+Hinweis: Die CAS-Module werden nach Intro-Titel geordnet (im Modulgenerator wird der Intro-Titel angezeigt).
+
+Link: https://applsupport.hslu.ch/webhelp/hm_module.htm
+

@@ -1,0 +1,17 @@
+Key: Neues Bild direkt hochladen und dem Slide zuweisen
+Navigation:  Seitenelemente > Moodboard
+
+In dieser Anleitung wird beschrieben wie bei einem Moodboard ein Bild eingefügt werden kann. 
+
+1) Slide bearbeiten und bei Bild auf Browse klicken:
+ 
+Hinweis: Beim Upload via Item gelangt man immer in den Speicherort des entsprechenden Items.
+ 
+2) Das weitere Vorgehen ist im Kapitel Media Library > Upload Files via Item in die Media Library (https://applsupport.hslu.ch/webhelp/hm_upload-files-via-item-in-die-m.htm)
+ 
+Hinweis: Bilder für den Slide des mobilen Moodboard kann separat hochgeaden werden. Der Browse-Button ist ebenfalls im Bearbeitungsfenster des Slides zu finden:
+ 
+Achtung: Im Web wird der Slide noch nicht angezeigt, weil der Slide der Seite noch nicht zugewiesen wurde! Dies ist am roten Hinweistext erkennbar! Slides dem Moodboard zuweisen
+
+Link: https://applsupport.hslu.ch/webhelp/hm_neues_bild_direkt_hochladen.htm
+

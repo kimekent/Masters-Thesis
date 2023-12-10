@@ -1,0 +1,43 @@
+Key: News erfassen
+Navigation:  Seitentypen > News
+
+In dieser Anleitung wird beschrieben wie eine News erfasst wird. 
+
+Siehe auch: Siehe auch: News erfassen (https://applsupport.hslu.ch/webhelp/hm_news_einfuegen.htm), News Teaser (https://applsupport.hslu.ch/webhelp/hm_news_teaser_einfuegen.htm), Multi News Teaser (https://applsupport.hslu.ch/webhelp/hm_multi_news_teaser_einfuegen.htm), News Filter List (https://applsupport.hslu.ch/webhelp/hm_news_filter_list.htm)
+ 
+Hinweis: Nach dem Erstellen einer News wird der Index neu erstellt. Dies kann bis zu 15 Minuten dauern (Wird Zukünftig vermutlich auf 1/2 Tag eingestellt). Erst danach ist die neue News in den Filterlisten oder Teaser auffindbar.
+ 
+1) Zur Haupt-News Seite des Departements navigieren:
+ 
+Technik & Architektur:
+ www.hslu.ch/technik-architektur/aktuell
+ 
+Wirtschaft:
+ www.hslu.ch/wirtschaft/ueber-uns/news
+ 
+Informatik:
+ www.hslu.ch/de-ch/informatik/news
+ 
+Soziale Arbeit:
+ www.hslu.ch/soziale-arbeit/ueber-uns/aktuell
+ 
+Design & Kunst:
+ www.hslu.ch/design-kunst/aktuelles/news
+ 
+Musik:
+ www.hslu.ch/musik/ueber-uns/medien
+ www.hslu.ch/musik/ueber-uns/preise-und-erfolge
+ 
+ 
+Hinweis: News können nur eingefügt werden, wenn sich die Redaktorin auf einer News-Seite befindet. Eine News-Seite ist im Content Editor am -Icon erkennbar.
+ 
+2) Im Ribbon-Menü den Befehl Home > Insert News wählen.
+ 
+3) Die News Site wählen, der Seite einen Namen geben (Item Name) und Insert klicken.
+ 
+4) Die Seite entsprechend ausfüllen:
+ 
+•Durch klicken auf den Bearbeiten-Button in der Floating Toolbar die Felder von NewsIntro und von Formatierter Text mit Bild bearbeiten. 
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_news_einfuegen.htm
+

@@ -1,0 +1,12 @@
+Key: Newsletter Form (Komplett)
+Navigation:  Seitenelemente > Content Container
+
+Über das Newsletter Form (Komplett) kann ein Internetbesucher einen Newsletter abonnieren.
+ 
+Hat ein Internetbesucher bereits ein Newsletter abonniert, erkennt dies Sitecore. Dann wird folgender Text nach dem Klick auf Anmelden angezeigt:
+Sie haben bereits einen Newsletter-Abonnement. Bitte bearbeiten Sie dieses hier.
+ 
+Durch klicken auf hier, kann der User sein Konto bearbeiten und neue Newsletter abonnieren oder abmelden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_newsletter_form_komplett.htm
+

@@ -1,0 +1,46 @@
+Key: Links und Downloads erstellen
+content2>content_-_moegliche_items>linkliste
+ 
+Hinweis: Bitte verwenden Sie die neue Link List (NEU).
+Diese Link- und Downloadliste ist veraltet und kann zukünftig nicht mehr auf einer Seite eingefügt werden.
+ 
+Hinweis: Unter dem Kapitel "Template auf einer Seite platzieren" wird erklärt, wie die Einfüge-Buttons eingeblendet werden können.
+ 
+1) Auf den Einfüge-Button + Add to here klicken.
+ 
+2) Im neuen Fenster das Element Link und Download Liste auswählen und auf Select klicken.
+ 
+3) Entweder wird über Create New Content eine neue Liste erstellt oder über Select Existing Content eine bestehende Liste ausgewählt. Der Name wird gleich als Titel benutzt.
+ 
+Hinweis: Das Item kann Lokal oder Shared gespeichert (Create) oder ausgewählt (Select) werden.
+ 
+4) Die Liste wird auf der Seite platziert. Die Seite speichern (ctrl+S). Um Links zu bearbeiten oder hinzu zu fügen, auf das Icon bearbeiten klicken.
+
+5) Im Bearbeitungsfenster können neuen Links hinzugefügt oder bearbeitet werden. Der Titel kann ebenfalls angepasst werden:
+ 
+•Insert Link: Link auf eine interne Seite
+•Insert Media Link: Link auf ein PDF oder Bild
+•Insert External Link: Link auf eine externe Webseite
+•Ausklapp Text: Text beim Auf- und Zuklapp-Button. Die Link und Download-Liste kann auch auf- und zugeklappte werden, wie dies bei Toggle Text auch möglich ist.
+•Anzahl anzuzeigender Einträge: Dies sind die Einträge welche in der zugeklappten Ansicht dargestellt werden.
+ 
+•Mit den blauen Pfeilen kann die Reihenfolge der Links angepasst werden.
+•Mit dem roten Kreuz kann ein Link gelöscht werden.
+•Mit dem Bleistiftsymbol kann ein bestehender Link bearbeitet werden.
+ 
+Hinweis: Die Namen der Seiten-Items können auch in englischer Sprache erscheinen. Für die Verlinkung spielt dies jedoch keine Rolle, da der Link auf das Seiten-Item zeigt und nicht auf eine Sprachversion.
+ 
+Beim klicken auf z.B. "Insert External Link" geht ein weitere Fenster auf. Folgende Felder müssen ausgefüllt werden:
+ 
+•Link description: Name des Links. Dieser wird dann in der "Link und Download Liste" angezeigt
+Hinweis: Die Link description kann nur in einer Sprache hinterlegt werden.
+ 
+•URL: Adresse der Webseite
+ 
+•Target Window: Browser-Zielfenster
+Hinweis: Bei externen Links immer auf "New Browser" und bei internen Seiten immer auf "Active browser" setzen.
+ 
+Je nach Linkart, werden diese entsprechend unterschiedlich im Web dargestellt:
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_liste_links_und_downloads_erst.htm
+

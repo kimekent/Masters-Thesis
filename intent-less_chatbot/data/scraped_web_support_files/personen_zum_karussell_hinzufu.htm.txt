@@ -1,0 +1,19 @@
+Key: Personen zum Karussell hinzufügen
+Navigation:  Seitenelemente > Content Container > Personen-Karussell (Dozenten-Teaser)
+
+In dieser Anleitung wird erklärt, wie Personen dem Element Personenkarusell hinzugefügt werden können, wie Personen dem Personenkarusell entfert werden können und wie die Reihenfolge der Personen geändert werden kann.
+
+1) Ins Element Personen Karussell klicken und im Floating-Menü auf den Editier-Button klicken.
+ 
+2) Im Suchfeld nach den gewünschten Personen suchen.
+ 
+Hinweis: Die Suche findet Personen nur, wenn nach Nachname gesucht wird.
+ 
+3) Auf gewünschte Personen doppelklicken oder mittels der Links- und Rechts-Pfeile ins Feld der ausgewählten Selected-Elemente verschieben. Mit OK bestätigen.
+ 
+Person hinzufügen: In der Liste All ein Element auswählen und auf den Pfeil klicken.
+Person entfernen: In der Liste Selected ein Element auswählen und auf den Pfeil klicken.
+Position ändern: In der Liste Selected ein Element auswählen und durch das Klicken auf den Pfeil nach oben oder nach unten verschieben.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_personen_zum_karussell_hinzufu.htm
+

@@ -1,0 +1,22 @@
+Key: Koordinaten finden
+content2>sidebar-_moegliche_items>karte_google_maps
+1) Zu Google Maps navigieren und an der gewünschten Position einen Mausklick ausführen.
+ 
+
+ 
+Im unteren Browserbereich erscheint Fester mit einer Voransicht der Umgebung und den Koordinaten:
+ 
+•Der erste Wert entspricht den Breitengraden (latitude).
+•Der zweite Wert (nach dem Komma) entspricht den Längengraden (longitude).
+ 
+Wichtig: Durch einen Klick auf die Koordinaten, werden diese in den Routerplaner eingefügt. Von dort aus können die Koordinaten kopiert werden. Es dürfen nur Zahlenwerte eingefügt werden, sonst erscheint eine falsche Position.
+Hier in diesem Beispiel:
+ 
+Latitudes: 46.1137282
+Longitudes: 8.3074119
+ 
+
+ 
+
+Link: https://applsupport.hslu.ch/webhelp/hm_koordinaten_finden.htm
+
