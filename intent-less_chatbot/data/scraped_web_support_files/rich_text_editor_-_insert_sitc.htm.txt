@@ -1,0 +1,13 @@
+Key: Insert Sitcore Link
+tools>rich_text_editor
+1) Der Button "Insert Sitecore Link" fügt einen Link auf ein system-internes Ziel (auch auf Media-Dateien) ein:
+ 
+
+ 
+2) Aus dem Sitecore-Baum die gewünschte Seite auswählen.
+ 
+ 
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_rich_text_editor_-_insert_sitc.htm
+

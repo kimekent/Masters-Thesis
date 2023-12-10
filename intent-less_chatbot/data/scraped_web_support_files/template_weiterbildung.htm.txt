@@ -1,0 +1,39 @@
+Key: Weiterbildung
+Navigation:  Seitentypen
+
+In diesem Webhelp-Artikel ist beschrieben, was eine Weiterbildungseite ist und welche Elemente sie enthält. Weiterbildungsseiten können nur an bestimmten stellen, und zwar unter der Weiterbildungsseite eingefügt werden. Im Backend ist diese Seite im Baum grün.
+
+Siehe auch: Weiterbildung einfügen (https://applsupport.hslu.ch/webhelp/hm_weiterbildung_einfuegen.htm), Weiterbildung Filter List konfigurieren (https://applsupport.hslu.ch/webhelp/hm_weiterbildung_filter_list.htm)
+ 
+WeVe / Onla - Link einfügen: Siehe Call-To-Action-Teaser > Links zuweisen (https://applsupport.hslu.ch/webhelp/hm_links_der_linkliste_zuweisen.htm)
+ 
+Achtung: Seiten nie kopieren oder duplizieren.
+ 
+Achtung: Die speziellen Weiterbildungsseiten-Items wie z.B. die Weiterbildungs-Factliste nicht löschen, da diese Elemente nicht einfach wieder integriert werden können!
+ 
+Die Weiterbildungsseite ("Weiterbildung MAS Site") stellt ein komplexes Weiterbildungsangebot vor. Sie generiert automatisch die folgenden Elemente:
+ 
+In Content Bereich:
+1.Page-Intro (ohne Titel 2)
+2.Social Media Buttons
+3.Übersichtstext (Toggle-Text)
+4.Facts-Liste
+5.CAS - MAS Zuordnung (Nur bei CAS-Weiterbildungsseiten)
+6.Themenzuordnung (Nur bei MAS / WBK und ISA-Weiterbildungsseiten)
+ 
+Hinweis: Jedes CAS kann einem oder mehreren MAS-Angeboten zugeordnet werden.
+ 
+Hinweis: Die Redaktion kann jeder Weiterbildungsseite mehreren Themen zuweisen und die Eigenschaften der Weiterbildung via Backend bearbeiten.
+ 
+Im Sidebar-Bereich:
+7.Side-Navigation (Nur bei MAS-Weiterbildungsseiten)
+8.Die Unterseite Module (Nur bei MAS-Weiterbildungsseiten)
+9.Kontakt
+10.Info Veranstaltungen Aus- /Weiterbildungen: Bei Informations Event Seiten können Aus- und Weiterbildungsseiten verknüpft werden.
+ 
+Hinweis: Weitere Elemente können optional hinzugefügt werden. Zur Auswahl stehen alle Elemente, die in Content Containern verwendet werden können.
+ 
+Hinweis: Bei den Weiterbildungs Fact's Listen, kann die Evento Anlass ID vom Weiterbildungsanlass eingetragen werden. Durch das manuelle platzieren vom Element Linkliste mit E-Mail und Telefon (Call-To-Action Teaser) wird in diesem automatisch ein WeVe-Link generiert.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_template_weiterbildung.htm
+

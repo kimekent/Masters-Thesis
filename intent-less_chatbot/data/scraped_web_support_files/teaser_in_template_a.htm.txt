@@ -1,0 +1,24 @@
+Key: Teaser einfügen
+Navigation:  Seitenelemente > Content Container > Teaser > Teaser erstellen
+
+In dieser Anleitung ist beschrieben, wie ein Teaser im Template A eingefügt werden kann.
+
+Hinweis: Im Kapitel Template ... ist erklärt, wie ein Template Container der Seite hinzugefügt werden kann.
+Je nach Template Typ (A, B, C, ...) sehen die Teaser anders aus und haben teils auch unterschiedliche Fähigkeiten.
+ 
+1) Auf den Einfüge-Button + Add to here klicken.
+ 
+Hinweis: Unter dem Kapitel "Template auf einer Seite platzieren" wird erklärt, wie die Einfüge-Buttons eingeblendet werden können.
+ 
+2) Im neuen Fenster einen der Teaser-Typen auswählen und auf Select klicken:
+ 
+•Manueller Teaser
+•Rich Text Teaser
+•Image Teaser
+
+3) Entweder wird über Create New Content ein neuer Teaser erstellt oder über Select Existing Content ein bestehender Teaser ausgewählt.
+ 
+Hinweis: Das Item kann Lokal oder Shared gespeichert (Create) oder ausgewählt (Select) werden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_teaser_in_template_a.htm
+

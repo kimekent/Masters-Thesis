@@ -1,0 +1,46 @@
+Key: Präfixe (Namenskonvention)
+Navigation:  Standards
+
+In diesem Webhelp-Artikel wird die Namensgebung bei neuen Seiten und Elementen erklärt an die man sich halten sollte.
+
+Für Seiten, Items (wie Teaser, InfoBox, Facts-Liste usw.), ... aber NICHT für Bilder / PDFs beginnt der Item-Name (Element-Name) immer mit dem Departements-Präfix, gefolgt von einem Leerzeichen.
+ 
+ÜBERSICHT PRÄFIXE HOCHSCHULE LUZERN
+ 
+Präfix
+Seitentitel (Item Name)
+h
+Dach der Hochschule (Rektorat & Services)
+ta
+Technik & Architektur
+dk
+Design & Kunst
+sa
+Soziale Arbeit
+w
+Wirtschaft
+m
+Musik
+i
+Informatik
+ 
+Beispiele:
+ 
+Neue Seite Technik & Architektur:ta Aktuelle Iformationen
+Neuer Teaser auf einer Seite: ta Das wichtigste in Kürze
+ 
+Bei der URL werden Leerschläge automatisch mit Bindestrichen ersetzt und die Departementskürzel Präfixe werden entfernt.
+
+Einfache Dateinamen vermeiden Probleme:
+Umlaute und Schrägstriche können online zu Problemen führen. Solche "Fehleingaben" werden vom CMS (Content-Management-System) überwacht und teilweise automatisch angepasst. Trotzdem schadet es nicht, sich an ein paar einfache Regeln zu halten:
+ 
+HINWEIS: Bei Sitecore werden Sonderzeichen teilweise automatisch umgewandelt:
+•Leerzeichen werden automatisch durch Bindestriche ersetzt (" " umgewandelt zu "-"), ausser das Präfix (oben erwähnt) wird speziell behandelt. Dies ist z.B. an der URL erkennbar.
+•Umlaute ä, ö, ü, sind nicht erlaubt und werden durch einen Warnhinweis signalisiert. Diese müssen als ae, oe, ue eingegeben werden.
+•Nicht erlaubte Sonderzeichen wie z.B. Querstriche (‚/‘) und Gegenschrägstriche (‚\‘) werden durch einen Warnhinweis signalisiert und können nicht eingegeben werden.
+•Durchgehende Kleinschreibung wird empfohlen.
+ 
+Aussagekräftige Dateinamen haben zudem einen positiven Einfluss auf SEO (‚Search Engine Optimization‘, also die Suchmaschinenoptimierung) und die ‚Accessibility‘ oder Zugänglichkeit von Inhalten für Menschen mit eingeschränkter Wahrnehmung.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_praefixe_dateinamen.htm
+

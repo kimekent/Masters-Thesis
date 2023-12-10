@@ -1,0 +1,26 @@
+Key: Social Icons
+Navigation:  Seitenelemente > Footer
+
+Der Footer beherbergt eine frei konfigurierbare Anzahl Social Media Icons. Diese verweisen auf die jeweiligen Social Media Feeds.
+ 
+Verfügbar sind Buttons für die folgenden Services:
+ 
+oFacebook
+oTwitter
+oYou Tube
+oVimeo
+oFlicker
+oGoogle Plus
+oXing
+oSoundcloud
+oInstagram
+oLast FM
+oLinkedIn
+oMySpace
+oDelicious
+oWordpress
+ 
+Anders als bei den Empfehlen-Buttons können User mit den Social Icons keine Aktionen tätigen. Ein Klick auf das jeweilige Icon öffnet lediglich den Feed des jeweiligen Social-Media-Kanals.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_social_icons3.htm
+

@@ -1,0 +1,15 @@
+Key: Personen-Karussell einfügen
+Navigation:  Seitenelemente > Content Container > Personen-Karussell (Dozenten-Teaser)
+
+In dieser Anleitung ist beschriebne wie ein Persoen-Karusell auf der Website eingefpgt werden kann. Wie Persoenen dem Karusell hinzugefügt werden können ist heir beschrieben: https://applsupport.hslu.ch/webhelp/index.html?hm_personen_zum_karussell_hinzufu.htm
+
+1) Auf den Einfüge-Button + Add to here klicken.
+ 
+Hinweis: Unter dem Kapitel "Template auf einer Seite platzieren" wird erklärt, wie die Einfüge-Buttons eingeblendet werden können.
+ 
+2) Im neuen Fenster das Personen Karussell auswählen und auf Select klicken.
+ 
+3) Entweder wird über Create New Content ein neues Personen Karussell erstellt, oder über Select Existing Content eine bestehendes Personen Karussell ausgewählt. In das Feld Name den Titel des neuen Elementes einfügen.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_personen-karusell_einfuegen.htm
+

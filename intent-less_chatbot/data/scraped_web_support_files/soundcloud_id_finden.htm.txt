@@ -1,0 +1,13 @@
+Key: Soundcloud ID finden
+Navigation:  Seitenelemente > Content Container > Soundcloud
+
+1) Den gewünschte Track auf soundcloud.com suchen und unter Explore auf den Share-Button klicken.
+ 
+2) Auf den Embed-Link klicken.
+ 
+3) Den Embed-Code aus dem blau gerahmten Feld kopieren.
+ 
+4) Den kopierten Code in einen Text-Editor einfügen und die ID isolieren. Die Soundcloud ID findet sich immer nach "...api.soundcloud.com/tracks/". Die ID besteht immer aus einer Zahlenfolge.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_soundcloud_id_finden.htm
+

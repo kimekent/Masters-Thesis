@@ -1,0 +1,19 @@
+Key: Testimonial erstellen
+Navigation:  Seitenelemente > Sidebar Container > Testimonial
+
+Dieser Webhelp-Artikel beschreibt, wie eine Testimonial erstellt werden kann. Testimonials sollten nur für Testimonials verwendet werden. Testimonials könne nur iender Sidebar eingefügt werden.
+
+1) Im Template Bereich Sidebar auf den Button + Add to here klicken.
+ 
+Hinweis: Unter dem Kapitel "Template auf einer Seite platzieren" wird erklärt, wie die Einfüge-Buttons eingeblendet werden können.
+ 
+Hinweis: Testimonial's können nur in der Sidebar platziert werden.
+ 
+2) Im neuen Fenster das Rendering Testimonial auswählen.
+ 
+3) Entweder wird über Create New Content ein neues Testimonial erstellt, oder über Select Existing Content ein bestehendes ausgewählt.
+ 
+4) Ein leeres Testimonial ohne Inhalt wurde auf der Seite platziert.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_testimonial_erstellen.htm
+

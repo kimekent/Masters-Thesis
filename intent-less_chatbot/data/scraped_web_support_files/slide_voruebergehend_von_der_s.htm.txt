@@ -1,0 +1,21 @@
+Key: Slide vorübergehend vom Moodboard entfernen
+content2>moodboard
+Advanced Users - via Backend
+1) Page Options Fenster öffnen (Ribbon > Campus > Page Options)
+2) Unter der Rubrik Moodboard Slides zuweisen, entfernen oder in der Reihenfolge ändern.
+ 
+ 
+1) Im Ribbon-Menü auf Campus > Page Options klicken. Im Data Bereich unter Moodboard können die Slides organisiert werden.
+ 
+oIm rechten Bereich "Selected" den Slide auswählen und durch den Pfeil-Button vom Moodboard entfernen.
+ 
+
+ 
+Hinweis: Der Slide wird nicht gelöscht, sondern verbleibt im Datenstruktur erhalten
+ 
+
+ 
+2) Anschliessend im Page-Editor auf Speichern klicken.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_slide_voruebergehend_von_der_s.htm
+

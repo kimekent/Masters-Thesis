@@ -1,0 +1,23 @@
+Key: URL (Web-Adresse)
+Navigation:  Standards
+
+In diesem Webhelp-Artikel ist beschriebenwas bei der Erstellung einer URL zu beachten ist.
+
+Selbsterklärende URLs (oder Web-Adressen):
+•Kryptische URL: http://de.wikipedia.org/w/index.php?title=Clean_URL oder http://de.wikipedia.org/w/index.php?id=123.
+Solche URLs lassen keinen Schluss auf den Inhalt zu. User wissen nicht, was sie nach dem Klick erwartet und können sich die Adressen schlecht merken. Die Auffindbarkeit in Google leidet darunter.
+ 
+•Selbsterklärende URL: http://de.wikipedia.org/wiki/Clean_URL.
+Selbsterklärende URLs sprechen für sich selbst: Es ist klar, worum es an dieser Adresse gehen wird. Die Auffindbarkeit in Google wird erleichtert.
+ 
+Beim Erstellen einer neuen Seite deshalb immer überprüfen, ob eine URL verständlich und kurz genug ist. Die automatisch generierten URL's wenn nötig umbenennen.
+
+Verständliche und kurze URLs:
+Automatische URL: http://hslu.ch/de-ch/fussball/neue-seite-die-noch-nicht-so-genau-weiss-was-sie-einmal-sein-wird
+Sitecore generiert URLs basierend auf dem Seitentitel (Displaynamen). Nicht jeder Titel eignet sich aber als URL. Das Beispiel oben ist zu lang und sagt wenig aus.
+ 
+Bearbeitete URL: http://hslu.ch/de-ch/fussball/wm-brasilien/
+Die bearbeitete URL zeigt kurz und klar, worum es auf der Seite gehen wird.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_sprechende_url.htm
+

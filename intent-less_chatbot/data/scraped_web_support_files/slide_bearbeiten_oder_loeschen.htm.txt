@@ -1,0 +1,27 @@
+Key: Slide Inhalt bearbeiten
+content2>moodboard
+Advanced Users - via Backend
+1) Backend Fenster öffnen (Ribbon > Campus > Backend)
+2) Data Ordner der entsprechenden Seite öffnen.
+3) Den Ordner Moodboard öffnen und das entsprechende Slide anklicken.
+4) Im Content-Bereich die Daten eingeben oder editieren.
+ 
+ 
+1) Um ein Slide zu editieren, auf das Slide-Bild klicken und anschliessend auf den Edit-Button klicken.
+ 
+Hinweis: Der Slide-Titel und der Slide Text kann im Page-Editor direkt bearbeitet werden. Dafür in das entsprechende Textfeld klicken und den Text editieren. Anschliessend auf Speichern klicken.
+ 
+
+ 
+ 
+3) Im Data Fenster können alle Felder wie Titel, Text, Bild, Bid Mobile und der Bildlink "Zielseite" editiert werden:
+ 
+
+ 
+ 
+4) Auf OK und anschliessend auf Speichern klicken. Die Änderungen werden sichtbar.
+ 
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_slide_bearbeiten_oder_loeschen.htm
+

@@ -1,0 +1,17 @@
+Key: Seite verschieben
+Navigation:  Seitentypen > Standardseite
+
+In dieser Anleitung wird beschrieben, wie eine Seite verschoben werden kann. Ausserdem wird darauf hingewiesen, dass vor dem verschieben in manchen Fällen ein Redirect eingerichtet werden muss
+
+1) Auf die zu verschiebende Seite navigieren und Im Ribbon-Menü den Befehl "Home > Move Page" aufrufen.
+ 
+2) Im Dialog Zielseite anwählen und mit "Move" bestätigen.
+ 
+Hinweis: Im Backend können Seiten auch per Drag & Drop sehr genau und einfach verschoben werden.
+ 
+Achtung: Beim Verschieben einer Seite wird automatisch die Seiten-URL (inkl. aller Unterseiten!) geändert. Ohne Umleitung gelangen Webbesucher via Suchmaschinen wie Google oder auch über andere Werbemassnahmen auf Fehlerseiten («404: Seite nicht gefunden»), was verhindert werden sollte. Zudem werden die neuen bzw. geänderten URLs von Google wieder neu indexiert, was je nach Level unterschiedlich lange dauern kann.
+ 
+Daher kann via Redirect (= Umleitung, im Voraus über den Web-Support beantragen) sichergestellt werden, dass die Webbesucher auf die richtige Seite umgeleitet werden und zudem auch das Google-Ranking der alten Seite auf die neue übertragen werden kann.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_seite_verschieben.htm
+

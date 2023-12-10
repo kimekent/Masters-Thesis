@@ -1,0 +1,14 @@
+Key: Template B einfügen
+Navigation:  Seitenelemente > Template Container > Template auf einer Seite platzieren > Template B 
+
+In diesem Webhelp-Artikel ist allgemein beschrieben, wie ein Template B au einer Übersichtsseite eingefügt werden kann.
+
+Template B einfügen und mögliche Element platzieren:
+1) Auf den Button + Add to here klicken und das Template B auswählen und mit Select bestätigen.
+  
+2) In den karierten Bereich vom Template B - Content klicken und wieder auf den + Add to here Button klicken.
+
+3) Die mögliche Inhalte vom Template B werden angezeigt und können verwendet werden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_template_b_einfuegen.htm
+

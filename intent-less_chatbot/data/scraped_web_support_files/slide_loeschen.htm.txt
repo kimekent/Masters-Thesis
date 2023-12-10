@@ -1,0 +1,33 @@
+Key: Slide löschen
+content2>moodboard
+Advanced Users - via Backend
+1) Backend Fenster öffnen (Ribbon > Campus > Backend)
+2) Data Ordner und dann den Moodboard Ordner öffnen.
+3) Auf dem entsprechenden Slide das Kontextmenü öffnen: Delete wählen.
+4) Neues Hinweisfenster lesen und wenn sicher, OK klicken.
+5) Wenn das Slide einer Seite zugewiesen war, erscheint das Fenster Breaking Links: Entsprechende Wahl (Normalfall: Remove Links) treffen und Continue anklicken.
+> Der Slide und die Verknüpfung auf die Seite wird gelöscht.
+ 
+ 
+1) Um den Slide zu entfernen, auf das Slide-Bild klicken und anschliessend auf den Lösch-Button klicken.
+ 
+
+ 
+ 
+2) Im Hinweisfenster wird nochmals gefragt, ob der Slide wirklich von der Seite gelöscht werden soll.
+ 
+
+ 
+ 
+3) Beim nächsten Hinweisfenster stehen drei Optionen zur Verfügung. Die erste Option Remove Links wählen und auf Continue klicken. Der Slide und die Verknüpfung auf der Seite wird gelöscht.
+ 
+Achtung: Der Slide wird komplett gelöscht und kann danach der Seite nicht mehr zugewiesen werden!
+ 
+
+ 
+ 
+ 
+ 
+
+Link: https://applsupport.hslu.ch/webhelp/hm_slide_loeschen.htm
+

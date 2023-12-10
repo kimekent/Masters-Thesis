@@ -1,0 +1,18 @@
+Key: Sitemap erstellen
+Navigation:  Seitenelemente > Content Container > Sitemap >
+
+In dieser Anleitung wird beschrieben wie eine Seitmap ausgehend von einer ausgewählten Seite auf einer Seite eingefügt werden kann.
+
+BEARBEITUNG DURCH ADMINISTRATOR
+1) Auf den Einfüge-Button + Add to here klicken.
+ 
+Hinweis: Unter dem Kapitel "Template auf einer Seite platzieren" wird erklärt, wie die Einfüge-Buttons eingeblendet werden können.
+ 
+2) Im neuen Fenster die Sitemap auswählen und auf Select klicken.
+ 
+3) Im neuen Fenster die Startseite definieren. Im Drop-Down-Menü die Startseite auswählen und auf OK klicken. Ausgehend von dieser wird die Sitemap erstellt.
+ 
+4) Die Sitemap wird auf der Seite platziert.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_sitemap.htm
+

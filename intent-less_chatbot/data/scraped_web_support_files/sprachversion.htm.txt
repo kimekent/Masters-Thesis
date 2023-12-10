@@ -1,0 +1,32 @@
+Key: Sprach-Version
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Versions
+
+In diesem Webhelp Artikel ist beschrieben, wie eien Englische Seite angelegt werden kann und wieso eine Seite scheinbar plötzlich eine englische Version beseitzten kann. Ausserdem sind ein paar Tipps aufgelistet, wie mit Sprachversion gearbeitet werden sollte.
+
+HINWEIS: Zu beachten sind auch die Sprachhinweise DE / EN (https://applsupport.hslu.ch/webhelp/hm_sprachhinweise_de___en.htm).
+
+Der Versions-Tab des Ribbon-Menüs bietet folgende Möglichkeiten:
+ 
+•Anlegen einer neuen Sprachversion via Language-Button. Anschliessend die Seite (ctrl+s) speichern.
+•Wechsel zwischen zwei bereits angelegten Sprachversionen.
+•Anlegen einer neuen Seitenversion
+•Löschen einer Seitenversion
+ 
+ACHTUNG: Immer darauf achten, dass die Sprache auf German eingestellt ist, wenn eine neue Seite erstellt wird. Wird die Sprache in "English" ausgewählt, erstellt Sitecore direkt die englische Sprachversion. Diese wird jedoch nur gespeichert, wenn eine Änderung in der Seite stattgefunden hat.
+
+Neue Sprachversionen einer Seite immer im Experience-Editor zu erstellen. So werden die eingefügten Elemente der deutschen Version auch in die englische Version übernommen und können anschliessend übersetzt werden.
+Wird aber eine neue Sprachversion im Content-Editor erstellt, werden keine Elemente von der deutschen Version in der englischen Versionsseite erstellt!
+
+Sitecore ist nach dem shared-Prinzip eingestellt. Wurde z.B. auf der englischen Seiten-Version ein Element (Item) nicht übersetzt, wird dieses Element auf der englischen Seite als deutsche Version angezeigt. Auch inhaltliche Änderungen beim deutschen Item werden dynamisch auf der englischen Seite dargestellt. Wir sprechen hier von einem Fallback. Dieser Fallback-Mechanismus existiert nur auf den englischen Seiten.
+ 
+Hinweis: Zwischendurch erhalten wir von euch die Mitteilung, dass Sitecore einfach eine englische Seitenversion erstellt haben soll. Ist man im Experience Editor im englischen Sprachkontext unterwegs, kann dies fast unbemerkt passieren.
+Dies kann auch geschehen, wenn jemand im Backend im englischen Sprachkontext (Versionen > English) unterwegs ist! Wird in diesem Fall irgend eine Seite angeklickt und anschliessend in den Experience Editor gewechselt (Veröffentlichen > Experience Editor), wird provisorisch eine englische Sprachversion der Seite erstellt. Achtet bitte auf den Magenta Sprachhinweis.
+Danach genügt ein einfaches Editieren der Seite (zum Beispiel den Titel anpassen) und nach dem Speichern besitzt die Seite definitiv eine englische Sprachversion.
+Also achtet bitte  darauf, unter welchem Sprachkontext ihr arbeitet! Wir empfehlen, nach dem Editieren einer englischen Seite die Sprache sofort wieder auf Deutsch umzustellen.
+
+Hinweis: Sind von einer Seite zwei Sprachversionen vorhanden, muss die URL in beiden Sprachen angepasst werden!
+
+Achtung: Sind Seitenversionen vorhanden, wird das Layout der Items von der aktuellsten deutschen Version auf die aktuellste englische Version kopiert. Der Kopiervorgang erfolgt jeweils beim speichern der aktuellen deutschen Version.Teaser 1, nur in deutscher Version vorhanden > "Fallback" funktioniert:
+
+Link: https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm
+

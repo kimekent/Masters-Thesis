@@ -1,0 +1,9 @@
+Key: Standard der Side Navigation
+Navigation:  Seitenelemente > Sidebar Container > Side-Navigation (Navigation)
+
+Standardmässig werden die jeweiligen Seitentitel für die Linktexte in der Side-Navigation verwendet. In diesem Webhelp-Artikel und den weiteren darunterliegenden ist beschrieben, wie ein die Titel in der NAvigation manuell angepasst werden können: https://applsupport.hslu.ch/webhelp/hm_navigations_options-ribbon.htm
+ 
+Hinweis: Der Linktext der Hauptseite wird auch auf allen Unterseiten verwendet.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_standard_der_side_navigation.htm
+

@@ -1,0 +1,16 @@
+Key: Template auf einer Seite platzieren
+Navigation:  Seitenelemente > Template Container
+
+In diser Anleitung wird beschrieben, wie ein Template auf einer Übersichtsseite eingefügt werden kann.
+ 
+Hinweis: Es stehen verschiedene Template Container zur Verfügung. Jeder Template-Container bietet seine entsprechende Inhalte (Renderings) an und beeinflusst auch deren Aussehen.
+ 
+1) Im Ribbon Menü unter Home auf das Puzzle-Icon (Component) klicken.
+ 
+2) Auf der Seite werden alle möglichen Einfügepunkte angezeigt, bei welchen ein neues Template hinzugefügt werden kann. Auf den Button + Add to here klicken.
+
+3) Das entsprechende Template oder Inhalt auswählen und auf Select klicken, damit dieses auf der Seite platziert wird.
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_template_content_erstellen_2.htm
+

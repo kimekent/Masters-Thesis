@@ -1,0 +1,12 @@
+Key: Insert Media Item
+tools>rich_text_editor
+1) Durch klicken auf das Icon Insert Sitecore Media wird das Insert Media Item-Fenster geöffnet.
+ 
+
+ 
+2) Hier kann in der Media Library im entsprechenden Ordner ein Bild oder ein PDF gewählt und mit Insert hinzugefügt werden.
+ 
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_rich_text_editor_-_linkfenster.htm
+
