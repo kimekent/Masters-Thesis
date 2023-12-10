@@ -1,0 +1,29 @@
+Key: WeVe-Link (Evento Anlass Anmeldungen)
+Navigation:  Seitentypen > Weiterbildung
+
+Diese Anleitung beschreibt, wie Evento-Anlässein Sitecore eingefügt werden können und beschreiebn, wie durch das einfügen eines Evento Anlasses mit WeVe-Link, die Infobox automatisch ausgefüllt wird.
+
+Hinweis: Die Linkliste mit E-Mail und Telefon (Call-to-Action Teaser) muss auf der Seite manuell eingefügt werden, will man die WeVe-Link Funktionalität nützen.
+ 
+Die folgenden Weiterbildungen erlauben das automatische generieren eines WeVe-Link's im Item Linkliste mit E-Mail und Telefon (Call-to-Action Teaser). Dazu muss in der Fact's Liste im Feld Evento Anlass ID eine gültige Anlass Nummer eingetragen werden.
+
+Achtung: Die Linkliste mit E-Mail und Telefon (Call-to-Action Teaser) muss auf der Seite manuell eingefügt werden, will man die WeVe-Link Funktionalität nützen.
+
+1. Evento Anlass ID in der Factsliste Weiterbildung eintragen:
+1.Auf der Weiterbildungsseite die Facts Liste bearbeiten.
+
+2.Ganz am Ende kann die Evento Anlass ID eingetragen werden. Danach auf OK klicken und die Seite speichern.
+
+2. Das Item "Linkliste mit E-Mail und Telefon (Call-to-Action Teaser) auf der Seite platzieren: 
+1.Beim Container Sidebar das Item Linkliste mit E-Mail und Telefon hinzufügen.
+ 
+2.Wurde eine gültige Evento Anlass ID eingegeben wird der WeVe-Link mit einer Status Meldung automatisch in der Linkliste mti E-Mail und Telefon angezeigt. Umgangssprachlich wird dieses Elment auch Infobox genannt. Die Informationen erscheinen dort nur automatisch wenn in der Filterliste eine gültige Evento-ID hinterlegt wurde und der Event in Evento richtig gepflegt wurde. 
+ 
+Folgende Status können angezeigt werden:
+•Anmeldung nicht möglich
+•Anmelden
+ 
+3.Wird der Status Anmelden angezeigt, wird man durch klicken auf den WeVe-Link zur Anmeldeseite des Anlasses weitergeleitet.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_weve-link.htm
+

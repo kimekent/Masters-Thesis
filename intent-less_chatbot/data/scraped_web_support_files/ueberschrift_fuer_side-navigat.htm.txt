@@ -1,0 +1,20 @@
+Key: Überschrift für Side-Navigation
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Campus > Navigations Options
+
+Jedes Side-Navigations-Element kann optional mit einer Überschrift ergänzt werden. Die Redaktion bestimmt diese Überschrift im Feld "Überschrift für Side-Navigation".
+ 
+Füllt die Redaktion das Feld nicht aus, setzt das System an dieser Stelle den Seitentiel ein (also den Inhalt des Feldes Titel).
+
+Vorgehen:
+1) Im Ribbon-Menü > Campus die Navigations Options öffnen.
+ 
+2) Im zweiten Feld des neuen Fensters einen benutzerdefinierter Namen, z.B. "Überschrift für Side-Navigation" eingeben und mit OK bestätigen.
+ 
+3) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon neu laden. Danach werden die Änderungen auf der Seite dargestellt.
+ 
+Hinweis: Die Überschrift für Side-Navigation muss nur einmal auf der Hauptseite definiert werden. Sie erscheint dann automatisch auf allen folgenden Unterseiten.
+
+Um auch den Titel einer Seite bei Flyouts, Mobilen Navigation oder dem Breadcrumb anzupassen kann diese Anleitung konsultiert werden: https://applsupport.hslu.ch/webhelp/index.html?hm_linktext_fuer_flyout_mobile_navigation_und_breadcrumb.htm
+
+Link: https://applsupport.hslu.ch/webhelp/hm_ueberschrift_fuer_side-navigat.htm
+

@@ -1,0 +1,49 @@
+Key: Weiterbildung Einfügepunkte
+Navigation:  Seitentypen > Weiterbildung
+
+In diesem Websupport-Artikel ist beschrieben, wo Weiterbildungsseiten eingefügt werden können. DIes ist nämlich nicht auf allen Seiten möglich.
+Achtung: Seiten nie kopieren oder duplizieren.
+ 
+Achtung: Die speziellen Weiterbildungsseiten-Items wie z.B. die Weiterbildungs-Factliste nicht löschen, da diese Elemente nicht einfach wieder integriert werden können!
+ 
+Hier sind pro Departement die Seiten aufgelistet bei denen Weiterbildungsseiten eingefügt werden können:
+ 
+Technik & Architektur (T&A):        
+hslu.ch/de-ch/technikarchitektur/weiterbildung/bau/
+hslu.ch/de-ch/technikarchitektur/weiterbildung/technik/
+hslu.ch/de-ch/technikarchitektur/weiterbildung/fachkurse/
+ 
+Wirtschaft (W):        
+hslu.ch/de-ch/wirtschaft/weiterbildung/mas/
+hslu.ch/de-ch/wirtschaft/weiterbildung/das/
+hslu.ch/de-ch/wirtschaft/weiterbildung/cas/
+hslu.ch/de-ch/wirtschaft/weiterbildung/weiterbildungskurse/
+hslu.ch/de-ch/wirtschaft/weiterbildung/seminare/
+ 
+Informatik (I):
+hslu.ch/de-ch/informatik/weiterbildung/information-security-and-privacy/
+hslu.ch/de-ch/informatik/weiterbildung/data-intelligence-and-big-data/
+hslu.ch/de-ch/informatik/weiterbildung/digital-value-creation/
+hslu.ch/de-ch/informatik/weiterbildung/networking-and-innovative-technologies/
+ 
+Soziale Arbeit (SA):
+hslu.ch/de-ch/soziale-arbeit/weiterbildung/studienprogramm/mas/
+hslu.ch/de-ch/soziale-arbeit/weiterbildung/studienprogramm/das/
+hslu.ch/de-ch/soziale-arbeit/weiterbildung/studienprogramm/cas/
+hslu.ch/de-ch/soziale-arbeit/weiterbildung/studienprogramm/fachkurse/
+hslu.ch/de-ch/soziale-arbeit/weiterbildung/studienprogramm/fachseminare/
+ 
+Design & Kunst (D&K):
+hslu.ch/de-ch/design-kunst/weiterbildung/mas/
+hslu.ch/de-ch/design-kunst/weiterbildung/cas/
+hslu.ch/de-ch/design-kunst/weiterbildung/abendkurse/
+ 
+Musik (M):
+hslu.ch/de-ch/musik/weiterbildung/cas-angebote/
+hslu.ch/de-ch/musik/weiterbildung/das-angebote/
+hslu.ch/de-ch/musik/weiterbildung/weiterbildungskurse/
+ 
+Hinweis: Weiterbildungen können nur eingefügt werden, wenn sich die Redaktorin auf einer Weiterbildungsseite befindet. Eine Weiterbildungsseite ist im Content Editor am gelben Page-Icon erkennbar, oder im Experience Editor steht Insert Weiterbildung
+
+Link: https://applsupport.hslu.ch/webhelp/hm_weiterbildung_einfuegen.htm
+

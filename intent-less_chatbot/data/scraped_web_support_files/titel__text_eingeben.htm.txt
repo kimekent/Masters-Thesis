@@ -1,0 +1,13 @@
+Key: Infobox Titel, Text, Link, Farbe definieren
+Navigation:  Seitenelemente > Info Box
+
+In diesem Webhelp-Artikel ist beschrieben, wie eine Infobox editiert werden kann. Voraussetzung ist, dass die Infobox schon erstellt wurde und der Seite hinzugefügt wurde. Wie das geht ist hier beschrieben: https://applsupport.hslu.ch/webhelp/index.html?hm_infoboxtitle.htm Infoboxen nie Löschen sondern über Page Options der Seite hinzufügen und entfernen.
+
+1) Der Titel und der Text der Infobox kann direkt im Page Editor editiert werden. Mit einem Klick auf den Button , dann weiter ...
+
+2) ... mit einem Klick auf Bearbeiten , kann nebst dem Titel und dem Text, auch noch ein Link oder die Farbe der Infobox definiert werden.
+
+4) Die Seite mit Ctrl+S oder mit Klick auf das Icon speichern. Danach wird die neue leere Infobox auf der Seite dargestellt.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm
+

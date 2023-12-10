@@ -1,0 +1,18 @@
+Key: Quote (Zitat) einfügen
+Navigation:  Seitenelemente > Content Container > Quote (Zitat)
+
+Das Blockquote ist ein Text-Format in dem längere Zitate vom Haupttext klar abgegrenzt dargestellt werden können. Das Element muss neben dem eigentlichen Zitat auch immer die Quelle angeben (Funktion, Vorname und Name).
+
+Vorgehen:
+1) Im Content-Container auf Add to here klicken.
+
+2) Das Item Quote auswählen und mit Select bestätigen.
+ 
+3) Neues Element erstellen über Create New Content, das Element betiteln und mit OK bestätigen.
+ 
+4) Text nach Wunsch ins leere Feld vom Quote Item einfügen.
+ 
+5) Das Endergebnis könnte am Schluss z.B. so aussehen:
+
+Link: https://applsupport.hslu.ch/webhelp/hm_zitate_quotes.htm
+

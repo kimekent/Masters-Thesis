@@ -1,0 +1,14 @@
+Key: Titel 2
+Navigation:  Seitenelemente > PageIntro
+ 
+Der Titel 2 auf einer Site erregt Aufmerksamkeit. Er tut dies durch
+ 
+•eine These
+•eine Aussage
+•eine Frage
+•...
+ 
+Der Titel 2 endet ohne Punkt ("."). Fragen und Ausrufen enden mit Frage- und Ausrufzeichen. Titel 2 unterliegen keinen Längenvorgaben.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_titel_2.htm
+

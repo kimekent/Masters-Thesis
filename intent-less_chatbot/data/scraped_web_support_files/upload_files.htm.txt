@@ -1,0 +1,72 @@
+Key: Upload Files via Media Library
+
+Diese Anleitung beschreibt, wie Datein in die Media Library geladen werden können. Zudem werden die Beschriftungsfelder beschrieben und aufgezeigt wie die Darstellungspriorisierung bei den Dateien aussieht. Wichtig ist hier auch der Abschnitt zu Zweisprahige Medien da er verrät wie man eine englische Version einer Datei hochladen kann und dadurch die Meldung "Only in German" verhindern kann.
+
+Pfad im Page-Editor: Ribbon-Menü > Campus > Media Library
+ 
+•Bilder: Medien-Bibliothek/Campus/Common/Images
+•PDFs und Dateien: Medien-Bibliothek/Campus/Common/Files
+ 
+Achtung: Der Upload in die Media Library ist auf 20 MB beschränkt. Für grössere Files muss eine Big File Site erstellt werden.
+ 
+Folgende Formate können hoch geladen werden:
+•Bilder: .jpg .gif .png . svg
+•Dokumente: .dmg .doc .docx .pdf .ppt .pptx .rar .txt .xls .xlsx .xltm .xltx .zip .ics
+ 
+Achtung: Formular-PDF's welche mit "Adobe LiveCycle Designer" erstellt wurden, können nicht in die Media Library hoch geladen werden, da diese PDF's in diversen Browsern Probleme verursachen. Um festzustellen, in welchem Programm ein PDF erstellt wurde, kann dieses im Acrobat geöffnet werden. Unter Datei > Eigenschaften wird der Name der Erstellungs-Software angezeigt. Diese problematischen PDF müssen z.B. mit Adobe InDesign neu erstellt werden.
+ 
+Hinweis: Normaler weise werden einzelne Bilder über den Button upload Files hochgeladen. Mittels Upload files (advanced) können aber auch mehrere Bilder oder Dokumente gleichzeitig hochgeladen werden.
+Dies funktioniert jedoch nur, wenn das Google-Chrome-Flash-Plugin für die HSLU-Seite zugelassen ist. Bei HSLU-Windowsgeräte ist dies automatisch vorkonfiguriert. Bei privaten oder Apple Computer muss dieser Eintrag manuell erfasst werden.
+ 
+Ist das Flash-Plug-in für die HSLU Seite nicht zugelassen, funktioniert der Multi-Upload nicht. Es erscheint ein Fenster Namens "Patch-Upload".
+ 
+ 
+Chrome-Einstellung prüfen oder setzen:
+ 
+1.Folgender Link in die Adresszeile des Google Chrome Browsers eingeben: chrome://settings/content/flash
+ 
+2.Wenn unter der Rubrik Zulassen der Eintrag [*.]hslu.ch fehlt, kann dieser über den Knopf Hinzufügen nachträglich eintragen werden
+ 
+3.Den Webbrowser Google Chrome neu starten.
+ 
+Upload via Button "Upload files":
+1.Im Ribbon-Menü Campus > Media Library wählen.
+ 
+2.In der Media Library im Item Tree der entsprechenden Ordner für deinen Speicherort auswählen. Wenn kein Ordner ausgewählt wird, erscheint eine Fehlermeldung, die das Speichern der Datei oder des Bildes verhindert.
+ 
+Hinweis: Für eine neue Galerie einen neuen Ordner erstellen:
+Rechtsklick auf einen bestehenden Ordner, dann Insert > Media Folder klicken und den Ordner benennen.
+ 
+3.Im Reiter Folder auf das Upload-Files-Icon klicken.
+ 
+4.Gewünschte Dateien im Explorer-Fenster auswählen, z.B. Bilder und auf Öffnen klicken. Die Bilder werden hoch geladen.
+ 
+Hinweis: Mit gedrückter Ctrl-Taste können mehrere Files ausgewählt werden.
+ 
+5.Die Files wurden in den ausgewählten Ordner (hier der Ordner ta) hoch geladen. Im rechten Bereich Media werden die Bildinhalte mit einem Warnhinweis dargestellt. Dies, weil bei den Bilder noch die Alt-Texte fehlen und ausgefüllt werden müssen.
+ 
+6.Links im Item Tree auf das jeweilige Bild klicken und anschliessend im Content Bereich auf der rechten Seite den Alt-Text eingeben. Dieser Text sollte das Bild beschreiben. Die Eingaben speichern.
+ 
+Hinweis Titel-Feld (siehe folgendes Beispiel): Wird ein Bild oder ein PDF z.B. in einer Link und Download Liste verwendet, sollte auch noch der Titel eingetragen werden. Bei einem PDF kann zudem auch noch eine Beschreibung eingegeben werden.
+Vorteil: Der Titel wird als Linktext verwendet. Titel und Beschreibung sind zweisprachige Felder.
+Die Link description (beim setzen von einem Link) ist hingegen nur einsprachig und sollte in diesem Fall nicht verwendet werden.
+ 
+Priorisierung der Datenfelder und deren Anzeige-Reihenfolge: 
+1.Link Description: Wird eine Link-Description beim Link selber hinterlegt (sollte möglichst vermieden werden), wird immer diese Eingabe angezeigt (gewinnt immer).
+2.Titel: Ist keine Link-Description vorhanden (Normalfall), dafür wurde aber ein PDF-Titel eingegeben, wird dieser angezeigt.
+3.Dateiname / Display Name: Wurde keine Link-Description und kein Titel erfasst, wird der Dateiname / Display Name angezeigt.
+ 
+ 
+PDF-Beschreibung:
+Hinweis: Die Beschreibung zum PDF wird im Web nicht mehr angezeigt. Früher wurde diese Information bei der Suchresultaten der Globalen Suche mit angezeigt. Daher haben diese beiden Felder keine Relevanz mehr.
+
+Zweisprachige Medien: 
+Auch Bilder und PDFs sind zweisprachig. Folgende drei Fälle kommen vor:
+1.Normalerweise wird die deutschsprachige Version zuerst angelegt. Standardmässig verwendet das System die deutschsprachige Datei auch in der englischen Version der Seite. Dies kann oft auch der Grund für die Meldung "Only in German" sein. Um diese Meldung zu entfernen muss deshalb eine englische Version des Dokuments angelegt werden.
+ 
+2.Soll aber in English ein anderes Bild oder ein anderes PDF angezeigt werden, kann dies durch die Wahl der englischen Version in der Media Library und einem Klick auf den "Attach"-Link gelöst werden. In diesem Fall werden zwei Dateien ins System hochgeladen.
+ 
+3.Wird zuerst eine englische Version der Datei angelegt erscheint diese nicht in Deutsch. Sie muss manuell angelegt werden. Dazu ist die deutsche Sprachversion in der Media Library zu wählen und mit einem Klick auf "Attach" das Bild noch einmal hochzuladen.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_upload_files.htm
+

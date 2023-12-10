@@ -1,0 +1,71 @@
+Key: Veranstaltung erfassen
+Navigation:  Seitentypen > Veranstaltung (Agenda-Eintrag)
+
+In dieser Webhelp-Anleitung wird beschrieben, wie ein Agneda-Eintrag, Veranstaltung erfasst werden kann und wo diese Seiten eingefügt werden können. 
+
+Siehe auch: Single Agenda Teaser (https://applsupport.hslu.ch/webhelp/hm_event_teaser_einfuegen.htm), Multi Agenda Teaser (https://applsupport.hslu.ch/webhelp/hm_multi_event_teaser_einfueg2.htm), Event Filter List (https://applsupport.hslu.ch/webhelp/hm_event_filter_list.htm)
+ 
+Hinweis: Nach dem Erstellen einer Veranstaltung wird der Index neu erstellt. Dies kann bis zu 15 Minuten dauern (Wird Zukünftig vermutlich auf 1/2 Tag eingestellt). Erst danach ist die neue Veranstaltung in den Filterlisten oder Teaser auffindbar.
+ 
+1) Im Experience Editor zur Haupt-Agenda-Seite des entsprechenden Departements navigieren, nur hier können Agenda Einträge erfasst werden:
+ 
+Technik und Architektur:
+hslu.ch/de-ch/technikarchitektur/campus/veranstaltungen/
+Wirtschaft:
+hslu.ch/de-ch/wirtschaft/agenda/veranstaltungen/
+Informatik: 
+hslu.ch/de-ch/informatik/agenda/veranstaltungen/
+Soziale Arbeit: 
+hslu.ch/de-ch/soziale-arbeit/agenda/veranstaltungen/
+Design & Kunst:                        
+hslu.ch/de-ch/design-kunst/agenda/veranstaltungen/
+Musik:                                
+hslu.ch/de-ch/musik/agenda/veranstaltungen/
+ 
+Hinweis: Events können nur eingefügt werden, wenn sich die Redaktorin auf einer Agendaseite befindet. Eine Agenda-Seite ist im Content Editor am -Icon erkennbar.
+ 
+2) Im Ribbon-Menü den Befehl Home > Insert Event auswählen.
+ 
+3) Im Dialog den gewünschten Event-Typ auswählen und dem Event-Item einen Namen geben und auf Insert klicken.
+ 
+Achtung: Nur über eine Informations Event Site kann der Event  auch noch über ein Aus- / Weiterbildungsangebot informieren. Diese Funktionalität steht bei der "normalen" Event Site nicht zur Verfügung.
+ 
+Man wird automatisch auf die neu erstellte Event-Seite geleitet.
+ 
+Hinweis: Standardmässig werden neue Veranstaltungsseiten mit dem aktuellen Datum erstellt. Deshalb: Als erstes immer das Datum berichtigen.
+ 
+4) Das Kalender-Icon wählen.
+ 
+5) Im neuen Fenster gewünschtes Anfangs- und Enddatum sowie die Uhrzeit definieren, mit OK bestätigen und die Seite anschliessend sichern.
+ 
+Hinweis: Soll ein Event verschoben werden, reicht es einfach das Datum anzupassen.
+ 
+Achtung: Bei Events kann nun bei den Feldern Start und Ende zusätzliche die Uhrzeit angegeben werden. Diese Uhrzeit wird für die korrekte Sortierung und die Dauer der Sichtbarkeit der Infoveranstaltungen benutzt.
+Im Freitext-Feld kann die Zeit des Anlasses eingetragen, welche der Nutzer zu sehen bekommt. Falls ein Event nicht mehr in einem Call-to-Action Teaser (CTA) oder Eventfilterliste dargestellt wird, liegt es wohl daran, dass der Event nur bis zur angegebenen Endzeit dargestellt wird. Wird kein Enddatum angegeben wird die Startzeit genommen und der Event nur bis zur Startzeit dargestellt.
+ 
+Hinweis: Der Event wird bis und mit dem eingestellten Datum auf dem Web dargestellt. Danach sind abgelaufene Events nur noch im Page-Editor, mit dem entsprechenden Hinweis sichtbar. So können abgelaufene Events gelöscht oder angepasst werden.
+ 
+6) Im EventIntro auch auf den Edit-Knopf klicken
+ 
+7) Im nächsten Fenster die Details wie Veranstaltungsart, Organisator usw. erfassen
+ 
+Hinweis: Je nach Event-Typ stehen andere Felder zur Verfügung
+ 
+•Details zu Event Site
+•Details zu Informations Event Site
+•Details zu Concert Event Site
+ 
+ 
+8) Im Item "Formatierter Text mit Bild" das entsprechende Bild (Breite 234px) und Text erfassen.
+ 
+Hinweis: Dieser Text und das Bild werden auch in der Filterliste angezeigt.
+Achtung: Daher darf dieses Item nicht von der Seite gelöscht werden, da sonst die Verknüpfung fehlt und die Filterliste das Bild nicht mehr anzeigen kann. In solch einem Fall der Event löschen und neu erstellen.
+
+Kontrolle:
+Klickt man im Breadcrumb auf die Agenda-Seite, ist der neue Event in der Agenda-Seite aufgeführt.
+Wird auf den Event geklickt, klappt sich dieser auf und zeigt mehr Informationen.
+ 
+Mit einem Doppelklick auf Mehr Informationen gelangt man auf die Event Detailseite.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_veranstaltung_erfassen.htm
+

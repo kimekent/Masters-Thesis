@@ -1,0 +1,18 @@
+Key: Vertiefte Navigations Options
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Campus > Backend (Content Editor)
+
+Wie eine Seite in den verschiedenen Navigationen angezeigt werden soll, kann auch im Content Editor definiert werden. Im Vergleich zu den Page Options bieten die vertieften Navigations Options zusätzlich das Feld Linktext.
+ 
+Advanced Users - Backend
+1) Backend Fenster öffnen (Ribbon > Campus > Backend)
+2) Unter Inhalt > Campus > Hochschule-Luzern die entsprechende Seite wählen.
+3) Im Content-Bereich unter Navigation sind alle Linktext-Felder und Checkboxen zu finden.
+ 
+Hier im Content-Bereich ist auch das spezielle Feld Linktext zu finden:
+ 
+•Das Feld Linktext für Flyout, Navigation und Breadcrub (Manuell) steuert alle Linktexte der im Feldnamen aufgezählten Elemente.
+ 
+•Das Feld Linktext (Manuell) steuert die restlichen Linktexte der oben nicht aufgezählten Elemente wie z.B. Links in Download Listen, QuickLinks.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_vertiefte_navigations_options.htm
+

@@ -1,0 +1,29 @@
+Key: Toggle Text erstellen
+Navigation:  Seitenelemente > Content Container > Toggle-Text
+
+In diesem Artikel wird beschrieben, wie der Toggle Text eingefügt werden kann. 
+
+Voraussetzung: Aktuell funktioniert der Toggle Text nur im Template Content.
+ 
+1) Im Template Bereich auf den Button + Add to here klicken.
+ 
+Hinweis: Unter dem Kapitel "Template auf einer Seite platzieren" wird erklärt, wie die Einfüge-Buttons eingeblendet werden können.
+ 
+2) Das Toggle Text Rendering auswählen.
+ 
+3) Entweder wird über Create New Content ein neuer Toggle-Text erstellt oder über Select Existing Content ein bestehender Toggle-Text ausgewählt.
+ 
+Hinweis: Das Item kann Lokal oder Shared gespeichert (Create) oder ausgewählt (Select) werden.
+ 
+Ein leeres Toggle Text Element wurde auf der Seite platziert.
+ 
+Wichtig: Auf Speichern klicken, damit dieses Element auch gesichert wird!
+ 
+4) Nun kann der Toggle-Text bearbeitet werden. Im ersten Feld kann der Titel definiert werden, im zweiten Feld die Headline und im dritten Feld der Text (ausklappbar).
+ 
+Hinweis: In der Headline und im Text können auch Links und Bilder platziert werden.
+ 
+5) Um die Headline und den Text zu bearbeiten, bitte jeweils den grossen Editor verwenden. Dieser kann durch Klicken ins Feld und einem Klick auf das Icon Edit the text aufgerufen werden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_toggle_text_erstellen.htm
+

@@ -1,0 +1,37 @@
+Key: Weiterbildung WBK Site erstellen
+seitentypen>template_weiterbildung
+Achtung: Seiten nie kopieren oder duplizieren.
+ 
+1) Im Ribbon-Menü den Befehl Home > Insert Weiterbildung wählen.
+ 
+
+ 
+ 
+2) Weiterbildung WBK Site wählen, der Seite einen Namen geben (Item Name) und Insert klicken.
+ 
+
+ 
+ 
+3) Die Seite mit den folgenden Elemente wird automatisch erstellt. Anschliessend können die einzelnen Elemente bearbeitet werden.
+ 
+Hinweis: Die Weiterbildungs-Elemente können auch im Backend, über das Ribbon Menü > Campus > Backend bearbeitet werden.
+ 
+Content Container:
+1.Page Intro (Titel, Titel 2, Intro Text) >> Bearbeiten (Wichtig für die Google Suche)
+2.Social Buttons (können nicht editiert werden)
+3.ABToggleText >> Bearbeiten (Titel, Headline, Text)
+4.Factsliste Weiterbildung >> Bearbeiten (Programmart, Dauer Zahl, Dauer Einheit, ICS-Datei, Leitung, Durchführungsort, Unterrichtssprache, Anbieter, Semester, Evento Anlass ID)
+5.WBK Themen Zuordnung
+ 
+Sidebar:
+6.Kontaktperson (Manuell) >> Bearbeiten.
+7.Info Veranstaltungen Aus- /Weiterbildungen: Bei Informations Event Seiten können Aus- und Weiterbildungsseiten verknüpft werden.
+ 
+Hinweis: Wenn nötig, können auch noch weitere Elemente hinzugefügt werden.
+ 
+
+ 
+ 
+
+Link: https://applsupport.hslu.ch/webhelp/hm_weiterbildung_wbk_site_erstell.htm
+
