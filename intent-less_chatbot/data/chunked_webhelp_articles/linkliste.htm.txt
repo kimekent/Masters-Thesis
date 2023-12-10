@@ -1,0 +1,10 @@
+Key: Link- und Downloadliste (ALT)
+Navigation:  Seitenelemente > Content Container
+ 
+Hinweis: Bitte verwenden Sie die neue Link List (NEU).
+Diese Link- und Downloadliste ist veraltet und kann zukünftig nicht mehr auf einer Seite eingefügt werden. 
+ 
+Linklisten stellen einen oder mehrere Verlinkungen übersichtlich dar. Links verweisen auf interne ebenso wie auf externe Quellen. Das Element kann ausserdem Download-Links enthalten. Folgender Screenshot demonstriert alle diese Möglichkeiten.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_linkliste.htm
+

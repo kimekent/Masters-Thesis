@@ -1,0 +1,22 @@
+Key: Links zuweisen
+Navigation:  Seitenelemente > Sidebar Container > Call-to-Action-Teaser
+
+In dieser Anleitung wird auch erklärt unter welchen Bedingungen automatisch Infoenvent, WeVe und ONLA Anmeldungslinks im Call-to-Action-Teaser generiert werden und wie auch in der mobilen Version ein Call-to-Action Teaser eingefügt werden kann.
+
+Achtung: Damit die Anmeldung über ONLA / WeVe funktioniert, muss diese Checkbox aktiviert sein (Standard)! Bei einer deaktivierten Checkbox, wird entsprechend kein Link bzw. Status Meldung angezeigt.
+
+Diese Checkbox hat nur bei einer Aus-, Weiterbildungs- oder Eventsseite einen Einfluss, sofern auf der entsprechenden Spezialseite (Factsliste Ausbildung / Factsliste Weiterbildung / Event-Intro) ein Evento Anlass bzw. eine Evento ID hinterlegt wurde. Zudem muss der Call-to-Action-Teaser bei diesen Spezialseiten manuell auf der Seite platziert werden.
+Wurde ein Anlass / Evento-ID hinterlegt, wird automatisch im Call-To-Action-Teaser der WeVe-Link (Event) bzw. ONLA-Link (Aus-, Weiterbildung) mit einer grünen Status Meldung angezeigt.
+
+Aufmerksamkeitsstärkeren Call-to-Action auf mobilen Geräten anzeigen lassen:
+Wie das aussieht und funktioniert, seht ihr im Video hier: https://inside.hslu.ch/fs/it/gap/sitecoreschulungen/Seiten/Startseite.aspx#Action
+ 
+•Checkbox: Kontextabhängige Information aus Evento auch beim zusätzlichen mobilen Call-to-Action anzeigen (wenn Evento-ID hinterlegt wurde
+ 
+•Link: Wenn letztere Checkbox nicht angekreuzt: Manueller Link für den zusätzlichen mobilen Call-to-Action (bitte auch Linkbeschreibung ausfüllen):
+ 
+•Drop-Down: Hintergrundfarbe für den zusätzlichen mobilen Call-to-Action: Magenta, Darkblue
+
+Hinweis: E-Mail einfügen funktioniert für den mobilen Call-to-Action nicht. Will man einen E-Mail-Link erstellen, muss dies mit einem "Hack" auch unter "Externen Link einfügen" und mailto:emailadresse gemacht werden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_links_der_linkliste_zuweisen.htm

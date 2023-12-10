@@ -1,0 +1,34 @@
+Key: Häufige Fehler
+
+Dieser Websupport Artikel enthält ein paar häufige Fehler die im CMS gmacht werden. 
+ 
+Wording:
+Kombo-Kopplung: Wortkombinationen, die Fremdwörter oder Kurzformen enthalten sind zu koppeln.
+Beispiel Kurzform: "Info-Veranstaltung"
+Beispiel Fremdwort: "Bachelor-Arbeit" oder "Inhouse-Schulung"
+
+Beträge in Schweizer Franken: Beträge in Schweizer Franken sind als 'CHF 500.-' und 'CHF 1'000.-' zu schreiben. Wendungen wie '500 Franken' entsprechen nicht dem Wording.
+ 
+Offizielle Schulbezeichnungen: Wenn die Organisationseinheiten, Departemente und die Dachorganisation der Hochschule Luzern sind nach aussen jeweils mit den offiziellen Bezeichnungen zu beschreiben. Also beispielsweise "Hochschule Luzern – Kunst" statt "Kunsti".
+
+Bilder:
+Heller Hintergrund: Bilder mit hellen Hintergründen funktionieren eher schlecht, weil dadurch das Layout verschwimmt.
+ 
+Überladene Bilder: Bilder mit vielen Details funktionieren eher schlecht, weil diese in kleinen Formaten nicht mehr ausgemacht werden können. Ausserdem machen detailreiche Bilder die Seite unruhig.
+ 
+Zu grosse Bilder: Bilder müssen korrekt zugeschnitten und web-optimiert abgespeichert werden (https://applsupport.hslu.ch/webhelp/hm_photoshop.htm).
+
+Text:
+Die Hochschule Luzern beschreibt sich und zugehörige OEs in der dritten Person Singular. Die erste Person Plural soll nicht, die direkte Anrede des Publikums nur vereinzelt eingesetzt werden. Beispiele:
+ 
+Richtig: "Das Institut für Tourismuswirtschaft ITW veröffentlicht eine neue Studie."
+Falsch: "Wir veröffentlichen eine neue Studie."
+Spärlich einsetzen: "Lesen Sie die neue Studie des ITW!"
+
+Prozess: 
+Bild-Lieferung: Bilder nicht in Word-Dokumenten liefern. Immer als möglichst grosse Bild-Dateien an M&K schicken.
+ 
+Hierarchie: Aus den Dokumenten, welche Inhaltsverantwortliche der Web-Redaktion zusenden, muss klar werden, in welcher Reihenfolge Elemente anzuordnen sind. Nehmen Inhaltsgebende keine Hierarchisierung vor, macht M&K einen Vorschlag.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_haeufige_fehler.htm
+

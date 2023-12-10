@@ -1,0 +1,13 @@
+Key: Infobox wählen / wechseln
+Navigation:  Seitenelemente > Info Box
+
+In dieser Anleitung wird erklärt, wie die Infobox ausgetauscht oder neu hinzugefügt werden kann. Voraussertzung hier ist, dass die Infobox schon erstellt wurde (https://applsupport.hslu.ch/webhelp/index.html?hm_infoboxtitle.htm).
+
+1) Im Ribbon-Menü unter Campus > Page Options kann eine andere Infobox der Seite zugewiesen werden. Eine Infobox auswählen und mit OK der Seite zuweisen.
+ 
+Hinweis: Es können pro Seite mehrere Infoboxen erstellt werden, aber nur eine kann auf der Seite dargestellt werden.
+ 
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_infoboxtext.htm
+

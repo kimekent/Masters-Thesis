@@ -1,0 +1,9 @@
+Key: Intro Text (Lead)
+Navigation:  Seitenelemente > PageIntro >
+
+Der Intro-Text fasst den Inhalt einer Seite kurz und treffend zusammen. Er ist idealerweise ca. 120 Zeichen lang. Der Intro-Text ist als eigenständiger Textbaustein verständlich und erklärt den Leser*innen kurz und knapp, worum es auf der Seite geht.
+ 
+Das System verwendet den "Intro-Text" standardmässig als Meta-Description. Die Meta-Description erscheint in den Google-Suchresultaten. Sie kann in den Page Options manuell übersteuert werden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_intro_text.htm
+

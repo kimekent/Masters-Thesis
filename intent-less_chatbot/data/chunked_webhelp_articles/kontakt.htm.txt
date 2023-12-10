@@ -1,0 +1,14 @@
+Key: Kontaktadresse zuweisen
+Navigation:  Seitenelemente > Footer > Kontaktadressen >
+ 
+Diese Anleitung erklärt, wie eine Kontaktadresse im Footer einer Seite neu hinzugefügt werden kann. Voraussetzung ist, dass die Adresse schon vorhanden ist (https://applsupport.hslu.ch/webhelp/index.html?hm_footer_adress_neu_erstellen.htm)
+
+1) Im Content Tree die zu bearbeitende Seite auswählen.
+ 
+2) Beim Inhalt im Bereich Footer > Kontaktadresse in das leere Feld klicken und im Drop-Down Menü eine Adresse auswählen.
+ 
+3) Im Ribbon-Menü auf Save (Tastenkombination Ctrl + S) klicken.
+ 
+
+Link: https://applsupport.hslu.ch/webhelp/hm_kontakt.htm
+

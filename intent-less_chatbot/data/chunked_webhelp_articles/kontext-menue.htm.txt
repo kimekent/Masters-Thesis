@@ -1,0 +1,13 @@
+Key: Kontext-Menü
+tools>sitecore-experience-management>grundlagen>kontext-menue2>der_campus_bereich>backend
+Durch Klicken der Sekundär-Maustaste (Bei Rechtshändern die rechte Maustaste) auf ein Zielobjekt (hier ein Ordner), öffnet sich das Kontext Menü. Es werden nur die Funktionen angezeigt, welche auf das Objekt angewendet werden können.
+ 
+
+ 
+ 
+Die Menüpunkte mit einem schwarzen Pfeil lassen sich weiter öffnen. Mit der primären Maustaste auf den Kontext-Menüpunkt (z.B Insert) klicken. Dadurch öffnet sich das Sub-Menü und es können weitere Befehle, wie hier Quick Links ausgewählt werden.
+ 
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_kontext-menue.htm
+

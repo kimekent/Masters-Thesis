@@ -1,0 +1,41 @@
+Key: Links zuweisen
+Navigation:  Seitenelemente > Sidebar Container > Call-to-Action-Teaser
+
+In dieser Anleitung wird erklärt, wie einem Call-to-Action Teaser Links zugewiesen werden können. Wie automatische Anmeldelinks für Evento-Anlässe (WeVe) und ONLA generiert werden können wird in einer seperaten Anleitung beschrieben. Nicht hier.
+
+1) Im Kontext-Menü auf den Editier-Button klicken.
+ 
+2) Im neuen Fenster können die folgenden Felder editiert werden:
+ 
+•Titel
+•Linkliste - Durch Klicken auf Insert Link / Insert Media Link oder Insert External Link können Links der Linkliste hinzugefügt werden (siehe Punkt 3)
+Link Position ändern: In der Linkliste einen Link auswählen und durch das Klicken auf den Pfeil nach oben oder nach unten verschieben.
+Link löschen: In der Linkliste einen Link auswählen und durch Klicken auf das Lösch-Icon den Link entfernen.
+Link editieren: In der Linkliste einen Link auswählen und durch Klicken auf das Editier-Icon den Link anpassen.
+•Text
+•Telefonnummer
+•E-Mail
+•Checkbox: Kontextabhängige Informationen aus Evento anzeigen (mehr Infos Dazu in seperater Anleitung)
+
+3) Durch Klicken eines Insert ... Buttons öffnet sich ein neues Fenster. Je nach Linktyp sehen die Fenster unterschiedlich aus. Die entsprechenden Felder ausfüllen und den Link durch OK der Linkliste hinzufügen:
+ 
+Wichtig: Auf Speichern klicken, damit dieses Element auch gesichert und die Änderungen sichtbar werden!
+ 
+Hinweis: Die Namen der Seiten-Items können auch in englischer Sprache erscheinen. Für die Verlinkung spielt dies jedoch keine Rolle, da der Link auf das Seiten-Item zeigt und nicht auf eine Sprachversion.
+ 
+Insert Internal Link:
+Mit Insert Link können interne Sitecore-Seiten verlinkt werden.
+
+Insert Media Library Link:
+Mit insert Medialink können PDF's und Bilder aus der Media Library verlinkt werden.
+
+Insert External Link:
+Mit insert external Link können externe Seiten verlinkt werden.
+
+E-Mail Link
+Ein E-Mail Link muss als ein externer Link erfasst werden.
+ 
+Hinweis: E-Mail einfügen funktioniert für den mobilen Call-to-Action nicht. Will man einen E-Mail-Link erstellen, muss dies mit einem "Hack" auch unter "Externen Link einfügen" und mailto:emailadresse gemacht werden. 
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_links_der_linkliste_zuweisen.htm
+
