@@ -1,0 +1,11 @@
+Key: Desktop
+Navigation:  Tools > Sitecore Experience Management
+
+Der Sitecore-Desktop funktioniert wie ein Windows-Desktop:
+ 
+Der Sitecore-Knopf funktioniert wie der Start-Button bei Microsoft. Er bietet per Menü Zugriff auf die verfügbaren Programme. Das Startmenü zeigt ausserdem den Benutzernamen an und beinhaltet den "Logout"-Button.
+ 
+Die wichtigsten Anwendungen im Start-Menü sind der Content Editor (https://applsupport.hslu.ch/webhelp/hm_backend.htm), der Experience Editor (https://applsupport.hslu.ch/webhelp/hm_grundlagen.htm), die Media Library ( https://applsupport.hslu.ch/webhelp/index.html?hm_media_library.htm) und der Recycle Bin (Papierkorb) (https://applsupport.hslu.ch/webhelp/hm_papierkorb.htm).
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_der_desktop.htm
+

@@ -1,0 +1,11 @@
+Key: Experience Editor
+Navigation:  Tools > Sitecore Experience Management
+
+Das CMS-Tool hat zwei Hauptbereiche. Den Content Editor (Backend) und den Experience Editor (Page Editor).
+
+Mit dem Experience Editor bearbeitet die Redaktion der Hochschule Luzern die Inhalte für hslu.ch. Der Experience Editor ist eine Internetseite, in die hineingeschrieben werden kann. Um Texte zu verändern, einfach klicken und editieren.
+ 
+Darüber hinaus bietet der Experience Editor über das Ribbon Menü (oben) (https://applsupport.hslu.ch/webhelp/hm_kontext-menue2.htm)  und die Floating Toolbar (beim Seitentitel) (https://applsupport.hslu.ch/webhelp/hm_symbole_.htm) weitere Bearbeitungs-Optionen.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_grundlagen.htm
+

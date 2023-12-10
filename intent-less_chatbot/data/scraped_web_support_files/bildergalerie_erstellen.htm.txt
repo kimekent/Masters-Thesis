@@ -1,0 +1,19 @@
+Key: Bildergalerie platzieren
+Navigation:  Seitenelemente > Content Container > Bildergalerie
+
+Diese Anleitung beschriebt wie eine Bildergallerie auf einer Seite eingefügt werden kann.
+
+1) Auf den Einfüge-Button + Add to here klicken.
+ 
+Hinweis: Unter dem Kapitel "Template auf einer Seite platzieren" wird erklärt, wie die Einfüge-Buttons eingeblendet werden können.
+ 
+2) Im neuen Fenster das Element Bildergalerie auswählen und auf Select klicken.
+
+Hinweis: Bildergalerien können nur im Shared Bereich gespeichert werden.
+
+3) Entweder wird über Create New Content eine neue Bildergalerie erstellt oder über Select Existing Content eine bestehende Galerie ausgewählt.
+ 
+3) Optional kann der Galerietitel geändert und ein Galerietext geschrieben werden.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_bildergalerie_erstellen.htm
+

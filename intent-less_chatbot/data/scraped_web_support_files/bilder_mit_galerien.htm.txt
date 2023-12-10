@@ -1,0 +1,10 @@
+Key: Bildergalerie
+Navigation:  Seitenelemente > Content Container
+
+Bildergalerien stellen Sammlungen von drei oder mehr Bildern sehr kompakt dar. Folgendes ist zu beachten:
+ 
+1.Speichern Sie auf zweisprachigen Seiten jedes Bild in zwei Sprachen ab.
+2.Beachten Sie die gängigen Regeln zur Bildbearbeitung.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_bilder_mit_galerien.htm
+

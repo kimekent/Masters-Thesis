@@ -1,0 +1,10 @@
+Key: Event Filter List
+Navigation:  Seitenelemente > Template Container > Such- und Filterlisten > Filter-Typen
+
+Siehe auch: Veranstaltung erfassen (https://applsupport.hslu.ch/webhelp/hm_veranstaltung_erfassen.htm), Single Agenda Teaser (https://applsupport.hslu.ch/webhelp/hm_event_teaser_einfuegen.htm), Multi Agenda Teaser (https://applsupport.hslu.ch/webhelp/hm_multi_event_teaser_einfueg2.htm), Event Filter List konfigurieren (https://applsupport.hslu.ch/webhelp/hm_event_filter_list.htm)
+
+Die Event Filter List hat folgende Filter die gesetzt werden können:
+Mit Datum, Departement und Veranstaltungstyp.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_event_filter_list2.htm
+

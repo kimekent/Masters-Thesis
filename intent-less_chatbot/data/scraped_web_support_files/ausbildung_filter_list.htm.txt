@@ -1,0 +1,46 @@
+Key: Ausbildung Filter List konfigurieren
+Navigation:  Seitenelemente > Template Container > Such- und Filterlisten > Filter Konfigurationen
+
+Siehe auch: Ausbildung einfügen
+Diese Anleitung beschreibt die Konfigurationen des Ausbildungsfilters.
+
+Optionen zugreifen
+Die Filterliste auswählen und auf der folgenden drei Buttons klicken:
+ 
+• Filterliste bearbeiten
+• vorselektierte Filter bearbeiten
+• fixe Filter bearbeiten
+ 
+Filterliste bearbeiten (was die verschiedenen Einstellungen bedeuten):
+•Filter ausblenden: Wird dies aktiviert, verschwinden für die User die Filtermöglichkeiten.
+•Kein Resultat Text: Der Text, welcher in diesem Feld eingetragen ist, wird angezeigt, wenn keine Resultate gefunden wurden.
+•Filter standartmässig ausgeklappt: Seit November 2015 werden die Filter standartmässig zugeklappt dargestellt. Dies spart Platz in der Browser-Ansicht. Wird diese Check-Box hingegen aktiviert, werden die Filter wieder aufgeklappt dargestellt.
+ 
+Vorselektierte Filter bearbeiten 
+Filter vorselektiert: Die hier ausgewählten Filter sind Voreinstellungen. Die User können diese Voreinstellungen über steuern.
+ 
+•Studienart vorselektiert: Studienart vorselektieren. User kann Studienart wechseln.
+•Themen vorselektiert: Thema vorselektieren. User kann Thema wechseln.
+•OE vorselektiert: OE vorselektieren. User kann Studienort wechseln.
+ 
+1.Das gewünschte Element in der linken Spalte All doppelklicken oder mittels der Links- und Rechts-Pfeile auswählen (heisst in die Selected-Spalte verschieben).
+2.OK klicken.
+ 
+Wichtig: Speichern (ctrl + s), denn die Änderungen werden erst nach dem Speichern sichtbar!
+ 
+fixe Filter bearbeiten:
+Filter fix: Die hier ausgewählten Filter sind fix. Die User können diese nicht beeinflussen.
+ 
+•Studienart fix: Studienart fix bestimmen. User kann Studienart nicht wechseln.
+•Themen fix: Thema fix bestimmen. User kann Thema nicht wechseln.
+•OE fix: OE fix bestimmen. User kann OE nicht wechseln.
+ 
+1.Das gewünschte Element in der linken Spalte All doppelklicken oder mittels der Links- und Rechts-Pfeile auswählen (heisst in die Selected-Spalte verschieben).
+2.OK klicken.
+ 
+Wichtig: Speichern (ctrl + s), denn die Änderungen werden erst nach dem Speichern sichtbar!
+ 
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_ausbildung_filter_list.htm
+

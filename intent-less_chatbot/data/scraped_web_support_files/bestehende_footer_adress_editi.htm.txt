@@ -1,0 +1,23 @@
+Key: Bestehende Kontaktadresse editieren
+Navigation:  Seitenelemente > Footer > Kontaktadressen
+
+Änderungen Kontaktadresse: Änderungen an einer bestehenden Adresse können via eMail über web-support@hslu.ch beantragt werden.
+ 
+Wie kommt man zum richtigen Ordner
+1) Configuration Fenster öffnen (Ribbon > Campus > Configuration)
+2) Im Zielordner Campus > Footer Adresses eine zu bearbeitende Adresse auswähen.
+3) Im Content-Bereich können die Daten bearbeitet werden.
+ 
+1) Im Ordner Footer Addresses eine zu bearbeitende Adresse auswählen.
+ 
+2) Im Content-Bereich können die einzelnen Felder bearbeitet werden.
+ 
+3) Wird ein Pflichtfeld nicht ausgefüllt, und die Adresse gesichert, erscheint eine Warnung:
+ 
+4) Wird dann auf OK geklickt, wird der Inhalt gesichert und das Pflichtfeld wird rot markiert. In diesem Fall das Feld korrekt ausfüllen und nochmals sichern.
+Wir Abbrechen wird das Warnfenster geschlossen, und die fehlenden Daten können weiter erfasst werden.
+ 
+5) Beim Pflichtfeld Telefon erscheint eine anderer Warnhinweis mit der gewünschten Formatierung.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_bestehende_footer_adress_editi.htm
+

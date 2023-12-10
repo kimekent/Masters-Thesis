@@ -1,0 +1,9 @@
+Key: Facts-Liste
+Navigation:  Seitenelemente > Content Container
+
+Diese Anleitung erklärt kurz was für ein Seitenelement die Fact list ist, die auf Standardseiten eingefügt werden kann. Diese Factlist unterscheidet wich von Fact Lists auf Aus- und Weiterbildungs-Seiten.
+
+Die Facts-Liste stellt eine grosse Menge stichwortartiger Information übersichtlich dar. Einträge können frei hinzugefügt oder gelöscht werden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_facts_list.htm
+

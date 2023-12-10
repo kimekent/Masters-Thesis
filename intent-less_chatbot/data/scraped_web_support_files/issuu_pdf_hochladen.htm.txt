@@ -1,0 +1,15 @@
+Key: Issuu PDF hochladen
+Navigation:  Seitenelemente > Content Container > Issuu (PDF-Reader)
+
+In dieser Anleitung wird beschrieben, wie ein PDF für ein Issuu Element hochgeladen werden kann. Hier wird dann beschrieben, wie das PDF dem Issuu-Element eingefügt werden kann: https://applsupport.hslu.ch/webhelp/index.html?hm_issuu_erstellen.htm
+
+Hinweis: Die Hochschule verfügt über ein Konto bei issuu.com. Bitte melden Sie sich bei den Departements-Teams von Marketing & Kommunikation, sollten Sie ein PDF auf Issuu hochladen wollen.
+ 
+1) Für das Hochladen eines PDFs in die Sitecore Media Library unter Campus auf Media Library klicken.
+ 
+2) Im neuen Fenster in der Ordnerstruktur der Speicherort unter Issuu PDF auswählen. Die weitere Vorgehen für das Upload finden Sie unter Media Library > Upload Files via Item ...
+
+3) Sollte der Name des PDFs nicht zur Anzeige im Internet geeignet sein, kann er über den Button "Display Name" angepasst werden.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_issuu_pdf_hochladen.htm
+

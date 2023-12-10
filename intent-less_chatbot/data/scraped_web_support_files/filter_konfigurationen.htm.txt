@@ -1,0 +1,13 @@
+Key: Filter Konfigurationen
+Navigation:  Seitenelemente > Template Container > Such- und Filterlisten
+
+In diesem Webhelp-Artikel werden die verschiedenen Filterlist Typen aufgelistet, sowie der jeweilitge Link zur Anleitung wie jede dieser Typen konfiguriert werden kann.
+
+Konfiguration Person Filter List ( https://applsupport.hslu.ch/webhelp/hm_filter_konfigurieren.htm)
+Konfiguration Ausbildung Filter List ( https://applsupport.hslu.ch/webhelp/hm_ausbildung_filter_list.htm)
+Konfiguration Weiterbildung Filter List ( https://applsupport.hslu.ch/webhelp/hm_weiterbildung_filter_list.htm)
+Konfiguration Event Filter List (https://applsupport.hslu.ch/webhelp/hm_event_filter_list.htm)
+Konfiguration News Filter List (https://applsupport.hslu.ch/webhelp/hm_news_filter_list.htm)
+
+Link: https://applsupport.hslu.ch/webhelp/hm_filter_konfigurationen.htm
+

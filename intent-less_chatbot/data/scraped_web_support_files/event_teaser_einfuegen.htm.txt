@@ -1,0 +1,18 @@
+Key: Single Event Teaser einfügen
+Navigation:  Seitenelemente > Template Container > Templates A, B, C, Content > Event Teaser
+
+In dieser Anleitung wird erklärt, wie ein Event Teaser eingefügt werden kann.
+
+Siehe auch: Veranstaltung erfassen ( https://applsupport.hslu.ch/webhelp/hm_veranstaltung_erfassen.htm), Multi Event Teaser ( https://applsupport.hslu.ch/webhelp/hm_multi_event_teaser_einfueg2.htm), Event Filter List konfigurieren ( https://applsupport.hslu.ch/webhelp/hm_event_filter_list.htm)
+ 
+Hinweis: Sofern nicht bereits vorhanden, ein Template (A, B, C) einfügen.
+Dieses Element kann wie ein normalen Teaser eingefügt werden.
+ 
+1) Nach dem Platzieren des Event Teaser muss dieser noch konfiguriert werden. Dazu den Editier-Button anklicken.
+ 
+Im Feld Event Seite die gewünschte Veranstaltung suchen. Auswählen mit den blauen Pfeilen.
+ 
+Wie in anderen Teasern kann im Dialog auch das Teaser-Bild, die Teaser-Breite, je nach Template die Teaser-Ausrichtung und die Publish-Optionen bestimmt werden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_event_teaser_einfuegen.htm
+

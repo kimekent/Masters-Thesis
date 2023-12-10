@@ -1,0 +1,9 @@
+Key: Anker
+Navigation: navigation
+
+Als Anker werden Sprungmarken in einer Seite bezeichnet. Wird einem Text (meistens zu Beginn der Seite) der entsprechende Link hinterlegt, springt der Browser nach anklicken dieses Textbereichs direkt zum definierten Anker.
+ 
+Einige Elemente enthalten automatisch einen Anker, erkennbar am grünen Ankernamen.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_anker.htm
+

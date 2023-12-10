@@ -1,0 +1,31 @@
+Key: Shared Slide erstellen
+Navigation:  Seitenelemente > Moodboard
+
+Diese Anleitung erklärt, wie ein Moodboard erstellt werden kann, das für mehrere Seiten verwendet werden kann (ein Shared Moodboard).
+
+BEARBEITUNG DURCH ADMINISTRATOR
+
+Wie kommt man zum richtigen Order / Slide erstellen:
+1) Shared Data Fenster öffnen (Ribbon > Campus > Shared Data)
+2) Den Moodboard Ordner anklicken.
+3) Auf dem Ordner Moodboard das Kontextmenü öffnen: Insert > Slide wählen.
+4) Dem Slide einen Namen vergeben > Neues Slide wird im Ordner Moodboard angelegt.
+ 
+Slide bearbeiten
+1) Im Content Editorim Ribbon-Menü auf Campus > Shared Data klicken.
+ 
+Achtung: Die entsprechende Sprachversion für das Slide wählen.
+ 
+2) Im neuen Bearbeitungsfenster auf dem Ordner Moodboard Ordner das Kontext-Menü öffnen und auf Insert > Slide klicken.
+ 
+ 
+3) Dem Slide einen Namen vergeben und OK klicken.
+ 
+ 
+3) Das neue Shared Slide wurde erstellt und die Daten können entsprechend im Content-Bereich eingegeben werden.
+ 
+Achtung: Die Felder Bild und Zielseite sind sprachunabhängig. Dies bedeutet, dass nur ein Bild und ein Link für beide Sprachen gemeinsam verwendet werden! Nur die Felder Titel und Text können pro Sprache unterschiedliche Inhalte enthalten.
+ 
+
+Link: https://applsupport.hslu.ch/webhelp/hm_admin_-_shared_slide_erstellen.htm
+

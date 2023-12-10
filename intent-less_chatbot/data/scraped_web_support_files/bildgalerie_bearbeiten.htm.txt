@@ -1,0 +1,13 @@
+Key: Bilder der Galerie zuweisen
+Navigation:  Seitenelemente > Content Container > Bildergalerie
+
+Diese Anleitung beschreibt, wie einer Bildergallerie Bilder eingefügt werden können. 
+
+1.Im Page Editor in die Galerie klicken und im Menü Bildergalerie auf den Editieren-Button klicken.
+ 
+2.Im neuen Fenster den Ordner mit den gewünschten Galerie-Bildern auswählen.
+ 
+Hinweis: Es können ganze Ordner oder einzelne Bilder für eine Galerie ausgewählt werden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_bildgalerie_bearbeiten.htm
+

@@ -1,0 +1,16 @@
+Key: Bereich
+seitentypen>template_ausbildung>studiengang-struktur
+ 
+Diese Anleitung beschreibt das Studiengangs struktiurelement "Bereich" welcher man auf einer Ausbilgunsseite einfügen kann.
+
+1) Ein neuer Bereich lässt sich über das Kontext-Menü und den Befehl Insert > Bereich erstellen.
+
+Im "Bereich" können vier Felder konfiguriert werden:
+ 
+1.Name: Dies ist eine optionale Auswahl aus der Liste "Pflichtmodule", "Wahlpflichtmodule" und "Wahlmodule".
+2.Name (Benutzerdefiniert): Sollte keine der Optionen zutreffend sein, kann hier ein eigenes Label definiert werden.
+3.Einleitungstext: Dieser Text führt die im Bereich zusammengefassten Module ein. Er gibt zum Beispiel an, wieviele Module aus einer Liste Studierende mindestens absolvieren müssen.
+4.Module: Hier werden die zuvor erstellten Module der Studiengangsstruktur zugewiesen.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_bereich.htm
+

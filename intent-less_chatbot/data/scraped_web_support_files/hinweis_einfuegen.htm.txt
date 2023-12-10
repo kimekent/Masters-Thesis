@@ -1,0 +1,17 @@
+Key: Hinweis einfügen oder wieder ausblenden
+Navigation:  Seitentypen > Veranstaltung (Agenda-Eintrag)
+
+In dieser Anleitung wird erklärt, wie auf einen Veranstaltungsseite einen Warnhinweis eingefügt werden kann. Dieser kann z.B. verwendet werden, wenn eine Veranstaltung verschoben wird oder abgesagt wird.
+
+1) Um einen Warnhinweis anzubringen, den Hinweis auf der Event-Detailseite auswählen und auf den Editier-Button klicken.
+ 
+Hinweis anzeigen auswählen. Hinweisart auswählen (Abgesagt, Verschoben und Neu Angesetzt). Die beiden Felder Hinweis Titel und Hinweis Text ausfüllen und auf OK klicken.
+ 
+Danach die Änderungen sichern.
+ 
+Achtung: Soll ein Hinweis nicht mehr angezeigt werden, dann kann einfach die Checkbox "Hinweis anzeigen" deaktiviert werden. Aber auf keinen fall sollte das Item mit dem roten Kreuz gelöscht werden.
+ 
+Hinweis: Im Backend kann beim Hinweis noch das Drop-Down "Event Mode Type (SEO) eingestellt werden. Es steht die Auswahl "Offline" und "Online" zur Verfügung.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_hinweis_einfuegen.htm
+

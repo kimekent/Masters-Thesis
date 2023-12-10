@@ -1,0 +1,17 @@
+Key: Configuration
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Campus
+
+Der Button "Configuration" öffnet einen Zugang zu den Konfigurationsdateien von Sitecore. Dazu gehören:
+ 
+•Adress-Konfiguration
+•Formular-Konfiguration
+•OE-Konfiguration
+•Themen-Liste
+•Studiengangsstrukturen
+•Geschützte Navigation
+•...
+ 
+Pfad im Page-Editor: Ribbon-Menü > Campus > Configuration
+
+Link: https://applsupport.hslu.ch/webhelp/hm_configuration.htm
+

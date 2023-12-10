@@ -1,0 +1,11 @@
+Key: Infobox von der Seite entfernen
+Navigation:  Seitenelemente > Info Box
+
+In diesem Artikel wird erklärt, wie eien Infobox von eienr Seite entfernt werden kann. Die Infobox muss immer über Campus > Page Options entfernt werden und nicht auf der Seite gelöscht werden sonst kann auch in Zukunft keine Infobox mehr eingefügt werden. Wenn fälschlicherweise trotzdem die Infobox gelöscht wird, muss das Layout der Seite zurückgesetzt werden. Dadurch werden alle Elemente von der Seite entfernt.
+
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+ 
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_infobox_loeschen.htm
+

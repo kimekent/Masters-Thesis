@@ -1,0 +1,11 @@
+Key: Shared Data
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Campus
+
+Anleitung zwigt wo Shared Items angelegt werden können. 
+
+Der Button "Shared Data" erlaubt es bei entsprechender Berechtigung, neue Shared Items anzulegen. Shared Items sind vordefinierte Elemente, welche die gesamte Redaktion einsetzen aber nicht direkt verändern kann.
+ 
+Pfad im Page-Editor: Ribbon-Menü > Campus > Shared Data
+
+Link: https://applsupport.hslu.ch/webhelp/hm_daten.htm
+

@@ -1,0 +1,23 @@
+Key: Shared Slide editieren
+Navigation:  Seitenelemente > Moodboard >
+
+Hier wird erklärt, wie ein Moodboard, welches sich in einem Shared Ordner befindet, bearbeitet werden kann. Wenn sich ein Moodboard in einem Shared Ordner befindet, kann er auf mehreren Seiten eingefügt werden. Dabei ist zu beachten, dass Änderungen an einem Moodboard in einem Shared Ordner auf alle Seiten ausüben, welche dieses Moodboard verwenden. 
+
+BEARBEITUNG DURCH ADMINISTRATOR
+
+Wie kommt man zum richtigen Ordner:
+1) Shared Data Fenster öffnen (Ribbon > Campus > Shared Data)
+2) Den Ordner Moodboard öffnen und das entsprechende Slide anklicken.
+3) Im Content-Bereich die Daten eingeben oder editieren.
+ 
+ 
+1) Im Content Editor im Ribbon-Menü auf Campus > Shared Data klicken.
+ 
+Achtung: Die entsprechende Sprachversion für das Slide wählen.
+ 
+2) Im neuen Bearbeitungsfenster im Ordner Moodboard das zu bearbeitende Slide anklicken.
+
+3) Die Daten können im Content-Bereich editiert werden.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_admin_-_shared_slide_editieren.htm
+

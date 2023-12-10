@@ -1,0 +1,27 @@
+Key: Campus
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü
+
+Dieser Webhelpartikel zählt auf welche Funktionen unter dem Tab Campus im Experience Editor zu finden sind.
+
+Im Experience Editor unter dem Tab Campus stehen alle wichtigen Funktionen und Ordner (Bereiche) zur Verfügung:
+ 
+1.Change URL: URl der aktuellen Seite ändern.
+2.Navigations Options: Anzeige der Seite in der Navigation ändern.
+3.Page Options: Moodboard und Infobox zuweisen sowie Title und Description Tags verwalten.
+4.Publish Options: Seite veröffentlichen.
+5.Backend: Ins Bachend (Content Editor) wechseln.
+6.Configuration: Konfigurationsoptionen.
+7.Media Library: Medien hochladen und verwalten.
+8.Shared Data: Auf geteilte Items zugreifen.
+9.Extended Preview: Vorschau von verschiedenen mobilen Geräten
+10.Web Shortcut Liste: Das Web Shortcut Tool wird vor allem zum überprüfen vorhandener Shortcuts; auch als Redirects bekannt, verwendet.
+11.Webhilfe: Hilfeseiten zu Sitecore
+ 
+Hinweis: Sitecore 8.2 speichert Änderungen automatisch, welche in den Optionen der Campus-Buttons wie URL, Navigations Options, Page Options, getätigt wurden.
+ 
+Ein Beispiel wäre das Zuweisen einer Infobox einer Seite via Page Options. Zurück auf der Seite sind solche nicht sofort sichtbar. Der Speichern-Button lässt sich ebenfalls nicht anklicken, da die Anpassung im Hintergrund bereits gesichert wurde.
+ 
+> In diesem Fall muss die Seite neu geladen werden. Dies kann mittels der Funktionstaste F5 (Refresh) oder mit einem Klick auf das Browser-Button bewerkstelligt werden. Danach werden die aktuellen Inhalt der Seite dargestellt.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_der_campus_bereich.htm
+

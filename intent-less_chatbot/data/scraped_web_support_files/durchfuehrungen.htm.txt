@@ -1,0 +1,18 @@
+Key: Durchführungen
+Navigation:  Seitentypen > Ausbildung (Studium) > Studiengangsstruktur (Modul Generator)
+
+In dieser ANleitung geht es um das Studiengangsstruktur Element Durchführungen
+
+BEARBEITUNG DURCH ADMINISTRATOR
+Durchführungs-Ordner sind im Data-Ordner der Ausbildungsseite (z.B. Bachelor-of-Science-in-Business-Administation) > Data > im Ordner Durchführungen angelegt.
+
+Wichtig: Die Namen der Durchführungen sind die Kombinationen, welche sich aus Vertiefungen und den möglichen Zeitmodellen ergeben.
+ 
+1) Eine neue Durchführung lässt sich übers Kontext-Menü einfügen. Der Befehl Insert > Studium Durchführung erstellt ein neues Item.
+ 
+Im Content-Bereich muss als erstes das Zeitmodell und eine Vertiefungsrichtung gewählt werden. Der Speichervorgang benennt Durchführungen automatisch um.
+ 
+Hinweis: Die Durchführungs-Namen setzen sich immer aus der Vertiefungsrichtung und dem Zeitmodell zusammen.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_durchfuehrungen.htm
+

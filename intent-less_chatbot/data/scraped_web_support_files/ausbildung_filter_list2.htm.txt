@@ -1,0 +1,10 @@
+Key: Ausbildung Filter List
+Navigation:  Seitenelemente > Template Container > Such- und Filterlisten > Filter-Typen
+
+Siehe auch: Ausbildung einfügen, Ausbildung Filterlist konfigurieren
+
+Die Ausbildung Filter List:
+Beim Ausbildungsfilter kann auf Departement, Thema und Abschluss gefiltert werden
+
+Link: https://applsupport.hslu.ch/webhelp/hm_ausbildung_filter_list2.htm
+

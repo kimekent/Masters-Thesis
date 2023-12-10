@@ -1,0 +1,35 @@
+Key: Bestehende Slides dem Moodboard zuweisen
+Navigation:  Seitenelemente > Moodboard >
+
+In dieser Anleitung geht es dasrum wie man nachdem man ein Moodboard Slide erstellt hat, dieses einer Seiter einfügen kann, oft sagt man auch zuweisen kann. 
+
+
+1) Im Ribbon-Menü auf Campus > Page Options klicken. Im Data Bereich unter Moodboard können die Slides zugewiesen werden. In unserem Fall wird der lokale Slide "Mein Slide 1" der Seite zugewiesen:
+ 
+oIm linken Bereich "Moodboard Slides" das Slide in der Baumstruktur auswählen und durch den Pfeil-Button der Seite zuweisen und OK klicken. Alle der Seite zugewiesenen Slides werden im rechten Bereich "Selected" aufgelistet.
+ 
+oIm linken Bereich "Moodboard Slides (Mobile)" das Slide in der Baumstruktur auswählen und durch den Pfeil-Button der Seite zuweisen und OK klicken. Alle der Seite zugewiesenen Slides werden im rechten Bereich "Selected" aufgelistet.
+ 
+Hinweis: Wird die Checkbox Moodboard Slides zufällige Reihenfolge angewählt, werden die Selected Slides in zufälliger Reihenfolge angezeigt (Preview und Live).
+ 
+Achtung: Slides für das mobile Moodboard müssen der Seite explizit zugewiesen werden.
+ 
+Achtung: Slide-Ordner dürfen nicht ausgewählt werden. Die im Ordner enthaltenen Slides werden so nicht auf der Seite angezeigt. Jedes Slide muss der Seite einzeln zugewiesen werden.
+ 
+Bei der Desktop Version würden in diesem Beispiel zwei Slides zur Verfügung stehen, hingegen bei der Mobile-Version nur eines.
+ 
+Hinweis: Im linken Feldbereich werden alle Slides aufgelistet. Die lokalen Slides sind im Bereich Moodboard zu finden. Die Shared Slides sind im Bereich Moodboard - Global zu finden.
+ 
+2) Anschliessend im Page-Editor auf Speichern klicken.
+ 
+Hinweis: Der rote Hinweis Text ist nicht mehr sichtbar; der Slide wird daher auf der Website angezeigt.
+ 
+3) Wenn der Seite ein Shared Slide zugewiesen wurde, ist dies im Page-Editor am gelben Text im Mood-Board erkennbar.
+ 
+4) Via Extended Preview kann geprüft werden, ob das mobile Moodboard erscheint. Wenn dies nicht der Fall ist, wurde etwas falsch konfiguriert.
+ 
+Achtung: Dies ersetzt nicht das Prüfen des Erscheinungsbildes auf mobilen Geräten.
+ 
+Hinweis: Je nach Devicebreite (Phone, Tablet) wird das Bild in der Breite beschnitten, vor allem bei Hochformat-Devices wie einem Smartphone. Aus diesem Grund muss sich die zentrale Botschaft in der Bildmitte befinden. Zu beachten ist auch der Textbereich, welcher im oberen Bildbereich seinen Platz einnimmt.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_eigene_und___oder_shared_slide.htm

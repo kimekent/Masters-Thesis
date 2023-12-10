@@ -1,0 +1,38 @@
+Key: Content Container
+Navigation:  Seitenelemente
+
+Der Content Container enthält die Hauptinhalte einer Inhaltsseite. Daneben können Inhalte auch in der Sidebar untergebracht werden. Zusammen bilden Content Container und Sidebar eine Inhaltsseite.
+  
+In den Content Container können die folgenden Elemente eingefügt werden:
+ 
+1.Issuu (PDF-Reader) https://applsupport.hslu.ch/webhelp/hm_issuu.htm
+2.Sitemap https://applsupport.hslu.ch/webhelp/hm_sitemap.htm
+3.Facts-Liste https://applsupport.hslu.ch/webhelp/hm_facts_list.htm
+4.Sozial Media - Empfehlen-Buttons https://applsupport.hslu.ch/webhelp/hm_empfehlen_buttons_einfuegen.htm
+5.Toggle-Text https://applsupport.hslu.ch/webhelp/hm_toggle_text.htm
+6.Link- und Download-Liste https://applsupport.hslu.ch/webhelp/hm_linkliste.htm
+7.Teaser (Manueller Teaser, Rich Text Teaser, Image Teaser, geschützter Umbruch, ...) https://applsupport.hslu.ch/webhelp/hm_teaser.htm
+8.Bildgalerie https://applsupport.hslu.ch/webhelp/hm_bildergalerie_erstellen.htm
+9.Bildergeschichte https://applsupport.hslu.ch/webhelp/hm_bildergeschichte.htm
+10.Zwischentitel https://applsupport.hslu.ch/webhelp/hm_zwischentitel_einfuegen.htm
+11.Personen-Karussell https://applsupport.hslu.ch/webhelp/hm_personen-karussell.htm
+12.Formatierter Text mit Bild https://applsupport.hslu.ch/webhelp/hm_formatierter_text_mit_bild2.htm
+13.Text in Box https://applsupport.hslu.ch/webhelp/hm_text-in-box2.htm
+14.Soundcloud (Musik, Podcasts) https://applsupport.hslu.ch/webhelp/hm_soundcloud.htm
+15.Quote (Zitat) https://applsupport.hslu.ch/webhelp/hm_zitate_quotes.htm
+16.Bestehendes Formular einfügen https://applsupport.hslu.ch/webhelp/hm_bestehendes_fromular_einfuegen.htm
+17.Formulare erstellen https://applsupport.hslu.ch/webhelp/hm_formulare.htm
+18.RSS-Reader / RSS-Reader mit Vorschau (Blogs) https://applsupport.hslu.ch/webhelp/hm_rss.htm
+19.Multi Event Teaser A (Neu auch im Content-Container einfügbar > siehe Templates A, B, C, Content) https://applsupport.hslu.ch/webhelp/hm_event_teaser.htm
+20.Event Teaser A (Neu auch im Content einfügbar > siehe Templates A, B, C, Content) https://applsupport.hslu.ch/webhelp/hm_event_teaser.htm
+21.News Teaser A (Neu auch im Content einfügbar > siehe Templates A, B, C, Content) https://applsupport.hslu.ch/webhelp/hm_news_teaser.htm
+22.Multi News Teaser A (Neu auch im Content einfügbar > siehe Templates A, B, C, Content) https://applsupport.hslu.ch/webhelp/hm_multi_news_teaser.htm
+23.Forschung Teaser (Neu auch im Content einfügbar > siehe Templates A, B, C, Content) https://applsupport.hslu.ch/webhelp/hm_forschungsteaser_a__b.htm
+24.Newsletter Form https://applsupport.hslu.ch/webhelp/hm_newsletter_form_komplett.htm
+25.Newsletter Archiv https://applsupport.hslu.ch/webhelp/hm_newsletter_archiv.htm
+
+Allgemeines zu Containern siehe auch 4. Das Web als Babuschka: Container in Containern. https://applsupport.hslu.ch/webhelp/hm_grundlagen_sitecore.htm#4._das_web_als_babuschka
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_content_-_moegliche_items.htm
+

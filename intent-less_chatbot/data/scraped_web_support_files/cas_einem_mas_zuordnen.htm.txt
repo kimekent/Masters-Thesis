@@ -1,0 +1,20 @@
+Key: CAS einem MAS zuordnen
+Navigation:  Seitentypen > Weiterbildung > Weiterbildung CAS Site erstellen
+
+CAS einem MAS zuordnen: Die Zuordnung von CAS zu einem MAS erfolgt immer auf den CAS-Seiten.
+
+Bearbeitung im Page-Editor / Experience Editor
+1) Bei der entsprechenden CAS Seite beim Item CAS MAS Zuordnung auf Bearbeiten klicken.
+ 
+2) Im neuen Fenster den CAS einem MAS als Pflichtmodul, Wahlpflichtmodul, Wahlmodul oder Abschlussarbeit zuordnen.
+ 
+Hinweis: Die Abschlussarbeit ist nur über das Backend einfügbar.
+
+Bearbeitung über das Backend
+1.Zur CAS-Seite navigieren.
+2.Über das Ribbon-Menü den Befehl Campus > Backend aufrufen.
+3.Im Content-Editor die gewünschte CAS-Seite anwählen.
+4.Den CAS einem MAS als Pflichtmodul, Wahlpflichtmodul, Wahlmodul oder Abschlussarbeit zuordnen.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_cas_einem_mas_zuordnen.htm
+

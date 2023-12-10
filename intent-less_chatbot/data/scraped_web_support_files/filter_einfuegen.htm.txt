@@ -1,0 +1,17 @@
+Key: Filter Liste einfügen
+Navigation:  Seitenelemente > Template Container > Such- und Filterlisten
+
+In dieser Anleitung wird erklärt wie eine Filterliste auf einer Seite eingefügt werden kann.
+
+1) Den Template Container wählen und + Add to here klicken.
+ 
+Hinweis: Die Filerlisten können nur im Bereich Template Container eingefügt werden. Dieser Bereich liegt direkt über dem Extrafooter Container.
+ 
+2) Eine der Filter Liste auswählen (hier im Beispiel wurde die Person Filter List ausgewählt) und mit Select bestätigen.
+ 
+3) Entweder wird über Create New Content eine neue Filterliste erstellet, oder über Select Existing Content ein bestehende Filterliste ausgewählt. Ins Feld Name des der Titel des neuen Elementes einfügen.
+ 
+4) Die Filterliste wird auf der Seite platziert. Die Filter müssen noch konfiguriert werden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_filter_einfuegen.htm
+

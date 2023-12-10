@@ -1,0 +1,23 @@
+Key: Extrateaser dem Extrafooter zuweisen
+Navigation:  Seitenelemente > Extrafooter Container > Extrafooter
+
+Diese Anleitung erklärt, wie man in einem Axtrafooter Container einen Extrateaser einfügen kann.
+
+1) Das Item Extrafooter anwählen und auf den Editier-Button klicken.
+ 
+2) Die gewünschten Extrateaser in der linken Spalte All doppelklicken oder mittels der Links- und Rechts-Pfeile auswählen (heisst in die Selected-Spalte verschieben).
+ 
+Hinweis: Es müssen immer genau 4 Teaser ausgewählt werden!
+ 
+Weiter kann hier auch der Titel und Titel 2 vom Extrafooter editiert werden.
+ 
+Danach auf OK klicken.
+ 
+Wichtig: Speichern (ctrl + s), denn die Änderungen werden erst nach dem Speichern sichtbar!
+ 
+3) Die Extrateaser sind nun dem Extrafooter zugewiesen. Nun können die Extrateaser bearbeitet und mit Inhalt versehen werden. Das Vorgehen ist gleich wie bei den manuellen Teaser.
+ 
+Hinweis: Die Bearbeitung der Extrateaser kann analog der manuellen Teaser vorgenommen werden.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_bestehende_extra_teaser_einfue.htm
+
