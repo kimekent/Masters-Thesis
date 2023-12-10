@@ -1,0 +1,9 @@
+Key: Kontaktperson (manuell)
+Navigation:  Seitenelemente > Sidebar Container
+ 
+Das manuelle Kontakt-Element dient dazu, auf Sekretariate oder Gremien zu verweisen, die nicht eindeutig einer einzelnen Person zugeordnet werden können.
+
+Manuelle Kontakt-Elemente müssen keine Bilder enthalten.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_unpersoenlicher_kontakt-teaser.htm
+

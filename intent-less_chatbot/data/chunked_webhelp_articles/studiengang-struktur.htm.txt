@@ -1,0 +1,16 @@
+Key: Studiengangsstruktur (Modul Generator)
+Navigation:  Seitentypen > Ausbildung (Studium)
+
+Dieser Webhelp-Artikel stellt die Struktur der Ausbildungsseiten vor. Es zählt auf welche ELmeente diese Seite enthält. 
+
+BEARBEITUNG DURCH ADMINISTRATOR
+Der Modulgenerator erstellt eine Studiengangsstruktur aus Vertiefungsrichtungen, Durchführungen, Abschnitten und Bereichen.
+ 
+1.Vertiefungsrichtungen (https://applsupport.hslu.ch/webhelp/hm_vertiefungsrichtungen.htm) halten die verschiedenen möglichen Vertiefungen oder Profilierungen eines Studiums fest (z.B. Innenarchitektur).
+2.Durchführungen (https://applsupport.hslu.ch/webhelp/hm_durchfuehrungen.htm) sind die Kombinationen, welche sich aus Vertiefungsrichtungen und Zeitmodell ergeben (z.B. Innenarchitektur/teilzeit).
+3.Abschnitte (https://applsupport.hslu.ch/webhelp/hm_abschnitt.htm)gliedern ein Studienangebot auf der Zeitachse (z.B. Erstes Semester oder Zweites Semester).
+4.Bereiche (https://applsupport.hslu.ch/webhelp/hm_bereich.htm) gliedern ein Studienangebot in obligatorische und fakultative Teile (z.B. Pflichtmodule und Wahlmodule).
+5.Auf der Ebene des Bereichs ordnen wir Module (https://applsupport.hslu.ch/webhelp/hm_module.htm) der Studiengangsstruktur zu.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_studiengang-struktur.htm
+

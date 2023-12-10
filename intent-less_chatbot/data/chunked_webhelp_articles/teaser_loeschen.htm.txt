@@ -1,0 +1,7 @@
+Key: Teaser löschen
+Navigation:  Seitenelemente > Content Container > Teaser
+
+1) Über den Button Remove Component in der Floating Toolbar kann ein Teaser wieder gelöscht werden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_teaser_loeschen.htm
+

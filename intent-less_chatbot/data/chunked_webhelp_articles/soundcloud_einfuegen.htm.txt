@@ -1,0 +1,27 @@
+Key: Soundcloud einfügen
+Navigation:  Seitenelemente > Content Container > Soundcloud
+
+1) Im Content Container auf Add to here klicken.
+ 
+2) Im neuen Fenster Soundcloud auswählen und mit Select bestätigen.
+ 
+3) Mit Create New Content ein neues Element erstellen, benennen, bestimmen wo es gesichert werden soll und mit OK bestätigen.
+ 
+Hinweis: Soundcloud-Items können auch im Shared-Bereich gesichert werden.
+ 
+4) Das Soundcloud-Element über den Editier-Button in der Floating Toolbar editieren.
+ 
+Hinweis: Damit die Floating Toolbar erscheint in den grün umrandeten Bereich Click here for editing Sound Cloud Object! klicken.
+ 
+5) Die folgenden Daten eingeben und mit OK bestätigen:
+ 
+1.Soundcloud-ID eingeben.
+2.Angeben, ob der Code für ein Track oder eine Playliste ist.
+3.Entscheiden, ob Album- oder Songcover angezeigt werden soll oder nicht.
+ 
+6) Ein fertiges Soundcloud Beispiel:
+ 
+Hinweis: Erst nach dem Sichern der Webseite ctrl+s erscheinen die Änderungen.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_soundcloud_einfuegen.htm
+

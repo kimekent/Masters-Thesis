@@ -1,0 +1,22 @@
+Key: Überschrift im Flyout
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Campus > Navigations Options
+
+Dieser Webhelp-Artikel beschreibt, was ein Flyout-Titel ist und wie er der Navigation hinzugefügt werden kann. $
+
+Über das Feld "Überschrift im Flyout" definiert die Redaktion, wie die Unterseiten einer Seite in der Navigation überschrieben werden sollen. Hat eine Seite Unterseiten, können diese unter einem Rubriktitel zusammengefasst werden. Dieser Rubriktitel macht zudem verstärkt auf die Übersichtsseite aufmerksam und erleichtert auf Touch Devices die das Erreichen der Übersichtsseite:
+ 
+Beispiel: Die Seite "Familie" hat drei Unterseiten "Peter", "Toni" und Tina". Eine Überschrift im Flyout könnte lauten: "Alle Familienmitglieder" oder "Übersicht Familie". Das so zusätzlich präzisierte Label erleichtert die Navigation auf Touch-Devices.
+ 
+Vorgehen:
+1) Im Ribbon-Menü > Campus die Navigations Options öffnen.
+ 
+2) Im neuen Fenster kann im zweiten Feld Überschrift im Flyout ein benutzerdefinierter Name, z.B. "Mein Flyout-Titel" eingegeben und mit OK bestätigt werden.
+
+Hinweis: Die Überschrift im Flyout wird immer auf der "Mutterseite" geändert. Die folgenden Unterseiten ("Kind-Seiten") werden dann im Flyout unter der Überschrift im Flyout aufgelistet.
+
+Hinweis: Wird der Inhalt im Feld Überschrift im Flyout wieder gelöscht, dann kommt automatisch wieder der Seitentitel für die Überschrift zum tragen.
+
+3) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon neu laden. Danach werden die Änderungen auf der Seite dargestellt.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_ueberschrift_im_flyout.htm
+

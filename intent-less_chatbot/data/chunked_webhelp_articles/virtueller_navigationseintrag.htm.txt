@@ -1,0 +1,26 @@
+Key: Virtuelle Navigation (Link in der Navigation)
+Navigation:  Navigation
+
+Dieser Webhelp-Artikel beschriebt, was eine virtuelle Navigation ist. Mit einer virtuellen navigation können Seiten in der Navigation verlinkt werden die nicht direkte Unterseiten sind. So kann eine benutzerdefinierte Navigation erstellt werden. 
+
+Eine Virtuelle Navigation (Navigation Virtual) ist ein Link in der Navigation und fügt in der Navigation und in der Seitenstruktur einen Verweis ein. Die Redaktion bestimmt, wohin dieser Verweis zeigt.
+ 
+Achtung: Die Virtuelle Navigation funktioniert nur für interne Seiten (Insert Link).
+ 
+Achtung: Wird ein Virtuelle Navigationseintrag eingefügt, kann eine Endlosschlaufe entstehen, welche das System zum Absturz bringt. Gefahr besteht, wenn:
+ 
+1.Option "Nicht virtuelle Unterseiten anzeigen" ausgewählt ist
+2.Eine der angezeigten Unterseiten wieder einen virtuellen Navigationseintrag enthält
+3.Dieser Navigationseintrag auf einen Ort im Seitenbaum verweist, der über dem ursprünglichen Navigationseintrag liegt.
+ 
+Achtung: Werden virtuelle Navigationseinträge dazu benutzt eine benutzerdefinierte Seitennavigation zu erstellen immer wie folgt konfigurieren:
+1. "Anzeigen" aktiv
+2. "Nicht virtuelle Unterseiten anzeigen" NICHT aktiv
+3. "In Navigation Anzeigen" NICHT aktiv
+4. "In Side-Navigation anzeigen" aktiv
+ 
+ 
+Wie man eine virtuelle Navigationseintrag einfügen kann ist hier beschrieben: https://applsupport.hslu.ch/webhelp/index.html?hm_link_in_der_navigation_einfueg.htm.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_virtueller_navigationseintrag.htm
+

@@ -1,0 +1,9 @@
+Key: Formatierter Text mit Bild (Textumfluss um Bild)
+Navigation:  Seitenelemente > Content Container
+
+Der Formatierter Text mit Bild und Textumfluss ist das Element, in dem grosse Texte mit Bild platziert werden können. Das Element ist ein Hauptinhalt. Entsprechend kommt es immer in der Hauptspalte des Designs zum Einsatz. Bei diesem Element muss nicht unbedingt ein Bild eingefügt werden. Wenn kein Bild eingefügt wird, wird die ganze breite des Elements mit Text befüllt. Wird deshalb in vielen Fällen statt des Rich Text Teasers verwendet, da dieser im Gegensatz zum Rich Text Teaser den Text nur in einer Spalte anzeigt.
+ 
+Die Bildgrösse beim formatierten Text mit Bild beträgt in der Breite 234px, die Höhe kann frei gewählt werden.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_rich-text-element.htm
+

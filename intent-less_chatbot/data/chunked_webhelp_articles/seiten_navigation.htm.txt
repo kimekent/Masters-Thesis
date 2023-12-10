@@ -1,0 +1,16 @@
+Key: Side-Navigation (Navigation)
+Navigation:  Seitenelemente > Sidebar Container
+
+In diesem Webhelp-Artikel wird beschrieben was die Side Navigation welche im Sidebar Conteiner eingefügt werden kann ist. Auserdem wird aufgezählt werlche Änderungen an der Side-Navigation gemacht werden können und die jeweilingen Anleitungen dazu verlinkt. Wie eine Side Navigation eingefügt werden kann ist hier beschrieben: https://applsupport.hslu.ch/webhelp/index.html?hm_side_navigation_erstellen_neu.htm
+
+Dieses Navigations-Element zeigt die Unterseiten der aktuellen Seite in der Sidebar an. Der Link der Stammseite ist personalisierbar. Alle anderen Links können nicht manuell hinzugefügt oder verändert werden. Sie werden durch die Auswahl der Stammseite automatisch generiert. Es wird empfohlen pro Seite nicht mehr als 8 Unterseiten anzulegen.
+ 
+Das Element Side-Navigation kann mit vier Optionen konfiguriert werden:
+ 
+1.Es kann eine Überschrift für die Side-Navigation hinzugefügt werden: https://applsupport.hslu.ch/webhelp/hm_ueberschrift_fuer_side-navigat.htm
+2.Der Linktext der Hauptseite kann angepasst werden: https://applsupport.hslu.ch/webhelp/hm_linktext_der_hauptseite_in_der.htm
+3.Der Linktext der Unterseiten kann überschrieben werden: https://applsupport.hslu.ch/webhelp/hm_linktext_in_der_side-navigatio.htm
+4. Zudem können einzelne Seiten aus der Side-Navigation ausgeblendet werden: https://applsupport.hslu.ch/webhelp/hm_linktexte_iin_navigation_ein_ausblenden.htm
+
+Link: https://applsupport.hslu.ch/webhelp/hm_seiten_navigation.htm
+

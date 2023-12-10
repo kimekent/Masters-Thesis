@@ -1,0 +1,25 @@
+Key: Sprach-Version
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Versions
+
+In diesem Webhelp Artikel ist beschrieben, wie eine Englische Seite angelegt werden kann. Ausserdem ist das Shared Prinzip erklärt, welches Beschriebt, dass die Englsiche und deutsche Seite immer die gleichen Elemente besitzten müssen. Laut Webgovernance ist es nicht gewünscht nur englsiche Seiten zu erstellen. Technisch ist dies auch nicht möglich nur eine englische Version einer Seite anzulegen. Da die deutsche Seite voran geht, überschreibt die deutsche Seite immer die englische. Weiter sind in diesem Artikel ein paar Tipps aufgelistet, wie mit Sprachversion gearbeitet werden sollte.
+
+HINWEIS: Zu beachten sind auch die Sprachhinweise DE / EN (https://applsupport.hslu.ch/webhelp/hm_sprachhinweise_de___en.htm).
+
+Der Versions-Tab des Ribbon-Menüs bietet folgende Möglichkeiten:
+ 
+•Anlegen einer neuen Sprachversion via Language-Button. Anschliessend die Seite (ctrl+s) speichern.
+•Wechsel zwischen zwei bereits angelegten Sprachversionen.
+•Anlegen einer neuen Seitenversion
+•Löschen einer Seitenversion
+
+Neue Sprachversionen einer Seite immer im Experience-Editor zu erstellen. So werden die eingefügten Elemente der deutschen Version auch in die englische Version übernommen und können anschliessend übersetzt werden.
+Wird aber eine neue Sprachversion im Content-Editor erstellt, werden keine Elemente von der deutschen Version in der englischen Versionsseite erstellt!
+
+Sitecore ist nach dem shared-Prinzip eingestellt. Wurde z.B. auf der englischen Seiten-Version ein Element (Item) nicht übersetzt, wird dieses Element auf der englischen Seite als deutsche Version angezeigt. Auch inhaltliche Änderungen beim deutschen Item werden dynamisch auf der englischen Seite dargestellt. Wir sprechen hier von einem Fallback. Dieser Fallback-Mechanismus existiert nur auf den englischen Seiten.
+ 
+Hinweis: Sind von einer Seite zwei Sprachversionen vorhanden, muss die URL in beiden Sprachen angepasst werden!
+
+Achtung: Sind Seitenversionen vorhanden, wird das Layout der Items von der aktuellsten deutschen Version auf die aktuellste englische Version kopiert. Der Kopiervorgang erfolgt jeweils beim speichern der aktuellen deutschen Version.Teaser 1, nur in deutscher Version vorhanden > "Fallback" funktioniert:
+
+Link: https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm
+

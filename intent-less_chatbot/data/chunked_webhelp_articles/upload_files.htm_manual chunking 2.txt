@@ -1,0 +1,27 @@
+Key: Upload Files via Media Library
+
+Dieser Webhelp-Artikel enthält ein paar alllgemeine Reglen zum Upload von DAteien in die Media Library. Es wird aufgelistet welche FOrmate zugelassen sind und die Maximale Dateigrösse wird angegeben. Zudem wird beschrieben, wie mehrere Dateien geleichzeitig in die Meidia Library geladen werden können. Wie einzelne Dateien in die Media Library geladen werden, ist in einer anderen Anleitung beschrieben. 
+
+Achtung: Der Upload in die Media Library ist auf 20 MB beschränkt. Für grössere Files muss eine Big File Site erstellt werden.
+ 
+Folgende Formate können hoch geladen werden:
+•Bilder: .jpg .gif .png . svg
+•Dokumente: .dmg .doc .docx .pdf .ppt .pptx .rar .txt .xls .xlsx .xltm .xltx .zip .ics
+ 
+Achtung: Formular-PDF's welche mit "Adobe LiveCycle Designer" erstellt wurden, können nicht in die Media Library hoch geladen werden, da diese PDF's in diversen Browsern Probleme verursachen. Um festzustellen, in welchem Programm ein PDF erstellt wurde, kann dieses im Acrobat geöffnet werden. Unter Datei > Eigenschaften wird der Name der Erstellungs-Software angezeigt. Diese problematischen PDF müssen z.B. mit Adobe InDesign neu erstellt werden.
+ 
+Hinweis: Normaler weise werden einzelne Bilder über den Button upload Files hochgeladen. Mittels Upload files (advanced) können aber auch mehrere Bilder oder Dokumente gleichzeitig hochgeladen werden.
+Dies funktioniert jedoch nur, wenn das Google-Chrome-Flash-Plugin für die HSLU-Seite zugelassen ist. Bei HSLU-Windowsgeräte ist dies automatisch vorkonfiguriert. Bei privaten oder Apple Computer muss dieser Eintrag manuell erfasst werden.
+ 
+Ist das Flash-Plug-in für die HSLU Seite nicht zugelassen, funktioniert der Multi-Upload nicht. Es erscheint ein Fenster Namens "Patch-Upload".
+
+Chrome-Einstellung prüfen oder setzen:
+ 
+1.Folgender Link in die Adresszeile des Google Chrome Browsers eingeben: chrome://settings/content/flash
+ 
+2.Wenn unter der Rubrik Zulassen der Eintrag [*.]hslu.ch fehlt, kann dieser über den Knopf Hinzufügen nachträglich eintragen werden
+ 
+3.Den Webbrowser Google Chrome neu starten.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_upload_files.htm
+

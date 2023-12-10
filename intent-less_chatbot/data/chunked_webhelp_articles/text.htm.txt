@@ -1,0 +1,27 @@
+Key: Text
+Navigation:  Seitenelemente
+
+Dieser Webhelp-Artikel enthält allgmeneine stylistische Tipps die beim erfassen von Texten auf der Website zu beachten sind.
+
+Der Haupttext belegt:
+Der Haupttext (,Body‘) liefert die Belege für die Behauptungen im Lead. Er ist schnell erfass- und überblickbar. Beispiele sind eine sehr effiziente Art etwas zu belegen.
+ 
+Überfliegbare Texte sind gut strukturierte Texte: Absätze, Zwischentitel, Blockquotes, Listen, Fettdruck und der Einsatz von visuellen Medien unterstützen Leser bei der Navigation durch einen Inhalt.
+
+Abschnitte beginnen mit dem Allerwichtigsten:
+Ein Abschnitt (‚Paragraph‘) ist kurz und pointiert. Er stellt ein Thema oder einen Aspekt dar und bietet der Leserschaft das Wichtigste im ersten Satz. Schreibende nehmen so der Leserschaft Arbeit ab. Dies ist der Grundsatz von Usability, also dem Bestreben, die Benutzbarkeit zu vereinfachen.
+
+Blockquotes holen Leser ab:
+Das typographisch vom Fliesstext klar abgesetzte Zitat hat sich etabliert. Dieses sogenannte Blockquote lockert den Text auf und bietet einen zusätzlichen Einstiegspunkt. Das Blockquote ist ein Mittel, Texte im Web besser zu strukturieren.
+ 
+Beispiel: „Ein gutes Zitat ist wie ein offenes Fenster. Es lädt ein, etwas tiefer zu blicken.“
+
+Ein Satz macht eine (und nur eine) Aussage:
+Sätze im Internet sind kurz. Wie Abschnitte beschränken sie sich auf eine Aussage.
+ 
+Schachtelsätze und Passivkonstruktionen erschweren den Lesefluss. Synonyme oder stark sinnverwandte Begriffe machen Texte verständlicher und stilistisch schöner. Synonyme verbessern die Auffindbarkeit durch Suchmaschinen-Bots.
+ 
+Beispiel: Metzger Meier, Herr Meier, der Metzger, Hans Meier sind alles Synonyme für ein und dieselbe Person.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_text.htm
+

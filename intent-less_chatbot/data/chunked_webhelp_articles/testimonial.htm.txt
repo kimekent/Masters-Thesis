@@ -1,0 +1,7 @@
+Key: Testimonial
+Navigation:  Seitenelemente > Sidebar Container
+
+Das Testimonial-Element stellt eine kurze Aussage einer relevanten Person dar. Es enthält immer ein Zitat, eine Quelle (Person, der das Zitat zugeordnet wird) und optional ein Bild der zitierten Person. Testimonials sollten nur für Testimonials verwendet werden. Testimonials könne nur iender Sidebar eingefügt werden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_testimonial.htm
+

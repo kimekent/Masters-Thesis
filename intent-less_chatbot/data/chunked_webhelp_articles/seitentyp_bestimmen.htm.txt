@@ -1,0 +1,43 @@
+Key: Seite erstellen
+Navigation:  Seitentypen > Standardseite
+
+In dieser Anleitung wird beschrieben, wie eine neue Standardseite entweder via Experience Editor oder Content Editor (Backend) erstellt werden kann. Aus- und Weiterbildungsseiten, sowie Agendaeinträge und News können nur an bestimmten Stellen in der Websitestruktur erstellt werden. Wie 
+Aus- und Weiterbildungsseiten, sowie Agendaeinträge und News-Seiten erstellt wereden wird hier nicht beschrieben.
+
+Eine neue Seite via Experience Editor erstellen: 
+1) Im Ribbon Menü Versions > Language darauf achten, dass die korrekte Sprache vorausgewählt ist. Entsprechend dieser Sprachauswahl, wird auch eine neue Seite in dieser Sprachversion angelegt.
+
+2) Im Ribbon Menü Home > Insert Page wählen.
+ 
+Hinweis: Der Seitentyp wird bestimmt, wenn eine neue Seite angelegt wird. Je nachdem, wo die neue Seite platziert wird, stehen andere Optionen zur Verfügung.
+
+3) Im neuen Dialog Standard Site auswählen und mit Präfix + Item Name benennen. Der Seitentitel wird automatisch als Page Title verwendet. Mit Insert wird die neue Seite generiert. Der Seitentitel kann nachträglich angepasst werden.
+
+Hinweis: Der Seitentyp wird bestimmt, wenn eine neue Seite angelegt wird. Je nachdem, wo die neue Seite platziert wird, stehen andere Optionen zur Verfügung
+
+Eine neue Seite via Backend erstellen:
+Advanced Users - Backend
+1) Backend Fenster öffnen (Ribbon > Campus > Backend)
+2) Im Ribbon Menü die korrekte Sprache vorauswählen.
+3) Im Ordner Content > Campus > Hochschule Luzern der entsprechende Knoten wählen und via Kontextmenü Insert > Standard Site eine neue Seite einfügen.
+4) Im neuen Fenster der Seite einen Präfix + Item Name vergeben und OK klicken.
+5) Die neue Seite wurde in der aktuellen Sprachversion angelegt.
+ 
+Pfad im Page-Editor: Ribbon-Menü > Campus > Backend
+ 
+1) Im Backend-Content-Tree Content > Campus > Hochschule an den entsprechende Seitenknoten navigieren, unter welchem eine neue Seite erstellt werden soll.
+ 
+2) Im Ribbon Menü darauf achten, dass die korrekte Sprache vorausgewählt ist. Entsprechend dieser Sprachauswahl, wird auch eine neue Seite in dieser Sprachversion angelegt.
+ 
+3) Auf dieser Seite mittels Kontext-Menü > Insert > und bei diesem Beispiel mit Standard Site eine neue Seite hinzufügen.
+ 
+Hinweis: Der Seitentyp wird bestimmt, wenn eine neue Seite angelegt wird. Je nachdem, wo die neue Seite platziert wird, stehen andere Optionen zur Verfügung.
+ 
+4) Im neuen Fenster der Seite einen Präfix + Seitentitel (Item Name) vergeben und OK klicken.
+ 
+5) Die neue Seite wurde in der aktuellen Sprachversion angelegt
+ 
+Achtung: Seiten nie kopieren oder duplizieren. Stattdessen Seiten neu aufbauen.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_seitentyp_bestimmen.htm
+

@@ -1,0 +1,9 @@
+Key: RSS Reader / RSS Reader mit Vorschau
+Navigation:  Seitenelemente > Content Container
+
+RSS (engl. ursprünglich Rich Site Summary, später Really Simple Syndication) ist eine seit dem Anfang des Jahres 2000 kontinuierlich weiterentwickelte Familie von Formaten für die einfache und strukturierte Veröffentlichung von Änderungen auf Websites (z. B. News-Seiten, Blogs, Audio-/Video-Logs etc.) in einem standardisierten Format (XML)" - Wikipedia.
+ 
+Solche Feeds können in Web12 genutzt werden, etwa zur Einbindung von Blogs oder zur Präsentation externer Ressourcen auf den Seiten der Hochschule Luzern.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_rss.htm
+

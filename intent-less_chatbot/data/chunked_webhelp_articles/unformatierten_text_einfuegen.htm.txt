@@ -1,0 +1,20 @@
+Key: Unformatierten Text einfügen
+Navigation:  Tools > Rich Text Editor
+
+Damit der Rich Text Editor richtig funktioniert, ist es entscheidend, dass nur Texte ohne Formatierungen hineinkopiert werden. Dies lässt sich auf zwei Wegen erreichen:
+
+Unformatierten Text einfügen via Chrome
+1.Beliebigen Text kopieren.
+2.Rich Text Editor in Sitecore öffnen.
+3.Rechts klicken (oder ctrl + Klick).
+4.Im Browser-Kontextmenü die Option "Als unformatierten Text einfügen" wählen (oder ctrl + shift + v)
+ 
+Unformatierten Text einfügen via Text Editor
+1.Beliebigen Text kopieren.
+2.Text in einen Text Editor kopieren (Notepad++ oder Windows Editor).
+3.Text im Editor auswählen und kopieren.
+4.Rich Text Editor in Sitecore öffnen.
+5.Text einfügen.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_unformatierten_text_einfuegen.htm
+

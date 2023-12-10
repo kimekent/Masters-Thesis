@@ -1,0 +1,44 @@
+Key: Weiterbildung Filter List konfigurieren
+Navigation:  Seitenelemente > Template Container > Such- und Filterlisten > Filter Konfigurationen
+
+In dieser Anleitung wird erklärt, wie eine Weiterbildungs Filter List konfiguriert werden kann. Es wird aufgelistet welche Einstellungen vorgenommen werden können udn erklärt was Fixe und was vordevinierte Filter sind.
+
+Optionen zugreifen:
+Die Filterliste auswählen und auf der folgenden drei Buttons klicken:
+ 
+• Filterliste bearbeiten
+• vorselektierte Filter bearbeiten
+• fixe Filter bearbeiten
+ 
+Filterliste bearbeiten:
+•Filter ausblenden: Wird dies aktiviert, verschwinden für die User die Filtermöglichkeiten.
+•Kein Resultat Text: Der Text, welcher in diesem Feld eingetragen ist, wird angezeigt, wenn keine Resultate gefunden wurden.
+•Filter standartmässig ausgeklappt: Seit November 2015 werden die Filter standartmässig zugeklappt dargestellt. Dies spart Platz in der Browser-Ansicht. Wird diese Check-Box hingegen aktiviert, werden die Filter wieder aufgeklappt dargestellt.
+ 
+Vorselektierte Filter bearbeiten sitecore_btn_funnel_preferences:
+Filter vorselektiert: Die hier ausgewählten Filter sind Voreinstellungen. Die User können diese Voreinstellungen über steuern.
+ 
+•Programmart vorselektiert: Programmart vorselektieren. User kann Programmart wechseln.
+•Themen vorselektiert: Thema vorselektieren. User kann Thema wechseln.
+•Studienort vorselektiert: Studienort vorselektieren. User kann Studienort wechseln.
+•OE vorselektiert: OE vorselektieren. User kann OE wechseln.
+•Semester Filter einschalten: Wenn eingeschaltet wird der Reiter "Semester" im Suchfilter angezeigt.
+       - Semester vorselektiert funktioniert nur, wenn der Semesterfilter eingeschaltet ist: Wahl des Semesters.
+ 
+1.Das gewünschte Element in der linken Spalte All doppelklicken oder mittels der Links- und Rechts-Pfeile auswählen (heisst in die Selected-Spalte verschieben).
+2.OK klicken.
+ 
+Wichtig: Speichern (ctrl + s), denn die Änderungen werden erst nach dem Speichern sichtbar!
+ 
+fixe Filter bearbeiten sitecore_btn_funnel:
+Filter fix: Die hier ausgewählten Filter sind fix. Die User können diese nicht beeinflussen.
+ 
+1.Programmart fix: Programmart fix bestimmen. User kann Programmart nicht wechseln.
+2.Themen fix: Thema fix bestimmen. User kann Thema nicht wechseln.
+3.Studienort fix: Studienort fix bestimmen. User kann Studienort nicht wechseln.
+4.OE fix: OE fix bestimmen. User kann OE nicht wechseln.
+5.Semester Filter einschalten: Wenn eingeschaltet wird der Reiter "Semester" im Suchfilter angezeigt.
+       - Semester fix funktioniert nur, wenn der Semesterfilter eingeschaltet ist: Wahl des Semesters.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_weiterbildung_filter_list.htm
+

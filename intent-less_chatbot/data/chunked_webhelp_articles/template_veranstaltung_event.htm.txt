@@ -1,0 +1,28 @@
+Key: Veranstaltung (Agenda-Eintrag)
+Navigation:  Seitentypen
+
+Dieser Webhelp-Artikel stellt die Spezialseite Veranstaltung vor und listet auf welche Elemente sie standardmässtig enthält.
+
+Hinweis: Nach dem Erstellen einer Veranstaltung wird der Index neu erstellt. Dies kann bis zu 15 Minuten dauern (Wird Zukünftig vermutlich auf 1/2 Tag eingestellt). Erst danach ist die neue Veranstaltung in den Filterlisten oder Teaser auffindbar.
+ 
+Achtung: Seiten nie kopieren oder duplizieren.
+ 
+Achtung: Die speziellen Event-Items wie z.B. "Formatierte Text mit Bild" nicht löschen, da die Filterliste sonst das Bild nicht mehr anzeigen kann.
+ 
+Die Event- oder Veranstaltungs-Seite stellt eine Veranstaltung dar. Es gibt allgemeine Events, Infoveranstaltungen und Konzerte. Das System generiert auf einer neuen Eventseite die folgenden Elemente:
+ 
+1.Page-Intro (ohne Titel 2)
+2.Social Media Buttons
+3.Formatierter Text mit Bild (Achtung: Dieses Item darf nicht gelöscht und durch ein eigenes Item ersetzt werden. Die Filterliste kann sonst das Bild nicht mehr anzeigen)
+4.Datumsfeld
+5.Zeitfeld
+6.Karte
+7.Kontakt
+ 
+Weitere Elemente können optional hinzugefügt werden. Zur Auswahl stehen alle Elemente, die in Content- oder Sidebarcontainern verwendet werden können.
+ 
+Datum und Zeitbestimmen
+Das Datum einer Veranstaltung bestimmt nicht nur, wann ein Event stattfindet, es definiert auch wo und wie lange ein Event auf hslu.ch angezeigt wird. Zum Verschieben einer Veranstaltung einfach das Datum ändern.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_template_veranstaltung_event.htm
+

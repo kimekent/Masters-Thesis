@@ -1,0 +1,22 @@
+Key: Seitentypen
+
+In diesem Webhelp-Artikel werden die verschiednen Seitentypen von unserenm CMS vorgestellt und zur detaillierten Seite dieses Seitentypes verlinkt. Es wird grob erklärt, für was die Seiten verwendet werden.
+
+Seitentypen unterteilen die Seiten der Hochschule Luzern in grobe Kategorien. Durch Seitentypen entstehen die Teilmengen der Veranstaltungs-, Weiterbildungs-, Forschungs- und Dienstleistungsseiten.
+ 
+Zur Verfügung stehen die folgenden Seitentypen:
+ 
+•Standard (https://applsupport.hslu.ch/webhelp/hm_seite.htm=: Für Inhalte und Übersichtsseiten.
+•Veranstaltung (https://applsupport.hslu.ch/webhelp/hm_template_veranstaltung_event.htm): Für Events.
+•News: Für News-Mitteilungen (Diese Rubrik folgt zu einem späteren Zeitpunkt).
+•Weiterbildung (https://applsupport.hslu.ch/webhelp/hm_template_weiterbildung.htm): Für Weiterbildungsangebote und -module.
+•Ausbildung (https://applsupport.hslu.ch/webhelp/hm_template_ausbildung.htm): Für Studienangebote und -module.
+•Forschung (Rubrik kann von der Redaktion nicht editiert werden).
+•Dienstleistung (Rubrik kann von der Redaktion nicht editiert werden).
+•Personen (Rubrik kann von der Redaktion nicht editiert werden).
+•Virtueller Navigationseintrag (https://applsupport.hslu.ch/webhelp/hm_virtueller_navigationseintrag.htm): Für Links in der Navigation, die auf Seiten verweisen, welche ganz woanders liegen.
+ 
+Achtung: Seiten nie kopieren oder duplizieren.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_seitentypen.htm
+

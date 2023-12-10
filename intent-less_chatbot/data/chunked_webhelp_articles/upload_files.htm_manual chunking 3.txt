@@ -1,0 +1,13 @@
+Key: Upload Files via Media Library
+
+Diese Anleitung beschreibt, wie eine englische Sprachversion einer Datei in die Meida Library hochgeladen werden kann und dadurch "Only in German" verhindert kann werden kann.
+
+Zweisprachige Medien: 
+Auch Bilder und PDFs sind zweisprachig. Folgende drei Fälle kommen vor:
+1.Normalerweise wird die deutschsprachige Version zuerst angelegt. Standardmässig verwendet das System die deutschsprachige Datei auch in der englischen Version der Seite. Dies kann oft auch der Grund für die Meldung "Only in German" sein. Um diese Meldung zu entfernen muss deshalb eine englische Version des Dokuments angelegt werden.
+ 
+2.Soll aber in English ein anderes Bild oder ein anderes PDF angezeigt werden, kann dies durch die Wahl der englischen Version in der Media Library und einem Klick auf den "Attach"-Link gelöst werden. In diesem Fall werden zwei Dateien ins System hochgeladen.
+ 
+3.Wird zuerst eine englische Version der Datei angelegt erscheint diese nicht in Deutsch. Sie muss manuell angelegt werden. Dazu ist die deutsche Sprachversion in der Media Library zu wählen und mit einem Klick auf "Attach" das Bild noch einmal hochzuladen.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_upload_files.htm

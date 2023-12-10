@@ -1,0 +1,25 @@
+Key: Manueller Teaser bearbeiten
+Navigation: Seitenelemente > Content Container > Teaser > Teaser bearbeiten
+
+Diese Anleitun beschreibt, wie man nach dem einfügen eines Teasers diesen bearbeiten kann. Wie ein Teaser eingefügt werden kann ist hier beschrieben: https://applsupport.hslu.ch/webhelp/index.html?hm_teaser_in_template_a.htm
+
+1) In den Manuellen Teaser klicken und das Edit-Icon "Edit manual teaser" anklicken.
+ 
+Hinweis: Das Teaser Bild/Video, der Titel und Text kann auch direkt im Page Editor bearbeitet werden.
+ 
+2) Im neuen Fenster können folgende Einstellungen bearbeitet werden:
+ 
+•Titel
+•Text
+•Bild > Browse
+•Animiertes Bild (GIF)
+•Video  ID (Copy & Paste)
+•Video Typ
+•Link > Insert Link
+•Link (nur Bilder via Media Link) in Popup vergrössern (Lightbox)
+Hinweis: Der eingeblendete Bild-Text unterhalb der Lightbox stammt vom Alt-Text des Bildes.
+•Breite in %
+•Publish / Unpublish
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_teaser_bearbeiten.htm
+

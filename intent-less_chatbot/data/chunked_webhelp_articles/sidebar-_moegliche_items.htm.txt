@@ -1,0 +1,23 @@
+Key: Sidebar Container
+Navigation:  Seitenelemente
+
+Diser Webhelp-Artikel beschreibt den Sidebar Container und was sdieser enthält.
+
+Die Sidebar ist die rechte Spalte auf einer Inhaltsseite. Unterstützende Inhalte, wie Karten oder Kontaktpersonen, wohnen hier.
+ 
+In den Sidebar Container können die unten aufgeführten Elemente eingefügt werden. Maximal 3 Elemente pro Seite verwenden.
+ 
+1.Navigation (https://applsupport.hslu.ch/webhelp/hm_navigation.htm)
+2.Kontaktperson aus Selbstpflege-Datenbank (https://applsupport.hslu.ch/webhelp/hm_kontaktperson_automatisch_einf.htm)
+3.Kontaktperson manuell
+4.Call-to-Action (Anmeldungs- und Einschreibungselement) (https://applsupport.hslu.ch/webhelp/hm_linkliste_mit_e-mail_und_telef.htm)
+5.Testimonial (https://applsupport.hslu.ch/webhelp/hm_testimonial.htm)
+6.Karte (https://applsupport.hslu.ch/webhelp/hm_karte_google_maps.htm)
+7.Öffnungszeiten (https://applsupport.hslu.ch/webhelp/hm_oeffnungszeiten.htm)
+8.Infoveranstaltungen Aus- /Weiterbildung (https://applsupport.hslu.ch/webhelp/hm_template_ausbildung.htm) (Dieses Element funktioniert nur bei Aus- und Weiterbildungsseiten, und wird automatisch auf diesen Seiten erstellt)
+ 
+ 
+Allgemeines zu Containern siehe auch 4. Das Web als Babuschka: Container in Containern.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_sidebar-_moegliche_items.htm
+
