@@ -1,0 +1,9 @@
+Key: Breadcrumb
+Navigation:  Navigation
+
+Die Breadcrumb Navigation wird automatisch generiert. Die Redaktion bestimmt aber in den Navigation Options, welcher Text hier angezeigt werden soll.
+ 
+Hinweis: Die Sichtbarkeit und der Anzeigetext einer Seite im Breadcrumb kann von der Redaktion manuell gesteuert werden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_breadcrumb_konfigurieren.htm
+

@@ -1,0 +1,32 @@
+Key: Seitenelemente
+
+Dieser Webhelp-Artikel gibt eine Übersicht, welche Elemente wo auf der Website eingefügt werden können. 
+Die meisten Elemente werden im Content Container eingefügt. Dieser Bereich wird jedoch in einer seperaten Anleitung beschrieben.
+
+Die Kernelemente:
+1.Bild (Richtlinien und Empfehlungen zu Bildern) https://applsupport.hslu.ch/webhelp/hm_bilder.htm
+2.Text (Empfehlungen Schreiben im Web) https://applsupport.hslu.ch/webhelp/hm_text.htm
+3.Moodboard (Optionales visuelles Einstiegselement) https://applsupport.hslu.ch/webhelp/hm_moodboard.htm
+4.Info Box (Wichtige Veranstaltungen prominent platzieren) https://applsupport.hslu.ch/webhelp/hm_info_box.htm
+5.PageIntro (Titel, Untertitel, Lead) https://applsupport.hslu.ch/webhelp/hm_inhaltliche_richtlinien_tsh.htm
+
+Sidebar Container:
+1.Navigation https://applsupport.hslu.ch/webhelp/hm_navigation.htm
+2.Kontaktperson aus Selbstpflege-Datenbank https://applsupport.hslu.ch/webhelp/hm_kontaktperson_automatisch_einf.htm
+3.Kontaktperson manuell https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm
+4.Call-to-Action (Anmeldungs- und Einschreibungselement)
+5.Testimonial https://applsupport.hslu.ch/webhelp/hm_testimonial.htm
+6.Karte https://applsupport.hslu.ch/webhelp/hm_karte_google_maps.htm
+7.Öffnungszeiten https://applsupport.hslu.ch/webhelp/hm_oeffnungszeiten.htm
+8.Infoveranstaltungen Aus- https://applsupport.hslu.ch/webhelp/hm_template_ausbildung.htm/Weiterbildung https://applsupport.hslu.ch/webhelp/hm_template_weiterbildung.htm (Dieses Element funktioniert nur bei Aus- und Weiterbildungsseiten, und wird automatisch auf diesen Seiten erstellt)
+
+Template Container:
+1.Template A, B, C und Content https://applsupport.hslu.ch/webhelp/hm_seiten_-_templates.htm
+2.Such- und Filterlisten https://applsupport.hslu.ch/webhelp/hm_such-_und_filterliste.htm
+ 
+Extrafooter Container:
+1.Extrafooter https://applsupport.hslu.ch/webhelp/hm_extra_footer.htm
+ 
+Eine Übersicht über die Verwendung der verfügbaren Elemente oder Bausteine in Sitecore gibt es hier.https://inside.hslu.ch/fs/it/gap/InfoDocsGAP/Verwendung%20Website%20Elemente.xlsx?d=wd9e014c962c14550a03a35f937b44319
+
+Link: https://applsupport.hslu.ch/webhelp/hm_content2.htm

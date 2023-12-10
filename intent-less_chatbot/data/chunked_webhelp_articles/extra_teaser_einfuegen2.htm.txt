@@ -1,0 +1,21 @@
+Key: Neue Extrateaser einfügen
+Navigation:  Seitenelemente > Extrafooter Container > Extrafooter
+
+Diese Anleitung erklärt wie nachdem ein leeres Extrateaser Element eingefügt wurde, dieses mit  Teasern befüllt werden kann.
+
+Hinweis: Der Extrafooter muss immer genau 4 Teaser enthalten! Die folgende Prozedur muss daher vier mal durchgespielt werden.
+ 
+1 ) Das Element Extrafooter auswählen und auf den Hinzufügen-Button klicken.
+ 
+2) Element Extrateaser auswählen, im Feld Item Name einen Titel für den Extrateaser eingeben und mit Insert bestätigen.
+ 
+Wichtig: Speichern (ctrl + s), denn die Änderungen werden erst nach dem Speichern sichtbar!
+ 
+Ein Extrateaser wurde erstellt, aber noch nicht dem Extrafooter hinzugefügt (siehe roter Hinweistext).
+ 
+3) Die leeren Felder im Extrafooter und Extrateaser können bereits hier mit Inhalt versehen werden und mit ctrl + s gesichert werden.
+ 
+Nach viermaligem einfügen der Extrateaser, sieht der Extrafooter folgender massen aus:
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_extra_teaser_einfuegen2.htm
+

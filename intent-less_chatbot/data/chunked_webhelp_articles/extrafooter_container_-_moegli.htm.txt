@@ -1,0 +1,13 @@
+Key: Extrafooter Container
+Navigation:  Seitenelemente
+
+Diese Anleitung erklärt, was ein Extrafooter Container ist, der auf jeder Seite zu finden ist. 
+
+Im Extrafooter Container kann man die Elemente Extrafooter oder Extrafooter mit Bilder einfügen.
+ 
+Diese Elemente präsentieren, wie die Sidebar Inhalte, die den Hauptinhalt unterstützen, erweitern oder ergänzen.
+ 
+Allgemeines zu Containern siehe auch 4. Das Web als Babuschka: Container in Containern.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_extrafooter_container_-_moegli.htm
+

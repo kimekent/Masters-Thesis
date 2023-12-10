@@ -1,0 +1,17 @@
+Key: Geschützte Navigation
+Navigation:  Navigation > Hauptnavigation >
+
+In diesem Websupport-Artikel wird beschrieben bis zu welchem  Level nur die Administratoren bearbeiten können. 
+
+BEARBEITUNG DURCH ADMINISTRATOR
+Hinweis: Die geschützte Navigation ist ein Teil der Hauptnavigation, der nur von Administratoren verändert werden kann.
+
+Hinweis: Werden englische Seiten im Level 0 und 1 angelegt, müssen dieses auch hier in der
+geschützten Navigation in zwei Sprachversionen vorliegen. Ansonsten erscheinen die englischen Seiten in der Hauptnavigation und die Folgeseiten im Fly-Out-Menü nicht.
+ 
+Der geschützte Navigationsbereich erstreckt sich über das Level 0 eins der Departemente und das Level 1 darunter im dunkelblauen Navigations-Balken.
+ 
+Alle tiefer gelegenen Seiten und Navigationseinträge (Ab Level 2 bis x) sind von der Redaktion editierbar.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_geschuetzte_navigation.htm
+

@@ -1,0 +1,15 @@
+Key: Facts-Liste erstellen
+Navigation:  Seitenelemente > Content Container > Facts-Liste
+
+Diese Anleitung beschreibt, wie man eine Fact List auf einer Standard Site, keiner Aus- oder Weiterbildungsseite, einfügen kann. 
+
+1) In den Content-Bereich klicken. Dann auf + Add to here klicken.
+ 
+Hinweis: Unter dem Kapitel "Template auf einer Seite platzieren" wird erklärt, wie die Einfüge-Buttons eingeblendet werden können.
+  
+2) Das Element Facts-List auswählen und mit Select bestätigen.
+ 
+3) Entweder wird über Create New Content eine neue Facts-List erstellt oder über Select Existing Content eine bestehende Facts-List ausgewählt. Ins Feld Name den Titel des neuen Elementes einfügen. Anschliessend die Seite mit Ctrl+S sichern.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_facts-liste_erstellen.htm
+

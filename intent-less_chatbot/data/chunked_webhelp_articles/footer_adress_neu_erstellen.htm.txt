@@ -1,0 +1,31 @@
+Key: Kontaktadresse neu erstellen
+Navigation:  Seitenelemente > Footer > Kontaktadressen >
+ 
+In dieser Anleitung wird beschrieben, wie eine neue Kontaktadresse, die auf der Website unter im Footer angezeigt wird, im Backend erstellt weden kann. 
+
+BEARBEITUNG DURCH ADMINISTRATOR
+Neue Kontaktadresse: Eine zusätzlich gewünschte Adresse kann via eMail über web-support@hslu.ch beantragt werden.
+ 
+Pfad zu den Kontaktadressen:
+1) Configuration Fenster öffnen (Ribbon > Campus > Configuration)
+2) Auf dem Zielordner Campus > Footer Adresses via Kontextmenü Insert > Quick Link wählen.
+3) Ein Name für das Link Item vergeben und OK klicken.
+ 
+ 
+1) Den Ordner Footer Adresses auswählen und im Kontext-Menüpunkt Insert > Footer Address anklicken.
+ 
+2) Dem neuen Adresse-Item einen Namen vergeben und auf OK klicken.
+ 
+Hinweis: Das Adresse-Item z.B. nach dem Departement benennen. Der Item Name wird dann auch im Adressfeld "Depatement" automatisch übernommen. Dieser kann jederzeit geändert werden.
+ 
+3) Die neue Adresse wurde als "Neue Test Adresse" angelegt. Im Inhaltsbereich können nun die Adressdaten erfasst werden. Die ersten zwei Felder werden automatisch mit dem Standardinhalt ergänzt. Diese können nachträglich geändert werden:
+ 
+Name: Hochschule Luzern
+Departement: Name des Adress-Item
+ 
+Achtung: Die Pflichtfelder werden links vom Feld rot Markiert. Hier müssen zwingend Daten eingegeben werden.
+ 
+Achtung: Beim Feld Logo und URL muss ein Logo und eine URL ausgewählt werden. Dies ist für die Google Structured Data notwendig. Das itemprop-Logo und die itemprop-URL werden jedoch im Content Editor nicht mehr angezeigt.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_footer_adress_neu_erstellen.htm
+

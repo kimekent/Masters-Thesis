@@ -1,0 +1,46 @@
+Key: Geschützte Navigation einfügen
+navigation>hauptnavigation>geschuetzte_navigation
+ 
+Admin - Content Editor
+1) Navigieren zu: sitecore > System > Configuration > Campus > www > Navigation geschützt
+2) Mit einem Rechtsklick den Befehl "Insert > Navigation Virtual" aufrufen.
+3) Den zu erstellenden Eintrag benennen.
+4) Im Content Bereich unter Navigation die Pflichtfelder ausfüllen: Insert Link, Anzeigen, Unterseiten angezeigen, Linktext (Benutzerdefiniert)
+ 
+ 
+1) Im Content Editor zum Punkt Navigation geschützt navigieren.
+ 
+
+ 
+ 
+2) Mit einem Rechtsklick den Befehl Insert > Navigation Virtual aufrufen.
+ 
+
+ 
+ 
+3) Im neuen Fenster den zu erstellenden Eintrag benennen.
+ 
+
+ 
+ 
+4) Im Content Bereich unter Navigation die Pflichtfelder ausfüllen:
+ 
+•Mit Insert Link bestimmen, welche Seite unter dem neuen Eintrag angezeigt werden soll.
+•Mit Anzeigen bestimmen, ob der Eintrag angezeigt werden soll.
+•Bestimmen, ob auch Unterseiten angezeigt werden sollen oder nur die Zielseite.
+ 
+
+ 
+ 
+ 
+Beispiel: Mit Insert Link die entsprechende Zielseite auswählen. Die weiteren Felder im Fenster können ignoriert werden.
+ 
+
+ 
+ 
+Der Navigationspunkt ist geschützt:
+ 
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_geschuetzte_navigation_einfueg.htm
+

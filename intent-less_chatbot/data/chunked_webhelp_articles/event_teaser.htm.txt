@@ -1,0 +1,11 @@
+Key: Event Teaser
+Navigation:  Seitenelemente > Template Container > Templates A, B, C, Content
+
+Content Container verwendet werden. Der Event Teaser B & C kann jeweils im entsprechenden Template hinzugefügt werden.
+ 
+Achtung: Ist ein Event vom Datum her abgelaufen, wird der Event-Teaser nicht mehr angezeigt und allfällige weitere Teaser rücken nach.
+ 
+Der Event Teaser zieht einen Event aus der Sammlung aller verfügbaren Veranstaltungen und stellt diesen als Teaser dar. Sollen mehrere Veranstaltungen gleichzeitig beworben werden, empfiehlt sich die Verwendung des Multi Agenda Teasers.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_event_teaser.htm
+

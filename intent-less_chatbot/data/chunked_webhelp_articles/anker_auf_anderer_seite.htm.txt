@@ -1,0 +1,25 @@
+Key: Anker auf einer anderen Seite
+Navigation: navigation>anker
+
+Diese Anleitung beschreibt, wie man einen Anker auf der Website setzen kann, um zu einem bestimmten Abschnitt auf einen anderen Seite zu gelangen.
+
+1) Zu einem Anker auf einer anderen internen Seite springen
+
+Beispiel mit einem Rich Text Teaser:
+ 
+1.Der Ankername mit dem "Gartenzaun-Zeichen" # auf der Zielseite kopieren, z.B. #zwischentitel
+  
+2.Den Textbereich, welcher als Ankerlink fungieren soll markieren und auf das Link-Symbol für interne Links anklicken.
+  
+3.Die interne Zielseite, auf welcher sich der Anker befindet, auswählen und auf Link klicken. Nun muss in einem weiteren Schritt die Sprungmarke angefügt werden.
+ 
+4.Den Cursor im neuen Link platzieren und auf das Link-Symbol für externe Links anklicken.
+ 
+5.Im Feld URL ganz am Schluss ohne Slash den Ankername anfügen z.B. xxxxxxx#zwischentitel
+
+Hinweis: Unter dem Register Anchor (Anker) können im Rich-Text eigene Anker definiert werden. 
+
+6.Die Seite speichern (ctrl-S)
+
+Link: https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm
+

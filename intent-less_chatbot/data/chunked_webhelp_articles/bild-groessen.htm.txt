@@ -1,0 +1,11 @@
+Key: Bildgrössen (Abmessungen)
+Navigation:  Seitenelemente > Bild
+
+Bildgrössen
+Bilder in Web12 müssen pixel-genau zugeschnitten werden mit Photoshop. Je nach Element benötigt das System eine andere Bildgrösse. Ein Moodboard-Bild hat andere Dimensionen als ein Galerie-Bild, dieses hat wieder andere Dimensionen als ein Portrait-Bild.
+ 
+Hinweis: Bilder mit falschen Abmessungen führen zu optischen Problemen. So erscheinen z.B. zu kleine Bilder auf einem schwarzen Hintergrund.
+ 
+Die Maquetten (graue Fläche mit Bilddimension) verraten die Abmessungen jedes benötigten Bildes.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_bild-groessen.htm
