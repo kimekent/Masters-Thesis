@@ -1,0 +1,30 @@
+Key: Open Graph Meta Tags
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Campus > Backend (Content Editor)
+
+In dieser Anleitung wird beschrieben, wie ein Open-Graph Bild hinterlegt werden kann das dann auf Social Media dargestellt wird. Wird kein Open-Graph Bild hinterlegt, wird einfach das Fallback Bild der HSLU angezeigt.
+
+Die Open Graph Meta Tags erlauben es Webmastern zu beeinflussen, wie ein auf Facebook, Twitter oder Google+ geteilter Inhalt in diesen Social-Media-Kanälen aussehen soll.
+ 
+HINWEIS: Das globale (wenn nichts anderes definiert) Open-Graph Bild kann durch einen Admin angepasst werden:
+ 
+Konkret bestimmt die Redaktion Folgendes:
+ 
+1.Welches Bild soll angezeigt werden?
+2.Soll ein Bild angezeigt werden?
+
+Vorgehen:
+1) Im Content-Tree zur entsprechenden Seite navigieren.
+2) Rechts im Contentbereich unter Spezial Meta Data können die Meta-Daten bearbeitet werden:
+3) Open Graph Image - Durch Klicken auf Browse kann hier ein Bild aus der Media-Library ausgewählt werden, welches dann als Open Graph Image verwendet wird.
+ 
+HINWEIS: Das Bild ist idealerweise 1200 x 630 Pixel gross oder Bildverhältnis 1.91:1. Maximum 1500px x 1500px oder 5 MB.
+ 
+4) Checkbox Open Graph Image anzeigen - Hier kann gewählt werden, ob das Bild angezeigt werden soll oder nicht.
+5) Facebook Appid - Hier kann eine App-ID von einer eigens entwickelten Applikation hinterlegt werden.
+6) Twitter Card Seite (@Username)
+7) Twitter Card Beschreibung
+8) Twitter Card Bild (min. 120px x 120px)
+9) Nach der Eingabe der Daten die Seite mit ctrl+s oder dem Save-Button sichern.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_special_meta_data.htm
+

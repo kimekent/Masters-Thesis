@@ -1,0 +1,27 @@
+Key: Multi Event Teaser einfügen
+Navigation:  Seitenelemente > Template Container > Templates A, B, C, Content > Multi Event Teaser 
+
+In dieser Anleitung wird erklärt wie ein Multi Event Teaser auf einer Seite einfgefügt werden kann. 
+
+Siehe auch: Veranstaltung erfassen (https://applsupport.hslu.ch/webhelp/hm_veranstaltung_erfassen.htm), Single Agenda Teaser (https://applsupport.hslu.ch/webhelp/hm_event_teaser_einfuegen.htm), Event Filter List konfigurieren (https://applsupport.hslu.ch/webhelp/hm_event_filter_list.htm)
+ 
+Hinweis: Sofern nicht bereits vorhanden, ein Template (A, B, C) einfügen (https://applsupport.hslu.ch/webhelp/hm_template_content_erstellen_2.htm).
+ 
+1) Multi Agenda Teaser auswählen und mit Select bestätigen.
+ 
+2) Neues Element erstellen mit Create New Content und Element benennen.
+ 
+3) Speichern (ctrl + S) und mit dem Editier-Button die den Multi Event Teaser konfigurieren.
+ 
+Hinweis: Im Template B und C wurde in der MultiEventList auf den Intro Text verzichtet.
+ 
+•Dem Multi Agenda Teaser kann ein Titel vergeben werden
+•Konfigurierbar ist die Art der Veranstaltungen, welche angezeigt werden sollen.
+•Es kann eingeschränkt werden, aus welcher Organisationseinheit Veranstaltungen kommen müssen, damit sie angezeigt werden.
+•Die maximale Anzahl der anzuzeigenden Veranstaltungen ist bestimmbar. Die Standarteinstellung ist vier.
+Achtung, beim Template C ist die maximale Anzahl auf 4 beschränkt, da das horizontale Design nicht mehr zulässt.
+•Ein weiterführender Link (etwa auf alle verfügbaren Veranstaltungen) kann optional konfiguriert werden.
+•Publish / Unpublish definiert, wann ein Multi Agenda Teaser erscheinen bzw. ausgeblendet werden soll.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_multi_event_teaser_einfueg2.htm
+

@@ -1,0 +1,9 @@
+Key: Floating Toolbar
+Navigation:  Tools > Sitecore Experience Management > Experience Editor
+
+Unter "Floating Toolbar" verstehen wir das Menü, das erscheint, wenn ein Sitecore-Element mit der Maus zum Bearbeiten ausgewählt wird. Je nachdem, welches Element gerade aktiv ist, bietet die Floating Toolbar andere Optionen.
+
+Achtung: Wird der Text formatiert eingefügt, erscheinen Warnungen. Daher den Text immer unformatiert einfügen!
+
+Link: https://applsupport.hslu.ch/webhelp/hm_symbole_.htm
+

@@ -1,0 +1,13 @@
+Key: Social Media Feeds
+Navigation:  Seitenelemente > Content Container
+
+In diesem Webhelp-Artikel ist beschrieben, was das Element Empfehl- Buttons ist.
+
+Die Hochschule Luzern unterstützt das Sharen von Inhalten über die Services Facebook, Twitter und Google Plus. Die Redaktion entscheidet, ob sie einen bestimmten Inhalt teilbar machen will.
+ 
+Anzeigbar ist eine beliebige Auswahl der drei Buttons. Die Nachricht, welche beim Sharen in den jeweiligen Services angezeigt wird, kann (und sollte) personalisiert werden.
+ 
+Auf Social Media Feeds kann im Footer der Website verlinkt werden
+
+Link: https://applsupport.hslu.ch/webhelp/hm_social_icons2.htm
+

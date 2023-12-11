@@ -1,0 +1,14 @@
+Key: Template Container
+Navigation:  Seitenelemente
+
+Macht Übersichtsseiten möglich.
+ 
+In den Template Container können die folgenden Elemente eingefügt werden:
+ 
+1.Template A, B, C und Content Container
+2.Such- und Filterlisten
+ 
+Diese wiederum verändern die Auswahl und das Aussehen der verfügbaren Elemente.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_template_container_-_moegliche.htm
+

@@ -1,0 +1,17 @@
+Key: Tools
+
+In diesem Webhelp-Artikel werden die obersten Instrumente des CMS Sitecore aufgezählt und wofür sie verwendet werden. 
+
+Das CMS Sitecore bietet der Redaktion diverse Instrumente:
+ 
+1.Content Editor: Konfigurieren, Fehlerbehebung.
+2.Experience Editor: Websites erstellen und gestalten.
+3.Desktop: Zugang zu allem Tools - analog Windows Desktop (Zugang über Startmenü).
+ 
+4.Rich Text Editor : Texte schreiben und formatieren.
+ 
+5.Media Library: Bilder und Dokumente hochladen, ablegen und beschreiben.
+6.Papierkorb: Gelöschtes wiederherstellen.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_tools.htm
+

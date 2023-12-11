@@ -1,0 +1,7 @@
+Key: Person Filter List
+Navigation:  Seitenelemente > Template Container > Such- und Filterlisten > Filter-Typen
+
+Bei der Personen Filter Liste kann man nach Departement und Kompetenzen filtern
+
+Link: https://applsupport.hslu.ch/webhelp/hm_person_filter_list.htm
+

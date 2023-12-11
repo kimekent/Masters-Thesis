@@ -1,0 +1,15 @@
+Key: Sprach-Version
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Versions
+
+In diesem Webhelp Artikel ist beschrieben, wie  es dazu kommen kann das unabsichtlich eine englische Version einer Seite erstellt wird.
+
+und wieso eine Seite scheinbar plötzlich eine englische Version besitzten kann. 
+
+ACHTUNG: Immer darauf achten, dass die Sprache beim bearbeiten einer Seite im Experience Editor oder vor allem auch imBackend (Content Editor) auf German eingestellt ist, wenn eine neue Seite erstellt wird oder eine bestehende bearbeitet wird. Wird die Sprache in "English" ausgewählt, erstellt Sitecore direkt die englische Sprachversion. Diese wird jedoch nur gespeichert, wenn eine Änderung in der Seite stattgefunden hat.
+
+Hinweis: Zwischendurch erhalten wir von euch die Mitteilung, dass Sitecore einfach eine englische Seitenversion erstellt haben soll. Ist man im Experience Editor im englischen Sprachkontext unterwegs, kann dies fast unbemerkt passieren.
+Dies kann auch geschehen, wenn jemand im Backend im englischen Sprachkontext (Versionen > English) unterwegs ist! Wird in diesem Fall irgend eine Seite angeklickt und anschliessend in den Experience Editor gewechselt (Veröffentlichen > Experience Editor), wird provisorisch eine englische Sprachversion der Seite erstellt. Achtet bitte auf den Magenta Sprachhinweis.
+Danach genügt ein einfaches Editieren der Seite (zum Beispiel den Titel anpassen) und nach dem Speichern besitzt die Seite definitiv eine englische Sprachversion.
+Also achtet bitte  darauf, unter welchem Sprachkontext ihr arbeitet! Wir empfehlen, nach dem Editieren einer englischen Seite die Sprache sofort wieder auf Deutsch umzustellen.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_sprachzentrum_isa_site_erstell.htm

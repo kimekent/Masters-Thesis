@@ -1,0 +1,13 @@
+Key: Kontaktadressen
+Navigation:  Seitenelemente > Footer
+
+In dieser Anleitung wird beschrieben, wo, in welchem Ordner, die Kontaktadressen, die untem im Footer auf den Websiten sichtbar sind im Backend gespeichert sind und wie eine Änderung dieser Adressen beantragt werden kann.
+
+Pfad im Page-Editor: Ribbon-Menü > Campus > Configuration > Campus > Footer Adresses
+ 
+Neue Kontaktadresse: Eine zusätzlich gewünschte Adresse kann via eMail über web-support@hslu.ch beantragt werden.
+ 
+Änderungen Kontaktadresse: Änderungen an einer bestehenden Adresse können via eMail über web-support@hslu.ch beantragt werden.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_footer_adresses_-_system.htm
+

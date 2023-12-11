@@ -1,0 +1,40 @@
+Key: Bestehendes Formular anpassen
+content2>content_-_moegliche_items>formulare>sitecore-formulare
+ 
+Mit dem Form-Designer besteht die Möglichkeit, das bestehende Formular zu modifizieren.
+ 
+ 
+Hinweis: Wie sie die Formular-Reports auswerten und exportieren können wird im Kapitel "Formulare Reports auswerten bzw. exportieren" erläutert.
+ 
+Hinweis: Wie mit dem Form Designer gearbeitet werden muss, wird in der Sitcore Dokumentation erklärt.
+ 
+
+ACHTUNG: Bei der Eingabe der Email Adressen muss darauf geachtet werden, dass keine Leerschläge vor, zwischen oder nach den Emailadressen vorhanden sind. Auch darf nach der letzten Email kein ; angefügt werden, da sonst das Formular nicht funktioniert und folgende Fehlermeldung auftaucht:
+ 
+ 
+ 
+Bsp. To:Abc@hslu.ch;def@hslu.ch;ghi@hslu.ch             korrekt
+ 
+Bsp. To:Abc@hslu.ch; def@hslu.ch; ghi@hslu.ch ;        falsch
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+Achtung: Wird z.B. beim Feld "To" keine Email-Adresse oder kein Email Platzhalter hinterlegt, kann dies beim Ausfüllen des Formulars zum folgender Fehlermeldung führen:
+ 
+
+ 
+
+Link: https://applsupport.hslu.ch/webhelp/hm_bestehendes_formular_anpassen.htm
+

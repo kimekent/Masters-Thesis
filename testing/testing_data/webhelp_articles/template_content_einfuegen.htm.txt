@@ -1,0 +1,17 @@
+Key: Template Content wird autom. integriert
+Navigation:  Seitenelemente > Template Container > Template auf einer Seite platzieren
+
+In dieser Anleitung wird allgemeien erklärt wie ein Element eingefügt werden kann.
+
+Template Content und mögliche Element platzieren:
+Hinweis: Das Template Content beinhaltet zwei Container und wird bei jeder neuen Seite automatisch integriert:
+ 
+•Content Container
+•Sidebar Container
+
+1) In den karierten Bereich vom z.B. Content Container oder Sidebar Container klicken und wieder auf den + Add to here Button klicken.
+
+2) Die mögliche Inhalte vom Content Container werden angezeigt und können verwendet werden.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_template_content_einfuegen.htm
+

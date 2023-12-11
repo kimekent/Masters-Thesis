@@ -1,0 +1,257 @@
+Unnamed: 0,Incident-ID,Status,Betreff,Beschreibung,Lösungsbeschreibung,Anfrageart,Gelöst Dauer in h,Erstellt Datum Zeit,Incident-Typ,Herkunft,edited,intent,webhelp article,webhelp article 2,webhelp article 3,webhelp article 4
+398.0,20201221-0080,Geschlossen,"Landingpage, die nicht in der Navigation auftaucht","Ich möchte auf unserer Webseite eine Landingpage erstellen, die nicht in der Navigation auftaucht. Wie macht man das?","Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. ",Dokumentation nicht gelesen,0.64,21.12.2020 12:53,Service Request,E-Mail,yes,navigation edit visibility,https://applsupport.hslu.ch/webhelp/index.html?hm_navigations_options-ribbon.htm,,,
+,20200506-0146,Geschlossen,News SA Bildergalerie,"Ich wollte für die SA eine News aufschalten mit Bild. 
+Aber ich scheine keine Rechte für das Erstellen einer Bildergalerie zu haben.
+Was mache ich falsch? LG Anette
+Die News ist hier angelegt
+https://stage-www.hslu.ch/?sc_itemid={2ac7fad5-087b-4c02-8121-2dc966fc3f0e}&sc_lang=de-CH&sc_db=master&sc_device={fe5d7fdf-89c0-4d99-9aa3-b5fbd009c9f3}&sc_mode=edit&sc_site=campus_www&sc_ee_fb=false
+","Du musst einen Unterordner anwählen, du kannst nicht auf der obersten Ebene eine Bildergalerie anlegen. ",Dokumentation nicht gelesen,6.81,06.05.2020 18:52,Service Request,E-Mail,no,picture gallerie insert,no,,,
+469.0,20220105-0009,Geschlossen,Master Webseite MSC BA PNP,"Komischerweise existiert neu eine ""englische"" Webpage der Master PNP Webseite.
+ Dies jedoch völlig schräg und falsch. Können wir die Englische Seite schnellstmöglich wieder deaktivieren?
+ Frueher gab es nur die Deutsche Seite, was auch richtig ist.
+","Hier eine Anleitung wie Sprachversionen von Seiten gelöscht werden können: Den Content Editor starten (Ribbon-Menü > Campus > Backend):
+
+1) Im Item-Tree die entsprechende Seite wählen und im Ribbon Menü zum Tab Versions wechseln.
+
+2) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass eine deutsche und eine englische Version der Seite vorhanden sind.
+
+3) Durch klicken auf den grossen Sprachbutton zur löschenden Sprachversion wechseln (hier im Beispiel englisch).
+
+4) Auf den Button Remove klicken.
+
+5) Es erscheint ein Warnhinweis, ob die Version entfernt werden soll. Wenn Sie sicher sind, auf OK klicken.
+
+6) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass die englische Version gelöscht wurde. Bei Englsh:Englisch steht 0 versions.",Dokumentation nicht gelesen,1.01,05.01.2022 08:18,Service Request,E-Mail,yes,site delete english,https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm,,,
+509.0,20220908-0112,Geschlossen,Neue IKM Weiterbildungsseite,"Wir möchten gerne alte Seiten mit einer neuen Seite ersetzen.
+Kann man die alte einfach löschen oder wie ist das genaue Vorgehen bei einem solchen Wechsel?
+","Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu löschen kann so vorgegangen werden:
+ 1) Auf die zu löschende Seite navigieren und im Ribbon-Menü den Befehl ""Home > Delete Page"" aufrufen.
+2) Den Warnhinweis lesen und gegebenenfalls auf OK klicken.
+3) Zeigen Links auf dieses Seite, erscheint ein weiteres Hinweisfenster. Es muss entschieden werden, was mit diesen Linkst geschehen soll 
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm)",Dokumentation nicht gelesen,1.69,08.09.2022 13:53,Service Request,E-Mail,yes,site delete,https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm,,,
+557.0,20230725-0026,GelÃƒÆ’Ã‚Â¶st,WG: Website MSc Banking and Finance,"
+ Wir werden den MSc in Banking and Finance in Zukunft nur noch auf Englisch anbieten. Deshalb werden wir auch die Website des MSc BF wohl etwas umstellen. Die Deutsche Version behalten wir vermutlich noch bei (damit sie bei Suchen in Deutsch weiterhin gefunden wird. Ist diese Anpassung ueberhaupt möglich? 
+ Falls nein, welche nicht und was kann angepasst werden?
+ ","Gemäss der Web Governance, müssen alle Inhalte auch auf Deutsch vorhanden sein. Daher muss von jeder Seite, jedem Element auf der Seite und jeder Datei immer eine deutsche Version vorliegen. Dies wurde technisch so umgesetzt, dass eine englische Seite nur erstellt werden, kann wenn bereits eine deutsche vorliegt. Ist diese noch nicht vorhanden, wird sie beim Erstellen der englischen Seite automatisch erstellt. Das gleiche gilt auch für Seiten Elemente. Bei Dateien erscheint eine Fehlermeldung wenn keine deutsche Version in der Media Library hochgeladen wurde.
+Englische Seitenversionen sollten bei mindestenst den obersten beiden Ebenen der Website vorliegen. Dazu gehört die Stufe der Departemente (und des Daches) ebenso wie die Stufe ""Studium, Forschung, Dienstleistungen...""",Dokumentation nicht gelesen,15.73,25.07.2023 08:46,Service Request,E-Mail,yes,german english site,https://applsupport.hslu.ch/webhelp/index.html?hm_sprachversion.htm,,,
+405.0,20210308-0051,Geschlossen,Shortcuts,"Gerne möchte ich nachfragen, ob es fuer die nachfolgende Seite bereit einen Shortcut gibt? 
+ https://www.hslu.ch/de-ch/technik-architektur/institute/innenarchitektur/forschungsgruppe-innenarchitektur/
+ Gibt es da eine Möglichkeit dies selber nachzulesen? 
+ ","Um zu sehen, welche Shortcuts zu einer bestimmten Seite fuehren, kann man im Backend in der Ordnerstruktur die Seite auswählen und im Reiter ""Navigation"" ""Links"" anklicken. Dort werden dann alle Verlinkungen, die auf die Seite fuehren aufgelistet.
+ 
+ ",Dokumentation nicht gelesen,6.2,08.03.2021 09:47,Service Request,E-Mail,yes,shortcut for site lookup,no,,,
+,20150319-0034,Geschlossen,PDF Problem,"Ich bin es nochmals, von der Animation...
+Das PDF lässt sich noch immer nicht downloaden, obwohl ich es im Teaser als Media Link verankert habe
+ 
+Kannst Du mir helfen?
+","Sind die Änderungen bereits öffentlich? Es gibt pro Tag 2 Veröffentlichungszyklen, jeweils um 00:05 Uhr sowie um Mitternacht. 
+Änderungen die bis 12:04 gemacht werden, werden am Mittag veröffentlicht, alle späteren gehen erst um Mitternacht online. 
+",Dokumentation nicht gelesen,0.78,19.03.2015 10:47,Service Request,E-Mail,no,publishing,https://applsupport.hslu.ch/webhelp/index.html?hm_publishing.htm,,,
+296.0,20180703-0044,Geschlossen,Wie komme ich zur Schulungsversion?,"
+ Wie komme ich schon wieder zum Schulungsversion?
+ ","Das Login ist das normale HSLU-Login, man muss aber immer campus\ vor den Benutzernamen schreiben
+- Login-Seite Live: [https://stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)
+- Login-Seite Schulungsumgebung: [https://int-stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)""",Dokumentation nicht gelesen,6.03,03.07.2018 09:41,Service Request,E-Mail,yes,login,https://applsupport.hslu.ch/webhelp/index.html?hm_login.htm,,,
+500.0,20220707-0070,Geschlossen,Ãƒâ€žnderung URL,"Da unsere Fachbereiche im Zuge der Curriculumsentwicklung z.T. neue Namen erhalten, brauchen wir auch neue URLs fuer folgende beiden Seiten:
+ https://www.hslu.ch/de-ch/design-kunst/studium/studienuebergreifende-module/theorie/
+ wird neu heissen:
+ https://www.hslu.ch/de-ch/design-kunst/studium/studienuebergreifende-module/reflect(/
+ 
+ https://www.hslu.ch/de-ch/design-kunst/studium/studienuebergreifende-module/ida-im-bachelor/
+ wird neu heissen:
+ https://www.hslu.ch/de-ch/design-kunst/studium/studienuebergreifende-module/colabor/
+ Wie können wir da vorgehen? Ich habe die URLs im Moment noch nicht geändert.
+","Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um URL zu ändern, kann so vorgegangen werden:
+1) Im Dialog die gewünschte URL eingeben. Soll eine URL auf die ursprüngliche Zeichenfolge zurückgesetzt werden, ist hier ein Stern (*) einzugeben.
+2) Der Button ""Validieren"" zeigt, wie der letzte Teil der URL (http://www.hslu.ch/Neue-URL) neu in der Adresszeile aussehen wird. Bei der Validation fallen Sonderzeichen (""/,#@...) weg, Umlaute (""ö, ü, ä"") werden ausgeschrieben (""ö, ue, ä"") und Leerschläge durch Bindestriche (""-"") ersetzt.
+3) Durch Klicken auf OK wird die URL entsprechend angepasst.
+Mehr Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_url_bearbeiten.htm)
+",Dokumentation nicht gelesen,15.69,07.07.2022 10:51,Service Request,E-Mail,yes,url change,https://applsupport.hslu.ch/webhelp/index.html?hm_url_bearbeiten.htm,,,
+133.0,20160624-0043,Geschlossen,Versionierung Teaser,"https://stage-www.hslu.ch/en/lucerne-school-of-music/agenda/veranstaltungen
+ Hoihoi
+ Auf der Agendaseite des Dept. Musik hab ich einen Teaser eingefuegt, worauf ich die englischsprachigen User aufmerksam mache, dass die Veranstaltungen nur auf der deutschen Agenda-Seite sichtbar sind. Ich habe den Teaser erstellt, aber nur eine englische Version gemacht. Trotzdem erscheint der nicht-erwuenschte Teaser auf der deutschen Seite. Weshalb?
+ ","Deutsche und englische Seiten haben immer die gleiche Struktur. 
+So lange von einem Element keine englische Version existiert, wird auf der englischen Seite die deutsche Version von diesem Element dargestellt (Fallback). Auf der englischen Seite ganz oben, wird man durch den Hinweis ""Some content is not available in englisch"" darauf aufmerksam gemacht. 
+Wird ein Element gelöscht, dann wird es automatisch bei beiden Sprachversionen gelöscht. 
+Die Erzeugung von einer englischen Version von einem Item erfolgt automatisch, sobald auf der englischen Seite bei diesem Item etwas geändert und gesichert wird.
+",Dokumentation nicht gelesen,0.25,24.06.2016 14:30,Service Request,E-Mail,yes,german english site structure,https://applsupport.hslu.ch/webhelp/index.html?hm_sprachversion.htm,,,
+394.0,20201116-0124,Geschlossen,Video auf Youtube,"Könnt ihr bitte den Clip hier: 
+ T:\ds\06 Marketing-Kommunikation\0604 Design & Kunst\Bachelor Industrie-und Produktdesign\BA XS Schmuck\Film Doux Leurre 2020
+ Auf Youtube stellen und den Link mir und Salome senden?
+ Titel: Pauline Mueller, Bachelor XS Schmuck 2020, DOUX LEURRE
+ Text: Vergängliche und extravagante Gesichtsmetamorphosen // Ephemeral and flamboyant facial metamorphosis
+ Link https://www.hslu.ch/de-ch/design-kunst/studium/bachelor/xs-schmuck/bachelor-arbeiten/pauline-mueller/
+ ",Für Anfragen zu YouTube kannst du dich an das Social Media Team wenden [socialmedia@hslu.ch](socialmedia@hslu.ch),Dokumentation nicht gelesen,3.57,16.11.2020 14:34,Service Request,E-Mail,yes,YT,no,,,
+507.0,20220902-0099,Geschlossen,Anastasia Stamatiou,"Bei der Personensuche ist die Person X verschwunden. Die Person muesste ich als Studiengangleiterin einfuegen. Könnt ihr schauen, was mit der Person passiert ist?
+ ","Die Personenprofile werden direkt aus dem Evento herausgezogen. Wenn eine Person also nicht in der Suche auftaucht, kläre am besten mit dem Sekretariat ab, ob diese Person im Evento richtig erfasst wurde.
+ ",Dokumentation nicht gelesen,0.33,02.09.2022 11:40,Service Request,E-Mail,yes,contact search,no,,,
+70.0,20151027-0024,Geschlossen,Collaborative leadership lab,"
+ Ich bin dabei einige Anpassungen bei der englischen Seite des Collaborative leadership lab zu machen.
+ Nun kommt in dieser Box beim Flyer immer: (Only in German). Wie kann ich das entfernen?
+ 
+ ","Damit der Hinweis ""only in German"" verschwindet, musst du in der Media Library vom Dokument eine englische Version anlegen. In der Media-Library ist es möglich, von einem Bild- oder Dokument-Item auch eine Sprachversion (EN) zu erstellen. So kann kann z.B. bei einem PDF-Item in der englischen Version auch ein englisches Dokument hochgeladen werden. Wird solch ein File-Item, zum Beispiel mit einer Link und Download Liste verlinkt, stellt Sitecoreautomatisch das richtige Dokument (PDF) entsprechen der aktuellen Sprache zur Verfügung. Dazu musst du in der Media Library in demselben Item, indem sich die deutsche Version befindet, die Sprache oben Rechts wechseln und dann das englische Dokument dort anhängen. Mehr dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_file-item-englische-version-er.htm)",Dokumentation nicht gelesen,9.14,27.10.2015 11:21,Service Request,E-Mail,yes,only in german,https://applsupport.hslu.ch/webhelp/index.html?hm_file-item-englische-version-er.htm,,,
+538.0,20230213-0143,Geschlossen,Teilen-Button," Wenn ich diesen Event ueber FB teilen möchte, erscheint im Post folgendes Bild: 
+ 
+ Bei der Erfassung des Events haben wir kein solches Bild hinterlegt. Passiert das automatisch? Ich möchte das unbedingt ändern. 
+ Please help!
+","Wenn kein Open Graph Bild auf der jeweiligen Seite hinterlegt ist, wird automatisch das Standardbild angezeigt. Um ein benutzerdefiniertes Bild anzuzeigen kann wie folgt vorgegangen werden: 
+1) Im Content-Tree zur entsprechenden Seite navigieren.
+2) Rechts im Contentbereich unter Spezial Meta Data können die Meta-Daten bearbeitet werden.
+3) Open Graph Image - Durch Klicken auf Browse kann hier ein Bild aus der Media-Library ausgewählt werden, welches dann als Open Graph Image verwendet wird. Das Bild ist idealerweise 1200 x 630 Pixel gross oder Bildverhältnis 1.91:1. Maximum 1500px x 1500px oder 5 MB.
+4) Checkbox Open Graph Image anzeigen - Hier kann gewählt werden, ob das Bild angezeigt werden soll oder nicht. 
+Weitere Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/hm_special_meta_data.htm?zoom_highlightsub=open+graph+bild)
+ 
+ Evtl. musst du nach dem Einfuegen des Bildes den Link zu deiner Seite einmalig fuer die SoMe Plattformen bereinigen mit den folgenden Links:
+ Facebook: https://developers.facebook.com/tools/debug/
+ Twitter: https://cards-dev.twitter.com/validator
+ LinkedIn: https://www.linkedin.com/post-inspector/
+ Danach sollte dein Bild angezeigt werden.
+ ",Dokumentation nicht gelesen,2.04,13.02.2023 16:24,Service Request,E-Mail,yes,open graph,https://applsupport.hslu.ch/webhelp/index.html?hm_special_meta_data.htm,,,
+389.0,20200923-0070,Geschlossen,Probleme mit dem Toggel-Text,"Ich habe auf der EN Unterseite der ICTB Konferenz bereits zwei Mal den Inhalt der 5 Topics durch fuenf Toggel-Texte ersetzt und das Textfeld mit dem Zusammenzug aller Topics entfernt. 
+Doch bereits zwei Mal hat es bei der Aktualisierung der Webseite die Toggel-Texte rausgehauen und das alte Textfeld reingenommen und dementsprechend live geschaltet.
+Wisst ihr woran das liegt und wie man dies beheben kann?
+ ","Wenn Elemente von der Seite verschwinden, kann es an den publish Einstellungen liegen oder die Elemente wurden nur in der englischen Version erfasst. 
+Die Publishing Einstellungen können so geprüft werden: Element anklicken und das Edit-Icon auswählen. Im neuen Fenster können unter anderem unter Publish / Unpublish die Publish Einstellungen bearbeitet werden. Mehr dazu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm)
+Auf einer DE und EN  Seite müssen immer die gleichen Elemente platziert werden. Sonst wird die englische Version immer von der deutschen überschrieben.
+
+ ",Dokumentation nicht gelesen,4.49,23.09.2020 11:30,Service Request,E-Mail,yes,element missing,https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm,https://applsupport.hslu.ch/webhelp/index.html?hm_sprachversion.htm,,
+209.0,20171110-0060,Geschlossen,FrÃƒÆ’Ã‚Â¶gli,"
+ Ich hab heute meinem Gottikind den Link zu den Musik-Info-Tagen weitergeschickt via Handy. Hab auch grad via Handy die Seite www.hslu.ch/m-info-tage besucht. Wieso sieht man das Moodboard nicht? Hinterlegt haben wir es nämlich. 
+ ","Für mobile und Desktop sind unterschiedliche Moodboards zugewiesen. Die sind nicht automatisch gleich und müssen bei mobile und bei Desktop separat zugewiesen bzw. entfernt werden. Wird das Moodboard in der mobilen Version falsch oder gar nicht angezeigt, liegt es oft daran, dass kein mobiles Moodboard erstellt wurde oder dieses nicht vollständig konfiguriert wurde. 
+1. In der Media Library muss ein seperates Bild für die Desktop und MoileMoodboardversion hochgeladen werden. 
+2. Beim Zuweisen von Bild zum Moodboard, muss bei mobile das mobile Bild ausgwählt werden.
+3. Bei den Page Options muss der Seite sowohl ein Desktop Moodboard als auch ein mobiles Moodboard zugewiesen werden. 
+Hier die Anleitungslinks dazu:
+https://applsupport.hslu.ch/webhelp/hm_neues_bild_direkt_hochladen.htm
+https://applsupport.hslu.ch/webhelp/index.html?hm_eigene_und___oder_shared_slide.htm",Dokumentation nicht gelesen,0.0,10.11.2017 12:08,Service Request,E-Mail,yes,moodboard mobile,no,,,
+316.0,20180830-0099,Geschlossen,Layout auf IFZ Startsite,"Wir haben den pinken Kasten auf der IFZ Startsite entfernt und ""Hochschule Luzern Standard"" ausgewählt. Leider sieht dieser graue Balken sehr unschön aus. Was muss ausgewählt werden, dass dieser graue Balken verschwindet? 
+","Die Infobox muss wieder ueber die Page Options von der Seite gelöst werden (so wie sie hinzugefuegt wurde).
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon Sitecore_btn_window_refresh neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+Hier die Anleitung mit Bilder: [https://applsupport.hslu.ch/webhelp/index.html?hm_infobox_löschen.htm](https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm?zoom_highlightsub=infobox).",Dokumentation nicht gelesen,5.6,30.08.2018 14:41,Service Request,E-Mail,yes,info box delete,https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm?zoom_highlightsub=infobox).,,,
+344.0,20190903-0045,Geschlossen,"Platzierung eines Videos an leere Stelle nicht mÃƒÆ’¶glich, ob wohl eine Reihe vorher und nachher kein P","Gestern habe ich im Sitecore 5 neue Videos auf der Webseite des EMBA Luzern geladen.
+ https://www.hslu.ch/de-ch/wirtschaft/weiterbildung/mas/ibr/executive-mba-luzern/testimonials/
+ Bereits im Bearbeitungsmodus war es mir nicht möglich, in der mittleren Reihe zwei Videos nebeneinander zu platzieren. Bei der ersten und der zweiten Reihe ging das ohne Probleme. Auch war es nicht möglich, ein Video an den leeren Platz zu verschieben, da mir die Verschiebung nur an die Stellen möglich war, wo es bereits Videos hatte.
+ ","Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ ",Dokumentation nicht gelesen,0.37,03.09.2019 09:05,Service Request,E-Mail,yes,break,https://applsupport.hslu.ch/webhelp/index.html?hm_geschuetzten_umbruch_einfuegen.htm,,,
+14.0,20150728-0041,Geschlossen,Titel im englischen Personenprofil,"
+ Ich möchte gerne wissen, ob der Titel des Personenprofils in Englisch aus dem Evento gezogen wird oder ob dieser manuell selbstständig gepflegt wird:
+ 
+ 
+ ","Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)",Dokumentation nicht gelesen,17.96,28.07.2015 14:50,Service Request,E-Mail,yes,contact edit,no,,,
+,20210512-0139,Geschlossen,Verlinkungen_funktionieren nicht,"Das CC «Fluidmechanik und Hydromaschinen» ändert nun seinen Namen auf CC «Fluidmechanik und numerische Methoden». Ich habe das URL auf ihrer Seite angepasst, reicht das, oder soll noch etwas im System gemacht werden, oder die Verlinkungen angepasst oder noch was?
+","Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite umzubennenen, kann so vorgegangen werden:
+Um Seiten nach deren Erstellung umzubenennen ins Backend navigieren
+Im Backend zur umzubenennenden Seite navigieren und den Befehl ""Home > Rename"" wählen und im folgenden Dialog den neuen Seiten-Namen inklusive Präfix eingeben.
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_umbenennen.htm)",Dokumentation nicht gelesen,1.41,12.05.2021 15:35,Service Request,E-Mail,no,site rename,https://applsupport.hslu.ch/webhelp/index.html?hm_seite_umbenennen.htm,,,
+542.0,20230330-0045,Geschlossen,Kontaktperson,"
+ Wieso erscheint hier kein Foto?
+ 
+ Besten Dank fuer Eure Antwort.
+ ","Anpassungen am Personenprofil muss jede Person selber machen https://personenprofile.hslu.ch/. Bei jedem Personenprofil kann auch angegeben werden, ob die Person über die Personensuche gefunden werden sollte oder nicht. Manche Daten im Personenprofil kommen direkt aus Evento und müssen daher in Evento angepasst werden, so wie z.B. das Foto.",Dokumentation nicht gelesen,2.29,30.03.2023 10:51,Service Request,E-Mail,yes,contact personal profile responsibility,no,,,
+434.0,20210811-0017,Geschlossen,Seite wird nicht angezeigt/Shortcut fÃƒÆ’Ã‚Â¼r neue Seite,"Wir haben die folgende Seite neu gebaut: 
+https://stage-www.hslu.ch/de-ch/technik-architektur/ueber-uns/organisation/kompetenzzentren-und-forschungsgruppen/bau/kompetenzzentrum-gebäudehuelle-und-ingenieurbau/gebäudehuelle/veranstaltungen/fassadentagung/
+ und haben sie eigentlich hier https://stage-www.hslu.ch/de-ch/technik-architektur/ueber-uns/organisation/kompetenzzentren-und-forschungsgruppen/bau/kompetenzzentrum-gebäudehuelle-und-ingenieurbau/gebäudehuelle/
+im rechten Call-To-Action- Teaser unter "" Unser Angebot"" verlinkt. Live erscheint es jedoch nicht. Könnt ihr mir hier vielleicht weiterhelfen?","Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl ""Campus > Publish Options"" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+
+Im Feld ""Publish"" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld ""Unpublish"" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox ""Never publish"" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ ",Dokumentation nicht gelesen,4.82,11.08.2021 08:21,Service Request,E-Mail,yes,site not published,https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm,,,
+328.0,20190416-0014,Geschlossen,Rich Text Teaser,"Der Rich Text Teaser wird auf dieser Seite in der Desktop Ansicht in zwei Spalten angezeigt. https://www.hslu.ch/de-ch/wirtschaft/agenda/veranstaltungen/2019/04/09/ikm-update-gelebte-interkulturelle-kompetenz/ 
+Ich möchte gern, dass der Text auf die gesamte Breite anzeigt wird. Wie kann ich das anpassen?
+","Falls ein Rich Text Teaser / Manueller Teaser verwendet wurde, ist darauf zu achten, dieser bei einer 100% Einstellung ab ca. drei Zeilen Text immer zweispaltig angezeigt wird. Fuer einspaltigen Fliesstext kann das Element ""Formatierter Text mit Bild"" verwendet werden. Dieser funktioniert auch ohne Bild. In diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm) findest du ganz zuunterst noch eine Auflistung welche Text-Elemente dopptelspaltig und welche einspaltig dargestellt werden.",Dokumentation nicht gelesen,2.42,16.04.2019 08:53,Service Request,E-Mail,yes,rich text teaser two columns,https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm,,,
+205.0,20171017-0009,Geschlossen,"englische Seite mit Hinweis ""some content is not...""",https://www.hslu.ch/de-ch/hochschule-luzern/ueber-uns/standorte/raum-mieten/zug/,"Falls alle Texte auf englisch übersetzt wurden, und die Meldung 'Some Content is only available in German' immer noch erscheint, liegt es daran, dass es von mindestens einem Element auf der Seite noch keine Englische Version gibt. Damit die Meldung verschwindet muss von jedem Element, auch Bilder und PDFs, eine englische Version erstellt werden. Im Backend kannst du jedes Element durchgehen und so leicht nachschauen, welche Items noch keine englische Version besitzt.
+Oftmals ist es der Kontaktteaser. Es sieht auf englisch dann korrekt aus, weil Sitecore automatisch die korrekte Berufsbezeichnung übernimmt, Sitecore merkt aber auch, dass nichts angepasst wurde und geht dann davon aus, dass es noch deutsch ist. Es muss dann einfach eine englische Version davon im Backend angelegt werden. 
+Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Bitte auch die Alt-Texte der Bilder kontrollieren.  
+[Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.",Dokumentation nicht gelesen,15.03,17.10.2017 08:22,Service Request,E-Mail,yes,some content is only available in english,no,,,
+387.0,20200917-0080,Geschlossen,HSLU D&K - Infos fÃƒÆ’Ã‚Â¼r Studierende,"Auf der Unterseite der Studierendenberatung sollte der gelb markierte Text wie in der Vorschau ueber die ganze Breite (100%) erscheinen. Gemäss Vorschau (screenshot 2) will das einfach nicht klappen, auch in der live-Version ist dieser in zwei Spalten.
+","Falls ein Rich Text Teaser / Manueller Teaser verwendet wurde, ist darauf zu achten, dieser bei einer 100% Einstellung ab ca. drei Zeilen Text immer zweispaltig angezeigt wird. Fuer einspaltigen Fliesstext kann das Element ""Formatierter Text mit Bild"" verwendet werden. Dieser funktioniert auch ohne Bild. In diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm) findest du ganz zuunterst noch eine Auflistung welche Text-Elemente dopptelspaltig und welche einspaltig dargestellt werden.",Dokumentation nicht gelesen,0.13,17.09.2020 09:50,Service Request,E-Mail,yes,rich text teaser two columns,https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm,,,
+91.0,20151209-0082,Geschlossen,Bilder in Sitecore mit Fehlermeldung,"
+ Auf Sitecore wird mir fuer alle Bilder auf dieser Seite eine Fehlermeldung (Das Bild ist nicht weboptimiert) ausgegeben:
+ https://www.hslu.ch/de-ch/wirtschaft/ueber-uns/institute/ikm/themenfelder/
+ bzw.
+ https://stage-www.hslu.ch/de-ch/wirtschaft/ueber-uns/institute/ikm/themenfelder/ 
+ Allerdings habe ich nicht herausgefunden, wo das Problem liegt.
+ Was sollte ich ändern bzw. gab es Änderungen, die dieses Problem aufgedeckt haben?
+","Um Fehlermeldungen bei Bildern zu vermeidern, muss das Bild auf die richtige Grösse zugeschnitten werden, progressiv gespeichert werden und ohne Sonderzeichen benannt werden (Umlaute und Klammern sind z.B. nicht erlaubt).  
+- Die Maquetten visualisieren, zu welchem Format ein Bild zugeschnitten werden muss. Zudem findest du hier eine Auflistung aller Bildergrössen: [https://applsupport.hslu.ch/webhelp/index.html?hm_maquetten.htm](https://applsupport.hslu.ch/webhelp/index.html?hm_maquetten.htm)
+- Hier steht beschrieben, wie die Bilder aufbereitet werden müssen: [http://applsupport.hslu.ch/web12/index.html?hm_photoshop.htm](http://applsupport.hslu.ch/web12/index.html?hm_photoshop.htm)
+- Hier die Anleitung zur Namenskonvention [https://applsupport.hslu.ch/webhelp/index.html?hm_präfixe_dateinamen.htm](https://applsupport.hslu.ch/webhelp/index.html?hm_präfixe_dateinamen.htm)
+ ",Dokumentation nicht gelesen,0.38,09.12.2015 15:02,Service Request,E-Mail,yes,picture error,no,,,
+,20150717-0062,Geschlossen,MAS Risk Management,"Ich habe nochmals ein Anliegen:
+Ingo Stolz hat mich gebeten, den MAS Risk Management momentan von der Website zu nehmen.
+Dieser soll dann aber Anfang August wieder aufgeschaltet und angepasst werden.
+ 
+Wie muss ich vorgehen, damit er momentan auf der Website nicht sichtbar ist?
+","Wenn eine Seite live auf der Website nicht angezeigt werden sollte, hat man Im Page Editor unter Campus > Publish Options zwei Möglichkeiten:
+1. Du setzt ein Datum, an dem die Seite veröffentlicht werden soll
+2. Du aktivierst die Checkbox ""never publish"". Dann musst du einfach, sobald die Seite veröffentlicht werden soll, die Checkbox wieder deaktivieren. Achtung: Alle Untergeordneten Seiten werden auch nicht sichtbar sein.
+Zu beachten: Falls die Seite bei Google bereits indexiert wurde, bleibt die Seite weiterhin dort aufgeführt,und die Klicks führen dann ins Leere. Bei beliebten Seiten mit viel Aufrufen, sollte daher bei Bedarf eine Umleitung eingerichtet werden.
+Mehr Infos dazu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm)",Dokumentation nicht gelesen,1.57,17.07.2015 11:47,Service Request,E-Mail,no,site deactivate,no,,,
+474.0,20220120-0012,Geschlossen,Anmeldelink fÃƒÆ’¼r Info-V. auf Produkte-Webseite verschwunden,"Gestern hatte ich eine Info-Veranstaltung und plötzlich ist mir aufgefallen, dass am Nachmittag (möglicherweise auch schon am Vormittag), die Info-Veranstaltung auf der Produkt-Webseite fehlte. Dies, obwohl ich im Evento eingestellt habe, dass man sich bis heute anmelden kann. Unter den «Veranstaltungen» war der Anmeldelink jedoch noch zu finden. Wisst ihr an was das liegt? Wie kann ich sicherstellen, dass der Anmeldelink auch auf den Produkt-Webseiten sicher bis zum Zeitpunkt der Veranstaltung publiziert ist? 
+
+","Wenn ein Agendaeintrag nicht (mehr) im Call to Action Teaser auftaucht, könnte es an der ""Start-Zeit-Problematik"" liegen. Bei WeVe Anmeldungen kann es an den Einstellungen des Agendaeintrags liegen.
+Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit des Ereignisses im Call to Action Teaser. Wurde sowohl keine Startzeit also auch keine Endzeit für den Event festgelegt, dann bleibt der Event bis 00:00h im Call to Action Teaser. Danach wird er weder in der Filterliste, noch im automatischen CtA-Teaser angezeigt (live ist er weiterhin).
+Damit die Anmeldung über ONLA / WeVe funktioniert, muss die Evento ID in der Facts-Liste auf der Produktseite hinterlegt werden und beim Call to Action Teaser die Checkbox  ""Kontextabhängige Informationen aus Evento anzeigen"" aktiviert aktiviert sein (Standard)! Bei einer deaktivierten Checkbox, wird entsprechend kein Link bzw. Status Meldung angezeigt. Mehr dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_links_der_linkliste_zuweisen.htm)
+",Dokumentation nicht gelesen,9.02,20.01.2022 07:29,Service Request,E-Mail,yes,event not in call to action,https://applsupport.hslu.ch/webhelp/index.html?hm_links_der_linkliste_zuweisen.htm,,,
+369.0,20200508-0067,Geschlossen,Frage Pop Up Grafik,"Beim Bild unten MAS Grafik, habe ich den Haken bei Pop up gesetzt, aber wenn ich drauf klicke, geht es jetzt nicht. Habe ich etwas vergessen?
+/
+ ","Um ein Bild einzufügen, das beim Draufklicken grösser dargestellt wird, kann ein manueller Teaser oder eine Bildergeschichte (mehrere Bilder ) eingefügt werden. Beim Bearbeiten muss die Checkbox ""Link (nur Bilder via Media Link) in Popup vergrössern"" ausgewählt werden. Das vergrösserte Bild muss als Link ausgewählt werden.
+Falls der Haken bei ""Link (nur Bilder via Media Link) in Popup vergrössern"" gesetzt wurde aber das Bild beim Draufklicken nicht grösser dargestellt wird, liegt es wohl daran, dass das Bild noch nicht in der grossen Version hochgeladen wurde. Damit dar Popup funktioniert, muss das Bild 1x in der vorgegebenen Grösse für den Teaseroder die Bildergeschichte hochladen werden und 1x in der Grösse, wie es vergrössert dargestellt werden soll. Wenn der Teaser dann bearbeitet wird, kann im Bereich  ""Link"" durch die Funktion  ""Insert Media Link"" das grössere Bild und die Checkbox ""Link in Popup vergrössern"" ausgewählt werden. Dadurch wird das grössere Bild beim Klick auf das Teaserbild angezeigt.",Dokumentation nicht gelesen,3.18,08.05.2020 13:48,Service Request,E-Mail,yes,picture popup,https://applsupport.hslu.ch/webhelp/index.html?hm_teaser_bearbeiten.htm,,,
+352.0,20191108-0086,Geschlossen,IKM Update Seite / Video einfÃƒÆ’Ã‚Â¼gen,"Ich möchte gerne auf der Seite https://www.hslu.ch/de-ch/wirtschaft/agenda/veranstaltungen/2019/11/28/ikm-update-voice-november-2019/ das Video https://www.youtube.com/watch?v=9OoF5auVF0I einfuegen.
+ 
+Wenn ich es als iFrame einfuege, steht da IFRAME NOT ALLOWED.
+Könnt ihr das machen?","Um ein Video auf der Website einzubinden, muss dieses zuerst entweder auf YouTube oder Vimeo hochgeladen werden. Danach kann das Video in einem Teaser eingebunden werden . Hier findest du die Anleitung dazu: 
+[http://applsupport.hslu.ch/webhelp/hm_manueller_teaser_video_einbind.htm](http://applsupport.hslu.ch/webhelp/hm_manueller_teaser_video_einbind.htm)
+[https://applsupport.hslu.ch/webhelp/index.html?hm_manueller_teaser_video_einbind.htm](https://applsupport.hslu.ch/webhelp/index.html?hm_manueller_teaser_video_einbind.htm)
+
+",Dokumentation nicht gelesen,0.39,08.11.2019 15:58,Service Request,E-Mail,yes,video insert,https://applsupport.hslu.ch/webhelp/index.html?hm_manueller_teaser_video_einbind.htm,https://applsupport.hslu.ch/webhelp/index.html?hm_manueller_teaser_vimeo_video_e.htm,,
+537.0,20230213-0035,Geschlossen,Veranstaltung wird nicht angezeigt,"
+ ich habe vor ein paar Tagen eine neue Veranstaltung ""Kreislaufwirtschaft im Bauwesen"" am 13.6.23 in sitecore erstellt, aber sie erscheint bisher nicht in der Agenda von T&A.
+ https://stage-www.hslu.ch/de-ch/technik-architektur/ueber-uns/campus/veranstaltungen/2023/06/13/kreislaufwirtschaft-im-bauwesen-kib/
+ Nun habe ich eben gesehen, dass ich die Publish-Optionen noch nicht eingetragen haben und das gerade noch ergänzt (heute ab 09:30) und werde mal bis 12:00 abwarten. Allerdings hat kein anderes Event, in das ich stichprobenartig reingeschaut habe, diese Angaben gemacht und es erscheint trotzdem.
+ Habe ich sonst noch was uebersehen? 
+ Danke fuer Eure Antwort.
+ ","Bei Agendaeinträgen ist zu unterscheiden, ob die Seite offline ist, oder ob der Agendaeintrag einfach nicht in der Filterliste aufgelistet wird. Mögliche Ursachen dafür, dass eine Seite nicht öffentlich ist findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm). Ausserdem kommt es bei  Agenda-Einträgen öfters vor, dass diese etwas länger haben, bis sie veröffentlicht werden.
+Voraussetzung dafür, dass ein Event in einer Filterliste erscheint, ist, dass der Agendaeintrag live ist.  
+Mögliche Ursachen dafür, dass ein Agendaeintrag live ist aber nicht der Filterliste aufgelistet wird : 
+1. Der Event ist keiner Organisationseinheit (OE) zugeordnet
+2. Falls es sich um eine Filterliste auf einer englischen Seite handelt, ist darauf zu achten, dass nur englische Seiten aufgeführt werden.
+3. Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit in der Filterliste. Ist sowohl Startzeit als auch Endzeit leer, dann bleibt der Event bis 00:00h in der Filterliste und im Call to Action Teaser.",Dokumentation nicht gelesen,2.7,13.02.2023 09:32,Service Request,E-Mail,yes,event not in filterlist,no,,,
+,20201119-0098,Geschlossen,Ausserordentliches Publishing,"Leider ist uns ein Fehler passiert und daher wären wir froh, wenn zwei Info-Veranstaltungen vor Mitternacht noch aktualisiert bzw. published werden könnten, falls irgendwie möglich. Es handelt sich dabei um diese beiden Anlässe: 
+ 
+Online-Info-Anlässe
+26.11.2020
+10.12.2020","Die Publishing-Zeiten sind immer 00:05 Uhr und 12:05 Uhr. In seltenen, wirklich sehr dringenden Fällen ist es möglich, dass wir ein Publishing ausserhalb der üblichen Zeiten erzwingen können. In solchen Fällen bitte ein Mail an den [Websupport](mailto:websupport@hslu.ch) schicken. 
+ ",Dokumentation nicht gelesen,2.39,19.11.2020 14:36,Service Request,E-Mail,no,immidiate publishing,https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm,,,
+520.0,20221109-0060,Geschlossen,Umbenennung Link in Side Navigation,"Wir möchten auf unserer Seite www.hslu.ch/de-ch/wirtschaft/institute/ikm/weiterbildung-kommunikation-marketing/cas-und-mas-beratung/ in der Side Navigation die Bezeichnung CAS- und MAS-Beratung umbenennen:
+ 
+Wenn ich aber im Backend bei «Namen anzeigen» die Bezeichnung anpasse, ändert es auch die URL. 
+ 
+ Könnt ihr mir bitte helfen, wo ich die Anpassung vornehmen kann, ohne dass es mir die URL ändert? Oder ist das gar nicht möglich?
+","Die Überschrift von Flyout und Side-Navigation, sowie die Linktexte der Hauptseiten in der Navigation und die Linktexte der Side-Navigation, können auf der Seite unter ""Navigation Options"" angepasst werden.  Der Text, der bei der Seite selbst in den Navigationsoptionen hinterlegt ist, ist der ""stärkste"" und uebersteuert alles. Diese hinterlegten Texte werden sowohl für virtuelle als auch reale Navigationen übernommen. Wird kein Text hinterlegt, wird der Titel der Seite verwendet. Wenn eine englische Seite geändert werden soll, nicht vergessen vorher auf die Englische Seitenversion zu wechsel. Mehr Infos dazu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_navigations_options-ribbon.htm)
+
+ ",Dokumentation nicht gelesen,1.09,09.11.2022 10:05,Service Request,E-Mail,yes,navigation edit text,https://applsupport.hslu.ch/webhelp/index.html?hm_navigations_options-ribbon.htm,,,
+451.0,20211021-0097,Geschlossen,Verlinkung in Navigation und Indexierung,"Leider habe ich folgende Infos nicht mehr gefunden in den Sitecore Schulungsunterlagen und der Online-Hilfe, daher kommt die Frage an euch:
+Wenn ich eine Seite (z.B. die Digitalisierungsseite) unter ""ÃƒÅ“ber uns"" platziere - ändert sich dann die URL zwingend? Oder kann ich in der Navigation auch einfach eine Verlinkung platzieren und die aktuelle URL beibehalten?
+
+ 
+ 
+ ","Alle Hinweise zum Thema ""Seite verschieben"" findest du hier:
+https://applsupport.hslu.ch/webhelp/hm_seite_verschieben.htm
+Wenn die Seite verschoben wird, dann ändert sich die URL automatisch. 
+Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.",Dokumentation nicht gelesen,0.82,21.10.2021 14:23,Service Request,E-Mail,yes,site move,https://applsupport.hslu.ch/webhelp/index.html?hm_seite_verschieben.htm,,,

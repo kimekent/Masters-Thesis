@@ -1,0 +1,32 @@
+Key: Häufige Fehler
+
+Dieser Websupport Artikel enthält ein paar häufige Fehler die im CMS gmacht werden. 
+
+Sitecore:
+Obligatorische Elemente: Dürfen nicht fehlen: Spitzmarke (Titel), Titel (Titel2), Lead (Intro-Text).
+ 
+Call-to-Action: Das Element "Linkliste mit E-Mail und Telefon" soll nur als Call-to-Action (Dokument-Download, Anmeldung, Weiterleitung zur Zielseite) verwendet werden. Das Element ist keine Navigation.
+ 
+Templates: Pro Seite gibt es entweder einen Content Container und eine Sidebar Container (Inhaltsseite) oder einen Template Container (Übersichtsseite, optional mit Filterliste).
+Template und Content Container dürfen nicht zusammen auf einer Seite stehen.
+ 
+Seiten verschieben: Per Drag & Drop möglich (Ausnahme: Veranstaltungen)
+Alle betroffenen Seiten (inkl. Unterseiten) an web-support@hslu.ch melden, damit Umleitungen eingerichtet werden können
+ 
+Seiten auf «Never publish» setzen: Nicht empfohlen
+•Gilt für die gesamte Seite (und für alle Unterseiten) nicht nur für gemachte Änderungen
+ 
+Seiten kopieren:Nicht erlaubt!
+ 
+Seiten löschen: Nicht mehr benötigte Seiten sollten gelöscht werden (https://applsupport.hslu.ch/webhelp/hm_seite_loeschen.htm)
+•Achtung: Breaking Links >> Nachfolgeseite auswählen
+ 
+Infobox: Über «Campus» > «Page Options» einfügen/entfernen (https://applsupport.hslu.ch/webhelp/hm_infobox_loeschen.htm)
+ 
+Nicht verlinkte Items (Thema in Redaktionssitzungen): Items bitte auch im Backend löschen wenn nicht mehr benötigt (nicht nur von Seite entfernen)
+ 
+Broken Links (Thema in Redaktionssitzungen): Wenn Items (Seiten, Teaser, Bilder) gelöscht werden, aber noch verlinkt sind, führt dies zu Broken Links
+•Vor dem Löschen im Backend über «Navigate» > «Links» prüfen, ob verlinkt («Referrers»)
+•Bei Austritt von Personen bei Personenteasern Nachfolger/innen auswählen (https://applsupport.hslu.ch/webhelp/hm_kontaktperson_auswaehlen.htm)
+
+Link: https://applsupport.hslu.ch/webhelp/hm_haeufige_fehler.htm

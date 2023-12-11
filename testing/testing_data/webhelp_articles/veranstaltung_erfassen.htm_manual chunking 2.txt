@@ -1,0 +1,11 @@
+Key: Veranstaltung erfassen
+Navigation:  Seitentypen > Veranstaltung (Agenda-Eintrag)
+
+In diesem Webhelp-Beitrag wird die Star und Endzeit Einstellung etwas genauer beschrieben und gezeigt, wie sich diese Angaben darauf auswirken können, dass eine Veranstaltung im Call to Action oder in der Eventfilterliste verschwindet. 
+
+Achtung: Bei Events kann nun bei den Feldern Start und Ende zusätzliche die Uhrzeit angegeben werden. Diese Uhrzeit wird für die korrekte Sortierung und die Dauer der Sichtbarkeit der Infoveranstaltungen benutzt.
+Im Freitext-Feld kann die Zeit des Anlasses eingetragen, welche der Nutzer zu sehen bekommt. Falls ein Event nicht mehr in einem Call-to-Action Teaser (CTA) oder Eventfilterliste dargestellt wird, liegt es wohl daran, dass der Event nur bis zur angegebenen Endzeit dargestellt wird. Wird kein Enddatum angegeben wird die Startzeit genommen und der Event nur bis zur Startzeit dargestellt.
+ 
+Hinweis: Der Event wird bis und mit dem eingestellten Datum auf dem Web dargestellt. Danach sind abgelaufene Events nur noch im Page-Editor, mit dem entsprechenden Hinweis sichtbar. So können abgelaufene Events gelöscht oder angepasst werden.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_veranstaltung_erfassen.htm

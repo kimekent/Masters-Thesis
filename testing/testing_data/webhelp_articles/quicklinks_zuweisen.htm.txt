@@ -1,0 +1,39 @@
+Key: Quick Links dem Footer zuweisen
+Navigation:  Seitenelemente > Footer > Quick Links
+
+In dieser Anleitung wird beschrieben, wie ein Quicklink der im Footer der Website angezeigt wird, via Experience Editor und Content Editor der Seite zugewiesen werden kann. Wie ein neuer Quicklink erstellt wird ist hier beschrieben: https://applsupport.hslu.ch/webhelp/hm_link_item_neu_erstellen.htm
+
+Quick Links im Footer zuweisen via Page Editor
+1) Den Footer aufklappen und in den blauen Bereich klicken (nicht auf Direkteinstieg oder Quicklink klicken). Es erscheint die Floating-Toolbar.
+ 
+2) Auf den Edit-Knopf in der Floating-Toolbar klicken
+ 
+3) Im neuen Fenster können Links zu Quicklinks, Direkteinstieg zugewiesen werden. Zudem kann auch eine andere Kontaktadresse ausgewählt werden.
+ 
+Hinweis: Beim Zuweisen von einem neuen Link oder Adresse im Footer wird im entsprechenden Bereich die Vererbung unterbrochen. Für alle Unterseiten von dieser Seite gelten nun die neuen Anpassungen. Die Vererbung bleibt solange unterbrochen, bis diese Einträge von dieser Seite wieder gelöscht werden.
+ 
+Mit den blauen Pfeilbuttons kann die Auswahl hinzugefügt, entfernt, oder in der Reihenfolge verändert werden:
+ 
+Link hinzu fügen: In der Liste All einen Link auswählen und auf den Pfeil klicken.
+Link enfernen: In der Liste Selected einen Link auswählen und auf den Pfeil klicken.
+Wenn nötig Link Position ändern: In der Liste Selected einen Link auswählen und durch das klicken auf den Pfeil nach oben oder nach unten verschieben.
+ 
+Quick-Links im Footer zuweisen via Backend:
+Advanced Users - Backend
+1) Backend Fenster öffnen (Ribbon > Campus > Backend)
+2) Im Content Tree die zu bearbeitende Seite auswählen.
+3) Beim Inhalt im Bereich Footer > Direkteinstieg im linken Auswahlbereich einen Quick Link auswählen.
+ 
+1) Im Content Tree die zu bearbeitende Seite auswählen.
+
+2) Beim Inhalt im Bereich Footer > Direkteinstieg im linken Auswahlbereich einen Quick Link auswählen. Mit den blauen Pfeilbuttons kann die Auswahl hinzugefügt, entfernt, oder in der Reihenfolge verändert werden.
+ 
+Link hinzu fügen: In der Liste All einen Link auswählen und auf den Pfeil klicken.
+Link enfernen: In der Liste Selected einen Link auswählen und auf den Pfeil klicken.
+ 
+Hinweis: Durch ein doppelklick auf einen Quick Link, lässt sich dieser auch einfügen bzw. entfernen.
+ 
+3) Wenn nötig Link Position ändern: In der Liste Selected einen Link auswählen und durch das klicken auf den Pfeil nach oben oder nach unten verschieben.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_quicklinks_zuweisen.htm
+

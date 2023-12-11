@@ -1,0 +1,20 @@
+Key: Kontaktperson-Element (automatisch) einfügen
+content2>sidebar-_moegliche_items>kontakt2
+1) In die Sidebar klicken. Dann auf + Add to here klicken.
+ 
+Hinweis: Unter dem Kapitel "Template auf einer Seite platzieren" wird erklärt, wie die Einfüge-Buttons eingeblendet werden können.
+ 
+
+ 
+ 
+2) Kontaktperson (SelbstpflegeDB) auswählen und Select klicken.
+ 
+
+ 
+ 
+3) Entweder wird über Create New Content ein neuer Kontakt erstellen, oder über Select Existing Content ein bestehender Kontakt ausgewählt. Ins Feld Name den Titel des neuen Elementes einfügen.
+ 
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_kontaktperson_automatisch_einf.htm
+

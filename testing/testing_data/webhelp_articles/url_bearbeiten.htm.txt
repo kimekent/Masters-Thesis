@@ -1,0 +1,23 @@
+Key: URL
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Campus
+
+In dieser Anleitung wird gezeigt, wie eine benutzerdefinierte URL für eine Seite erstellt werden kann und was bei der URL benennung beachtet werden muss.
+
+Im Ribbon-Menü unter "Campus" den Befehl "URL" auswählen.
+
+Achtung: Sind von einer Seite zwei Sprachversionen vorhanden, muss die URL in beiden Sprachen angepasst werden!
+ 
+1) Im Dialog die gewünschte URL eingeben. Soll eine URL auf die ursprüngliche Zeichenfolge zurückgesetzt werden, ist hier ein Stern (*) einzugeben.
+ 
+2) Der Button "Validieren" zeigt, wie der letzte Teil der URL (http://www.hslu.ch/Neue-URL) neu in der Adresszeile aussehen wird. Bei der Validation fallen Sonderzeichen ("/,#@...) weg, Umlaute ("ö, ü, ä") werden ausgeschrieben ("oe, ue, ae") und Leerschläge durch Bindestriche ("-") ersetzt.
+
+Hinweis: Die Validierung muss nicht zwingend angeklickt werden. Diese wir auch durch klicken auf OK automatisch durchgeführt. Sie dient vielmehr als Feedback, damit man im schon im Vorfeld sieht, wie die ULR am Schluss effektiv aussieht.
+ 
+3) Durch Klicken auf OK wird die URL entsprechend angepasst.
+
+Hinweis: Sollte die URL bereits vergeben sein, wird diese nach dem Speichern (OK) automatisch mit einer Nummerierung ergänzt: z.B.  xxxx-1, xxxx-2 usw.
+
+Hinweis Löschen: Die eingegebene URL kann durch die Eingabe eines Sterns * und anschliessenden Klick auf OK gelöscht werden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_url_bearbeiten.htm
+

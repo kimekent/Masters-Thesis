@@ -1,0 +1,11 @@
+Key: Webhilfe
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Campus
+
+Pfad im Page-Editor: Ribbon-Menü > Campus > Help&Manual
+
+Der Button "Help&Manual" öffnet die Web 12 Hilfe. Diese ist nur innerhalb des HSLU-Netzwerkes zugänglich.
+ 
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_webhilfe.htm
+

@@ -1,0 +1,19 @@
+Key: Text aus PDF einfügen
+Navigation:  Seitenelemente > Text
+
+In diesem Websupport-Artikel ist beschrieben, wie der Text von PDFs unformattiert in einem Textelement eingefügt werden kann. Dies ist wichtig, da es sonst zu unschöner Formatiertung kommen kann.
+
+Beim Exportieren von Texten aus PDFs bleiben oft die Zeilenumbrüche erhalten. Dies kann bei folgenden Elementen zu unschönen Formatierungen führen:
+ 
+1.Intro-Text
+2.Formatierter Text mit Bild
+3.Rich Text Teaser
+ 
+Um ungewollte Zeilenumbrüche zu entfernen, zu kopierende Passage im PDF markieren und kopieren (ctrl+C).
+ 
+Kopierte Passage in einen guten Texteditor (wie etwa Notepad++) einfügen. Zeilenumbrüche bleiben erhalten.
+ 
+Text markieren und Zeilenumbrüche mit dem Befehl "Bearbeiten > Zeilenoperationen > Zeilen zusammenfassen" oder ctrl+J entfernen. Den bereinigten Text kopieren und in Sitecore einfügen.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_text_aus_pdf_einfuegen.htm
+

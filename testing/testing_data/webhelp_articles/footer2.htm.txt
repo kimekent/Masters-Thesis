@@ -1,0 +1,16 @@
+Key: Footer
+Navigation:  Seitenelemente
+
+Dieser Webhelp eintrag erklärt was im Footer Element auf jeder Seite drin steht, und wie diese Elemente von überliegenden Seiten geerbt werden.
+
+Der Footer ist das abschliessende Element ganz unten auf jeder Seite. Es enthält die Rubriken:
+ 
+1.Kontakt (https://applsupport.hslu.ch/webhelp/hm_footer_adresses_-_system.htm): Die Anschrift der jeweiligen Organisationseinheit (OE) oder des Departements.
+2.Direkteinstieg ( https://applsupport.hslu.ch/webhelp/hm_links.htm): Hier sollen Personas direkt in eine auf sie zugeschnittene Landing Page einsteigen können. Beispiele sind Landing Pages für potenzielle Studierende, potenzielle Forschungspartner etc.
+3.Quicklinks ( https://applsupport.hslu.ch/webhelp/hm_links.htm): Quicklinks sollen auf häufig gebrauchte oder kontext-relevante Seiten verweisen.
+4.Allgemeine Links (https://applsupport.hslu.ch/webhelp/hm_globale_links.htm9: Diese Links sind für alle Seiten gleich.
+ 
+Die Inhalte des Footers können von oben nach unten (also von Departement an OEs) vererbt werden. OEs können die Rubriken "Kontakt", "Direkteinstieg" und "Quicklinks" personalisieren, wo sie dies für nötig befinden. Vererbt werden auch die Social Icons, über der User den Social Media Channels der Hochschule Luzern folgen können.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_footer2.htm
+

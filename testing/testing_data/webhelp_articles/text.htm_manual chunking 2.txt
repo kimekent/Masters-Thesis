@@ -1,0 +1,24 @@
+Key: Text
+Navigation:  Seitenelemente
+
+Dieser Webhelp-Artikel enthält allgmeneine stylistische Tipps die beim erfassen von Texten auf der Website zu beachten sind.
+
+Auszeichnung: Fett vor Kursiv: 
+Oft empfiehlt es sich, Wichtiges, etwa Keywords, besonders hervorzuheben. Fettdruck ist der Kursivschrift vorzuziehen, weil Kursivschrift am Bildschirm schwerer zu lesen ist. Wir wenden Auszeichnungen punktuell an und nicht flächendeckend.
+
+Links machen klar, wohin sie führen:
+Ein Link verrät, wohin er führt. Richtig eingesetzt, dienen Links als Belege (ähnlich Zitaten in Forschungsarbeiten) und verleihen einem Text im Internet Autorität.
+ 
+Beispiel: Es ist besser, so zum World Wide Web Konsortium zu verlinken als so: hier klicken.
+
+Bildhafte Sprache erschwert das Übersetzen:
+Texte im Netz werden nicht immer in der Sprache gelesen, in der sie ursprünglich geschrieben wurden. Google-Translate macht es möglich: Aus Deutsch wird Englisch. Je weniger idiomatische (das heisst sprach-typische Ausdrücke) verwendet werden, desto besser die automatischen Übersetzungen. Idiomatische Ausdrücke und Redewendungen sind deshalb durch nicht-bildliche Synonyme zu ersetzen.
+ 
+Beispiel: „Sie ist gestorben“, statt „Sie hat das Zeitliche gesegnet.“
+
+Es lohnt sich, Abkürzungen einzuführen:
+In Texten für die Öffentlichkeit sind Abkürzungen bei der ersten Verwendung einzuführen. An der Hochschule Luzern gibt es ähnlich viele Abkürzungen wie im Schweizer Militär. Hier wie dort sind Abkürzungen – CCs, KAMs und so weiter – für Aussenstehende unverständlich.
+ 
+Beispiel: „Das Competence Center Tourismus (CC Tourismus) hat vorgestern […] so berichtete Henriette Muster vom CC Tourismus.“
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_text.htm

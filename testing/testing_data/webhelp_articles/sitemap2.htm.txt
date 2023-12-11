@@ -1,0 +1,9 @@
+Key: Sitemap
+content2>content_-_moegliche_items
+ 
+Dieses Element dient der Übersicht über die vorhandenen Inhalte der Hochschule Luzern. Es dient der Indexierung durch Suchmaschinen und hilft traditionell browsenden Usern sich zurechtzufinden.
+ 
+Die Sitemap wird am Dach eingesetzt, ist in der Navigation unsichtbar und zeigt den gesamten Baum von hslu.ch. Zugänglich ist sie über einen Link im Header.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_sitemap2.htm
+

@@ -1,0 +1,7 @@
+Key: Moodboard
+Navigation:  Seitenelemente
+
+Das Moodboard ist ein optionales Element. Wahlweise dient es als Teaser (Bild mit Text und Link) oder als reines Stimmungsbild (nur Bild). Es besteht aus einem oder mehreren Moodboard-Slides.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_moodboard.htm
+

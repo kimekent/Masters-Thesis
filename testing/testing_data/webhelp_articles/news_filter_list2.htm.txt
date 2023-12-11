@@ -1,0 +1,8 @@
+Key: News Filter List
+Navigation:  Seitenelemente > Template Container > Such- und Filterlisten > Filter-Typen
+
+Siehe auch: News erfassen (https://applsupport.hslu.ch/webhelp/hm_news_einfuegen.htm), News Teaser (https://applsupport.hslu.ch/webhelp/hm_news_teaser_einfuegen.htm), Multi News Teaser (https://applsupport.hslu.ch/webhelp/hm_multi_news_teaser_einfuegen.htm), News Filter List konfigurieren (https://applsupport.hslu.ch/webhelp/hm_news_filter_list.htm)
+Bei News Filter Listen kann nach Departement, Kategorie, Thema und Archiv gefiltert werden.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_news_filter_list2.htm
+

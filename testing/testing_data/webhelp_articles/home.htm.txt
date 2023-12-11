@@ -1,0 +1,18 @@
+Key: Home
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü
+
+Dieser Websupport-Artikel zählt auf, was im Experience Editor im Tab Home alles für Menü-Punkte gibt.
+
+Der Home-Tab des Ribbon-Menüs bietet:
+1.Edit und Preview ermöglicht die beiden Ansichtsweisen.
+ 
+2.Component ermöglicht das anzeigen aller Einfügestellen für die Seitenelemente (Components)
+ 
+3.Insert Page ermöglicht das Einfügen neuer Seiten.
+ 
+4.My Items zeigt eine Liste der für andere Nutzer gesperrten Sitecore Items an.
+ 
+5.Mit Publish wird eine Seite im Web veröffentlicht.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_home.htm
+

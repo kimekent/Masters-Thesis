@@ -1,0 +1,18 @@
+Key: Page Title
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Campus > Page Options
+
+Der Page Title (oder auch Title Tag) ist ein für die Search Engine Optimization (SEO) zentrales Element. Er wird auf Google Suchresultatsseiten prominent dargestellt und ist somit für viele Internauten präsent, bevor sie die eigentlichen Zielseiten zu Gesicht bekommen. Der Seiten Titel ist idealerweise unter 55 Zeichen lang und hat einen Einfluss auf die Rankings von Google.
+ 
+Mehr Informationen zur Page Title bieten zum Beispiel die SEO-Experten von moz.com.
+ 
+Lässt die Redaktion das Feld "Seitentitel im Browser" frei, verwendet Sitecore den Titel als Page Title.
+
+HINWEISE: Über die Page Options bestimmt die Redaktion den Inhalt ihrer Page Titles manuell.
+
+Beispiel für einen Custom Page Title
+Der Seitentitel im Browser kann hier explizit angepasst werden:
+ 
+Nach dem Sichern werden die Änderungen am Seitentitel im Browser direkt im Browser-Tab ersichtlich. Der Seiten Titel (1) bleibt aber unverändert.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_page_title.htm
+

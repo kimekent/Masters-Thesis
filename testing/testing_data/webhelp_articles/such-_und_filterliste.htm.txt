@@ -1,0 +1,21 @@
+Key: Such- und Filterlisten
+Navigation:  Seitenelemente > Template Container
+
+Dieser WEbhelp-Artikel listet die verschiedenen Such- und Filterlistenarten auf, die auf der Weibsite eingefügt werden können. 
+
+Such- und Filterlisten stellen eine grosse Anzahl Einträge übersichtlich zusammen. User können diese Einträge durchsuchen und die Suchresultate über Filter einschränken. Es gibt die folgenden Such- und Filterlisten:
+ 
+•Die Ausbildung Filter List fasst Studiengänge zusammen.
+•Die Weiterbildung Filter List fasst Weiterbildungsangebote zusammen.
+•Die News Filter List fasst News-Mitteilungen zusammen.
+•Die Event Filter List fasst Agenda-Einträge in einer Liste zusammen.
+•Forschung
+•Dienstleistungen
+•Die Person Filter List fasst die Personen aus der Selbstpflege-Datenbank zusammen.
+ 
+Listen müssen manuell eingefügt und konfiguriert werden.
+ 
+Hinweis: Organisationseinheiten nur bis Stufe Departement vorselektieren. Alle anderen OEs (Institute, CCs usw.) als fixe Filter setzen. Auf Listen mit wenigen Einträgen die Filter ausblenden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_such-_und_filterliste.htm
+

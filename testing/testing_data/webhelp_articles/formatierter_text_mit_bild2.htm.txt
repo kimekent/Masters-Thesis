@@ -1,0 +1,21 @@
+Key: Call-to-Action-Teaser erstellen
+Navigation:  Seitenelemente > Sidebar Container > Call-to-Action-Teaser
+
+In dieser Anleitung wird erklärt, wie ein Acall t Action Teaser einer Seite hinzugefügt werden kann.
+
+1) In die Sidebar klicken. Dann auf + Add to here klicken.
+ 
+Hinweis: Unter dem Kapitel "Template auf einer Seite platzieren" wird erklärt, wie die Einfüge-Buttons eingeblendet werden können.
+ 
+2) Das Item Call-to-Action-Teaser (Linkliste mit E-Mail und Telefon) auswählen und Select klicken.
+ 
+3) Entweder wird über Create New Content eine neue Liste erstellt, oder über Select Existing Content ein bestehende Liste ausgewählt. Anschliessend auf OK klicken.
+ 
+Hinweis: Der Text im Feld Name wird gleich als Titel übernommen.
+ 
+4) Die Linksliste wird auf der Seite platziert. Die vier Felder Titel, Text, Telefonnummer und E-Mail können direkt im PageEditor bearbeitet werden.
+ 
+Hinweis: Der rote Hinweistext Keine Links ausgewählt weist darauf hin, dass noch Links der Linkliste hinzugefügt wurden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_formatierter_text_mit_bild2.htm
+

@@ -1,0 +1,20 @@
+Key: Linktext der Hauptseite in der Side-Navigation
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Campus > Navigations Options
+
+Diese Anleitung beschreibt, wie der Linktexte der Hauptseite in der Side Navigation angepasst werden kann. Hier steht beschrieben, wie der Linktext von irgendeiner seit im Fyout, in der mobilen Navigation und im Breadcrumb geändert werden kann: https://applsupport.hslu.ch/webhelp/index.html?hm_linktext_fuer_flyout_mobile_navigation_und_breadcrumb.htm
+
+Die Redaktion bestimmt, unter welchem Namen die Hauptseite der in der Side-Navigation angezeigten Seiten erscheinen soll. Sie tut dies, indem sie das Feld "Linktext der Hauptseite in der Side-Navigation" mit einem benutzerdefinierten Text füllt.
+ 
+Füllt die Redaktion das Feld nicht aus, setzt das System an dieser Stelle den Seitentiel ein (also den Inhalt des Feldes Titel).
+
+Vorgehen:
+1) Im Ribbon-Menü > Campus die Navigations Options öffnen.
+ 
+2) Im zweiten Feld des neuen Fensters einen benutzerdefinierter Namen, z.B. "Neuer Linktext der Hauptseite" eingeben und mit OK bestätigen.
+ 
+Hinweis: Der Linktext der Hauptseite in der Side-Navigation muss nur einmal auf der Hauptseite definiert werden. Er erscheint dann automatisch auf allen folgenden Unterseiten.
+ 
+3) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon neu laden. Danach werden die Änderungen auf der Seite dargestellt.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_linktext_der_hauptseite_in_der.htm
+

@@ -1,0 +1,23 @@
+Key: Template B
+Navigation:  Seitenelemente > Template Container > Template auf einer Seite platzieren >
+
+Dieser Webhelp-Artikel zählt auf, welche Elemente im Template B eingefügt werden können. Templates sind Behälter ("Container"), die den darin platzierten Inhalten ein spezielles Aussehen geben oder Inhalte aus Datenbanken zusammensuchen und darstellen.
+
+Mögliche Template B Elemente
+1.Manueller Teaser
+2.Event Teaser
+3.Multi Event Teaser
+4.News Teaser
+5.Multi News Teaser
+6.Image Teaser
+7.Bildergalerie
+8.Bildergeschichte
+9.Rich Text Teaser
+10.Geschützter Umbruch zwischen Teaser
+11.Forschungs Teser
+
+Bedingung:
+Hinweis: Das Template B wird für Hauptseiten verwendet. Der Standard Content-Container und der Sidebar-Container bleiben leer.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_darstellung_template_b_teaser.htm
+

@@ -1,0 +1,40 @@
+Key: Navigation
+
+In diesem Websupport-Artikel werden die verschiedenen Navigationsarten vorgestellt. 
+
+Acht Arten der Navigation
+1.Hauptnavigation (grösstenteils automatisch) (https://applsupport.hslu.ch/webhelp/hm_hauptnavigation.htm)
+2.Header (https://applsupport.hslu.ch/webhelp/hm_header.htm)
+3.Breadcrumb (automatisch) (https://applsupport.hslu.ch/webhelp/hm_breadcrumb_konfigurieren.htm)
+4.Side-Navigation (grösstenteils automatisch) (https://applsupport.hslu.ch/webhelp/hm_seiten_navigation.htm)
+5.Footer (https://applsupport.hslu.ch/webhelp/hm_footer2.htm)
+6.Virtuelle Navigation (ist ein Link in der Navigation) (https://applsupport.hslu.ch/webhelp/hm_virtueller_navigationseintrag.htm)
+7.Geschützte Navigation Level 0 + Level 1 (nur durch Administratoren) (https://applsupport.hslu.ch/webhelp/hm_geschuetzte_navigation.htm)
+8.Content (via Teaser) (https://applsupport.hslu.ch/webhelp/hm_teaser.htm)
+
+Hauptnavigation:
+Wird eine neue Seite erstellt, fügt das System diese (den Seitentitel der neuen Seite) automatisch in Navigation ein. Die Seite wird immer unter der aktuell angewählten Seite eingefügt:
+ 
+Wird auf der Seite hslu.ch/wirtschaft/ueber-uns eine neue Seite mit dem Seitentitel "Test" eingefügt, so wird diese unter hslu.ch/wirtschaft/ueber-uns/test eingereiht.
+ 
+Die Redaktion kann einzelne Seiten in der Hauptnavigation ausblenden, verwalten und mit "Drag&Drop" im Navigations-Tree verschieben.
+ 
+Geschützte Navigation:
+HINWEIS: Die Level 0 und 1 der Hauptnavigation sind geschützt: Das heisst, dass nur ein Administrator hier Menüpunkte hinzufügen, ändern oder löschen kann.
+
+Durch Redaktoren neu erstellte Seiten werden erst ab der Stufe 2 unmittelbar sichtbar.
+
+Die geschützte Navigation, ist technisch gesehen auch eine virtuelle Navigation und muss explizit manuell durch einen Administrator im Ordner Navigation geschützt erstellt werden.
+L0:        Hauptnavigation:     Level 0 - geschützt
+L1:        Hauptnavigation:     Level 1 - geschützt
+L2:        Fly-Out Navigation:  Level 2
+L3:        Fly-Out Navigation:  Level 3 ... bis Level 20 (mehr als sechs Stufen sind nicht empfohlen).
+ 
+Ansicht des Item Tree im Backend der geschützten Navigation (Level 0 und 1)::
+Die Navigationspunkte vom Level 0 und 1 (geschützt) der Hauptnavigation werden durch einen Admin im Order Navigation geschützt explizit geschützt:
+
+Ansicht des Item Tree im Backend der Navigation / Seiten (Level 2 bis 20):
+Die Navigationspunkte der Hauptnavigation ab dem Level 3 sind nicht mehr geschützt. Hier wird, wenn nichts anderes definiert, automatisch die Seitenstruktur als Navigationshierarchie verwendet.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_navigation.htm
+

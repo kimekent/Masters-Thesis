@@ -1,0 +1,19 @@
+Key: Ribbon-Menü
+tools>sitecore-experience-management>grundlagen
+Die Bezeichnung Ribbon wird für das Menüband über der Seite des Experience Editor verwendet:
+ 
+
+ 
+Das Ribbon-Menü besteht aus vier Reihen:
+ 
+1.Titelleiste mit Icon zum wechseln zum Sitecore Experience Management, Log out und dem Namen des aktuell angemeldeten Webredaktor
+ 
+2.Shortbuttons (Speichern, Suchen, Komponenten) gefolgt von weiteren Tabs (Home, Presentation, Campus, Experience, Versions, Optimazion,  View)
+ 
+3.Jedes Tab enthält seine entsprechenden Funktionen
+ 
+4.Die Navigationsbar (ist standardmässig ausgeblendet, kann bei bedarf via View > Navigation bar eingeblendet werden)
+ 
+
+Link: https://applsupport.hslu.ch/webhelp/hm_kontext-menue2.htm
+

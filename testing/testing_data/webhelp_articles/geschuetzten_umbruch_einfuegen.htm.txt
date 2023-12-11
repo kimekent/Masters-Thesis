@@ -1,0 +1,17 @@
+Key: Geschützten Umbruch einfügen
+Navigation:  Seitenelemente > Content Container
+
+In dieser Anleitung wird erklärt, wozu Geschützte Umrüche verwenden werden können und wie diese eingefügt werden können. 
+
+Hinweis: Werden mehrere Teaser platziert, werden diese automatisch angeordnet. Wie im Bild ersichtlich, werden diese nacheinander platziert. Dies kann aber dazu führen (siehe blaue Markierungen), dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden.
+ 
+1) Auf den Einfüge-Button + Add to here klicken.
+ 
+Hinweis: Unter dem Kapitel "Template auf einer Seite platzieren" wird erklärt, wie die Einfüge-Buttons eingeblendet werden können.
+ 
+2) Im neuen Fenster das Rendering Geschützter Umbruch zwischen Teaser auswählen.
+ 
+3) Der Umbruch wird platziert und das Layout wird entsprechend strukturiert.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_geschuetzten_umbruch_einfuegen.htm
+

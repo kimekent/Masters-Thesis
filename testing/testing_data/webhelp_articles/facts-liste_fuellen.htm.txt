@@ -1,0 +1,13 @@
+Key: Facts erstellen und mit Inhalt versehen
+Navigation:  Seitenelemente > Content Container > Facts-Liste
+
+Dieser Post erklärt, wie Einträge, Facts oder Bullet Points zur Facts-Liste hinzugefügt werden.
+ 
+1) Ins leere Facts-Listen-Element klicken. Dann im Kontext-Menü auf das Hinzufügen-Symbol klicken.
+ 
+2) Das Element Fact auswählen und im Feld Item Name einen Titel für den Eintrag eingeben.
+ 
+3) Auf den neu eingefügten Fact klicken und die Felder Titel und Bezeichnung einfüllen.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_facts-liste_fuellen.htm
+

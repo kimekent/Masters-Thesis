@@ -1,0 +1,9 @@
+Key: Weiterbildung Filter List
+content2>template_container_-_moegliche>such-_und_filterliste
+Siehe auch: Weiterbildung einfügen, Weiterbildung Filter List konfigurieren
+Mit Departement, Thema, Programmart, Studienort und optional Semester.
+ 
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_weiterbildung_filter_list2.htm
+

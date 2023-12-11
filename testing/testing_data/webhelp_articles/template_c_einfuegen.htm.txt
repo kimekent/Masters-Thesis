@@ -1,0 +1,26 @@
+Key: Template C einfügen und konfigurieren
+Navigation:  Seitenelemente > Template Container > Template auf einer Seite platzieren > Template C
+
+Diese Anleitung beschriebt, wie man ein Template C für eien Übersichtsseite einfügen kann und wie man Elemente darin platzieren kann. 
+
+Template C einfügen und mögliche Element platzieren:
+1) Auf den Button + Add to here klicken und das Template C auswählen und mit Select bestätigen.
+ 
+2) Mit Create New Content ein neues Template C erstellen, benennen, mit OK bestätigen und die Seite speichern (ctrl + s).
+ 
+Hinweis: Das Template C kann auch als Shared gespeichert oder verwendet werden. Es werden die Template Einstellungen Color Theme und Hintergrundbild als Shared gesichert. Die Seiteninhalte im Template C werden beim Sharing nicht mit einbezogen.
+ 
+3) Das Template C wird im Template Container eingefügt. Beim Template C auf den Edit-Knopf klicken.
+
+4) Es erscheint ein Optionsfenster mit den folgenden Einstellmöglichkeiten. Die Einstellungen tätigen und auf OK klicken:
+ 
+•Color Theme:  Aktuell ist nur ein Thema vorhanden. Hier können zu einem späteren Zeitpunkt weitere Themen folgen.
+•Hintergrundbild: Hier kann ein Hintergrundbild eingefügt werden. Alle Seitenelemente, wie z.B. Teaser usw., werden dann über das Hintergrundbild platziert.
+
+Mögliche Elemente die im Template C platziert werden können:
+5) Anschliessend auf den karierten Bereich vom Template C - Content klicken und wieder auf den + Add to here Button klicken.
+ 
+6) Die mögliche Inhalte vom Template C werden angezeigt und können verwendet werden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_template_c_einfuegen.htm
+

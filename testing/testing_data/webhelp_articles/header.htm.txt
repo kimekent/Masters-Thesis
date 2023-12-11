@@ -1,0 +1,9 @@
+Key: Header
+Navigation:  Navigation
+
+Der Header enthält das Logo der Hochschule Luzern, den Link auf die Login- und Sitemap-Seiten, die Sprachauswahl-Links und das globale Suchfeld.
+ 
+Der Header kann teilweise konfiguriert (https://applsupport.hslu.ch/webhelp/hm_neues_hslu_logo_einfuegen.htm) werden. Der Link zur Sitemap-Seite und die globale Suche müssen auf Super-Administratorstufe konfiguriert werden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_header.htm
+

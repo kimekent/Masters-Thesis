@@ -1,0 +1,9 @@
+Key: Zwischentitel
+Navigation:  Seitenelemente > Content Container
+
+Untertitel sind ein effizientes Mittel, um Inhalte zu strukturieren. Gute Untertitel fassen die untergeordneten Abschnitte zusammen. Sie erleichtern es Nutzenden, Inhalte zu scannen.
+ 
+Beispiel: ,Der Bundesrat beschliesst die AHV-Revision‘ ist besser als ‚Bundesratsbeschluss‘. Das erste Beispiel fasst die Kernaussage eines Abschnitts zusammen, das zweite lässt zu viel offen.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_zwischentitel_einfuegen.htm
+

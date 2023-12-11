@@ -1,0 +1,16 @@
+Key: Vertiefungsrichtungen
+Navigation:  Seitentypen > Ausbildung (Studium) > Studiengangsstruktur (Modul Generator)
+
+In diesem Webhelp-Artikel wird beschrieben wie eine neue Vertiefungsrichtung erstellt werden kann. DIe Vertiefungsrichtung ein sein Studiengansstrukturelemetn der der Ausbildungsseite. 
+
+BEARBEITUNG DURCH ADMINISTRATOR
+Die Vertiefungsrichtungen werden beim entsprechenden Departement (z.B. Wirtschaft) unter Ausbildung > Bachelor oder Master > Ausbildungsseite (z.B. Bachelor-of-Science-in-Business-Administation) > Data > im Ordner Vertiefungsrichtungen angelegt.
+ 
+1) Eine neue Vertiefungsrichtung lässt sich übers Kontext-Menü und Insert > Studium Vertiefungsrichtung anlegen.
+ 
+Hinweis: Eine Vertiefungsrichtung muss neben dem Zeitmodell bei einer Durchführung ausgewählt werden. Alle Vertiefungsrichtungen erscheinen im Dropdown Menü einer Durchführungen.
+
+Schlussendlich werden die Vertiefungsrichtungen in den Facts auf der Ausbildungsseite dargestellt:
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_vertiefungsrichtungen.htm
+

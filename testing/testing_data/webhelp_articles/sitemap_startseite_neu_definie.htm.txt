@@ -1,0 +1,11 @@
+Key: Sitemap Startseite neu definieren
+content2>content_-_moegliche_items>sitemap2
+ 
+Hinweis: Die Startseite der Sitemap kann nicht neu definiert werden. In diesem Fall die Sitemap löschen und neu erstellen.
+ 
+1) Über den Button Remove Component , kann die Sitemap gelöscht und anschliessend neu erstellt werden.
+ 
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_sitemap_startseite_neu_definie.htm
+

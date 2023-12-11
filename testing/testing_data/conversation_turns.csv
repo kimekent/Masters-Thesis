@@ -1,0 +1,105 @@
+﻿coversation_1_questions,coversation_1_human_reformulated,conversation_1_human_answers,conversation_2_questions,coversation_2_human_reformulated,conversation_2_human_answers,conversation_3_questions,coversation_3_human_reformulated,conversation_3_human_answers,conversation_4_questions,coversation_4_human_reformulated,conversation_4_human_answers,conversation_5_questions,coversation_5_human_reformulated,conversation_5_human_answers,conversation_6_questions,coversation_6_human_reformulated,conversation_6_human_answers
+Wie kann ich eine Website löschen?,Wie kann ich eine Website löschen?,"Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden muessen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu löschen kann so vorgegangen werden:
+1) Auf die zu löschende Seite navigieren und im Ribbon-Menü den Befehl ""Home > Delete Page"" aufrufen.
+2) Den Warnhinweis lesen und gegebenenfalls auf OK klicken.
+3) Zeigen Links auf dieses Seite, erscheint ein weiteres Hinweisfenster. Es muss entschieden werden, was mit diesen Linkst geschehen soll 
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm)",Mein Moodboard wird nicht angezeigt.,Mein Moodboard wird nicht angezeigt.,"Falls ein Moodboard Slide schon erstellt wurde, jedoch das Moodboard nicht angezeigt wird, liegt es oftmals daran, dass der Slide noch nicht der Seite zugewiesen wurde: 
+Im Experience Editor zur gewünschten Seite navigieren und im Ribbon-Menü auf Campus > Page Options klicken. Im Data Bereich unter Moodboard können die Slides zugewiesen werden (Für Desktop und Mobile separat).
+ 
+-Im linken Bereich ""Moodboard Slides"" das Slide in der Baumstruktur auswählen und durch den Pfeil-Button der Seite zuweisen und OK klicken. Alle der Seite zugewiesenen Slides werden im rechten Bereich ""Selected"" aufgelistet.
+
+-Im linken Bereich ""Moodboard Slides (Mobile)"" das Slide in der Baumstruktur auswählen und durch den Pfeil-Button der Seite zuweisen und OK klicken. Alle der Seite zugewiesenen Slides werden im rechten Bereich ""Selected"" aufgelistet.
+
+
+2) Anschliessend im Page-Editor auf Speichern Sitecore_btn_window_save klicken.
+ https://applsupport.hslu.ch/webhelp/hm_eigene_und___oder_shared_slide.htm?zoom_highlightsub=mood+board
+Auserdem ist bei den Moodboard darauf zu achten, dass für mobile Moodboards ein seperates Bild hochgeladen werden muss (andere Abmessungen) und dann auch der Seite zugewiesen werden muss. 
+ ",Wie kann ich den Jobtitel bei einer Person im Kontaktteaser anpassen?,Wie kann ich den Jobtitel bei einer Person im Kontaktteaser anpassen?,"Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)","Wie heisst das Element, mit dem ich an eine bestimmte Stelle auf der Seite springen kann?","Wie heisst das Element, mit dem ich an eine bestimmte Stelle auf der Seite springen kann?",Das ist ein Anker.,"Gibt es eine Möglichkeit in der Navigation Seiten zu verlinken, die nicht  Unterseiten der jetzigen Seite sind, sondern benutzerdefinierte Seiten?","Gibt es eine Möglichkeit in der Navigation Seiten zu verlinken, die nicht  Unterseiten der jetzigen Seite sind, sondern benutzerdefinierte Seiten?",Dazu kannst du eine virtuelle Navigation verwenden.,Wieso wird mein Event wird in der Fiterliste nicht angezeigt?,Wieso wird mein Event wird in der Fiterliste nicht angezeigt?,"Bei Agendaeinträgen ist zu unterscheiden, ob die Seite offline ist, oder ob der Agendaeintrag einfach nicht in der Filterliste aufgelistet wird. Mögliche Ursachen dafür, dass eine Seite nicht öffentlich ist findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm). Ausserdem kommt es bei  Agenda-Einträgen öfters vor, dass diese etwas länger haben, bis sie veröffentlicht werden.
+Voraussetzung dafür, dass ein Event in einer Filterliste erscheint, ist, dass der Agendaeintrag live ist.  
+Mögliche Ursachen dafür, dass ein Agendaeintrag live ist aber nicht der Filterliste aufgelistet wird : 
+1. Der Event ist keiner Organisationseinheit (OE) zugeordnet
+2. Falls es sich um eine Filterliste auf einer englischen Seite handelt, ist darauf zu achten, dass nur englische Seiten aufgeführt werden.
+3. Start-Zeit-Problematik: Der Event bleibt solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bis die Startzeit erreicht wird. Ist die Startzeit leer, dann bis 00:00h."
+Meine Seite ist jedoch auf englisch.,Wie kann ich eine englische Website löschen?,"Hier eine Anleitung wie Sprachversionen von Seiten gelöscht werden können: Den Content Editor starten (Ribbon-Menü > Campus > Backend):
+
+1) Im Item-Tree die entsprechende Seite wählen und im Ribbon Menü zum Tab Versions wechseln.
+
+2) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass eine deutsche und eine englische Version der Seite vorhanden sind.
+
+3) Durch klicken auf den grossen Sprachbutton zur löschenden Sprachversion wechseln (hier im Beispiel englisch).
+
+4) Auf den Button Remove klicken.
+
+5) Es erscheint ein Warnhinweis, ob die Version entfernt werden soll. Wenn Sie sicher sind, auf OK klicken.
+
+6) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass die englische Version gelöscht wurde. Bei Englsh:Englisch steht 0 versions.",Es wird nicht in der mobilden Version dargestellt.,Mein Moodboard wird in der mobilen Version nicht dargestellt,"Für mobile und Desktop sind unterschiedliche Moodboards zugewiesen. Die sind nicht automatisch gleich und muessen bei mobile und bei Desktop separat zugewiesen bzw. entfernt werden. Wird das Moodboard in der mobilen Version falsch oder gar nicht angezeigt, liegt es oft daran, dass kein mobiles Moodboard erstellt wurde oder dieses nicht vollständig konfiguriert wurde. 
+1. In der Media Library muss ein seperates Bild für die Desktop und MoileMoodboardversion hochgeladen werden. 
+2. Beim Zuweisen von Bild zum Moodboard, muss bei mobile das mobile Bild ausgwählt werden.
+3. Bei den Page Options muss der Seite sowohl ein Desktop Moodboard als auch ein mobiles Moodboard zugewiesen werden. 
+Hier die Anleitungslinks dazu:
+https://applsupport.hslu.ch/webhelp/hm_neues_bild_direkt_hochladen.htm
+https://applsupport.hslu.ch/webhelp/index.html?hm_eigene_und___oder_shared_slide.htm",Was ist wenn ich den Standort dort anpassen möchte?,Was ist wenn ich den Standort im Kontaktteaser anpassen möchte?,"Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)",Wie kann ich so einen einfügen?,Wie kann ich einen Anker einfügen?,"Um einen Anker zu setzten, der auf die gleiche Seite springt, kann wie folgt vorgegangen werden: 
+
+Beispiel 1 - mit einem ""Manuellen Teaser""
+1.Der Ankername OHNE dem ""Gartenzaun-Zeichen"" # kopieren, z.B. zwischentitel
+ 
+2.Beim Manuellen Teaser auf bearbeiten klicken ..
+ 
+3.... und im neuen Fenster zum beim Bereich Link scrollen, dann weiter auf Link einfügen klicken
+ 
+4.Im Seitenbaum die aktuelle Seite auswählen und im Feld Anker der entsprechende Ankername; hier in diesem Beispiel zwischentitel, OHNE # eintragen. Danach auf den Button Einfügen klicken und speichern
+
+Um einen Anker zu setzten, der auf eine andere Seite springt, kann wie folgt vorgegangen werden:
+1) Zu einem Anker auf einer anderen internen Seite springen
+
+Beispiel mit einem Rich Text Teaser:
+ 
+1.Der Ankername mit dem ""Gartenzaun-Zeichen"" # auf der Zielseite kopieren, z.B. #zwischentitel
+  
+2.Den Textbereich, welcher als Ankerlink fungieren soll markieren und auf das Link-Symbol für interne Links anklicken.
+  
+3.Die interne Zielseite, auf welcher sich der Anker befindet, auswählen und auf Link klicken. Nun muss in einem weiteren Schritt die Sprungmarke angefügt werden.
+ 
+4.Den Cursor im neuen Link platzieren und auf das Link-Symbol für externe Links anklicken.
+ 
+5.Im Feld URL ganz am Schluss ohne Slash den Ankername anfügen z.B. xxxxxxx#zwischentitel
+Um einen Anker auf eine andere Seite zu setzten, kann wie folgt vorgegangen werden:
+
+Beispiel 2 - mit einem ""Rich Text Teaser"":
+5.Der Ankername MIT dem ""Gartenzaun-Zeichen"" # kopieren, z.B. #linkunddownloadliste
+ 
+6.Den Textbereich, welcher als Ankerlink fungieren soll markieren und auf das Link-Symbol für externe Links anklicken.
+ 
+7.Der Ankername inkl. dem #-Zeichen im Feld URL einfügen und auf OK klicken.
+ 
+Hinweis: Unter dem Register Anchor (Anker) können im Rich-Text eigene Anker definiert werden.
+
+8.Die Seite speichern (ctrl-S)
+
+Um einen Anker im Rich Text Teaser zu setzen, kann wie folgt vorgegangen werden: 1.Den Text im Rich-Text Editor markieren und auf das Icon für externe Links klicken.
+ 
+2.Unter dem Tab Anchor ein Name für den eigenen Anker vergeben, z.B meinanker und auf OK klicken.
+ 
+3.Der Anker wurde gesetzt, ist aber leider nur im Rich-Text unter dem Tab HTML ersichtlich:
+... <a name=""meinanker""> ...
+
+Auf eigenen Anker im Rich-Text Teaser springen:
+1.Den Text im Rich-Text Editor markieren und auf das Icon für externe Links klicken.
+ 
+2.Den Tab Hyperlink wählen. Unter dem Drop-Down-Menü ""Existing Anchor"" werden alle existierenden Anker welche im Rich-Text erstellt wurden, aufgeführt. Der entsprechende Anker wählen und auf OK klicken.
+
+3.Die Seite speichern (ctrl-S)","Kannst du mir eine Anleitung schicken, wie ich so eine Navigation einfügen kann?","Kannst du mir eine Anleitung schicken, wie ich eine virtuelle Navigation einfügen kann?","1) Eine neue Seite einfügen über Insert Page im Ribbon Menü.
+ 
+2) Aus den angezeigten Optionen Navigation Virtual wählen. Den zu erstellenden Eintrag benennen.
+ 
+3) Via Ribbon > Campus > das Backend Fenster öffnen und die neu angelegte Virtuelle Navigation auswählen.",Er wird in der englischen Version des Elements nicht angezeigt.,Die Veranstaltung wird in der englischen Version der Filterliste nicht angezeigt.,"Falls es sich um eine Filterliste auf einer englischen Seite handelt, ist darauf zu achten, dass nur englische Seiten aufgeführt werden."
+"Wie würde ich vorgehen, wenn ich sie nur auf ""Never publish"" setzen möchte?","Wie würde ich vorgehen, wenn ich eine Seite nur auf ""Never publish"" setzen möchte?","Den ""Never Publish"" Button findest du im Experience Editor unter Campus > Publish Options. Hier noch den Link zum Webhelp-Artikel: [https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm)
+ ","Ich habe ein mobiles Bild hochgeladen, es ist jedoch immer noch nicht in dieser Version sichtbar.","Ich habe ein mobiles Bild hochgeladen, das Moodboard ist jedoch immer noch nicht in der mobilen Version sichtbar.","Wenn ein mobiles Moodboard ausgewählt wurde aber immer noch nicht angezeigt wird, liegt es oft daran, dass dem Slide das mobile Bild extra noch hinzugefügt werden muss. 
+1. In der Media Library muss ein seperates Bild für die Desktop und MoileMoodboardversion hochgeladen werden. 
+2. Beim Zuweisen von Bild zum Moodboard, muss bei mobile das mobile Bild ausgwählt werden.
+3. Bei den Page Options muss der Seite sowohl ein Desktop Moodboard als auch ein mobiles Moodboard zugewiesen werden. 
+Hier die Anleitungslinks dazu:
+https://applsupport.hslu.ch/webhelp/hm_neues_bild_direkt_hochladen.htm
+https://applsupport.hslu.ch/webhelp/index.html?hm_eigene_und___oder_shared_slide.htm",Wie kann ich den Namen anpassen?,Wie kann ich den Namen im Kontaktteaser anpassen?,"Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)",,,,Kann ich dort auch extere Links setzten?,Kann ich in der virtuellen Navigation auch extere Links setzten?,"In der Navigation (virtuell oder real) können nur interne Seiten eingefügt werden. Mehr Infos dazu [hier](https://applsupport.hslu.ch/webhelp/hm_virtueller_navigationseintrag.htm).
+ ",,,

@@ -1,0 +1,23 @@
+Key: Hauptnavigation
+Navigation:  Navigation
+
+In dieser Webhelp-Anleitung werden Links zu Anleitungen zur verfügung gestellt, die beschrieben wie die automatisch erstellten Texte in der Navigation und der Flyout-Navigation in der Flyout-Navigation überschrieben werden können. Auserdem wird ein Artikel verlinkt, der erklärt, wie Links in eine benutzerdefierte Navigation aufgenommen werden können (virtuelle Anvigation). Zudem wird ein Artikel verlinkt, der verrät, wie die Reihenforlge der Seite geändert werden kann. 
+
+Optionale Konfiguration der Hauptnavigation
+Die Hauptnavigation funktioniert grösstenteils automatisch. Sie kann aber folgendermassen feinjustiert werden:
+ 
+1.Automatische Navigationseinträge (https://applsupport.hslu.ch/webhelp/hm_linktext_automatisch.htm) durch benutzerdefinierte Linktexte (https://applsupport.hslu.ch/webhelp/hm_linktext_fuer_flyout_mobile_navigation_und_breadcrumb.htm) ersetzen.
+2.Automatische Überschriften (https://applsupport.hslu.ch/webhelp/hm_ueberschrift_im_flyout.htm) in der Flyout-Navigation durch benutzerdefinierte Überschriften ersetzen.
+3.Teilbereiche der Navigation schützen (https://applsupport.hslu.ch/webhelp/hm_geschuetzte_navigation.htm).
+4.Interne Links in die Navigation einfügen (Virtuelle Navigation (https://applsupport.hslu.ch/webhelp/hm_virtueller_navigationseintrag.htm)).
+ 
+Reihenfolge der Seiten bestimmen:
+In welcher Reihenfolge die Seiten in der Navigation angezeigt werden, hängt davon ab, wie sie im Seitenbaum abgelegt sind. Um die Reihenfolge der Seiten in der Navigation zu ändern, reicht es, die Seiten im Seitenbaum zu verschieben (https://applsupport.hslu.ch/webhelp/hm_seite_verschieben.htm).
+
+Hierarchie der Navigationseinträge
+1.Ein automatisch erstellter Navigationseintrag kann durch einen benutzerdefinierten Navigationseintrag und einen geschützten Navigationseintrag überschrieben werden.
+2.Ein benutzerdefinierter Navigationseintrag kann nur durch einen geschützten Navigationseintrag überschrieben werden.
+3.Ein geschützter Navigationseintrag kann nicht überschrieben werden.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_hauptnavigation.htm
+

@@ -1,0 +1,18 @@
+Key: Kontaktperson auswählen
+content2>sidebar-_moegliche_items>kontakt2
+1) Auf den leeren Kontakt-Teaser klicken und im Kontext-Menü auf den Editier-Button klicken.
+ 
+
+ 
+ 
+2) Im Suchfeld ein Name eingeben und dann die gewünschte Person auswählen. Die Person kann mittels Doppelklick oder mit einem Klick auf den Pfeil in die rechte Spalte aufgenommen werden.
+ 
+
+ 
+ 
+3) Falls gewünscht, kann die Funktion der gewählten Person im Feld "Funktion (benutzerdefiniert)" übersteuert werden.
+ 
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_kontaktperson_auswaehlen.htm
+

@@ -1,0 +1,15 @@
+Key: Social Icons definieren
+Navigation:  Seitenelemente > Footer > Social Icons
+
+In dieser Anleitung wird beschrieben, wie ein neues Social Media Icon erstellt werden kann, das dann unten im Footer der Seite eingefügt werden kann. Wie das Social Media Icon eingefügt werden kann ist hier beschrieben: https://applsupport.hslu.ch/webhelp/index.html?hm_sozial_icons.htm
+ 
+1) Im Content Tree > Shared Data > Social Icons - Global einen Unterordner auswählen. Durch öffnen des Kontext-Menü > Insert auf dem entsprechenden Ordner, kann ein Social Icon oder ein neuer Ordner hinzugefügt werden.
+ 
+2) Im neuen Fenster dem Social Icon ein passender Name vergeben.
+ 
+3) Das neue Sozial Icon wurde im Item Tree angelegt.
+ 
+4) Als letztes muss im Content Bereich die Url eingegeben und mit ctrl+s gesichert werden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_social_icons.htm
+

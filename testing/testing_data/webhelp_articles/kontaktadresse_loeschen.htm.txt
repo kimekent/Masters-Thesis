@@ -1,0 +1,15 @@
+Key: Kontaktadresse löschen
+Navigation:  Seitenelemente > Footer > Kontaktadressen
+
+In dieser Anleitung wird erklärt, wie eine Kontaktadressee aus dem Footer entfernt werden kann.
+
+1) Im backend im Content Tree die zu bearbeitende Seite auswählen.
+
+2)  Beim Inhalt im Bereich Footer > Kontaktadresse in das Kontaktfeld klicken um das Drop-Down Menü zu öffnen.
+ 
+3) Die leere Adresszeile auswählen.
+ 
+4) Im Ribbon-Menü auf Save (Tastenkombination Ctrl + S) klicken.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_kontaktadresse_loeschen.htm
+

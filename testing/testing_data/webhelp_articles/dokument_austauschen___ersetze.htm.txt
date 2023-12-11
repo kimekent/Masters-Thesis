@@ -1,0 +1,23 @@
+Key: Dokument austauschen / ersetzen
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Campus > Media Library > Bild oder Dokument austauschen
+ 
+Bestehende Bilder oder Dokumente können durch neue Inhalte ausgetauscht, bzw. ersetzt werden. Alle Verlinkungen zeigen danach die neuen Inhalte.
+ 
+Beispiele
+Bei den folgenden Beispielen wurde ein manueller Teaser und eine Link und Download-Liste eingefügt. Beim Teaser wurde ein Bild-Item zugewiesen und bei der Download-Liste ein Dokument-Item zugewiesen. Nun geht es darum, dem Dokument-Item neue Inhalte zuzuweisen.
+
+Dokument austauschen bzw. ersetzen:
+Wird das Dokument heruntergeladen, ist es ersichtlich, dass es sich um den Inhalt Dokument 1 handelt. Also hier im Beispiel um einen alten Inhalt. Dieser soll nun durch ein neues PDF ersetzt werden.
+
+1.Im Ribbon-Menü > Campus die Media Library öffnen.
+ 
+2.Im Item-Tree das entsprechende Dokument-Item anwählen und durch klicken auf Lock and Edit in den Bearbeitungs-Modus wechseln.
+
+3.Auf Attach klicken und dann im neuen Fenster durch klicken auf Browse ein neues Dokument hoch laden und dem Dokument-Item zuweisen.
+
+4.Das neue Dokument ersetzt das alte PDF. Es wurde also kein neues Dokument-Item erstellt.
+
+5.Die Media-Library kann gesichert und geschlossen werden. Weiter durch ctrl+s die Seite speichern. Alle Links (z.B. hier der PDF Download) welche auf dieses Dokument-Item verweisen, stellen nun den neuen Inhalt zur Verfügung. Durch klicken auf den Link wird das Dokument heruntergeladen. Wird das PDF geöffnet, ist ersichtlich, dass nun der neue Inhalt zur Verfügung steht.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_dokument_austauschen___ersetze.htm
+

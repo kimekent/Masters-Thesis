@@ -1,0 +1,24 @@
+Key: Photoshop
+Navigation:  Tools
+
+In dieser Anleitung ist beschrieben, wie Bilder mit Photoshop zur richtigen Grösse zugeschnitten werden können und wie die bilder korrekt (progressiv) abgespeichert werden, damit sie dann auf der Website eingefügt werden können ohne  das Fehlermeldungen entstehen.
+
+Originalbild in Adobe Photoshop öffnen (ctrl + O oder Datei > öffnen) und auf eine bestimmte Grösse zuschneiden:
+ 
+1.Bild zuschneiden (Taste C oder Zuschneide-Icon). Erforderliche Bildgrösse notieren.
+2.Dimensionen als Höhe x Breite und Auflösung eingeben (Im Dropdown > B x H x Auflösung).
+3.Höhe und Breite in Pixel (px) eintragen
+4.Auflösung auf < 300 dpi (Dots per Inch / Punkte pro Zoll) setzen.
+5.Auswahl nach Wunsch verschieben, vergrössern oder verkleinern.
+6.Mit einem Doppelklick ins Bild das Zuschneiden bestätigen.
+ 
+Optional:
+7.Die Dimensionen können im Dropdown > neue Feststellungsvorgabe gespeichert werden.
+8.Name für die Formatvorlage definieren: Beispiel: Moodboard (1306x420).
+ 
+Resultat für Web Speichern (alt + shift + ctrl + s oder Datei > Für Web speichern...)
+1.Bildformat JPEG wählen.
+2.Beim Speichern immer das Häkchen bei der Option Progressiv setzen.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_photoshop.htm
+

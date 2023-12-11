@@ -1,0 +1,22 @@
+Key: Issuu erstellen
+Navigation:  Seitenelemente > Content Container > Issuu (PDF-Reader)
+
+In diser Anleitung wird erklärt, wie ein Issuu-Element auf einer Seite eingefügt werden kann und wie ein PDF in diesem Element dargestellt werden kann. Um herauszufinden, wie ein PDF welches auf issuu.com veröffentlicht ist, wingefügt werden kann, kann diese Anleitung konsultieren: https://applsupport.hslu.ch/webhelp/index.html?hm_isuu-pfad-finden---neu.htm
+
+1) Auf den Einfüge-Button + Add to here klicken.
+ 
+Hinweis: Unter dem Kapitel "Template auf einer Seite platzieren" wird erklärt, wie die Einfüge-Buttons eingeblendet werden können.
+ 
+2) Im neuen Fenster den Issuu auswählen und auf Select klicken.
+ 
+3) Entweder wird über Create New Content ein neues Issuu erstellt, oder über Select Existing Content ein bestehendes Issuu ausgewählt.
+ 
+3) Um die Issuu ID und der Pfad vom original PDF Dokument definieren zu können, muss auf das Icon editieren geklickt werden.
+ 
+4) Im neuen Fenster kann der Titel geändert, ein Original PDF Dokument ausgewählt und  NEU den Issuu Pfad eingegeben werden.
+Alternativ ist es nach wie vor auch noch möglich, die veraltete Issuu ID zu hinterlegen.
+ 
+5) Element mit Ctrl+S sichern. Danach ist der Inhalt sichtbar:
+
+Link: https://applsupport.hslu.ch/webhelp/hm_issuu_erstellen.htm
+

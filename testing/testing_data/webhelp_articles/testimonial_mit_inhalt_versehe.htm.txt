@@ -1,0 +1,18 @@
+Key: Testimonial bearbeiten
+Navigation:  Seitenelemente > Sidebar Container > Testimonial
+
+Dieser Webhelp-Artikel beschreibt, wie eingefügte Testimonials bearbeitet werden können.Testimonials sollten nur für Testimonials verwendet werden. Testimonials könne nur iender Sidebar eingefügt werden.
+
+1) Im Page Editor können die Felder Text für das Statement und das Feld Name direkt mit Inhalt versehen werden.
+ 
+2) Weiter kann durch klicken auf den Bildbereich ein Bild und ein Link hinzugefügt werden.
+ 
+•Das Bild-Icon wählen um ein Bild einzufügen.
+•Das Link-Icon wählen um ein Link einzufügen.
+ 
+3) Oder mit einem Klick auf das Icon Edit Testimonial können auch alle Elemente auf einmal editiert werden:
+ 
+4) Nach klicken auf OK und dem speichern der Seite, werden die Änderungen ersichtlich.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_testimonial_mit_inhalt_versehe.htm
+

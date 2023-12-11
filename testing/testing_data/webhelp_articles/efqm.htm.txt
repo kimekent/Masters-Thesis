@@ -1,0 +1,15 @@
+Key: EFQM Logo
+Navigation:  Seitenelemente > Footer > Footer Settings >
+ 
+Advanced Users - Configuration
+1) Configuration Fenster öffnen (Ribbon > Campus > Configuration)
+2) Im Zielordner Campus > www auf Footer Settings klicken.
+3) Im Content-Bereich Footer unter EFQM Logo auf Browse klicken.
+4) In der Media Library kann das entsprechende Logo ausgewählt werden. Der Pfad kann auch direkt im EFQM Logo Feld eingegeben werden.
+ 
+1. Der Pfad des EFQM Logo kann direkt im Eingabefeld angegeben werden.
+
+2. Oder EFQM Logo kann durch klicken auf Browse gesucht werden. Es öffnet sich das Media Fenster: In der entsprechenden Ordnerstruktur das efqm-File suchen, auswählen und durch OK einfügen.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_efqm.htm
+

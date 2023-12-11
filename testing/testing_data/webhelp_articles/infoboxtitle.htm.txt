@@ -1,0 +1,19 @@
+Key: Infobox erstellen und zuweisen
+Navigation: Seitenelemente > Info Box
+
+In dieser Anleitun gwird beschrieben, wie eine Infbox erstellet wird und wie diese anschleissend der Seite zugewiesen werden kann. 
+
+1) In den Bereich Infobox klicken und ganz links auf der Seite die Option Insert New Infobox wählen.
+ 
+2) Im neuen Fenster Infobox auswählen und dieser einen Namen vergeben. Mit Insert wird eine neue Infobox erstellt.
+ 
+Hinweis: Zur Organisation kann auch ein Infobox Folder erstellt werden. Es empfiehlt sich aber, diesen über das Backend zu erstellen, wo die ganze Ordnerstruktur ersichtlich ist.
+
+3) Im Ribbon-Menü unter Campus > Page Options kann eine Infobox der Seite zugewiesen werden. Eine Infobox auswählen und mit OK der Seite zuweisen.
+
+Hinweis: Es können pro Seite mehrere Infoboxen erstellt werden, aber nur eine kann auf der Seite dargestellt werden.
+ 
+4) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_infoboxtitle.htm
+

@@ -1,0 +1,21 @@
+Key: Bild austauschen / ersetzen
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Campus > Media Library > Bild oder Dokument austauschen
+
+Bestehende Bilder oder Dokumente können durch neue Inhalte ausgetauscht, bzw. ersetzt werden. Alle Verlinkungen zeigen danach die neuen Inhalte.
+ 
+Beispiele
+Bei den folgenden Beispielen wurde ein manueller Teaser und eine Link und Download-Liste eingefügt. Beim Teaser wurde ein Bild-Item zugewiesen und bei der Download-Liste ein Dokument-Item zugewiesen. Nun geht es darum, dem Bild-Item neue Inhalte zuzuweisen.
+ 
+Bild austauschen bzw. ersetzen:
+1.Im Ribbon-Menü > Campus die Media Library öffnen.
+ 
+2.Im Item-Tree das entsprechende Bild-Item anwählen und durch klicken auf Lock and Edit in den Bearbeitungs-Modus wechseln.
+
+3.Auf Anhängen klicken und dann im neuen Fenster durch klicken auf Durchsuchen ein neues Bild hoch laden und dem Bild-Item zuweisen.
+
+4.Das neue Bild ersetzt das alte Bild. Es wurde also kein neues Bild-Item erstellt.
+
+5.Die Media-Library kann nun gesichert und geschlossen werden. Weiter mit ctrl+s die Seite speichern. Alle Links (z.B. Teaserbild) die auf dieses Bild-Item verweisen, zeigen nun den neuen Inhalt.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_bild_austauschen___ersetzen.htm
+

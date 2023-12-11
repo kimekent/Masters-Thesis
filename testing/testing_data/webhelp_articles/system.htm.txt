@@ -1,0 +1,12 @@
+Key: Footer Settings
+Navigation:  Seitenelemente > Footer
+
+In diesem Webhelp-Artikel wird beschrieben, wo im Backend (Content Editor) der Footer der unten auf der Website angezeigt wird, bearbeitet werden kann. 
+
+BEARBEITUNG DURCH ADMINISTRATOR
+HINWEIS: Diese Footer-Settings können nur von Administratoren verwaltet werden
+
+Pfad im Page-Editor: Ribbon-Menü > Campus > Configuration > Campus > www > Footer Settings
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_system.htm
+

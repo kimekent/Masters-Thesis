@@ -1,0 +1,22 @@
+Key: Eigener Anker im Rich-Text
+Navigation:  Navigation > Anker
+
+Diese Anleitung zeigt, wie man eine eignen Anker im Rich Text erstellen kann, der dann angesprungen werden kann. Ausserdem wird dann beschrieben, wie ein Link zu einem Rich Text Anker gesetzt werden kann (Wie der Anker angesprungen werden kann). 
+
+Eigener Anker im Rich-Text Teaser definieren:
+1.Den Text im Rich-Text Editor markieren und auf das Icon für externe Links klicken.
+ 
+2.Unter dem Tab Anchor ein Name für den eigenen Anker vergeben, z.B meinanker und auf OK klicken.
+ 
+3.Der Anker wurde gesetzt, ist aber leider nur im Rich-Text unter dem Tab HTML ersichtlich:
+... <a name="meinanker"> ...
+
+Auf eigenen Anker im Rich-Text Teaser springen:
+1.Den Text im Rich-Text Editor markieren und auf das Icon für externe Links klicken.
+ 
+2.Den Tab Hyperlink wählen. Unter dem Drop-Down-Menü "Existing Anchor" werden alle existierenden Anker welche im Rich-Text erstellt wurden, aufgeführt. Der entsprechende Anker wählen und auf OK klicken.
+
+3.Die Seite speichern (ctrl-S)
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm
+

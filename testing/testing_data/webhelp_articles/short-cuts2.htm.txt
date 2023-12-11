@@ -1,0 +1,20 @@
+Key: Redirects
+
+In diesem Webhelp Artikel wird beschrieben was Umleitungen sind und für was sie gebraucht werden, sowie wann sie erstellt werden müssen. 
+
+BEARBEITUNG DURCH ADMINISTRATOR
+Admin - Content Editor
+1) sitecore > System > Module > Master > SEO > Redirects
+2) Im Context-Menü die entsprechende Wahl der drei Möglichkeiten wählen: Redirect Folder, Redirect Url, Redirect Link Url
+ 
+Redirects sind Seitenumleitungen. Mit einer prägnanten URL kann so direkt auf eine interne oder externe Seite verwiesen werden.
+ 
+Hinweis: Beim Verschieben oder umbenennen einer Seite wird auch automatisch die Seiten-URL geändert. Google (Google-Suche) indexiert die Seiten ca. alle 16 Tage neu. Je nach Level etwas früher. Das Ranking für diese Seite beginnt wieder bei 0.
+ 
+Soll eine verschobene Seite via Google-Suche sofort wieder gefunden werden, kann dafür eine Redirection der alten URL erstellt werden (z.B. alteURL > neueURL). Zudem bleibt die CheckBox "is Shortcut" aktiv (Häkchen gesetzt). Siehe auch Erweiterte Redirect Einstellungen.
+ 
+Wichtig: Dies sollte nur für wichtige Seiten geschehen!
+Solche temporären Umleitungen sind nach ca. 30 Tagen wieder zu löschen, da diese nur für die ca. 16 tätige Überbrückungszeit von nutzen sind. Daher gleich ein End-Publish-Date bei solch einem Redirect setzen.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_short-cuts2.htm
+

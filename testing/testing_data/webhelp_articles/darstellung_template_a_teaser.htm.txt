@@ -1,0 +1,26 @@
+Key: Template A
+Navigation:  Seitenelemente > Template Container > Template auf einer Seite platzieren
+
+Dieser Webhelp Artikel zählt auf, welche Elemente im Template A eingefügt werden können. Templates sind Behälter ("Container"), die den darin platzierten Inhalten ein spezielles Aussehen geben oder Inhalte aus Datenbanken zusammensuchen und darstellen.
+
+Mögliche Template A Elemente
+1.Manueller Teaser
+2.Event Teaser
+3.Multi Event Teaser
+4.News Teaser
+5.Multi News Teaser
+6.Image Teaser
+7.Bildergalerie
+8.Bildergeschichte
+9.Rich Text Teaser
+10.Zwischentitel
+11.Geschützter Umbruch zwischen Teaser
+12.Forschungs Teaser
+13.RSS Reader
+14.RSS Reader mit Vorschau
+
+Bedingung:
+Hinweis: Das Template A wird für Hauptseiten verwendet. Der Standard Content-Container und der Sidebar-Container bleiben leer.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_darstellung_template_a_teaser.htm
+

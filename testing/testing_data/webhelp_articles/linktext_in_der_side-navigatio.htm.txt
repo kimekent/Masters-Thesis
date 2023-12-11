@@ -1,0 +1,18 @@
+Key: Linktext in der Side-Navigation
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Campus > Navigations Options
+
+Diese Anleitung beschreibt, wie der titel von Unterseiten in der navigaiton manuell angepasst werden können
+
+Die Redaktion bestimmt optional, unter welchem Namen eine Unterseite in der Side-Navigation erscheinen soll. Füllt die Redaktion das Feld nicht aus, setzt das System an dieser Stelle den Seitentiel ein (also den Inhalt des Feldes Titel).
+
+Vorgehen:
+1) Im Ribbon-Menü > Campus die Navigations Options öffnen.
+ 
+2) Im dritten Feld des neuen Fensters einen benutzerdefinierter Namen, z.B. "Neuer Linktext der ersten Unterseite" eingeben und mit OK bestätigen.
+ 
+Hinweis: Der Linktext in der Side-Navigation kann nur auf Unterseiten verwendet werden. Bei der Hauptseite hat er keine Funktionalität!
+
+3) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon neu laden. Danach werden die Änderungen auf der Seite dargestellt.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_linktext_in_der_side-navigatio.htm
+

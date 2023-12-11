@@ -1,0 +1,33 @@
+Key: Bild und Zielseite dem Slide zuweisen
+Navigation:  Seitenelemente > Moodboard
+
+Diese Anleitung erklärt wie man für ein Moodboard ein Bild hochlädt und wie man einen Link (Zielseite) setzt. 
+
+1) Im Experience Editor mit der Maus in den Moodboard Bereich klicken und anschliessend oben links auf das Edit-Icon klicken. 
+ 
+2) Im neuen Fenster sind alle Felder für den Slide ersichtlich und editierbar:
+ 
+oBeim Titelfeld kann der Slidetitel editiert werden.
+oBeim Textfeld kann der Slidetext editiert werden.
+oIm Bereich Bild (1306px x 420px) kann dem Slide durch Klicken auf Browse ein Bild aus der Media-Library hinzugefügt werden. Es kann auch ein neues Bild hochgeladen werden.
+oIm Bereich Bild Mobile (750px x 300px – Viewpoint mittig) kann, wie im Bereich Bild oben beschrieben, ein für Mobile Devices kleineres Bild hinzugefügt werden. Je nach Devicebreite wird das Bild in der Breite beschnitten, vor allem bei Hochformat-Devices wie einem Smartphone. Aus diesem Grund muss sich die zentrale Botschaft in der Bildmitte befinden.
+oIm Bereich Zielseite kann dem Bild durch Klicken auf Insert Link ein Link zugewiesen werden.
+ 
+Achtung: Die Felder Bild, Bild Mobile und Zielseite sind sprachunabhängig. Dies bedeutet, dass nur ein Bild und ein Link für beide Sprachen gemeinsam verwendet wird! Nur die Felder Titel und Text können pro Sprache unterschiedliche Inhalte enthalten.
+ 
+3) Durch Klicken auf Browse kann dem Slide ein Bild zugewiesen werden. Im Media-Fenster das entsprechende Bild auswählen und auf Select Media klicken.
+ 
+Hinweis: Durch Klicken auf Upload kann direkt ein neues Bild in die Media Library hoch geladen werden. Die Dialoge sehen jedoch anders aus. Wie der Bilder-Upload in der Media Library funktioniert, ist hier beschrieben.
+Achtung: Die definierten Bildabmessungen und das Format einhalten!
+ 
+4) Durch Klicken auf Insert Link kann dem Bild ein Link zugewiesen werden. Im Insert-Link-Fenster die entsprechende Seite auswählen und Insert Link klicken.
+ 
+5) Anschliessend im Data-Fenster auf OK klicken und im Page-Editor auf Speichern klicken. Im Page-Editor erscheint als Vorschau das Slide-Bild.
+ 
+Achtung: Im Web wird der Slide noch nicht angezeigt, weil der Slide der Seite noch nicht zugewiesen wurde! Dies ist am roten Hinweistext erkennbar!
+ 
+
+ 
+
+Link: https://applsupport.hslu.ch/webhelp/hm_bild.htm
+

@@ -1,0 +1,18 @@
+Key: Veranstaltung löschen
+Navigation:  Seitentypen > Veranstaltung (Agenda-Eintrag)
+
+In dieser Webhelp-Anleitung wird beschrieben, wie eine Veranstaltungsseite gelöscht werden kann.
+
+1) Im Experience Editor zur Event Detail-Seite navigieren
+ 
+2) Im Ribbon-Menü den Befehl Home > Delete Event auswählen.
+ 
+3) Es erscheint ein neues Fenster, bei welchen die Löschung bestätigt werden kann.
+ 
+4) Navigiert man mit der Breadcrumb Navigation zurück auf die Agenda Seite, ist ersichtlich, dass der Event gelöscht wurde.
+ 
+Der Event wir in der Liste nicht mehr aufgeführt:
+ 
+
+Link: https://applsupport.hslu.ch/webhelp/hm_veranstaltung_loeschen.htm
+

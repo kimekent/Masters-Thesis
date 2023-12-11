@@ -1,0 +1,24 @@
+Key: Quick Link neu erstellen
+Navigation:  Seitenelemente > Footer > Quick Links
+
+Im Footer kann auf jeder Seite Quicklinks eingefügt werden. In dieser Anleitung wird beschriebne, wie ein Quicklink neu erstellt werden kann. Wie der Quicklink anschliessend der Seite zugewiesen werden kann, steht hier beschrieben: https://applsupport.hslu.ch/webhelp/index.html?hm_quicklinks_zuweisen.htm
+
+ 
+1. Den Ordner Quick Links unter Shared Data im Content-Tree öffnen.
+ 
+2. Wenn nötig den Zielordner in welchem das neue Link-Item erstellt werden soll auch öffnen.
+ 
+3. Auf dem Zielordner (z.B. h) das Kontextmenü öffnen und Insert > Quick Link > Quick Link wählen
+
+4. Im neuen Fenster wird dem Link-Item einen Namen vergeben, weiter mit OK. Dadurch wird das Link-Objekt angelegt und im gewählten Zielordner gesichert.
+
+5. Das Link-Item wurde im Content-Tree angelegt.
+
+6. Das Link Item im Ordner Quick Links wählen und auf Insert Link klicken.
+
+7. Im neuen Fester die Zielseite auswählen und auf Insert Link klicken.
+ 
+8. Der Pfad der Zielseite wird im Link-Item hinterlegt.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_link_item_neu_erstellen.htm
+

@@ -1,0 +1,39 @@
+Key: Rich Text Editor
+tools
+Der Rich Text Editor ist eine Werkzeugkiste zur Bearbeitung von formatierten Texten. Er bietet die folgenden Funktionen:
+ 
+
+ 
+Bei der Verwendung der Formatvorlagen ist Folgendes zu beachten: Es darf kein "Heading 3" verwendet werden ohne dass zuvor ein "Heading 2" eingesetzt wurde. Wird dies nicht eingehalten, sind Inhalte für Screenreader und damit für Menschen mit eingeschränkter Wahrnehmung nur noch erschwert zugänglich.
+ 
+1.Drucken: Auswahl oder gesamten Text Drucken.
+2.Suchen und Ersetzen: Nach einem Begriff suchen und wahlweise Begriffe ersetzen.
+3.Ausschneiden: Auswahl aus dem Text entfernen und in die Zwischenablage kopieren.
+4.Kopieren: Auswahl in die Zwischenablage kopieren.
+5.Einfügen: Inhalt der Zwischenablage einfügen.
+6.Einfügen aus Word (Schriftart entfernen): Kopierten Text ohne Schriftart-Information einfügen.
+7.Einfügen als Plain Text: Kopierten Text ohne jegliche Formatierung einfügen.
+8.Format Stripper: Ausgewählten Text von jeglicher Formatierung befreien.
+9.Rückgängig: Einen Bearbeitungsschritt rückwärts gehen.
+10.Vorwärts: Einen Bearbeitungsschritt vorwärts gehen.
+11.Sitecore Link einfügen: Einen internen Link einfügen.
+12.Hyperlink Manager (Anker, Email, Link): Externe Links und Anker einfügen.
+13.Links entfernen: Links entfernen.
+14.Neuer Paragraph
+15.Insert Symbol: Symbol einfügen.
+16.Insert Code Snippet: Code Snippet einfügen.
+17.Fett: Auswahl fett drucken.
+18.Kursiv: Auswahl kursiv drucken.
+19.Unterstrichen: Auswahl unterstreichen.
+20.Numerierte Aufzählung: Auswahl zu einer numerierten Aufzählung machen.
+21.Bullet Points: Auswahl zu einer nicht numerierten Aufzählung machen.
+22.Subscript: Auswahl tiefer setzen.
+23.Superscript: Auswahl höher setzen.
+24.Alles auswählen: Alles auswählen.
+25.Modul Manager: z.B. Realtime HTML View
+26.Spellchecker: Rechtschreibung prüfen.
+27.Formatvorlagen: Vordefinierte Formatvorlagen auswählen.
+ 
+
+Link: https://applsupport.hslu.ch/webhelp/hm_rich_text_editor.htm
+

@@ -1,0 +1,23 @@
+Key: Linktexte in Navigation ein-/ ausblenden
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Campus > Navigations Options
+
+Die Redaktion kann für jede Seite bestimmen, ob sie in der Hauptnavigation, der Side-Navigation, im Breadcrumb und in der Sitemap angezeigt werden soll. Dabei gilt Folgendes:
+ 
+1.Die Grundeinstellung der Sichtbarkeit nur in Ausnahmefällen verändern.
+2.Die Side-Navigation wird in der mobilen Darstellung nicht dargestellt. Deshalb Checkbox "In Navigation anzeigen" immer aktivieren. So bleibt die Seite auch mobil erreichbar.
+
+Sichtbarkeit via Experience Editor steuern:
+1) Im Ribbon-Menü > Campus die Navigations Options öffnen.
+ 
+2) Im neuen Fenster die entsprechenden Checkboxen aktivieren / deaktivieren (aktiv = sichtbar)
+ 
+3) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon neu laden. Danach werden die Änderungen auf der Seite dargestellt.
+
+Sichtbarkeit via Backend steuern:
+Advanced Users - Backend
+1) Backend Fenster öffnen (Ribbon > Campus > Backend)
+2) Unter Inhalt > Campus > Hochschule-Luzern die entsprechende Seite wählen.
+3) Im Content unter Navigation die entsprechenden Checkboxen aktivieren / deaktivieren (aktiv = sichtbar)
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_linktexte_iin_navigation_ein_ausblenden.htm
+

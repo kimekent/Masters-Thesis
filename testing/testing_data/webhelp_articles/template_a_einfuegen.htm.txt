@@ -1,0 +1,14 @@
+Key: Template A einfügen
+Navigation:  Seitenelemente > Template Container > Template auf einer Seite platzieren > Template A 
+
+In diesem Webhelp-Artikel wird beschrieben wie ein Template A auf einer Übersichtsseite eingefügt werden kann und wie darauf Elemente platziert werden können. 
+
+Template A einfügen und mögliche Element platzieren:
+1) Auf den Button + Add to here klicken und das Template A auswählen und mit Select bestätigen.
+ 
+2) In den karierten Bereich vom Template A - Content klicken und wieder auf den + Add to here Button klicken.
+ 
+3) Die mögliche Inhalte vom Template A werden angezeigt und können verwendet werden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_template_a_einfuegen.htm
+

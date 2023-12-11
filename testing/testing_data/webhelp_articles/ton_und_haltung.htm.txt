@@ -1,0 +1,42 @@
+Key: Ton und Haltung
+Navigation:  Seitenelemente > Text
+
+Dieser Webhelp-Artikel enthält Allgemeine inhaltliche Regeln zum erfassen von Texten.
+
+Die Hochschule Luzern spricht von sich in der dritten Person Singular:
+Generell verwendet die Hochschule Luzern die dritte Person Singular. In speziellen Fällen (also etwa bei Zitaten, Willkommensgrüssen etc.) ist der Wechsel zur ersten Person (Singular oder Plural) gestattet.
+ 
+Aussagen in der ersten Person („ich“ und „wir“) sollten aber klar einer Quelle (beispielsweise „Markus Hodel, Rektor der Hochschule Luzern“) zuzuordnen sein.
+ 
+Beispiel: „Am 1. Oktober 2014 geht der neue Internetauftritt der Hochschule Luzern online. Die Überarbeitung nahm rund drei Jahre in Anspruch. Entstanden ist die wohl modernste Webpage im Schweizer Bildungssektor.“
+
+Die Hochschule Luzern wendet sich an Sie!:
+Die direkte Wendung an Ansprechpersonen auf hslu.ch geschieht in der Höflichkeitsform "Sie". Die unmittelbare Anrede sollte sparsam eingesetzt werden.
+ 
+Beispiel: „Melden Sie sich für den Newsletter der Hochschule Luzern an!“
+
+Die Hochschule Luzern ist die Fachhochschule für die Praxis:
+Die Redaktion betont diesen Praxisbezug in allen Inhalten. Die Leitfrage beim Überarbeiten und der Kreation neuer Inhalte muss sein: „Welche praktischen Anwendungen hat ein Bildungsprodukt oder ein Forschungsresultat?
+ 
+Die Devise lautet: "Show. Don't tell."
+
+Klartext zeigt Kompetenz: 
+Der Ton der Hochschule Luzern
+-variiert je nach Inhalt
+-ist nicht anbiedernd
+-zeigt Qualität
+-ist klar
+-bezeugt Ausdruckskompetenz
+-zeigt Aussensicht
+-ist unkompliziert
+-wirkt nicht pseudo-akademisch
+-klingt wissenschaftlich
+-lädt zur Interaktion ein - ist nicht nur auf Senden, sondern auch auf Empfangen von Botschaften ausgelegt
+-besteht darin, schnell zur Sache zu kommen
+-favorisiert eine aktive Schreibhaltung geschrieben
+Aktiv: „Der Rektor sprach in der Aula Magna.“
+Passiv: „In der Aula Magna wurde vom Rektor eine Ansprache vorgetragen.“)
+-orientiert sich am Ton der Textakademie
+
+Link: https://applsupport.hslu.ch/webhelp/hm_ton_und_haltung.htm
+

@@ -1,0 +1,16 @@
+Key: Rich Text Teaser bearbeiten
+content2>content_-_moegliche_items>teaser
+1) In den Rich Text Teaser klicken und das Edit-Icon Edit rich text anklicken
+ 
+
+ 
+2) Im neuen Fenstern können folgende Einstellungen bearbeitet werden:
+ 
+•Text > Show Editor
+•Breite in %
+•Publish / Unpublish
+ 
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_rich_text_teaser_bearbeiten.htm
+

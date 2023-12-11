@@ -1,0 +1,16 @@
+Key: Social Icons zuweisen
+Navigation:  Seitenelemente > Footer > Social Icons
+
+In dieser Anleitung ist beschrieben, wie die erstellten Social Media Icons einer Seite zu gewiesen werden können. Voraussetzung für das Zusweisen ist, dass das Social Media Icon schon erstellt wurde. Wie ein Social Media Icon erstellt wird, ist hier beschrieben: https://applsupport.hslu.ch/webhelp/index.html?hm_social_icons.htm
+
+1) Im Content Editor (Backend) im Content Tree die zu bearbeitende Seite auswählen.
+ 
+2) Beim Inhalt im Bereich Footer > Direkteinstieg im linken Auswahlbereich ein Social Icon auswählen. Mit den blauen Pfeilbuttons kann die Auswahl hinzugefügt, entfernt, oder in der Reihenfolge verändert werden.
+ 
+Social Icon hinzu fügen: In der Liste All ein Social Icon auswählen und auf den Pfeil klicken.
+Social Icon enfernen: In der Liste Selected ein Social Icon auswählen und auf den Pfeil klicken.
+
+Social Icon Position ändern: In der Liste Selected ein Social Icon auswählen und durch das klicken auf den Pfeil nach oben oder nach unten verschieben.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_sozial_icons.htm
+

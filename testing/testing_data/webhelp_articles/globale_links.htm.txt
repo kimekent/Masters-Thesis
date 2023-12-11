@@ -1,0 +1,27 @@
+Key: Globale Links
+Navigation:  Seitenelemente > Footer > Footer Settings >
+
+In dieser Anleitung wird beschrieben, wie bereits erstellte Links im Footer hinzugefügt werden können, beim Footer entfernt werden können oder wie die Reihenfolge der Links geändert werden kann.
+ 
+BEARBEITUNG DURCH ADMINISTRATOR
+
+Advanced Users - Configuration
+1) Configuration Fenster öffnen (Ribbon > Campus > Configuration)
+2) Im Zielordner Campus > www auf Footer Settings klicken.
+3) Im Content-Bereich Footer unter Globale Links auf Edit klicken.
+4) Im Link-Editor, können Quick Links hinzugefügt, entfernt, oder die Reihenfolge geändert werden.
+
+HINWEIS: Wie neue Links erstellt oder gelöscht werden, finden Sie im Kapitel Quick Links (https://applsupport.hslu.ch/webhelp/index.html?hm_links.htm).
+
+HINWEIS: Ein Link-Item kann mehrfach an verschienden Orten auf der Webseite platziert werden. Das Linkziel lässt sich im Link-Item ändern. Somit weisen dann alle gleichen Link-Item auf des neue Linkziel
+  
+1. Um einen Link hinzu zu fügen, zu löschen oder die Reihenfolge zu ändern, im Bereich Footer > Globale Links auf Edit klicken.
+ 
+2. Im Link-Editor, können Quicklinks hinzugefügt, entfernt, oder die Reihenfolge geändert werden.
+ 
+Link hinzu fügen: In der Liste All einen Link auswählen und auf den Pfeil klicken.
+Link enfernen: In der Liste Selected einen Link auswählen und auf den Pfeil klicken.
+Link Position ändern: In der Liste Selected einen Link auswählen und durch das klicken auf den Pfeil nach oben oder nach unten verschieben.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_globale_links.htm
+

@@ -1,0 +1,16 @@
+Key: Meta Description
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Campus > Page Options
+
+In dieser Anleitung wird beschrieben, was die Meta-Descriptuion ist und wie diese bei Google Anzeigen wverwendet wird. Ausserdem wird beschrieben, wie die Meta Description manuell angepasst werdne kann. 
+
+Die Meta Description ist in erster Linie der Text, der von Suchmaschinen auf Suchresultatsseiten verwendet wird. Der Text hat keinen direkten Einfluss auf die Rankings von Google, beeinflusst aber die Klickrate, was sich wiederum aufs Ranking auswirken kann. Die Meta Description ist idealerweise ca. 120 Zeichen lang und fasst zusammen, worum es auf einer Seite vor allem geht. Wichtig: Ganze Sätze, klare Aussagen und keine Keyword-Sammlungen.
+ 
+Mehr Informationen zur Meta Description bieten zum Beispiel die SEO-Experten von moz.com.
+ 
+Lässt die Redaktion das Feld "Meta Description" frei, verwendet Sitecore den Intro-Text als Meta Description.
+
+HINWEIS: Über die Page Options bestimmt die Redaktion den Inhalt ihrer Meta Descriptions manuell.
+Der Intro-Text auf hslu.ch wird als Meta Description, zur Kurzbeschreibung auf den Suchresultatsseiten von Google.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_meta_description.htm
+

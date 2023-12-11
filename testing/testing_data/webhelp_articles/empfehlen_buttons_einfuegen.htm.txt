@@ -1,0 +1,19 @@
+Key: Empfehlen Buttons einfügen
+Navigation:  Seitenelemente > Content Container > Empfehlen-Buttons
+
+In dieser Anleitung wird beschrieben, wie die Liste mit den Social Media Icons (Empfehlen button) auf einer Seite eingefügt werden kann).
+
+1) Auf den Einfüge-Button + Add to here klicken.
+
+Hinweis: Unter dem Kapitel "Template auf einer Seite platzieren" wird erklärt, wie die Einfüge-Buttons eingeblendet werden können.
+ 
+2) Im neuen Fenster die Social Media - Empfehlen Buttons auswählen und auf Select klicken.
+ 
+3) Über Create New Content können neue Empfehlen-Buttons erstellt werden.
+ 
+4) Die Empfehlen-Buttons werden auf der Seite platziert
+ 
+Hinweis: Es sollten maximal 5 Elemente aktiviert werden, damit keine zweite Reihe von Buttons erscheint
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_empfehlen_buttons_einfuegen.htm
+

@@ -1,0 +1,11 @@
+Key: Karte (Google Maps)
+Navigation:  Seitenelemente > Sidebar Container
+
+Das Karten-Element zeigt Adressen und Orte visuell an. Der rote Pfeil kann auf drei Arten definiert werden:
+•Adresse
+•Ortsbezeichnung
+•Koordinaten
+Eingesetzt wird das Element überall dort, wo genaue Ortsangaben relevant sind: Veranstaltungen, Büros, Vorlesungssäle etc.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_karte_google_maps.htm
+

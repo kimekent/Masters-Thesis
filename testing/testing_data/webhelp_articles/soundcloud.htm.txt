@@ -1,0 +1,9 @@
+Key: Soundcloud
+Navigation:  Seitenelemente > Content Container
+
+"SoundCloud ist eine Website zum Austausch und zur Distribution von Audiodateien. Sie dient als Kooperations- und Werbeplattfom für Musiker" - Wikipedia.
+ 
+Die Hochschule Luzern hostet Audio-Files (Songs, Podcasts, Konzertmitschnitte) neu nach Möglichkeit auf Soundcloud und bettet sie via Plugin auf hslu.ch ein:
+
+Link: https://applsupport.hslu.ch/webhelp/hm_soundcloud.htm
+

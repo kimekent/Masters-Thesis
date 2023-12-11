@@ -1,0 +1,27 @@
+Key: RSS einfügen
+Navigation:  Seitenelemente > Content Container > RSS Reader / RSS Reader mit Vorschau
+
+In dieser Anleitung wird beschrieben, wie ein RSS Feed eingefügt werden kann. Für was ein RSS Feed verwendet werden kann und was es ist, ist hier beschrieben: https://applsupport.hslu.ch/webhelp/index.html?hm_rss.htm
+
+1) Im Content Container auf + Add to here klicken.
+ 
+2) RSS Reader oder RSS Reader mit Vorschau wählen. Die zweite Option zeigt zusätzlich zum Link eine Kurzversion der angezeigten Mitteilungen.
+ 
+3) Neuen Inhalt generieren mittels Create New Content und das Element benennen.
+ 
+4) In der Floating Toolbar auf den Editierbutton klicken.
+ 
+5) Folgende Eingaben in den drei Feldern tätigen:
+ 
+1.Im Menü die RSS Feed URL eintragen (Beispiel: "http://blog.hslu.ch/feed")
+2.Bestimmen, wie viele Einträge maximal angezeigt werden sollen "RSSReaderMaxCount"
+3.Optional einen Link auf die Quelle des RSS Feeds einfügen
+ 
+RSS Reader (ohne Vorschau):
+
+RSS Reader mit Vorschau: Zusätzlich kann zwischen den Grössen 50% und 100% gewählt werden.
+
+6) RSS-FEED wird platziert:
+
+Link: https://applsupport.hslu.ch/webhelp/hm_rss_einfuegen.htm
+

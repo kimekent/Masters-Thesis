@@ -1,0 +1,42 @@
+Key: PageIntro
+Navigation:  Seitenelemente
+
+Das Seiten-Intro (PageIntro) ist obligatorisch. Es steht am Anfang jeder Seite und besteht aus drei Elementen:
+ 
+1.Titel: Der Titel macht klar, wo wir uns befinden und um was es grob geht.
+2.Titel 2: Der Titel 2 gewinnt die Aufmerksamkeit und motiviert zum Weiterlesen.
+3.Intro-Text: Der Intro-Text fasst den Inhalt und die Hauptaussage einer Seite zusammen.
+ 
+Spitzmarke (möglichst kurz, ideal sind weniger als 30 Zeichen). Bezeichnet die Hauptaussage der Seite. Ist identisch mit dem entsprechenden Navigationspunkt. Dies zeigt Usern, wo sie sich gerade befinden. Kein Punkt nach dem Titel.
+ 
+Verwendung: Das Element ‚Titel‘ wird automatisch als Bestandteil des ‚Page Title‘ verwendet.
+ 
+Beispiel: „Bachelor Bautechnik Studiengang für Bauexperten“, Titel ist grau hinterlegt.
+ 
+Jede Seite im Internet hat einen sogenannten ‚Page Title‘. Der Page Title ist das wichtigste Inhalts-Element für die Suchmaschinenoptimierung. Er wird im Browser-Fenster oder Tab und auf den Resultatseiten von Suchmaschinen angezeigt.
+ 
+Der Page Title macht ein Versprechen, was der Inhalt bieten wird. Dabei bleibt er möglichst kurz (in Suchresultats-Seiten etwa werden nur die ersten 60-70 Zeichen angezeigt). 
+ 
+Der Page Title in Web12 wird nach der folgenden Formel zusammengesetzt: 
+<Titel 1> | Hochschule Luzern
+Beispiel: „Bachelor in Bautechnik | Hochschule Luzern“
+Beispiel: „Studium | Hochschule Luzern“
+ 
+ 
+Der zweite Teil des Titels ist der Reisser. Soll den Leser in den Text ziehen. Kein Punkt nach dem Titel. Bei Fragen und Ausrufen sind Frage- und Ausrufezeichen Pflicht.
+ 
+Beispiel: „Bachelor Bautechnik Studiengang für Bauexperten“, Titel 2 ist grau hinterlegt.
+ 
+ 
+Der Intro-Text fasst den Inhalt zusammen. Jede Seite braucht einen Intro-Text (auch ‚Lead‘ oder ‚Anriss‘, wiederverwendbar als ‚Meta Tag Description‘). Der Anriss fasst die Hauptaussage des Inhalts kurz und prägnant zusammen. Wo der Page-Title ein Versprechen macht, fasst der Anriss die Lösung grob in drei Sätzen zusammen. Der Lead ist idealerweise ca. 120 Zeichen lang.
+ 
+Anrisse beantworten die fünf journalistischen W-Fragen: Wer, wo, wann, was, wie. Wenn genügend Platz vorhanden ist, kann auch die Frage nach dem Warum miteinbezogen werden. Der Lead soll klären, ob es sich lohnt weiterzulesen, oder ob Besuchende besser weiter- oder zurücknavigieren sollen.
+ 
+Der ‚Intro Text‘ automatisch auch für die Meta-Description verwendet. Diese Voreinstellung lässt sich übersteuern.
+ 
+Die Meta-Description fasst den Inhalt einer Webpage kurz zusammen. Sie wird auf Suchergebnis-Seiten verwendet und zeigt Suchenden an, was sie erwartet, bevor sie sich für einen Link entscheiden. 
+ 
+Google zeigt ca. 120 Zeichen der Meta-Description an. Eine Garantie, dass Google genau immer das anzeigt, was als Meta Description übergeben wird, gibt es nicht.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_inhaltliche_richtlinien_tsh.htm
+

@@ -1,0 +1,31 @@
+Key: Anker auf gleicher Seite
+Navigation:  Navigation > Anker
+
+Diese Anleitung erklärt, wie ein Anker der zu einem Abschnitt auf der gleichen Seite eingefügt werden kann. Es wird gezeigt wie man das beinem Manuellen Teaser (ohne #) macht und wie man das bei eienm Rich Text Teaser macht (mit #).
+
+Hinweis: Falls eine Sprungmarke in einer Linkliste auf einen Anker auf derselben Seite gesetzt werden soll, dann bitte die Link-List V2 verwenden (und nicht die Link- und Downloadliste).
+
+Zu einem Anker auf derselben internen Seite springen
+
+Beispiel 1 - mit einem "Manuellen Teaser"
+1.Der Ankername OHNE dem "Gartenzaun-Zeichen" # kopieren, z.B. zwischentitel
+ 
+2.Beim Manuellen Teaser auf bearbeiten klicken ..
+ 
+3.... und im neuen Fenster zum beim Bereich Link scrollen, dann weiter auf Link einfügen klicken
+ 
+4.Im Seitenbaum die aktuelle Seite auswählen und im Feld Anker der entsprechende Ankername; hier in diesem Beispiel zwischentitel, OHNE # eintragen. Danach auf den Button Einfügen klicken und speichern
+
+Beispiel 2 - mit einem "Rich Text Teaser":
+5.Der Ankername MIT dem "Gartenzaun-Zeichen" # kopieren, z.B. #linkunddownloadliste
+ 
+6.Den Textbereich, welcher als Ankerlink fungieren soll markieren und auf das Link-Symbol für externe Links anklicken.
+ 
+7.Der Ankername inkl. dem #-Zeichen im Feld URL einfügen und auf OK klicken.
+ 
+Hinweis: Unter dem Register Anchor (Anker) können im Rich-Text eigene Anker definiert werden.
+
+8.Die Seite speichern (ctrl-S)
+
+Link: https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm
+

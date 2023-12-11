@@ -1,0 +1,17 @@
+Key: Wording
+Navigation:  Seitenelemente > Text
+
+Generell gelten die Wordings der Hochschule Luzern:
+•Wording Deutsch (https://inside.hslu.ch/mk/cicd/Seiten/Startseite.aspx)
+•Wording Englisch (https://inside.hslu.ch/mk/Seiten/InfoWiki/%C3%9Cbersetzungsdienst.aspx)
+ 
+Der Halbgeviertstrich ist etwas länger als ein normaler Bindestrich. Gemäss Wording kommt er zwischen "Hochschule Luzern" und "Wirtschaft" zum Einsatz. Er wird durch folgende Tastenkombination erzeugt:
+ 
+alt-Taste (gedrückt halten), dann "0150" eingeben.
+ 
+Beispiel Halbgeviertstrich:        –
+Beispiel Bindestrich:                -
+Beispiel aus der Praxis: "Hochschule Luzern – Wirtschaft"
+
+Link: https://applsupport.hslu.ch/webhelp/hm_wording_der_hochschule_luzern.htm
+

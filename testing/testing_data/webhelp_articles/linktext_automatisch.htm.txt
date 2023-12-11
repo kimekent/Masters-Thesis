@@ -1,0 +1,53 @@
+Key: Seitentitel (Automatisch)
+Navigation:  Navigation > Hauptnavigation
+
+Im Content Editor werden zusätzlich zu den Feldern in den Page Options die automatisch generierten Linktexte explizit angezeigt "... (automatisch)". Die Felder machen erkenntlich, welchen Text das System schlussendlich nach aussen weitergibt. 
+ 
+Die Redaktion kann die automatischen Felder überschreiben, indem sie die korrespondierenden Felder mit benutzerdefinierten Texten bestückt.
+ 
+Vorgehen
+Wo sind die automatischen Linktext-Felder zu finden?
+Für die automatischen Linktexte muss nichts unternommen werden.
+ 
+Advanced Users - Backend
+1) Backend Fenster öffnen (Ribbon > Campus > Backend)
+2) Unter Inhalt > Campus > Hochschule-Luzern die entsprechende Seite wählen.
+3) Im Content unter Navigation ist das Feld Seitentitel (Automatisch) zu finden.
+ 
+Die Felder Linktext (Automatisch) und Linktext für Flyout, Mobile-Navigation und Breadcrumb (Automatisch) entsprechen ...
+
+... dem Feld Titel der entsprechenden Seite im Backend, beziehungsweise ...
+ 
+... dem Feld Titel der entsprechenden Seite im Page-Editor:
+ 
+Beispiel 1: Seite im Level 1 (Unter den Departementen):
+Der Seitentitel (Automatisch) wird wie hier gezeigt für die Hauptnavigation, für den Titel des Flyout-Menüs und den Breadcrumb verwendet...
+
+Hinweis: Sobald eine Seite eine weitere Unterseite beherbergt, wird im Flyout-Menü automatisch ein neuer Level hinzugefügt. Die Begrenzung liegt bei 20 Unterstufen.
+
+Hinweis: Wie im folgenden Beispiel aufgezeigt, kann der Seitenname für das Menü eventuell zu lang sein. Genau für diesen Fall können die Linktexte manuell übersteuert werden. Details dazu sind im Kapitel Navigations Options und Folgekapitel beschrieben.
+
+... die Breadcrumb-Navigation.
+ 
+
+ 
+ 
+ 
+In diesem Beispiel wird eine Seite im zweiten Level eingefügt.
+ 
+
+ 
+Der Linktext (Automatisch) wird nun nur noch im Flyout-Menü verwendet und für ...
+ 
+
+ 
+ 
+... die Breadcrumb-Navigation. Das Feld Linktext (Automatisch) wird
+ 
+
+ 
+ 
+ 
+
+Link: https://applsupport.hslu.ch/webhelp/hm_linktext_automatisch.htm
+

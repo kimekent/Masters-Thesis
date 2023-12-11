@@ -1,0 +1,63 @@
+Key: Ausbildung (Studium)
+Navigation:  Seitentypen
+
+In dieser ANleitung wird der Seitentyp Ausbildung vorgestellt und aufgelistet welche Elemente dieser Seitentyp enthält. Ausserdem wird aufgelistet auf welcher  wo, unter welcher Seite, eine Ausbildungsseite eingefügt werden kann.
+
+Siehe auch: Ausbildung einfügen, Ausbildung Filterlist konfigurieren
+ 
+WeVe / Onla - Link einfügen: Siehe Call-To-Action-Teaser > Links zuweisen
+ 
+Achtung: Die speziellen Ausbildungsseiten-Items wie z.B. die Ausbildungs-Factliste nicht löschen, da diese Elemente nicht einfach wieder integriert werden können!
+ 
+Die Studiengangsseite stellt einen Studiengang dar (vor allem Master und Bachelor).
+
+Thema:
+Die Redaktion kann jeder Ausbildungsseite einem oder mehreren Themen zuweisen und die Eigenschaften der des Studienangebotes via Backend bearbeiten.
+
+Wo kann ein Studiengang eingefügt werden?:
+An den folgenden Orten können Studiengänge hinzugefügt werden:
+ 
+Technik & Architektur: 
+hslu.ch/de-ch/technikarchitektur/studium/bachelor/
+hslu.ch/de-ch/technikarchitektur/studium/master/
+ 
+Wirtschaft:
+hslu.ch/de-ch/wirtschaft/studium/bachelor/
+hslu.ch/de-ch/wirtschaft/studium/master/
+ 
+Informatik:
+hslu.ch/de-ch/informatik/studium/bachelor/
+hslu.ch/de-ch/informatik/studium/master/
+ 
+Soziale Arbeit: 
+hslu.ch/de-ch/soziale-arbeit/studium/bachelor/
+hslu.ch/de-ch/soziale-arbeit/studium/master/
+ 
+Design & Kunst:
+hslu.ch/de-ch/design-kunst/studium/bachelor/alle-studiendetails/
+hslu.ch/de-ch/design-kunst/studium/master/alle-studiendetails/
+                         
+Musik:
+hslu.ch/de-ch/musik/studium/bachelor/
+hslu.ch/de-ch/musik/studium/master/
+ 
+Hinweis: Studiengänge können nur eingefügt werden, wenn sich die Redaktorin auf einer Studiengangsseite befindet. Eine Studiengangsseite ist im Content Editor am grünen Page-Icon erkennbar.
+
+Elemente eines Studiengangs:
+Studiengänge werden in Filter-Listen zusammengezogen. Eine neue Studiengangsseite generiert die folgenden Elemente:
+ 
+1.Page-Intro
+2.Social Media Buttons (Achtung: Automatisch konfiguriert)
+3.Übersichtstext
+4.Facts-Liste
+5.Side-Navigation (Achtung: Automatisch erstellt)
+6.Die Unterseite "Module" (Modulgenerator)
+7.Unpersönlicher Kontakt-Teaser
+8.Info Veranstaltungen Aus- /Weiterbildungen: Bei Informations Event Seiten können Aus- und Weiterbildungsseiten verknüpft werden.
+ 
+Weitere Elemente können optional hinzugefügt werden. Zur Auswahl stehen alle Elemente, die in Content Containern verwendet werden können.
+ 
+Achtung: Die speziellen Ausbildungsseiten-Items wie z.B. die Ausbildungs-Factliste nicht löschen, da dieses spezifischen Items nicht einfach wieder integriert werden können!
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_template_ausbildung.htm
+

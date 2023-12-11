@@ -1,0 +1,11 @@
+Key: Titel (Spitzmarke)
+Navigation:  Seitenelemente > PageIntro
+
+Der Titel ist das wichtigste Text-Element auf einer Seite. Er sagt klar und deutlich, um was es grob geht. Er ist idealerweise unter 60 Zeichen lang. Der Titel wird standardmässig auch in der Flyout-Navigation verwendet. Beim Texten muss also klar die schnelle Erfassbarkeit im Vordergrund stehen.
+ 
+Ist ein Seitentitel zu lang für die Flyout-Navigation, den Breadcrumb oder die Side-Navigation, erfasst die Redaktion in den Navigation Options eine Kurzversion des Titels.
+ 
+Das System verwendet den "Titel" standardmässig als Page Title. Der Page Title erscheint im Browser-Fenster und in den Google-Suchresultaten. Der Page Title kann in den Page Options manuell übersteuert werden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_titel.htm
+

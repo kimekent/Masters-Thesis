@@ -1,0 +1,11 @@
+Key: ppdb.hslu.ch
+Navigation:  Seitenelemente > Template Container > Templates A, B, C, Content > Forschungsteaser
+
+In diesem Websupport-Artikel wird beschrieben, wie ein Forschungsprojekt gefunden werden kann um in einem Forschungsteaser einzufügen. 
+
+Manchmal ist es etwas hakelig, ein Projekt im Projekt-Teaser-Auswahlmenü zu finden. Es ist wichtig die Projekt-Titel aufs Zeichen genau so zu schreiben: Leerzeiche, Satzzeichen, Anführungszeichen: Alles muss stimmen.
+ 
+Wie das Projekt genau heisst, erfährt die Web-Redakton entweder durch eine Suche auf ppdb.hslu.ch oder indem Sie wie unten gezeitgt "project((Nummer-des-Projektes-in-Sitecore)) eingeben.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_forschungsprojekt_finden.htm
+

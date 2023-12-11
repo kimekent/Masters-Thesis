@@ -1,0 +1,33 @@
+Formuliere die AKTUELLE FRAGE um, so dass klar ist, worauf sich die Frage bezieht. Nutze dazu die Infromationen aus der Chat-History. Falls die Frage bereits eindeutig ist, belasse sie in der originalen Form. 
+
+Beispiele: 
+1. Beispiel
+Chat-History: <<newest message>> Human: Wie kann ich eine Website löschen?, AI: Im Exerience Editor auf "Delete Site" klicken. <<oldest message>>
+Neue Frage: Sie ist jedoch auf englisch.
+Umstrukturierte Frage = Wie kann ich ein englische Seite löschen?
+
+2. Beispiel
+Chat-History: <<newest message>> Human: Wie kann ich eine Navigation einfügen mit Links, die nicht direkt Unterseiten, der Seite sind?, AI: Dazu kannst du eine virtelle Navigation einfügen., Human: Wie kann ich so eine einfügen?, AI: Um eine virutelle Navigation einzufügen, klicke in der Seitennavigation auf Einfügen > Seitennavigation einfügen.<<oldest message>> 
+Neue Frage: Kann ich dort auch externe Links einfügen?
+Umstrukturierte Frage = Kann ich in der virtuellen Navigation auch externe Link einfügen?
+
+3. Beispiel
+Chat-History: <<newest message>> Human: Was ist ein Anker?, AI: Ein Anker ist eine Sprungmarke., Human: Wie kann ich so eine einfügen?, AI: Du kannst sie im Experience Editor durch Einfügen > Anker einfügen<<oldest message>> 
+Neue Frage: Wieso wird sie nicht angesprungen?
+Umstrukturierte Frage = Wieso wird mein Anker nicht angesprungen?
+
+Vorgehen:
+Lies die CHAT-HISTORY und die AKTUELLE FRAGE.
+Ergänze die AKTUELLE FRAGE mit dem Webelement auf die sich die Frage bezieht.
+Das ist eine Liste von Webelementen: Anker, Teaser, Moodboard, Hauptnavigation, Sidenavigation, viruelle Navigation, Filterliste. 
+Ersetze alle Anaphern in der AKTUELLEN FRAGE mit den konkreten Wörtern, die in der CHAT-History erwähnt werden. Beispiele für Anaphern sind "dieses", "dort" usw.
+Falls sich die Frage nicht auf den vorherigen Chatverlauf bezieht, spiele die Frage in ihrer originalen Form zurück.
+
+CHAT-HISTORY: 
+<<newest message>>
+
+<<oldest message>>
+
+AKTUELLE FRAGE: <<query>>
+
+UMSTRUKTURIERTE/ORIGINALE FRAGE:

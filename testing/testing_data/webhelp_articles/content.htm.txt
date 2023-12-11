@@ -1,0 +1,66 @@
+Key: Vererbung
+Navigation:  Seitenelemente > Footer >
+ 
+Diese Anleitung erklärt, wie Unterseiten die Footer der obereren Seite vereerben.
+
+HINWEIS: Im Footer gilt die Vererbung für Kontaktadressen, Links Direkteinstieg, Quick Links und die Sozial Icons.
+
+Zum Verständnis ein Beispiel zu den Kontaktadressen:
+ 
+Angenommen, in der obersten Hierarchiestufe wird eine Adresse 1 definiert, wird diese auf alle Folgeseiten vererbt.
+Sobald in einer tieferen Folgeseite eine neue Adresse 2 zugewiesen wird, wird die Vererbung an dieser Stelle von oben unterbrochen. Die Folgeseiten ab dieser Stelle, erben alle die neue Adresse 2. Wird die neue Adresse von dieser Seite wieder entfernt, erben alle Folgeseiten wieder die Adresse 1 der oberen Hierarchiestufe.
+ 
+ 
+1) Ausgangslage: Die Adresse 1 wurde der Dachseite HSLU hinzugefügt. Alle Unterseiten erben diese Adresse.
+ 
+Dachseite HSLU
+Adresse 1 eingefügt
+Design-Kust
+erbt Adresse 1
+Informatik
+ 
+erbt Adresse 1
+Musik
+erbt Adresse 1
+Unterseite 1
+erbt Adresse 1
+Unterseite 2
+erbt Adresse 1
+Soziale Arbeit
+erbt Adresse 1
+Technik & Architektur
+erbt Adresse 1
+Wirtschaft
+erbt Adresse 1
+Unterseite 1
+erbt Adresse 1
+ 
+ 
+2) Das Departement Musik weist bei ihrer Hauptseite Musik die eigene Adresse 2 zu. Die Folgeseiten der Seite Musik erben die Adresse 2.
+ 
+Dachseite HSLU
+Adresse 1 zugewiesen
+Design-Kust
+erbt Adresse 1
+Informatik
+ 
+erbt Adresse 1
+Musik
+Adresse 2 zugewiesen
+Unterseite 1
+erbt Adresse 2
+Unterseite 2
+erbt Adresse 2
+Soziale Arbeit
+erbt Adresse 1
+Technik & Architektur
+erbt Adresse 1
+Wirtschaft
+erbt Adresse 1
+Unterseite 1
+erbt Adresse 1
+ 
+3) Wird die Adresse 2 bei der Seit Musik entfernt, erbt diese Seite und ihre Folgeseiten wieder die Adresse 1, wie bei der Ausgangslage bei Punkt 1 dargestellt.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_content.htm
+

@@ -1,0 +1,39 @@
+Key: Bild
+Navigation:  Seitenelemente
+
+Diese Anleitng enhält Infos, wie Bilder gespeichert werden sollten damit keine Fehlermeldungen erscheinen.
+
+Hinweis: Auch Medien sind zweisprachig: Wenn ein Bild oder ein PDF nicht erscheint, ist zu überprüfen, ob es in der gewünschten Sprache angelegt worden ist. Optimal Medien immer zuerst in Deutsch anlegen!
+ 
+Bilder sind zentral in Web12. Damit Sitecore Bilder richtig und schnell anzeigt, muss die Redaktion diese pixelgenau zuschneiden und fürs Web optimiert abspeichern. Der Page Editor verrät die erforderlichen Bild-Abmessungen (grauer Kasten mit Grösse in Pixwl angegeben).
+
+Bildformate
+Bilder sind als jpeg (Joint Photographic Experts Group) abzuspeichern. Andere Bildformate sind nach Möglichkeit zu vermeiden. Insbesondere animierte gifs (Graphics Interchange Format) verursachen je nach Einsatzbereich Probleme bei der Darstellung. Beim Abspeichern von Bildern die Option "Progressiv" immer aktivieren.
+
+Bild- und Dateinamen
+Bei der Benennung von Bildern und Dateien ist auf folgendes zu achten:
+ 
+1.Namen sollten klar machen, was das Bild darstellt, beziehungsweise um was es im Dokument (z.B. PDF) geht.
+2.Bild- und Dateinamen sollen keine Hinweise auf die Version des Dokumentes oder auf ein spezifisches Datum enthalten. Diese Angaben sind für Aussenstehende unverständlich und erschweren das Aktualisieren oder Austauschen eines Bildes oder Dokumentes.
+3.Leerschläge in Datei- und Bildnamen werden automatisch zu Bindestrichen ("-") umgewandelt.
+4.Umlaute sind in Datei- und Bildnamen nicht erlaubt.
+
+Alt-Texte machen Bilder allen zugänglich
+Nicht alle können Bilder sehen. Der Alt-Text (auch Alt-Tag genannt) ersetzt in unserem Fall die Bildunterschrift (‚Caption‘) und stellt sicher, dass ein Bild via Screenreader allen zugänglich gemacht wird. Ein Screenreader ist ein Programm, welches Text für Menschen mit eingeschränkter optischer Wahrnehmung ‚vorliest‘.
+Ausserdem beeinflussen die Alt-Texte die Suchmaschinen-Platzierung positiv (SEO-Ratings).
+ 
+Jedes auf der Website dargestellte Bild muss deshalb zwingend mit einem Alt-Text versehen werden.
+ 
+-Alt-Text: Hier beschreiben, was das Bild darstellt. Browser stellen den Alt-Text dar, wenn das Bild nicht geladen werden kann und halten den Beschrieb für Screenreader bereit.
+ 
+         Beispiel: „Skyline von Chicago, gesehen von den Indiana Dunes.“
+ 
+·Copyright-Informationen: Als Klammerbemerkung in den Alt-Text integrieren.
+ 
+         Beispiel: „Skyline von Chicago (Copyright Tonietta Muster).“
+ 
+ 
+ 
+
+Link: https://applsupport.hslu.ch/webhelp/hm_bilder.htm
+

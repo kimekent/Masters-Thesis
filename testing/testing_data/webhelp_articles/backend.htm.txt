@@ -1,0 +1,23 @@
+Key: Backend (Content Editor)
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Campus
+
+Der Button "Backend" öffnet ein neues Fenster mit der Baum-Ansicht der gesamten Website (oder des für die Redaktor/in sichtbaren Bereichs). Dies ist besonders nützlich, wenn Seiten verschoben werden sollen oder wenn eine Aktion im Experience Editor nicht durchführbar ist.
+Um das Tool wieder zu verlassen einfach auf das weisse Schliessen-Icon im oberen rechten Fensterrand klicken.
+ 
+ACHTUNG: Klicken Sie im Backend-Ribbon-Menü nie auf einen Knopf, dessen Funktion Sie nicht kennen.
+Arbeiten Sie bewusst und im Ausnahmefall im Backend. Praktisch alle Arbeiten lassen sich im Experience Editor erledigen.
+ 
+ACHTUNG: Geben Sie keine Daten in Felder ein, bei denen Sie nicht wissen, wozu sie dienen. Wird z.B. unter der "Rubrik Analytic" Data Klartext und kein Script eingegeben, erscheint dieser Text auf der Webseite über dem Header. Solche Fehler sollten vermieden werden.
+ 
+Pfad im Experience-Editor: Ribbon-Menü > Campus > Backend
+ 
+Der Content Editor wurde für Autoren entwickelt, die bereits vertraut sind mit den grundlegenden Features von Sitecore. Er stellt die Website ganz anders dar als der Experience Editor:
+ 
+Seiten und Inhaltselemente sind hier Teil einer Baumstruktur. Dies ist ideal, um einzelne Seiten oder ganze Bereiche zu verschieben (Drag-n-Drop) oder schnell eine Seite zu suchen und zu finden. Seiten gliedern sich weiter auf in sogenannte Items. Dies sind die Elemente, aus denen eine Seite zusammengesetzt wird.
+ 
+Das Tool bietet oben eine Ribbon-Navigation, in der linken Spalte den Content Tree, der via Kontext-Menü manipuliert werden kann und den eigentlichen Inhalt in der rechten Spalte.
+ 
+Detailinformationen über den Content Editor bietet die offizielle Sitecore-Dokumentation unter dem Stichwort "Content Editor".
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_backend.htm
+

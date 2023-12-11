@@ -1,0 +1,10 @@
+Key: Multi Event Teaser
+Navigation:  Seitenelemente > Template Container > Templates A, B, C, Content
+
+Hinweis: Der Multi Event Teaser A kann im Template A und im Content Container verwendet werden. Der Multi Event Teaser B & C kann jeweils im entsprechenden Template hinzugefügt werden.
+Im Template B und C wurde in der MultiEventList auf den Intro Text verzichtet.
+ 
+Der Multi Event Teaser zieht eine Auswahl von Events aus der Sammlung aller verfügbaren Veranstaltungen und stellt diese übersichtlich in einem Element dar. Es werden immer die zeitlich am Nächsten gelegenen Veranstaltungen angezeigt. Soll nur eine einzelne Veranstaltung beworben werden, ist der Event Teaser (https://applsupport.hslu.ch/webhelp/hm_event_teaser.htm) dem Multi Event Teaser vorzuziehen.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_multi_event_teaser.htm
+

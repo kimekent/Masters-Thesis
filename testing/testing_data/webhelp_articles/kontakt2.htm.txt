@@ -1,0 +1,9 @@
+Key: Kontaktperson (SelpstpflegeDB)
+Navigation:  Seitenelemente > Sidebar Container 
+
+Die Kontaktperson (automatisch) lässt die Redaktion ein Person auswählen und fügt diese mit Bild, Name, Standardfunktion, Telefonnummer und Email ein.
+
+Die Redaktion kann die Funktion manuell übersteuern.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_kontakt2.htm
+

@@ -1,0 +1,11 @@
+Key: Seite EN Version erstellen
+Navigation:  Seitentypen > Standardseite
+
+In dieser Anleitung wird beschrieben wie eine englische Version einer Seite erstellt werden kann.
+
+1) Um die Seite auch in der zweiten Sprachversion zu erstellen, im Content Editor (Backend) im Content Bereich auf die Sprachflagge klicken und zur Sprache mit 0 versions wechseln.
+ 
+2) Im gelben Content-Bereich auf Add a new version klicken.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_seite_uebersetzen.htm
+

@@ -1,0 +1,11 @@
+Key: Titel und Text dem eigenen Slide zuweisen
+Navigation:  Seitenelemente > Moodboard
+
+In diesem Webhelp-Element ist beschrieben, wie einem Moodboard einen Title und Text hinzugefügt werden kann. Wie ein Moodboard initial erstellt wird ist hier beschrieben: https://applsupport.hslu.ch/webhelp/index.html?hm_moodboard_erstellen.htm
+ 
+1) Im Experience Editor auf das Moodboard klicken und das Feld Titel bzw. Text befüllen. Anschliessend auf Speichern klicken.
+ 
+Wichtig: Im Web wird der Slide noch nicht angezeigt, weil der Slide der Seite noch nicht zugewiesen wurde! Dies ist am roten Hinweistext erkennbar! Wie ein Slide der Seite zugewiesen werden kann ist hier beschrieben: https://applsupport.hslu.ch/webhelp/index.html?hm_eigene_und___oder_shared_slide.htm
+
+Link: https://applsupport.hslu.ch/webhelp/hm_titel2.htm
+

@@ -1,0 +1,19 @@
+Key: Veranstaltung erfassen
+Navigation:  Seitentypen > Veranstaltung (Agenda-Eintrag)
+
+In dieser Webhelp-Anleitung wird pro Departement aufgelistet auf welchen Seiten eine Veranstaltung erfasst werden kann
+ 
+Technik und Architektur (T&A):
+hslu.ch/de-ch/technikarchitektur/campus/veranstaltungen/
+Wirtschaft (W):
+hslu.ch/de-ch/wirtschaft/agenda/veranstaltungen/
+Informatik (I): 
+hslu.ch/de-ch/informatik/agenda/veranstaltungen/
+Soziale Arbeit (SA): 
+hslu.ch/de-ch/soziale-arbeit/agenda/veranstaltungen/
+Design & Kunst (D&K):                        
+hslu.ch/de-ch/design-kunst/agenda/veranstaltungen/
+Musik (M):                                
+hslu.ch/de-ch/musik/agenda/veranstaltungen/
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_veranstaltung_erfassen.htm

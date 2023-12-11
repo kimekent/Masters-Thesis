@@ -1,0 +1,13 @@
+Key: Ort definierenen
+Navigation:  Seitenelemente > Sidebar Container > Karte (Google Maps)
+
+In dieser Anleitung wird beschrieben, wie ein neuer Ort im Element Google Maps hinzugefügt werden kann. 
+
+1) Um einen neuen Ort oder einen Ort im Ausland zu definieren, auf das Globus-Symbol klicken.
+ 
+2) Längen- und Breitengrade in die entsprechenden Felder eingeben.
+ 
+Wichtig: Speichern (ctrl + s), denn die Änderungen werden erst nach dem Speichern sichtbar!
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_ort_definieren.htm
+

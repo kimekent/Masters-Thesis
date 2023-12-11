@@ -1,0 +1,16 @@
+Key: Publish
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Home
+
+Dieser Webhelp-Artikel enthält Informationen zum publishing Zeitpunkt der Website und wie man verhindern kann, dass gewisse Seiten Live gestellt werden.
+
+HINWEIS
+•Alle gespeicherten Inhalte werden täglich jeweils um 12:05 Uhr und 00:05 Uhr automatisch publiziert. Morgens um 05:00 Uhr wird der Cache automatisiert "geweckt". Nach der Publikation sind die neuen Inhalte öffentlich sichtbar.
+
+•Der Publish-Button ist nur noch für die Administratoren sichtbar. Es sollen nur noch die Benutzer der Gruppe h-Admin manuell publizieren können. Dies auf Anfrage an die/den Kommunikations- und Marketing-Verantwortliche/-n des Departements und wirklich nur in Ausnahmefällen. Zudem müssen durchgeführte Publishings durch die Administratoren per E-Mail mit dem Betreff "Publishing gestartet" an die Adresse publish@hslu.ch mitgeteilt werden.
+
+Seiten und Unterseiten nicht veröffentlichen:
+•Will die Redaktion einen Inhalt nicht veröffentlichen, unterbindet sie die Publikation in den Publish Options.
+Achtung: Bei bestehenden Seiten, welche schon veröffentlicht wurden, muss zuerst eine Umleitung eingerichtet werden. Melden Sie sich dazu via eMail beim Web-Support.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_publishing.htm
+

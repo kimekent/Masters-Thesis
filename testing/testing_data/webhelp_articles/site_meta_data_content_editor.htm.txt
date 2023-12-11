@@ -1,0 +1,27 @@
+Key: search
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Campus > Backend (Content Editor)
+
+In dieser Anleitung wird beschrieben wie Seiten von der Externen (Google) und internen Suche ausgeschlossen werden können, sodass sie nicht mehr auffindbar sind. Auserdem werden noch weitere Meta-Data felder vorgestellt für was das sie gebraucht werden.
+
+Die Zusätzlichen Meta-Daten erlauben Zugriff auch auf Felder, die in den Page Options nicht vorhanden sind. So sind hier auch die Meta Keywords und die Indexierbarkeit einer Seite steuerbar.
+
+Vorgehen:
+1) Im Content Editor im Content-Tree zur entsprechenden Seite navigieren.
+2) Rechts im Content-Bereich unter Site Meta Data können die Meta-Daten bearbeitet werden.
+3) Nach Eingabe, die Daten mit ctrl + s sichern.
+
+Meta-Daten-Felder:
+•Seitentitel (Automatisch) - Wird verwendet, wenn nichts Spezifisches im Feld "Seitentitel im Browser" eingegeben wird. Das Feld übernimmt standardmässig der Inhalt des Feldes "Titel 1". Es zeigt immer an, was nach aussen angezeigt wird.
+•Seitentitel im Browser: Hier bestimmen User einen benutzerdefinierten Page Title.
+•Meta Description (Automatisch) - Wird verwendet, wenn nichts Spezifisches im Feld "Meta Description (benutzerdefiniert)" eingegeben wird. Hier wird standardmässig der Text vom Feld Intro Text verwendet.
+•Meta Description: Hier kann eine benutzerdefinierte Meta-Description der Seite eingegeben werden. Z.B. eine kurze prägnante Umschreibung des Seiteninhalts.
+•Checkbox Hide From Search Engines: Wird diese Checkbox angewählt, wird die Seite von den Internet-Suchmaschinen wie Google nicht berücksichtigt.
+•Meta Keywords: Dieses Feld sollte nicht mehr verwendet werden, da Google diese Keywords nicht mehr beachtet.
+ 
+Site search configuration (Seiten Such Einstellungen): 
+•Von interner Meta-Suche ausschliessen (wird für Events automatisch gesetzt):
+ -  Kann manuell verwendet werden um eine Seite von der internen Suche auszuschliessen
+ -  Bei abgelaufenen Events wird dieses Häkchen automatisch gesetzt
+
+Link: https://applsupport.hslu.ch/webhelp/hm_site_meta_data_content_editor.htm
+

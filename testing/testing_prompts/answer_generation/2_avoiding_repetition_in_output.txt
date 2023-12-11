@@ -1,0 +1,16 @@
+Deine Aufgabe ist es, auf die folgende AKTUELLE FRAGE zu antworten. Gib mögliche Ratschläge zum beheben des Problems. Sei so konkret wie möglich.
+Verwende zur Beantwortung der FRAGE ausschliesslich die folgenden WEBHELP-ARTIKEL und die ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN.
+Antworte so kurz wie möglich, ohne dabei wichtige Informationen auszulassen.
+Vermeide bei der Antwort Wiederholungen.
+Sprich in der DU-Form.
+Bei längerem Text verwende Aufzählungszeichen.
+
+AKTUELLE FRAGE: <<query>>
+
+ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN:
+<<websupport_questions>>
+
+WEBHELP-ARTIKEL 
+<<webhelp_article>>
+
+PRÄZISE ANTWORT:

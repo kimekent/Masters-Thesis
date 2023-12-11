@@ -1,0 +1,52 @@
+Key: Do's & Don'ts
+Navigation:  Seitenelemente > Text
+
+In diesem Webhelp-Artikel werden die häufigsten Fehler, die beim Text gemacht werden aufgelistet.
+
+Titel (Spitzmarke) ist zu schwammig:
+Spitzmarken sind die wichtigsten Textelemente im Web. Sie werden als Page Titles, als Teaser-Titel verwendet. Eine Spitzmarke definiert das Thema der übertitelten Seite.
+
+Titel sind dekorative Elemente:
+Ein Titel ist ein Claim. Er beantwortet die Frage, warum ein User einen gegebenen Inhalt lesen soll. Titel sind werberisch.
+
+Titel-Elemente sind nicht strukturiert:
+Titel-Elemente haben immer die gleiche Struktur:
+-Titel (Spitzmarke) | (werberischer) Titel
+-Beispiel: „Ausbildung | Wirtschaft studieren in der Zentralschweiz“
+
+Intro-Text (Lead) fehlt:
+Leads fehlen grundsätzlich. Dabei ist der Lead ein wichtiges Element: Er kommt auch als Teaser-Text und als Meta-Description zum Einsatz.
+
+Eine Seite deckt viele Themen ab:
+Grundsätzlich sollen Websites granular aufgebaut sein: das heisst, jede Website hat genau ein Thema:
+ 
+Beispiel: Es gibt keine Seite die Master und Bachelor darstellt, sondern eine Seite die Studienwege aufzählt. Oder eben eine Seite, die den Bachelor und eine andere, die den Master zeigt.
+
+Interne Unterscheidungen erschweren die Übersicht: 
+Oft kommen unsere Kunden mit weniger Informationen aus, als wir benötigen.
+ 
+Beispiel: Studienrichtung und Studiengang. Jede Persona wählt am Ende einen Studiengang, ob mit oder ohne vertiefende Studienrichtung.
+
+Interne Unterscheidungen erschweren die Übersicht:
+Das Wichtigste steht zuoberst. Grösseres ist wichtiger als Kleineres. Die Hierarchisierung eines jeden Inhaltes ist im Web unumgänglich (und kommt auch Print-Produkten zugute).
+
+Struktur und Hierarchie fehlen:
+Ein gutes Informations-Angebot ist gut organisiert. Die gute Organisation eines Inhaltes erlaubt es Personas, sich schneller zu orientieren und das Gesuchte einfacher zu finden.
+
+Rhetorische Fragen statt Information:
+Rhetorische Fragen in Web-Texten verhüllen, was sie enthüllen sollten. Deshalb:
+-Rhetorische Fragen in Aussagesätze umformen.
+-Ergibt sich keine Aussage aus den Fragen, streichen.
+
+Aufzählungen sind Fliesstext:
+Aufzählungen sollen Sammlungen ähnlicher Dinge übersichtlich darstellen. Deshalb:
+Listeneinträge oder Bullet Points sind immer als Stichworte oder kürzeste Aussagen zu fassen.
+
+Links deklarieren kein Ziel: 
+Link-Texte müssen Usern Aufschluss darüber erlauben, was sie nach dem Click erwartet. Deshalb:
+-Link-Texte sind konkret.
+-Sie sind so knapp wie möglich.
+-Sie sind selbsterklärend: Zuwörter wie "zu" und "hier" gehören in die 90er-Jahre. Was ein Link ist, muss der Besucherschaft nicht erklärt werden.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_dos___donts.htm
+

@@ -1,0 +1,15 @@
+Key: Call-to-Action-Teaser
+Navigation:  Seitenelemente > Sidebar Container
+
+In diesem Websupport-Artikel wird aufgelistet was im Call-to-Action-Teaser alles eingefügt werden kann. 
+
+Hinweis: Der Highlight-Teaser enthält sogenannte Calls-To-Action. Das Element soll User zu Aktionen bewegen. Beispielsweise könnte der Teaser Links zu Anmeldung oder Dokumenten-Download enthalten.
+ 
+Diese Aktionen werden gezählt und dienen der Erfolgsmessung.
+
+Die wichtigsten Links wie z. B. jener zur Online-Anmeldung oder zum Bestellprozess einer Broschüre können in diesem Element platziert werden.
+ 
+Optional ergänzen Kontaktdaten (E-Mail, Telefon) das Element. Kontaktdaten im in der Linkliste nicht einzusetzen, wenn bereits Kontakt-Teaser (https://applsupport.hslu.ch/webhelp/hm_kontakt.htm) in der Sidebar sind.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_linkliste_mit_e-mail_und_telef.htm
+

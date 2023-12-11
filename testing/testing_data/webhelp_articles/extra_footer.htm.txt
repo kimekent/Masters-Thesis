@@ -1,0 +1,11 @@
+Key: Extrafooter
+Navigation:  Seitenelemente > Extrafooter Container >
+
+Der Extrafooter ist ein Element, welches am unteren Seitenrand eingefügt werden kann. Es stellt flankierende Inhalte dar. Hauptinhalte gehören nicht hierhin.
+ 
+Der Extrafooter muss immer genau 4 Teaser enthalten! Pro Seite gibt es maximal 1 Extrafooter.
+ 
+Die Inhalte bewegen sich zwischen Studium (Orte, internationaler Austausch) und Leben (Leben; Geld und Studium).
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_extra_footer.htm
+

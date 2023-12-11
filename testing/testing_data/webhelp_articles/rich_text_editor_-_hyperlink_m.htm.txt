@@ -1,0 +1,34 @@
+Key: Hyperlink Manager
+tools>rich_text_editor
+Der Button "Hyperlink Manager" fügt einen Link auf externe Ziele ein. Möglich sind Hyperlink, Anchor und E-mail.
+•URL: URL der Zielseite eingeben
+•Link Text: Text des Links definieren.
+•Target: Option entscheidet, ob ein Browser einen neuen Tab öffnet. Bei externen Links (nicht www.hslu.ch) immer "New Window" als Target auswählen.
+ 
+Empfohlene Link-Target-Optionen
+•None: Übernimmt die Verhaltensweise, welche der User in seinen Browser-Einstellungen definiert hat.
+•Same Window: Öffnet den Link im selben Browser-Fenster.
+•New Window: Öffnet den Link in einem neuen Browser-Fenster.
+ 
+•Existing Anchor: Wurden zuvor unter dem Anchor-Tab Sprungmarken auf derselben Seiten definiert, können diese hier ausgewählt werden.
+•Tooltip: Der Text in diesem Feld wird angezeigt, wenn ein User mit der Maus über den Link fährt.
+•CSS Class: Aktuell nicht implementiert. Ist zu ignorieren.
+ 
+ 
+
+ 
+Auf diesen Anker kann verwiesen werden, indem die URL (hslu.ch/beispiel) mit #beispiel-anker ergänzt wird (hslu.ch/beispiel/#beispiel-anker).
+ 
+ 
+
+ 
+User klicken auf den Link und ein Neue-Nachricht-Fenster geht auf.
+Neben der Email-Adresse und dem anzuzeigenden Text kann auch der Betreff vordefiniert werden ("Subject").
+ 
+CSS-Class ist aktuell nicht implementiert.
+ 
+ 
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_rich_text_editor_-_hyperlink_m.htm
+

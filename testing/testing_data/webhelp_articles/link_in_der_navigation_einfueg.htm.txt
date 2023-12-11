@@ -1,0 +1,28 @@
+Key: Link in der Navigation einfügen
+Navigation:  Navigation > Virtuelle Navigation (Link in der Navigation)
+
+In dieser Anleitung wird beschrieben, wie ein Link einer virtuellen Navigation hinzugefügt werden kann. Virtuelle Navigationen können verwendet werden um benutzerdefinierte Navigationen zu erstellen. Standardmössig zeigt die Navigation einfach die Unterseiten an. Falls Seiten in der Navigation angezeigt werden sollten, die nicht Unterseiten sind, kann eine Virtuelle Navigation erstellt werden (https://applsupport.hslu.ch/webhelp/index.html?hm_virtueller_navigationseintrag.htm)
+
+1) Eine neue Seite einfügen über Insert Page im Ribbon Menü.
+ 
+2) Aus den angezeigten Optionen Navigation Virtual wählen. Den zu erstellenden Eintrag benennen.
+ 
+3) Via Ribbon > Campus > das Backend Fenster öffnen und die neu angelegte Virtuelle Navigation auswählen.
+ 
+Hinweis: Durch verschieben der virtuellen Navigation im Baum, kann auch deren Position in der Navigation entsprechend beeinflusst werden.
+ 
+•Über Insert Link einen neuen Verweis bestimmen.
+•Entscheiden, ob der Eintrag in der Navigation grundsätzlich angezeigt werden soll (erste Checkbox Anzeigen). So kann eine virtuelle Navigation sehr einfach aktiviert oder wieder deaktiviert werden.
+•Entscheiden, ob alle "nicht virtuellen Unterseiten" der Zielseite in der Navigation angezeigt werden sollen oder nicht (zweite Checkbox Unterseiten Anzeigen). Achtung, kann zu einem Endlos-Loop führen!
+•Weiter entscheiden, wo die virtuelle Navigation angezeigt werden soll. Ob in der Navigaton und / oder in der Side-Navigation.
+ 
+Achtung: Die Virtuelle Navigation darf nur, und funktioniert nur für interne Seiten (Insert Link).
+ 
+Alle anderen Optionen, wie "Insert External Link" funktionieren nicht, bzw. führen zu einem Fehler. Die übergeordnete Seite lässt sich z.B. nicht mehr öffnen. In solch einem Fall die Virtuelle Navigation wieder löschen. Dadurch wird der Fehler behoben.
+ 
+Soll nicht der Originaltitel der Zielseite angezeigt werden, kann im Feld Linktext (Benutzerdefiniert) ein eigener Titel bestimmt werden.
+ 
+Beispiel: Einen Link für die Navigation aus dem Seitenbaum auswählen und mit OK bestätigen. Die weiteren Eingabefelder auf der rechten Seite können ignoriert werden.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_link_in_der_navigation_einfueg.htm
+

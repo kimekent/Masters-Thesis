@@ -1,0 +1,7 @@
+Key: Info Box (Wieder in Bearbeitung)
+Navigation:  Seitenelemente
+ 
+Die Infobox ist ein optionales Element. Sie hebt einen Link auf eine besonders wichtige Seite hervor. Sie sollte maximal 3-4 Zeilen aufweisen.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_info_box.htm
+

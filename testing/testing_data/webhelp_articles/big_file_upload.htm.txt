@@ -1,0 +1,49 @@
+Key: Big File Site upload zip upload
+Navigation: tools
+
+Eine Big File Site ist eine nur ein Seiten-Item, welches das big File (die grosse Datei) enthält. Dieses "Seite" lässt sich als interner Link bei einer Link Liste einfügen.
+ 
+Hinweis: Eine Big File Site kann nur via Backend erstellt werden. Grosse Dateien sollten vor dem Upload komprimieren werden.
+ 
+ 
+1) Ein grosses File, welches auf das Web 12 hoch geladen werden soll, muss vorerst im Laufwerk T:\z_software\18 Web Upload gesichert werden.
+ 
+Achtung: Files nicht in diesen Ordner hinein verschieben, sondern kopieren oder direkt in diesen Ordner speichern. Verschobene Files werden wegen fehlenden Rechtegruppen im Sitecore nicht erkannt!
+ 
+Hinweis: Nach einem erfolgreichen Upload wird das Dokument auf dem Laufwerk T:, im Ordner 18 Web Upload, wieder automatisch gelöscht.
+ 
+2) Das Backend öffnen: Ribbon-Menü > Campus > Backend
+ 
+3) Den Ordner files unter sitecore > Inhalt > Campus > Hochschule-Luzern und dann noch der entsprechende Departements-Ordner öffnen.
+ 
+4) Auf dem Zielordner (z.B. h) das Kontextmenü öffnen und Insert > Big File Site wählen
+
+5) Die Big-File-Site wurde erstellt.
+   Nun kann im Feld Titel (für Links) ein Linktitel eingegeben werden und durch klicken auf den Button Upload wird ein Upload Wizard gestartet.
+ 
+
+Im Upload Wizad auf Next > klicken.
+
+6) Im nächsten Fensterinhalt kann die entsprechende Datei im Ordner Laufwerk T:\z_software\18 Web Upload ausgewählt werden. Auf Next klicken.
+
+7) Die Datei wird Hochgeladen.
+ 
+8) Nach erfolgreichem Upload erscheint eine Schlussmeldung. Auf den Button Close klicken. Ebenfalls wurde die Datei im Ordner Laufwerk T:\z_software\18 Web Upload automatisch gelöscht.
+
+Achtung: Die Datei wird direkt auf den www-Server gespeichert. Um zu testen, ob der Link funktioniert muss die Seite vorerst publiziert werden. Dazu müssen die Publish-Zeiten beachtet werden.
+
+Weiter ist zu beachten, dass der Link auch im Edit- und Preview-Modus nicht funktioniert, sondern nur direkt auf der Life Site.
+
+ 
+Hinweis: Wird die Big File Site im Backend gelöscht, wird auch die dazugehörige hoch geladene Datei auf dem www-Server sofort gelöscht.
+Danach wird der Download in der Link und Donwload Liste angezeigt:
+ 
+9) Die Big File Site "HSLU-Printer-Setup-Mac" kann nun bei jedem Item mit der Funktionalität Intern Link ausgewählt werden.
+ 
+Hier als Beispiel bei einer Link und Download Liste:
+Beim bearbeiten der "Link und Download Liste" bei Insert Link die entsprechende Big File Site auswählen.
+
+Danach wird der Download in der Link und Donwload Liste angezeigt.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_big_file_upload.htm
+

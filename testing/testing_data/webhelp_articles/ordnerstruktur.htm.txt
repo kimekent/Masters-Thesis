@@ -1,0 +1,66 @@
+Key: Ordnerstruktur
+Navigation:  Standards
+
+In diesem Webhelp-Artikel sind ein paar organisatorische Informationen zu der Ordnerstruktur unter anderem die Namenkonvention aufgeführt. 
+
+Ein Sitecore-Ordner darf nicht mehr als 100 Items (Bilder, Dateien, Seiten) enthalten. Deshalb ist es wichtig, dass Dateien in so fein als möglich verästelten Ordnerstrukturen abgelegt werden.
+ 
+Wichtig: Die Verantwortung liegt beim Webautor, die Anzahl der Item pro Ordner im Auge zu behalten. Sitecore gibt keine Meldung aus, wenn das 101. Item angelegt wird!
+
+Innerhalb der Departementsordner (ta, w, sa, dk, m) und des Daches (h) sind die jeweiligen Organisationseinheiten frei, wie sie ihre Inhalte ablegen wollen.
+ 
+Struktur der Ordener: 
+Medien-Bibliothek
+ Campus
+         Common
+                 Files
+                         Dokumente
+                                 ta
+                                 w
+                                 sa
+                                 dk
+                                 m
+                                 h
+                 Images
+                         Background
+                                 ta
+                                 w
+                                 sa
+                                 dk
+                                 m
+                                 h
+                         Footer
+                         Extrafooter
+                                 ta
+                                 w
+                                 sa
+                                 dk
+                                 m
+                                 h
+                         Gallery
+                                 ta
+                                 w
+                                 sa
+                                 dk
+                                 m
+                                 h
+                         Header
+                         Moodboard
+                                 ta
+                                 w
+                                 sa
+                                 dk
+                                 m
+                                 h
+                         Teaser
+                                 ta
+                                 w
+                                 sa
+                                 dk
+                                 m
+                                 h
+                         Kontaktpersonen
+                         Testimonial
+
+Link: https://applsupport.hslu.ch/webhelp/hm_ordnerstruktur.htm
+

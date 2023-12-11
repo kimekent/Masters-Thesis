@@ -1,0 +1,36 @@
+Key: Karte bearbeiten
+Navigation:  Seitenelemente > Sidebar Container > Karte (Google Maps)
+
+In dieser Anleitung wird beschrieben wie das Google Maps Element konfiguriert werden kann.
+
+1) Im Kontextmenü auf den Editier-Button klicken. Das Editier-Fenster öffnet sich.
+ 
+2) Alle verfügbaren Informationen in die jeweiligen Felder eintragen.
+ 
+Wichtig: Es sind jedoch einige Punkte zu beachten:
+ 
+•Wird ein Box Titel (benutzerdefiniert) eingegeben, muss das Feld auch übersetzt werden.
+ 
+•Wird die Checkbox Zusätzlich Name für genau Positionierung verwenden gewählt, setzt Google die Position entsprechend dem Feld Name. Dies kann genauer sein, als eine Adresse.
+ACHTUNG: Kennt Google dieser Name nicht, erscheint ein Google-Fehler in der Karte. Dann sollte dich Checkbox wieder entfernt werden. Weiter können zur genauen Positionierung auch die Koordinaten eingegeben werden.
+ 
+•Das Feld Zoom gibt an, wie stark der Kartenausschnitt rund um die gewählte Adresse vergrössert wird:
+    - Eine grosse Zahl entspricht einer starken Vergrösserung: Der gezeigte Ausschnitt wird kleiner.
+    - Eine kleine Zahl entspricht einer geringeren Vergrösserung: Der gezeigte Ausschnitt wird grösser.
+ 
+
+ 
+ 
+ 
+Hier ein Beispiel für die Dateneingabe der Hochschule Luzern, am Standort Werftestrasse 4:
+ 
+
+ 
+ 
+Wichtig: Speichern (ctrl + s), denn die Änderungen werden erst nach dem Speichern sichtbar!
+ 
+ 
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_karte_bearbeiten.htm
+

@@ -1,0 +1,25 @@
+Key: Kontaktperson-Element (manuell) einfügen
+content2>sidebar-_moegliche_items>unpersoenlicher_kontakt-teaser
+1) In die Sidebar klicken. Dann auf + Add to here klicken.
+ 
+Hinweis: Unter dem Kapitel "Template auf einer Seite platzieren" wird erklärt, wie die Einfüge-Buttons eingeblendet werden können.
+ 
+
+ 
+ 
+2) Kontaktperson (Manuell) auswählen und Select klicken.
+ 
+
+ 
+ 
+3) Entweder wird über Create New Content ein neuer Kontakt erstellen, oder über Select Existing Content ein bestehender Kontakt auswählen.
+ 
+
+ 
+ 
+4) Alle benötigten Felder können direkt im leeren Kontakt eingepflegt werden ("Name", "Funktion / Büro", "Telefon", "E-Mail") oder über den Bearbeiten-Button im Editierfenster bearbeitet werden.
+ 
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm
+

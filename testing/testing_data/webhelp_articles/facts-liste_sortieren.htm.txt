@@ -1,0 +1,17 @@
+Key: Facts sortieren
+Navigation:  Seitenelemente > Content Container > Facts-Liste
+
+Diese Anleitung beschriebt, wie Facts in einer Factslsite sortiert werden können. Dabei ist hier die Factsliste, die auf der Standardseite eingefügt werden kann gemeint, nicht die Fact-Liste die als Standardelement auf der Aus- und WEiterbildungsseiten vorhanden ist.
+
+Hinweis: Die Facts können auf zwei Arten sortiert werden:
+A. Direkt jedes Fact einzeln um eine Position nach oben bzw. nach unten schieben.
+B. Im Sortierfenster ein Fact per Drag&Drop an eine bestimmte Position schieben.
+  
+1) Die Facts-Liste anwählen und das Icon Sort the Content anwählen.
+
+2) Im neuen Fenster ein Fact auswählen und per Drag&Drop an eine neue Stelle verschieben.
+ 
+3) Die neue Anordnung der Einträge überprüfen.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_facts-liste_sortieren.htm
+

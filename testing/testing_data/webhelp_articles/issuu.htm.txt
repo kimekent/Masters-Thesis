@@ -1,0 +1,15 @@
+Key: Issuu (PDF-Reader)
+Navigation:  Seitenelemente > Content Container
+
+Issuu ist eine amerikanische Firma, die es möglich macht, PDFs im Internet besser darzustellen.
+ 
+Hinweis: Wir speichern die PDFs idealerweise zweimal ab:
+ 
+1.Das Team Marketing & Kommunikation erstellt auf Anfrage Issuu-Dokumente auf Issuu.com. Dafür die entsprechenden Departements-Teams anfragen. Antragstellende erhalten den Issuu-Pfad
+2.Webredaktor*in tragen den Issuu-Pfad (alt: Issuu-ID) beim Issuu-Element auf ihrer Seite ein.
+3.Webredaktor*in speichern das PDF zusätzlich für den Download in Sitecore ab (optional)
+ 
+Hinweis: Auch Medien sind zweisprachig: Wenn ein Bild oder ein PDF nicht erscheint, überprüfen, ob es in der gewünschten Sprache angelegt worden ist. Optimal Medien immer zuerst in Deutsch anlegen!
+
+Link: https://applsupport.hslu.ch/webhelp/hm_issuu.htm
+

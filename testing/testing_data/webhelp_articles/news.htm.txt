@@ -1,0 +1,38 @@
+Key: News
+Navigation:  Seitentypen
+
+In diesem Webhelp-Artikel wird aufgelistet welche Elemente der Seitentyp Nesweite enthält.
+
+Siehe auch: News erfassen (https://applsupport.hslu.ch/webhelp/hm_news_einfuegen.htm), News Teaser (https://applsupport.hslu.ch/webhelp/hm_news_teaser_einfuegen.htm), Multi News Teaser (https://applsupport.hslu.ch/webhelp/hm_multi_news_teaser_einfuegen.htm), News Filter List (https://applsupport.hslu.ch/webhelp/hm_news_filter_list.htm)
+ 
+Achtung: Seiten nie kopieren oder duplizieren.
+ 
+Hinweis: Nach dem Erstellen einer News wird der Index neu erstellt. Dies kann bis zu 15 Minuten dauern (Wird Zukünftig vermutlich auf 1/2 Tag eingestellt). Erst danach ist die neue News in den Filterlisten oder Teaser auffindbar.
+ 
+Achtung: Die speziellen News-Items wie z.B. "Kategorie" nicht löschen, da diese Elemente nicht einfach wieder integriert werden können.
+ 
+Die News-Seite stellt Neuigkeiten dar. Sie generiert folgende Elemente:
+ 
+1.News-Intro analog Page-Intro (ohne Titel 2, aber mit weiteren Felder)
+ 
+Felder sichtbar auf der News Seite:        
+       - News Datum
+       - Titel
+       - Headline
+       - Kategorie
+       - Themen
+ 
+Zusätzliche Felder für Filter und Listen:
+       - Teaser Text für Multinewsliste
+       - In Multinewsliste anzeigen bis
+       - OE (Organisations-Einheit)
+       - Bild für Filterliste (Ist unabhängig von "Formatierter Text mit Bild")
+       - Leistungsauftrag (nur für Filter)
+ 
+2.Social Media Buttons
+3.Formatierter Text mit Bild
+ 
+Hinweis: Weitere Elemente können optional hinzugefügt werden. Zur Auswahl stehen alle Elemente, die in Content Containern verwendet werden können.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_news.htm
+

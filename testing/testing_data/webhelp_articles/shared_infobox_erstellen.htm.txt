@@ -1,0 +1,20 @@
+Key: Shared Infobox erstellen
+Navigation:  Seitenelemente > Info Box
+
+In dieser Anleitung wird erklärt, wie eine Shared Infobox erstellt werden kann. Im Gegensatz zu einer normalen Infobox kann eine Shared Infobox nicht nutr auf der Seite auf der sie erstellt wurde verwendet werden, sondern kann dann von verschiedenen Seiten verwendet werden.
+
+BEARBEITUNG DURCH ADMINISTRATOR
+1) Im Ribbon-Menü auf Campus > Shared Data klicken.
+ 
+2) Unter dem Ordner Infobox - Global können weitere Ordner (Infobox Folder) für die Gliederung angelegt werden, oder es kann eine globale Infobox erstellt werden.
+ 
+3) Der neu anzulegenden globalen Infobox einen Namen geben, mit OK bestätigen und mit Ctrl+S sichern.
+ 
+4) Im Ribbon-Menü unter Campus > Page Options kann eine Infobox der Seite zugewiesen werden. Eine Infobox auswählen und mit OK der Seite zuweisen.
+ 
+5) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon neu laden. Danach wird die Infobox auf der Seite dargestellt.
+ 
+Hinweis: Die globale Infobox kann gleich wie eine gewöhnliche Infobox bearbeitet werden. Die Änderungen werden aber global wirksam, sprich überall wo diese globale Infobox platziert wurde!
+
+Link: https://applsupport.hslu.ch/webhelp/hm_shared_infobox_erstellen.htm
+

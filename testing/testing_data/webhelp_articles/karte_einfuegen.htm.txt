@@ -1,0 +1,17 @@
+Key: Karte einfügen
+Navigation:  Seitenelemente > Sidebar Container > Karte (Google Maps)
+
+In dieser Anleitung wird erklärt, wie ein Google Maps Element auf der Seite eingefügt werden kann.
+
+1) In die Sidebar klicken. Dann auf + Add to here klicken.
+ 
+Hinweis: Unter dem Kapitel "Template auf einer Seite platzieren" wird erklärt, wie die Einfüge-Buttons eingeblendet werden können.
+ 
+2) Das Karte Item auswählen und Select klicken.
+ 
+3) Entweder wird über Create New Content eine neue Karte erstellen, oder über Select Existing Content ein bestehende Karte auswählen und auf OK klicken.
+ 
+4) Die Karte wird in der Sidebar platziert. Nun kann diese noch bearbeitet werden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_karte_einfuegen.htm
+

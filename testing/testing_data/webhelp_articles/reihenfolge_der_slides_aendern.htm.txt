@@ -1,0 +1,15 @@
+Key: Slides Reihenfolge ändern
+Navigation:  Seitenelemente > Moodboard
+
+In dieser Anleitung wird erklärt, wie die Reihenfolge der Moodboard Slides geändert werden kann. 
+ 
+1) Im Ribbon-Menü auf Campus > Page Options klicken. Im Data Bereich unter Moodboard können die Slides organisiert werden.
+ 
+oIm rechten Bereich "Selected" das Slide auswählen und durch die Pfeil-Buttons an die entsprechende Position verschieben.
+
+2) Anschliessend im Page-Editor auf Speichern klicken.
+ 
+Hinweis: Die geänderte Reihenfolge der Slides ist im Edit-Modus nicht ersichtlich. Deshalb zur Kontrolle immer in den Preview-Modus wechseln.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_reihenfolge_der_slides_aendern.htm
+

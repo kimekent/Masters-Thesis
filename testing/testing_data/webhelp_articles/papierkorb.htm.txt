@@ -1,0 +1,13 @@
+Key: Papierkorb (Recycle Bin)
+Navigation:  Tools > Sitecore Experience Management
+
+In dieser Anleitung wird erklärt wie Elemente die versehentich gelöscht wurden wieder hergestellt werden können.
+
+Im Papierkorb ("Recycle Bin") landet alles, was im Content Editor aus der Baumstruktur gelöscht wurde. Damit man in diesen Bereich gelangt, muss man sich neu Anmelden und den Bereich Desktop wählen.
+ 
+•Einzelne Inhalte können mit dem Restore Button wiederhergestellt werden.
+•Mit dem Delete Button löscht man sie endgültig.
+•Ein Klick auf "Empty" leert den Papierkorb. Das heisst, alle Inhalte sind permanent gelöscht.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_papierkorb.htm
+

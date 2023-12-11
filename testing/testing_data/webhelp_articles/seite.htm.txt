@@ -1,0 +1,11 @@
+Key: Standardseite
+Navigation:  Seitentypen
+
+In diesem Webhelp-Artikel wird die Standardseite vorgestllt.
+
+Die Standardseite ist die flexibelste Seite. Sie generiert nur das Page-Intro automatisch. Weitere Elemente können optional hinzugefügt werden. Zur Auswahl stehen alle Elemente, die in Content Containern verwendet werden können.
+ 
+Achtung: Seiten nie kopieren oder duplizieren.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_seite.htm
+

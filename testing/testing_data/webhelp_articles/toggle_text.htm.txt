@@ -1,0 +1,17 @@
+Key: Toggle-Text
+Navigation:  Seitenelemente > Content Container
+
+In diesem Webhelp-Artikel wird beschrieben was das Toggle-Text Element ist. 
+ 
+Der Toggle-Text ist ein Akkordeon-Element. Ein Teil des Inhaltes ist unsichtbar. Erst wenn Besuchende auf den Mehr-Link klicken, wird alles ausgeklappt.
+ 
+Der immer sichtbare Teil des Toggle-Textes sollte (wie ein Lead) erklären, um was es im ausklappbaren Teil gehen wird. Dies ermöglicht es Nutzern, schnell abzuschätzen, ob der Inhalt für sie relevant ist.
+ 
+Das Element ist dann besonders nützlich, wenn auf einer Seite Inhalte präsentiert werden müssen, die nicht für alle Besuchenden in voller Länge relevant sind.
+ 
+Im Akkordeon sollen keine Bilder verwendet werden.
+ 
+Durch Klicken auf mehr wird der Text aufgeklappt und beim Klicken auf schliessen wieder zugeklappt:
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_toggle_text.htm
+

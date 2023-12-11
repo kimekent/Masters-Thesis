@@ -1,0 +1,15 @@
+Key: Abschnitt
+seitentypen>template_ausbildung>studiengang-struktur
+
+Hier wird erklärt, wie auf einer Ausbildungsseite ein neuer Abschnitt eingefügt werden kann.
+ 
+1) Ein neuer Abschnitt über das Kontext-Menü und den Befehl Insert > Abschnitt einfügen.
+ 
+2) Beim neuen Fenster dem Abschnitt-Item ein Name geben und mit OK bestätigen.
+ 
+3) Der neue Abschnitt wurde mit dem Namen "Abschnitt" im Item-Tree angelegt.
+ 
+Hinweis: Die Abschnitte werden auf der Unterseite Module (Modulgeneratur) als Gliederung dargestellt.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_abschnitt.htm
+

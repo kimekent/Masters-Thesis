@@ -1,0 +1,27 @@
+Key: Bildgrösse, Bildbereich, Bildrahmen, Bildabmessung, Manquetten
+Navigation:  Tools
+
+Die Maquetten visualisieren, zu welchem Format ein Bild zugeschnitten werden muss.
+Die Zahlen in den Maquetten repräsentieren das Bildformat in Pixel.
+ 
+Folgend werden alle Elemente (Items) mit Bilder aufgelistet, gegliedert nach Template Containern.
+Viele dieser Elemente lassen sich in der Grösse konfigurieren.
+ 
+Übersicht Maquetten mit Link zur Seite wo die Grösses dieses Elements in den verschiedenen Templates angegeben wird:
+ 
+1.im Moodboard (https://applsupport.hslu.ch/webhelp/hm_maquetten_moodboard.htm)
+ 
+2.im Template Content (https://applsupport.hslu.ch/webhelp/hm__template_content.htm)
+ 
+3.im Template Sidebar (https://applsupport.hslu.ch/webhelp/hm_template_sidebar.htm)
+ 
+4.im Template A (https://applsupport.hslu.ch/webhelp/hm_template_a.htm)
+ 
+5.Im Template B - grosse Items (https://applsupport.hslu.ch/webhelp/hm_template_b.htm)
+ 
+6.im Template B - kleine Items (https://applsupport.hslu.ch/webhelp/hm_template_b_-_kleine_items.htm)
+ 
+7.im Template C (https://applsupport.hslu.ch/webhelp/hm_template_c.htm)
+
+Link: https://applsupport.hslu.ch/webhelp/hm_maquetten.htm
+

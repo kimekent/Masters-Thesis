@@ -1,0 +1,22 @@
+Key: Linktext für Flyout, Mobile-Navigation und Breadcrumb
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Campus > Navigations Options
+
+Diese Anleitung beschreibt, wie der automatische Linktext einer Seite, die im Flyout, Mobile-Navigation und Breadcrumb erscheint manuell geändert werdenkann.
+
+Das Feld "Linktext für Flyout, Mobile-Navigation und Breadcrumb" lässt die Redaktion einen gekürzten Seitentitel definieren, der im Flyout, in der mobilen Navigation und in den Breadcrumbs angezeigt wird. Dies ist insbesondere dann wichtig, wenn der ursprüngliche Seitentitel die Layout-Möglichkeiten der Navigations-Arten sprengen würde.
+ 
+1) Im Ribbon-Menü > Campus die Navigations Options öffnen.
+ 
+2) Im neuen Fenster kann im ersten Feld Linktext für Flyout, Mobile-Navigation und Breadcrumb ein benutzerdefinierter Name, z.B. Hauptseite eingegeben werden und mit OK bestätigt werden.
+ 
+Hinweis: Wird der Inhalt im Feld Linktext für Flyout, Mobile-Navigation und Breadcrumb wieder gelöscht, dann ist wieder automatisch der Seitentitel für die Linktexte zum relevant.
+ 
+3) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon neu laden. Danach werden die Änderungen auf der Seite dargestellt.
+ 
+Beispiel: Anpassung vom Linktext einer Seite:
+Wie im folgenden Beispiel aufgezeigt, wird der Inhalt vom Feld Linktext für Flyout, Mobile-Navigation und Breadcrumb mit dem Inhalt "Hauptseite" nun als Linktext in der Navigation verwendet.
+ 
+Auch im Breadcrumb-Menü wird der Name angepasst. Der Seitentitel bleibt aber bestehen.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_linktext_fuer_flyout_mobile_navigation_und_breadcrumb.htm
+

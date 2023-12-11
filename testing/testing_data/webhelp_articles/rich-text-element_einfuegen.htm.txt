@@ -1,0 +1,26 @@
+Key: Rich-Text-Element einfügen
+Navigation:  Seitenelemente > Content Container > Formatierter Text mit Bild (Textumfluss um Bild)
+
+Hinweis: Unter dem Kapitel "Template auf einer Seite platzieren" wird erklärt, wie die Einfüge-Buttons eingeblendet werden können.
+ 
+1) Auf den Einfüge-Button + Add to here klicken.
+ 
+2) Im neuen Fenster den Formatierten Text mit Bild auswählen und auf Select klicken.
+ 
+3) Über Create New Content ein neues Element erstellen und einen Namen vergeben.
+ 
+4) Das Rich-Text-Element wird auf der Seite platziert. Auf das Icon bearbeiten klicken.
+ 
+5) Im neuen Fenster kann ein Bild (oben) und Text (unten) definiert werden. Es kann auch kein Bild eingefügt werden. Dann nimmt der Text den ganzen Platz ein. Nach Klicken des Buttons OK wird das Element mit Inhalt platziert.
+ 
+Hinweis: Beim Bild gilt es die folgenden beiden Punkte zu beachten:
+1.Das Bild für dieses Element muss 234 Pixel breit sein. Die Höhe ist variabel, bzw. .
+2.Keine Bilder ins Textfeld (unten) eingeben.
+3.Der Text umfliesst in der Vorschau und Live das Bild.
+ 
+Der grüne Text weist darauf hin, das der Textumfluss im Editor nicht dargestellt werden kann.
+ 
+In der Vorschau oder live wird das Bild vom Text um-flossen.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_rich-text-element_einfuegen.htm
+

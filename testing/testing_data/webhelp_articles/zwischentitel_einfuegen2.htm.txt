@@ -1,0 +1,17 @@
+Key: Zwischentitel einfügen
+Navigation:  Seitenelemente > Content Container > Zwischentitel
+
+In dieser Anleitung wird beschrieben, wie auf einer Seite ein Zwichentitel eingefügt werden kann. 
+
+Hinweis: Unter dem Kapitel "Template auf einer Seite platzieren" wird erklärt, wie die Einfüge-Buttons eingeblendet werden können.
+ 
+1) Auf den Einfüge-Button + Add to here klicken.
+ 
+2) Im neuen Fenster den Zwischentitel auswählen und auf Select klicken.
+ 
+3) Über Create New Content einen neuen Zwischentitel erstellen und einen Namen vergeben.
+ 
+Der Zwischentitel wird auf der Seite platziert.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_zwischentitel_einfuegen2.htm
+

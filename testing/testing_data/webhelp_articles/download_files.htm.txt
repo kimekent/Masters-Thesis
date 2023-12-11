@@ -1,0 +1,18 @@
+Key: Download Files
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Campus > Media Library
+
+In dieser Anleitung wird erklärt, wie Dateien zum Download in die Medienbibliothek eingefügt werden können. 
+
+Pfad im Page-Editor: Ribbon-Menü > Campus > Media Library
+ 
+•Bilder: Medien-Bibliothek/Campus/Common/Images
+•PDFs und Dateien: Medien-Bibliothek/Campus/Common/Files
+ 
+Hinweis: Es können nur einzelne Bilder oder Dateien heruntergeladen werden. Der download von einem ganzen Medienordner ist nicht möglich.
+ 
+1.Im Ribbon-Menü Campus > Media Library wählen.
+ 
+2.In der Media Library im Item Tree zum entsprechenden Ordner navigieren und ein Bild oder ein PDF auswählen. Im Ribbon-Menü > Media erscheint der Download-Button oder es kann auch der Download-Button oberhalb des Bilds verwendet werden:
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_download_files.htm
+

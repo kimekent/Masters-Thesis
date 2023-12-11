@@ -1,0 +1,20 @@
+Key: View Navigation-Bar
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü
+
+Beim Arbeiten im Experience Editor ist es von vorteil die Navigationsbar einzublenden. Dieser zwigt dann wie ein Breadcrumb auf auf welcher Seite du dich befindest. In dieser Anleitung wird beschrieben, wie die Navigationsbar aktiviert werden kann.
+
+Die Navigationsbar kann im Ribbon Menü aktiviert werden:
+ 
+1) Auf den Tab View im Ribbon Menü klicken.
+2) Die Checkbox Navigation bar aktivieren > die Navigationsbar wird eingeblendet.
+ 
+So funktioniert die Navigationsbar:
+ 
+1) Durch Klicken auf eine Seite werden die Folgeseiten im Dropdown-Menü dargestellt.
+2) Die gewünschte Seite anklicken.
+3) Durch Klicken auf den Go-Button zur ausgewählten Seite navigieren.
+ 
+4) Durch Klicken auf das Pfeilsymbol kann das Ribbon-Menü auf- oder zugeklappt werden.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_navigation-bar_ribbon_menue.htm
+

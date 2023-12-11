@@ -1,0 +1,11 @@
+Key: Facts-Liste Einstellungen
+Navigation:  Seitenelemente > Content Container > Facts-Liste
+
+Diese Anleitung beschreibt die Einstellungen einer Factlist auf einer Standardseite (Nicht eine auf einer Aus- oder Weiterbildungsseite). 
+
+1) Beim Facts-List Item das Edit-Icon anklicken.
+ 
+2) Titel der Factsliste definieren, Anzahl initial anzuzeigender Einträge definieren und den Text für den Öffnen-Button definieren (Beispiel "Facts-Liste aufklappen").
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_facts-liste_einstellungen.htm
+

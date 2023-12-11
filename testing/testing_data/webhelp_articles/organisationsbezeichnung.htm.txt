@@ -1,0 +1,15 @@
+Key: Organisationsbezeichnung
+Navigation:  Seitenelemente > Footer > Footer Settings
+
+In dieser Anleitung wird beschrieben, wie die Bezeichnung der Organisationseinheit die im Footer der Webseiten angezeigt wird, geändert werden kann. 
+
+BEARBEITUNG DURCH ADMINISTRATOR
+Navigieren zu:
+1) Configuration Fenster öffnen (Ribbon > Campus > Configuration)
+2) Im Zielordner Campus > www auf Footer Settings klicken.
+3) Im Content-Bereich Footer unter Organisationsbezeichnung kann diese direkt eingegeben werden.
+ 
+1. Im Feld Organisationsbezeichnung kann diese direkt eingegeben werden.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_organisationsbezeichnung.htm
+

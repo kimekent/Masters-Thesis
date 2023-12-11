@@ -1,0 +1,21 @@
+Key: Extrafooter einfügen
+Navigation:  Seitenelemente > Extrafooter Container > Extrafooter
+
+Diese Anleitung beschreibt, wie ein Extra Teaser eingefügt werden kann.
+
+1) In den untersten leeren Container Extrafooter wählen und + Add to here klicken.
+ 
+Hinweis: Unter dem Kapitel "Template auf einer Seite platzieren" wird erklärt, wie die Einfüge-Buttons eingeblendet werden können.
+ 
+2) Das Element Extrafooter auswählen und mit Select bestätigen.
+ 
+3) Entweder wird über Create New Content ein neuer Extrafooter erstellt, oder über Select Existing Content ein bestehender Extrafooter ausgewählt. Im Feld Name der Titel des neuen Elements eingeben und auf OK klicken.
+ 
+Hinweis: Extrafooter können auch als "shared" (geteilt) gespeichert werden.
+ 
+Wichtig: Speichern (ctrl + s)
+
+4) Ein leerer Extrafooter wurde platziert.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_extra_teaser_einfuegen.htm
+

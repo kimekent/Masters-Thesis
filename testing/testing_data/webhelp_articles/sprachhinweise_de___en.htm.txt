@@ -1,0 +1,21 @@
+Key: Sprachhinweise DE / EN
+Navigation:  Seitentypen
+
+Dieser Webhelp-Artikel beinhaltet ein paar allgemeine Infos zur zweisprachigkeit der Website.
+
+Welche Seiten müssen übersetzt werden?:
+Grundsätzlich sollen in Web12 alle Seiten übersetzt werden, welche auf den obersten beiden Ebenen der Website liegen. Dazu gehört die Stufe der Departemente (und des Daches) ebenso wie die Stufe "Studium, Forschung, Dienstleistungen...".
+
+Was passiert bei fehlenden Übersetzungen?:
+•Ist eine Seite gar nicht übersetzt, wird dem User eine Nachricht angezeigt, die ihm vorschlägt, den Inhalt in der anderen Sprache abzubilden.
+•Ist eine Seite teilweise übersetzt vorhanden, wird eine Nachricht angezeigt, die darauf hinweist, dass eventuell nicht der komplette Inhalt abgebildet wird.
+•Ist eine Seite komplett in deutsch und englisch vorhanden, wird keine Nachricht angezeigt.
+ 
+Hinweis: Werden englische Seiten im Level 0 und 1 angelegt, müssen dieses auch in der geschützten Navigation in zwei Sprachversionen vorliegen. Ansonsten erscheinen die englischen Seiten in der Hauptnavigation und die Folgeseiten im Fly-Out-Menü nicht.
+ 
+Achtung: Seiten nie kopieren oder duplizieren.
+
+HINWEIS: Zu beachten ist auch das Kapitel Experience - neue Sprachversion (https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm)
+
+Link: https://applsupport.hslu.ch/webhelp/hm_sprachhinweise_de___en.htm
+

@@ -1,0 +1,47 @@
+Key: Event Filter List konfigurieren
+Navigation:  Seitenelemente > Template Container > Such- und Filterlisten > Filter Konfigurationen
+
+In dieser Anleitung wird beschrieben, wie Filterlisten für Event konfigueriert werden. Was Fixe und vorselektierte Filter in dem zusammenhang bedeuten und welche Einstellungen bei den Eventfilterlisten vorgenommen werden können.
+
+Siehe auch: Veranstaltung erfassen (https://applsupport.hslu.ch/webhelp/hm_veranstaltung_erfassen.htm), Single Agenda Teaser (https://applsupport.hslu.ch/webhelp/hm_event_teaser_einfuegen.htm), Multi Agenda Teaser (https://applsupport.hslu.ch/webhelp/hm_multi_event_teaser_einfueg2.htm)
+
+Optionen zugreifen:
+Die Filterliste auswählen und auf der folgenden drei Buttons klicken:
+ 
+• Filterliste bearbeiten
+• vorselektierte Filter bearbeiten
+• fixe Filter bearbeiten
+
+Weiter unten ist beschrieben, wie diese drei Optionen konfiguriert werden können.
+
+Filterliste bearbeiten (was die verschiedenen Einstellungen bedeuten):
+•Filter ausblenden: Wird dies aktiviert, verschwinden für die User die Filtermöglichkeiten.
+•Kein Resultat Text: Der Text, welcher in diesem Feld eingetragen ist, wird angezeigt, wenn keine Resultate gefunden wurden.
+•Filter standartmässig ausgeklappt: Seit November 2015 werden die Filter standartmässig zugeklappt dargestellt. Dies spart Platz in der Browser-Ansicht. Wird diese Check-Box hingegen aktiviert, werden die Filter wieder aufgeklappt dargestellt.
+  
+Vorselektierte Filter bearbeiten:
+Filter vorselektiert: Die hier ausgewählten Filter sind Voreinstellungen. Die User können diese Voreinstellungen über steuern.
+ 
+•Veranstaltungstyp vorselektiert: Veranstaltungstyp vorselektieren. User kann Studienort wechseln.
+•OE vorselektiert: OE vorselektieren. User kann Studienort wechseln.
+ 
+1.Das gewünschte Element in der linken Spalte All doppelklicken oder mittels der Links- und Rechts-Pfeile auswählen (heisst in die Selected-Spalte verschieben).
+2.OK klicken.
+ 
+Wichtig: Speichern (ctrl + s), denn die Änderungen werden erst nach dem Speichern sichtbar!
+ 
+fixe Filter bearbeiten
+Filter fix: Die hier ausgewählten Filter sind fix. Die User können diese nicht beeinflussen.
+ 
+•Veranstaltungstyp fix: Veranstaltungstyp fix bestimmen. User kann Veranstaltungstyp nicht wechseln.
+•OE fix: OE fix bestimmen. User kann OE nicht wechseln.
+ 
+1.Das gewünschte Element in der linken Spalte All doppelklicken oder mittels der Links- und Rechts-Pfeile auswählen (heisst in die Selected-Spalte verschieben).
+2.OK klicken.
+ 
+Wichtig: Speichern (ctrl + s), denn die Änderungen werden erst nach dem Speichern sichtbar!
+ 
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_event_filter_list.htm
+

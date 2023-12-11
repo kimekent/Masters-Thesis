@@ -1,0 +1,11 @@
+Key: Bilder für eine Galerie hochladen
+Navigation:  Seitenelemente > Content Container > Bildergalerie
+
+Diese Anleitung enthält Hinweise für die Bilder des Web Elements Bildergallerie.
+
+Hinweis: Wie die Bilder zugeschnitten und web optimiert gespeichert werden, ist im Kapitel Photoshop beschrieben. Wie Bilder in die Media Library hoch geladen werden, ist im Kapitel Media Library beschrieben.
+ 
+Bildgrösse: Es gibt keine Beschränkung der Bildgrösse. Die empfohlene Mindesthöhe beträgt 800 Pixel.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_bild_einer_galerie_zuordnen.htm
+

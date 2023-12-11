@@ -1,0 +1,33 @@
+Key: Häufige Fehler
+
+Dieser Websupport Artikel enthält ein paar häufige Fehler die im CMS gmacht werden. 
+ 
+Text einspaltig oder zweispaltig? Der Text im Rich Text Teaser erscheint im Web (live) und in der Vorschau zweispaltig. Stattdessen eignet sich in vielen Fällen das Element "Formatierter Text mit Bild. Dises kann auch ohne Bild eingefügt werden. Hier noch ein Überblick über die Funktionalität und Möglichkeiten der einzelnen Teaser-Items.
+
+Toggle Text:
+Spaltenanzahl: 1
+Bild: Nein
+Text "verstecken" möglich?: Ja
+Formattierungen möglich?: Ja
+Links möglich: Ja
+
+Rich Text Teaser:
+Spaltenanzahl: 2
+Bild: Nein
+Text "verstecken" möglich?: Ja
+Formattierungen möglich?: Ja
+Links möglich: Ja
+
+Formatierter Text mit Bild:
+Spaltenanzahl: 1
+Bild: Ja (optional)
+Text "verstecken" möglich?: Ja
+Formattierungen möglich?: Ja
+Links möglich: Ja
+
+Wording:
+Kombo-Kopplung: Wortkombinationen, die Fremdwörter oder Kurzformen enthalten sind zu koppeln.
+Beispiel Kurzform: "Info-Veranstaltung"
+Beispiel Fremdwort: "Bachelor-Arbeit" oder "Inhouse-Schulung"
+
+Link: https://applsupport.hslu.ch/webhelp/hm_haeufige_fehler.htm

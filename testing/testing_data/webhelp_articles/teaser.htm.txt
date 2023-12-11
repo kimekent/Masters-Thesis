@@ -1,0 +1,29 @@
+Key: Teaser
+Navigation:  Seitenelemente > Content Container
+
+In diesem Webhelp-Artikel wird beschrieben für was Teaser verwendet werden könne ausserdem werden ihre Standardelemente beschrieben.
+
+Teaser funktionieren wie Links: Sie verweisen weiter. Sie weisen auf andere Websites, eine Aktion (etwa eine Anmeldung) oder auf Videos. Sie bestehen aus Titel, Lead, Bild und Link.
+ 
+Diese Teaser stehen im Content Bereich und Template A, B, C zur Verfügung:
+•Manueller Teaser
+•Rich Text Teaser
+•Image Teaser (Bild Teaser)
+ 
+Teaser enthalten teils die folgenden obligatorischen Elemente:
+1.Titel: Der Titel definiert, wo ein Teaser hinführt und um was es dort geht.
+2.Kurzbeschreibung: Die Kurzbeschreibung liefert etwas mehr Kontext zur Zielseite.
+3.Link: Ein Link auf die Zielseite befördert den User von A (Seite, wo der Teaser platziert ist) nach B (Zielseite).
+ 
+Sie bieten die folgenden Optionen:
+ 
+1.Bild: Bilder sind idealerweise pixel-genau zugeschnitten. Das ideale Bildformat ist der Maquette im Page Editor zu entnehmen.
+2.Video: Videos auf den beiden Plattformen Youtube und Vimeo können in einen Teaser eingebunden werden.
+3.Layout: Teaser-Layouts können je nach Template mehr oder weniger stark angepasst werden. Anpassbar sind die Breite der Teaser und die Ausrichtung der Bildkomponenten.
+4.Lightbox: Link (nur Bilder via Media Link) in Popup vergrössern
+5.Animiertes Bild (GIF): Damit das Bild animiert werden kann, muss diese Funktion aktiviert werden.
+ 
+Hinweis: Der eingeblendete Bild-Text unterhalb der Lightbox stammt vom Alt-Text des Bildes.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_teaser.htm
+

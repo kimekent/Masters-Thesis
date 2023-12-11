@@ -1,0 +1,33 @@
+Key: Erweiterte Redirect Einstellungen
+Navigation:  Redirects >
+ 
+BEARBEITUNG DURCH ADMINISTRATOR
+
+Admin - Content Editor
+1) sitecore > System > Module > Master > SEO > Unter Redirects das entsprechende Redirect auswählen.
+2) Im Content die Checkbox entsprechend einstellen.
+ 
+
+Do not preserve query string: 
+•Wenn aktiv: Abfrage-Strings werden verworfen
+ 
+z.B.: http://www.hslu.ch/RequstedUrl?id=300 leitet weiter auf http://www.hslu.ch/RedirectTo
+ 
+ 
+•Wenn inaktiv: Abfrage-Strings werden beibehalten
+ 
+z.B.: http://www.hslu.ch/RequstedUrl?id=300 leitet weiter auf http://www.hslu.ch/RedirectTo?id=300
+ 
+Is Shortcut:
+•Wenn aktiv: Der Shortcut wird von Google für die Google-Suche berücksichtigt (HTTP response status code 301 > Moved Permanently).
+ 
+•Wenn inaktiv:        Der Shortcut wird von Google für die Google-Suche nicht berücksichtigt (HTTP response status code 302 > Moved Temporarily).
+ 
+Hinweis: Die Checkbox "is Shortcut" ist nur im Fall einer temporären Umleitung (temp. Anpassung des Verweises der Zielseite) inaktiv zu setzen.
+
+Beispiel: Eine Weiterbildungsseite wird temporär nicht publiziert, weil diese Weiterbildung zur Zeit nicht angeboten wird. Zudem existiert ein Redirect, welcher auf diese Weiterbildungsseite zeigt.
+
+In diesem Fall muss der Verweis im Redirect provisorisch z.B. auf die übergeordnete Seite angepasst und die Checkbox "is Shortcut" als inaktiv gesetzt werden. Wird die Weiterbildungsseite wieder publiziert, können die Redirect-Anpassungen wieder rückgängig gemacht werden.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_details_zu_redirect_checkbox.htm
+

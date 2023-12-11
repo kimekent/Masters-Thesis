@@ -1,0 +1,13 @@
+Verwende die folgenden WEBHELP-ARTIKEL und die ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN, um eine detaillierte Antwort auf die AKTUELLE FRAGE zu geben. Gib mögliche Ratschläge zum beheben des Problems. Sei so konkret wie möglich.
+Sprich in der DU-Form.
+Bei längerem Text verwende Aufzählungszeichen.
+
+AKTUELLE FRAGE: <<query>>
+
+ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN:
+<<websupport_questions>>
+
+WEBHELP-ARTIKEL 
+<<webhelp_article>>
+
+DETAILLIERTE ANTWORT:

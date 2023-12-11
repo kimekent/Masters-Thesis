@@ -1,0 +1,18 @@
+Key: Templates A, B, C, Content
+Navigation:  Seitenelemente > Template Container
+
+Templates sind Behälter ("Container"), die den darin platzierten Inhalten ein spezielles Aussehen geben oder Inhalte aus Datenbanken zusammensuchen und darstellen. Der Hintergrund des Template C kann konfiguriert werden.
+ 
+Je Template Container stehen andere Elemente zur Verfügung:
+
+Mehr Infos zu den einzelnen Elementen
+•Manuelle Teaser:https://applsupport.hslu.ch/webhelp/hm_teaser.htm
+•Event Teaser: https://applsupport.hslu.ch/webhelp/hm_event_teaser.htm
+•Multi Event Teaser: https://applsupport.hslu.ch/webhelp/hm_multi_event_teaser.htm
+•Bildergalerie: https://applsupport.hslu.ch/webhelp/hm_bilder_mit_galerien.htm
+•Rich Text Teaser: https://applsupport.hslu.ch/webhelp/hm_rich_text_teaser_bearbeiten.htm
+•Zwischentitel (Nicht bei Template C): https://applsupport.hslu.ch/webhelp/hm_zwischentitel_einfuegen.htm
+•Geschützter Umbruch: https://applsupport.hslu.ch/webhelp/hm_geschuetzten_umbruch_einfuegen.htm
+
+Link: https://applsupport.hslu.ch/webhelp/hm_seiten_-_templates.htm
+

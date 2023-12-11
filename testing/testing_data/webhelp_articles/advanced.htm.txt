@@ -1,0 +1,18 @@
+Key: Presentation
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü >
+ 
+In Sitecore unserem CMS System gibt es den Content Editor und den Experience Editor Bereich. Im Content Editor gibt es ein Presentation-Tab im Ribbon Menu. 
+
+Achtung: Unter dem Presentation-Tap stehen Funktionen zur Verfügung, welche nur durch Administratoren oder sehr gut geübten Webredaktoren verwendet werden sollten. In den folgenden Unterkapitel werden die Buttons "Shared Layout" und "Reset" erläutert.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_advanced.htm
+
+
+Key: Reset
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Presentation
+
+Mit Reset lässt sich ein defektes Layout wieder herstellen, ist jedoch mit Vorsicht zu benutzen. Dies wenn z.B. automatisch platzierte Elemente versehentlich gelöscht wurden. Automatisch platzierte Element sind z.B. Info-Boxen, oder alle Elemente die bei den Seitentypen Veranstaltung (Agenda-Eintrag), Weiterbildung, Studium (Ausbildungs-Site) werden Seitenelemente automatisch platziert werden, wie z.B. die Factliste.
+
+Achtung: Bei einem Reset einer Seite wird diese zum Standard zurückgestellt! Alle Inhalte dieser Seite müssen wieder neu verknüpft werden!
+
+Link: https://applsupport.hslu.ch/webhelp/index.html?hm_reset.htm
