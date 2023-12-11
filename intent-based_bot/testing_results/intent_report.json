@@ -1,0 +1,197 @@
+{
+  "site_not_published": {
+    "precision": 1.0,
+    "recall": 0.2,
+    "f1-score": 0.33333333333333337,
+    "support": 10,
+    "confused_with": {
+      "youtube": 5,
+      "picture_popup": 2
+    }
+  },
+  "break": {
+    "precision": 0.45,
+    "recall": 0.9,
+    "f1-score": 0.6,
+    "support": 10,
+    "confused_with": {
+      "picture_popup": 1
+    }
+  },
+  "youtube": {
+    "precision": 0.22580645161290322,
+    "recall": 0.7777777777777778,
+    "f1-score": 0.35000000000000003,
+    "support": 9,
+    "confused_with": {
+      "insert_video": 2
+    }
+  },
+  "warning_only_in_german": {
+    "precision": 1.0,
+    "recall": 0.3,
+    "f1-score": 0.4615384615384615,
+    "support": 10,
+    "confused_with": {
+      "warning_some_content_only_available_in_german": 4,
+      "picture_popup": 2
+    }
+  },
+  "site_delete": {
+    "precision": 0.8,
+    "recall": 0.8,
+    "f1-score": 0.8000000000000002,
+    "support": 10,
+    "confused_with": {
+      "url_change": 2
+    }
+  },
+  "picture_error": {
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1-score": 0.8,
+    "support": 10,
+    "confused_with": {}
+  },
+  "insert_video": {
+    "precision": 0.75,
+    "recall": 0.9,
+    "f1-score": 0.8181818181818182,
+    "support": 10,
+    "confused_with": {
+      "youtube": 1
+    }
+  },
+  "infobox_delete": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 10,
+    "confused_with": {
+      "break": 3,
+      "url_change": 1
+    }
+  },
+  "contact_edit": {
+    "precision": 1.0,
+    "recall": 0.2,
+    "f1-score": 0.33333333333333337,
+    "support": 10,
+    "confused_with": {
+      "break": 5,
+      "picture_error": 2
+    }
+  },
+  "navigation_edit_visibility": {
+    "precision": 1.0,
+    "recall": 0.4,
+    "f1-score": 0.5714285714285715,
+    "support": 10,
+    "confused_with": {
+      "url_change": 3,
+      "mobile_moodboard": 2
+    }
+  },
+  "site_structure_german_english": {
+    "precision": 1.0,
+    "recall": 0.2,
+    "f1-score": 0.33333333333333337,
+    "support": 10,
+    "confused_with": {
+      "youtube": 5,
+      "mobile_moodboard": 1
+    }
+  },
+  "rich_text_teaser_format": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "warning_some_content_only_available_in_german": {
+    "precision": 0.5333333333333333,
+    "recall": 0.8,
+    "f1-score": 0.64,
+    "support": 10,
+    "confused_with": {
+      "youtube": 2
+    }
+  },
+  "site_delete_en": {
+    "precision": 0.8,
+    "recall": 0.4,
+    "f1-score": 0.5333333333333333,
+    "support": 10,
+    "confused_with": {
+      "youtube": 4,
+      "site_delete": 1
+    }
+  },
+  "url_change": {
+    "precision": 0.5294117647058824,
+    "recall": 0.9,
+    "f1-score": 0.6666666666666667,
+    "support": 10,
+    "confused_with": {
+      "break": 1
+    }
+  },
+  "login": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 10,
+    "confused_with": {
+      "picture_error": 3,
+      "warning_some_content_only_available_in_german": 2,
+      "youtube": 1
+    }
+  },
+  "picture_popup": {
+    "precision": 0.4375,
+    "recall": 0.7,
+    "f1-score": 0.5384615384615384,
+    "support": 10,
+    "confused_with": {
+      "youtube": 2,
+      "break": 1
+    }
+  },
+  "open_graph": {
+    "precision": 1.0,
+    "recall": 0.2,
+    "f1-score": 0.33333333333333337,
+    "support": 10,
+    "confused_with": {
+      "youtube": 3,
+      "mobile_moodboard": 3
+    }
+  },
+  "mobile_moodboard": {
+    "precision": 0.5555555555555556,
+    "recall": 1.0,
+    "f1-score": 0.7142857142857143,
+    "support": 10,
+    "confused_with": {}
+  },
+  "accuracy": 0.5873015873015873,
+  "macro avg": {
+    "precision": 0.723593356414439,
+    "recall": 0.5883040935672514,
+    "f1-score": 0.5523103212576896,
+    "support": 189
+  },
+  "weighted avg": {
+    "precision": 0.726227149561537,
+    "recall": 0.5873015873015873,
+    "f1-score": 0.553380746237889,
+    "support": 189
+  },
+  "micro avg": {
+    "precision": 0.5873015873015873,
+    "recall": 0.5873015873015873,
+    "f1-score": 0.5873015873015873,
+    "support": 189
+  }
+}

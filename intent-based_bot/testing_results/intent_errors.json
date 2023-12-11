@@ -1,0 +1,626 @@
+[
+  {
+    "text": "Ich würde gerne ein Video in unseren Website integrieren. Ist das möglich und wie gehe ich vor?",
+    "intent": "insert_video",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.7027906775474548
+    }
+  },
+  {
+    "text": "Kann mir jemand zeigen, wie ich die kleine Box mit den Zusatzinformationen auf unserer Teamseite lösche?",
+    "intent": "infobox_delete",
+    "intent_prediction": {
+      "name": "break",
+      "confidence": 0.478446364402771
+    }
+  },
+  {
+    "text": "Auf unserer Startseite gibt es eine veraltete Ankündigungsbox. Wie kann ich diese entfernen?",
+    "intent": "infobox_delete",
+    "intent_prediction": {
+      "name": "break",
+      "confidence": 0.5684331059455872
+    }
+  },
+  {
+    "text": "Wie werde ich die Infobx auf unserer Projektseite los?",
+    "intent": "infobox_delete",
+    "intent_prediction": {
+      "name": "break",
+      "confidence": 0.3074693977832794
+    }
+  },
+  {
+    "text": "Die Box mit dem Spendenaufruf ist nicht mehr relevant. Wie kann ich sie von der Seite nehmen?",
+    "intent": "infobox_delete",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.4650065302848816
+    }
+  },
+  {
+    "text": "Kann ich die Informationsbox über unseren neuen Standort selbst entfernen, oder muss das jemand anderes machen?",
+    "intent": "infobox_delete",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.3367268145084381
+    }
+  },
+  {
+    "text": "Ich habe mein Passwort für den Zugang zu Sitecore vergessen. Wie kann ich mich jetzt einloggen?",
+    "intent": "login",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.3998153507709503
+    }
+  },
+  {
+    "text": "Ich habe meine Zugangsdaten erhalten, aber ich weiß nicht, wo ich mich einloggen soll.",
+    "intent": "login",
+    "intent_prediction": {
+      "name": "warning_some_content_only_available_in_german",
+      "confidence": 0.5377171039581299
+    }
+  },
+  {
+    "text": "Seit dem letzten Update kann ich mich nicht mehr in Sitecore anmelden. Gibt es eine Lösung dafür?",
+    "intent": "login",
+    "intent_prediction": {
+      "name": "site_delete",
+      "confidence": 0.4560587704181671
+    }
+  },
+  {
+    "text": "Kann mir jemand erklären, wie der Login-Prozess für Sitecore funktioniert?",
+    "intent": "login",
+    "intent_prediction": {
+      "name": "picture_error",
+      "confidence": 0.4890819191932678
+    }
+  },
+  {
+    "text": "Ich versuche, mich auf der Webseite anzumelden, aber es funktioniert nicht.",
+    "intent": "login",
+    "intent_prediction": {
+      "name": "break",
+      "confidence": 0.5755915641784668
+    }
+  },
+  {
+    "text": "Nach dem Zurücksetzen meines Passworts kann ich mich immer noch nicht einloggen. Könnt ihr mir helfen?",
+    "intent": "login",
+    "intent_prediction": {
+      "name": "warning_some_content_only_available_in_german",
+      "confidence": 0.39302465319633484
+    }
+  },
+  {
+    "text": "Ich benötige den Link zur Anmeldeseite vom Schulungssystem. Wo finde ich diesen?",
+    "intent": "login",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.22808855772018433
+    }
+  },
+  {
+    "text": "Mein Login für das CRM-System funktioniert nicht mehr. Wer kann mir da weiterhelfen?",
+    "intent": "login",
+    "intent_prediction": {
+      "name": "picture_error",
+      "confidence": 0.24885518848896027
+    }
+  },
+  {
+    "text": "Ich habe Probleme, mich im Sitecore einzuloggen. Wer kann mir die richtigen Schritte erklären?",
+    "intent": "login",
+    "intent_prediction": {
+      "name": "picture_error",
+      "confidence": 0.7499949932098389
+    }
+  },
+  {
+    "text": "Ich bin neu hier und habe Schwierigkeiten, mich auf der Website einzuloggen. Brauche ich spezielle Zugangsdaten?",
+    "intent": "login",
+    "intent_prediction": {
+      "name": "picture_popup",
+      "confidence": 0.3256508708000183
+    }
+  },
+  {
+    "text": "Ich habe eine englische Version des Dokuments hochgeladen, aber auf der Website steht immer noch 'Only in German'. Wie kann ich das ändern?",
+    "intent": "warning_only_in_german",
+    "intent_prediction": {
+      "name": "site_delete_en",
+      "confidence": 0.3261427581310272
+    }
+  },
+  {
+    "text": "Auf unserer englischen Veranstaltungsseite wird bei den Downloads fälschlicherweise 'Only in German' angezeigt. Was muss ich tun?",
+    "intent": "warning_only_in_german",
+    "intent_prediction": {
+      "name": "warning_some_content_only_available_in_german",
+      "confidence": 0.5042664408683777
+    }
+  },
+  {
+    "text": "Ich versuche, die englische Seite unseres Forschungsprojekts zu aktualisieren, aber der Hinweis 'Only in German' bleibt bestehen. Können Sie mir helfen, das zu korrigieren?",
+    "intent": "warning_only_in_german",
+    "intent_prediction": {
+      "name": "picture_popup",
+      "confidence": 0.5983207821846008
+    }
+  },
+  {
+    "text": "In der englischen Version unseres Kursangebots wird noch 'Only in German' angezeigt, obwohl alle Materialien übersetzt wurden. Wie kann ich das entfernen?",
+    "intent": "warning_only_in_german",
+    "intent_prediction": {
+      "name": "warning_some_content_only_available_in_german",
+      "confidence": 0.8872953057289124
+    }
+  },
+  {
+    "text": "Auf der englischen Unterseite unseres Institutes wird bei einigen Dokumenten fälschlicherweise 'Only in German' angezeigt. Gibt es eine Einstellung, die ich übersehen habe?",
+    "intent": "warning_only_in_german",
+    "intent_prediction": {
+      "name": "picture_popup",
+      "confidence": 0.35976701974868774
+    }
+  },
+  {
+    "text": "Ich habe die englischen Übersetzungen unserer Berichte hinzugefügt, aber die Webseite zeigt noch 'Only in German' an. Was muss ich noch einstellen?",
+    "intent": "warning_only_in_german",
+    "intent_prediction": {
+      "name": "warning_some_content_only_available_in_german",
+      "confidence": 0.8562231063842773
+    }
+  },
+  {
+    "text": "Ich habe Probleme mit der englischen Version unserer News-Artikel. Trotz englischem Inhalt wird 'Only in German' angezeigt. Wie kann ich das ändern?",
+    "intent": "warning_only_in_german",
+    "intent_prediction": {
+      "name": "warning_some_content_only_available_in_german",
+      "confidence": 0.7710274457931519
+    }
+  },
+  {
+    "text": "Auf unserer Seite gibt es eine englische Version, die wir nicht benötigen. Kann ich diese ohne Risiko löschen, ohne die deutsche Version zu beeinträchtigen?",
+    "intent": "site_delete_en",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.5249988436698914
+    }
+  },
+  {
+    "text": "Wir haben eine englische Seite für ein Event, das abgesagt wurde. Wie kann ich diese spezifische Seite entfernen, ohne die deutsche zu beeinflussen?",
+    "intent": "site_delete_en",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.5779217481613159
+    }
+  },
+  {
+    "text": "Ich habe eine englischsprachige Seite erstellt, die jetzt nicht mehr benötigt wird. Wie kann ich sie sicher aus dem System entfernen?",
+    "intent": "site_delete_en",
+    "intent_prediction": {
+      "name": "site_delete",
+      "confidence": 0.87516850233078
+    }
+  },
+  {
+    "text": "Wir haben einige englische Seiten, die nicht mehr verwendet werden. Kann ich sie löschen, und wenn ja, wie mache ich das richtig?",
+    "intent": "site_delete_en",
+    "intent_prediction": {
+      "name": "picture_popup",
+      "confidence": 0.3002937138080597
+    }
+  },
+  {
+    "text": "Die englische Version unserer Produktseite ist veraltet. Kann ich sie löschen, ohne die deutsche Version zu beeinträchtigen?",
+    "intent": "site_delete_en",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.5848271250724792
+    }
+  },
+  {
+    "text": "Auf unserer Website gibt es eine englische Seite, die irrtümlich erstellt wurde. Wie kann ich sie entfernen, ohne andere Seiten zu beeinflussen?",
+    "intent": "site_delete_en",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.5701370239257812
+    }
+  },
+  {
+    "text": "Bitte ändert den Titel von Herrn Müller im System zu 'Senior Manager', da er kürzlich befördert wurde.",
+    "intent": "contact_edit",
+    "intent_prediction": {
+      "name": "mobile_moodboard",
+      "confidence": 0.25889700651168823
+    }
+  },
+  {
+    "text": "Ich habe bemerkt, dass Frau Schmidts Telefonnummer Fauf unserer Webseite nicht aktuell ist. Können wir das schnellstmöglich korrigieren?",
+    "intent": "contact_edit",
+    "intent_prediction": {
+      "name": "break",
+      "confidence": 0.27847856283187866
+    }
+  },
+  {
+    "text": "Wie kann ich die E-Mail-Adresse von Frau Lehmann in unserem internen Verzeichnis aktualisieren? Sie hat eine neue berufliche E-Mail-Adresse.",
+    "intent": "contact_edit",
+    "intent_prediction": {
+      "name": "break",
+      "confidence": 0.6265307068824768
+    }
+  },
+  {
+    "text": "Könnt ihr bitte Herrn Bauers Jobbezeichnung auf der Website ändern? Er ist jetzt Leiter der Marketingabteilung.",
+    "intent": "contact_edit",
+    "intent_prediction": {
+      "name": "break",
+      "confidence": 0.6983676552772522
+    }
+  },
+  {
+    "text": "Ich möchte, dass die Kontaktdetails von Dr. Weber auf unserer Teamseite aktualisiert werden, um ihre neue Position als Forschungsleiterin widerzuspiegeln.",
+    "intent": "contact_edit",
+    "intent_prediction": {
+      "name": "break",
+      "confidence": 0.530495822429657
+    }
+  },
+  {
+    "text": "Im Kontaktteser ist ein Fehler bei der Funtkion. Wie kann ich das anpassen?",
+    "intent": "contact_edit",
+    "intent_prediction": {
+      "name": "picture_error",
+      "confidence": 0.40390560030937195
+    }
+  },
+  {
+    "text": "Kann jemand die Schreibweise des Nachnamens von Frau Petrova in ihrem Kontaktprofil korrigieren? Es muss 'Petrova' statt 'Petrov' sein.",
+    "intent": "contact_edit",
+    "intent_prediction": {
+      "name": "picture_error",
+      "confidence": 0.3458445370197296
+    }
+  },
+  {
+    "text": "Wie kann ich die Angaben im Kontaktteaser auf allen Seiten anpasse?",
+    "intent": "contact_edit",
+    "intent_prediction": {
+      "name": "break",
+      "confidence": 0.4369651973247528
+    }
+  },
+  {
+    "text": "Auf der englischen Seite unseres Projekts wird angezeigt, dass einige Abschnitte nur auf Englisch vorhanden sind. Wie kann ich das überprüfen und beheben?",
+    "intent": "warning_some_content_only_available_in_german",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.8696451783180237
+    }
+  },
+  {
+    "text": "In der englischen Version unserer Fakultätsseite gibt es die Meldung, dass manche Inhalte nur auf Englisch sind. Können Sie mir helfen, das zu identifizieren und zu ändern?",
+    "intent": "warning_some_content_only_available_in_german",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.6526958346366882
+    }
+  },
+  {
+    "text": "Ich möchte in der Sidenavigation unserer Fakultätsseite einen Link zu unserer neuen Forschungsabteilung hinzufügen. Wie gehe ich am besten vor?",
+    "intent": "navigation_edit_visibility",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.5674116015434265
+    }
+  },
+  {
+    "text": "Auf unserer Kursseite möchte ich zusätzlich den Link zu unserre Themenseite einfügen. Kann mir jemand erklären, wie ich diese hinzufügen kann?",
+    "intent": "navigation_edit_visibility",
+    "intent_prediction": {
+      "name": "insert_video",
+      "confidence": 0.351078063249588
+    }
+  },
+  {
+    "text": "Ich versuche, die Seitennavigation unserer Homepage zu ändern, um auf unsere neuen Social-Media-Kanäle zu verweisen. Wie mache ich das?",
+    "intent": "navigation_edit_visibility",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.7073290944099426
+    }
+  },
+  {
+    "text": "Auf unserer Veranstaltungsseite möchte ich Links zu ähnlichen Events in der Seitenleiste hinzufügen. Wie kann ich das umsetzen?",
+    "intent": "navigation_edit_visibility",
+    "intent_prediction": {
+      "name": "mobile_moodboard",
+      "confidence": 0.1973688155412674
+    }
+  },
+  {
+    "text": "Ich habe Schwierigkeiten, die Verlinkung zu den Mitarbeiterprofilen in unserer virtuellen Navigation einzurichten. Gibt es eine Anleitung dafür?",
+    "intent": "navigation_edit_visibility",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.5040210485458374
+    }
+  },
+  {
+    "text": "Wie kann ich in der Navigationsleiste unserer Website einen Schnellzugriff auf den Bereich 'Karrierechancen' hinzufügen?",
+    "intent": "navigation_edit_visibility",
+    "intent_prediction": {
+      "name": "mobile_moodboard",
+      "confidence": 0.4192327857017517
+    }
+  },
+  {
+    "text": "Ist es möglich, auf der englischen Version unserer Website einen zusätzlichen Abschnitt hinzuzufügen, der auf der deutschen Seite nicht existiert?",
+    "intent": "site_structure_german_english",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.7321921586990356
+    }
+  },
+  {
+    "text": "Ich habe festgestellt, dass einige unserer Elemente auf der englischen Seite immer wieder rausgelöscht werden. Woran kann das liegen?",
+    "intent": "site_structure_german_english",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.5232143402099609
+    }
+  },
+  {
+    "text": "Unsere Forschungsseiten sind in Deutsch und Englisch verfügbar, jedoch möchte ich ein spezifisches Dokument nur in der enlgischen Version anlegen. Geht das?",
+    "intent": "site_structure_german_english",
+    "intent_prediction": {
+      "name": "warning_some_content_only_available_in_german",
+      "confidence": 0.8245326280593872
+    }
+  },
+  {
+    "text": "Können wir auf der deutschen Seite eine spezielle Bildergalerie haben, die aber nicht auf der englischen Seite angezeigt wird?",
+    "intent": "site_structure_german_english",
+    "intent_prediction": {
+      "name": "mobile_moodboard",
+      "confidence": 0.4145078659057617
+    }
+  },
+  {
+    "text": "Ist es möglich, unterschiedliche FAQs auf der deutschen und englischen Version unserer Hilfeseite zu haben?",
+    "intent": "site_structure_german_english",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.4686853289604187
+    }
+  },
+  {
+    "text": "Wir möchten auf der englischen Seite ein spezifisches Forschungsprojekt hervorheben, das auf der deutschen Seite nicht relevant ist. Wie können wir das realisieren?",
+    "intent": "site_structure_german_english",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.48839545249938965
+    }
+  },
+  {
+    "text": "Ist es technisch möglich, auf der englischen Version unserer Hochschulwebseite andere Elemente einzufügen als auf der deutschen zu zeigen?",
+    "intent": "site_structure_german_english",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.7597489356994629
+    }
+  },
+  {
+    "text": "Bei mir wird ein Teaser der nur auf der englsichen Seite erscheinen soll immer wieder von der Seite gelöscht. Wieso?",
+    "intent": "site_structure_german_english",
+    "intent_prediction": {
+      "name": "picture_popup",
+      "confidence": 0.7839842438697815
+    }
+  },
+  {
+    "text": "Beim Teilen unserer neuen Studiengangsseite auf Facebook wird das falsche Vorschaubild angezeigt. Wo kann ich das Open Graph Bild aktualisieren?",
+    "intent": "open_graph",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.34462013840675354
+    }
+  },
+  {
+    "text": "Wie kann ich sicherstellen, dass beim Posten unserer Veranstaltungsseite auf sozialen Netzwerken das richtige Bild erscheint?",
+    "intent": "open_graph",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.5522682070732117
+    }
+  },
+  {
+    "text": "Ich habe festgestellt, dass das Thumbnail-Bild in unseren Twitter-Posts nicht mit dem Open Graph Bild der verlinkten Seite übereinstimmt. Wie kann ich das korrigieren?",
+    "intent": "open_graph",
+    "intent_prediction": {
+      "name": "picture_popup",
+      "confidence": 0.4181615710258484
+    }
+  },
+  {
+    "text": "Auf unserer Projektseite haben wir das Open Graph Bild geändert, aber es wird immer noch das alte Bild in sozialen Medien angezeigt. Was kann ich tun?",
+    "intent": "open_graph",
+    "intent_prediction": {
+      "name": "mobile_moodboard",
+      "confidence": 0.7658414840698242
+    }
+  },
+  {
+    "text": "Das Vorschaubild unserer Blogposts auf Facebook stimmt nicht.",
+    "intent": "open_graph",
+    "intent_prediction": {
+      "name": "mobile_moodboard",
+      "confidence": 0.4306795001029968
+    }
+  },
+  {
+    "text": "Ich möchte das Open Graph Bild für unsere Hauptseite ändern, damit es besser zu unserer aktuellen Kampagne passt. Wo finde ich die Einstellungen dafür?",
+    "intent": "open_graph",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.4346977174282074
+    }
+  },
+  {
+    "text": "Beim Teilen unserer Forschungsseite auf sozialen Medien wird ein veraltetes Bild angezeigt.",
+    "intent": "open_graph",
+    "intent_prediction": {
+      "name": "mobile_moodboard",
+      "confidence": 0.44715017080307007
+    }
+  },
+  {
+    "text": "Wie kann ich das Open Graph Bild für eine spezielle Unterseite unserer Website festlegen, damit es korrekt auf sozialen Medien angezeigt wird?",
+    "intent": "open_graph",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.5766695737838745
+    }
+  },
+  {
+    "text": "Ich habe versucht, ein Popup für das Bild auf unserer Website einzurichten, aber es leitet stattdessen auf eine leere Seite um. Können Sie mir helfen, das zu korrigieren?",
+    "intent": "picture_popup",
+    "intent_prediction": {
+      "name": "break",
+      "confidence": 0.4104306697845459
+    }
+  },
+  {
+    "text": "Wie kann ich ein Popup-Fenster für eine Bildergalerie auf der Startseite unserer Website hinzufügen, sodass die Bilder in voller Größe angezeigt werden?",
+    "intent": "picture_popup",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.4895174503326416
+    }
+  },
+  {
+    "text": "Ich brauche Unterstützung beim Einrichten eines Popups für die Produktbilder in unserem Online-Shop. Könntet ihr mir die Schritte dafür erklären?",
+    "intent": "picture_popup",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.3276856243610382
+    }
+  },
+  {
+    "text": "Ich habe eine neue Seite für unser Forschungsprojekt erstellt, aber sie scheint nicht live zu sein. Was könnte das Problem sein?",
+    "intent": "site_not_published",
+    "intent_prediction": {
+      "name": "picture_popup",
+      "confidence": 0.33958688378334045
+    }
+  },
+  {
+    "text": "Ich habe Änderungen an der Seite unseres Instituts vorgenommen, aber diese sind auf der Website nicht sichtbar. Gibt es eine Verzögerung beim Veröffentlichen?",
+    "intent": "site_not_published",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.5618729591369629
+    }
+  },
+  {
+    "text": "Die Seite für unser neues Studiengangsangebot wurde erstellt, ist aber nicht auffindbar. Könnten Sie bitte überprüfen, ob es ein technisches Problem gibt?",
+    "intent": "site_not_published",
+    "intent_prediction": {
+      "name": "picture_popup",
+      "confidence": 0.742522120475769
+    }
+  },
+  {
+    "text": "Unsere Pressemitteilung erscheint nicht auf der Webseite. Kann jemand helfen?",
+    "intent": "site_not_published",
+    "intent_prediction": {
+      "name": "mobile_moodboard",
+      "confidence": 0.23184962570667267
+    }
+  },
+  {
+    "text": "Die aktualisierten Karriereinformationen auf unserer Webseite sind nicht sichtbar. Kann es sein, dass die Seite nicht richtig veröffentlicht wurde?",
+    "intent": "site_not_published",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.5446742177009583
+    }
+  },
+  {
+    "text": "Obwohl ich unsere Galerieseite veröffentlicht habe, erscheint sie nicht auf der Website. Woran könnte das liegen?",
+    "intent": "site_not_published",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.7788891196250916
+    }
+  },
+  {
+    "text": "Ich habe eine neue Unterseite zu unseren Services hinzugefügt, aber sie ist nicht online gegangen. Gibt es einen Schritt, den ich übersehen habe?",
+    "intent": "site_not_published",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.3603200316429138
+    }
+  },
+  {
+    "text": "Die Seite mit den Informationen zu unserem neuen Kursangebot wurde erstellt, ist aber nicht auf der Website zu finden.",
+    "intent": "site_not_published",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.4786311388015747
+    }
+  },
+  {
+    "text": "Unsere Teamseite wurde aktualisiert und die alte Version muss gelöscht werden. Kann ich das direkt im System tun? Die alte Seite ist hier: https://www.hslu.ch/de-ch/team/alt/",
+    "intent": "site_delete",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.4002436101436615
+    }
+  },
+  {
+    "text": "Es gibt eine Fehlerseite auf unserer Website, die entfernt werden muss. Sie führt zu Verwirrung bei den Besuchern. Wie gehe ich vor, um sie zu löschen? Die URL ist: https://www.hslu.ch/de-ch/fehlerseite/",
+    "intent": "site_delete",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.5332052111625671
+    }
+  },
+  {
+    "text": "Beim Hinzufügen von manuellen Teasern auf unserer Seite ist ein großer Abstand entstanden. Kann mir jemand helfen, diesen zu entfernen?",
+    "intent": "break",
+    "intent_prediction": {
+      "name": "picture_popup",
+      "confidence": 0.5635499358177185
+    }
+  },
+  {
+    "text": "Für unsere Marketingkampagne möchte ich unser neuestes Produktvideo auf YouTube hochladen. Wo kann ich die Datei ablegen, damit ihr das erledigen könnt?",
+    "intent": "youtube",
+    "intent_prediction": {
+      "name": "insert_video",
+      "confidence": 0.5459458231925964
+    }
+  },
+  {
+    "text": "Das Video in unserem YouTube-Kanal hat einen Tippfehler im Titel. Wie kann ich das korrigieren oder wer kann das für mich tun?",
+    "intent": "youtube",
+    "intent_prediction": {
+      "name": "insert_video",
+      "confidence": 0.6993387341499329
+    }
+  },
+  {
+    "text": "Nach der Fusion vor zwei verscheidenen Themenbereichen müssen wir die URLs unserer Unterseite ändern. Wie mache ich das?",
+    "intent": "url_change",
+    "intent_prediction": {
+      "name": "break",
+      "confidence": 0.5428335666656494
+    }
+  }
+]

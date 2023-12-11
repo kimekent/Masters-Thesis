@@ -1,0 +1,190 @@
+{
+  "site_not_published": {
+    "precision": 0.5333333333333333,
+    "recall": 0.8,
+    "f1-score": 0.64,
+    "support": 10,
+    "confused_with": {
+      "infobox_delete": 1,
+      "login": 1
+    }
+  },
+  "picture_error": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "site_structure_german_english": {
+    "precision": 1.0,
+    "recall": 0.7,
+    "f1-score": 0.8235294117647058,
+    "support": 10,
+    "confused_with": {
+      "site_delete_en": 2,
+      "url_change": 1
+    }
+  },
+  "site_delete": {
+    "precision": 0.4117647058823529,
+    "recall": 0.7,
+    "f1-score": 0.5185185185185185,
+    "support": 10,
+    "confused_with": {
+      "site_not_published": 3
+    }
+  },
+  "infobox_delete": {
+    "precision": 0.75,
+    "recall": 0.6,
+    "f1-score": 0.6666666666666665,
+    "support": 10,
+    "confused_with": {
+      "site_delete": 3,
+      "site_not_published": 1
+    }
+  },
+  "mobile_moodboard": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 10,
+    "confused_with": {
+      "site_not_published": 2
+    }
+  },
+  "navigation_edit_visibility": {
+    "precision": 1.0,
+    "recall": 0.6,
+    "f1-score": 0.7499999999999999,
+    "support": 10,
+    "confused_with": {
+      "site_delete": 3,
+      "insert_video": 1
+    }
+  },
+  "insert_video": {
+    "precision": 0.5,
+    "recall": 0.9,
+    "f1-score": 0.6428571428571429,
+    "support": 10,
+    "confused_with": {
+      "login": 1
+    }
+  },
+  "youtube": {
+    "precision": 1.0,
+    "recall": 0.2222222222222222,
+    "f1-score": 0.3636363636363636,
+    "support": 9,
+    "confused_with": {
+      "insert_video": 6,
+      "infobox_delete": 1
+    }
+  },
+  "picture_popup": {
+    "precision": 1.0,
+    "recall": 0.7,
+    "f1-score": 0.8235294117647058,
+    "support": 10,
+    "confused_with": {
+      "site_not_published": 1,
+      "insert_video": 1
+    }
+  },
+  "open_graph": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 10,
+    "confused_with": {
+      "url_change": 1,
+      "goodbye": 1
+    }
+  },
+  "break": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "site_delete_en": {
+    "precision": 0.7272727272727273,
+    "recall": 0.8,
+    "f1-score": 0.761904761904762,
+    "support": 10,
+    "confused_with": {
+      "warning_only_in_german": 1,
+      "site_delete": 1
+    }
+  },
+  "login": {
+    "precision": 0.75,
+    "recall": 0.6,
+    "f1-score": 0.6666666666666665,
+    "support": 10,
+    "confused_with": {
+      "site_delete": 2,
+      "contact_edit": 1
+    }
+  },
+  "warning_some_content_only_available_in_german": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 10,
+    "confused_with": {
+      "warning_only_in_german": 1,
+      "site_delete_en": 1
+    }
+  },
+  "rich_text_teaser_format": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "warning_only_in_german": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 10,
+    "confused_with": {}
+  },
+  "contact_edit": {
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "f1-score": 0.9523809523809523,
+    "support": 10,
+    "confused_with": {}
+  },
+  "url_change": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 10,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.7978723404255319,
+    "recall": 0.7936507936507936,
+    "f1-score": 0.7957559681697611,
+    "support": 189
+  },
+  "macro avg": {
+    "precision": 0.8551646495918941,
+    "recall": 0.7906432748538011,
+    "f1-score": 0.7944493884741562,
+    "support": 189
+  },
+  "weighted avg": {
+    "precision": 0.8543983249865603,
+    "recall": 0.7936507936507936,
+    "f1-score": 0.7967288224680069,
+    "support": 189
+  },
+  "accuracy": 0.7936507936507936
+}

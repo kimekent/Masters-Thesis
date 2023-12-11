@@ -1,0 +1,416 @@
+version: "3.1"
+
+intents:
+  - bot_challenge
+  - backup_mail
+  - break
+  - delete_en_site
+  - delete_infobox
+  - delete_site
+  - different_site_versions_for_en_de
+  - edit_contact
+  - edit_personal_profile
+  - email_confirmed
+  - email_not_confirmed
+  - formatting_text
+  - goodbye
+  - greet
+  - insert_video
+  - login
+  - mobile_moodboard
+  - move_site
+  - open_graph
+  - open_ticket
+  - dont_open_ticket
+  - picture_popup
+  - restore_infobox
+  - site_invisible
+  - some_content_only_available_in_german
+  - virtual_navigation
+  - warning_only_in_german
+  - youtube
+
+
+entities:
+  - action:
+      roles:
+        - click
+        - delete
+        - edit
+        - link_to
+        - login
+        - move
+        - post
+        - translation
+        - upload
+  - contact_teaser
+  - contact_element
+  - date
+  - description:
+      roles:
+        - site
+  - desktop_site
+  - element:
+      roles:
+        - text
+        - picture
+        - video
+        - info-box
+        - side_navigation
+        - teaser
+  - environment:
+      roles:
+        - live
+        - stage
+  - format
+  - formatting:
+      roles:
+        - enlarge
+        - gap
+        - layout
+        - position
+  - info_box
+  - jobtitle
+  - language:
+      roles:
+        - english
+        - german
+  - login_site
+  - mobile_site
+  - moodboard:
+      roles:
+        - mobile
+        - desktop
+  - number
+  - pdf
+  - picture
+  - position
+  - profil
+  - setting:
+      roles:
+        - popup
+        - open_graph
+        - publish_options
+  - site:
+      roles:
+        - mobile
+        - desktop
+  - sitecore
+  - sitecore_notification
+  - site-version:
+      roles:
+        - english
+        - german
+  - size
+  - social_media
+  - storage
+  - ticket
+  - video
+  - vimeo
+  - visibility:
+      roles:
+        - visible
+        - invisible
+  - website
+  - youtube
+  - yt_description
+  - yt_link
+  - yt_title
+  - yt_visibility:
+      - roles:
+      - listed
+      - unlisted
+
+
+actions:
+  - action_ask_confirmation
+  - utter_greet
+  - utter_goodbye
+  - utter_rich_text_teaser_info
+  - utter_picture_popup_how_to
+  - utter_in_case_of_deleted_info_box
+  - action_email
+  - action_store_user_inputs
+  - action_question_answered
+  - utter_youtube_info
+  - action_update_last_email_time
+  - action_ask_new_message
+  - action_store_new_message
+  - backup_mail
+
+
+slots:
+
+  message:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: get_message_form
+            requested_slot: message
+
+  website:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: site
+
+  user_inputs:
+    type: list
+    mappings:
+      - type: custom
+
+  last_email_time:
+    type: float
+    mappings:
+      - type: custom
+
+
+forms:
+
+  get_message_form:
+    required_slots:
+      - message
+
+  get_url_form:
+    required_slots:
+      - website
+
+
+responses:
+  utter_ask_website:
+    - text: "Handelt es sich bei deiner Anfrage um eine bestimmte Website? Bitte gib die URL an."
+
+  utter_default:
+    - text: "Leider kann dir bei dieser Frage nicht weiterhelfen. Soll ich ein Websupport-Ticket mit
+          dieser Anfrage erstellen?"
+      buttons:
+        - title: "Ja"
+          payload: "/open_ticket"
+        - title: "Nein"
+          payload: "/dont_open_ticket"
+
+  utter_ask_message:
+    - text: "Please enter your new email message"
+
+  utter_ticket_created:
+    - text: "Ich habe deine Anfrage dem Websupport weitergeleitet."
+
+  utter_webhelp:
+    - text: "Vielleicht findest du eine Antwort zu deiner Frage in der
+          [Webhelp](https://applsupport.hslu.ch/webhelp/index.html?hm_startseite.htm)\n
+          Ansonsten kann dir das Websupport-Team weiterhelfen [websupport@hslu.ch](maito:websupport@hslu.ch)"
+
+  utter_break:
+    - text: "Werden mehrere Teaser nebeneinander platziert, werden diese automatisch angeordnet. Dies kann dazu
+          führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch,
+          kann das Layout strukturiert werden.\n
+          Hier findest du eine Anleitung, wie ein geschützter Umbruch eingefügt werden kann:
+          [https://applsupport.hslu.ch/webhelp/index.html?hm_geschuetzten_umbruch_einfuegen.htm](https://applsupport.hslu.ch/webhelp/index.html?hm_geschuetzten_umbruch_einfuegen.htm)"
+
+  utter_delete_infobox:
+    - text: "Die Infobox darf nur über die Page Options hinzugefügt oder entfernt werden.\n
+          Hier ist die Anleitung aus der Webhelp dazu: [https://applsupport.hslu.ch/webhelp/hm_infoboxtext.htm?zoom_highlightsub=infobox](https://applsupport.hslu.ch/webhelp/hm_infoboxtext.htm?zoom_highlightsub=infobox)"
+
+  utter_buttons_restore_infobox:
+    - text: ""
+      buttons:
+        - title: "Was tun wenn unabsichtlich die Infobox ganz gelöscht wurde."
+          payload: "/restore_infobox"
+          type: "postBack"
+
+  utter_delete_en_site:
+    - text: "Um eine englische Version einer Seite zu löschen, kann folgendermassen vorgegangen werden:\n
+          • Den Content Editor starten (Ribbon-Menü > Campus > Backend):\n
+          1) Im Item-Tree die entsprechende Seite wählen und im Ribbon Menü zum Tab Versions wechseln.\n
+          2) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass eine deutsche und eine
+          englische Version der Seite vorhanden sind.\n
+          3) Durch klicken auf den grossen Sprachbutton zur löschenden Sprachversion wechseln.\n
+          4) Auf den Button Remove klicken.\n
+          \nWenn es sich nur um englische Versionen handelt, müssen keine Umleitungen eingerichtet werden,
+          da automatische die deutsche als Backup erscheint, falls jemand noch eine englische URL vorliegen hätte."
+
+  utter_delete_site:
+    - text: "Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher
+          überlegt werden, ob Umleitungen eingerichtet werden müssen.\n
+          Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele
+          Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer
+          dann, wenn die alte URL weiterhin funktionieren soll).\n
+          Wichtig ist, dass diese Umleitungen eingerichtet werden, bevor die Seite umbenannt, verschoben oder gelöscht
+          wird.\n
+          Umleitungen können vom Websupport-Team erstellt werden: [websupport@hslu.ch](mailto:websupport@hslu.ch)\n
+          Bei Umleitungsanfragen, bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird
+          (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle.\n
+          Sobald die Umleitungen eingerichtet wurden können dann die Seiten umbenannt, verschoben und gelöscht werden."
+
+  utter_buttons_delete_en_site:
+    - text: ""
+      buttons:
+        - title: "Wie lösche ich eine englische Seitenversion?"
+          payload: "/delete_en_site"
+          type: "postBack"
+
+  utter_different_site_versions_for_en_de:
+    - text: "Sowohl von jeder Seite, wie auch von jedem Element auf der Seite, muss eine deutsche Version vorhanden sein.
+          Unterschiedliche Seitenstrukturen je nach Sprachversion sind nicht erlaubt und technisch nicht möglich.
+          Fügt man beispielsweise auf der englischen Seite ein Element ein, welches auf der deutschen Seite nicht
+          vorhanden ist, würde dieses Element wieder rausgelöscht werden, da die deutsche Seite die englische
+          'überschreibt'. Die Vorgabe, dass jede Seite auf deutsch vorhanden sein muss ist Entscheid der
+          Hochschulleitung."
+
+  utter_edit_contact:
+    - text: "Die Angaben in den Kontaktteasern fliessen via Evento/Sap Schnittstelle ins Sitecore. Wenn dauerhafte
+          Änderungen an den Kontaktangaben gemacht werden sollen, muss das daher von der
+          Personaldatenverantwortlichen im Evento gemacht werden.\n
+          Via Sitecore kann können die Angaben pro Kontaktteaser einmalig (also dort wo die jeweiligen
+          Kontaktteaser dann liegen) übersteuert werden. Dazu muss das Element Kontaktperson-Element (manuell)
+          verwendet werden. Bei diesem Element können alle Daten zum Kontakt manuell eingeben werden. Diese
+          Anpassungen werden aber nur für diese eine Seite gelten.\n
+          Mehr Informationen, siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)"
+
+  utter_edit_personal_profile:
+    - text: "Die Daten (inkl. Foto), die auf Personenseiten angezeigt werden, werden aus dem jeweiligen Personenprofil
+          gezogen. Personendaten deshalb immer auf personenprofile.hslu.ch bearbeiten (kann nur die Person selbst)."
+
+  utter_insert_video:
+    - text: "Um ein Video auf der Website einzubinden, muss das Video zuerst auf YouTube oder Vimeo hochgeladen werden.
+          Dazu kannst du dich gerne ans Social Media Team wenden: [socialmedia@hslu.ch](mailto:socialmedia@hslu.ch)\n
+          Eine Anleitung wie die Videos dann in Sitecore eingefügt werden können, findest du hier:\n
+          [Anleitung YouTube Video einbinden](https://applsupport.hslu.ch/webhelp/index.html?hm_manueller_teaser_video_einbind.htm)\n
+          \n[Anleitung Vimeo Video einbinden](https://applsupport.hslu.ch/webhelp/index.html?hm_manueller_teaser_vimeo_video_e.htm)"
+
+  utter_login:
+    - text: "Um sich bei Sitecore einzuloggen, kann das normale HSLU-Login verwendet werden. Beim Benutzernamen muss
+          noch campus\ vor den Benutzernamen geschrieben werden\n
+          Login-Seite Live: [https://stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)\n
+          Login-Seite Schulungsumgebung: [https://int-stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)"
+
+  utter_mobile_moodboard:
+    - text: "Für mobile Endgeräte und Desktops sind unterschiedliche Moodboards vorgesehen. Diese sind nicht automatisch
+          identisch und müssen für mobile Geräte und Desktops separat zugewiesen oder entfernt werden. Wenn das
+          Moodboard auf der mobilen Version falsch oder gar nicht angezeigt wird, liegt dies oft daran, dass kein
+          spezielles mobiles Moodboard erstellt oder nicht vollständig konfiguriert wurde.\n
+          1. In der Media Library muss jeweils ein separates Bild für die Desktop- und die Mobile-Moodboard-Version hochgeladen werden.\n
+          2. Beim Zuweisen des Bildes zum Moodboard muss für die mobile Ansicht das entsprechende mobile Bild ausgewählt werden.\n
+          3. Bei den 'Page Options' muss der Seite sowohl ein Desktop- als auch ein mobiles Moodboard zugewiesen werden.\n
+          Hier die Anleitungslinks dazu:\n
+          [https://applsupport.hslu.ch/webhelp/hm_neues_bild_direkt_hochladen.htm](https://applsupport.hslu.ch/webhelp/hm_neues_bild_direkt_hochladen.htm)\n
+          [https://applsupport.hslu.ch/webhelp/index.html?hm_eigene_und___oder_shared_slide.htm](https://applsupport.hslu.ch/webhelp/index.html?hm_eigene_und___oder_shared_slide.htm)\n
+          Achtung: Bevor das Moodboard in der mobilen Version hinzugefügt wird, muss ein separates mobiles Bild
+          hochgeladen werden. Andernfalls wird ein grauer Platzhalter angezeigt. Falls kein mobiles Moodboard in der
+          mobilen Version erscheint, wurde wahrscheinlich kein spezielles mobiles Moodboard erstellt."
+
+  utter_move_site:
+    - text: "Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher
+          überlegt werden, ob Umleitungen eingerichtet werden müssen.\n
+          Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele
+          Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer
+          dann, wenn die alte URL weiterhin funktionieren soll).\n
+          Wichtig ist, dass diese Umleitungen eingerichtet werden, bevor die Seite umbenannt, verschoben oder gelöscht
+          wird.\n
+          Umleitungen können vom Websupport-Team erstellt werden: [websupport@hslu.ch](mailto:websupport@hslu.ch)\n
+          Bei Umleitungsanfragen, bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird
+          (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle.\n
+          Sobald die Umleitungen eingerichtet wurden können dann die Seiten umbenannt, verschoben und gelöscht werden."
+
+  utter_open_graph:
+    - text: "Um das Bild festzulegen, welches auf Social Media angezeigt werden soll, muss auf der Seite ein Open Graph
+          Bild hinterlegt werden und das Häckchen bei 'Open Graph Image anzeigen' gesetzt werden. Wird kein Bild
+          hinterlegt, wird das Platzhalterbild verwendet.\n
+          Hier ist beschrieben, wie ein Open Graph Bild hinterlegt werden kann:
+          [https://applsupport.hslu.ch/webhelp/index.html?hm_special_meta_data.htm](https://applsupport.hslu.ch/webhelp/index.html?hm_special_meta_data.htm)"
+
+  utter_picture_popup_how_to:
+    - text: "Um ein Bild einzufügen, das beim Draufklicken grösser dargestellt wird, kann ein manueller Teaser oder
+          eine Bildergeschichte (mehrere Bilder) eingefügt werden. Damit der Popup funktioniert, muss in beiden Fällen
+          die Option 'Link (nur Bilder via Media Link) in Popup vergrössern' ausgewählt werden. Dabei muss das
+          vergrösserte Bild als Link hinterlegt sein.\n
+          Sollte das Bild trotz aktivierter Checkbox nicht vergrößert angezeigt werden, könnte das Problem daran liegen,
+          dass es noch nicht in der benötigten grösseren Version hochgeladen wurde. Für die korrekte Darstellung ist es
+          erforderlich, das Bild einmal in der Standardgrösse für den Teaser oder die Bildergeschichte und einmal in der
+          gewünschten Vergrösserung hochzuladen. Beim Bearbeiten des Teasers kann dann über 'Insert Media Link' das
+          grössere Bild eingefügt und die Option 'Link in Popup vergrößern' ausgewählt werden."
+
+  utter_restore_infobox:
+    - text: "Falls eine Infobox komplett gelöscht wurde, muss das Layout der Seite wieder hergestellt werden. Dazu kann
+          im Experience Editor zur betroffenen Seite navigiert werden und im Reiter unter 'Erweitert' > 'Layout' auf
+          'Zurücksetzten' geklickt werden. Wenn das Layout der Seite wiederhergestellt wird, werden alle Elemente von
+          der Seite entfernt aber nicht gelöscht. Die Elemente können im Seitenbaum ausgewählt und wieder eingefügt
+          werden."
+
+  utter_rich_text_teaser_info:
+    - text: "Der 'Rich Text Teaser' wird ab ca. drei Zeilen Text immer zweispaltig angezeigt.
+          Für einen einspaltigen Text kannst du das Element 'Formatierter Text mit Bild' verwenden
+          (funktioniert auch ohne Bild).\n
+          In diesem Webhelp-Artikel findest du zuunterst eine Auflistung der einspaltingen und zweispaltigen
+          Textelemente: [https://applsupport.hslu.ch/webhelp/index.html?hm_haeufige_fehler.htm](https://applsupport.hslu.ch/webhelp/index.html?hm_haeufige_fehler.htm)"
+
+  utter_site_invisible:
+    - text: "Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen:
+          Im Experience Editor kann auf der Seite über die den Befehl 'Campus > Publish Options'
+          im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.\n
+          - Im Feld 'Publish' definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert
+            wird. Die Veröffentlichung findet dann immer am nächsten Publizierungszeitpunkt (12:05 oder 00:05) nach dem
+            erreichen dieses Zeitpunkts statt.\n
+          - Im Feld 'Unpublish' definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen
+            wird.\n
+          - Ist die Checkbox 'Never publish' angekreuzt, wird ein Inhalt nicht publiziert.\n
+          Publish / Unpublish kann auch bei einzelnen Teasern oder auf Files in der Media Library angewandt werden."
+
+  utter_some_content_only_available_in_german:
+    - text: "Falls alle Texte auf englisch übersetzt wurden, und die Meldung 'Some Content is only available in German'
+          immer noch erscheint, liegt es daran, dass es von mindestens einem Element auf der Seite noch keine
+          Englische Version gibt. Im Backend kannst du jedes Element durchgehen und so leicht nachschauen, welche
+          Items noch keine englische Version besitzt.\n
+          - Oftmals ist es der Kontaktteaser. Es sieht auf englisch dann korrekt aus, weil Sitecore automatisch die
+            korrekte Berufsbezeichnung übernimmt, Sitecore merkt aber auch, dass nichts angepasst wurde und geht
+            dann davon aus, dass es noch deutsch ist. Es muss dann einfach eine englische Version davon
+            im Backend angelegt werden.\n
+          - Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt
+            würde man  ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische
+            Version erstellen und das in der englischen Seitenversion anhängen.\n
+          - Bitte auch die Alt-Texte der Bilder kontrollieren.\n
+            In jedem Fall muss von allen Elementen eine englische Version erstellt werden, damit diese Meldung
+            verschwindet. Dies glit auch, wenn du auf den englischen Seite den gleichen Inhalt wie auf der deutschen
+            Seite haben willst.\n
+            Mehr Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) "
+
+  utter_virtual_navigation:
+    - text: "Die Side-Navigation zeigt die Unterseiten der aktuellen Seite in der Sidebar an. Um eine benutzerdefinierte
+          Navigation zu erstellen, die Seiten enthält, die nicht Unterseiten sind, kann eine virtuelle Navigation
+          eingefügt werden. Auch in der Virtuellen Navigation können nur Sitecore Links verlinkt werden.\n
+          Anleitung virtuelle Navigation einfügen: [https://applsupport.hslu.ch/webhelp/hm_virtueller_navigationseintrag.htm](https://applsupport.hslu.ch/webhelp/hm_virtueller_navigationseintrag.htm)"
+
+  utter_warning_only_in_german:
+    - text: "Der Hinweis 'Only in German' zeigt an, dass ein Dokument ausschliesslich in deutscher Sprache verfügbar ist.
+          Um diesen Hinweis zu entfernen, muss eine englische Version des Dokuments in der Media Library angelegt werden.
+          In der Media Library besteht die Möglichkeit, neben der deutschen auch eine englische Version für ein Bild-
+          oder Dokument-Item zu erstellen. Dafür musst du in der Media Library beim entsprechenden Item, in dem sich
+          bereits die deutsche Version befindet, die Sprache oben rechts wechseln und das englische Dokument dort
+          hinzufügen. Dies ermöglicht beispielsweise das Hochladen eines englischen Dokuments bei einem PDF-Item.
+          Wenn ein File-Item, welches in zwei Sprachversionen vorhanden ist – etwa in einer Link- und Download-Liste –
+          verlinkt wird, wählt Sitecore automatisch das entsprechende Dokument (PDF) gemäss der aktuellen Sprachversion
+          der Seite aus."
+
+  utter_youtube_info:
+    - text: "Für das Hochladen, Anpassen oder Löschen von YouTube- und Vimeo-Videos ist das Social Media Team
+          verantwortlich. Du kannst dich unter folgender E-Mail-Adresse bei ihnen melden:
+          [socialmedia@hslu.ch](mailto:socialmedia@hslu.ch)\n
+          Eine Anleitung wie die Videos dann in Sitecore eingefügt werden können, findest du hier:\n
+          [Anleitung YouTube Video einbinden](https://applsupport.hslu.ch/webhelp/index.html?hm_manueller_teaser_video_einbind.htm)\n
+          [Anleitung Vimeo Video einbinden](https://applsupport.hslu.ch/webhelp/index.html?hm_manueller_teaser_vimeo_video_e.htm)"
+
+  utter_iamabot:
+    - text: "Ich bin ein Websupport-Bot, der dir helfen kann, Fragen zur Website der HLSU zu beantworten."
+
+  utter_greet:
+    - text: "Hallo! Wie kann ich dir helfen?"
+
+  utter_goodbye:
+    - text: "Tschüss:) Falls du weitere Fragen hast, bin ich für dich da."
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
