@@ -1,0 +1,151 @@
+version: "3.1"
+
+# This file contains all stories that the bot follows.
+# The stories are grouped into websupport stories that correspond to a certain websupport intent and
+# stories that correspond to more generall intents (non-websupport intents). Each group is sorted alphabetically by name.
+# For the most part these stores follow the same structure (see first story description).
+# In some cases, a suggestion of a follow-up intent is triggered (see delete infobox or site_delete)
+
+
+stories:
+- story: break
+  steps:
+  - intent: break # This story is triggered if bot detects intent 'break'.
+  - action: utter_break # Chatbot utters response of intent 'break' as defined in the domain.yml file.
+  - action: action_question_answered # Custom action, that asks if user wants to create ticket.
+
+# The path followed after choosing 'yes' is handled by the rule
+# 'create ticket if bot can't answer question' (see rules.yml).
+# Otherwise bot continues answering next question.
+
+- story: contact edit
+  steps:
+  - intent: contact_edit
+  - action: utter_contact_edit
+  - action: action_question_answered
+
+- story: delete infobox
+  steps:
+  - intent: infobox_delete
+  - action: utter_infobox_delete
+  - action: utter_buttons_restore_infobox # Explains correct infobox removal process and suggests 'restore_infobox'
+                                          # intent if removal was incorrect.
+
+- story: different site versions for en de
+  steps:
+  - intent: site_structure_german_english
+  - action: utter_site_structure_german_english
+  - action: action_question_answered
+
+- story: insert video on website
+  steps:
+  - intent: insert_video
+  - action: utter_insert_video
+  - action: action_question_answered
+
+- story: login
+  steps:
+  - intent: login
+  - action: utter_login
+  - action: action_question_answered
+
+- story: mobile moodboard
+  steps:
+  - intent: mobile_moodboard
+  - action: utter_mobile_moodboard
+  - action: action_question_answered
+
+- story: navigation edit visibility
+  steps:
+  - intent: navigation_edit_visibility
+  - action: utter_navigation_edit_visibility
+  - action: action_question_answered
+
+- story: open graph
+  steps:
+  - intent: open_graph
+  - action: utter_open_graph
+  - action: action_question_answered
+
+- story: picture error
+  steps:
+  - intent: picture_error
+  - action: utter_picture_error
+  - action: action_question_answered
+
+- story: picture popup
+  steps:
+  - intent: picture_popup
+  - action: utter_picture_popup
+  - action: action_question_answered
+
+- story: restore infobox
+  steps:
+  - intent: restore_infobox
+  - action: utter_restore_infobox
+
+- story: rich text teaser format
+  steps:
+  - intent: rich_text_teaser_format
+  - action: utter_rich_text_teaser_format
+  - action: action_question_answered
+
+- story: site delete
+  steps:
+  - intent: site_delete
+  - action: action_default_ask_affirmation
+  - action: utter_site_delete
+  - action: action_question_answered
+  - action: utter_buttons_site_delete_en # Suggests 'site_delete_en' intent due to its similarity with site deletion.
+
+- story: site delete en
+  steps:
+  - intent: site_delete_en
+  - action: action_default_ask_affirmation
+  - action: utter_site_delete_en
+  - action: action_question_answered
+
+- story: site invisible
+  steps:
+  - intent: site_not_published
+  - action: utter_site_not_published
+  - action: action_question_answered
+
+- story: url change
+  steps:
+  - intent: url_change
+  - action: utter_url_change
+  - action: utter_redirect_info
+
+- story: warning only in german
+  steps:
+  - intent: warning_only_in_german
+  - action: utter_warning_only_in_german
+  - action: action_question_answered
+
+- story: warning some contentent only available in german
+  steps:
+  - intent: warning_some_content_only_available_in_german
+  - action: utter_warning_some_content_only_available_in_german
+  - action: action_question_answered
+
+- story: youtube responsibility
+  steps:
+  - intent: youtube
+  - action: utter_youtube_info
+  - action: action_question_answered
+
+- story: bot challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- story: greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye

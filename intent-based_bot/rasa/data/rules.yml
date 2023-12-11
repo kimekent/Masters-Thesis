@@ -1,0 +1,61 @@
+version: "3.1"
+
+# Rules are used in scenarios where the bot should follow a strictly defined path,
+# such as uttering fallback, if the confidence of predicted intent falls bellow the defined threshhold.
+
+
+rules:
+# When the bot's confidence in understanding the user's intent is low, it triggers a default response to inform the user,
+# that it isn't able to answer the question.
+  - rule: Tell user that bot can't answer question when confidence falls bellow certain threshhold
+    steps:
+    - intent: nlu_fallback
+    - action: utter_default
+
+# Initiates the process of ticket creation when the bot cannot answer a user's question.
+  - rule: create ticket if bot can't answer question
+    steps:
+    - intent: open_ticket
+# The following steps guide the user to provide the URL of the affected website.
+    - action: get_url_form
+    - active_loop: get_url_form
+    - active_loop: null
+    - slot_was_set:
+      - requested_slot: null
+    - action: action_email
+
+# This rule handles the scenario where sending an email through Outlook fails.
+# It confirms with the user before sending an email.
+  - rule: send email from within bot, if opening outlook fails
+    steps:
+    - action: action_ask_confirmation
+    - intent: email_confirmed
+    - action: action_backup_mail
+    - action: utter_ticket_created
+
+# When a user decides to edit their message, this rule guides them through the process of entering a new email message.
+  - rule: user requests to enter a new email message
+    steps:
+    - intent: email_not_confirmed
+    - action: get_message_form
+    - active_loop: get_message_form
+
+# After the user confirms their intention to send a new message, this rule captures and processes the new message.
+  - rule: user send new email message
+    condition:
+    - active_loop: get_message_form
+    steps:
+    - action: get_message_form
+    - active_loop: null
+    - slot_was_set:
+      - requested_slot: null
+    - action: action_ask_confirmation
+    - intent: email_confirmed
+    - action: action_backup_mail
+    - action: utter_ticket_created
+
+# This rule is triggered when a user chooses not to create a ticket, redirecting them to webhelp articles.
+  - rule: user doesn't want to create websupport ticket
+    steps:
+    - intent: dont_open_ticket
+    - action: utter_webhelp
