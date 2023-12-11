@@ -25,13 +25,31 @@ This repository contains the components for building and running an intent-based
 - `create_chroma_db.py`: Script used to create the Chroma vector database.
 - `webhelp_and_websupport_vector_db/`: Contains the Chroma vector database for storing and querying web support Q&A and web help articles.
 - `functions.py`: Contains all functions required to run the intent-less chatbot.
-- `chatbot.py`: Script to interact with the intent-less chatbot via the terminal. Requires adding an OpenAI API key and updating the file path.
+- `chatbot.py`: Script to interact with the intent-less chatbot via the terminal. Requires adding an OpenAI API key and     updating the file path.
 - `prompts/`: Includes prompt .txt files for answer generation and question reformulation for the retriever.
 - `gpt3_logs/`: Saves the logs from interactions with the intent-less chatbot.
 - `openaiapikey.txt`: Placeholder text file. Paste the OpenAI API key here and update the path in `chatbot.py`.
 - `words_to_check_for_adjusted_similarity_score.txt`: List of words checked to rescore the retreiver similarity scores.
 
 ### testing
+- `testing_chatbot/`: This folder contains the scripts needed to run the testing chatbot, such as functions, logs, prompts
+- `testing_data/`: Includes all datasets used for training and testing the intent-less chatbot:
+  - The cleaned web support ticketing dataset.
+  - Test dataset comprising 80% of the ticketing dataset.
+  - Conversation turn dataset to evaluate the memory component of the chatbot.
+  - Test set for benchmarking the intent-based Rasa chatbot against the intent-less OpenAI chatbot.
+  - Web help article collection.
+  - Curated list of words for adjusted similarity scoring in retrieval.
+- `testing_results/`: Stores the outcomes of the chatbot tests
+- `testing-websupport-and-webhelp-db/`: Chroma vector db with the training  web support Q&A and web help articles.
+- `tests/`: Holds unit tests
+- `additional_german_stopwords.txt`: A text file listing extra German stopwords used in finding TF-IDF scores of each intent.
+- `create_index.py`: A Python script that constructs an index, likely for quick retrieval of data or efficient database querying.
+- `create_testing_dataset.py`: This script is responsible for creating the testing dataset 
+- `openaiapikey.txt`: A placeholder storing the OpenAI API key.
+- `testing_chroma_db_websupport-and-webhelp.py`: Script used to create testing Chroma vector database
+- `TF-IDF_per_intent.py`: A Python script that calculates the Term Frequency-Inverse Document Frequency (TF-IDF) for each intent, which is a statistical measure used to evaluate the importance of a word to an intent in a collection or corpus.
+  
 
 #### Additional Information
 
