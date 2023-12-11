@@ -1,7 +1,5 @@
 # Masters-Thesis
-This repository contains all the code used to create and test the intent-based rasa chatbot and the inten-less chatbot discussed in my masters thesis.
-
-This repository contains the components for building and running an intent-based chatbot using the Rasa framework. Below is a description of the directories and files included in this project.
+This repository contains the components for building, running and testing the intent-based rasa chatbot and the inten-less chatbot discussed in my masters thesis.
 
 ## Files and Content
 
@@ -50,6 +48,17 @@ This repository contains the components for building and running an intent-based
 - `testing_chroma_db_websupport-and-webhelp.py`: Script used to create testing Chroma vector database
 - `TF-IDF_per_intent.py`: A Python script that calculates the Term Frequency-Inverse Document Frequency (TF-IDF) for each intent, which is a statistical measure used to evaluate the importance of a word to an intent in a collection or corpus.
   
+### Intent-less Chatbot on Teams
+-- `bots/`: This directory is the heart of the intent-less chatbot's functionality for Teams. It includes `echo_bot.py`, which details the chatbot's operations, and houses all necessary components such as utility functions, prompt files, the vector database for queries, log files, the placeholder for the OpenAI API key, and state management files that track the chatbot's current context, query counts, and a text file with words used to adjust retrieval scores.
+- `functions/`: Holds utility and helper functions that are used throughout the chatbot's codebase to perform various tasks and operations.
+- `app.py`: The main Python executable script that initiates the chatbot application, serving as the entry point for the chatbot service.
+- `config.py`: A configuration file in Python format which contains settings and variables that dictate how the chatbot operates within the Teams environment.
+- `requirements.txt`: Lists all the Python dependencies required to run the chatbot
+
+These components collectively make up the chatbot application for Teams. Ensure you have all dependencies installed as listed in `requirements.txt` before running `app.py`.
+
+
+
 
 #### Additional Information
 
