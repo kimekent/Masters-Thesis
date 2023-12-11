@@ -1,0 +1,9 @@
+{
+    "mobile moodboard": ("moodboard", "moodboard engish", "moodboard formatting"),
+    "filterliste": ("filterlist empty", "filterlist manual edit", "english course filterlist", "event not in filterlist"),
+    ("teaser", "abstand"): ("break",),
+    "nicht übersetzt": ("some_content_is_only_available_in_english", "only in german"),
+    ("seite", "verschieben"): ("site move",),
+    "some content is only available in german": ("some_content_is_only_available_in_english",),
+    "sidebar": ("sidenavigation mobile", "side navigation not visible", "english side navigation")
+}
