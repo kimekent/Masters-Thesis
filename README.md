@@ -49,7 +49,7 @@ This repository contains the components for building, running and testing the in
 - `TF-IDF_per_intent.py`: A Python script that calculates the Term Frequency-Inverse Document Frequency (TF-IDF) for each intent, which is a statistical measure used to evaluate the importance of a word to an intent in a collection or corpus.
   
 ### Intent-less Chatbot on Teams
--- `bots/`: This directory is the heart of the intent-less chatbot's functionality for Teams. It includes `echo_bot.py`, which details the chatbot's operations, and houses all necessary components such as utility functions, prompt files, the vector database for queries, log files, the placeholder for the OpenAI API key, and state management files that track the chatbot's current context, query counts, and a text file with words used to adjust retrieval scores.
+- `bots/`: This directory is the heart of the intent-less chatbot's functionality for Teams. It includes `echo_bot.py`, which details the chatbot's operations, and houses all necessary components such as utility functions, prompt files, the vector database for queries, log files, the placeholder for the OpenAI API key, and state management files that track the chatbot's current context, query counts, and a text file with words used to adjust retrieval scores.
 - `functions/`: Holds utility and helper functions that are used throughout the chatbot's codebase to perform various tasks and operations.
 - `app.py`: The main Python executable script that initiates the chatbot application, serving as the entry point for the chatbot service.
 - `config.py`: A configuration file in Python format which contains settings and variables that dictate how the chatbot operates within the Teams environment.
