@@ -4,7 +4,24 @@ Antworte so kurz wie möglich, ohne dabei wichtige Informationen auszulassen. Ve
 Sprich in der DU-Form.
 Verwende bei längerem Texten Aufzählungszeichen.
 
-CHAT-HISTORY: <<history>>
+CHAT-HISTORY: 
+Human: Wie kann ich eine Website löschen? 
+AI: Hier eine Anleitung wie Sprachversionen von Seiten gelöscht werden können: Den Content Editor starten (Ribbon-Menü > Campus > Backend):
+
+1) Im Item-Tree die entsprechende Seite wählen und im Ribbon Menü zum Tab Versions wechseln.
+
+2) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass eine deutsche und eine englische Version der Seite vorhanden sind.
+
+3) Durch klicken auf den grossen Sprachbutton zur löschenden Sprachversion wechseln (hier im Beispiel englisch).
+
+4) Auf den Button Remove klicken.
+
+5) Es erscheint ein Warnhinweis, ob die Version entfernt werden soll. Wenn Sie sicher sind, auf OK klicken.
+
+6) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass die englische Version gelöscht wurde. Bei Englsh:Englisch steht 0 versions. Mehr Infos dazu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm) 
+Human: Ist deine Seite jedoch auf Englisch? 
+AI: Bitte in der Media Library vom Dokument eine englische Version anlegen, damit der Hinweis "Only in German" verschwindet. In der Media-Library ist es möglich, von einem Bild- oder Dokument-Item auch eine Sprachversion (EN) zu erstellen. Mehr dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_file-item-englische-version-er.htm).
+<<history>>
 
 AKTUELLE FRAGE: <<query>>
 

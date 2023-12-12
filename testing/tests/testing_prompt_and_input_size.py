@@ -4,17 +4,34 @@ chatbot responses.
 
 It encompasses several key stages:
 
-- Response Generation: Utilizing OpenAIs gpt-3.5-turbo-1106 model to generate responses to a set of websupport questions
-    The prompt and number of documents used to answer the question are varied (step 2).
+- Response Generation: Utilizing OpenAIs gpt-3.5-turbo-1106 model to generate responses to a set of
+    web support questions. The prompt and number of documents used to answer the question are varied (step 2).
 
-- Performance Evaluation: The generated responses are evaluated against human responses using Corpus BLEU, ROUGE-L,
+- Performance Evaluation: The generated responses are evaluated against human responses using BLEU-4, ROUGE-L,
     and semantic similarity. These metrics are calculated for each combination of prompt and input size (step 4).
 
 - Visualization: Results of the performance evaluation are visualized using line charts (step 5).
 
-To run the evaluation on the generated responses see steps 3-6.
+To run this script update the 'path' variable to the project directory path and add your OpenAI API key to
+'openaiapikey.txt' in the root directory of this project.
+
+To run the evaluation on the generated responses execute steps 3-6.
 """
+
+
 # 1. Setup--------------------------------------------------------------------------------------------------------------
+# Set variables and paths
+import sys
+path = r'C:\Users\Kimberly Kent\Documents\Master\HS23\Masterarbeit\Masters-Thesis' # Change
+testing_path = path + r'\testing'
+sys.path.append(testing_path)
+
+from testing_chatbot.testing_functions import open_file
+import openai
+import os
+os.environ['OPENAI_API_KEY'] = open_file(path + '\openaiapikey.txt')
+openai.api_key = os.getenv('OPENAI_API_KEY') # Add OpenAI API key to this .txt file
+
 # Standard Libraries
 import os
 import glob
@@ -23,46 +40,42 @@ import csv
 
 # Libraries for running the testing chatbot / for text generation
 import importlib
-import openai
+from testing_chatbot.testing_functions import OpenAI_retriever, replace_links_with_placeholder
 
 # Library run BLEU, ROUGE and BERTScore tests
 from evaluate import load
 from nltk.translate.bleu_score import corpus_bleu
 
-# Own functions
-from testing_functions import OpenAI_retriever, open_file, replace_links_with_placeholder
-
 # Library for visualizing results
 import matplotlib.pyplot as plt
 import ast
 
-# Set path and variables
-path = r"C:\Users\Kimberly Kent\Documents\Master\HS23\Masterarbeit\testing"
-openai.api_key = open_file(path + r"\openaiapikey.txt")
-
 # Import testing dataset
-testing_data_set = pd.read_csv(path + r"\testing_data\test_dataset.csv")
-questions = testing_data_set["Beschreibung"].tolist()
-human_responses = testing_data_set["Lösungsbeschreibung"].tolist()
+testing_data_set = pd.read_csv(testing_path + r'\testing_data\test_dataset.csv')
+questions = testing_data_set['Beschreibung'].tolist()
+human_responses = testing_data_set['Lösungsbeschreibung'].tolist()
 """Links in the original data were non-informative and replaced with placeholders during index creation.
 To ensure consistency, the same transformation is applied to these questions, as they will be used
 for index comparison."""
 questions = [replace_links_with_placeholder(i) for i in questions]
 
 # Import OpenAI testing chatbot
-"""This testing chatbot is specifically designed for evaluating the individual chatbot components.
-It takes various parameters, including the test type, retriever selection, the chosen prompt,
-and input size, to systematically assess the chatbots performance."""
+"""This testing chatbot is specifically designed for evaluating individual chatbot components.
+It accepts various parameters, including the test type (retriever, prompt_max_input, memory), the selected retriever,
+the chosen prompt, and the number of document tokens to add to the prompt, to systematically assess the chatbot's
+performance across these different variables."""
 
-script_name = "testing_OpenAI-Chatbot" # Name of testing chatbot script
-module = importlib.import_module(script_name)
+sys.path.append(testing_path + r'\testing_chatbot')
+module = importlib.import_module('testing_intent_less_chatbot')
+
 
 # 2. Generate answers with different prompts and input sizes------------------------------------------------------------
 # Create dictionary with all prompts in the prompt folder. Prompt name is the key. Prompt text is the value.
-# These are these are the prompts that will be tested against each other"""
-os.chdir(os.path.join(path, "testing_prompts", "answer_generation"))
+# These are these are the prompts that will be tested against each other
+os.chdir(os.path.join(testing_path,"testing_chatbot", "testing_prompts", "answer_generation"))
 d_prompts = {
-    "_".join(file.split("_")[1:]).split(".txt")[0]: open_file(os.path.join(path, "testing_prompts", "answer_generation", file))
+    "_".join(file.split("_")[1:]).split(".txt")[0]: open_file(os.path.join(testing_path, "testing_chatbot", "testing_prompts",
+                                                                           "answer_generation", file))
     for file in glob.glob("*.txt")}
 
 # Initialize lists to store generated answers per prompt and input size
@@ -84,7 +97,7 @@ for prompt_name, prompt_content in d_prompts.items():
             response, websupport_question_id, l_websupport_questions, l_webhelp_link, l_webhelp_articles = module.main(
                 test="prompt_max_input", query=question,
                 retriever=OpenAI_retriever(query=question,
-                                           index_path=path + r"\indexes\OpenAI_index.json"),
+                                           index_path=testing_path + r"\testing_chatbot\indexes\OpenAI_index.json"),
                 question_prompt=prompt_content, max_input=current_max_input)
             generated_responses.append(response)
 
@@ -97,18 +110,19 @@ for prompt_name, prompt_content in d_prompts.items():
         final_results_list.append(result_dict)
         current_max_input += 2000 # increase token limit for question prompt.
 
+
 # 3. Save output of generation to csv for future analysis---------------------------------------------------------------
 df = pd.DataFrame(final_results_list)
-# df.to_csv(path + r"\testing_results\prompt_and_max_input_results.csv")
+# df.to_csv(testing_path + r"\testing_results\prompt_and_max_input_results.csv") # uncomment to resave
 
-# 4. Calculate Corpus BLEU, ROUGE-L and semantic similarity-------------------------------------------------------------
 
-# Metrics used to run tests
+# 4. Calculate BLEU-4, ROUGE-L and semantic similarity-------------------------------------------------------------
+
 rouge = load("rouge")
 bertscore = load("bertscore")
 
 # Get human responses to compare to AI generated responses
-testing_data_set = pd.read_csv(path + r"\testing_data\test_dataset.csv")
+testing_data_set = pd.read_csv(testing_path + r"\testing_data\test_dataset.csv")
 human_responses = testing_data_set["Lösungsbeschreibung"].tolist()
 
 def tokenizer(reference, candidate):
@@ -122,7 +136,7 @@ rouge_scores = {}
 semantic_similarity = {}
 
 # Loop that calculates corpus BLEU, ROUGE-L and semantic similarity scores for each prompt and input size combination---
-with open(path + r"\testing_results\prompt_and_max_input_results.csv", mode='r', encoding='utf-8') as file:
+with open(testing_path + r"\testing_results\prompt_and_max_input_results.csv", mode='r', encoding='utf-8') as file:
     csv_reader = csv.reader(file)
     headers = next(csv_reader)  # Skip the header row
 
@@ -145,8 +159,6 @@ with open(path + r"\testing_results\prompt_and_max_input_results.csv", mode='r',
         semantic_similarity[prompt][max_input] = semantic_similarity_results
 
 
-
-
 # Loop that calculates corpus BLEU, ROUGE-L, and semantic similarity scores for each prompt and input size combination
 for prompt_type, scores in bleu_scores.items():
     print(f"\nBLEU Scores for {prompt_type}:")
@@ -163,7 +175,6 @@ for prompt_type, scores in semantic_similarity.items():
     for input_size, sim_score in scores.items():
         avg_f1_score = sum(sim_score['f1']) / len(sim_score['f1'])
         print(f"  Input Size: {input_size}, Average F1-Score: {avg_f1_score}")
-
 
 
 # 5. Result Visualization-----------------------------------------------------------------------------------------------
@@ -202,8 +213,8 @@ plt.xlim(6000, 14000)
 plt.ylim(0, 1)
 
 plt.xlabel('Maximum Number of Input Tokens', fontsize=16)
-plt.ylabel('Corpus BLEU Score', fontsize=16)
-plt.title('Corpus BLEU Scores by Maximum Number of Input Tokens for Different Prompts', fontsize=20)
+plt.ylabel('BLEU-4 Score', fontsize=16)
+plt.title('BLEU-4 Scores by Maximum Number of Input Tokens for Different Prompts', fontsize=20)
 plt.legend(loc='upper left', bbox_to_anchor=(1, 1), fontsize=16)
 plt.grid(True)
 plt.subplots_adjust(right=0.75)
@@ -235,7 +246,7 @@ plt.subplots_adjust(right=0.75)
 plt.show()
 
 
-# Visualizing semantic similarity scores
+# Visualizing BERTscore
 for prompt_type, scores in semantic_similarity.items():
     input_sizes = [int(size) for size in scores.keys()]
     print(input_sizes)

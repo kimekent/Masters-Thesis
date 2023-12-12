@@ -1,0 +1,316 @@
+PROMPT:
+
+Deine Aufgabe ist es, auf die folgende AKTUELLE FRAGE zu antworten. Gib mögliche Ratschläge zum beheben des Problems. Sei so konkret wie möglich.
+Verwende zur Beantwortung der FRAGE ausschliesslich die folgenden WEBHELP-ARTIKEL und die ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN. Vermeide das Hinzufügen von Informationen oder Eklärungen, die nicht in einem WEBHELP-ARTIKEL oder in den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN stehen.
+Antworte so kurz wie möglich, ohne dabei wichtige Informationen auszulassen. Vermeide bei der Antwort Wiederholungen.
+Achte darauf, welche Sprachversion der Website in der Frage erwähnt wird. Verwende zur Beantwortung der Frage, die Informationen aus den WEBHELP-ARTIKEL und den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN, die zur erwähnten Sprachversion passen. Wird keine Sprachversion erwähnt, handelt es sich um die deutsche Seite, nicht um die englische Seite.
+Lies immer alle WEBHELP-ARTIKEL und ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN durch. Die obersten ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN enthalten oftmals nicht die richtige Antwort.
+Sprich in der DU-Form.
+Verwende bei längerem Texten Aufzählungszeichen.
+Verlinke hilfreiche Webhelp-Artikel in der Antwort.
+
+CHAT-HISTORY: <<history>>
+
+AKTUELLE FRAGE: Nach dem Einfügen eines neuen Teasers auf der Kursseite sind die Abstände zu den anderen Elementen zu groß. Wie passe ich das an?
+
+ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN:
+Q: Ich arbeite an der Seite für unseren neuen Kurs und möchte die Teaser enger zusammenrücken. Wie kann ich Zwischenräume reduzieren?
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Beim Bearbeiten der Hauptseite der Fakultät sind die Textblöcke zu weit auseinander. Wie reduziere ich die Abstände?
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Bei der Gestaltung unserer Startseite gibt es eine weisser Abstand zwischen den Teasern. Kann ich die Abstände verringern?
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Ich versuche, auf unserer Eventseite die Teaser näher zusammenzubringen. Gibt es eine Möglichkeit, unnötige Zwischenräume zu entfernen?
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Auf der Studiengangseite habe ich zwei manuelle Teaser eingefügt. Einer wird ganz links und der andere ganz rechts angezeigt. Wie kann ich sie unter einander anzeichen lassen?
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Wir haben mehrere Bildelemente auf unserer Website eingefügt. Nun gibt es zwischen den Bildern grosse Zwischenräumeund ich weiss nicht wie ich diese entfernen kann.
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Auf der Projektseite sind die Bilder zu weit auseinander. Wie kann ich die Lücken schliessen?
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Auf unserer Teamseite möchte ich die Teaser dichter zusammenbringen. Wie eliminiere ich die Leerräume?
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Ich habe auf der Produktseite mehrere Infoboxen eingefügt, aber es gibt zu grosse Leerflächen zwischen ihnen. Wie lösche ich diese Zwischenräume?
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Wie kann ich den Teaser an einer bestimmten Stelle einfügen ohne dass sich dieser willkürlich verschiebt?
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Ich habe einen Teaser ueberarbeitet und dann an eine andere Position verschoben. Nun hat es mir alles durcheinander gebracht und die Darstellung stimmt nicht mehr (Preview). Könnt ihr mir helfen, damit das wieder sortiert ist?
+<<link>>
+Unter der Rubrik «aktuell» sollen zuerst das «Bauforum» und daneben auf derselben Zeile der «Technologieradar» sein
+ 
+A: Bitte auch die Alt-Texte der Bilder kontrollieren.  
+Q: Ich habe einen weiteren Textblock auf der Seite eingefügt. Das hat dazu geführt, dass sich die anderen Elemente auf der Seite alle verschoben haben und jetzt weisse Abschände zischen den Elementen gibt. Wie entferne ich diese?
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Ich bin gerade im Sitecore und bearbeite eine Webseite. Beim "Rich Text Teaser" erreiche ich im Bearbeitungsmodus das es 100%-ige Breite hat. Leider bei der Vorschau ergeben sich zwei Kolonnen. Wie kann ich das beheben bzw. umgehen?
+ 
+A: Falls ein Rich Text Teaser / Manueller Teaser verwendet wurde, ist darauf zu achten, dieser bei einer 100% Einstellung ab ca. drei Zeilen Text immer zweispaltig angezeigt wird. Fuer einspaltigen Fliesstext kann das Element "Formatierter Text mit Bild" verwendet werden. Dieser funktioniert auch ohne Bild. In diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm) findest du ganz zuunterst noch eine Auflistung welche Text-Elemente dopptelspaltig und welche einspaltig dargestellt werden.
+Q: Ich habe auf unserer Webseite eine neue Seite erstellt. Nun habe ich gesehen, dass der Text in zwei Spalten dargestellt wird, obwohl ich den Manual Teaser auf 100% eingestellt habe:
+ <<link>>
+ 
+ Habe ich etwas falsch gemacht oder wird ein solches Layout automatisch uebernommen? Muss ich etwas korrigieren?
+ Vielen 
+A: Falls ein Rich Text Teaser / Manueller Teaser verwendet wurde, ist darauf zu achten, dieser bei einer 100% Einstellung ab ca. drei Zeilen Text immer zweispaltig angezeigt wird. Fuer einspaltigen Fliesstext kann das Element "Formatierter Text mit Bild" verwendet werden. Dieser funktioniert auch ohne Bild. In diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm) findest du ganz zuunterst noch eine Auflistung welche Text-Elemente dopptelspaltig und welche einspaltig dargestellt werden.
+Q: Zwischen den Bildern auf meiner Website gibt es zu grosse Abstände.
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Der Rich Text Teaser wird auf dieser Seite in der Desktop Ansicht in zwei Spalten angezeigt. <<link>> 
+Ich möchte gern, dass der Text auf die gesamte Breite anzeigt wird. Wie kann ich das anpassen?
+
+A: Falls ein Rich Text Teaser / Manueller Teaser verwendet wurde, ist darauf zu achten, dieser bei einer 100% Einstellung ab ca. drei Zeilen Text immer zweispaltig angezeigt wird. Fuer einspaltigen Fliesstext kann das Element "Formatierter Text mit Bild" verwendet werden. Dieser funktioniert auch ohne Bild. In diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm) findest du ganz zuunterst noch eine Auflistung welche Text-Elemente dopptelspaltig und welche einspaltig dargestellt werden.
+Q: Wie kann ich einen Kontaktteaser bearbeiten?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich habe bei dieser Seite die Teaser neu erfasst: www.hslu.ch/de-ch/soziale-arbeit/weiterbildung/ (von der Übersichtsseite zur Inhaltsseite). Ich habe sie so angeordnet, dass immer die mit einer Zeile im Titel zusammenstehen und die mit zwei, weil es ja sonst die Teaser verschiebt. Der unterste Teaser «Sozialmanagement und Sozialpolitik» zeigt es mir in Sitecore auf der linken Seite an, ebenso in der Vorschau. Live ist er allerdings auf der rechten Seite. Wieso?
+ 
+ 
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Ich habe eine Event-Seite erstellt:
+ <<link>>
+ In der Mitte befindet sich der Rich_Text_Teaser, leider im Web erscheint er in 2 Spalten geteilt, anstatt des fliessenden Textes, auch trotz dem, dass die Teaser Breite 100 % gewählt ist. 
+ Ich habe 2 leeren Zwischenteaser ueber und unter dem eingefuegt, das hat leider nichts verändert.
+ Könnten Sie mir sagen, wo das Problem liegt.
+A: Falls ein Rich Text Teaser / Manueller Teaser verwendet wurde, ist darauf zu achten, dieser bei einer 100% Einstellung ab ca. drei Zeilen Text immer zweispaltig angezeigt wird. Fuer einspaltigen Fliesstext kann das Element "Formatierter Text mit Bild" verwendet werden. Dieser funktioniert auch ohne Bild. In diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm) findest du ganz zuunterst noch eine Auflistung welche Text-Elemente dopptelspaltig und welche einspaltig dargestellt werden.
+Q: Ich bin gerade am Bearbeiten einer neuen Seite bezueglich unseres neuen Curricula. Der Text erscheint in zwei Spalten, obwohl ich 100% Breite ausgewählt habe. Wie kriege ich das hin, dass der Text ueber die ganze Breite erscheint?
+
+A: Falls ein Rich Text Teaser / Manueller Teaser verwendet wurde, ist darauf zu achten, dieser bei einer 100% Einstellung ab ca. drei Zeilen Text immer zweispaltig angezeigt wird. Fuer einspaltigen Fliesstext kann das Element "Formatierter Text mit Bild" verwendet werden. Dieser funktioniert auch ohne Bild. In diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm) findest du ganz zuunterst noch eine Auflistung welche Text-Elemente dopptelspaltig und welche einspaltig dargestellt werden.
+Q: Ich sollte die roten Manuellen Teaser  der Seite <<link>>
+auf die Seite <<link>>
+verschieben.
+Wie mache ich das ? Wie man innerhalb der Seite verschiebt, weiss ich, aber zwischen 2 Seiten? 
+A: Die einzige Möglichkeit besteht darin, die Teaser in den Shared Ordner zu verschieben. Elemente welche sich in einem shared Ordner befinden können auf jeder Seite ausgewählt und eingefügt werden.
+1.) Die Teaser ueber «Verschieben nach» in den Shared Ordner verschieben (Schauen, dass man beim Shared Orner den richtigen Unterordner wählt). 
+2.) Die Teaser, die im Shared Ordner sind kann man dann auf der Seite einfuegen. 
+ 
+ 
+Q: Eigentlich weiss ich jetzt wie man einen Teaser umplatzieren kann aber irgendwie schaffe ich das nicht: 
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Wie kann ich eine E-Mail-Adresse in einem Kontaktteaser anpassen?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich bin gerade an einer neuen CAS Webseite und möchte diese mit Icons etwas auffrischen.
+Das Icon ist ein TeaserBild-Element und der Text ein Text-Element.
+ 
+Nun switcht es in der Vorschau aber immer auf zwei Spalten obwohl ich beim Text auf Breite 100% gestellt habe. 
+ 
+ Wie kann ich dies ändern? Habt ihr mir einen Tipp?
+
+ 
+A: Falls ein Rich Text Teaser / Manueller Teaser verwendet wurde, ist darauf zu achten, dieser bei einer 100% Einstellung ab ca. drei Zeilen Text immer zweispaltig angezeigt wird. Fuer einspaltigen Fliesstext kann das Element "Formatierter Text mit Bild" verwendet werden. Dieser funktioniert auch ohne Bild. In diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm) findest du ganz zuunterst noch eine Auflistung welche Text-Elemente dopptelspaltig und welche einspaltig dargestellt werden.
+Q: 
+ Ich bin am Seitenaufbau fuer unseren Master. Habe hierfuer drei Teaser erstellt  blöd nun nur, dass der dritte Teaser rechtsbuendig und nicht linksbuendig angezeigt wird.
+ Ich konnte leider nicht herausfinden, wie ich den MSCIFM-Teaser auf die linke Seite bugsieren kann.
+ Könnt ihr mir bitte helfen?
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Ich bin mal wieder auf ein Problem gestossen:
+<<link>>
+ 
+Auf dieser Seite ist zwischen Introtext und Teasers bei der mobilen Version Englisch «Branchentag 2018» sichtbar (was da nicht hingehört), auf der Desktop-Version wie auch dort, wo ich bearbeiten kann, ist dies nicht sichtbar, sodass ich es auch nicht rauslöschen kann > siehe Screenshots.
+
+A: Wenn ein grauer Balken an der Stelle der Infobox erscheint, kann dies daran liegen, dass die Farbe der Infobox angepasst wurde oder der ganze Infobox Platzhalter wurde entfernt.   
+Wichtig: Die Infobox darf nur über die Page Options hinzugefügt oder entfernt werden. Hier stehts noch beschrieben: https://applsupport.hslu.ch/webhelp/hm_infoboxtext.htm?zoom_highlightsub=infobox
+Falls der Infobox-Platzhalter gelöscht wurde, bitte beim [websupport](mailto:websuport@hslu.ch) melden. 
+
+Q: Auf der IKM-Update-Seite wollte ich einen Text einsetzen, der keine eigeneÜberschrift hat, aber ueber die volle breite geht.
+ Nun habe ich den Rich Text Teaser dafuer genutzt, welcher jedoch nur 50% breite annimmt.
+ <<link>>
+Welches Element könnte ich noch dafuer verwenden?
+ 
+ 
+A: Falls ein Rich Text Teaser / Manueller Teaser verwendet wurde, ist darauf zu achten, dieser bei einer 100% Einstellung ab ca. drei Zeilen Text immer zweispaltig angezeigt wird. Fuer einspaltigen Fliesstext kann das Element "Formatierter Text mit Bild" verwendet werden. Dieser funktioniert auch ohne Bild. In diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm) findest du ganz zuunterst noch eine Auflistung welche Text-Elemente dopptelspaltig und welche einspaltig dargestellt werden.
+Q: Ich habe folgende Fragen:
+ - Auf einigen Seiten zb <<link>> zeigt es mir den Teaser im Bearbeitungsmodus einspaltig an und in der Vorschau zweispaltig. An was kann das liegen?
+ 
+A: Falls ein Rich Text Teaser / Manueller Teaser verwendet wurde, ist darauf zu achten, dieser bei einer 100% Einstellung ab ca. drei Zeilen Text immer zweispaltig angezeigt wird. Fuer einspaltigen Fliesstext kann das Element "Formatierter Text mit Bild" verwendet werden. Dieser funktioniert auch ohne Bild. In diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm) findest du ganz zuunterst noch eine Auflistung welche Text-Elemente dopptelspaltig und welche einspaltig dargestellt werden.
+Q: 
+ Ich bin ein bisschen am «knobeln» wegen der Reihenfolge der manuellen Teaser. 
+ Link: <<link>>
+ Hier zeigt es mir die Logos in der korrekten Ansicht an:
+ 
+ In der Vorschau sieht es jedoch so aus:
+ Es verschiebt das Logo «HH Herbert von Halem Verlag» nach rechts. Ich möchte es links positioniert haben. Wie kann ich das umgehen?
+ Danke fuer einen Hinweis und 
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Bei mir auf der Seite hat es zwischen den Texelementen unschöne Zwischenräume. Ich kann diese nicht entfernen.
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Ich habe gerade gesehen, dass der Nachname einer Person im Kontaktteaser nicht stimmt. Wie kann ich das überall anpassen?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: 
+ Gibt es die Möglichkeit, einen Teaser/ Bild zu setzen, der, wenn man drauf klickt grösser erscheint?
+ Merci fuer Euer Feedback
+ 
+A: Um ein Bild einzufügen, das beim Draufklicken grösser dargestellt wird, kann ein manueller Teaser oder eine Bildergeschichte (mehrere Bilder ) eingefügt werden. Beim Bearbeiten muss die Checkbox "Link (nur Bilder via Media Link) in Popup vergrössern" ausgewählt werden. Das vergrösserte Bild muss als Link ausgewählt werden.
+Falls der Haken bei "Link (nur Bilder via Media Link) in Popup vergrössern" gesetzt wurde aber das Bild beim Draufklicken nicht grösser dargestellt wird, liegt es wohl daran, dass das Bild noch nicht in der grossen Version hochgeladen wurde. Damit dar Popup funktioniert, muss das Bild 1x in der vorgegebenen Grösse für den Teaseroder die Bildergeschichte hochladen werden und 1x in der Grösse, wie es vergrössert dargestellt werden soll. Wenn der Teaser dann bearbeitet wird, kann im Bereich  "Link" durch die Funktion  "Insert Media Link" das grössere Bild und die Checkbox "Link in Popup vergrössern" ausgewählt werden. Dadurch wird das grössere Bild beim Klick auf das Teaserbild angezeigt.
+Q: Ich möchte gerne eine Grafik (z.B. die im Anhang) auf eine Website einfuegen. Wenn ich die Komponente «Formatierter Text mit Bild» oder «Teaser» nehme, muss ich die Grafik in eine gewisse Grösse «quetschen». Ich möchte sie jedoch grösser. Welche Komponenten muss ich nehmen, damit ich die Grösse selbst bestimmen kann? 
+ 
+A: Die Bildergrössen sind je nach Item fix und müssen auch dementsprechend zugeschnitten werden. Grössere Bilder können nicht einfach so eingefuegt werden.
+ Das Item Bildergeschichte erlaubt es dir aber ein relativ grosses Bild einzufuegen. https://applsupport.hslu.ch/webhelp/hm_bildergeschichte.htm
+Ausserdem ist es bei den Teasern möglich, durch das Popup Framework, Bilder einzufügen, die beim Draufklicken grösser dargestellt werden. 
+Zudem kann beim "mauellen Teaser" die Breite von 50% auf 100% umgestellt werde (ganz unten bei den Einstellungen).
+
+Q: Wie kann ich eine Infobox auf unserer Kursseite entfernen, wenn sie nicht mehr benötigt wird?
+A: Die Infobox muss wieder ueber die Page Options von der Seite gelöst werden (so wie sie hinzugefuegt wurde).
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon Sitecore_btn_window_refresh neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+Hier die Anleitung mit Bilder: [https://applsupport.hslu.ch/webhelp/index.html?hm_infobox_löschen.htm](https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm?zoom_highlightsub=infobox).
+Q: Wie entferne ich Lücken zwischen den Teasern?
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Die E-Mail-Adresse unseres Geschäftsführers hat sich geändert. Wie kann ich diese Änderung in seinem Kontaktteaser vornehmen?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wie kann ich die Infobox auf der Hauptseite löschen?
+A: Die Infobox muss wieder ueber die Page Options von der Seite gelöst werden (so wie sie hinzugefuegt wurde).
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon Sitecore_btn_window_refresh neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+Hier die Anleitung mit Bilder: [https://applsupport.hslu.ch/webhelp/index.html?hm_infobox_löschen.htm](https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm?zoom_highlightsub=infobox).
+Q: Eine kurze Frage: Damit der Hinweis verschwindet. Finde ich irgendwo eine Auflistung welche Elemente fehlen? Und müssen auch alle Bilder doppelt hochgeladen werden, damit die Nachricht nicht angezeigt wird?
+A: Falls alle Texte auf englisch übersetzt wurden, und die Meldung 'Some Content is only available in German' immer noch erscheint, liegt es daran, dass es von mindestens einem Element auf der Seite noch keine Englische Version gibt. Damit die Meldung verschwindet muss von jedem Element, auch Bilder und PDFs, eine englische Version erstellt werden. Im Backend kannst du jedes Element durchgehen und so leicht nachschauen, welche Items noch keine englische Version besitzt.
+Oftmals ist es der Kontaktteaser. Es sieht auf englisch dann korrekt aus, weil Sitecore automatisch die korrekte Berufsbezeichnung übernimmt, Sitecore merkt aber auch, dass nichts angepasst wurde und geht dann davon aus, dass es noch deutsch ist. Es muss dann einfach eine englische Version davon im Backend angelegt werden. 
+Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Bitte auch die Alt-Texte der Bilder kontrollieren.  
+[Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: Auf dieser Seite ist die Darstellung der Beiträge (siehe ganz unten) verschoben. Ich habe keine Ahnung wie ich das Rueckgängig machen kann. Könntet ihr dies bitte mal ueberpruefen?
+ <<link>>
+A: [Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: 
+ Ganz unten auf dieser Seite wird der letzte Teaser (Master Kunst) nach rechts gerueckt:
+ <<link>>
+ Was müssen wir tun, damit der Teaser links dargestellt wird?
+
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Wie kann ich den akademischen Titel einer Person in ihrem Kontaktteaser bearbeiten?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: 
+ Mir ist aufgefallen, dass manuelle Teaser teilweise zweispaltig dargestellt werden, obwohl sie im Backend auf 100% Breite eingestellt sind. Könnt ihr mir sagen, aus welchen Gruenden das geschehen kann?
+ <<link>>
+ Im Sitecore scheint diese Archivliste aus Elementen "Manuelle Teaser" zu bestehen, trotzdem werden live einige 1-spaltig und andere 2-spaltig angezeigt..
+ Vielen Dank fuer eure Hilfe.
+ 
+A: Falls ein Rich Text Teaser / Manueller Teaser verwendet wurde, ist darauf zu achten, dieser bei einer 100% Einstellung ab ca. drei Zeilen Text immer zweispaltig angezeigt wird. Fuer einspaltigen Fliesstext kann das Element "Formatierter Text mit Bild" verwendet werden. Dieser funktioniert auch ohne Bild. In diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm) findest du ganz zuunterst noch eine Auflistung welche Text-Elemente dopptelspaltig und welche einspaltig dargestellt werden.
+Q: Die Jobbezeichnung stimmt bei einer Person im Kontaktteaser nicht. Wie kann ich dies ändern?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich habe eine Frage zum manuellen Teaser: fuer die online Info-Veranstaltung an der I, schalte ich einen Teaser mit der Grafik vom Programmablauf auf. Wenn ich jedoch die englische Grafik einsetze, zeigt es mir bei der deutschen Version die Grafik nicht mehr an. Könnt ihr mir hier weiterhelfen?
+ 
+A: Sprachversionen gibt es nicht nur für Seiten sondern auch für Elemente und Datein. 
+- Wenn ein Element auf der englischen Seite einen anderen Text enthalten soll, muss zuerst eine englische Version dieses Elements erstellt werden.
+- Damit auf der englischen Seite das englische Bild dargestellt wird, muss in der Media Library eine englische Version der Grafik hinterlegt werden. Dann wird auf der Seite die Grafik der Sprache nach gewechselt.
+ Mehr dazu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_sprachversion.htm)
+Q: Auf der Faktenseite vom BA Camera Arts sind zwei Teaser aufgeschaltet (siehe print screen).
+Der in gelb markierte hat einen alten Link und ist eigentlich nicht publiziert, wir müssen ihn nächste Woche anpassen und neu aufschalten für die Infotage.
+Darum haben wir für die Zwischenzeit einen zusätzlichen Teaser (Hinweis mit Anmeldungen offen ab 1. Dezember) aufgeschaltet, welcher dann ersetzt wird.
+Bei der Vorschau im Sitecore wird der obere Teaser nicht angezeigt, was eigentlich korrekt wäre.
+
+A: Will ein Redaktor einen Inhalt vor der Veröffentlichung mehrmals editieren oder bis zu einem gewissen Zeitpunkt zurückhalten, können die Publish Options genutzt werden. Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+- Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird.
+- Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+- Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Mehr dazu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm)
+Q: Auf der Unterseite der Studierendenberatung sollte der gelb markierte Text wie in der Vorschau ueber die ganze Breite (100%) erscheinen. Gemäss Vorschau (screenshot 2) will das einfach nicht klappen, auch in der live-Version ist dieser in zwei Spalten.
+
+A: Falls ein Rich Text Teaser / Manueller Teaser verwendet wurde, ist darauf zu achten, dieser bei einer 100% Einstellung ab ca. drei Zeilen Text immer zweispaltig angezeigt wird. Fuer einspaltigen Fliesstext kann das Element "Formatierter Text mit Bild" verwendet werden. Dieser funktioniert auch ohne Bild. In diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm) findest du ganz zuunterst noch eine Auflistung welche Text-Elemente dopptelspaltig und welche einspaltig dargestellt werden.
+Q: Kann ich die Infobox auf der Startseite deaktivieren oder ist sie ein festes Element der Seite?
+A: Die Infobox muss wieder ueber die Page Options von der Seite gelöst werden (so wie sie hinzugefuegt wurde).
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon Sitecore_btn_window_refresh neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+Hier die Anleitung mit Bilder: [https://applsupport.hslu.ch/webhelp/index.html?hm_infobox_löschen.htm](https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm?zoom_highlightsub=infobox).
+Q: Unser Teammitglied hat eine neue Telefonnummer. Wie kann ich diese in seinem Kontaktteaser ändern?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+
+WEBHELP-ARTIKEL 
+ Key: Manueller Teaser bearbeiten
+Navigation: Seitenelemente > Content Container > Teaser > Teaser bearbeiten
+
+Diese Anleitun beschreibt, wie man nach dem einfügen eines Teasers diesen bearbeiten kann. Wie ein Teaser eingefügt werden kann ist hier beschrieben: https://applsupport.hslu.ch/webhelp/index.html?hm_teaser_in_template_a.htm
+
+1) In den Manuellen Teaser klicken und das Edit-Icon "Edit manual teaser" anklicken.
+ 
+Hinweis: Das Teaser Bild/Video, der Titel und Text kann auch direkt im Page Editor bearbeitet werden.
+ 
+2) Im neuen Fenster können folgende Einstellungen bearbeitet werden:
+ 
+•Titel
+•Text
+•Bild > Browse
+•Animiertes Bild (GIF)
+•Video  ID (Copy & Paste)
+•Video Typ
+•Link > Insert Link
+•Link (nur Bilder via Media Link) in Popup vergrössern (Lightbox)
+Hinweis: Der eingeblendete Bild-Text unterhalb der Lightbox stammt vom Alt-Text des Bildes.
+•Breite in %
+•Publish / Unpublish
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_teaser_bearbeiten.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_teaser_bearbeiten.htm  Key: Teaser einfügen
+Navigation:  Seitenelemente > Content Container > Teaser > Teaser erstellen
+
+In dieser Anleitung ist beschrieben, wie ein Teaser im Template A eingefügt werden kann.
+
+Hinweis: Im Kapitel Template ... ist erklärt, wie ein Template Container der Seite hinzugefügt werden kann.
+Je nach Template Typ (A, B, C, ...) sehen die Teaser anders aus und haben teils auch unterschiedliche Fähigkeiten.
+ 
+1) Auf den Einfüge-Button + Add to here klicken.
+ 
+Hinweis: Unter dem Kapitel "Template auf einer Seite platzieren" wird erklärt, wie die Einfüge-Buttons eingeblendet werden können.
+ 
+2) Im neuen Fenster einen der Teaser-Typen auswählen und auf Select klicken:
+ 
+•Manueller Teaser
+•Rich Text Teaser
+•Image Teaser
+
+3) Entweder wird über Create New Content ein neuer Teaser erstellt oder über Select Existing Content ein bestehender Teaser ausgewählt.
+ 
+Hinweis: Das Item kann Lokal oder Shared gespeichert (Create) oder ausgewählt (Select) werden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_teaser_in_template_a.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_teaser_in_template_a.htm
+
+Falls wirklich gar keine Information zum Beantworten der Frage in den WEBHELP-ARTIKELN oder den ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN vorhanden sind, dann antworte mit: "Leider kann ich deine Frage nicht beantworten".
+
+PRÄZISE ANTWORT:
+
+====== 
+
+RESPONSE:
+
+Um die Abstände zwischen den Teasern anzupassen, können Sie einen geschützten Umbruch einfügen. Dadurch können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden. Eine Anleitung dazu finden Sie [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm).
+
+Wenn Sie den geschützten Umbruch eingefügt haben und die Abstände noch nicht Ihren Wünschen entsprechen, könnten Sie auch die Breite der Teaser anpassen. Hier finden Sie eine Anleitung, wie Sie die Breite der Teaser ändern können: [Teaser Breite ändern](https://applsupport.hslu.ch/webhelp/hm_teaser_breite_aendern.htm).

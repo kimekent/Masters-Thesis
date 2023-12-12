@@ -1,0 +1,356 @@
+PROMPT:
+
+Deine Aufgabe ist es, auf die folgende AKTUELLE FRAGE zu antworten. Gib mögliche Ratschläge zum beheben des Problems. Sei so konkret wie möglich.
+Verwende zur Beantwortung der FRAGE ausschliesslich die folgenden WEBHELP-ARTIKEL und die ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN. Vermeide das Hinzufügen von Informationen oder Eklärungen, die nicht in einem WEBHELP-ARTIKEL oder in den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN stehen.
+Antworte so kurz wie möglich, ohne dabei wichtige Informationen auszulassen. Vermeide bei der Antwort Wiederholungen.
+Achte darauf, welche Sprachversion der Website in der Frage erwähnt wird. Verwende zur Beantwortung der Frage, die Informationen aus den WEBHELP-ARTIKEL und den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN, die zur erwähnten Sprachversion passen. Wird keine Sprachversion erwähnt, handelt es sich um die deutsche Seite, nicht um die englische Seite.
+Lies immer alle WEBHELP-ARTIKEL und ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN durch. Die obersten ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN enthalten oftmals nicht die richtige Antwort.
+Sprich in der DU-Form.
+Verwende bei längerem Texten Aufzählungszeichen.
+Verlinke hilfreiche Webhelp-Artikel in der Antwort.
+
+CHAT-HISTORY: <<history>>
+
+AKTUELLE FRAGE:  Ich möchte die englische Seite https://www.hslu.ch/en/lucerne-school-of-music/ueber-uns/news/wir-gratulieren/ löschen. Da wir die wir gratulieren-Meldungen nicht auf Englisch übersetzen, macht es keinen Sinn, diese Seite in der englischen Version zu haben. 
+ Kann ich die Version löschen oder macht ihr das? Ich möchte nichts Falsches machen
+ 
+
+ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN:
+Q: Ich habe heute fuer die uebergeordnete Smart-up Seite eine englische Version erstellt. Leider ist mir dabei ein kleiner Fehler unterlaufen und ich habe versehentlich fuer die deutsche Fassung der Seite eine zweite Version erstellt, statt einfach die Sprache zu wechseln. DieÜbersetzungen habe ich korrekterweise auf der englischen Seite vorgenommen, aber ich weiss nun nicht, wie ich die ueberfluessige 2. Version der deutschen Seite löschen kann. Könnt ihr mir hier bitte helfen?
+ Es handelt sich um diese Seite:
+ <<link>>
+ Merci im Voraus und sorry fuer den Mehraufwand!
+ 
+A: Um die Version zu löschen gehst du am besten im Backend auf die entsprechende Seite. Dort unter "Versionen" siehst du welche Versionen dieser Seite existieren. Mit "Entfernen" kannst du dann die ueberfluessige Zweite löschen. Wichtig ist einfach, dass du bei Sprache "German (Switzerland)" ausgewählt hast und bei Versionen die "Version 2". Wenn du die richtige ausgewählt hast sollte auch die Warnung erscheinen:" Sind Sie sicher, dass Version 2 entfernt werden soll?". Das kannst du schlussendlich noch mit ok bestätigen.
+ 
+Q: Ich wollte soebenim Sitecore-Backend die englische Version des Luzerner Kongress Gesellschaftspolitik löschen, doch kam dann eine Sicherheitsfrage, wo die aktuelle Website 2023 abgefragt wird, siehe Print Screen. Nun bin ich mir nicht sicher, ob ich das wirklich löschen kann. Könntet Ihr dies bitte kurz anschauen und mir rueckbestätigen, ob ich korrekt vorgehe:
+
+A: Hier eine Anleitung wie Sprachversionen von Seiten gelöscht werden können: Den Content Editor starten (Ribbon-Menü > Campus > Backend):
+
+1) Im Item-Tree die entsprechende Seite wählen und im Ribbon Menü zum Tab Versions wechseln.
+
+2) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass eine deutsche und eine englische Version der Seite vorhanden sind.
+
+3) Durch klicken auf den grossen Sprachbutton zur löschenden Sprachversion wechseln (hier im Beispiel englisch).
+
+4) Auf den Button Remove klicken.
+
+5) Es erscheint ein Warnhinweis, ob die Version entfernt werden soll. Wenn Sie sicher sind, auf OK klicken.
+
+6) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass die englische Version gelöscht wurde. Bei Englsh:Englisch steht 0 versions.
+Q: Kann ich englische Versionen (nicht übersetzt, da nicht vorgesehen) löschen  und wenn ja, wie?
+ 
+A: Hier eine Anleitung wie Sprachversionen von Seiten gelöscht werden können: Den Content Editor starten (Ribbon-Menü > Campus > Backend):
+
+1) Im Item-Tree die entsprechende Seite wählen und im Ribbon Menü zum Tab Versions wechseln.
+
+2) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass eine deutsche und eine englische Version der Seite vorhanden sind.
+
+3) Durch klicken auf den grossen Sprachbutton zur löschenden Sprachversion wechseln (hier im Beispiel englisch).
+
+4) Auf den Button Remove klicken.
+
+5) Es erscheint ein Warnhinweis, ob die Version entfernt werden soll. Wenn Sie sicher sind, auf OK klicken.
+
+6) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass die englische Version gelöscht wurde. Bei Englsh:Englisch steht 0 versions.
+Q: 
+ könntet ihr diese Seite (EN):
+ <<link>>
+ bitte auf diese hier (DE): 
+ <<link>>
+ umleiten? 
+ Die englische Seite wird nicht mehr benötigt, ich wuerde sie dann unpublishen sobald die Umleitung vorgenommen wurde.  
+A: Wenn es sich nur um englische Versionen handelt, müssen keine Weiterleitungen eingerichtet werden, da automatische die deutsche als Backup erscheint, falls jemand noch eine englische URL vorliegen hätte. Du kannst die Versionen einfach löschen.
+ 
+ 
+Q: 
+ Das IKM hat fuer (fast) alle Webseiten eine englische Version, ohne übersetzte Inhalte. Nun möchte ich alle diese Seiten löschen. Sollte ich dir eine Liste mit den URLs senden, damit du Umleitungen einrichten kannst?
+A: Wenn es sich nur um englische Versionen handelt, müssen keine Weiterleitungen eingerichtet werden, da automatische die deutsche als Backup erscheint, falls jemand noch eine englische URL vorliegen hätte. Du kannst die Versionen einfach löschen.
+ 
+ 
+Q: Bei uns am IKM sind die CAS Landing Pages auf Englisch übersetzt. Diese werden jedoch nicht aktiv gepflegt, weshalb die Inhalte veraltet sind. 
+Ist es von Vorteil oder ein "Muss" diese Landing Pages auf Englisch zu publizieren oder können wir sie löschen/inaktivieren?
+ 
+A: Englische Seitenversionen sollten bei mindestenst den obersten beiden Ebenen der Website vorliegen. Dazu gehört die Stufe der Departemente (und des Daches) ebenso wie die Stufe "Studium, Forschung, Dienstleistungen..."
+Q: Ich bin unteranderem fuer folgende Seite (inkl. Unterseiten) verantwortlich: <<link>>
+Leider kommt bei der Englischen Version immer oben der rote Balken «Some content is not available in English», obwohl wir ALLES auf der Seite übersetzt haben. Woran liegt das und wie können wir das ändern?
+In der Sidebar wird auch bei einigen Links «only in German» automatisch angehängt. Das ist aber falsch; beim Yearbook 2019/2020 ist alles in beiden Sprachen im PDF (aber beim Yearbook 2018/2019 steht dann wieder nichts?) und die Info Veranstaltungen sind sowieso NUR auf Englisch da der ganze Studiengang auf Englisch ist.
+ 
+A: Falls alle Texte auf englisch übersetzt wurden, und die Meldung 'Some Content is only available in German' immer noch erscheint, liegt es daran, dass es von mindestens einem Element auf der Seite noch keine Englische Version gibt. Damit die Meldung verschwindet muss von jedem Element, auch Bilder und PDFs, eine englische Version erstellt werden. Im Backend kannst du jedes Element durchgehen und so leicht nachschauen, welche Items noch keine englische Version besitzt.
+Oftmals ist es der Kontaktteaser. Es sieht auf englisch dann korrekt aus, weil Sitecore automatisch die korrekte Berufsbezeichnung übernimmt, Sitecore merkt aber auch, dass nichts angepasst wurde und geht dann davon aus, dass es noch deutsch ist. Es muss dann einfach eine englische Version davon im Backend angelegt werden. 
+Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Bitte auch die Alt-Texte der Bilder kontrollieren.  
+[Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: Wir sind an derÜberarbeitung der Seite: <<link>>
+Hier habe ich eine 2. Version erstellt, da die Live-Schaltung nicht direkt geschehen soll.
+Muss ich nun, um diese 2. Version auch eine 2. Englische Version erstellen?
+Bzw was geschieht, wenn ich diese 2. Version live schalte  wird dann automatisch die eine englische Version uebernommen?
+ 
+A: Wenn du die Version 2 live schaltest, darf die Version 1 nicht gelöscht werden. Da es die Version 1 also noch gibt, bleibt die englische Version der Version 1 bestehen. Möchtest du auch eine Version 2 der englischen Seite erstellen, musst du auf die englische Seite und dann eine neue Seitenversion erstellen (nicht auf der deutschen Seite, sonst gibt es eine Version 3).
+Q: Nachdem ich dieses Jahr von mehreren Internationalen Studierenden nach einer Übersetzung dieser Seite gefragt wurde, schicke ich euch hier meine Übersetzung mit der Hoffnung, dass ihr die Englische Seite updaten könntet. 
+<<link>>
+Ich bin muttersprachlich English, daher müsstet ihr nur allenfalls die angegebenen Ausbildungs-Bezeichnungen zum Check geben.
+
+A: [Hier](https://inside.hslu.ch/mk/Seiten/InfoWiki/Webseite.aspx)bei den Docs findest du eine Zuständigkeitsliste.
+
+Q: Ich habe von der Bibliothek die Anfrage erhalten, ob es möglich ist, die englische Seite fuer eine gewisse Zeit zu deaktivieren?
+
+ 
+A: Das ist grundsätzlich möglich aber nicht empfohlen, da sehr fehleranfällig und auch nicht gut fürs Google-Ranking (sowie es grundsätzlich nicht empfohlen ist, Seiten vorübergehend rauszunehmen). 
+ 
+Ich würde die englische Version entweder löschen und dann wiederherstellen, falls sie in den nächsten 3 Monaten wieder gebraucht wird (solange ist sie im Papierkorb) oder sie online lassen und allenfalls erwähnen, wieso sie gerade nicht aktuell ist oder so.
+
+Q: Ich wuerde die folgende Seite den Videos dann Ende Monat gerne löschen, da mittlerweile kaum Zugriffe mehr vorkommen. Die Seite diente als eine Art "Landingpage" fuer Videos, die zum Jahresende durch die Musik erstellt wurden. Der Link wurde verschickt via Weihnachtskarte. Die Videos sind weiterhin auffindbar. Kann ich die Seite einfach löschen und die Links entfernen oder wuerdet ihr eher empfehlen, die Seite einfach nicht mehr zu verknuepfen?
+<<link>>
+
+ 
+ 
+ 
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu löschen kann so vorgegangen werden:
+ 1) Auf die zu löschende Seite navigieren und im Ribbon-Menü den Befehl "Home > Delete Page" aufrufen.
+2) Den Warnhinweis lesen und gegebenenfalls auf OK klicken.
+3) Zeigen Links auf dieses Seite, erscheint ein weiteres Hinweisfenster. Es muss entschieden werden, was mit diesen Linkst geschehen soll 
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm)
+Q: Kann dieses «only in German» entfernt werden? Wir haben Anmeldeformular und Flyer in Englisch entworfen und deshalb ist diese Ergänzung falsch bzw. unnötig.
+ 
+A: Damit der Hinweis "only in German" verschwindet, musst du in der Media Library vom Dokument eine englische Version anlegen. In der Media-Library ist es möglich, von einem Bild- oder Dokument-Item auch eine Sprachversion (EN) zu erstellen. So kann kann z.B. bei einem PDF-Item in der englischen Version auch ein englisches Dokument hochgeladen werden. Wird solch ein File-Item, zum Beispiel mit einer Link und Download Liste verlinkt, stellt Sitecoreautomatisch das richtige Dokument (PDF) entsprechen der aktuellen Sprache zur Verfügung. Dazu musst du in der Media Library in demselben Item, indem sich die deutsche Version befindet, die Sprache oben Rechts wechseln und dann das englische Dokument dort anhängen. Mehr dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_file-item-englische-version-er.htm)
+Q: 
+ Die Seite http://www.hslu.ch/en/lucerne-school-of-engineering-architecture/About-us/Organization/Competence-centres-and-research-groups/Engineering-and-Technology/iHomeLab/Sensors-and-Health-Technologies/ zeigt immer noch den Hinweis, dass nicht alle Elemente übersetzt wurden.
+ Die ganze englische Seite wurde übersetzt. Auch alle bestehenden Elemente (zb Seitennavigation) sind in Englisch vorhanden. Trotzdem zeigt es immer noch den Hinweis.
+ Wie kann ich rausfinden, welches Element diesen Hinweis verursacht?
+ Merci.
+ 
+A: Falls alle Texte auf englisch übersetzt wurden, und die Meldung 'Some Content is only available in German' immer noch erscheint, liegt es daran, dass es von mindestens einem Element auf der Seite noch keine Englische Version gibt. Damit die Meldung verschwindet muss von jedem Element, auch Bilder und PDFs, eine englische Version erstellt werden. Im Backend kannst du jedes Element durchgehen und so leicht nachschauen, welche Items noch keine englische Version besitzt.
+Oftmals ist es der Kontaktteaser. Es sieht auf englisch dann korrekt aus, weil Sitecore automatisch die korrekte Berufsbezeichnung übernimmt, Sitecore merkt aber auch, dass nichts angepasst wurde und geht dann davon aus, dass es noch deutsch ist. Es muss dann einfach eine englische Version davon im Backend angelegt werden. 
+Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Bitte auch die Alt-Texte der Bilder kontrollieren.  
+[Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: Sorry, für die Belästigung aber ich ausversehen eine zweite deutsche Version erstellt. Bin mir jetzt nicht sicher, wie ich es wieder löschen kann. Da morgen ein Mailing rausgeht. Wir benötigen nur 1x DE und 1x EN. Vielen Dank für den Support.
+
+A: Um die Version zu löschen gehst du am besten im Backend auf die entsprechende Seite. Dort unter "Versionen" siehst du welche Versionen dieser Seite existieren. Mit "Entfernen" kannst du dann die ueberfluessige Zweite löschen. Wichtig ist einfach, dass du bei Sprache "German (Switzerland)" ausgewählt hast und bei Versionen die "Version 2". Wenn du die richtige ausgewählt hast sollte auch die Warnung erscheinen:" Sind Sie sicher, dass Version 2 entfernt werden soll?". Das kannst du schlussendlich noch mit ok bestätigen.
+ 
+Q: Auf MyCampus gibt es Dokumente, welche nur in Englisch hinterlegt sind. Dabei ist uns aufgefallen, dass bei der deutschen Version eine Fehlermeldung erscheint, wenn man den Link anwählt:
+ 
+ 
+Wäre es möglich, dass trotzdem das englische Dokument angezeigt wird?
+Ich weiss, dass man in der Media Library dasselbe Dokument auch in Deutsch einfuegen könnte. Die Gefahr ist einfach, dass man bei einer Ãƒâ€žnderung nur eine Version auswechselt und dann zwei verschiedene existieren.
+ 
+A: Sprachversionen gibt es nicht nur für Seiten sondern auch für Elemente und Datein. 
+- Wenn ein Element auf der englischen Seite einen anderen Text enthalten soll, muss zuerst eine englische Version dieses Elements erstellt werden.
+- Damit auf der englischen Seite das englische Bild dargestellt wird, muss in der Media Library eine englische Version der Grafik hinterlegt werden. Dann wird auf der Seite die Grafik der Sprache nach gewechselt.
+ Mehr dazu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_sprachversion.htm)
+Q: 
+ In der Weiterbildung CAS TaxCompliance haben wir auf der englischen Seite eine Unterseite "Course Leaders"erstellt.Nun hat das System automatisch auch eine deutsche Seite (siehe Link unten) erstellt, da habe ich nicht genau daraufgeachtet.In der Linkliste fuehrt der Link Course Leaders von der deutschen SeiteCAS Tax nun auf eine nicht ausgefuellte Seite. Werde diesen Link nun extern setzen, damit er gleich auf die englische Seite fuehrt.
+ Frage: kann diebestehende deutsche Seiteso belassen werden, ohne dassein User sie je findet?Oder kann die deutsche Seite gelöscht werden, ohne dass es auch die englische Seite löscht?
+ 
+A: Gemäss der Web Governance, müssen alle Inhalte auch auf Deutsch vorhanden sein. Daher muss von jeder Seite, jedem Element auf der Seite und jeder Datei immer eine deutsche Version vorliegen. Dies wurde technisch so umgesetzt, dass eine englische Seite nur erstellt werden, kann wenn bereits eine deutsche vorliegt. Ist diese noch nicht vorhanden, wird sie beim Erstellen der englischen Seite automatisch erstellt. Das gleiche gilt auch für Seiten Elemente. Bei Dateien erscheint eine Fehlermeldung wenn keine deutsche Version in der Media Library hochgeladen wurde.
+Englische Seitenversionen sollten bei mindestenst den obersten beiden Ebenen der Website vorliegen. Dazu gehört die Stufe der Departemente (und des Daches) ebenso wie die Stufe "Studium, Forschung, Dienstleistungen..."
+Q: Ich bin gerade die dabei die englischen Seiten für unser CC zu erstellen. 
+ 
+Wie funktioniert das denn mit den Verlinkungen? Muss man jeden Link neu setzen auf die entsprechende Version in Englisch? Wenn ja wie funktioniert das, dass man auf die englische Seite verlinkt?
+
+A: Das funktioniert dynamisch. Man setzt den Link ja immer relativ/intern, indem man eine Seite aus dem "Seitenbaum" auswählt. Sobald Ziel- und Ausgangsseite in englisch existiert, wird der Link entsprechend angepasst. Problematisch wirds, wenn man eine URL auf eine andere Seite unter www.hslu.ch reinkopiert. Dies soll aber sowieso nie gemacht werden.
+
+Q: Vom Weiterbildungsangebot CAS Agile Project Engineering habe ich nachträglich eine englische Seite/Version erstellt. 
+Wie bringe ich den Hinweis (Only in German) gezielt weg? Also konkret z.B. bei den beiden pdf-Dateien Schedule und Flyer, die original schon immer in Englisch waren. Habe Versuche gemacht, in dem ich z.B. den Stundenplan 1x als Stundenplan und einmal als Shedule in die Media Library hochgeladen habe. Dies hat aus meiner Sicht nicht funktioniert. In der Anleitung habe ich zu "meinen Fall" auch nicht wirklich etwas Passendes gefunden.
+ Erbitte Support (Schedule und Flyer ohne German-Hinweis).
+ 
+ 
+A: Damit der Hinweis "only in German" verschwindet, musst du in der Media Library vom Dokument eine englische Version anlegen. In der Media-Library ist es möglich, von einem Bild- oder Dokument-Item auch eine Sprachversion (EN) zu erstellen. So kann kann z.B. bei einem PDF-Item in der englischen Version auch ein englisches Dokument hochgeladen werden. Wird solch ein File-Item, zum Beispiel mit einer Link und Download Liste verlinkt, stellt Sitecoreautomatisch das richtige Dokument (PDF) entsprechen der aktuellen Sprache zur Verfügung. Dazu musst du in der Media Library in demselben Item, indem sich die deutsche Version befindet, die Sprache oben Rechts wechseln und dann das englische Dokument dort anhängen. Mehr dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_file-item-englische-version-er.htm)
+Q: Wir haben soebenfestgestellt, dass es von allen unseren Produkteseiten (WB, Konferenzen, Seminare) und Themenseite bzw. alle IFZ Seiten eine englische Seite generiert hat. Könnt Ihr dies pruefen, ob dies durch das Update von letzter Woche verursacht wurde und, ob ihr das rueckgängig machen könnt? Damit wir dies nicht manuell anpassen müssen.
+
+A: Ist man im Experience Editor im englischen Sprachkontext unterwegs, kann fast unbemerkt eine englische Seite erstellt werden passieren. Dies kann auch geschehen, wenn jemand im Backend im englischen Sprachkontext (Versionen > English) unterwegs ist! Wird in diesem Fall irgend eine Seite angeklickt und anschliessend in den Experience Editor gewechselt (Veröffentlichen > Experience Editor), wird provisorisch eine englische Sprachversion der Seite erstellt. Achtet bitte auf den Magenta Sprachhinweis. Danach genügt ein einfaches Editieren der Seite (zum Beispiel den Titel anpassen) und nach dem Speichern besitzt die Seite definitiv eine englische Sprachversion. Darum muss man immer darauf achten, unter welchem Sprachkontext man arbeitet! Am besten wechselt man nach dem Editieren einer englischen Seite die Sprache sofort wieder auf Deutsch.
+
+Q: Fuer die AIML-Produktseite muss ich in der englischen Version die Seitennavigation mit folgenden Links ergänzen:
+ - Studienstart im Fruehjahres-Semester (Start your Studies in Spring or Fall (German only))
+ - Studienwahl und Studienvorbereitung (Choice and preparation of studies (German only))
+ 
+ Nachdem ich die englischen Versionen eingefuegt habe, zeigt es mir leider nur den ersten Link an. 
+ Könnt ihr mir hier weiterhelfen?
+
+A: Die Side Navigation zeigt nur Seiten an, die existieren. Das gilt auch fuer Sprachversionen. Es darf aber keine Sprachversion angelegt werden, die dann nicht übersetzt wird. 
+
+ 
+Q: Ich erhalte leider auf den meisten unserer englischen Sprachversionen die Fehlermeldung «Some parts of this content are currently available in German only.
+Schaut euch dazu bitte mal folgende Beispiel-Links an:
+<<link>>
+ 
+<<link>>
+Leider habe ich keine Ahnung, weshalb hier noch die Fehlermeldung erscheint, und dies trifft auf die meisten Seiten zu. Fuer mich ist hier nirgendwo mehr deutscher Text ersichtlich. Wie finde ich hier den Fehler mit realistischem Zeitaufwand? 
+ 
+A: Falls alle Texte auf englisch übersetzt wurden, und die Meldung 'Some Content is only available in German' immer noch erscheint, liegt es daran, dass es von mindestens einem Element auf der Seite noch keine Englische Version gibt. Damit die Meldung verschwindet muss von jedem Element, auch Bilder und PDFs, eine englische Version erstellt werden. Im Backend kannst du jedes Element durchgehen und so leicht nachschauen, welche Items noch keine englische Version besitzt.
+Oftmals ist es der Kontaktteaser. Es sieht auf englisch dann korrekt aus, weil Sitecore automatisch die korrekte Berufsbezeichnung übernimmt, Sitecore merkt aber auch, dass nichts angepasst wurde und geht dann davon aus, dass es noch deutsch ist. Es muss dann einfach eine englische Version davon im Backend angelegt werden. 
+Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Bitte auch die Alt-Texte der Bilder kontrollieren.  
+[Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: 
+ ich habe ein Problem beim Aktualisieren der Seite "Organization" EN bei der TA: <<link>>
+ Ich habe das Organigramm ausgetauscht, aber im Text erscheint immer der Hinweis "Only in German". Das stimmt nicht, da das englische Organigramm hinterlegt ist. Was kann ich tun um den Hinweis zu entfernen?
+ 
+A: Damit der Hinweis "only in German" verschwindet, musst du in der Media Library vom Dokument eine englische Version anlegen. In der Media-Library ist es möglich, von einem Bild- oder Dokument-Item auch eine Sprachversion (EN) zu erstellen. So kann kann z.B. bei einem PDF-Item in der englischen Version auch ein englisches Dokument hochgeladen werden. Wird solch ein File-Item, zum Beispiel mit einer Link und Download Liste verlinkt, stellt Sitecoreautomatisch das richtige Dokument (PDF) entsprechen der aktuellen Sprache zur Verfügung. Dazu musst du in der Media Library in demselben Item, indem sich die deutsche Version befindet, die Sprache oben Rechts wechseln und dann das englische Dokument dort anhängen. Mehr dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_file-item-englische-version-er.htm)
+Q: Bei den Sprachversionen in Sitecore komme ich noch nicht ganz klar.
+Weshalb erhalte ich auf der folgenden Seite in der rechten Sidebar unter «Links» die Meldung «Only in German», obwohl dies nicht stimmt und die Dokumente / Links in englischer Sprache vorhanden sind?
+ <<link>>
+ Zudem verstehe ich den folgenden Zeilenumbruch nicht:
+ 
+ «Indepth» sollte auf der nächsten Zeile erscheinen und nicht getrennt werden. Im Backend ist dies nicht so ersichtlich.
+ Danke fuer euer Feedback und 
+A: Damit der Hinweis (only in German) verschwindet, musst du in der Media Library vom Dokument eine englische Version anlegen.  In der Media-Library ist es möglich, von einem Bild- oder Dokument-Item auch eine Sprachversion (EN) zu erstellen. So kann kann z.B. bei einem PDF-Item in der englischen Version auch ein englisches Dokument hochgeladen werden. Wird solch ein File-Item, zum Beispiel mit einer Link und Download Liste verlinkt, stellt Sitecore automatisch das richtige Dokument (PDF) entsprechen der aktuellen Sprache zur Verfügung. Dazu musst du in der Media Library in demselben Item, indem sich die deutsche Version befindet, die Sprache oben Rechts wechseln und dann das englische Dokument dort anhängen. 
+Q: 
+ Die Side-Navi erscheint mir in der englischen Version immer auch mit Hauptueberschrift, so dass der Seitentitel der Hauptseite immer doppelt erscheint. In der deutschen Version aber nicht, so wäre es korrekt. 
+ 
+ Könnt ihr helfen?
+ 
+A: Die Überschrift von Flyout und Side-Navigation, sowie die Linktexte der Hauptseiten in der Navigation und die Linktexte der Side-Navigation, können auf der Seite unter "Navigation Options" angepasst werden.  Der Text, der bei der Seite selbst in den Navigationsoptionen hinterlegt ist, ist der "stärkste" und uebersteuert alles. Diese hinterlegten Texte werden sowohl für virtuelle als auch reale Navigationen übernommen. Wird kein Text hinterlegt, wird der Titel der Seite verwendet. Wenn eine englische Seite geändert werden soll, nicht vergessen vorher auf die Englische Seitenversion zu wechsel. Mehr Infos dazu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_navigations_options-ribbon.htm)
+
+ 
+Q: Obwohl ich das pdf auf der englischen Seite nochmals heraufgeladen und entsprechend verlinkt habe (meinte ich jedenfalls), erscheint noch der Hinweis only in german. Was ist noch falsch?
+
+A: Damit der Hinweis "only in German" verschwindet, musst du in der Media Library vom Dokument eine englische Version anlegen. In der Media-Library ist es möglich, von einem Bild- oder Dokument-Item auch eine Sprachversion (EN) zu erstellen. So kann kann z.B. bei einem PDF-Item in der englischen Version auch ein englisches Dokument hochgeladen werden. Wird solch ein File-Item, zum Beispiel mit einer Link und Download Liste verlinkt, stellt Sitecoreautomatisch das richtige Dokument (PDF) entsprechen der aktuellen Sprache zur Verfügung. Dazu musst du in der Media Library in demselben Item, indem sich die deutsche Version befindet, die Sprache oben Rechts wechseln und dann das englische Dokument dort anhängen. Mehr dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_file-item-englische-version-er.htm)
+Q: ich brauche kurz Eure Hilfe. Ich möchte ein pdf austauschen auf der DE und der EN Seite (das gleiche englischsprachige pdf!) und schaffe folgendes nicht:
+ 
+Die Linkbeschreibung DE / EN zu trennen, ändere ich das eine, ändert es auch das andere
+Auf der EN-Seite steht ausserdem in Klammern (only in German) obwohl das Dokument ja auf EN ist! Wie kriege ich das weg?
+ 
+
+A: Damit der Hinweis "only in German" verschwindet, musst du in der Media Library vom Dokument eine englische Version anlegen. In der Media-Library ist es möglich, von einem Bild- oder Dokument-Item auch eine Sprachversion (EN) zu erstellen. So kann kann z.B. bei einem PDF-Item in der englischen Version auch ein englisches Dokument hochgeladen werden. Wird solch ein File-Item, zum Beispiel mit einer Link und Download Liste verlinkt, stellt Sitecoreautomatisch das richtige Dokument (PDF) entsprechen der aktuellen Sprache zur Verfügung. Dazu musst du in der Media Library in demselben Item, indem sich die deutsche Version befindet, die Sprache oben Rechts wechseln und dann das englische Dokument dort anhängen. Mehr dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_file-item-englische-version-er.htm)
+Q: 
+ Ich hatte den Auftrag erhalten eine Veranstaltung aufs Web zu stellen.
+ Die Seite habe ich erstellt und dann gesehen, dass die Seite schon existiert
+ Jetzt möchte ich meine Seite natuerlich wieder löschen:
+ 
+ Kann ich das einfach ueber diesen Button machen oder wie muss ich vorgehen?
+ 
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu löschen kann so vorgegangen werden:
+ 1) Auf die zu löschende Seite navigieren und im Ribbon-Menü den Befehl "Home > Delete Page" aufrufen.
+2) Den Warnhinweis lesen und gegebenenfalls auf OK klicken.
+3) Zeigen Links auf dieses Seite, erscheint ein weiteres Hinweisfenster. Es muss entschieden werden, was mit diesen Linkst geschehen soll 
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm)
+Q: Da unser 40-jähriges Jubiläum vorbei ist, wird unsere Extra-Seite nicht mehr benötigt: <<link>> Ich habe die anderen Sites soweit angepasst, dass kein Link mehr direkt auf diese Seite fuehrt. Kann ich die Seite nun löschen und "Link to antoher Item" wählen? Was muss ich sonst noch machen? Auch im Hinblick auf Suchmaschinen etc.
+ 
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu löschen kann so vorgegangen werden:
+ 1) Auf die zu löschende Seite navigieren und im Ribbon-Menü den Befehl "Home > Delete Page" aufrufen.
+2) Den Warnhinweis lesen und gegebenenfalls auf OK klicken.
+3) Zeigen Links auf dieses Seite, erscheint ein weiteres Hinweisfenster. Es muss entschieden werden, was mit diesen Linkst geschehen soll 
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm)
+Q: Aktuell arbeite ich die Übersetzungen der IKM-Webseiten in Sitecore ein. Auf unserer Webseite "Alle Weiterbildungen" werden in der englischen Version keine Ergebnisse in der Filterliste angezeigt: <<link>>
+Könntest du mir hier eventuell weiterhelfen?
+ 
+A: Bei Agendaeinträgen ist zu unterscheiden, ob die Seite offline ist, oder ob der Agendaeintrag einfach nicht in der Filterliste aufgelistet wird. Mögliche Ursachen dafür, dass eine Seite nicht öffentlich ist findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm). Ausserdem kommt es bei  Agenda-Einträgen öfters vor, dass diese etwas länger haben, bis sie veröffentlicht werden.
+Voraussetzung dafür, dass ein Event in einer Filterliste erscheint, ist, dass der Agendaeintrag live ist.  
+Mögliche Ursachen dafür, dass ein Agendaeintrag live ist aber nicht der Filterliste aufgelistet wird : 
+1. Der Event ist keiner Organisationseinheit (OE) zugeordnet
+2. Falls es sich um eine Filterliste auf einer englischen Seite handelt, ist darauf zu achten, dass nur englische Seiten aufgeführt werden.
+3. Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit in der Filterliste. Ist sowohl Startzeit als auch Endzeit leer, dann bleibt der Event bis 00:00h in der Filterliste und im Call to Action Teaser.
+Spezifisch für Englische Seiten git: In englischen Filterlisten werden nur diejenigen Kurse angezeigt, die eine englische Version haben. Damit ein Event oder Kurs in der englischen Filterliste erscheint, muss die Seite des Events oder Kurses in einer englischen Version existieren.  Bitte keine englischen Versionen von Seiten anlegen, wenn diese nicht auch übersetzt werden, das wäre fuer die englische User Experience schlecht.
+Q: 
+ Gerne wuerde ich die Seite «Chronologie» <<link>>  uns all ihre Unterseiten» verschieben und zwar, dass Sie eine Unterseite von «Jubiläumsschrift» <<link>> ist. Kann ich das im Backend einfach so verschieben oder muss ich etwas beachten? Die Seiten sind allesamt noch nicht publiziert. 
+ Nina hat mir heute gesagt, dass dies möglich ist. Sorry wenn ihr mir das zum gefuehlt 1000sten Mal erklären muesst, hab ich bisher noch nie gemacht. 
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu verschieben kann so vorgegangen werden:
+1) Auf die zu verschiebende Seite navigieren und Im Ribbon-Menü den Befehl "Home > Move Page" aufrufen.
+2) Im Dialog Zielseite anwählen und mit "Move" bestätigen.
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_verschieben.htm)
+Q: Wie kann ich die EN-sprachige Website von unserem CAS Brand Management löschen?
+A: Hier eine Anleitung wie Sprachversionen von Seiten gelöscht werden können: Den Content Editor starten (Ribbon-Menü > Campus > Backend):
+
+1) Im Item-Tree die entsprechende Seite wählen und im Ribbon Menü zum Tab Versions wechseln.
+
+2) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass eine deutsche und eine englische Version der Seite vorhanden sind.
+
+3) Durch klicken auf den grossen Sprachbutton zur löschenden Sprachversion wechseln (hier im Beispiel englisch).
+
+4) Auf den Button Remove klicken.
+
+5) Es erscheint ein Warnhinweis, ob die Version entfernt werden soll. Wenn Sie sicher sind, auf OK klicken.
+
+6) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass die englische Version gelöscht wurde. Bei Englsh:Englisch steht 0 versions.
+Q: Ich hätte gerne auf den Webseiten des International Office (diese und alle "Unterseiten": <<link>> die Funktion "Co-Leiter International Office", aber auf allen anderen Webseiten sollte ich "Co-Leiter CC Public & Nonprofit Management" sein (so wie hier: <<link>> 
+ Es sieht aus, wie wenn das geht (siehe oben). Falls das nicht geht, wäre ich froh, wenn ihr beide Funktionen auffuehren könntet.
+ Es geht ja auch ganz spezifisch wie hier: <<link>> 
+ 
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden soll, müssen das folglich die  die Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) übersteuert werden. Dazu muss das Element Kontaktperson-Element (manuell) verwendet werden. Bei diesem Element können alle Daten zum Kontakt manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Gerne möchte ich in der Englischen Seitennavigation die Rechtschreibung korrigieren. Ich komme aber stets nur in das Menü, in dem ich eine neue Side-Navigation einfügen kann. Könntet ihr mir weiterhelfen?
+Screenshot hänge ich anbei, es handelt sich um diese Navigation
+<<link>>
+Vielen Dank euch und liebe Grüsse
+
+A: Die Überschrift von Flyout und Side-Navigation, sowie die Linktexte der Hauptseiten in der Navigation und die Linktexte der Side-Navigation, können auf der Seite unter "Navigation Options" angepasst werden.  Der Text, der bei der Seite selbst in den Navigationsoptionen hinterlegt ist, ist der "stärkste" und uebersteuert alles. Diese hinterlegten Texte werden sowohl für virtuelle als auch reale Navigationen übernommen. Wird kein Text hinterlegt, wird der Titel der Seite verwendet. Mehr Infos dazu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_navigations_options-ribbon.htm)
+
+ 
+Q: Ich versuche gerade eine Webseite, die es auf Deutsch schon gibt, auf English zu erstellen. Welcher ist der Ablauf zur Erstellung einer englischen Webseite?
+A: Eine neue Sprachversion kann im Experience Editor über den Versions-Tab >
+Language-Button angelegt werden. Anschliessend die Seite (ctrl+s) speichern.
+http://applsupport.hslu.ch/webhelp/index.html?hm_sprachversion.htm
+Q: Auf folgender Website Public and Nonprofit Management | Hochschule Luzern (hslu.ch) habe ich ganz unten eine Linkliste eingefuegt und habe alle drei Links mit "Ziel: Neuer Browser" gespeichert, doch leider öffnet sich auf der Website keine neue Seite, wenn man den Event öffnet. Könnt ihr mit bitte helfen?
+
+A: Bei internen Verlinkungen wird kein neues Fenster geöffnet. Das dient der User Experience, vor allem Bei der Nutzung von mobilen Geräten.
+Bei externen Verlinkungen wird der Link in einem neuen Tab geöffnet. Dies aus dem Grund, da wir Die User sonst verlieren.
+Q: Ist es möglich, die deutsche Moduluebersichtsseite im Master BA Tourism auszublenden und nur die englische Seite aufgeschaltet zu lassen?
+ Oder braucht es immer eine deutsche Version?
+ Sitecore Link: <<link>>
+ 
+A: Gemäss der Web Governance, müssen alle Inhalte auch auf Deutsch vorhanden sein. Daher muss von jeder Seite, jedem Element auf der Seite und jeder Datei immer eine deutsche Version vorliegen. Dies wurde technisch so umgesetzt, dass eine englische Seite nur erstellt werden, kann wenn bereits eine deutsche vorliegt. Ist diese noch nicht vorhanden, wird sie beim Erstellen der englischen Seite automatisch erstellt. Das gleiche gilt auch für Seiten Elemente. Bei Dateien erscheint eine Fehlermeldung wenn keine deutsche Version in der Media Library hochgeladen wurde.
+Englische Seitenversionen sollten bei mindestenst den obersten beiden Ebenen der Website vorliegen. Dazu gehört die Stufe der Departemente (und des Daches) ebenso wie die Stufe "Studium, Forschung, Dienstleistungen..."
+Q: Ich habe fuer den Newsletter der W im September fuer das International Office Newsartikel gemacht.
+Jetzt möchte das Team, dass ich diese Newsartikel in Englisch mache. Wie "spiegle" ich diese Newsartikel in Englisch?
+ 
+A: Eine neue Sprachversion kann im Experience Editor über den Versions-Tab >
+Language-Button angelegt werden. Anschliessend die Seite (ctrl+s) speichern.
+http://applsupport.hslu.ch/webhelp/index.html?hm_sprachversion.htm
+Q: 
+ Eine kurze Frage: Damit der Hinweis (Seite nicht komplett übersetzt) verschwindet. Finde ich irgendwo eine Auflistung welche Elemente fehlen?
+ Und müssen auch alle Bilder doppelt (de/en) hochgeladen werden, damit die Nachricht nicht angezeigt wird?
+ 
+A: Falls alle Texte auf englisch übersetzt wurden, und die Meldung 'Some Content is only available in German' immer noch erscheint, liegt es daran, dass es von mindestens einem Element auf der Seite noch keine Englische Version gibt. Damit die Meldung verschwindet muss von jedem Element, auch Bilder und PDFs, eine englische Version erstellt werden. Im Backend kannst du jedes Element durchgehen und so leicht nachschauen, welche Items noch keine englische Version besitzt.
+Oftmals ist es der Kontaktteaser. Es sieht auf englisch dann korrekt aus, weil Sitecore automatisch die korrekte Berufsbezeichnung übernimmt, Sitecore merkt aber auch, dass nichts angepasst wurde und geht dann davon aus, dass es noch deutsch ist. Es muss dann einfach eine englische Version davon im Backend angelegt werden. 
+Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Bitte auch die Alt-Texte der Bilder kontrollieren.  
+[Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: Wir sind amÜberarbeiten unserer Weiterbildungsseiten und wollten dabei die Seiten-Navigation anpassen: 
+ 
+Wir möchten zusätzlich in der Seiten-Navigation auf unsere FAQ-Seite verlinken: <<link>>
+Und den ersten Link auf die aktuelle Seite «MAS Brand an Marketing Management» möchten wir rauslöschen.
+ Wie kann ich das machen? 
+A: Die Side-Navigation zeigt die Unterseiten der aktuellen Seite in der Sidebar an. Um eine benutzerdefinierte Navigation zu erstellen, die Seiten enthält, die nicht Unterseiten sind, kann eine virtuelle Navigation eingefügt werden.
+https://applsupport.hslu.ch/webhelp/hm_virtueller_navigationseintrag.htm
+
+ 
+Q: Bei mir wird der Titel und das Intro auf der Englischen Seite nicht angezeigt. 
+<<link>>
+ 
+Könntet ihr mir vielleicht weiterhelfen, woran das liegt?
+
+A: Es ist möglich, dass der Fallback bei Englischen Seiten nicht beachtet wurde. Ich habe die beiden Boxen in Englisch nochmals gespeichert. Dadurch sollte das Problem behoben sein. In der Vorschau wird es nun angezeigt. Bitte dazu nochmals die Webhelp durchlesen für weitere Seiten: https://applsupport.hslu.ch/webhelp/hm_sprachversion.htmhttps://applsupport.hslu.ch/webhelp/hm_sprachversion.htm
+
+Q: Wir möchten eine Webseite mit einem Angebot von uns auch französisch und italienisch aufschalten. Wie kann ich das machen?
+ 
+A: [Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: Wir möchten die Seite "Neue Perspektiven. Neue Horizonte" 1:1 kopieren, damit wir die Inhalte nicht wieder komplett neu erstellen müssen.
+ Den Titel der kopierten Seite werden wir dann ändern. Könnt ihr das kurz selber machen (oder uns sagen, worauf dabei zu achten ist?)
+ 
+A: Seiten und Items dürfen nicht dupliziert oder kopiert werden. Dies führt zu Problemen (Error 500).
+Q: Beim Master BA (W) haben wir soebendie Info-Box rueckgängig angepasst.
+ 
+Die Verlinkung fuehrt nun auf die Online Info-Events. Auf der deutschen Webseite klappt alles wunderbar. Auf der Englischen Webseite fuehrt die Verlinkung jedoch auch auf die deutschen Info-Events und nicht auf die englische Webseite. 
+Könnt ihr mir da weiterhelfen?
+ 
+A: Bei Verlinkungen zu einer Sitecore Seite sollte die Verlinkung über den Baum zur entsprechenden Seite eingefügt werden. So wird dann die Seite auch immer in der richtigen Sprachversion dargestellt. Verlinkt man eine Seite über einen externen Link kann immer nur entweder die deutsche oder die englische URL hinterlegt werden.
+Mehr Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_links-einfuegen.htm).
+ 
+
+WEBHELP-ARTIKEL 
+
+
+Falls wirklich gar keine Information zum Beantworten der Frage in den WEBHELP-ARTIKELN oder den ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN vorhanden sind, dann antworte mit: "Leider kann ich deine Frage nicht beantworten".
+
+PRÄZISE ANTWORT:
+
+====== 
+
+RESPONSE:
+
+Um die englische Seite zu löschen, gehe im Backend auf die entsprechende Seite, wechsle zum Tab "Versions" und klicke auf den "Remove"-Button, um die englische Version zu löschen. Achte darauf, dass die Seite mindestens eine deutsche Version hat, da alle Inhalte auch auf Deutsch vorhanden sein müssen. Weitere Informationen findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_sprachversion.htm).

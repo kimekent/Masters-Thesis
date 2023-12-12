@@ -1,6 +1,23 @@
 Ersetze in der aktuellen Frage anaphorische Ausdrücke durch das entsprechende Subjekt, auf das sich die Anapher bezieht. Falls keine Anapher vorhanden ist, lasse die Frage in ihrer originalen Form. Du kannst in der Chat-History nachsehen, um das korrekte Subjekt zu identifizieren. 
 
-CHAT-HISTORY: <<newest message>> <<history>> <<oldest message>>
+CHAT-HISTORY: <<newest message>>
+human: Meine Seite ist jedoch auf englisch.
+AI: Bitte in der Media Library vom Dokument eine englische Version anlegen, damit der Hinweis "Only in German" verschwindet. In der Media-Library ist es möglich, von einem Bild- oder Dokument-Item auch eine Sprachversion (EN) zu erstellen. Mehr dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_file-item-englische-version-er.htm).
+human: Wie kann ich eine Website löschen?
+AI: Hier eine Anleitung wie Sprachversionen von Seiten gelöscht werden können: Den Content Editor starten (Ribbon-Menü > Campus > Backend):
+
+1) Im Item-Tree die entsprechende Seite wählen und im Ribbon Menü zum Tab Versions wechseln.
+
+2) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass eine deutsche und eine englische Version der Seite vorhanden sind.
+
+3) Durch klicken auf den grossen Sprachbutton zur löschenden Sprachversion wechseln (hier im Beispiel englisch).
+
+4) Auf den Button Remove klicken.
+
+5) Es erscheint ein Warnhinweis, ob die Version entfernt werden soll. Wenn Sie sicher sind, auf OK klicken.
+
+6) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass die englische Version gelöscht wurde. Bei Englsh:Englisch steht 0 versions. Mehr Infos dazu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm)
+<<oldest message>>
 
 AKTUELLE FRAGE: <<query>>
 

@@ -1,34 +1,45 @@
 """
-This Python script is designed for testing and evaluating a chatbot's performance in information retrieval.
+This Python script is designed for testing and evaluating the intent-less chatbot's retrieval component.
 
-It includes several key components and steps:
+Key Components and Steps:
+- Retriever Configuration: The script sets up two types of retrievers - one using BERT embeddings and the other using
+    OpenAI embeddings (Step 2).
 
-- Building Retrievers: The script features two types of retrievers: One using BERT embeddings and
-    the other using OpenAI embeddings (step 2).
+- Retrievers Testing: Tests both retrievers on a set of web support queries (Step 3).
 
-- Testing Retrievers: The script tests the retrievers on a set of websupport queries (step 3).
+- Retrieval Evaluation: Assesses the effectiveness of each retriever in accurately fetching relevant documents (Step 5).
 
-- Evaluation of Retrieval Effectiveness: It evaluates the effectiveness of the retrievers by assessing how often
-    they retrieve correct documents (step 5).
+- Visualization: Results are visualized with bar charts, showcasing the rate of correctly answered questions by document
+    count for each retriever (Step 6).
 
-- Visualization: The results are visualized using bar charts to represent the question answerability rate by
-    document count for each retriever (step 6).
+To run this script update the 'path' variable to the project directory path and add your OpenAI API key to
+ 'openaiapikey.txt' in the root directory of this project.
 
-To visualize the results the script can be run from step 5 - 6 using the saved result csvs.
+For visualization, execute Steps 5 and 6 using the saved result CSV files.
 """
+
+
 # 1. Set Up-------------------------------------------------------------------------------------------------------------
+# Set variables and paths
+import sys
+path = r"C:\Users\Kimberly Kent\Documents\Master\HS23\Masterarbeit\Masters-Thesis" # Change
+testing_path = path + r"\testing"
+sys.path.append(testing_path)
+
+from testing_chatbot.testing_functions import open_file
+import openai
+import os
+os.environ["OPENAI_API_KEY"] = open_file(path + "\openaiapikey.txt")
+openai.api_key = os.getenv("OPENAI_API_KEY") # Add OpenAI API key to this .txt file
+
 # Standard Libraries
 import pandas as pd
 import json
-import os
 
 # Libraries for running the testing chatbot / for text generation
 import importlib
 from sentence_transformers import SentenceTransformer
-import openai
-
-# Own functions
-from testing_functions import replace_links_with_placeholder, open_file, num_tokens_from_string, adjust_similarity_scores
+from testing_chatbot.testing_functions import replace_links_with_placeholder, num_tokens_from_string, adjust_similarity_scores
 
 # Libraries for transforming csv data
 import ast
@@ -40,10 +51,6 @@ matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Set Variables and paths
-path = r"C:\Users\Kimberly Kent\Documents\Master\HS23\Masterarbeit\testing"
-openai.api_key = open_file(path + r'\openaiapikey.txt')
-
 
 # 2. Build the retrievers-----------------------------------------------------------------------------------------------
 """The retriever encodes the input question into a numerical vector using a predefined encoder.
@@ -51,7 +58,9 @@ It then calculates the similarity score between the encoded question vector and 
 vector in the loaded index using the dot product.
 The retriever returns the top 'n' documents with the highest similarity scores"""
 
-words_to_check = ast.literal_eval(open_file(path + r"\testing_data\words_to_check_for_adjusted_similarity_score.txt"))
+# Load a list of words from a file. These words are checked against questions; if present,
+# they trigger a higher ranking for associated documents during retrieval.
+words_to_check = ast.literal_eval(open_file(testing_path + r"\testing_data\words_to_check_for_adjusted_similarity_score.txt"))
 
 # Function calculating the dot product.
 def similarity(v1, v2):  # returns dot product of two vectors
@@ -75,7 +84,6 @@ def BERT_retriever(query=None, count=20, index_path=None):
     scores = adjust_similarity_scores(results=scores, question=query, word_intent_dict=words_to_check, multiplier=1.2)
     ordered = sorted(scores, key=lambda d: d['score'], reverse=True)
     return ordered[0:count]
-
 
 
 # This function is used to get the embeddings form the OpenAI model 'text-embedding-ada-002'
@@ -105,21 +113,22 @@ def OpenAI_retriever(query=None, count=20, index_path=None):
 
 # 3. Use retrievers to retrieve a set of 'n' documents for each question in the testing dataset-------------------------
 # Import testing dataset to test the two retrievers on
-testing_data_set = pd.read_csv(path + r"\testing_data\test_dataset.csv", encoding="utf-8")
-
-questions = testing_data_set["Beschreibung"].tolist()
+testing_data_set = pd.read_csv(testing_path + r"\testing_data\test_dataset.csv", encoding="utf-8")
+questions = testing_data_set['Beschreibung'].tolist()
 # In the index links were replaced with placeholders. To maintain consistency, the same is done to these questions.
 questions = [replace_links_with_placeholder(i) for i in questions]
-human_responses = testing_data_set["Lösungsbeschreibung"].tolist()
-question_ids = testing_data_set["Incident-ID"].tolist()
-intents = testing_data_set["intent"].tolist()
+human_responses = testing_data_set['Lösungsbeschreibung'].tolist()
+question_ids = testing_data_set['Incident-ID'].tolist()
+intents = testing_data_set['intent'].tolist()
 
 # Import OpenAI testing chatbot to test the retriever component.
 """This testing chatbot is specifically designed for evaluating individual chatbot components.
-It takes various parameters, including the test type, retriever selection, the chosen prompt,
-and input size, to systematically assess the chatbot's performance."""
+It accepts various parameters, including the test type (retriever, prompt_max_input, memory), the selected retriever,
+the chosen prompt, and the number of document tokens to add to the prompt, to systematically assess the chatbot's
+performance across these different variables."""
 
-module = importlib.import_module("testing_OpenAI-Chatbot")
+sys.path.append(testing_path + r'\testing_chatbot')
+module = importlib.import_module('testing_intent_less_chatbot')
 
 """The retrievers were run multiple times. In each iteration the number of retrieved documents was increased
 to find the optimal number of documents that needed to be returned in order to be able to answer the question."""
@@ -131,30 +140,30 @@ l_retrieved_documents_content = []
 l_references = []
 
 for i, question in enumerate(questions):
-    retrieved_documents = module.main(test="retriever", query=question,
+    retrieved_documents = module.main(test='retriever', query=question,
                                       retriever=BERT_retriever(query=question, count=70,
-                                                               index_path=path + r"\indexes\BERT_index.json"))
+                                                               index_path=testing_path + r'\testing_chatbot\indexes\BERT_index.json'))
     for doc in retrieved_documents:
 
-        if doc['metadata']['source'] == "webhelp_article":
+        if doc['metadata']['source'] == 'webhelp_article':
             retrieved_document_content = doc['context']
-            reference = doc["metadata"]["Link"]
+            reference = doc['metadata']['Link']
 
-        elif doc['metadata']['source'] == "websupport_question":
-            retrieved_document_content = doc["metadata"]["answer"]
-            reference = doc["metadata"]["question_id"]
+        elif doc['metadata']['source'] == 'websupport_question':
+            retrieved_document_content = doc['metadata']['answer']
+            reference = doc['metadata']['question_id']
 
         l_retrieved_documents_content.append(retrieved_document_content)
         l_references.append(reference)
 
     dic_BERT_retriever = {
-        "question": question,
-        "question_ID": question_ids[i],
-        "intent": intents[i],
+        'question': question,
+        'question_ID': question_ids[i],
+        'intent': intents[i],
         'retrieved_document_content': l_retrieved_documents_content,
         'reference': l_references,
-        "human_response": human_responses[i],
-        "source": "BERT_retriever"
+        'human_response': human_responses[i],
+        'source': 'BERT_retriever'
     }
     l_results_BERT_retriever.append(dic_BERT_retriever)
     l_retrieved_documents_content = []
@@ -167,77 +176,76 @@ l_results_OpenAI_retriever = []
 l_retrieved_documents_content = []
 l_references = []
 for i, question in enumerate(questions):
-    retrieved_documents = module.main(test="retriever", query=question,
+    retrieved_documents = module.main(test='retriever', query=question,
                                       retriever=OpenAI_retriever(query=question, count=70,
-                                                                 index_path=path + r"\indexes\OpenAI_index.json"))
+                                                                 index_path=testing_path + r'\testing_chatbot\indexes\OpenAI_index.json'))
     for doc in retrieved_documents:
-        if doc['metadata']['source'] == "webhelp_article":
+        if doc['metadata']['source'] == 'webhelp_article':
             retrieved_document_content = doc['context']
-            reference = doc["metadata"]["Link"]
+            reference = doc['metadata']['Link']
 
-        elif doc['metadata']['source'] == "websupport_question":
-            retrieved_document_content = doc["metadata"]["answer"]
-            reference = doc["metadata"]["question_id"]
+        elif doc['metadata']['source'] == 'websupport_question':
+            retrieved_document_content = doc['metadata']['answer']
+            reference = doc['metadata']['question_id']
 
         l_retrieved_documents_content.append(retrieved_document_content)
         l_references.append(reference)
 
     dic_OpenAI_retriever = {
-        "question": question,
-        "question_ID": question_ids[i],
-        "intent": intents[i],
+        'question': question,
+        'question_ID': question_ids[i],
+        'intent': intents[i],
         'retrieved_document_content': l_retrieved_documents_content,
         'reference': l_references,
-        "human_response": human_responses[i],
-        "source": "OpenAI_retriever"
+        'human_response': human_responses[i],
+        'source': 'OpenAI_retriever'
     }
     l_results_OpenAI_retriever.append(dic_OpenAI_retriever)
     l_retrieved_documents_content = []
     l_references = []
 
 # 4. Save retrieved documents to csv file-------------------------------------------------------------------------------
-"""Retrieved documents were saved to csv file for subsequent evaluation of metrics
-such as corpus BLEU score, ROUGE-L score, and semantic similarity to assess their relevance against human responses."""
+# Retrieved documents were saved to csv file for subsequent evaluation.
 
 combined_list = l_results_OpenAI_retriever + l_results_BERT_retriever
 
 df = pd.DataFrame(combined_list,
-                  columns=['question', "question_ID", "intent", "retrieved_document_content", "reference",
-                           "human_response", "source"])
+                  columns=['question', 'question_ID', 'intent', 'retrieved_document_content', 'reference',
+                           'human_response', 'source'])
 
-df.to_csv(path + r"\testing_results\retriever_results\retriever_adjusted_scores_70.csv")
+# df.to_csv(testing_path + r'\testing_results\retriever_results\retriever_adjusted_scores_70.csv') # uncomment to resave
 
 # 5. Find out how many times the correct document was retrieved---------------------------------------------------------
 """The core idea is to assess whether the retrieved documents are relevant to answer the question.
 The result of this analysis is the number of answerable questions per retriever and number of retrieved documents.
-A retrieval is considered successful, if at least one websupport answer, that has the same intent as
-the current question is retrieved or if one webhelp article, that is in the list of relevant webhelp articles for that
+A retrieval is considered successful, if at least one web support answer, that has the same intent as
+the current question is retrieved or if one webhelp article, that is in the list of relevant web help articles for that
 question is retrieved. If either of these conditions are fulfilled, it is assumed that the question can be answered with 
 the retrieved documents"""
 
-# This data set contains websupport questions and answers. For each Q&A the intent and relevant webhelp articles are
+# This data set contains web support questions and answers. For each Q&A the intent and relevant webhelp articles are
 # listed in separate columns
-df_full_websupport_dataset = pd.read_csv(path + r"\testing_data\cleaned_websupport_questions_with_intents_utf-8.csv")
+df_full_websupport_dataset = pd.read_csv(testing_path + r'\testing_data\cleaned_websupport_questions_with_intents_utf-8.csv')
 
 # These csv files contain a sample of the websupport questions and a list of either 20, 30, 40, 50, 60 or 70
 # retrieved documents (websupport questions and webhelp articles) per question.
 # To see results without adjusted retriever scores, uncomment retriever results csv
 csv_files_adjusted_scores = [
-    (path + r'\testing_results\retriever_results\retriever_adjusted_scores_20.csv', 20),
-    (path + r'\testing_results\retriever_results\retriever_adjusted_scores_30.csv', 30),
-    (path + r'\testing_results\retriever_results\retriever_adjusted_scores_40.csv', 40),
-    (path + r'\testing_results\retriever_results\retriever_adjusted_scores_50.csv', 50),
-    (path + r'\testing_results\retriever_results\retriever_adjusted_scores_60.csv', 60),
-    (path + r'\testing_results\retriever_results\retriever_adjusted_scores_70.csv', 70)
+    (testing_path + r'\testing_results\retriever_results\retriever_adjusted_scores_20.csv', 20),
+    (testing_path + r'\testing_results\retriever_results\retriever_adjusted_scores_30.csv', 30),
+    (testing_path + r'\testing_results\retriever_results\retriever_adjusted_scores_40.csv', 40),
+    (testing_path + r'\testing_results\retriever_results\retriever_adjusted_scores_50.csv', 50),
+    (testing_path + r'\testing_results\retriever_results\retriever_adjusted_scores_60.csv', 60),
+    (testing_path + r'\testing_results\retriever_results\retriever_adjusted_scores_70.csv', 70)
 ]
 
 csv_files_unadjusted = [
-    (path + r'\testing_results\retriever_results\retriever_results_20.csv', 20),
-    (path + r'\testing_results\retriever_results\retriever_results_30.csv', 30),
-    (path + r'\testing_results\retriever_results\retriever_results_40.csv', 40),
-    (path + r'\testing_results\retriever_results\retriever_results_50.csv', 50),
-    (path + r'\testing_results\retriever_results\retriever_results_60.csv', 60),
-    (path + r'\testing_results\retriever_results\retriever_results_70.csv', 70)
+    (testing_path + r'\testing_results\retriever_results\retriever_results_20.csv', 20),
+    (testing_path + r'\testing_results\retriever_results\retriever_results_30.csv', 30),
+    (testing_path + r'\testing_results\retriever_results\retriever_results_40.csv', 40),
+    (testing_path + r'\testing_results\retriever_results\retriever_results_50.csv', 50),
+    (testing_path + r'\testing_results\retriever_results\retriever_results_60.csv', 60),
+    (testing_path + r'\testing_results\retriever_results\retriever_results_70.csv', 70)
 ]
 
 # Create dictionary to understand which questions (identified by their IDs) are associated with which intents.
@@ -273,13 +281,13 @@ for csv_file, num_docs in csv_files_adjusted_scores:
             if doc in lists_by_intent.get(question_intent, []):
                 count += 1
             # Check if a webhelp article that is associated with that question was retrieved.
-            if doc in lists_by_ID.get(df_full_websupport_dataset["Incident-ID"][i], []):
+            if doc in lists_by_ID.get(df_full_websupport_dataset['Incident-ID'][i], []):
                 count += 1
         # If at least one web support answer with the same intent as question or one webhelp article that is assosiated
         # to the question is retrieved, the amount of answerable questions goes up by one.
-        if count >= 1 and row['source'] == "BERT_retriever":
+        if count >= 1 and row['source'] == 'BERT_retriever':
             answerable_questions_adjusted_scores['DPR'][num_docs] += 1
-        elif count >= 1 and row['source'] == "OpenAI_retriever":
+        elif count >= 1 and row['source'] == 'OpenAI_retriever':
             answerable_questions_adjusted_scores['OpenAI'][num_docs] += 1
 
 # Convert the counts of relevant retrievals to percentages.
@@ -304,13 +312,13 @@ for csv_file, num_docs in csv_files_unadjusted:
             if doc in lists_by_intent.get(question_intent, []):
                 count += 1
             # Check if a webhelp article that is associated with that question was retrieved.
-            if doc in lists_by_ID.get(df_full_websupport_dataset["Incident-ID"][i], []):
+            if doc in lists_by_ID.get(df_full_websupport_dataset['Incident-ID'][i], []):
                 count += 1
         # If at least one web support answer with the same intent as question or one webhelp article that is assosiated
         # to the question is retrieved, the amount of answerable questions goes up by one.
-        if count >= 1 and row['source'] == "BERT_retriever":
+        if count >= 1 and row['source'] == 'BERT_retriever':
             unadjusted_answerable_questions['DPR'][num_docs] += 1
-        elif count >= 1 and row['source'] == "OpenAI_retriever":
+        elif count >= 1 and row['source'] == 'OpenAI_retriever':
             unadjusted_answerable_questions['OpenAI'][num_docs] += 1
 
 # Convert the counts of relevant retrievals to percentages.
@@ -333,12 +341,12 @@ width = 0.35  # Width of the bars
 fig, ax = plt.subplots()
 
 # Plot the adjusted results
-rects1 = ax.bar(x - width / 2, adjusted_DPR_counts, width, label='Adjusted DPR Retriever', color="#1a2639")
-rects2 = ax.bar(x + width / 2, adjusted_openai_counts, width, label='Adjusted OpenAI Retriever', color="#c24d2c")
+rects1 = ax.bar(x - width / 2, adjusted_DPR_counts, width, label='Adjusted DPR Retriever', color='#1a2639')
+rects2 = ax.bar(x + width / 2, adjusted_openai_counts, width, label='Adjusted OpenAI Retriever', color='#c24d2c')
 
 # Plot the unadjusted results
-rects3 = ax.bar(x - width / 2, unadjusted_DPR_counts, width, label='Unadjusted DPR Retriever', alpha=0.5, color="#1f77b4", hatch='//')
-rects4 = ax.bar(x + width / 2, unadjusted_openai_counts, width, label='Unadjusted OpenAI Retriever', alpha=0.5, color="#ff7f0e", hatch='//')
+rects3 = ax.bar(x - width / 2, unadjusted_DPR_counts, width, label='Unadjusted DPR Retriever', alpha=0.5, color='#1f77b4', hatch='//')
+rects4 = ax.bar(x + width / 2, unadjusted_openai_counts, width, label='Unadjusted OpenAI Retriever', alpha=0.5, color='#ff7f0e', hatch='//')
 
 # Add some text for labels, title and custom x-axis tick labels, etc.
 ax.tick_params(axis='y', labelsize=14)
@@ -360,36 +368,10 @@ plt.tight_layout()
 plt.show()
 #-----------------------------------------------------------------------------------------------------------------------
 
-
 # Print the answerability rates for each retriever and number of retrieved documents
-print("Answerability Rates: " + str(unadjusted_answerable_questions))
+print('Answerability Rates: ' + str(unadjusted_answerable_questions))
 for retriever, docs_counts in unadjusted_answerable_questions.items():
     print(docs_counts)
-    print(f"\nRetriever: {retriever}")
-    #for num_docs, rate in docs_counts.items():
+    print(f'\nRetriever: {retriever}')
     for num_docs, rate in docs_counts.items():
-        print(f"  Documents Retrieved: {num_docs}, Answerability Rate: {rate:.2f}%")
-
-total_num_tokens = 0
-for websupport_doc in df_full_websupport_dataset["Lösungsbeschreibung"]:
-    num_tokens = num_tokens_from_string(websupport_doc, encoding="cl100k_base")
-    total_num_tokens += num_tokens
-print(total_num_tokens / len(df_full_websupport_dataset))
-
-count_files = 0
-for filename in os.listdir(path + r"\testing_data\webhelp_articles"):
-    if filename.endswith(".txt"):
-        webhelp_article = open_file(path + r"\\testing_data\\webhelp_articles\\" + filename)
-        num_tokens = num_tokens_from_string(webhelp_article, encoding="cl100k_base")
-        total_num_tokens += num_tokens
-        count_files += 1
-print(total_num_tokens / count_files)
-
-# Print the final results
-for retriever, counts in answerable_questions_adjusted_scores.items():
-    print(f"Results for {retriever}:")
-    for num_docs, count in counts.items():
-        print(f"  Number of documents retrieved: {num_docs}, Relevant retrievals: {count}")
-    print()
-
-total_questions = len(df) / 2
+        print(f'  Documents Retrieved: {num_docs}, Answerability Rate: {rate:.2f}%')

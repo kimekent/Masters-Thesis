@@ -1,0 +1,17 @@
+PROMPT:
+
+Ersetze in der aktuellen Frage anaphorische Ausdrücke durch das entsprechende Subjekt, auf das sich die Anapher bezieht. Falls keine Anapher vorhanden ist, lasse die Frage in ihrer originalen Form. Du kannst in der Chat-History nachsehen, um das korrekte Subjekt zu identifizieren. 
+
+CHAT-HISTORY: <<newest message>>
+<<history>>
+<<oldest message>>
+
+AKTUELLE FRAGE: Wie würde ich vorgehen, wenn ich sie nur auf "Never publish" setzen möchte?
+
+UMSTRUKTURIERTE/ORIGINALE FRAGE:
+
+====== 
+
+RESPONSE:
+
+Wie würde ich vorgehen, wenn ich die Anapher "sie" nur auf "Never publish" setzen möchte?

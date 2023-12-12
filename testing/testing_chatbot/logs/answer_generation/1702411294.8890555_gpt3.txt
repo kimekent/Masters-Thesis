@@ -1,0 +1,402 @@
+PROMPT:
+
+Deine Aufgabe ist es, auf die folgende AKTUELLE FRAGE zu antworten. Gib mögliche Ratschläge zum beheben des Problems. Sei so konkret wie möglich.
+Verwende zur Beantwortung der FRAGE ausschliesslich die folgenden WEBHELP-ARTIKEL und die ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN. Vermeide das Hinzufügen von Informationen oder Eklärungen, die nicht in einem WEBHELP-ARTIKEL oder in den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN stehen.
+Antworte so kurz wie möglich, ohne dabei wichtige Informationen auszulassen. Vermeide bei der Antwort Wiederholungen.
+Achte darauf, welche Sprachversion der Website in der Frage erwähnt wird. Verwende zur Beantwortung der Frage, die Informationen aus den WEBHELP-ARTIKEL und den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN, die zur erwähnten Sprachversion passen. Wird keine Sprachversion erwähnt, handelt es sich um die deutsche Seite, nicht um die englische Seite.
+Lies immer alle WEBHELP-ARTIKEL und ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN durch. Die obersten ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN enthalten oftmals nicht die richtige Antwort.
+Sprich in der DU-Form.
+Verwende bei längerem Texten Aufzählungszeichen.
+Verlinke hilfreiche Webhelp-Artikel in der Antwort.
+
+CHAT-HISTORY: <<history>>
+
+AKTUELLE FRAGE: Ich habe bei folgender Website www.hslu.ch/de-ch/wirtschaft/weiterbildung/weiterbildungskurse/ibr/managementrefresher/ im Sitecore unter "Publish Options" die Publizierung auf heute 18.3. gesetzt, doch die Website ist heute nicht online. Könntet ihr dies bitte fuer mich vornehmen?
+
+ 
+
+ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN:
+Q: Nachdem wir heute ein E-Mailing versendet haben, wurde uns mitgeteilt, dass der Datenplan PDF (Datenplan Fachkurs Steuern Privatkunden) nicht richtig ist. Diesen habe ich im Sitecore nun ausgewechselt. 
+ 
+Darf ich hier um einen ausserordentlichen Publish bitten?
+ 
+Betrifft folgende Landing Page:
+<<link>>
+
+A: Die Publishing-Zeiten sind immer 00:05 Uhr und 12:05 Uhr. In seltenen, wirklich sehr dringenden Fällen ist es möglich, dass wir ein Publishing ausserhalb der üblichen Zeiten erzwingen können. In solchen Fällen bitte ein Mail an den [Websupport](mailto:websupport@hslu.ch) schicken. 
+ 
+Q: Ich habe am Freitag einen Agenda-Eintrag erstellt fuer das MSE-Kolloquium inkl. Anmeldeformular. Nun ist dieses aber nicht auf der Live-Seite ersichtlich. 
+Seht ihr wo dieses aktuell liegt oder warum es nicht publiziert wurde?
+
+ 
+A: Bei Agendaeinträgen ist zu unterscheiden, ob die Seite offline ist, oder ob der Agendaeintrag einfach nicht in der Filterliste aufgelistet wird. Mögliche Ursachen dafür, dass eine Seite nicht öffentlich ist findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm). Ausserdem kommt es bei  Agenda-Einträgen öfters vor, dass diese etwas länger haben, bis sie veröffentlicht werden.
+Voraussetzung dafür, dass ein Event in einer Filterliste erscheint, ist, dass der Agendaeintrag live ist.  
+Mögliche Ursachen dafür, dass ein Agendaeintrag live ist aber nicht der Filterliste aufgelistet wird : 
+1. Der Event ist keiner Organisationseinheit (OE) zugeordnet
+2. Falls es sich um eine Filterliste auf einer englischen Seite handelt, ist darauf zu achten, dass nur englische Seiten aufgeführt werden.
+3. Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit in der Filterliste. Ist sowohl Startzeit als auch Endzeit leer, dann bleibt der Event bis 00:00h in der Filterliste und im Call to Action Teaser.
+Q: Ich wollte soebenim Sitecore-Backend die englische Version des Luzerner Kongress Gesellschaftspolitik löschen, doch kam dann eine Sicherheitsfrage, wo die aktuelle Website 2023 abgefragt wird, siehe Print Screen. Nun bin ich mir nicht sicher, ob ich das wirklich löschen kann. Könntet Ihr dies bitte kurz anschauen und mir rueckbestätigen, ob ich korrekt vorgehe:
+
+A: Hier eine Anleitung wie Sprachversionen von Seiten gelöscht werden können: Den Content Editor starten (Ribbon-Menü > Campus > Backend):
+
+1) Im Item-Tree die entsprechende Seite wählen und im Ribbon Menü zum Tab Versions wechseln.
+
+2) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass eine deutsche und eine englische Version der Seite vorhanden sind.
+
+3) Durch klicken auf den grossen Sprachbutton zur löschenden Sprachversion wechseln (hier im Beispiel englisch).
+
+4) Auf den Button Remove klicken.
+
+5) Es erscheint ein Warnhinweis, ob die Version entfernt werden soll. Wenn Sie sicher sind, auf OK klicken.
+
+6) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass die englische Version gelöscht wurde. Bei Englsh:Englisch steht 0 versions.
+Q: Aktuell arbeite ich die Übersetzungen der IKM-Webseiten in Sitecore ein. Auf unserer Webseite "Alle Weiterbildungen" werden in der englischen Version keine Ergebnisse in der Filterliste angezeigt: <<link>>
+Könntest du mir hier eventuell weiterhelfen?
+ 
+A: Bei Agendaeinträgen ist zu unterscheiden, ob die Seite offline ist, oder ob der Agendaeintrag einfach nicht in der Filterliste aufgelistet wird. Mögliche Ursachen dafür, dass eine Seite nicht öffentlich ist findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm). Ausserdem kommt es bei  Agenda-Einträgen öfters vor, dass diese etwas länger haben, bis sie veröffentlicht werden.
+Voraussetzung dafür, dass ein Event in einer Filterliste erscheint, ist, dass der Agendaeintrag live ist.  
+Mögliche Ursachen dafür, dass ein Agendaeintrag live ist aber nicht der Filterliste aufgelistet wird : 
+1. Der Event ist keiner Organisationseinheit (OE) zugeordnet
+2. Falls es sich um eine Filterliste auf einer englischen Seite handelt, ist darauf zu achten, dass nur englische Seiten aufgeführt werden.
+3. Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit in der Filterliste. Ist sowohl Startzeit als auch Endzeit leer, dann bleibt der Event bis 00:00h in der Filterliste und im Call to Action Teaser.
+Spezifisch für Englische Seiten git: In englischen Filterlisten werden nur diejenigen Kurse angezeigt, die eine englische Version haben. Damit ein Event oder Kurs in der englischen Filterliste erscheint, muss die Seite des Events oder Kurses in einer englischen Version existieren.  Bitte keine englischen Versionen von Seiten anlegen, wenn diese nicht auch übersetzt werden, das wäre fuer die englische User Experience schlecht.
+Q: Kann ich meine Seiten zwischen den offiziellen publishing Zeiten nochmals aktualisieren?
+ 
+A: Alle Mitarbeiter/innen von M&K verfügen über die Rechte von Publish My Changes. Damit können eigene Anpassungen, die auf der Website gemacht wurden um 10.00, 15.00 und 17.00 Uhr veröffentlicht werden.
+Publish My Changes erreichst du ueber "Desktop" (auf Startseite Sitecore). Anschliessend klickst du unten links auf das Sitecore-Logo und wählst dort "Publish My Changes" aus. Danach kannst du mehrmals auf "Nächstes" klicken und deine Änderung auswählen, die zum nächsten veröffentlichungszeitpunkt live geschalten werden sollten.
+ 
+Q: 
+ ich habe ein Problem mit der Sichtbarkeit einer Anmeldeseite im Web.
+ Diese Seite <<link>> soll NICHT im Web erscheinen, da wir sie nur intern verteilen wollen.
+ Nun habe ich in sitecore bereits in der Navigation alle Hökeli entfernt, weiss aber nicht, ob das reicht. Noch ist sie auffindbar, wenn ich HSLU örtli Ophtha Lab google.
+ Wird das auch erst nach dem Mittag verschwinden? Muss ich im Backend nochwas machen (Veröffentlichung, Navigation virtual)?
+ Danke fuer Eure Hilfe!
+ 
+A: Um eine Seite von externen Suchmaschinen auszuschliessen muss in Sitecore die Option "Hide form Search Engine" gewählt werden.
+Wenn das bei neu publizierten Seiten nicht von Anfang gemacht wird, dann wird eine Seite in jedem Fall von Suchmaschinen indexiert. Wenn man diese Option nachträglich erfasst, wird diese bei der nächsten Google Indexierung aktiv. Dies kann aber einige Tage bis zu einer Woche dauern.
+Die Option "Hide from Search Engine" findest du im Content Editor unter Site Meta Data:
+ 
+ 1) Im Content-Tree zur entsprechenden Seite navigieren.
+
+2) Rechts im Content-Bereich unter Site Meta Data können die Meta-Daten bearbeitet werden.
+
+3) Nach Eingabe, die Daten mit ctrl + s sichern. 
+
+Weitere Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_site_meta_data_content_editor.htm)
+Q: Ich habe vor paar Tagen eine Datei aktualisiert auf der Webseite <<link>> 
+Nun wollte ich sie ueberpruefen, aber sie ist vom Internet verschwunden, nur in Sitecore sehe ich sie. 
+
+A: Dies könnte mit den publish Einstellungen zusammenhängen.
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird.
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert. "Never publish" wirkt sich auch auf alle darunterliegenden Seiten aus.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+ 
+Q: Auf folgender Website Public and Nonprofit Management | Hochschule Luzern (hslu.ch) habe ich ganz unten eine Linkliste eingefuegt und habe alle drei Links mit "Ziel: Neuer Browser" gespeichert, doch leider öffnet sich auf der Website keine neue Seite, wenn man den Event öffnet. Könnt ihr mit bitte helfen?
+
+A: Bei internen Verlinkungen wird kein neues Fenster geöffnet. Das dient der User Experience, vor allem Bei der Nutzung von mobilen Geräten.
+Bei externen Verlinkungen wird der Link in einem neuen Tab geöffnet. Dies aus dem Grund, da wir Die User sonst verlieren.
+Q: Auf der Webseite www.hslu.ch/dba ist X (Studienleiter) plötzlich verschwunden. Er wäre oberhalb von Y platziert. Ich muss morgen ein Mailing rauslassen und dann muss die Webseite einwandfrei sein. Könnt ihr mir da behilflich sein und schauen, dass Ingo wieder angezeigt wird? Und wisst ihr warum er plötzlich nicht mehr erscheint?
+A: Wenn Elemente von der Seite verschwinden, kann es an den publish Einstellungen liegen oder die Elemente wurden nur in der englischen Version erfasst. 
+Die Publishing Einstellungen können so geprüft werden: Element anklicken und das Edit-Icon auswählen. Im neuen Fenster können unter anderem unter Publish / Unpublish die Publish Einstellungen bearbeitet werden. Mehr dazu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm)
+Auf einer DE und EN  Seite müssen immer die gleichen Elemente platziert werden. Sonst wird die englische Version immer von der deutschen überschrieben.
+
+ 
+Q: Bei folgender Website ist das Moodboard Bild nicht ersichtlich, obwohl es im Sitecore ersichtlich ist:
+Beratungsstelle fuer Mitarbeitende und Fuehrungskräfte | Hochschule Luzern (hslu.ch)
+Ich muss diese Website heute liefern und ich kann sie dem Team nicht ohne das Bild abgeben.
+
+ 
+A: Falls ein Moodboard Slide schon erstellt wurde, jedoch das Moodboard nicht angezeigt wird, liegt es oftmals daran, dass der Slide noch nicht der Seite zugewiesen wurde: 
+Im Experience Editor zur gewünschten Seite navigieren und im Ribbon-Menü auf Campus > Page Options klicken. Im Data Bereich unter Moodboard können die Slides zugewiesen werden (Für Desktop und Mobile separat).
+ 
+-Im linken Bereich "Moodboard Slides" das Slide in der Baumstruktur auswählen und durch den Pfeil-Button der Seite zuweisen und OK klicken. Alle der Seite zugewiesenen Slides werden im rechten Bereich "Selected" aufgelistet.
+
+-Im linken Bereich "Moodboard Slides (Mobile)" das Slide in der Baumstruktur auswählen und durch den Pfeil-Button der Seite zuweisen und OK klicken. Alle der Seite zugewiesenen Slides werden im rechten Bereich "Selected" aufgelistet.
+
+
+2) Anschliessend im Page-Editor auf Speichern Sitecore_btn_window_save klicken.
+ https://applsupport.hslu.ch/webhelp/hm_eigene_und___oder_shared_slide.htm?zoom_highlightsub=mood+board
+Auserdem ist bei den Moodboard darauf zu achten, dass für mobile Moodboards ein seperates Bild hochgeladen werden muss (andere Abmessungen) und dann auch der Seite zugewiesen werden muss. 
+ 
+Q: Bei uns im Team soll in Zukunft eine weitere Person das Web betreuen können.
+Könnt ihr mir Daten der nächsten Sitecore-Schulungen senden oder sagen, wo diese zu finden sind?
+ 
+A: Informationen zur Schulungsanmeldungen findest du hier: https://inside.hslu.ch/mk/Seiten/InfoWiki/Webseite.aspx
+ 
+Q: Leider weiss ich nicht, warum dieser Artikel nicht zu publizieren ist:
+ <<link>>
+ Könnt ihr mir weiterhelfen?
+ 
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Im Sitecore habe ich per heute zwei News erstellt:
+Leider gibt es bei beiden Bildern eine Fehlermeldung. An wen darf ich mich wenden?
+ 
+A: Um Fehlermeldungen bei Bildern zu vermeidern, muss das Bild auf die richtige Grösse zugeschnitten werden, progressiv gespeichert werden und ohne Sonderzeichen benannt werden (Umlaute und Klammern sind z.B. nicht erlaubt).  
+- Die Maquetten visualisieren, zu welchem Format ein Bild zugeschnitten werden muss. Zudem findest du hier eine Auflistung aller Bildergrössen: [https://applsupport.hslu.ch/webhelp/index.html?hm_maquetten.htm](https://applsupport.hslu.ch/webhelp/index.html?hm_maquetten.htm)
+- Hier steht beschrieben, wie die Bilder aufbereitet werden müssen: [http://applsupport.hslu.ch/web12/index.html?hm_photoshop.htm](http://applsupport.hslu.ch/web12/index.html?hm_photoshop.htm)
+- Hier die Anleitung zur Namenskonvention [https://applsupport.hslu.ch/webhelp/index.html?hm_präfixe_dateinamen.htm](https://applsupport.hslu.ch/webhelp/index.html?hm_präfixe_dateinamen.htm)
+ 
+Q: Ich wollte unter dem unten angegebenen Pfad im sitecore  myCampus eine Änderung vornehmen, doch scheine ich keine Schreibrechte zu haben (vgl. unten).
+Müsste ich mich diesbezüglich an die Informatik-Hotline wenden?
+A: Die Berechtigungen in Sitecore sind via Bereiche (sprich bei uns Departemente) definiert. Sobald du auf einer Seite bist, die  zu deinem Departement gehört sollte diese Meldung verschwinden. Schreibrechte werden vom Service Desk vergeben (servicedesk@hslu.ch).
+
+Q: Ich kann mich nicht ins Sitecore einloggen. Wie geht das?
+
+ 
+A: Das Login ist das normale HSLU-Login, man muss aber immer campus\ vor den Benutzernamen schreiben
+- Login-Seite Live: [https://stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)
+- Login-Seite Schulungsumgebung: [https://int-stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)"
+Q: soebenhabe ich 2 Infoveranstaltungen fuer das CAS Online Shop and Sales Management aufgeschaltet.
+Eigentlich sollten die beiden Infoveranstaltungen (spezifisch fuer das CAS OSM am 24.06. und 30.06.) auch auf der CAS Info Seite OSM aufgeschaltet sein.
+Nach meiner Meinung sollte dies mit dieser Auswahl bestätigt sein:
+ 
+Jedoch erscheinen die beiden Infoveranstaltungen nicht. Wo genau liegt der Fehler?
+Könnt ihr mir da weiterhelfen?
+
+ 
+A: Bei Agendaeinträgen ist zu unterscheiden, ob die Seite offline ist, oder ob der Agendaeintrag einfach nicht in der Filterliste aufgelistet wird. Mögliche Ursachen dafür, dass eine Seite nicht öffentlich ist findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm). Ausserdem kommt es bei  Agenda-Einträgen öfters vor, dass diese etwas länger haben, bis sie veröffentlicht werden.
+Voraussetzung dafür, dass ein Event in einer Filterliste erscheint, ist, dass der Agendaeintrag live ist.  
+Mögliche Ursachen dafür, dass ein Agendaeintrag live ist aber nicht der Filterliste aufgelistet wird : 
+1. Der Event ist keiner Organisationseinheit (OE) zugeordnet
+2. Falls es sich um eine Filterliste auf einer englischen Seite handelt, ist darauf zu achten, dass nur englische Seiten aufgeführt werden.
+3. Start-Zeit-Problematik: Der Event bleibt solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bis die Startzeit erreicht wird. Ist die Startzeit leer, dann bis 00:00h.
+Q: Noch eine Frage hierzu
+ Wie lange dauert die Aktualisierung mit "Publish my Changes"?
+ 
+A: Alle Mitarbeiter/innen von M&K verfügen über die Rechte von Publish My Changes. Damit können eigene Anpassungen, die auf der Website gemacht wurden um 10.00, 15.00 und 17.00 Uhr veröffentlicht werden.
+Publish My Changes erreichst du ueber "Desktop" (auf Startseite Sitecore). Anschliessend klickst du unten links auf das Sitecore-Logo und wählst dort "Publish My Changes" aus. Danach kannst du mehrmals auf "Nächstes" klicken und deine Änderung auswählen, die zum nächsten veröffentlichungszeitpunkt live geschalten werden sollten.
+ 
+Q: Ich erstelle eine neue Unterseite und konnte den Never Publish button nirgends finden.
+Könnt ihr bitte folgende Seite unsichtbar machen? <<link>>
+
+A: Den "Never Publish" Button findest du im Experience Editor unter Campus > Publish Options. Hier noch den Link zum Webhelp-Artikel: [https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm)
+ 
+Q: 
+ Gerne wuerde ich die Seite «Chronologie» <<link>>  uns all ihre Unterseiten» verschieben und zwar, dass Sie eine Unterseite von «Jubiläumsschrift» <<link>> ist. Kann ich das im Backend einfach so verschieben oder muss ich etwas beachten? Die Seiten sind allesamt noch nicht publiziert. 
+ Nina hat mir heute gesagt, dass dies möglich ist. Sorry wenn ihr mir das zum gefuehlt 1000sten Mal erklären muesst, hab ich bisher noch nie gemacht. 
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu verschieben kann so vorgegangen werden:
+1) Auf die zu verschiebende Seite navigieren und Im Ribbon-Menü den Befehl "Home > Move Page" aufrufen.
+2) Im Dialog Zielseite anwählen und mit "Move" bestätigen.
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_verschieben.htm)
+Q: In Sitecore lässt sich die Funktion 'Insert Weiterbildung' schon seit geraumer Zeit nicht mehr finden. 
+ Anstelle dessen gibt es die Funktion 'Insert Page', welche jedoch eine nur gering formatierte Seite eröffnet (siehe angehängtes PDF).
+ Was mache ich falsch?
+A: Spezialseiten, wie Aus- und Weiterbildungsseiten oder News-Seiten, können nur an gewissen Orten eingefügt werden:
+[Ausbildung Einfügpunkte](https://applsupport.hslu.ch/webhelp/index.html?hm_template_ausbildung.htm)
+[Weiterbildung Einfügpunkte](https://applsupport.hslu.ch/webhelp/index.html?hm_weiterbildung_einfuegen.htm)
+[News Einfügpunkte](https://applsupport.hslu.ch/webhelp/index.html?hm_news_einfuegen.htm)
+[Agendaeintrag Einfügpunkte](https://applsupport.hslu.ch/webhelp/index.html?hm_veranstaltung_erfassen.htm)
+Q: Auf dieser Seite ist die Darstellung der Beiträge (siehe ganz unten) verschoben. Ich habe keine Ahnung wie ich das Rueckgängig machen kann. Könntet ihr dies bitte mal ueberpruefen?
+ <<link>>
+A: [Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: Ich bin dabei, die neue WIT-Seite einzupflegen. Sie ist momentan komplett auf unpublished gestellt. 
+Leider klappt die Vorschau nicht, wenn ich sehen will, wie es aussehen wird (bes. bei Tabellen). Es springt mir immer auf irgendeine Hauptseite von T&A zurueck.
+Muss da von Eurer Seite vielleicht irgendwo eine Einstellung gemacht werden?
+ 
+A: Wenn die Seite auf Never Publish ist, kann keine Vorschau angesehen werde, da die Vorschau jeweils zeigt, wie es nach dem nächsten Publizieren aussehen würde. 
+Du kannst entweder kurz Never Publish rausnehmen und nachher wieder reintun oder (etwas weniger heikel weil man das Zurückstellen oft vergisst) das Publishing-Datum in die Zukunft stellen und dann bei der Vorschau eine Zeit in der Zukunft angeben.
+ 
+Q: 
+ Ich hatte den Auftrag erhalten eine Veranstaltung aufs Web zu stellen.
+ Die Seite habe ich erstellt und dann gesehen, dass die Seite schon existiert
+ Jetzt möchte ich meine Seite natuerlich wieder löschen:
+ 
+ Kann ich das einfach ueber diesen Button machen oder wie muss ich vorgehen?
+ 
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu löschen kann so vorgegangen werden:
+ 1) Auf die zu löschende Seite navigieren und im Ribbon-Menü den Befehl "Home > Delete Page" aufrufen.
+2) Den Warnhinweis lesen und gegebenenfalls auf OK klicken.
+3) Zeigen Links auf dieses Seite, erscheint ein weiteres Hinweisfenster. Es muss entschieden werden, was mit diesen Linkst geschehen soll 
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm)
+Q: Das Seminar Storytelling vom 19.03.2015 ist vorbei und ich wollte heute die Seminarseite auf dem Web12 mit dem Status "Never Publish“ versehen. 
+Nun meine Frage: Wenn ich die Hauptseite Storytelling mit "Never Publish“ pflege, was passiert dann mit den Links und mit der Übersichtsseite
+unter der Rubrik "Wirtschaft, Weiterbildungen, Seminare“: Dort erscheint mir immer noch das Seminar Storytelling
+A: Wenn eine Seite auf "Never Publish" gesetzt wird, werden alle Links, die automatisch entstehen auch automatisch gelöscht. 
+Alle Links, die von Hand auf eine bestimmte Seite gesetzt wurden, müssen du manuell entfernt werden. 
+ 
+Q: Ich hätte gerne auf den Webseiten des International Office (diese und alle "Unterseiten": <<link>> die Funktion "Co-Leiter International Office", aber auf allen anderen Webseiten sollte ich "Co-Leiter CC Public & Nonprofit Management" sein (so wie hier: <<link>> 
+ Es sieht aus, wie wenn das geht (siehe oben). Falls das nicht geht, wäre ich froh, wenn ihr beide Funktionen auffuehren könntet.
+ Es geht ja auch ganz spezifisch wie hier: <<link>> 
+ 
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden soll, müssen das folglich die  die Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) übersteuert werden. Dazu muss das Element Kontaktperson-Element (manuell) verwendet werden. Bei diesem Element können alle Daten zum Kontakt manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: 
+ Madeleine hat mir die Unterlagen fuer die Erstellung einer Seite im Website fuer den Edig. Fachausweis öffentliche Verwaltung gegeben.
+ Tiziana hatte ihr gesagt, dass ich die Seite erstellen kann und dann etwas machen kann, damit diese noch nicht veröffentlicht wird.
+ Könnt ihr mir bitte sagen, wie ich das machen kann?
+ 
+A: Wenn eine Seite live auf der Website nicht angezeigt werden sollte, hat man Im Page Editor unter Campus > Publish Options zwei Möglichkeiten:
+1. Du setzt ein Datum, an dem die Seite veröffentlicht werden soll
+2. Du aktivierst die Checkbox "never publish". Dann musst du einfach, sobald die Seite veröffentlicht werden soll, die Checkbox wieder deaktivieren. Achtung: Alle Untergeordneten Seiten werden auch nicht sichtbar sein.
+Zu beachten: Falls die Seite bei Google bereits indexiert wurde, bleibt die Seite weiterhin dort aufgeführt,und die Klicks führen dann ins Leere. Bei beliebten Seiten mit viel Aufrufen, sollte daher bei Bedarf eine Umleitung eingerichtet werden.
+Mehr Infos dazu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm)
+ 
+Q: Fuer die Werkschau gibt es auf Sitecore jeweils eine separate Seite bei der Agenda zusätzlich zu den Agenda Einträgen. In diesem Jahr möchten wir möglichst wenig Doppelungen und deshalb möchten wir gerne alle Infos auf der Plattform wwwerkschau platzieren. Ist es möglich, dass man auf der regulären hslu.ch-Domain eine virtuelle Navigation setzen kann direkt zu dieser Plattform ( <<link>>
+ 
+A: In der Navigation (virtuell oder real) können nur interne Seiten eingefügt werden. Mehr Infos dazu [hier](https://applsupport.hslu.ch/webhelp/hm_virtueller_navigationseintrag.htm).
+ 
+Q: 
+ Kann es sein, dass ich hier unter Facts z.T. keine Anpassungen vornehmen kann? <<link>>
+ 
+ Hier muesste anstelle von "Kommunikation" neu "Kommunikationsmanagement" stehen. 
+ Könntet ihr diese Anpassung bitte vornehmen?
+ 
+A: In der Factsliste können gewisse Felder nicht manuell überschrieben werden. Diese Informationen kommen aus dem Evento. Wenn es in Evento nicht korrekt hinterlegt ist, wird es nicht korrekt auf der Website ausgespielt. Die Anpassung muss daher in Evento vorgenommen werden.
+Q: Wir haben soebenfestgestellt, dass es von allen unseren Produkteseiten (WB, Konferenzen, Seminare) und Themenseite bzw. alle IFZ Seiten eine englische Seite generiert hat. Könnt Ihr dies pruefen, ob dies durch das Update von letzter Woche verursacht wurde und, ob ihr das rueckgängig machen könnt? Damit wir dies nicht manuell anpassen müssen.
+
+A: Ist man im Experience Editor im englischen Sprachkontext unterwegs, kann fast unbemerkt eine englische Seite erstellt werden passieren. Dies kann auch geschehen, wenn jemand im Backend im englischen Sprachkontext (Versionen > English) unterwegs ist! Wird in diesem Fall irgend eine Seite angeklickt und anschliessend in den Experience Editor gewechselt (Veröffentlichen > Experience Editor), wird provisorisch eine englische Sprachversion der Seite erstellt. Achtet bitte auf den Magenta Sprachhinweis. Danach genügt ein einfaches Editieren der Seite (zum Beispiel den Titel anpassen) und nach dem Speichern besitzt die Seite definitiv eine englische Sprachversion. Darum muss man immer darauf achten, unter welchem Sprachkontext man arbeitet! Am besten wechselt man nach dem Editieren einer englischen Seite die Sprache sofort wieder auf Deutsch.
+
+Q: 
+ Bei uns an der Forschung D&K gibt es in der Webredaktion einen Stellenwechsel. Wie kann sich Tobias fuer den obligatorischen Webredaktionkurs anmelden? Ich habe im Intranet nichts gefunden.
+ 
+A: Informationen zur Schulungsanmeldungen findest du hier: https://inside.hslu.ch/mk/Seiten/InfoWiki/Webseite.aspx
+ 
+Q: Ich habe ein Angebot CAS Eigenverbrauchsoptimierung dummerweise verschoben und dadurch funktioniert der Link nicht mehr, der gestern mit einem Massenmail versandt wurde!! 
+<<link>>
+ 
+Das Angebot ist unter Technik-Architektur, Weiterbildung, Technik hochgeladen. Wir bitten dringend um eure Hilfe, dass dies so schnell als möglich und nicht erst am Mittag aktualisiert wird.
+
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Q: 
+ könntet ihr diese Seite (EN):
+ <<link>>
+ bitte auf diese hier (DE): 
+ <<link>>
+ umleiten? 
+ Die englische Seite wird nicht mehr benötigt, ich wuerde sie dann unpublishen sobald die Umleitung vorgenommen wurde.  
+A: Wenn es sich nur um englische Versionen handelt, müssen keine Weiterleitungen eingerichtet werden, da automatische die deutsche als Backup erscheint, falls jemand noch eine englische URL vorliegen hätte. Du kannst die Versionen einfach löschen.
+ 
+ 
+Q: Ich habe versucht eine neue Seite zu erstellen. Jedoch mit mässigem Erfolg:
+ <<link>> 
+In der Bearbeitungsansicht hatte die Seite immer die volle Breite, in der veröffentlichten Version jedoch nicht. Nun ist diese in zwei Spalten aufgeteilt. In der Webhelp habe ich versucht die Lösung zu finden, kenne aber scheinbar die korrekten Stichworte nicht.
+Könnt ihr mir helfen die Seite normal darzustellen?
+ 
+A: Falls ein Rich Text Teaser / Manueller Teaser verwendet wurde, ist darauf zu achten, dieser bei einer 100% Einstellung ab ca. drei Zeilen Text immer zweispaltig angezeigt wird. Fuer einspaltigen Fliesstext kann das Element "Formatierter Text mit Bild" verwendet werden. Dieser funktioniert auch ohne Bild. In diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm) findest du ganz zuunterst noch eine Auflistung welche Text-Elemente dopptelspaltig und welche einspaltig dargestellt werden.
+Q: Vom Weiterbildungsangebot CAS Agile Project Engineering habe ich nachträglich eine englische Seite/Version erstellt. 
+Wie bringe ich den Hinweis (Only in German) gezielt weg? Also konkret z.B. bei den beiden pdf-Dateien Schedule und Flyer, die original schon immer in Englisch waren. Habe Versuche gemacht, in dem ich z.B. den Stundenplan 1x als Stundenplan und einmal als Shedule in die Media Library hochgeladen habe. Dies hat aus meiner Sicht nicht funktioniert. In der Anleitung habe ich zu "meinen Fall" auch nicht wirklich etwas Passendes gefunden.
+ Erbitte Support (Schedule und Flyer ohne German-Hinweis).
+ 
+ 
+A: Damit der Hinweis "only in German" verschwindet, musst du in der Media Library vom Dokument eine englische Version anlegen. In der Media-Library ist es möglich, von einem Bild- oder Dokument-Item auch eine Sprachversion (EN) zu erstellen. So kann kann z.B. bei einem PDF-Item in der englischen Version auch ein englisches Dokument hochgeladen werden. Wird solch ein File-Item, zum Beispiel mit einer Link und Download Liste verlinkt, stellt Sitecoreautomatisch das richtige Dokument (PDF) entsprechen der aktuellen Sprache zur Verfügung. Dazu musst du in der Media Library in demselben Item, indem sich die deutsche Version befindet, die Sprache oben Rechts wechseln und dann das englische Dokument dort anhängen. Mehr dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_file-item-englische-version-er.htm)
+Q: 
+ Ich arbeite ja schon länger mit Sitecore und wollte einfach nochmals nachfragen, um sicherzugehen Ein grosses Bild einzufuegen ist nicht möglich, oder?
+ 
+A: Die Bildergrössen sind je nach Item fix und müssen auch dementsprechend zugeschnitten werden. Grössere Bilder können nicht einfach so eingefuegt werden.
+ Das Item Bildergeschichte erlaubt es dir aber ein relativ grosses Bild einzufuegen. https://applsupport.hslu.ch/webhelp/hm_bildergeschichte.htm
+Ausserdem ist es bei den Teasern möglich, durch das Popup Framework, Bilder einzufügen, die beim Draufklicken grösser dargestellt werden. 
+Zudem kann beim "mauellen Teaser" die Breite von 50% auf 100% umgestellt werde (ganz unten bei den Einstellungen).
+
+Q: Ich habe heute fuer die uebergeordnete Smart-up Seite eine englische Version erstellt. Leider ist mir dabei ein kleiner Fehler unterlaufen und ich habe versehentlich fuer die deutsche Fassung der Seite eine zweite Version erstellt, statt einfach die Sprache zu wechseln. DieÜbersetzungen habe ich korrekterweise auf der englischen Seite vorgenommen, aber ich weiss nun nicht, wie ich die ueberfluessige 2. Version der deutschen Seite löschen kann. Könnt ihr mir hier bitte helfen?
+ Es handelt sich um diese Seite:
+ <<link>>
+ Merci im Voraus und sorry fuer den Mehraufwand!
+ 
+A: Um die Version zu löschen gehst du am besten im Backend auf die entsprechende Seite. Dort unter "Versionen" siehst du welche Versionen dieser Seite existieren. Mit "Entfernen" kannst du dann die ueberfluessige Zweite löschen. Wichtig ist einfach, dass du bei Sprache "German (Switzerland)" ausgewählt hast und bei Versionen die "Version 2". Wenn du die richtige ausgewählt hast sollte auch die Warnung erscheinen:" Sind Sie sicher, dass Version 2 entfernt werden soll?". Das kannst du schlussendlich noch mit ok bestätigen.
+ 
+Q: Ich kriege es nicht hin, diesen Text im live 100%-ig abzubilden:
+ 
+ sitecore: 
+ Obwohl er im Backend auf 100% gestellt ist erscheint er live 50%-ig.
+ 
+ 
+A: Falls ein Rich Text Teaser / Manueller Teaser verwendet wurde, ist darauf zu achten, dieser bei einer 100% Einstellung ab ca. drei Zeilen Text immer zweispaltig angezeigt wird. Fuer einspaltigen Fliesstext kann das Element "Formatierter Text mit Bild" verwendet werden. Dieser funktioniert auch ohne Bild. In diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm) findest du ganz zuunterst noch eine Auflistung welche Text-Elemente dopptelspaltig und welche einspaltig dargestellt werden.
+Q: Ich habe soebendie Weiterbildungsseite der Informatik übersetzt und dabei habe ich gesehen, dass die Filterliste nur zwei WB-Angebote anzeigt. Ich kann es mir aktuell nicht erklären. Können wir das so rasch wie möglich bitte zusammen anschauen? Eigentlich sollten hier nämlich alle WB-Angebote aufgelistet sein, analog der deutschen Seite.
+A: Bei Agendaeinträgen ist zu unterscheiden, ob die Seite offline ist, oder ob der Agendaeintrag einfach nicht in der Filterliste aufgelistet wird. Mögliche Ursachen dafür, dass eine Seite nicht öffentlich ist findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm). Ausserdem kommt es bei  Agenda-Einträgen öfters vor, dass diese etwas länger haben, bis sie veröffentlicht werden.
+Voraussetzung dafür, dass ein Event in einer Filterliste erscheint, ist, dass der Agendaeintrag live ist.  
+Mögliche Ursachen dafür, dass ein Agendaeintrag live ist aber nicht der Filterliste aufgelistet wird : 
+1. Der Event ist keiner Organisationseinheit (OE) zugeordnet
+2. Falls es sich um eine Filterliste auf einer englischen Seite handelt, ist darauf zu achten, dass nur englische Seiten aufgeführt werden.
+3. Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit in der Filterliste. Ist sowohl Startzeit als auch Endzeit leer, dann bleibt der Event bis 00:00h in der Filterliste und im Call to Action Teaser.
+Spezifisch für Englische Seiten git: In englischen Filterlisten werden nur diejenigen Kurse angezeigt, die eine englische Version haben. Damit ein Event oder Kurs in der englischen Filterliste erscheint, muss die Seite des Events oder Kurses in einer englischen Version existieren.  Bitte keine englischen Versionen von Seiten anlegen, wenn diese nicht auch übersetzt werden, das wäre fuer die englische User Experience schlecht.
+Q: Auf <<link>> möchte ich den umrandeten Call-to-actrion-Teaser «unpublishen», weil er im Moment keinen Inhalt hat. Auf das Herbstsemester hin wird sich das wieder fuellen und deshalb möchte ich ihn nicht löschen, sondern nur voruebergehend nicht anzeigen. Ich habe aber nicht herausgefunden, wo/wie ich das unpubish definiere analog zu
+ 
+A: Der Call to Action Teaser kann leider nicht ein- und ausgeblendet werden. Wenn er nicht mehr sichtbar sein soll, muss man ihn löschen und wieder neu hinzufuegen.
+ 
+Q: gerade wollte ich auf der Robotics Seite <<link>> eine Bildergallerie einfuegen, allerdings sagt mir Sitecore, dass ich dazu keine Rechte habe.
+ Ich habe die Seite ja angelegt und mit inhalt befuellt, wieso kann ich jetzt keine Gallerie einfuegen?
+ Ist leider dringend, da die Seite diese Woche live gehen muss.
+ 
+A: Du musst einen Unterordner anwählen, du kannst nicht auf der obersten Ebene eine Bildergalerie anlegen. 
+Q: Bei den Sprachversionen in Sitecore komme ich noch nicht ganz klar.
+Weshalb erhalte ich auf der folgenden Seite in der rechten Sidebar unter «Links» die Meldung «Only in German», obwohl dies nicht stimmt und die Dokumente / Links in englischer Sprache vorhanden sind?
+ <<link>>
+ Zudem verstehe ich den folgenden Zeilenumbruch nicht:
+ 
+ «Indepth» sollte auf der nächsten Zeile erscheinen und nicht getrennt werden. Im Backend ist dies nicht so ersichtlich.
+ Danke fuer euer Feedback und 
+A: Damit der Hinweis (only in German) verschwindet, musst du in der Media Library vom Dokument eine englische Version anlegen.  In der Media-Library ist es möglich, von einem Bild- oder Dokument-Item auch eine Sprachversion (EN) zu erstellen. So kann kann z.B. bei einem PDF-Item in der englischen Version auch ein englisches Dokument hochgeladen werden. Wird solch ein File-Item, zum Beispiel mit einer Link und Download Liste verlinkt, stellt Sitecore automatisch das richtige Dokument (PDF) entsprechen der aktuellen Sprache zur Verfügung. Dazu musst du in der Media Library in demselben Item, indem sich die deutsche Version befindet, die Sprache oben Rechts wechseln und dann das englische Dokument dort anhängen. 
+Q: Ich habe eine Frage zum manuellen Teaser: fuer die online Info-Veranstaltung an der I, schalte ich einen Teaser mit der Grafik vom Programmablauf auf. Wenn ich jedoch die englische Grafik einsetze, zeigt es mir bei der deutschen Version die Grafik nicht mehr an. Könnt ihr mir hier weiterhelfen?
+ 
+A: Sprachversionen gibt es nicht nur für Seiten sondern auch für Elemente und Datein. 
+- Wenn ein Element auf der englischen Seite einen anderen Text enthalten soll, muss zuerst eine englische Version dieses Elements erstellt werden.
+- Damit auf der englischen Seite das englische Bild dargestellt wird, muss in der Media Library eine englische Version der Grafik hinterlegt werden. Dann wird auf der Seite die Grafik der Sprache nach gewechselt.
+ Mehr dazu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_sprachversion.htm)
+Q: Die Vorkurs-Seite "Grundlagen der Gestaltung“ ist nun durch eine virtuelle Navigation in der Weiterbildung verlinkt.
+ 
+<<link>>
+verlinkt in:
+<<link>>
+ 
+Nun ist der Kurs in der Flyoutnavigation verklinkt, erscheint aber nicht in der Filterliste.
+ 
+Samuel Frei (zuständig Weiterbildung) hat mir vorgeschlagen, ich könnte folgendes probieren (siehe unten).
+Bevor ich das mache, wollte ich wissen, ob ich es DARF machen:-) und ob es funktioniert.
+
+A: Voraussetzung dafür, dass eine Seite in eine Filterliste aufgenommen wird, ist dass diese online ist. Mehr dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm). 
+Spezifisch bei Aus- und Weiterbildungslisten, ist eine weitere Voraussetzung, dass der richtige Seitentyp ausgewählt wurde. In Aus- und Weiterbildungslisten, werden nur [Aus-](https://applsupport.hslu.ch/webhelp/index.html?hm_ausbildung_einfuegen.htm) bzw. [Weiterbildungsseiten](https://applsupport.hslu.ch/webhelp/index.html?hm_weiterbildung_einfuegen.htm) aufgelistet.
+Ausserdem müssen alle Angaben auf der Produktseite ausgefüllt wurden. Bei Weiterbildungsseiten z.B. die Programmart.
+Q: Wir möchten gerne im Hinblick auf die Einfuehrungswochen einen Smart-up Wettbewerb machen. Ist es möglich, im Sitecore eine solche Landingpage zu erstellen, welche ansonsten auf der Website nicht ersichtlich ist?
+ 
+A: In den Navigations Options einer Seite kann definiert werden welche Seiten in der Flyout-Navigation, in der Side-Navigation und in den Breadcrumbs angezeigt werden sollten und welche nicht. Mehr Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/hm_navigations_options-ribbon.htm?zoom_highlightsub=navigation+option)
+ 
+Q: Die MSc IFM-Produktsite (DE wie EN) erfährt in der nächsten Woche einen umfassenden Update (vgl. Attachement (EN))
+Wie gehen wir das betr. Umleitung am besten an, wie sieht unser HSLU-Prozess dazu aus?
+ 
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu löschen kann so vorgegangen werden:
+ 1) Auf die zu löschende Seite navigieren und im Ribbon-Menü den Befehl "Home > Delete Page" aufrufen.
+2) Den Warnhinweis lesen und gegebenenfalls auf OK klicken.
+3) Zeigen Links auf dieses Seite, erscheint ein weiteres Hinweisfenster. Es muss entschieden werden, was mit diesen Linkst geschehen soll 
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm)
+Q: 
+ Meine Sitecore Arbeitsfläche wird plötzlich auf Englisch angezeigt. Wo kann ich dies umstellen?
+ 
+A: Um die Spracheinstellung zu ändern musst du im Control Panel auf Desktop gehen:
+ 
+ Dann unten auf das Sitecore-Symbol klicken und dann auf das Control Panel
+ 
+ Dort kannst du unter Präferenzen>Regionale und Sprachoptionen einstellen die Spracheinstellung ändern.
+ 
+
+WEBHELP-ARTIKEL 
+
+
+Falls wirklich gar keine Information zum Beantworten der Frage in den WEBHELP-ARTIKELN oder den ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN vorhanden sind, dann antworte mit: "Leider kann ich deine Frage nicht beantworten".
+
+PRÄZISE ANTWORT:
+
+====== 
+
+RESPONSE:
+
+Leider kann ich deine Frage nicht beantworten.

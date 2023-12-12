@@ -256,6 +256,7 @@ def adjust_similarity_scores(results, question, word_intent_dict, multiplier):
             adjusted_results.append(document)
 
         except KeyError:
+            print(e)
             continue
 
     adjusted_results.sort(key=lambda x: x['score'])
@@ -274,7 +275,6 @@ def adjust_similarity_scores_final_model_test(results, question, word_intent_dic
 
     # Extract words from the question
     question_lower = question.lower()
-    print(question_lower)
 
     # Determine relevant intents based on single words and combinations
     relevant_intents = set()
@@ -285,7 +285,6 @@ def adjust_similarity_scores_final_model_test(results, question, word_intent_dic
         elif isinstance(key, str):  # Check for single words
             if key.lower() in question_lower:
                 relevant_intents.update(intents)
-    print(relevant_intents)
     for document, score in results:
         try:
             doc_intent = document.metadata.get("intent")
@@ -296,8 +295,8 @@ def adjust_similarity_scores_final_model_test(results, question, word_intent_dic
                 document.metadata['adjusted_similarity_score'] = score
             adjusted_results.append((document, score))
 
-        except KeyError:
-            print("im in except")
+        except KeyError as e:
+            print(e)
             continue
 
     adjusted_results.sort(key=lambda x: x[1])
