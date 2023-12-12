@@ -1,37 +1,40 @@
-import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer
+"""
+This script includes the code necessary to identify keywords associated with each intent.
+The results from this process are utilized in the 'adjust similarity score' function of the retriever.
+This function scans for the identified keywords within questions, and if such a keyword is detected,
+it enhances the similarity score for the intent linked to that keyword.
 
+To run this script update the 'path' variable to the project directory path.
+"""
 
-import re
+# Set directory path
+path = r'C:\Users\Kimberly Kent\Documents\Master\HS23\Masterarbeit\Masters-Thesis\testing' # Change
+
+# Import libraries and functions
 import nltk
 from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-from nltk.stem.snowball import GermanStemmer
-import string
+import pandas as pd
 import re
+from sklearn.feature_extraction.text import TfidfVectorizer
+import string
 from testing_functions import open_file
-import ast
+
 
 # Download the stopwords from NLTK
 nltk.download('stopwords')
 nltk.download('punkt')
 
 # Set of German stopwords
-german_stop_words = stopwords.words('german')
-from nltk.stem.snowball import GermanStemmer
+additional_stopwords = set(open_file(path + r'\additional_german_stopwords.txt'))
+german_stopwords = set(stopwords.words('german')).union(additional_stopwords)
 
-path = r"C:\Users\Kimberly Kent\Documents\Master\HS23\Masterarbeit\testing"
-websupport_question_df = pd.read_csv(path + r"\testing_data\cleaned_websupport_questions_with_intents_utf-8.csv")
-additional_stopwords = set(open_file(path + r"\additional_german_stopwords.txt"))
+# Get the web support ticketing dataset
+websupport_question_df = pd.read_csv(path + r'\testing_data\cleaned_websupport_questions_with_intents_utf-8.csv')
 
-type(additional_stopwords)
 # Function to replace URLs with a placeholder
 def replace_links_with_placeholder(text):
     url_pattern = r'https://\S+'
     return re.sub(url_pattern, '<<link>>', text)
-
-
-german_stopwords = set(stopwords.words('german')).union(additional_stopwords)
 
 # Function for text preprocessing
 def preprocess_text(text):
@@ -54,7 +57,7 @@ def preprocess_text(text):
     # Rejoin tokens into a string
     return ' '.join(tokens)
 
-# Preprocess text (optional, can be more complex)
+# Preprocess text
 websupport_question_df['processed_questions'] = websupport_question_df['Beschreibung'].apply(preprocess_text)
 
 # TF-IDF Vectorization
@@ -67,8 +70,7 @@ tfidf_df['intent'] = websupport_question_df['intent']
 
 # Analyzing TF-IDF scores for each intent
 for intent in tfidf_df['intent'].unique():
-    print(f"Top words for {intent}:")
+    print(f'Top words for {intent}:')
     temp_df = tfidf_df[tfidf_df['intent'] == intent].drop('intent', axis=1)
     mean_scores = temp_df.mean(axis=0).sort_values(ascending=False)
     print(mean_scores.head(10))  # Prints top 5 words
-    print()

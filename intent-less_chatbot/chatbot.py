@@ -1,14 +1,15 @@
 """
-This file contains the code to run the intent-less chatbot. To run the chatbot set the path to current
-directory and set the path to OpenAI key, then run code.
+This file contains the code to run the intent-less chatbot.
+
+To run this script update the 'path' variable to the project directory path and add your OpenAI API key to
+'openaiapikey.txt' in the root directory of this project.
 """
 
+# Import libraries and functions
 # Token Management and File Operations
-import os
-from functions import num_tokens_from_string, remove_history, save_file, open_file, adjust_similarity_scores
+from functions import num_tokens_from_string, remove_history, save_file, adjust_similarity_scores
 
 # OpenAI Libraries and functions
-import openai
 from functions import gpt3_1106_completion, gpt3_0613_completion
 
 # Libraries for initializing the retriever and the vector store
@@ -20,32 +21,41 @@ import ast
 import win32com.client as win32
 from functions import send_email
 
-# 1. Set up-------------------------------------------------------------------------------------------------------------
-# Define directory paths
-path = r"C:\Users\Kimberly Kent\Documents\Master\HS23\Masterarbeit\Github\intent_less_chatbot"
-chroma_directory = path + r'\webhelp_and_websupport_vector_db'
-prompt_logs_directory = path + r"\gpt3_logs\prompt"
-retriever_prompt_log_directory = path + r"\gpt3_logs\retriever_prompt"
 
-# Set the API key as an environment variable
-os.environ["OPENAI_API_KEY"] = open_file(path + r"\openaiapikey.txt")
-openai.api_key = os.getenv("OPENAI_API_KEY")
+# 1. Set up-------------------------------------------------------------------------------------------------------------
+
+# Set path to project directory and define OpenAI API key
+import sys
+path = r"C:\Users\Kimberly Kent\Documents\Master\HS23\Masterarbeit\Masters-Thesis"  # Change
+intent_less_path = path + r'\intent-less_chatbot'
+sys.path.append(intent_less_path)
+
+from functions import open_file
+import openai
+import os
+os.environ['OPENAI_API_KEY'] = open_file(path + '\openaiapikey.txt')
+openai.api_key = os.getenv('OPENAI_API_KEY')  # Add OpenAI API key to this .txt file
+
+# Define additional paths
+chroma_directory = intent_less_path + r'\webhelp_and_websupport_vector_db'
+prompt_logs_directory = intent_less_path + r"\gpt3_logs\prompt"
+retriever_prompt_log_directory = intent_less_path + r"\gpt3_logs\retriever_prompt"
 
 vectordb_websupport_bot = Chroma(persist_directory=chroma_directory,
                                  embedding_function=OpenAIEmbeddings(model='text-embedding-ada-002'))
 
-words_to_check = ast.literal_eval(open_file(path + r"/words_to_check_for_adjusted_similarity_score.txt"))
+words_to_check = ast.literal_eval(open_file(intent_less_path + r"/words_to_check_for_adjusted_similarity_score.txt"))
 
 # 2. Chatbot------------------------------------------------------------------------------------------------------------
 if __name__ == '__main__':
     # Load prompts
     # This prompts is used to restructure question for the retriever. For each new session the history is deleted.
-    retriever_prompt = remove_history(open_file(path + r"\prompts\retriever_prompt.txt"),
+    retriever_prompt = remove_history(open_file(intent_less_path + r"\prompts\retriever_prompt.txt"),
                                       "<<newest message>>(.*?)<<oldest message>>",
                                       "<<newest message>>\n<<history>>\n<<oldest message>>")
 
     # This prompt is used to answer to question. For each new session the history is deleted.
-    question_prompt = remove_history(open_file(path + r"\prompts\prompt_answer.txt"),
+    question_prompt = remove_history(open_file(intent_less_path + r"\prompts\prompt_answer.txt"),
                                      "HISTORY:(.*?)<<history>>",
                                      "HISTORY: <<history>>")
 
@@ -84,7 +94,6 @@ if __name__ == '__main__':
         # If cosine distance is below 0.3 continue answering question. Else hand off to web support representative.
         if first_document_score < 0.3:
             results = adjust_similarity_scores(results, question=restructured_query, word_intent_dict=words_to_check, multiplier=0.8)
-            #print("results after adjustment: " + str(results[:10]))
             for doc in results:
                 doc = doc[0]
                 if doc.metadata.get("Source") == "webhelp-article":
@@ -114,9 +123,10 @@ if __name__ == '__main__':
                 .replace('<<query>>', restructured_query) \
                 .replace('<<websupport_questions>>', "\n".join(l_webhelp_questions)) \
                 .replace("<<webhelp_article>>", " ".join(l_webhelp_articles))
+            print("current prompt: " + current_prompt)
 
             # Generate answer to prompt
-            response = gpt3_1106_completion(prompt=current_prompt, log_directory=path + r"\gpt3_logs\prompt",
+            response = gpt3_1106_completion(prompt=current_prompt, log_directory=intent_less_path + r"\gpt3_logs\prompt",
                                             max_tokens=1000)
             print("response: " + response)
 
@@ -138,7 +148,7 @@ if __name__ == '__main__':
                                                                         "\n".join(l_reversed_retriever_history))
 
             # Save history to retriever prompt.
-            save_file(updated_retriever_prompt, path + r"\prompts\retriever_prompt.txt")
+            save_file(updated_retriever_prompt, intent_less_path + r"\prompts\retriever_prompt.txt")
 
             # Add memory to Q&A prompt
             # In order not to exceed token length, only the last two conversation turns are added as history

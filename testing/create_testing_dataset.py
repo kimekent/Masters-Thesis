@@ -1,11 +1,21 @@
+"""
+This scripts splits the web support ticketing dataset into a train, test and validation data set.
+
+To run this script update the 'path' variable to the project directory path.
+"""
+
+# Define directory path
+path = r"C:\Users\Kimberly Kent\Documents\Master\HS23\Masterarbeit\Masters-Thesis"
+
+# Import libraries
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
 # Load the CSV data into a DataFrame
-path = r"C:\Users\Kimberly Kent\Documents\Master\HS23\Masterarbeit\testing"
-df = pd.read_csv(path + r"\testing_data\cleaned_websupport_questions_with_intents_utf-8.csv", encoding= "utf-8")
+df = pd.read_csv(path + r"\testing\testing_data\cleaned_websupport_questions_with_intents_utf-8.csv", encoding= "utf-8")
 
-# Group the data by the "intent" column
+# Group the data by the "intent" column,
+# ensuring proportional representation of each intent across the train, test, and validation sets
 intent_groups = df.groupby("intent")
 
 # Initialize empty DataFrames for training, testing, and validation

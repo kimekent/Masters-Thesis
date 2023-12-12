@@ -13,7 +13,7 @@ Key Components and Steps:
     count for each retriever (Step 6).
 
 To run this script update the 'path' variable to the project directory path and add your OpenAI API key to
- 'openaiapikey.txt' in the root directory of this project.
+'openaiapikey.txt' in the root directory of this project.
 
 For visualization, execute Steps 5 and 6 using the saved result CSV files.
 """

@@ -1,4 +1,6 @@
-"""This script was used to scrape the web help articles and store them as .txt files"""
+"""
+This script was used to scrape the web help articles and store them as .txt files.
+"""
 # Import packages
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -7,7 +9,8 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-path = r"C:\Users\Kimberly Kent\Documents\Master\HS23\Masterarbeit\Github\intent_less_chatbot"
+path = r"C:\Users\Kimberly Kent\Documents\Master\HS23\Masterarbeit\Masters-Thesis"
+intent_less_path = path + r'\intent-less_chatbot'
 
 # 1. Create a list of pages to scrape and store them in keyword-link-pairs.txt------------------------------------------
 # Specify the directory where the ChromeDriver executable is located
@@ -18,11 +21,11 @@ chrome_service = Service(executable_path=chromedriver_path)
 
 # Initialize the WebDriver with headless option
 options = webdriver.ChromeOptions()
-options.add_argument("--headless")
+options.add_argument('--headless')
 driver = webdriver.Chrome(service=chrome_service, options=options)
 
 # Load the webpage containing HTML content
-driver.get("https://applsupport.hslu.ch/webhelp/hmkwindex.htm")
+driver.get('https://applsupport.hslu.ch/webhelp/hmkwindex.htm')
 
 # Getting the dynamic keywords and corresponding link
 # Find the keyword element and click on it to load the content
@@ -31,21 +34,21 @@ ActionChains(driver).click(keyword_element).perform()
 
 # Wait for the content element to be visible
 wait = WebDriverWait(driver, 10)
-k_value = keyword_element.get_attribute("onclick").split("'")[1]
+k_value = keyword_element.get_attribute('onclick').split("'")[1]
 wait.until(EC.visibility_of_element_located((By.ID, k_value)))
 
-# Find the content table with class "idxtable"
+# Find the content table with class 'idxtable'
 content_table = driver.find_element(By.XPATH, "//table[@class='idxtable']")
 
-# Find all <a> elements with class "idxlink" within the content table
+# Find all <a> elements with class 'idxlink' within the content table
 target_a_tags = content_table.find_elements(By.XPATH, "//table[@style='border:none;padding:0']//a")
 
 dynamic_dict = {}
-# Extract and store the text and href attributes from the <a> elements with class "idxlink"
+# Extract and store the text and href attributes from the <a> elements with class 'idxlink'
 for idxlink_element in target_a_tags:
     # Use JavaScript to get the innerText of the <a> element
-    text = driver.execute_script("return arguments[0].innerText;", idxlink_element)
-    href = idxlink_element.get_attribute("href")
+    text = driver.execute_script('return arguments[0].innerText;', idxlink_element)
+    href = idxlink_element.get_attribute('href')
     dynamic_dict[text] = href
 
 # Print the dictionary
@@ -66,8 +69,8 @@ for a_element in a_elements:
     href = a_element.get_attribute('href')
     text = a_element.text
 
-    # Check if the href is not equal to "javascript:void(0)"
-    if href != "javascript:void(0)":
+    # Check if the href is not equal to 'javascript:void(0)'
+    if href != 'javascript:void(0)':
         static_dict[text] = href
 
 # Print the dictionary
@@ -79,7 +82,7 @@ keyword_link_dict = {**dynamic_dict, **static_dict}
 sorted_dict = {key: keyword_link_dict[key] for key in sorted(keyword_link_dict)}
 print(sorted_dict)
 
-file_path = path + r'\ETL_web_help_articles\keyword-link-pairs.txt'
+file_path = intent_less_path + r'\ETL_web_help_articles\keyword-link-pairs.txt'
 
 # Open the file for writing
 with open(file_path, 'w') as file:
@@ -107,18 +110,18 @@ chrome_service = Service(executable_path=chromedriver_path)
 
 # Initialize the WebDriver with headless option
 options = webdriver.ChromeOptions()
-options.add_argument("--headless")
+options.add_argument('--headless')
 driver = webdriver.Chrome(service=chrome_service, options=options)
 
 # Scrape Links in dict
-save_directory = path + r"\data\scraped_web_support_files"
+save_directory = intent_less_path + r'\data\scraped_web_support_files'
 for key, url in sorted_dict.items():
     # Specify the full path to save the file
     print(url)
     driver.get(url)
 
     # Wait for the iframe to load
-    iframe = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "hmcontent")))
+    iframe = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, 'hmcontent')))
 
     # Switch to the iframe
     driver.switch_to.frame(iframe)
@@ -131,35 +134,31 @@ for key, url in sorted_dict.items():
         # Extract and print the href attributes
         for a_element in navigation:
             link = a_element.get_attribute('href')
-            link_word = link.split("/hm_")[1].split(".htm")[0]
-            breadcrumb += link_word + ">"
+            link_word = link.split('/hm_')[1].split('.htm')[0]
+            breadcrumb += link_word + '>'
         breadcrumb = breadcrumb[:-1]
         print(breadcrumb)
 
-        scraped_elements = driver.find_elements(By.CSS_SELECTOR, ".p_Normal")
+        scraped_elements = driver.find_elements(By.CSS_SELECTOR, '.p_Normal')
 
         # Get the text content
-        content = "\n".join([element.text for element in scraped_elements])
+        content = '\n'.join([element.text for element in scraped_elements])
         print(content)
 
         # Extract the filename from the URL
-        filename = url.split("webhelp/hm_")[1] + ".txt"
+        filename = url.split('webhelp/hm_')[1] + '.txt'
 
         file_path = os.path.join(save_directory, filename)
 
         # Save content to the specified file path
-        with open(file_path, "w", encoding="utf-8") as f:
+        with open(file_path, 'w', encoding='utf-8') as f:
             f.write(f'Key: {key}\n')
-            f.write(breadcrumb + "\n")
-            f.write(content + "\n")
+            f.write(breadcrumb + '\n')
+            f.write(content + '\n')
             f.write(f'\nLink: {url}\n\n')
 
-        print(f"Content from {url} saved to {file_path}")
-        print(url)
-
-
     except Exception as e:
-        print("Error:", e)
+        print('Error:', e)
 
     # Switch back to the default content (outside the iframe)
     driver.switch_to.default_content()
