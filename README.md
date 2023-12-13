@@ -52,23 +52,16 @@ This repository contains the components for building, running and testing the in
 - `functions/`: Contains utility and helper functions used throughout the chatbot's codebase to perform various tasks and operations.
 - `app.py`: The main Python executable script that initiates the chatbot application, serving as the entry point for the chatbot service.
 - `config.py`: A configuration file in Python format which contains settings and variables that dictate how the chatbot operates within the Teams environment.
-- `requirements.txt`: Lists all the Python dependencies required to run the chatbot.
-
-These components collectively make up the chatbot application for Teams. Ensure you have all dependencies installed as listed in `requirements.txt` before running `app.py`.
-
 
 ## Set up and Installation
-
 Before running any scripts, you need to install the required dependencies:
 
-1. Clone a copy of the repo:
+1. Clone a copy of this repo:
 `git clone https://github.com/kimekent/Masters-Thesis.git`
 2. Navigate to the root project folder.
 `cd Masters-Thesis`
-3. Install the dependencies using pip: pip install -r requirements.txt
+3. Install the dependencies  from the root level of the repo using: `pip install -r requirements.txt`
 
-### Running the Chatbots
-To run any of these scripts, first install the requirements list by cd into root project folder clone the directory with then with pip install requirements.txt
 
 #### Intent-based chatbot
 To run the intent-based Rasa chatbot:
@@ -93,7 +86,6 @@ To run the intent-less chatbot:
 3. You can run chatbot.py either from the terminal or run `\intent-less_chatbot\chatbot.pychatbot.py` in an IDE.
 `python intent-less_chatbot/chatbot.py`
 
-
 #### Testing
 For testing:
 
@@ -103,8 +95,9 @@ For testing:
 
 ### Running Chatbots on Microsoft Teams
 #### Prerequisites
+
 1. Create an Azure Bot Service Instance.
-2. Install Ngrok.
+2. Install [Ngrok](https://ngrok.com/download).
 
 #### Intent-based Chatbot
 Integration with Microsoft Teams:
@@ -124,7 +117,6 @@ Integration with Microsoft Teams:
 `ngrok http 5005`
 5. In the Azure portal, set the messaging endpoint to your Ngrok URL followed by /webhooks/botframework/webhook.
 6. Add Microsoft Teams as a channel and open the chatbot in Teams.
-
 
 #### Running the Inten-less Chatbot on Teams
 1. Navigate to intent-less_chatbot.
