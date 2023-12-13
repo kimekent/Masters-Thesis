@@ -1,0 +1,68 @@
+PROMPT:
+
+Formuliere die AKTUELLE FRAGE um, so dass klar ist, worauf sich die Frage bezieht. Nutze dazu die Infromationen aus der Chat-History. Falls die Frage bereits eindeutig ist, belasse sie in der originalen Form. Antworte immer nur mit der unstrukturierten Frage oder mit der originalen Frage, ohne jeglichen zusätzlichen Text.
+
+Beispiele: 
+1. Beispiel
+Chat-History: <<newest message>>
+human: Wieso wird mein Text zweispaltig dargestellt?
+AI: Ich habe gesehen, dass du bei der Aktualisierung einer Seite auf Probleme gestoßen bist, bei denen der Text in der Vorschau zweispaltig dargestellt wird, obwohl du 100% Breite eingestellt hast. Dieses Problem tritt auf, wenn ein Rich Text Teaser oder Manueller Teaser verwendet wird und ab einer bestimmten Anzahl von Zeilen Text immer zweispaltig angezeigt wird. Eine Alternative für einspaltigen Fließtext ist das Element "Formatierter Text mit Bild", das auch ohne Bild verwendet werden kann.
+
+Weitere Informationen zu den verschiedenen Text-Elementen und deren Darstellung findest du in diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm).
+
+Wenn du weitere Unterstützung benötigst, zögere nicht, dich an den Websupport zu wenden.
+<<oldest message>>
+Neue Frage: Sie ist jedoch auf englisch.
+Umstrukturierte Frage = Wie kann ich ein englische Seite löschen?
+
+2. Beispiel
+Chat-History: <<newest message>>
+human: Wieso wird mein Text zweispaltig dargestellt?
+AI: Ich habe gesehen, dass du bei der Aktualisierung einer Seite auf Probleme gestoßen bist, bei denen der Text in der Vorschau zweispaltig dargestellt wird, obwohl du 100% Breite eingestellt hast. Dieses Problem tritt auf, wenn ein Rich Text Teaser oder Manueller Teaser verwendet wird und ab einer bestimmten Anzahl von Zeilen Text immer zweispaltig angezeigt wird. Eine Alternative für einspaltigen Fließtext ist das Element "Formatierter Text mit Bild", das auch ohne Bild verwendet werden kann.
+
+Weitere Informationen zu den verschiedenen Text-Elementen und deren Darstellung findest du in diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm).
+
+Wenn du weitere Unterstützung benötigst, zögere nicht, dich an den Websupport zu wenden.
+<<oldest message>> 
+Neue Frage: Kann ich dort auch externe Links einfügen?
+Umstrukturierte Frage = Kann ich in der virtuellen Navigation auch externe Link einfügen?
+
+3. Beispiel
+Chat-History: <<newest message>>
+human: Wieso wird mein Text zweispaltig dargestellt?
+AI: Ich habe gesehen, dass du bei der Aktualisierung einer Seite auf Probleme gestoßen bist, bei denen der Text in der Vorschau zweispaltig dargestellt wird, obwohl du 100% Breite eingestellt hast. Dieses Problem tritt auf, wenn ein Rich Text Teaser oder Manueller Teaser verwendet wird und ab einer bestimmten Anzahl von Zeilen Text immer zweispaltig angezeigt wird. Eine Alternative für einspaltigen Fließtext ist das Element "Formatierter Text mit Bild", das auch ohne Bild verwendet werden kann.
+
+Weitere Informationen zu den verschiedenen Text-Elementen und deren Darstellung findest du in diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm).
+
+Wenn du weitere Unterstützung benötigst, zögere nicht, dich an den Websupport zu wenden.
+<<oldest message>> 
+Neue Frage: Wieso wird sie nicht angesprungen?
+Umstrukturierte Frage = Wieso wird mein Anker nicht angesprungen?
+
+Vorgehen:
+Lies die CHAT-HISTORY und die AKTUELLE FRAGE.
+Ergänze die AKTUELLE FRAGE mit dem Webelement auf die sich die Frage bezieht.
+Das ist eine Liste von Webelementen: Anker, Teaser, Moodboard, Hauptnavigation, Sidenavigation, viruelle Navigation, Filterliste. 
+Ersetze alle Anaphern in der AKTUELLEN FRAGE mit den konkreten Wörtern, die in der CHAT-History erwähnt werden. Beispiele für Anaphern sind "dieses", "dort" usw.
+
+Falls sich die Frage nicht auf den vorherigen Chatverlauf bezieht, spiele die Frage in ihrer originalen Form zurück. Antworte immer nur mit der unstrukturierten Frage oder mit der originalen Frage, ohne jeglichen zusätzlichen Text.
+
+CHAT-HISTORY: 
+<<newest message>>
+human: Wieso wird mein Text zweispaltig dargestellt?
+AI: Ich habe gesehen, dass du bei der Aktualisierung einer Seite auf Probleme gestoßen bist, bei denen der Text in der Vorschau zweispaltig dargestellt wird, obwohl du 100% Breite eingestellt hast. Dieses Problem tritt auf, wenn ein Rich Text Teaser oder Manueller Teaser verwendet wird und ab einer bestimmten Anzahl von Zeilen Text immer zweispaltig angezeigt wird. Eine Alternative für einspaltigen Fließtext ist das Element "Formatierter Text mit Bild", das auch ohne Bild verwendet werden kann.
+
+Weitere Informationen zu den verschiedenen Text-Elementen und deren Darstellung findest du in diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm).
+
+Wenn du weitere Unterstützung benötigst, zögere nicht, dich an den Websupport zu wenden.
+<<oldest message>>
+
+AKTUELLE FRAGE: Wie kann ich mich bei Google Analytics einloggen?
+
+UMSTRUKTURIERTE/ORIGINALE FRAGE:
+
+====== 
+
+RESPONSE:
+
+Wie kann ich mich bei Google Analytics einloggen?

@@ -1,0 +1,6 @@
+Prompts tested against each other: 
+- instruction_based_prompting.txt
+- few_shot_prompt.txt
+- original_retriever_prompt.txt
+
+retriever_prompt.txt: Propmt used in final version of intent-less chatbot, after completion of memory test, in which the retreiver prompts were tested against each other. It is a copy of instruction_based_prompting.txt which scored the best results during the memory test.

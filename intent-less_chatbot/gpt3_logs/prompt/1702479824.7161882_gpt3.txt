@@ -1,0 +1,572 @@
+PROMPT:
+
+Deine Aufgabe ist es, auf die folgende AKTUELLE FRAGE zu antworten. Gib mögliche Ratschläge zum beheben des Problems. Sei so konkret wie möglich.
+Verwende zur Beantwortung der FRAGE ausschliesslich die folgenden WEBHELP-ARTIKEL und die ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN. Vermeide das Hinzufügen von Informationen oder Eklärungen, die nicht in einem WEBHELP-ARTIKEL oder in den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN stehen.
+Antworte so kurz wie möglich, ohne dabei wichtige Informationen auszulassen. Vermeide bei der Antwort Wiederholungen.
+Achte darauf, welche Sprachversion der Website in der Frage erwähnt wird. Verwende zur Beantwortung der Frage, die Informationen aus den WEBHELP-ARTIKEL und den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN, die zur erwähnten Sprachversion passen. Wird keine Sprachversion erwähnt, handelt es sich um die deutsche Seite, nicht um die englische Seite.
+Lies immer alle WEBHELP-ARTIKEL und ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN durch. Die obersten ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN enthalten oftmals nicht die richtige Antwort.
+Sprich in der DU-Form.
+Verwende bei längerem Texten Aufzählungszeichen.
+Verlinke hilfreiche Webhelp-Artikel in der Antwort.
+
+CHAT-HISTORY: <<history>>
+
+AKTUELLE FRAGE: wie lösche ich eine Seite?
+
+ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN:
+Q: Wir möchten gerne alte Seiten mit einer neuen Seite ersetzen.
+Kann man die alte einfach löschen oder wie ist das genaue Vorgehen bei einem solchen Wechsel?
+
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu löschen kann so vorgegangen werden:
+ 1) Auf die zu löschende Seite navigieren und im Ribbon-Menü den Befehl "Home > Delete Page" aufrufen.
+2) Den Warnhinweis lesen und gegebenenfalls auf OK klicken.
+3) Zeigen Links auf dieses Seite, erscheint ein weiteres Hinweisfenster. Es muss entschieden werden, was mit diesen Linkst geschehen soll 
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm)
+Q: 
+ Ich hatte den Auftrag erhalten eine Veranstaltung aufs Web zu stellen.
+ Die Seite habe ich erstellt und dann gesehen, dass die Seite schon existiert
+ Jetzt möchte ich meine Seite natuerlich wieder löschen:
+ 
+ Kann ich das einfach ueber diesen Button machen oder wie muss ich vorgehen?
+ 
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu löschen kann so vorgegangen werden:
+ 1) Auf die zu löschende Seite navigieren und im Ribbon-Menü den Befehl "Home > Delete Page" aufrufen.
+2) Den Warnhinweis lesen und gegebenenfalls auf OK klicken.
+3) Zeigen Links auf dieses Seite, erscheint ein weiteres Hinweisfenster. Es muss entschieden werden, was mit diesen Linkst geschehen soll 
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm)
+Q: 
+Ich möchte eine gesamte Seite löschen. Sie ist bereits unsichtbar. Stage-Link:
+ <<link>>
+Damit ich keine broken Links habe, habe ich auch einfach alle Inhalte gelöscht. Dennoch kommt untenstehende Meldung: 
+Es ist ein Richtext-Teaser (shared content, daher löschte ich ihn nicht ganz), bei dem zwar frueher mal ein Link zur betreffenden Seite war, aber den habe ich schon vor 2 Wochen gelöscht.
+ Die anderen 4 Links fuehren nicht zur betreffenden Seite.
+Ihr seht ja im Screenshot den Ort des Tasers bei Bedarf
+ Kann ich die Seite trotzdem einfach löschen, oder muss ich noch was machen?
+ 
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu löschen kann so vorgegangen werden:
+ 1) Auf die zu löschende Seite navigieren und im Ribbon-Menü den Befehl "Home > Delete Page" aufrufen.
+2) Den Warnhinweis lesen und gegebenenfalls auf OK klicken.
+3) Zeigen Links auf dieses Seite, erscheint ein weiteres Hinweisfenster. Es muss entschieden werden, was mit diesen Linkst geschehen soll 
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm)
+Q: Wie kann ich die EN-sprachige Website von unserem CAS Brand Management löschen?
+A: Hier eine Anleitung wie Sprachversionen von Seiten gelöscht werden können: Den Content Editor starten (Ribbon-Menü > Campus > Backend):
+
+1) Im Item-Tree die entsprechende Seite wählen und im Ribbon Menü zum Tab Versions wechseln.
+
+2) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass eine deutsche und eine englische Version der Seite vorhanden sind.
+
+3) Durch klicken auf den grossen Sprachbutton zur löschenden Sprachversion wechseln (hier im Beispiel englisch).
+
+4) Auf den Button Remove klicken.
+
+5) Es erscheint ein Warnhinweis, ob die Version entfernt werden soll. Wenn Sie sicher sind, auf OK klicken.
+
+6) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass die englische Version gelöscht wurde. Bei Englsh:Englisch steht 0 versions.
+Q: Wie kann ich die Infobox auf der Hauptseite löschen?
+A: Die Infobox muss wieder ueber die Page Options von der Seite gelöst werden (so wie sie hinzugefuegt wurde).
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon Sitecore_btn_window_refresh neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+Hier die Anleitung mit Bilder: [https://applsupport.hslu.ch/webhelp/index.html?hm_infobox_löschen.htm](https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm?zoom_highlightsub=infobox).
+Q: Könntet Ihr mir bitte kurz mitteilen, wie ich die folgenden gelb markierte Unterseite entweder ganz löschen oder zumindest komplett offline schalten kann?
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu löschen kann so vorgegangen werden:
+ 1) Auf die zu löschende Seite navigieren und im Ribbon-Menü den Befehl "Home > Delete Page" aufrufen.
+2) Den Warnhinweis lesen und gegebenenfalls auf OK klicken.
+3) Zeigen Links auf dieses Seite, erscheint ein weiteres Hinweisfenster. Es muss entschieden werden, was mit diesen Linkst geschehen soll 
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm)
+Q: Ich möchte auf unserer Webseite eine Landingpage erstellen, die nicht in der Navigation auftaucht. Wie macht man das?
+A: Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Q: Wie kann die Infobox gelöscht werden?
+A: Die Infobox muss wieder ueber die Page Options von der Seite gelöst werden (so wie sie hinzugefuegt wurde).
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon Sitecore_btn_window_refresh neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+Hier die Anleitung mit Bilder: [https://applsupport.hslu.ch/webhelp/index.html?hm_infobox_löschen.htm](https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm?zoom_highlightsub=infobox).
+Q: Wir sind amÜberarbeiten unserer Weiterbildungsseiten und wollten dabei die Seiten-Navigation anpassen: 
+ 
+Wir möchten zusätzlich in der Seiten-Navigation auf unsere FAQ-Seite verlinken: <<link>>
+Und den ersten Link auf die aktuelle Seite «MAS Brand an Marketing Management» möchten wir rauslöschen.
+ Wie kann ich das machen? 
+A: Die Side-Navigation zeigt die Unterseiten der aktuellen Seite in der Sidebar an. Um eine benutzerdefinierte Navigation zu erstellen, die Seiten enthält, die nicht Unterseiten sind, kann eine virtuelle Navigation eingefügt werden.
+https://applsupport.hslu.ch/webhelp/hm_virtueller_navigationseintrag.htm
+
+ 
+Q: Ich erstelle eine neue Unterseite und konnte den Never Publish button nirgends finden.
+Könnt ihr bitte folgende Seite unsichtbar machen? <<link>>
+
+A: Den "Never Publish" Button findest du im Experience Editor unter Campus > Publish Options. Hier noch den Link zum Webhelp-Artikel: [https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm)
+ 
+Q: Gibt es eine Möglichkeit, eine Infobox zu löschen, ohne den Rest der Seite zu beeinflussen?
+A: Die Infobox muss wieder ueber die Page Options von der Seite gelöst werden (so wie sie hinzugefuegt wurde).
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon Sitecore_btn_window_refresh neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+Hier die Anleitung mit Bilder: [https://applsupport.hslu.ch/webhelp/index.html?hm_infobox_löschen.htm](https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm?zoom_highlightsub=infobox).
+Q: Wir werden eine Rückblick-Seite löschen und nur noch die Verlinkung in die ehemalige Veranstaltung bestehen lassen. 
+ 
+Die Seite, die gelöscht wird hat folgende URL:
+<<link>>
+ 
+Falls noch Verlinkungen auf diese Seite führen, sollten sie direkt auf diese URL umgeleitet werden:
+ 
+<<link>>
+ 
+Könnt ihr mir bitte mitteilen, wann die Umleitung steht, damit ich die Seite dann sofort löschen kann. Besten Dank!
+
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu löschen kann so vorgegangen werden:
+ 1) Auf die zu löschende Seite navigieren und im Ribbon-Menü den Befehl "Home > Delete Page" aufrufen.
+2) Den Warnhinweis lesen und gegebenenfalls auf OK klicken.
+3) Zeigen Links auf dieses Seite, erscheint ein weiteres Hinweisfenster. Es muss entschieden werden, was mit diesen Linkst geschehen soll 
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm)
+Q: Ich wuerde die folgende Seite den Videos dann Ende Monat gerne löschen, da mittlerweile kaum Zugriffe mehr vorkommen. Die Seite diente als eine Art "Landingpage" fuer Videos, die zum Jahresende durch die Musik erstellt wurden. Der Link wurde verschickt via Weihnachtskarte. Die Videos sind weiterhin auffindbar. Kann ich die Seite einfach löschen und die Links entfernen oder wuerdet ihr eher empfehlen, die Seite einfach nicht mehr zu verknuepfen?
+<<link>>
+
+ 
+ 
+ 
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu löschen kann so vorgegangen werden:
+ 1) Auf die zu löschende Seite navigieren und im Ribbon-Menü den Befehl "Home > Delete Page" aufrufen.
+2) Den Warnhinweis lesen und gegebenenfalls auf OK klicken.
+3) Zeigen Links auf dieses Seite, erscheint ein weiteres Hinweisfenster. Es muss entschieden werden, was mit diesen Linkst geschehen soll 
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm)
+Q: Ich wollte soebenim Sitecore-Backend die englische Version des Luzerner Kongress Gesellschaftspolitik löschen, doch kam dann eine Sicherheitsfrage, wo die aktuelle Website 2023 abgefragt wird, siehe Print Screen. Nun bin ich mir nicht sicher, ob ich das wirklich löschen kann. Könntet Ihr dies bitte kurz anschauen und mir rueckbestätigen, ob ich korrekt vorgehe:
+
+A: Hier eine Anleitung wie Sprachversionen von Seiten gelöscht werden können: Den Content Editor starten (Ribbon-Menü > Campus > Backend):
+
+1) Im Item-Tree die entsprechende Seite wählen und im Ribbon Menü zum Tab Versions wechseln.
+
+2) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass eine deutsche und eine englische Version der Seite vorhanden sind.
+
+3) Durch klicken auf den grossen Sprachbutton zur löschenden Sprachversion wechseln (hier im Beispiel englisch).
+
+4) Auf den Button Remove klicken.
+
+5) Es erscheint ein Warnhinweis, ob die Version entfernt werden soll. Wenn Sie sicher sind, auf OK klicken.
+
+6) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass die englische Version gelöscht wurde. Bei Englsh:Englisch steht 0 versions.
+Q: Ich möchte auf der iHomeLab Microsite einen kompletten Menuepunkt (am iHomeLab studieren) inaktiv setzen. Ich habe nun bereits im Page Editor sämtliche Häkchen bei der Navigation rausgenommen (im Menue sichtbar, Breadcrumb, side Navigation, etc.). Nach der nächsten Aktualisierung sollte der Punkt also nicht mehr im Menue angezeigt werden.
+Falls aber nun jemand den direkten Link hätte, wäre ja die Site trotzdem noch aufrufbar. Wie setze ich die ganze Seite inaktiv? 
+
+A: Wenn eine Seite live auf der Website nicht angezeigt werden sollte, hat man Im Page Editor unter Campus > Publish Options zwei Möglichkeiten:
+1. Du setzt ein Datum, an dem die Seite veröffentlicht werden soll
+2. Du aktivierst die Checkbox "never publish". Dann musst du einfach, sobald die Seite veröffentlicht werden soll, die Checkbox wieder deaktivieren. Achtung: Alle Untergeordneten Seiten werden auch nicht sichtbar sein.
+Zu beachten: Falls die Seite bei Google bereits indexiert wurde, bleibt die Seite weiterhin dort aufgeführt,und die Klicks führen dann ins Leere. Bei beliebten Seiten mit viel Aufrufen, sollte daher bei Bedarf eine Umleitung eingerichtet werden.
+Mehr Infos dazu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm)
+Q: 
+ Das IKM hat fuer (fast) alle Webseiten eine englische Version, ohne übersetzte Inhalte. Nun möchte ich alle diese Seiten löschen. Sollte ich dir eine Liste mit den URLs senden, damit du Umleitungen einrichten kannst?
+A: Wenn es sich nur um englische Versionen handelt, müssen keine Weiterleitungen eingerichtet werden, da automatische die deutsche als Backup erscheint, falls jemand noch eine englische URL vorliegen hätte. Du kannst die Versionen einfach löschen.
+ 
+ 
+Q: Ich möchte diese Info-Box löschen, da ein alter Text drin war.
+ 
+Wie muss ich da vorgehen?
+
+A: Die Infobox muss wieder ueber die Page Options von der Seite gelöst werden (so wie sie hinzugefuegt wurde).
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon Sitecore_btn_window_refresh neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+Hier die Anleitung mit Bilder: [https://applsupport.hslu.ch/webhelp/index.html?hm_infobox_löschen.htm](https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm?zoom_highlightsub=infobox).
+Q: Ich habe Änderungen an der Seite vorgenommen und gespeichert, aber sie ist immer noch nicht online. Was muss ich tun?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Wieso ist meine Seite nicht live?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Ich habe heute fuer die uebergeordnete Smart-up Seite eine englische Version erstellt. Leider ist mir dabei ein kleiner Fehler unterlaufen und ich habe versehentlich fuer die deutsche Fassung der Seite eine zweite Version erstellt, statt einfach die Sprache zu wechseln. DieÜbersetzungen habe ich korrekterweise auf der englischen Seite vorgenommen, aber ich weiss nun nicht, wie ich die ueberfluessige 2. Version der deutschen Seite löschen kann. Könnt ihr mir hier bitte helfen?
+ Es handelt sich um diese Seite:
+ <<link>>
+ Merci im Voraus und sorry fuer den Mehraufwand!
+ 
+A: Um die Version zu löschen gehst du am besten im Backend auf die entsprechende Seite. Dort unter "Versionen" siehst du welche Versionen dieser Seite existieren. Mit "Entfernen" kannst du dann die ueberfluessige Zweite löschen. Wichtig ist einfach, dass du bei Sprache "German (Switzerland)" ausgewählt hast und bei Versionen die "Version 2". Wenn du die richtige ausgewählt hast sollte auch die Warnung erscheinen:" Sind Sie sicher, dass Version 2 entfernt werden soll?". Das kannst du schlussendlich noch mit ok bestätigen.
+ 
+Q: Bin mir nicht ganz sicher, ob es eine Sprachversion oder eine Seitenversion erstellt hat? Denn es zeigt nur eine Version bei DE und bei EN zeigt es 0. Daher wäre ich sehr froh, wenn Ihr mir mitteilen könntet, wie ich die EN Seite löschen kann ohne die DE Seite zu löschen. 
+ <<link>> 
+ Leider konnte mir die Webhelp auch nicht weiterhelfen. 
+ Besten Dank und 
+A: Hier eine Anleitung wie Sprachversionen von Seiten gelöscht werden können: Den Content Editor starten (Ribbon-Menü > Campus > Backend):
+
+1) Im Item-Tree die entsprechende Seite wählen und im Ribbon Menü zum Tab Versions wechseln.
+
+2) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass eine deutsche und eine englische Version der Seite vorhanden sind.
+
+3) Durch klicken auf den grossen Sprachbutton zur löschenden Sprachversion wechseln (hier im Beispiel englisch).
+
+4) Auf den Button Remove klicken.
+
+5) Es erscheint ein Warnhinweis, ob die Version entfernt werden soll. Wenn Sie sicher sind, auf OK klicken.
+
+6) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass die englische Version gelöscht wurde. Bei Englsh:Englisch steht 0 versions.
+Q: Ich sollte die roten Manuellen Teaser  der Seite <<link>>
+auf die Seite <<link>>
+verschieben.
+Wie mache ich das ? Wie man innerhalb der Seite verschiebt, weiss ich, aber zwischen 2 Seiten? 
+A: Die einzige Möglichkeit besteht darin, die Teaser in den Shared Ordner zu verschieben. Elemente welche sich in einem shared Ordner befinden können auf jeder Seite ausgewählt und eingefügt werden.
+1.) Die Teaser ueber «Verschieben nach» in den Shared Ordner verschieben (Schauen, dass man beim Shared Orner den richtigen Unterordner wählt). 
+2.) Die Teaser, die im Shared Ordner sind kann man dann auf der Seite einfuegen. 
+ 
+ 
+Q: 
+ Es geht um die Seite:
+ <<link>>
+ Bei mir auf dem Handy erscheint ein altes mobile Moodboard (Jahresausstellung 2016), auf dem Desktop erscheint das richtige (Vorkurs, allgemein).
+ Ich habe die History gelöscht auf dem Handy, aber es erscheint trotzdem das alte Moodboard.
+ Der alte Slide ist im Backend absichtlich nicht GANZ gelöscht, er sollte aber unsichtbar sein (dieser Slide wurde noch nicht zur Seite hinzugefuegt).
+ Ist dies ein Bug oder habe ich irgendwo etwas falsch gemacht?
+ Falls es ein Bug ist, werde ich den alten Slide halt einfach löschen
+ 
+A: Für mobile und Desktop sind unterschiedliche Moodboards zugewiesen. Die sind nicht automatisch gleich und müssen bei mobile und bei Desktop separat zugewiesen bzw. entfernt werden. Wird das Moodboard in der mobilen Version falsch oder gar nicht angezeigt, liegt es oft daran, dass kein mobiles Moodboard erstellt wurde oder dieses nicht vollständig konfiguriert wurde. 
+1. In der Media Library muss ein seperates Bild für die Desktop und MoileMoodboardversion hochgeladen werden. 
+2. Beim Zuweisen von Bild zum Moodboard, muss bei mobile das mobile Bild ausgwählt werden.
+3. Bei den Page Options muss der Seite sowohl ein Desktop Moodboard als auch ein mobiles Moodboard zugewiesen werden. 
+Hier die Anleitungslinks dazu:
+https://applsupport.hslu.ch/webhelp/hm_neues_bild_direkt_hochladen.htm
+https://applsupport.hslu.ch/webhelp/index.html?hm_eigene_und___oder_shared_slide.htm
+Q: Da unser 40-jähriges Jubiläum vorbei ist, wird unsere Extra-Seite nicht mehr benötigt: <<link>> Ich habe die anderen Sites soweit angepasst, dass kein Link mehr direkt auf diese Seite fuehrt. Kann ich die Seite nun löschen und "Link to antoher Item" wählen? Was muss ich sonst noch machen? Auch im Hinblick auf Suchmaschinen etc.
+ 
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu löschen kann so vorgegangen werden:
+ 1) Auf die zu löschende Seite navigieren und im Ribbon-Menü den Befehl "Home > Delete Page" aufrufen.
+2) Den Warnhinweis lesen und gegebenenfalls auf OK klicken.
+3) Zeigen Links auf dieses Seite, erscheint ein weiteres Hinweisfenster. Es muss entschieden werden, was mit diesen Linkst geschehen soll 
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm)
+Q: 
+ Gerne wuerde ich die Seite «Chronologie» <<link>>  uns all ihre Unterseiten» verschieben und zwar, dass Sie eine Unterseite von «Jubiläumsschrift» <<link>> ist. Kann ich das im Backend einfach so verschieben oder muss ich etwas beachten? Die Seiten sind allesamt noch nicht publiziert. 
+ Nina hat mir heute gesagt, dass dies möglich ist. Sorry wenn ihr mir das zum gefuehlt 1000sten Mal erklären muesst, hab ich bisher noch nie gemacht. 
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu verschieben kann so vorgegangen werden:
+1) Auf die zu verschiebende Seite navigieren und Im Ribbon-Menü den Befehl "Home > Move Page" aufrufen.
+2) Im Dialog Zielseite anwählen und mit "Move" bestätigen.
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_verschieben.htm)
+Q: Kann ich die Infobox auf der Startseite deaktivieren oder ist sie ein festes Element der Seite?
+A: Die Infobox muss wieder ueber die Page Options von der Seite gelöst werden (so wie sie hinzugefuegt wurde).
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon Sitecore_btn_window_refresh neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+Hier die Anleitung mit Bilder: [https://applsupport.hslu.ch/webhelp/index.html?hm_infobox_löschen.htm](https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm?zoom_highlightsub=infobox).
+Q: Warum wurde meine Seite nicht publiziert?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Ich habe einen weiteren Textblock auf der Seite eingefügt. Das hat dazu geführt, dass sich die anderen Elemente auf der Seite alle verschoben haben und jetzt weisse Abschände zischen den Elementen gibt. Wie entferne ich diese?
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Ich habe versucht eine neue Seite zu erstellen. Jedoch mit mässigem Erfolg:
+ <<link>> 
+In der Bearbeitungsansicht hatte die Seite immer die volle Breite, in der veröffentlichten Version jedoch nicht. Nun ist diese in zwei Spalten aufgeteilt. In der Webhelp habe ich versucht die Lösung zu finden, kenne aber scheinbar die korrekten Stichworte nicht.
+Könnt ihr mir helfen die Seite normal darzustellen?
+ 
+A: Falls ein Rich Text Teaser / Manueller Teaser verwendet wurde, ist darauf zu achten, dieser bei einer 100% Einstellung ab ca. drei Zeilen Text immer zweispaltig angezeigt wird. Fuer einspaltigen Fliesstext kann das Element "Formatierter Text mit Bild" verwendet werden. Dieser funktioniert auch ohne Bild. In diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm) findest du ganz zuunterst noch eine Auflistung welche Text-Elemente dopptelspaltig und welche einspaltig dargestellt werden.
+Q: Kann ich meine Seiten zwischen den offiziellen publishing Zeiten nochmals aktualisieren?
+ 
+A: Alle Mitarbeiter/innen von M&K verfügen über die Rechte von Publish My Changes. Damit können eigene Anpassungen, die auf der Website gemacht wurden um 10.00, 15.00 und 17.00 Uhr veröffentlicht werden.
+Publish My Changes erreichst du ueber "Desktop" (auf Startseite Sitecore). Anschliessend klickst du unten links auf das Sitecore-Logo und wählst dort "Publish My Changes" aus. Danach kannst du mehrmals auf "Nächstes" klicken und deine Änderung auswählen, die zum nächsten veröffentlichungszeitpunkt live geschalten werden sollten.
+ 
+Q: Auf folgender Website Public and Nonprofit Management | Hochschule Luzern (hslu.ch) habe ich ganz unten eine Linkliste eingefuegt und habe alle drei Links mit "Ziel: Neuer Browser" gespeichert, doch leider öffnet sich auf der Website keine neue Seite, wenn man den Event öffnet. Könnt ihr mit bitte helfen?
+
+A: Bei internen Verlinkungen wird kein neues Fenster geöffnet. Das dient der User Experience, vor allem Bei der Nutzung von mobilen Geräten.
+Bei externen Verlinkungen wird der Link in einem neuen Tab geöffnet. Dies aus dem Grund, da wir Die User sonst verlieren.
+Q: Leider habe ich folgende Infos nicht mehr gefunden in den Sitecore Schulungsunterlagen und der Online-Hilfe, daher kommt die Frage an euch:
+Wenn ich eine Seite (z.B. die Digitalisierungsseite) unter "ÃƒÅ“ber uns" platziere - ändert sich dann die URL zwingend? Oder kann ich in der Navigation auch einfach eine Verlinkung platzieren und die aktuelle URL beibehalten?
+
+ 
+ 
+ 
+A: Alle Hinweise zum Thema "Seite verschieben" findest du hier:
+https://applsupport.hslu.ch/webhelp/hm_seite_verschieben.htm
+Wenn die Seite verschoben wird, dann ändert sich die URL automatisch. 
+Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Q: Ich versuche gerade eine Webseite, die es auf Deutsch schon gibt, auf English zu erstellen. Welcher ist der Ablauf zur Erstellung einer englischen Webseite?
+A: Eine neue Sprachversion kann im Experience Editor über den Versions-Tab >
+Language-Button angelegt werden. Anschliessend die Seite (ctrl+s) speichern.
+http://applsupport.hslu.ch/webhelp/index.html?hm_sprachversion.htm
+Q: Wie kann ich eine Infobox auf unserer Kursseite entfernen, wenn sie nicht mehr benötigt wird?
+A: Die Infobox muss wieder ueber die Page Options von der Seite gelöst werden (so wie sie hinzugefuegt wurde).
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon Sitecore_btn_window_refresh neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+Hier die Anleitung mit Bilder: [https://applsupport.hslu.ch/webhelp/index.html?hm_infobox_löschen.htm](https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm?zoom_highlightsub=infobox).
+Q: 
+ ich habe ein Problem mit der Sichtbarkeit einer Anmeldeseite im Web.
+ Diese Seite <<link>> soll NICHT im Web erscheinen, da wir sie nur intern verteilen wollen.
+ Nun habe ich in sitecore bereits in der Navigation alle Hökeli entfernt, weiss aber nicht, ob das reicht. Noch ist sie auffindbar, wenn ich HSLU örtli Ophtha Lab google.
+ Wird das auch erst nach dem Mittag verschwinden? Muss ich im Backend nochwas machen (Veröffentlichung, Navigation virtual)?
+ Danke fuer Eure Hilfe!
+ 
+A: Um eine Seite von externen Suchmaschinen auszuschliessen muss in Sitecore die Option "Hide form Search Engine" gewählt werden.
+Wenn das bei neu publizierten Seiten nicht von Anfang gemacht wird, dann wird eine Seite in jedem Fall von Suchmaschinen indexiert. Wenn man diese Option nachträglich erfasst, wird diese bei der nächsten Google Indexierung aktiv. Dies kann aber einige Tage bis zu einer Woche dauern.
+Die Option "Hide from Search Engine" findest du im Content Editor unter Site Meta Data:
+ 
+ 1) Im Content-Tree zur entsprechenden Seite navigieren.
+
+2) Rechts im Content-Bereich unter Site Meta Data können die Meta-Daten bearbeitet werden.
+
+3) Nach Eingabe, die Daten mit ctrl + s sichern. 
+
+Weitere Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_site_meta_data_content_editor.htm)
+Q: Ich habe gestern den Inhalt meiner Seite aktualisiert, aber wenn ich online nachschaue, ist sie nicht sichtbar. Was könnte das Problem sein?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Folgende Seite wird nicht angezeigt und ich finde nicht raus, warum:
+<<link>>
+Könnt ihr mir hier weiterhelfen?
+ 
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Ich möchte gerne MyCampus uebersichtlicher gestalten und daher mehr Unterseiten machen. Bestehende Seiten wuerde ich dann verschieben. Geht das, also kann ich Seiten verschieben? Gibt es Probleme mit den Links auf diesen Seiten?
+
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu verschieben kann so vorgegangen werden:
+1) Auf die zu verschiebende Seite navigieren und Im Ribbon-Menü den Befehl "Home > Move Page" aufrufen.
+2) Im Dialog Zielseite anwählen und mit "Move" bestätigen.
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_verschieben.htm)
+Q: 
+ könntet ihr diese Seite (EN):
+ <<link>>
+ bitte auf diese hier (DE): 
+ <<link>>
+ umleiten? 
+ Die englische Seite wird nicht mehr benötigt, ich wuerde sie dann unpublishen sobald die Umleitung vorgenommen wurde.  
+A: Wenn es sich nur um englische Versionen handelt, müssen keine Weiterleitungen eingerichtet werden, da automatische die deutsche als Backup erscheint, falls jemand noch eine englische URL vorliegen hätte. Du kannst die Versionen einfach löschen.
+ 
+ 
+Q: Meine Seite wurde über Nacht nicht veröffentlicht?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+
+WEBHELP-ARTIKEL 
+ Key: Quick Link löschen
+Navigation:  Seitenelemente > Footer > Quick Links
+
+In dieser Anleitung wird beschrieben wie eine Quicklink der unten im Footer einer Seite angezeigt wird, gelöscht werden kann. Dabei ist zu beachten, dass beim Footer alle Unterseiten von der darüberliegendenseite erben. Wird also ein Link entfernt, wird er auch bei allen darunterliegenden Seiten entfernt und muss gegebenenfalls bei den Unterseitne wieder neu hinzugefügt werden. Wie Links einer Seite zugewiesen werden steht hier geschrieben:https://applsupport.hslu.ch/webhelp/index.html?hm_quicklinks_zuweisen.htm
+
+Shared Data Fenster öffnen (Ribbon > Campus > Shared Data)
+
+1) Im Ordner Quick Links zu löschender Link auswählen. Auf dem Link Item das Kontext-Menü öffnen und Delete auswählen.
+ 
+2) Zuerst wird nachgefragt, ob der Quick Link wirklich gelöscht werden soll.
+Danach stehen drei Optionen zur Auswahl:
+ 
+•Remove Links:
+- Löscht das Link Item.
+- Und alle Links auf den Seiten werden entfernt, bei welchen dieses Item zugewiesen wurde.
+ 
+•Linkt to Another Item:
+- Löscht das Link Item.
+- Für die Links auf den Seiten, bei welchen dieses Item zugewiesen wurde, kann ein Ersatz Link Item zugewiesen werden.
+ 
+•Leave Links - the Links will Appear in the Broken Links Report:
+- Löscht das Link Item.
+- Belässt aber die Links auf den Seiten, welche keine Verknüpfung mehr haben > Broken Links!
+  
+3) Eine der ersten zwei Option wählen und auf Continue klicken
+
+Link: https://applsupport.hslu.ch/webhelp/hm_quick_link_loeschen.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_quick_link_loeschen.htm  Key: Seite verschieben
+Navigation:  Seitentypen > Standardseite
+
+In dieser Anleitung wird beschrieben, wie eine Seite verschoben werden kann. Ausserdem wird darauf hingewiesen, dass vor dem verschieben in manchen Fällen ein Redirect eingerichtet werden muss
+
+1) Auf die zu verschiebende Seite navigieren und Im Ribbon-Menü den Befehl "Home > Move Page" aufrufen.
+ 
+2) Im Dialog Zielseite anwählen und mit "Move" bestätigen.
+ 
+Hinweis: Im Backend können Seiten auch per Drag & Drop sehr genau und einfach verschoben werden.
+ 
+Achtung: Beim Verschieben einer Seite wird automatisch die Seiten-URL (inkl. aller Unterseiten!) geändert. Ohne Umleitung gelangen Webbesucher via Suchmaschinen wie Google oder auch über andere Werbemassnahmen auf Fehlerseiten («404: Seite nicht gefunden»), was verhindert werden sollte. Zudem werden die neuen bzw. geänderten URLs von Google wieder neu indexiert, was je nach Level unterschiedlich lange dauern kann.
+ 
+Daher kann via Redirect (= Umleitung, im Voraus über den Web-Support beantragen) sichergestellt werden, dass die Webbesucher auf die richtige Seite umgeleitet werden und zudem auch das Google-Ranking der alten Seite auf die neue übertragen werden kann.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_seite_verschieben.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_seite_verschieben.htm  Key: Veranstaltung löschen
+Navigation:  Seitentypen > Veranstaltung (Agenda-Eintrag)
+
+In dieser Webhelp-Anleitung wird beschrieben, wie eine Veranstaltungsseite gelöscht werden kann.
+
+1) Im Experience Editor zur Event Detail-Seite navigieren
+ 
+2) Im Ribbon-Menü den Befehl Home > Delete Event auswählen.
+ 
+3) Es erscheint ein neues Fenster, bei welchen die Löschung bestätigt werden kann.
+ 
+4) Navigiert man mit der Breadcrumb Navigation zurück auf die Agenda Seite, ist ersichtlich, dass der Event gelöscht wurde.
+ 
+Der Event wir in der Liste nicht mehr aufgeführt:
+ 
+
+Link: https://applsupport.hslu.ch/webhelp/hm_veranstaltung_loeschen.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_veranstaltung_loeschen.htm  Key: Infobox von der Seite entfernen
+Navigation:  Seitenelemente > Info Box
+
+In diesem Artikel wird erklärt, wie eien Infobox von eienr Seite entfernt werden kann. Die Infobox muss immer über Campus > Page Options entfernt werden und nicht auf der Seite gelöscht werden sonst kann auch in Zukunft keine Infobox mehr eingefügt werden. Wenn fälschlicherweise trotzdem die Infobox gelöscht wird, muss das Layout der Seite zurückgesetzt werden. Dadurch werden alle Elemente von der Seite entfernt.
+
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+ 
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_infobox_loeschen.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_infobox_loeschen.htm  Key: Slide löschen
+content2>moodboard
+Advanced Users - via Backend
+1) Backend Fenster öffnen (Ribbon > Campus > Backend)
+2) Data Ordner und dann den Moodboard Ordner öffnen.
+3) Auf dem entsprechenden Slide das Kontextmenü öffnen: Delete wählen.
+4) Neues Hinweisfenster lesen und wenn sicher, OK klicken.
+5) Wenn das Slide einer Seite zugewiesen war, erscheint das Fenster Breaking Links: Entsprechende Wahl (Normalfall: Remove Links) treffen und Continue anklicken.
+> Der Slide und die Verknüpfung auf die Seite wird gelöscht.
+ 
+ 
+1) Um den Slide zu entfernen, auf das Slide-Bild klicken und anschliessend auf den Lösch-Button klicken.
+ 
+
+ 
+ 
+2) Im Hinweisfenster wird nochmals gefragt, ob der Slide wirklich von der Seite gelöscht werden soll.
+ 
+
+ 
+ 
+3) Beim nächsten Hinweisfenster stehen drei Optionen zur Verfügung. Die erste Option Remove Links wählen und auf Continue klicken. Der Slide und die Verknüpfung auf der Seite wird gelöscht.
+ 
+Achtung: Der Slide wird komplett gelöscht und kann danach der Seite nicht mehr zugewiesen werden!
+ 
+
+ 
+ 
+ 
+ 
+
+Link: https://applsupport.hslu.ch/webhelp/hm_slide_loeschen.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_slide_loeschen.htm  Key: Seite erstellen
+Navigation:  Seitentypen > Standardseite
+
+In dieser Anleitung wird beschrieben, wie eine neue Standardseite entweder via Experience Editor oder Content Editor (Backend) erstellt werden kann. Aus- und Weiterbildungsseiten, sowie Agendaeinträge und News können nur an bestimmten Stellen in der Websitestruktur erstellt werden. Wie 
+Aus- und Weiterbildungsseiten, sowie Agendaeinträge und News-Seiten erstellt wereden wird hier nicht beschrieben.
+
+Eine neue Seite via Experience Editor erstellen: 
+1) Im Ribbon Menü Versions > Language darauf achten, dass die korrekte Sprache vorausgewählt ist. Entsprechend dieser Sprachauswahl, wird auch eine neue Seite in dieser Sprachversion angelegt.
+
+2) Im Ribbon Menü Home > Insert Page wählen.
+ 
+Hinweis: Der Seitentyp wird bestimmt, wenn eine neue Seite angelegt wird. Je nachdem, wo die neue Seite platziert wird, stehen andere Optionen zur Verfügung.
+
+3) Im neuen Dialog Standard Site auswählen und mit Präfix + Item Name benennen. Der Seitentitel wird automatisch als Page Title verwendet. Mit Insert wird die neue Seite generiert. Der Seitentitel kann nachträglich angepasst werden.
+
+Hinweis: Der Seitentyp wird bestimmt, wenn eine neue Seite angelegt wird. Je nachdem, wo die neue Seite platziert wird, stehen andere Optionen zur Verfügung
+
+Eine neue Seite via Backend erstellen:
+Advanced Users - Backend
+1) Backend Fenster öffnen (Ribbon > Campus > Backend)
+2) Im Ribbon Menü die korrekte Sprache vorauswählen.
+3) Im Ordner Content > Campus > Hochschule Luzern der entsprechende Knoten wählen und via Kontextmenü Insert > Standard Site eine neue Seite einfügen.
+4) Im neuen Fenster der Seite einen Präfix + Item Name vergeben und OK klicken.
+5) Die neue Seite wurde in der aktuellen Sprachversion angelegt.
+ 
+Pfad im Page-Editor: Ribbon-Menü > Campus > Backend
+ 
+1) Im Backend-Content-Tree Content > Campus > Hochschule an den entsprechende Seitenknoten navigieren, unter welchem eine neue Seite erstellt werden soll.
+ 
+2) Im Ribbon Menü darauf achten, dass die korrekte Sprache vorausgewählt ist. Entsprechend dieser Sprachauswahl, wird auch eine neue Seite in dieser Sprachversion angelegt.
+ 
+3) Auf dieser Seite mittels Kontext-Menü > Insert > und bei diesem Beispiel mit Standard Site eine neue Seite hinzufügen.
+ 
+Hinweis: Der Seitentyp wird bestimmt, wenn eine neue Seite angelegt wird. Je nachdem, wo die neue Seite platziert wird, stehen andere Optionen zur Verfügung.
+ 
+4) Im neuen Fenster der Seite einen Präfix + Seitentitel (Item Name) vergeben und OK klicken.
+ 
+5) Die neue Seite wurde in der aktuellen Sprachversion angelegt
+ 
+Achtung: Seiten nie kopieren oder duplizieren. Stattdessen Seiten neu aufbauen.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_seitentyp_bestimmen.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_seitentyp_bestimmen.htm
+
+Falls wirklich gar keine Information zum Beantworten der Frage in den WEBHELP-ARTIKELN oder den ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN vorhanden sind, dann antworte mit: "Leider kann ich deine Frage nicht beantworten".
+
+PRÄZISE ANTWORT:
+
+====== 
+
+RESPONSE:
+
+Um eine Seite zu löschen, navigiere im Ribbon-Menü zu "Home" und wähle "Delete Page". Bestätige den Löschvorgang und entscheide, was mit den Links geschehen soll, die auf die Seite verweisen. Weitere Informationen findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm).
+
+Wenn du eine Seite verschieben möchtest, navigiere im Ribbon-Menü zu "Home" und wähle "Move Page". Wähle dann die Zielseite aus und bestätige den Vorgang. Weitere Informationen findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_verschieben.htm).

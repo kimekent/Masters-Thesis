@@ -1,0 +1,520 @@
+PROMPT:
+
+Deine Aufgabe ist es, auf die folgende AKTUELLE FRAGE zu antworten. Gib mögliche Ratschläge zum beheben des Problems. Sei so konkret wie möglich.
+Verwende zur Beantwortung der FRAGE ausschliesslich die folgenden WEBHELP-ARTIKEL und die ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN. Vermeide das Hinzufügen von Informationen oder Eklärungen, die nicht in einem WEBHELP-ARTIKEL oder in den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN stehen.
+Antworte so kurz wie möglich, ohne dabei wichtige Informationen auszulassen. Vermeide bei der Antwort Wiederholungen.
+Achte darauf, welche Sprachversion der Website in der Frage erwähnt wird. Verwende zur Beantwortung der Frage, die Informationen aus den WEBHELP-ARTIKEL und den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN, die zur erwähnten Sprachversion passen. Wird keine Sprachversion erwähnt, handelt es sich um die deutsche Seite, nicht um die englische Seite.
+Lies immer alle WEBHELP-ARTIKEL und ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN durch. Die obersten ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN enthalten oftmals nicht die richtige Antwort.
+Sprich in der DU-Form.
+Verwende bei längerem Texten Aufzählungszeichen.
+Verlinke hilfreiche Webhelp-Artikel in der Antwort.
+
+CHAT-HISTORY: 
+
+
+
+
+Human: Was ist ein Anker in Bezug auf Webseiten? 
+AI: Um Anker auf einer Webseite zu setzen, navigiere zu dem gewünschten Textbereich und füge das Ankerzeichen (#) vor dem Text ein. Anschließend kannst du einen Link zu diesem Anker setzen, indem du die URL der Seite gefolgt von "#" und dem Ankername angibst. Weitere Informationen findest du [hier](https://applsupport.hslu.ch/webhelp/hm_anker.htm) und [hier](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm). 
+Human: Wie füge ich einen Anker auf der Seite hinzu? 
+AI: Um einen Anker auf der Seite hinzuzufügen, navigiere zu dem gewünschten Textbereich und füge das Ankerzeichen (#) vor dem Text ein. Weitere Informationen findest du [hier](https://applsupport.hslu.ch/webhelp/hm_anker.htm) und [hier](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm). 
+Human: Wie kann ich die englische Sprachversion einer Seite löschen, ohne die deutsche Version zu löschen? 
+AI: Um die englische Sprachversion einer Seite zu löschen, navigiere im Item-Tree zur entsprechenden Seite und wechsle im Ribbon Menü zum Tab Versions. Klicke auf den großen Sprachbutton zur zu löschenden Sprachversion (hier im Beispiel englisch) und wähle "Remove". Bestätige den Löschvorgang und die englische Version wird gelöscht. Weitere Informationen findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm). 
+Human: Wie kann ich die Kontaktinformationen in der Kontaktbox anpassen? 
+AI: Um die Kontaktinformationen in der Kontaktbox anzupassen, müssen die Personaldatenverantwortlichen in Evento die Angaben dauerhaft ändern. Weitere Informationen findest du [hier](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson).
+<<history>>
+
+AKTUELLE FRAGE: Wieso wird meine Infoveranstaltung in der Filterliste nicht dargestellt?
+
+ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN:
+Q: Ich habe eine Veranstaltungsseite hinzugefügt, aber sie ist nicht auf unserer Website sichtbar. Woran könnte das liegen?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Ich habe soebendie Weiterbildungsseite der Informatik übersetzt und dabei habe ich gesehen, dass die Filterliste nur zwei WB-Angebote anzeigt. Ich kann es mir aktuell nicht erklären. Können wir das so rasch wie möglich bitte zusammen anschauen? Eigentlich sollten hier nämlich alle WB-Angebote aufgelistet sein, analog der deutschen Seite.
+A: Bei Agendaeinträgen ist zu unterscheiden, ob die Seite offline ist, oder ob der Agendaeintrag einfach nicht in der Filterliste aufgelistet wird. Mögliche Ursachen dafür, dass eine Seite nicht öffentlich ist findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm). Ausserdem kommt es bei  Agenda-Einträgen öfters vor, dass diese etwas länger haben, bis sie veröffentlicht werden.
+Voraussetzung dafür, dass ein Event in einer Filterliste erscheint, ist, dass der Agendaeintrag live ist.  
+Mögliche Ursachen dafür, dass ein Agendaeintrag live ist aber nicht der Filterliste aufgelistet wird : 
+1. Der Event ist keiner Organisationseinheit (OE) zugeordnet
+2. Falls es sich um eine Filterliste auf einer englischen Seite handelt, ist darauf zu achten, dass nur englische Seiten aufgeführt werden.
+3. Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit in der Filterliste. Ist sowohl Startzeit als auch Endzeit leer, dann bleibt der Event bis 00:00h in der Filterliste und im Call to Action Teaser.
+Spezifisch für Englische Seiten git: In englischen Filterlisten werden nur diejenigen Kurse angezeigt, die eine englische Version haben. Damit ein Event oder Kurs in der englischen Filterliste erscheint, muss die Seite des Events oder Kurses in einer englischen Version existieren.  Bitte keine englischen Versionen von Seiten anlegen, wenn diese nicht auch übersetzt werden, das wäre fuer die englische User Experience schlecht.
+Q: Wieso wird nicht mein hinterlegtes Bild auf Social Media dargestellt?
+A: Wenn kein Open Graph Bild auf der jeweiligen Seite hinterlegt ist, wird automatisch das Standardbild angezeigt. Um ein benutzerdefiniertes Bild anzuzeigen kann wie folgt vorgegangen werden: 
+1) Im Content-Tree zur entsprechenden Seite navigieren.
+2) Rechts im Contentbereich unter Spezial Meta Data können die Meta-Daten bearbeitet werden.
+3) Open Graph Image - Durch Klicken auf Browse kann hier ein Bild aus der Media-Library ausgewählt werden, welches dann als Open Graph Image verwendet wird. Das Bild ist idealerweise 1200 x 630 Pixel gross oder Bildverhältnis 1.91:1. Maximum 1500px x 1500px oder 5 MB.
+4) Checkbox Open Graph Image anzeigen - Hier kann gewählt werden, ob das Bild angezeigt werden soll oder nicht. 
+Weitere Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/hm_special_meta_data.htm?zoom_highlightsub=open+graph+bild)
+ 
+ Evtl. musst du nach dem Einfuegen des Bildes den Link zu deiner Seite einmalig fuer die SoMe Plattformen bereinigen mit den folgenden Links:
+ Facebook: https://developers.facebook.com/tools/debug/
+ Twitter: https://cards-dev.twitter.com/validator
+ LinkedIn: https://www.linkedin.com/post-inspector/
+ Danach sollte dein Bild angezeigt werden.
+ 
+Q: Warum wurde meine Seite nicht publiziert?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Gestern hatte ich eine Info-Veranstaltung und plötzlich ist mir aufgefallen, dass am Nachmittag (möglicherweise auch schon am Vormittag), die Info-Veranstaltung auf der Produkt-Webseite fehlte. Dies, obwohl ich im Evento eingestellt habe, dass man sich bis heute anmelden kann. Unter den «Veranstaltungen» war der Anmeldelink jedoch noch zu finden. Wisst ihr an was das liegt? Wie kann ich sicherstellen, dass der Anmeldelink auch auf den Produkt-Webseiten sicher bis zum Zeitpunkt der Veranstaltung publiziert ist? 
+
+
+A: Wenn ein Agendaeintrag nicht (mehr) im Call to Action Teaser auftaucht, könnte es an der "Start-Zeit-Problematik" liegen. Bei WeVe Anmeldungen kann es an den Einstellungen des Agendaeintrags liegen.
+Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit des Ereignisses im Call to Action Teaser. Wurde sowohl keine Startzeit also auch keine Endzeit für den Event festgelegt, dann bleibt der Event bis 00:00h im Call to Action Teaser. Danach wird er weder in der Filterliste, noch im automatischen CtA-Teaser angezeigt (live ist er weiterhin).
+Damit die Anmeldung über ONLA / WeVe funktioniert, muss die Evento ID in der Facts-Liste auf der Produktseite hinterlegt werden und beim Call to Action Teaser die Checkbox  "Kontextabhängige Informationen aus Evento anzeigen" aktiviert aktiviert sein (Standard)! Bei einer deaktivierten Checkbox, wird entsprechend kein Link bzw. Status Meldung angezeigt. Mehr dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_links_der_linkliste_zuweisen.htm)
+
+Q: Wieso ist meine Seite nicht live?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Meine News wurde nicht live geschalten, wieso?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Ich wollte gerne fragen, warum unsere Filterliste nicht funktioniert. 
+<<link>>
+Gefiltert werden sollte alle Mitarbeiter, die dem CC Gebäudehuelle und dem CC Konstruktiver Ingenieurbau zugeordnet sind. 
+
+A: Wenn eine Filterliste leer ist liegt es hauptsächlich an zwei Dingen:
+1. es sollen nur fixe ODER vorselektierte Filter verwendet werden. Die Unterschiede sind hier beschrieben: https://applsupport.hslu.ch/webhelp/hm_filter_konfigurieren.htm?zoom_highlightsub=fixe
+2. es sind immer Und-Verknüpfungen und keine Oder-Verknüpfungen. Es wird daher nur Einträge anzeigen, die alle fixen Filterkriterien erfüllen. 
+
+Q: Warum zeigt unsere Hauptseite die kürzlich hinzugefügten Informationen nicht an? Ich habe sie gestern aktualisiert.
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Ich finde die unten aufgefuehrte Infobox nicht in der Auswahl, wenn ich sie noch einem anderen Kurs zuweisen möchte. Was ist der Grund?
+ 
+ 
+ 
+A: Damit eine Infobox fuer mehrere Seiten gebraucht werden kann, muss sie im Shared Ordner angelegt werden:
+1) Im Ribbon-Menü auf Campus > Shared Data klicken.
+
+ 
+2) Unter dem Ordner Infobox - Global können weitere Ordner (Infobox Folder) für die Gliederung angelegt werden, oder es kann eine globale Infobox erstellt werden.
+
+
+3) Der neu anzulegenden globalen Infobox einen Namen geben, mit OK bestätigen und mit Ctrl+S sichern.
+ 
+
+4) Im Ribbon-Menü unter Campus > Page Options kann eine Infobox der Seite zugewiesen werden. Eine Infobox auswählen und mit OK der Seite zuweisen.
+
+
+5) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon Sitecore_btn_window_refresh neu laden. Danach wird die Infobox auf der Seite dargestellt.
+ 
+
+Hinweis: Die globale Infobox kann gleich wie eine gewöhnliche Infobox bearbeitet werden. Die Änderungen werden aber global wirksam, sprich überall wo diese globale Infobox platziert wurde!
+
+https://applsupport.hslu.ch/webhelp/index.html?hm_shared_infobox_erstellen.htm
+Q: Die Online-Info-Veranstaltung von heute Abend ist dem Lehrgang zugewiesen, taucht jedoch nicht mehr in der CTA-Box der Info-Veranstaltungen auf.
+MAS Private Banking & Wealth Management <<link>>
+Info-V von heute Abend
+<<link>>
+Ich bin gerade ratlos, weshalb. Anscheinend war die Info-Veranstaltung bis gestern noch im CTA-Teaser der Lehrgangs-Landing-Page.
+Das muss fuer heute nicht mehr gelöst werden, die Admin sendet den Interessenten nun den direkten Link zu. Aber was kann ich machen, dass dies nicht mehr passiert oder handelt es sich um einen technischen Bug?
+ 
+A: Wenn ein Agendaeintrag nicht (mehr) im Call to Action Teaser auftaucht, könnte es an der "Start-Zeit-Problematik" liegen. Bei WeVe Anmeldungen kann es an den Einstellungen des Agendaeintrags liegen.
+Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit des Ereignisses im Call to Action Teaser. Wurde sowohl keine Startzeit also auch keine Endzeit für den Event festgelegt, dann bleibt der Event bis 00:00h im Call to Action Teaser. Danach wird er weder in der Filterliste, noch im automatischen CtA-Teaser angezeigt (live ist er weiterhin).
+Damit die Anmeldung über ONLA / WeVe funktioniert, muss die Evento ID in der Facts-Liste auf der Produktseite hinterlegt werden und beim Call to Action Teaser die Checkbox  "Kontextabhängige Informationen aus Evento anzeigen" aktiviert aktiviert sein (Standard)! Bei einer deaktivierten Checkbox, wird entsprechend kein Link bzw. Status Meldung angezeigt. Mehr dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_links_der_linkliste_zuweisen.htm)
+
+Q: Folgendes Seminar taucht nicht im Filter auf, obwohl als Programmart Seminar hinterlegt ist. Das Seminar ist schon länger online, wurde damals aber als komplett neues Seminar erfasst.
+ <<link>>
+Wäre super, wenn ihr pruefen könntest was los ist damit das Seminar auch im Seminar-Filter auftaucht.
+ 
+A: Bei Agendaeinträgen ist zu unterscheiden, ob die Seite offline ist, oder ob der Agendaeintrag einfach nicht in der Filterliste aufgelistet wird. Mögliche Ursachen dafür, dass eine Seite nicht öffentlich ist findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm). Ausserdem kommt es bei  Agenda-Einträgen öfters vor, dass diese etwas länger haben, bis sie veröffentlicht werden.
+Voraussetzung dafür, dass ein Event in einer Filterliste erscheint, ist, dass der Agendaeintrag live ist.  
+Mögliche Ursachen dafür, dass ein Agendaeintrag live ist aber nicht der Filterliste aufgelistet wird : 
+1. Der Event ist keiner Organisationseinheit (OE) zugeordnet
+2. Falls es sich um eine Filterliste auf einer englischen Seite handelt, ist darauf zu achten, dass nur englische Seiten aufgeführt werden.
+3. Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit in der Filterliste. Ist sowohl Startzeit als auch Endzeit leer, dann bleibt der Event bis 00:00h in der Filterliste und im Call to Action Teaser.
+Q: Bereits zum 2. Mal haben wir Probleme beim Aufschalten von neu erstellen Info-Veranstaltungen.
+Das genaue Problem
+In der Vorschau werden die Veranstaltungen korrekt angezeigt, jedoch nur das 1. erfasste Datum, das 2. erfasste Datum erscheint in der Vorschau nicht, obwohl diese 2. Seiten exakt gleich erstellt wurden wie die Seiten der ersten Daten. Sobald die Seiten dann live geschaltet werden (12.05 und 00.05) werden die neu erstellten Seiten mit den Info-Veranstaltungen nicht angezeigt.
+ Beispiele HSLU Wirtschaft, IBR
+ CAS Educational Governance / 29.10.2019 + 16.01.2020
+ CAS Betriebswirtschaft (Tageskurs) / 30.08.2019 + 23.10.2019
+ CAS Betriebswirtschaft (Abendkurs) / 30.08.2019 + 23.10.2019
+ Danke fuer Eure Hilfe.
+ 
+A: Bei Agendaeinträgen ist zu unterscheiden, ob die Seite offline ist, oder ob der Agendaeintrag einfach nicht in der Filterliste aufgelistet wird. Mögliche Ursachen dafür, dass eine Seite nicht öffentlich ist findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm). Ausserdem kommt es bei  Agenda-Einträgen öfters vor, dass diese etwas länger haben, bis sie veröffentlicht werden.
+Voraussetzung dafür, dass ein Event in einer Filterliste erscheint, ist, dass der Agendaeintrag live ist.  
+Mögliche Ursachen dafür, dass ein Agendaeintrag live ist aber nicht der Filterliste aufgelistet wird : 
+1. Der Event ist keiner Organisationseinheit (OE) zugeordnet
+2. Falls es sich um eine Filterliste auf einer englischen Seite handelt, ist darauf zu achten, dass nur englische Seiten aufgeführt werden.
+3. Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit in der Filterliste. Ist sowohl Startzeit als auch Endzeit leer, dann bleibt der Event bis 00:00h in der Filterliste und im Call to Action Teaser.
+Q: Ich habe am Freitag einen Agenda-Eintrag erstellt fuer das MSE-Kolloquium inkl. Anmeldeformular. Nun ist dieses aber nicht auf der Live-Seite ersichtlich. 
+Seht ihr wo dieses aktuell liegt oder warum es nicht publiziert wurde?
+
+ 
+A: Bei Agendaeinträgen ist zu unterscheiden, ob die Seite offline ist, oder ob der Agendaeintrag einfach nicht in der Filterliste aufgelistet wird. Mögliche Ursachen dafür, dass eine Seite nicht öffentlich ist findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm). Ausserdem kommt es bei  Agenda-Einträgen öfters vor, dass diese etwas länger haben, bis sie veröffentlicht werden.
+Voraussetzung dafür, dass ein Event in einer Filterliste erscheint, ist, dass der Agendaeintrag live ist.  
+Mögliche Ursachen dafür, dass ein Agendaeintrag live ist aber nicht der Filterliste aufgelistet wird : 
+1. Der Event ist keiner Organisationseinheit (OE) zugeordnet
+2. Falls es sich um eine Filterliste auf einer englischen Seite handelt, ist darauf zu achten, dass nur englische Seiten aufgeführt werden.
+3. Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit in der Filterliste. Ist sowohl Startzeit als auch Endzeit leer, dann bleibt der Event bis 00:00h in der Filterliste und im Call to Action Teaser.
+Q: Ich habe gestern den Inhalt meiner Seite aktualisiert, aber wenn ich online nachschaue, ist sie nicht sichtbar. Was könnte das Problem sein?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Auf unserer ING-Website werden alle Mitarbeitenden abgebildet:
+<<link>>
+Nun ist uns aufgefallen, dass die dort angezeigten Mitarbeiter teilweise nicht korrekt/aktuell sind. Innerhalb des folgenden Screenshots sehe ich jedoch, dass diese Mitarbeiterliste automatisch gefiltert wird wie folgt:
+ 
+Könntet ihr mir bitte mitteilen, aus welcher Datenbank diese Liste generiert wird? Werden die Daten hier aus Evento oder via HR generiert oder wie funktioniert dies?
+ 
+A: Diese Daten fliessen direkt aus Evento in Sitecore. Daher müssten die Änderungen den Personaldatenverantworlichen am Departement gemeldet werden.
+Q: 
+ Ich habe offenbar irrtuemlich die Faktliste Weiterbildung (Ausschreibungsinfos) bei obigem Angebot gelöscht?! Leider habe ich sie in der Auswahl Factlist nicht gefunden. Ich bitte um Support.
+ 
+A: 
+ Da dieses Element standardmässig auf der Seite war (also im Layout der Seite dabei), kann es nach dem Löschen nicht wieder gleich eingefuegt werden wie die anderen Elemente. Daher muss die Site zurückgesetzt werden [Anleitung](https://applsupport.hslu.ch/webhelp/index.html?hm_reset.htm). Nach dem Zurücksetzten müssen die Nicht-Standard-Elemente wieder geholt werden (sind nicht gelöscht, einfach nicht mehr auf der Seite) ueber Add here, select existing. 
+ 
+ 
+ 
+Q: Warum ist die Seite, die ich letzte Woche fertiggestellt habe, immer noch nicht im Netz?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Ich verstehe nicht wieso meine Seite nicht live ist.
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: 
+ ich habe vor ein paar Tagen eine neue Veranstaltung "Kreislaufwirtschaft im Bauwesen" am 13.6.23 in sitecore erstellt, aber sie erscheint bisher nicht in der Agenda von T&A.
+ <<link>>
+ Nun habe ich eben gesehen, dass ich die Publish-Optionen noch nicht eingetragen haben und das gerade noch ergänzt (heute ab 09:30) und werde mal bis 12:00 abwarten. Allerdings hat kein anderes Event, in das ich stichprobenartig reingeschaut habe, diese Angaben gemacht und es erscheint trotzdem.
+ Habe ich sonst noch was uebersehen? 
+ Danke fuer Eure Antwort.
+ 
+A: Bei Agendaeinträgen ist zu unterscheiden, ob die Seite offline ist, oder ob der Agendaeintrag einfach nicht in der Filterliste aufgelistet wird. Mögliche Ursachen dafür, dass eine Seite nicht öffentlich ist findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm). Ausserdem kommt es bei  Agenda-Einträgen öfters vor, dass diese etwas länger haben, bis sie veröffentlicht werden.
+Voraussetzung dafür, dass ein Event in einer Filterliste erscheint, ist, dass der Agendaeintrag live ist.  
+Mögliche Ursachen dafür, dass ein Agendaeintrag live ist aber nicht der Filterliste aufgelistet wird : 
+1. Der Event ist keiner Organisationseinheit (OE) zugeordnet
+2. Falls es sich um eine Filterliste auf einer englischen Seite handelt, ist darauf zu achten, dass nur englische Seiten aufgeführt werden.
+3. Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit in der Filterliste. Ist sowohl Startzeit als auch Endzeit leer, dann bleibt der Event bis 00:00h in der Filterliste und im Call to Action Teaser.
+Q: Ich habe den Veröffentlichungszeitpunkt für unsere Seite eingestellt, aber sie wurde nicht veröffentlicht.
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Meine Seite wurde über Nacht nicht veröffentlicht?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Meine aktualisierte Seite ist nicht in der Live-Ansicht zu sehen, obwohl ich sie publiziert habe.
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Ich habe ein Publikationszeitpunkt bei meiner Website festgelegt. Jedoch wurde die Seite nicht zum angegeben Zeitpunkt veröffentlicht.
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Ich habe eine neue Seite zu unserer Website hinzugefügt, aber sie erscheint nicht im Internet. Wurde sie richtig publiziert?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Eine kurze Frage: Damit der Hinweis verschwindet. Finde ich irgendwo eine Auflistung welche Elemente fehlen? Und müssen auch alle Bilder doppelt hochgeladen werden, damit die Nachricht nicht angezeigt wird?
+A: Falls alle Texte auf englisch übersetzt wurden, und die Meldung 'Some Content is only available in German' immer noch erscheint, liegt es daran, dass es von mindestens einem Element auf der Seite noch keine Englische Version gibt. Damit die Meldung verschwindet muss von jedem Element, auch Bilder und PDFs, eine englische Version erstellt werden. Im Backend kannst du jedes Element durchgehen und so leicht nachschauen, welche Items noch keine englische Version besitzt.
+Oftmals ist es der Kontaktteaser. Es sieht auf englisch dann korrekt aus, weil Sitecore automatisch die korrekte Berufsbezeichnung übernimmt, Sitecore merkt aber auch, dass nichts angepasst wurde und geht dann davon aus, dass es noch deutsch ist. Es muss dann einfach eine englische Version davon im Backend angelegt werden. 
+Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Bitte auch die Alt-Texte der Bilder kontrollieren.  
+[Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: Kann mir jemand helfen herauszufinden, warum der Hinweis auf unserer komplett übersetzten englischen Seite immer noch angezeigt wird?
+A: Falls alle Texte auf englisch übersetzt wurden, und die Meldung 'Some Content is only available in German' immer noch erscheint, liegt es daran, dass es von mindestens einem Element auf der Seite noch keine Englische Version gibt. Damit die Meldung verschwindet muss von jedem Element, auch Bilder und PDFs, eine englische Version erstellt werden. Im Backend kannst du jedes Element durchgehen und so leicht nachschauen, welche Items noch keine englische Version besitzt.
+Oftmals ist es der Kontaktteaser. Es sieht auf englisch dann korrekt aus, weil Sitecore automatisch die korrekte Berufsbezeichnung übernimmt, Sitecore merkt aber auch, dass nichts angepasst wurde und geht dann davon aus, dass es noch deutsch ist. Es muss dann einfach eine englische Version davon im Backend angelegt werden. 
+Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Bitte auch die Alt-Texte der Bilder kontrollieren.  
+[Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: Ich habe eine Frage zum manuellen Teaser: fuer die online Info-Veranstaltung an der I, schalte ich einen Teaser mit der Grafik vom Programmablauf auf. Wenn ich jedoch die englische Grafik einsetze, zeigt es mir bei der deutschen Version die Grafik nicht mehr an. Könnt ihr mir hier weiterhelfen?
+ 
+A: Sprachversionen gibt es nicht nur für Seiten sondern auch für Elemente und Datein. 
+- Wenn ein Element auf der englischen Seite einen anderen Text enthalten soll, muss zuerst eine englische Version dieses Elements erstellt werden.
+- Damit auf der englischen Seite das englische Bild dargestellt wird, muss in der Media Library eine englische Version der Grafik hinterlegt werden. Dann wird auf der Seite die Grafik der Sprache nach gewechselt.
+ Mehr dazu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_sprachversion.htm)
+Q: Wen muss ich anschreiben, wenn eine Mitarbeiterin nicht in der Personensuche der HSLU erscheint?
+A: Die Personenprofile werden direkt aus dem Evento herausgezogen. Wenn eine Person also nicht in der Suche auftaucht, kläre am besten mit dem Sekretariat ab, ob diese Person im Evento richtig erfasst wurde.
+ 
+Q: Warum ist die Seite, die ich gestern überarbeitet habe, nicht live gegangen?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Unsere neue Produktseite ist nicht online, obwohl ich sie freigegeben habe. Was habe ich übersehen?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Wie kann die Infobox gelöscht werden?
+A: Die Infobox muss wieder ueber die Page Options von der Seite gelöst werden (so wie sie hinzugefuegt wurde).
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon Sitecore_btn_window_refresh neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+Hier die Anleitung mit Bilder: [https://applsupport.hslu.ch/webhelp/index.html?hm_infobox_löschen.htm](https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm?zoom_highlightsub=infobox).
+Q: soebenhabe ich 2 Infoveranstaltungen fuer das CAS Online Shop and Sales Management aufgeschaltet.
+Eigentlich sollten die beiden Infoveranstaltungen (spezifisch fuer das CAS OSM am 24.06. und 30.06.) auch auf der CAS Info Seite OSM aufgeschaltet sein.
+Nach meiner Meinung sollte dies mit dieser Auswahl bestätigt sein:
+ 
+Jedoch erscheinen die beiden Infoveranstaltungen nicht. Wo genau liegt der Fehler?
+Könnt ihr mir da weiterhelfen?
+
+ 
+A: Bei Agendaeinträgen ist zu unterscheiden, ob die Seite offline ist, oder ob der Agendaeintrag einfach nicht in der Filterliste aufgelistet wird. Mögliche Ursachen dafür, dass eine Seite nicht öffentlich ist findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm). Ausserdem kommt es bei  Agenda-Einträgen öfters vor, dass diese etwas länger haben, bis sie veröffentlicht werden.
+Voraussetzung dafür, dass ein Event in einer Filterliste erscheint, ist, dass der Agendaeintrag live ist.  
+Mögliche Ursachen dafür, dass ein Agendaeintrag live ist aber nicht der Filterliste aufgelistet wird : 
+1. Der Event ist keiner Organisationseinheit (OE) zugeordnet
+2. Falls es sich um eine Filterliste auf einer englischen Seite handelt, ist darauf zu achten, dass nur englische Seiten aufgeführt werden.
+3. Start-Zeit-Problematik: Der Event bleibt solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bis die Startzeit erreicht wird. Ist die Startzeit leer, dann bis 00:00h.
+Q: Aktuell arbeite ich die Übersetzungen der IKM-Webseiten in Sitecore ein. Auf unserer Webseite "Alle Weiterbildungen" werden in der englischen Version keine Ergebnisse in der Filterliste angezeigt: <<link>>
+Könntest du mir hier eventuell weiterhelfen?
+ 
+A: Bei Agendaeinträgen ist zu unterscheiden, ob die Seite offline ist, oder ob der Agendaeintrag einfach nicht in der Filterliste aufgelistet wird. Mögliche Ursachen dafür, dass eine Seite nicht öffentlich ist findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm). Ausserdem kommt es bei  Agenda-Einträgen öfters vor, dass diese etwas länger haben, bis sie veröffentlicht werden.
+Voraussetzung dafür, dass ein Event in einer Filterliste erscheint, ist, dass der Agendaeintrag live ist.  
+Mögliche Ursachen dafür, dass ein Agendaeintrag live ist aber nicht der Filterliste aufgelistet wird : 
+1. Der Event ist keiner Organisationseinheit (OE) zugeordnet
+2. Falls es sich um eine Filterliste auf einer englischen Seite handelt, ist darauf zu achten, dass nur englische Seiten aufgeführt werden.
+3. Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit in der Filterliste. Ist sowohl Startzeit als auch Endzeit leer, dann bleibt der Event bis 00:00h in der Filterliste und im Call to Action Teaser.
+Spezifisch für Englische Seiten git: In englischen Filterlisten werden nur diejenigen Kurse angezeigt, die eine englische Version haben. Damit ein Event oder Kurs in der englischen Filterliste erscheint, muss die Seite des Events oder Kurses in einer englischen Version existieren.  Bitte keine englischen Versionen von Seiten anlegen, wenn diese nicht auch übersetzt werden, das wäre fuer die englische User Experience schlecht.
+Q: Gibt es eine Möglichkeit zu sehen, welche Teile meiner englischsprachigen Webseite angeblich nicht übersetzt sind, da der Hinweis auf nicht verfügbare deutsche Inhalte weiterhin erscheint?
+A: Falls alle Texte auf englisch übersetzt wurden, und die Meldung 'Some Content is only available in German' immer noch erscheint, liegt es daran, dass es von mindestens einem Element auf der Seite noch keine Englische Version gibt. Damit die Meldung verschwindet muss von jedem Element, auch Bilder und PDFs, eine englische Version erstellt werden. Im Backend kannst du jedes Element durchgehen und so leicht nachschauen, welche Items noch keine englische Version besitzt.
+Oftmals ist es der Kontaktteaser. Es sieht auf englisch dann korrekt aus, weil Sitecore automatisch die korrekte Berufsbezeichnung übernimmt, Sitecore merkt aber auch, dass nichts angepasst wurde und geht dann davon aus, dass es noch deutsch ist. Es muss dann einfach eine englische Version davon im Backend angelegt werden. 
+Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Bitte auch die Alt-Texte der Bilder kontrollieren.  
+[Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: Wie kann ich die Infobox auf der Hauptseite löschen?
+A: Die Infobox muss wieder ueber die Page Options von der Seite gelöst werden (so wie sie hinzugefuegt wurde).
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon Sitecore_btn_window_refresh neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+Hier die Anleitung mit Bilder: [https://applsupport.hslu.ch/webhelp/index.html?hm_infobox_löschen.htm](https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm?zoom_highlightsub=infobox).
+Q: Folgende Seite wird nicht angezeigt und ich finde nicht raus, warum:
+<<link>>
+Könnt ihr mir hier weiterhelfen?
+ 
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+
+WEBHELP-ARTIKEL 
+ Key: Event Filter List konfigurieren
+Navigation:  Seitenelemente > Template Container > Such- und Filterlisten > Filter Konfigurationen
+
+In dieser Anleitung wird beschrieben, wie Filterlisten für Event konfigueriert werden. Was Fixe und vorselektierte Filter in dem zusammenhang bedeuten und welche Einstellungen bei den Eventfilterlisten vorgenommen werden können.
+
+Siehe auch: Veranstaltung erfassen (https://applsupport.hslu.ch/webhelp/hm_veranstaltung_erfassen.htm), Single Agenda Teaser (https://applsupport.hslu.ch/webhelp/hm_event_teaser_einfuegen.htm), Multi Agenda Teaser (https://applsupport.hslu.ch/webhelp/hm_multi_event_teaser_einfueg2.htm)
+
+Optionen zugreifen:
+Die Filterliste auswählen und auf der folgenden drei Buttons klicken:
+ 
+• Filterliste bearbeiten
+• vorselektierte Filter bearbeiten
+• fixe Filter bearbeiten
+
+Weiter unten ist beschrieben, wie diese drei Optionen konfiguriert werden können.
+
+Filterliste bearbeiten (was die verschiedenen Einstellungen bedeuten):
+•Filter ausblenden: Wird dies aktiviert, verschwinden für die User die Filtermöglichkeiten.
+•Kein Resultat Text: Der Text, welcher in diesem Feld eingetragen ist, wird angezeigt, wenn keine Resultate gefunden wurden.
+•Filter standartmässig ausgeklappt: Seit November 2015 werden die Filter standartmässig zugeklappt dargestellt. Dies spart Platz in der Browser-Ansicht. Wird diese Check-Box hingegen aktiviert, werden die Filter wieder aufgeklappt dargestellt.
+  
+Vorselektierte Filter bearbeiten:
+Filter vorselektiert: Die hier ausgewählten Filter sind Voreinstellungen. Die User können diese Voreinstellungen über steuern.
+ 
+•Veranstaltungstyp vorselektiert: Veranstaltungstyp vorselektieren. User kann Studienort wechseln.
+•OE vorselektiert: OE vorselektieren. User kann Studienort wechseln.
+ 
+1.Das gewünschte Element in der linken Spalte All doppelklicken oder mittels der Links- und Rechts-Pfeile auswählen (heisst in die Selected-Spalte verschieben).
+2.OK klicken.
+ 
+Wichtig: Speichern (ctrl + s), denn die Änderungen werden erst nach dem Speichern sichtbar!
+ 
+fixe Filter bearbeiten
+Filter fix: Die hier ausgewählten Filter sind fix. Die User können diese nicht beeinflussen.
+ 
+•Veranstaltungstyp fix: Veranstaltungstyp fix bestimmen. User kann Veranstaltungstyp nicht wechseln.
+•OE fix: OE fix bestimmen. User kann OE nicht wechseln.
+ 
+1.Das gewünschte Element in der linken Spalte All doppelklicken oder mittels der Links- und Rechts-Pfeile auswählen (heisst in die Selected-Spalte verschieben).
+2.OK klicken.
+ 
+Wichtig: Speichern (ctrl + s), denn die Änderungen werden erst nach dem Speichern sichtbar!
+ 
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_event_filter_list.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_event_filter_list.htm
+
+Falls wirklich gar keine Information zum Beantworten der Frage in den WEBHELP-ARTIKELN oder den ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN vorhanden sind, dann antworte mit: "Leider kann ich deine Frage nicht beantworten".
+
+PRÄZISE ANTWORT:
+
+====== 
+
+RESPONSE:
+
+Um sicherzustellen, dass deine Infoveranstaltungen in der Filterliste erscheinen, überprüfe folgende Punkte:
+
+1. Stelle sicher, dass die Veranstaltungen einer Organisationseinheit (OE) zugeordnet sind.
+2. Kontrolliere, ob die Start- und Endzeit der Veranstaltungen korrekt eingestellt sind. Ein Event bleibt nur solange in der Filterliste, bis die Endzeit erreicht ist. Ist keine Endzeit eingestellt, bleibt der Event bis zur Startzeit in der Filterliste. Ist sowohl Startzeit als auch Endzeit leer, bleibt der Event bis 00:00h in der Filterliste und im Call to Action Teaser.
+3. Falls es sich um eine Filterliste auf einer englischen Seite handelt, achte darauf, dass nur englische Seiten aufgeführt werden.
+4. Speziell für englische Seiten: Damit ein Event in der englischen Filterliste erscheint, muss die Seite des Events in einer englischen Version existieren.
+
+Weitere Informationen findest du [hier](https://applsupport.hslu.ch/webhelp/hm_publish_options.htm) und [hier](https://applsupport.hslu.ch/webhelp/hm_event_filter_list.htm).

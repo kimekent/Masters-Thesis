@@ -1,23 +1,25 @@
 """
 This script is designed to evaluate the differences in response quality and content between GPT-3.5 and GPT-4.
-The tests are run using the testing_chatbot_gpt3_gpt3.py chatbot
+The test is run using the testing_chatbot_gpt3_gpt3.py chatbot,
+located at '\testing\testing_chatbot\testing_chatbot_gpt3_gpt3.py'. It is a copy of the latest intent-less chatbot
+found at '\intent-less_chatbot\chatbot.py', with the key difference being the exclusion of human handoff functions
+in the test chatbot and the additional 'model' parameter.
 
-To run this script update the 'path' variable to the project directory path and add your OpenAI API key to
-'openaiapikey.txt' in the root directory of this projec
+To run this script update the 'path' variable to the root directory of this project and add your OpenAI API key to
+'openaiapikey.txt' in the root directory of this project.
 """
 
 
 # 1. Set up-------------------------------------------------------------------------------------------------------------
-
-# Define variables and paths
+# Define path to root directory and OpenAI API key
 import sys
 path = r'C:\Users\Kimberly Kent\Documents\Master\HS23\Masterarbeit\Masters-Thesis' # Change
 testing_path = path + r'\testing'
 sys.path.append(testing_path)
 
 from testing_chatbot.testing_functions import open_file
-import os
 import openai
+import os
 # Set the API key as an environment variable
 os.environ['OPENAI_API_KEY'] = open_file(path + '\openaiapikey.txt') # Add OpenAI API kex to this txt file
 openai.api_key = os.getenv('OPENAI_API_KEY')

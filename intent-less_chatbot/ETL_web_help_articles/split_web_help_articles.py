@@ -1,24 +1,29 @@
 """
-This file was used to count the tokens of each web help article. Long web help articles over 3000 tokens
-were subsequently split.
+This script was used to calculate the token count for each web help article.
+Articles exceeding 3000 tokens were then manually split. By manually splitting the files,
+the chunks were guaranteed to be  complete and make sense on their own.
 
-To run this script update the 'path' variable to the project directory path.
+To run this script update the 'path' variable to the root directory of this project.
 """
 
-import os
-# Create dictionary with filename and number of characters in .txt file
-# Specify the directory where the .txt files are located
-path = r'C:\Users\Kimberly Kent\Documents\Master\HS23\Masterarbeit\Masters-Thesis'
+
+# 1. Set up-------------------------------------------------------------------------------------------------------------
+# Set path to root directory and intent-less chatbot folder
+path = r'C:\Users\Kimberly Kent\Documents\Master\HS23\Masterarbeit\Masters-Thesis' # Change
 intent_less_path = path + r'\intent-less_chatbot'
+
+# Import packages
+import os
 
 # Initialize an empty dictionary to store the results
 file_lengths = {}
 
+# 2. Count tokens per web help article----------------------------------------------------------------------------------
 # Iterate through the files in the directory
-for filename in os.listdir(intent_less_path + r'\data'):
+for filename in os.listdir(intent_less_path + r'\data\scraped_web_support_files'):
     if filename.endswith('.txt'):
         # Get the full file path
-        file_path = os.path.join(intent_less_path, filename)
+        file_path = os.path.join(intent_less_path + r'\data\scraped_web_support_files', filename)
 
         # Open the file and read its content
         with open(file_path, 'r', encoding='utf-8') as file:
@@ -34,7 +39,7 @@ for filename in os.listdir(intent_less_path + r'\data'):
 for filename, length in file_lengths.items():
     print(f'{filename}: {length} characters')
 
-#Get name of txt files that have more than 3000 characters_________________
+# 3. Get name of txt files that have more than 3000 characts------------------------------------------------------------
 # Set the character length threshold
 threshold = 3000
 
@@ -42,29 +47,3 @@ threshold = 3000
 for filename, char_length in file_lengths.items():
     if char_length > threshold:
         print(f'{filename}: {char_length} characters')
-
-# Add txt files together
-# Specify the directory where the text documents are located
-
-# Output file where concatenated content will be saved
-output_file = intent_less_path + r'data\input.txt'
-
-# Empty string to store concatenated content
-concatenated_content = ''
-
-# Iterate through the files in the directory
-for filename in os.listdir(intent_less_path):
-    if filename.endswith('.txt'):
-        # Get the full file path
-        file_path = os.path.join(intent_less_path, filename)
-
-        # Read the file's content
-        with open(file_path, 'r', encoding='utf-8') as file:
-            content = file.read()
-
-        # Append the content to the concatenated string with '-- new document--' separator
-        concatenated_content += content + '\n-- new document--\n'
-
-# Write the concatenated content to the output file
-with open(output_file, 'w', encoding='utf-8') as outfile:
-    outfile.write(concatenated_content)

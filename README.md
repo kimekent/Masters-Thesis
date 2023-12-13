@@ -57,23 +57,73 @@ This repository contains the components for building, running and testing the in
 These components collectively make up the chatbot application for Teams. Ensure you have all dependencies installed as listed in `requirements.txt` before running `app.py`.
 
 
+## Instructions
+To run any of these scripts, first install the requirements list by cd into root project folder clone the directory with then with pip install requirements.txt
 
+#### Intent-based chatbot
+To run the intent-based rasa chatbot on terminal navigate to \intent-based_chatbot
+before running chatbot execute python -m spacy download de_core_news_sm
+then run command rasa shell
+in seperate terminal start actions server with rasa run acitons
+talk to chatbot
 
-#### Additional Information
+#### Intent-less chatbot
+To run intent-less chatbot in terminal navigate to \intent-less_chatbot\chatbot.py or run the \intent-less_chatbot\chatbot.py in an IDE.
+Before running the script change the root folder path to your root folder and add your OpenAI API key to \openaiapikey.txt
 
-  - To integrate with Microsoft Teams, you will need to:
+#### Testing
+To run the tests make sure to change the root folder path to your root folder and add your OpenAI API key to \openaiapikey.txt
+The tests such as calculating BLEU-4, ROUGE-L, and BERTScore can also be calculated on the saved genereated datasets. At the top of script there is a
+description which tells you which steps to execute if you wish to do so.
+
+#### Run chatbots on Microsoft Teams
+Prerequisites
+To run the bots on MS Teams a Azure Bot Service Instance need to be created. 
+Install Ngrok
+
+intent-based chatbot
+ - To integrate with Microsoft Teams, you will need to:
     1. Replace the `actions/actions.py` file with the contents from `MS_teams_files/teams_actions.py`.
     2. Add the `MS_teams_files/cards.py` file to the `actions/` directory.
     3. Replace the content in the `domain.yml` file with the content from `MS_teams_files/domain_teams.yml`.
-
-#### Instructions for Microsoft Teams Integration
-
+	4. Add botframework credentials (app_id and app_password) to run chatbot with Microsoft Teams frontend \intent-based_chatbot\credentials.py
+These credentials can be found in your azure bot under 'congigurations' > Manage Password
 1. **Updating Actions**: Replace the existing `actions.py` script with `teams_actions.py` to ensure the chatbot actions are compatible with Microsoft Teams.
 
 2. **Adding Card Functionality**: Transfer `cards.py` into the `actions/` directory to enable rich message formats, such as adaptive cards in Microsoft Teams.
 
 3. **Domain Modification**: Update the `domain.yml` with `domain_teams.yml` to align the chatbot's responses and actions with the conversational flows and capabilities supported by Microsoft Teams.
 ## Setup and Installation
+
+Running the chatbot
+Navigate to \intent-bases_chatbot
+In terminal run rasa run
+In seperate terminal run rasa run acitons
+In separate terminal run ngrok http 5005
+In Azure Bot service instance add the ngrok https url  Azure portal, open the resource page of your bot channel registration and navigate to „Settings > Configuration“. As messaging endpoint, enter your individual ngrok URL followed by „/webhooks/botframework/webhook“.
+On ressource page on bot channel navigate to channels "add Chanel" Microsoft teams and then Click open in Microsoft Teams
+YOu can now chat to chatbot through teams
+
+
+Intent-less Chatbot
+Navigate to \intent-less chatbot 
+In terminal run python app.py
+In seperate terminalrun ngrok http [protal where app.py is running on]
+In Azure Bot service instance add the ngrok https url  Azure portal, open the resource page of your bot channel registration and navigate to „Settings > Configuration“. As messaging endpoint, enter your individual ngrok URL followed '/api/messages'
+On ressource page on bot channel navigate to channels "add Chanel" Microsoft teams and then Click open in Microsoft Teams
+YOu can now chat to chatbot through teams
+
+
+### To 
+
+
+#### Additional Information
+
+ 
+
+#### Instructions for Microsoft Teams Integration
+
+
 
 [Provide instructions here on how to set up and install the chatbot, including any prerequisites.]
 

@@ -5,17 +5,7 @@ Sprich in der DU-Form.
 Verwende bei längerem Texten Aufzählungszeichen.
 Verlinke hilfreiche Webhelp-Artikel in der Antwort.
 
-CHAT-HISTORY: 
-
-
-
-
-
-
-
-Human: Wie kann ich meine Teaser nebeneinander platzieren, ohne dass zwischen ihnen Räume entstehen? 
-AI: Falls Teaser bei 100% Breite nicht nebeneinander platziert werden können, kann die Anordnung durch Einfügen eines geschützten Umbruchs optimiert werden. Dies vermeidet unnötige Lücken und ermöglicht die Platzierung von Elementen links- oder rechtsbündig. Weitere Informationen dazu findest du [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm).
-<<history>>
+CHAT-HISTORY: <<history>>
 
 AKTUELLE FRAGE: <<query>>
 

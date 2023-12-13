@@ -12,7 +12,7 @@ Key Components and Steps:
 - Visualization: Results are visualized with bar charts, showcasing the rate of correctly answered questions by document
     count for each retriever (Step 6).
 
-To run this script update the 'path' variable to the project directory path and add your OpenAI API key to
+To run this script update the 'path' variable to the root directory of this project and add your OpenAI API key to
 'openaiapikey.txt' in the root directory of this project.
 
 For visualization, execute Steps 5 and 6 using the saved result CSV files.
@@ -20,7 +20,7 @@ For visualization, execute Steps 5 and 6 using the saved result CSV files.
 
 
 # 1. Set Up-------------------------------------------------------------------------------------------------------------
-# Set variables and paths
+# Set path to root directory and OpenAI API key
 import sys
 path = r"C:\Users\Kimberly Kent\Documents\Master\HS23\Masterarbeit\Masters-Thesis" # Change
 testing_path = path + r"\testing"

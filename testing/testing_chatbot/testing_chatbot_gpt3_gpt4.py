@@ -1,18 +1,17 @@
 """
 This testing chatbot is specifically designed for comparing the performance of text generation models.
-It operates using the same setup as the latest version of the intent-less chatbot (intent-less_chatbot.py).
+It operates using the same setup as the latest version of the intent-less chatbot ('\intent-less_chatbot\chatbot.py').
 The primary difference is that it requires a text generation model as a parameter, which is then used to
 generate answers.
 
-To run this script, update the 'path' variable to match your project directory path.
-Also, ensure that your OpenAI API key is added to the 'openaiapikey.txt' file located in the root directory of
-this project.
+To run this script update the 'path' variable to the root directory of this project and add your OpenAI API key to
+'openaiapikey.txt' in the root directory of this project.
 """
 
 
 # 1. Set up-------------------------------------------------------------------------------------------------------------
 
-# Set variables and paths
+# Set path to root directory and OpenAI API key
 import sys
 path = r'C:\Users\Kimberly Kent\Documents\Master\HS23\Masterarbeit\Masters-Thesis' # Change
 testing_path = path + r'\testing'
@@ -29,7 +28,7 @@ from testing_chatbot.testing_functions import replace_links_with_placeholder, nu
 from testing_chatbot.testing_functions import adjust_similarity_scores_final_model_test, remove_history, save_file
 
 # OpenAI text generation functions
-from testing_chatbot.testing_functions import gpt3_1106_completion, gpt3_0613_completion
+from testing_chatbot.testing_functions import gpt3_1106_completion
 
 # Libraries for initializing the retriever and the vector store
 from langchain.vectorstores import Chroma
@@ -75,8 +74,8 @@ def main(question, generation_model):
         # Reformulate the current question to include context from previous turns for better document retrieval
         # in multi-question sessions.
         current_retriever_prompt = retriever_prompt.replace('<<query>>', query)
-        restructured_query = gpt3_0613_completion(current_retriever_prompt,
-                                                  directory=retriever_prompt_log_directory)
+        restructured_query = gpt3_1106_completion(prompt=current_retriever_prompt,
+                                                  log_directory=retriever_prompt_log_directory)
         print('restructured query: ' + restructured_query)
     else:
         restructured_query = query

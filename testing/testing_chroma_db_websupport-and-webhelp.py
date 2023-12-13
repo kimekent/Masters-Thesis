@@ -6,11 +6,11 @@ GPT-3 and GPT-4 text generation comparison), new questions have been generated, 
 dataset. This precaution helps prevent overfitting, as it avoids testing the chatbot with questions that are already
 present in the database.
 
-To run this script update the 'path' variable to the project directory path and add your OpenAI API key to
+To run this script update the 'path' variable to the root project directory and add your OpenAI API key to
 'openaiapikey.txt' in the root directory of this project.
 """
 
-# Set path to project directory and define OpenAI API key
+# Set path to root project directory and OpenAI API key
 import sys
 path = r"C:\Users\Kimberly Kent\Documents\Master\HS23\Masterarbeit\Masters-Thesis" # Change
 testing_path = path + r'\testing'

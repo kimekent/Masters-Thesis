@@ -1,14 +1,19 @@
 """
-This chatbot setup is the same as the final version found in '/intent-less_chatbot/chatbot.py'.
+This chatbot setup is the same as the final intent-less chatbot version found in
+'/intent-less_chatbot/chatbot.py', except that it does not include the human handoff component
+of the final intent-less chatbot version.
 
-To run this script update the 'path' variable to the project directory path and add your OpenAI API key to
+The answers generated with this chatbot are used to conduct the intent-based rasa and intent-less chatbot comparison.
+The script for answer generation of this comparison is located at '\testing\tests\rasa_openai_comparison.py'
+
+To run this script update the 'path' variable to the root directory of this project and add your OpenAI API key to
 'openaiapikey.txt' in the root directory of this project.
 """
 
 
 # 1. Set up-------------------------------------------------------------------------------------------------------------
 
-# Set path to project directory and define OpenAI API key
+# Set path to root directory and OpenAI API key
 path = r'C:\Users\Kimberly Kent\Documents\Master\HS23\Masterarbeit\Masters-Thesis'
 testing_path = path + r'\testing'
 
@@ -23,7 +28,7 @@ openai.api_key = os.getenv('OPENAI_API_KEY') # Add OpenAI API key to this .txt f
 from testing_functions import num_tokens_from_string, remove_history, save_file, adjust_similarity_scores_final_model_test
 
 # OpenAI Libraries and functions
-from testing_functions import gpt3_1106_completion, gpt3_0613_completion
+from testing_functions import gpt3_1106_completion
 
 # Libraries for initializing the retriever and the vector store
 from langchain.vectorstores import Chroma
@@ -69,8 +74,8 @@ def main(question):
         # Reformulate the current question to include context from previous turns for better document retrieval
         # in multi-question sessions.
         current_retriever_prompt = retriever_prompt.replace('<<query>>', query)
-        restructured_query = gpt3_0613_completion(current_retriever_prompt,
-                                                  directory=retriever_prompt_log_directory)
+        restructured_query = gpt3_1106_completion(prompt=current_retriever_prompt,
+                                                  log_directory=retriever_prompt_log_directory)
         print('restructured query: ' + restructured_query)
     else:
         restructured_query = query

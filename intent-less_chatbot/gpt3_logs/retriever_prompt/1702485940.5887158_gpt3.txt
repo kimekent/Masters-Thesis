@@ -1,0 +1,80 @@
+PROMPT:
+
+Formuliere die AKTUELLE FRAGE um, so dass klar ist, worauf sich die Frage bezieht. Nutze dazu die Infromationen aus der Chat-History. Falls die Frage bereits eindeutig ist, belasse sie in der originalen Form. Antworte immer nur mit der unstrukturierten Frage oder mit der originalen Frage, ohne jeglichen zusätzlichen Text.
+
+Beispiele: 
+1. Beispiel
+Chat-History: <<newest message>>
+human: Wie kann ich einen Mailverlauf im CRM aufsetzen?
+AI: Leider kann ich deine Frage nicht beantworten.
+human: was ist ein anker?
+AI: Ein Anker ist ein Sprungmarke in einer Seite, die es ermöglicht, direkt zu einem bestimmten Abschnitt auf der gleichen Seite zu springen. Beim Einrichten von Ankerlinks ist es wichtig, den Ankername entsprechend zu definieren und zu verlinken. Dabei müssen verschiedene Schritte beachtet werden, je nachdem ob der Anker auf derselben Seite oder auf einer anderen internen Seite erstellt werden soll. Weitere Informationen zum Einrichten von Ankerlinks findest du in den folgenden Webhelp-Artikeln:
+
+- [Anker](https://applsupport.hslu.ch/webhelp/hm_anker.htm)
+- [Anker auf einer anderen Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm)
+- [Eigener Anker im Rich-Text](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm)
+- [Anker auf gleicher Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm)
+<<oldest message>>
+Neue Frage: Sie ist jedoch auf englisch.
+Umstrukturierte Frage = Wie kann ich ein englische Seite löschen?
+
+2. Beispiel
+Chat-History: <<newest message>>
+human: Wie kann ich einen Mailverlauf im CRM aufsetzen?
+AI: Leider kann ich deine Frage nicht beantworten.
+human: was ist ein anker?
+AI: Ein Anker ist ein Sprungmarke in einer Seite, die es ermöglicht, direkt zu einem bestimmten Abschnitt auf der gleichen Seite zu springen. Beim Einrichten von Ankerlinks ist es wichtig, den Ankername entsprechend zu definieren und zu verlinken. Dabei müssen verschiedene Schritte beachtet werden, je nachdem ob der Anker auf derselben Seite oder auf einer anderen internen Seite erstellt werden soll. Weitere Informationen zum Einrichten von Ankerlinks findest du in den folgenden Webhelp-Artikeln:
+
+- [Anker](https://applsupport.hslu.ch/webhelp/hm_anker.htm)
+- [Anker auf einer anderen Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm)
+- [Eigener Anker im Rich-Text](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm)
+- [Anker auf gleicher Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm)
+<<oldest message>> 
+Neue Frage: Kann ich dort auch externe Links einfügen?
+Umstrukturierte Frage = Kann ich in der virtuellen Navigation auch externe Link einfügen?
+
+3. Beispiel
+Chat-History: <<newest message>>
+human: Wie kann ich einen Mailverlauf im CRM aufsetzen?
+AI: Leider kann ich deine Frage nicht beantworten.
+human: was ist ein anker?
+AI: Ein Anker ist ein Sprungmarke in einer Seite, die es ermöglicht, direkt zu einem bestimmten Abschnitt auf der gleichen Seite zu springen. Beim Einrichten von Ankerlinks ist es wichtig, den Ankername entsprechend zu definieren und zu verlinken. Dabei müssen verschiedene Schritte beachtet werden, je nachdem ob der Anker auf derselben Seite oder auf einer anderen internen Seite erstellt werden soll. Weitere Informationen zum Einrichten von Ankerlinks findest du in den folgenden Webhelp-Artikeln:
+
+- [Anker](https://applsupport.hslu.ch/webhelp/hm_anker.htm)
+- [Anker auf einer anderen Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm)
+- [Eigener Anker im Rich-Text](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm)
+- [Anker auf gleicher Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm)
+<<oldest message>> 
+Neue Frage: Wieso wird sie nicht angesprungen?
+Umstrukturierte Frage = Wieso wird mein Anker nicht angesprungen?
+
+Vorgehen:
+Lies die CHAT-HISTORY und die AKTUELLE FRAGE.
+Ergänze die AKTUELLE FRAGE mit dem Webelement auf die sich die Frage bezieht.
+Das ist eine Liste von Webelementen: Anker, Teaser, Moodboard, Hauptnavigation, Sidenavigation, viruelle Navigation, Filterliste. 
+Ersetze alle Anaphern in der AKTUELLEN FRAGE mit den konkreten Wörtern, die in der CHAT-History erwähnt werden. Beispiele für Anaphern sind "dieses", "dort" usw.
+
+Falls sich die Frage nicht auf den vorherigen Chatverlauf bezieht, spiele die Frage in ihrer originalen Form zurück. Antworte immer nur mit der unstrukturierten Frage oder mit der originalen Frage, ohne jeglichen zusätzlichen Text.
+
+CHAT-HISTORY: 
+<<newest message>>
+human: Wie kann ich einen Mailverlauf im CRM aufsetzen?
+AI: Leider kann ich deine Frage nicht beantworten.
+human: was ist ein anker?
+AI: Ein Anker ist ein Sprungmarke in einer Seite, die es ermöglicht, direkt zu einem bestimmten Abschnitt auf der gleichen Seite zu springen. Beim Einrichten von Ankerlinks ist es wichtig, den Ankername entsprechend zu definieren und zu verlinken. Dabei müssen verschiedene Schritte beachtet werden, je nachdem ob der Anker auf derselben Seite oder auf einer anderen internen Seite erstellt werden soll. Weitere Informationen zum Einrichten von Ankerlinks findest du in den folgenden Webhelp-Artikeln:
+
+- [Anker](https://applsupport.hslu.ch/webhelp/hm_anker.htm)
+- [Anker auf einer anderen Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm)
+- [Eigener Anker im Rich-Text](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm)
+- [Anker auf gleicher Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm)
+<<oldest message>>
+
+AKTUELLE FRAGE: Wie erhalte ich Zugang zu Evento?
+
+UMSTRUKTURIERTE/ORIGINALE FRAGE:
+
+====== 
+
+RESPONSE:
+
+Wie kann ich auf Evento zugreifen?

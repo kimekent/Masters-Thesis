@@ -1,10 +1,11 @@
 """
 This script includes the code necessary to identify keywords associated with each intent.
-The results from this process are utilized in the 'adjust similarity score' function of the retriever.
+The results from this process are utilized in the 'adjust_similarity_score' function of the retriever.
 This function scans for the identified keywords within questions, and if such a keyword is detected,
-it enhances the similarity score for the intent linked to that keyword.
+it enhances the similarity score of the documents that have the same associated intent as the intent that is linked to
+that keyword.
 
-To run this script update the 'path' variable to the project directory path.
+To run this script update the 'path' variable to the root directory path of this project.
 """
 
 # Set directory path
@@ -17,7 +18,7 @@ import pandas as pd
 import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 import string
-from testing_functions import open_file
+from testing_chatbot.testing_functions import open_file
 
 
 # Download the stopwords from NLTK

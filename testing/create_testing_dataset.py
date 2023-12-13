@@ -1,10 +1,10 @@
 """
 This scripts splits the web support ticketing dataset into a train, test and validation data set.
 
-To run this script update the 'path' variable to the project directory path.
+To run this script update the 'path' variable to the root project directory.
 """
 
-# Define directory path
+# Define root directory path for this project
 path = r"C:\Users\Kimberly Kent\Documents\Master\HS23\Masterarbeit\Masters-Thesis"
 
 # Import libraries

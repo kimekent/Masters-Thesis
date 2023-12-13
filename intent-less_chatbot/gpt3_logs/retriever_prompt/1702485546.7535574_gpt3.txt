@@ -1,0 +1,120 @@
+PROMPT:
+
+Formuliere die AKTUELLE FRAGE um, so dass klar ist, worauf sich die Frage bezieht. Nutze dazu die Infromationen aus der Chat-History. Falls die Frage bereits eindeutig ist, belasse sie in der originalen Form. Antworte immer nur mit der unstrukturierten Frage oder mit der originalen Frage, ohne jeglichen zusätzlichen Text.
+
+Beispiele: 
+1. Beispiel
+Chat-History: <<newest message>>
+human: Wie kann ich einen Anker einfügen?
+AI: Um einen Anker einzufügen, befolge diese Schritte:
+
+1. Wenn du auf die gleiche Seite verlinken möchtest, kannst du einen eigenen Anker im Rich-Text Teaser definieren. [Hier](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm) findest du die entsprechende Anleitung.
+
+2. Möchtest du auf eine andere Seite verlinken, kannst du einen Anker auf einer anderen Seite setzen. Die genaue Anleitung dazu findest du [hier](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm).
+
+3. Falls du Lücken zwischen Teasern entfernen möchtest, kann das durch Einfügen eines geschützten Umbruchs erreicht werden. [Hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) ist beschrieben, wie das funktioniert.
+
+4. Wenn auf der mobilen Version einer Seite Text sichtbar ist, der dort nicht hingehört, könnte das an einer falschen Formatierung oder Konfiguration liegen. Bitte überprüfe nochmals die Schritte zur Konfiguration der Anker und Teaser.
+
+Solltest du weitere Fragen haben, stehe ich gerne zur Verfügung.
+human: was ist ein anker?
+AI: Anker sind Sprungmarken in einer Webseite, die den Browser beim Anklicken eines Links zu einem bestimmten Abschnitt auf derselben Seite führen. Anker können auf derselben Seite oder auf anderen Seiten platziert werden. Du kannst Anker im Rich-Text-Teaser definieren und auf der gleichen Seite oder auf anderen Seiten verwenden. Weitere Informationen findest du in den folgenden Webhelp-Artikeln:
+
+- [Anker](https://applsupport.hslu.ch/webhelp/hm_anker.htm)
+- [Anker auf einer anderen Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm)
+- [Eigener Anker im Rich-Text](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm)
+- [Anker auf gleicher Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm)
+<<oldest message>>
+Neue Frage: Sie ist jedoch auf englisch.
+Umstrukturierte Frage = Wie kann ich ein englische Seite löschen?
+
+2. Beispiel
+Chat-History: <<newest message>>
+human: Wie kann ich einen Anker einfügen?
+AI: Um einen Anker einzufügen, befolge diese Schritte:
+
+1. Wenn du auf die gleiche Seite verlinken möchtest, kannst du einen eigenen Anker im Rich-Text Teaser definieren. [Hier](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm) findest du die entsprechende Anleitung.
+
+2. Möchtest du auf eine andere Seite verlinken, kannst du einen Anker auf einer anderen Seite setzen. Die genaue Anleitung dazu findest du [hier](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm).
+
+3. Falls du Lücken zwischen Teasern entfernen möchtest, kann das durch Einfügen eines geschützten Umbruchs erreicht werden. [Hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) ist beschrieben, wie das funktioniert.
+
+4. Wenn auf der mobilen Version einer Seite Text sichtbar ist, der dort nicht hingehört, könnte das an einer falschen Formatierung oder Konfiguration liegen. Bitte überprüfe nochmals die Schritte zur Konfiguration der Anker und Teaser.
+
+Solltest du weitere Fragen haben, stehe ich gerne zur Verfügung.
+human: was ist ein anker?
+AI: Anker sind Sprungmarken in einer Webseite, die den Browser beim Anklicken eines Links zu einem bestimmten Abschnitt auf derselben Seite führen. Anker können auf derselben Seite oder auf anderen Seiten platziert werden. Du kannst Anker im Rich-Text-Teaser definieren und auf der gleichen Seite oder auf anderen Seiten verwenden. Weitere Informationen findest du in den folgenden Webhelp-Artikeln:
+
+- [Anker](https://applsupport.hslu.ch/webhelp/hm_anker.htm)
+- [Anker auf einer anderen Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm)
+- [Eigener Anker im Rich-Text](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm)
+- [Anker auf gleicher Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm)
+<<oldest message>> 
+Neue Frage: Kann ich dort auch externe Links einfügen?
+Umstrukturierte Frage = Kann ich in der virtuellen Navigation auch externe Link einfügen?
+
+3. Beispiel
+Chat-History: <<newest message>>
+human: Wie kann ich einen Anker einfügen?
+AI: Um einen Anker einzufügen, befolge diese Schritte:
+
+1. Wenn du auf die gleiche Seite verlinken möchtest, kannst du einen eigenen Anker im Rich-Text Teaser definieren. [Hier](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm) findest du die entsprechende Anleitung.
+
+2. Möchtest du auf eine andere Seite verlinken, kannst du einen Anker auf einer anderen Seite setzen. Die genaue Anleitung dazu findest du [hier](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm).
+
+3. Falls du Lücken zwischen Teasern entfernen möchtest, kann das durch Einfügen eines geschützten Umbruchs erreicht werden. [Hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) ist beschrieben, wie das funktioniert.
+
+4. Wenn auf der mobilen Version einer Seite Text sichtbar ist, der dort nicht hingehört, könnte das an einer falschen Formatierung oder Konfiguration liegen. Bitte überprüfe nochmals die Schritte zur Konfiguration der Anker und Teaser.
+
+Solltest du weitere Fragen haben, stehe ich gerne zur Verfügung.
+human: was ist ein anker?
+AI: Anker sind Sprungmarken in einer Webseite, die den Browser beim Anklicken eines Links zu einem bestimmten Abschnitt auf derselben Seite führen. Anker können auf derselben Seite oder auf anderen Seiten platziert werden. Du kannst Anker im Rich-Text-Teaser definieren und auf der gleichen Seite oder auf anderen Seiten verwenden. Weitere Informationen findest du in den folgenden Webhelp-Artikeln:
+
+- [Anker](https://applsupport.hslu.ch/webhelp/hm_anker.htm)
+- [Anker auf einer anderen Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm)
+- [Eigener Anker im Rich-Text](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm)
+- [Anker auf gleicher Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm)
+<<oldest message>> 
+Neue Frage: Wieso wird sie nicht angesprungen?
+Umstrukturierte Frage = Wieso wird mein Anker nicht angesprungen?
+
+Vorgehen:
+Lies die CHAT-HISTORY und die AKTUELLE FRAGE.
+Ergänze die AKTUELLE FRAGE mit dem Webelement auf die sich die Frage bezieht.
+Das ist eine Liste von Webelementen: Anker, Teaser, Moodboard, Hauptnavigation, Sidenavigation, viruelle Navigation, Filterliste. 
+Ersetze alle Anaphern in der AKTUELLEN FRAGE mit den konkreten Wörtern, die in der CHAT-History erwähnt werden. Beispiele für Anaphern sind "dieses", "dort" usw.
+
+Falls sich die Frage nicht auf den vorherigen Chatverlauf bezieht, spiele die Frage in ihrer originalen Form zurück. Antworte immer nur mit der unstrukturierten Frage oder mit der originalen Frage, ohne jeglichen zusätzlichen Text.
+
+CHAT-HISTORY: 
+<<newest message>>
+human: Wie kann ich einen Anker einfügen?
+AI: Um einen Anker einzufügen, befolge diese Schritte:
+
+1. Wenn du auf die gleiche Seite verlinken möchtest, kannst du einen eigenen Anker im Rich-Text Teaser definieren. [Hier](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm) findest du die entsprechende Anleitung.
+
+2. Möchtest du auf eine andere Seite verlinken, kannst du einen Anker auf einer anderen Seite setzen. Die genaue Anleitung dazu findest du [hier](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm).
+
+3. Falls du Lücken zwischen Teasern entfernen möchtest, kann das durch Einfügen eines geschützten Umbruchs erreicht werden. [Hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) ist beschrieben, wie das funktioniert.
+
+4. Wenn auf der mobilen Version einer Seite Text sichtbar ist, der dort nicht hingehört, könnte das an einer falschen Formatierung oder Konfiguration liegen. Bitte überprüfe nochmals die Schritte zur Konfiguration der Anker und Teaser.
+
+Solltest du weitere Fragen haben, stehe ich gerne zur Verfügung.
+human: was ist ein anker?
+AI: Anker sind Sprungmarken in einer Webseite, die den Browser beim Anklicken eines Links zu einem bestimmten Abschnitt auf derselben Seite führen. Anker können auf derselben Seite oder auf anderen Seiten platziert werden. Du kannst Anker im Rich-Text-Teaser definieren und auf der gleichen Seite oder auf anderen Seiten verwenden. Weitere Informationen findest du in den folgenden Webhelp-Artikeln:
+
+- [Anker](https://applsupport.hslu.ch/webhelp/hm_anker.htm)
+- [Anker auf einer anderen Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm)
+- [Eigener Anker im Rich-Text](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm)
+- [Anker auf gleicher Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm)
+<<oldest message>>
+
+AKTUELLE FRAGE: Bei wem muss ich mich melden, um Zugang zum Evento zu erhalten?
+
+UMSTRUKTURIERTE/ORIGINALE FRAGE:
+
+====== 
+
+RESPONSE:
+
+Bei wem muss ich mich melden, um Zugang zum Evento zu erhalten?

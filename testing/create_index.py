@@ -8,11 +8,11 @@ The final chatbot implementation, as well as the test comparing the final intent
 final intent-less chatbot, and the test comparing GPT-4 and GPT-3 text generation models, use the embeddings stored
 in a Chroma vector database.
 
-To run this script update the 'path' variable to the project directory path and add your OpenAI API key to
+To run this script update the 'path' variable to the root directory of this project and add your OpenAI API key to
 'openaiapikey.txt' in the root directory of this project.
 """
 
-# Set path to project directory and define OpenAI API key
+# Set path to root project directory and OpenAI API key
 import sys
 path = r"C:\Users\Kimberly Kent\Documents\Master\HS23\Masterarbeit\Masters-Thesis" # Change
 testing_path = path + r'\testing'

@@ -1,0 +1,30 @@
+# intent-less chatbot:
+openai
+python-dotenv  
+win32com.client  
+client
+langchain
+
+# tests
+openai
+pandas
+matplotlib
+sentence-transformers
+nltk
+evaluate
+openai
+pandas
+os
+glob
+csv
+evaluate
+nltk
+matplotlib
+ast
+tiktoken
+numpy
+scikit-learn
+sentence-transformers
+
+rasa [3.6.8]
+rasa_sdk [3.6.2]

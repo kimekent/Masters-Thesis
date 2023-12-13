@@ -1,0 +1,437 @@
+PROMPT:
+
+Deine Aufgabe ist es, die folgende AKTUELLE FRAGE zu beantworten, indem du dich strikt an die Informationen aus den WEBHELP-ARTIKELN und den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN hältst. Es ist entscheidend, dass du nur Informationen zur Beantwortung der Frage nutzt, die direkt und eindeutig in diesen Quellen vorhanden sind. Falls die spezifische Information, die zur Beantwortung der Frage notwendig ist, in diesen Quellen nicht explizit erwähnt wird, antworte bitte mit 'Leider kann ich deine Frage nicht beantworten'. Es ist wichtig, keine Annahmen zu treffen oder Informationen hinzuzufügen, die nicht klar in den bereitgestellten Ressourcen enthalten sind. Stelle sicher, dass die Antwort ausschließlich auf den Informationen aus den bereitgestellten Webhelp-Artikeln und den ähnlichen Fragen und Antworten basiert.
+Sprich in der DU-Form.
+Verwende bei längerem Texten Aufzählungszeichen.
+Verlinke hilfreiche Webhelp-Artikel in der Antwort.
+
+CHAT-HISTORY: <<history>>
+
+AKTUELLE FRAGE: Wie kann ich mich bei Google Analytics einloggen?
+
+ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN:
+Q: Ich kann mich nicht ins Sitecore einloggen. Wie geht das?
+
+ 
+A: Das Login ist das normale HSLU-Login, man muss aber immer campus\ vor den Benutzernamen schreiben
+- Login-Seite Live: [https://stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)
+- Login-Seite Schulungsumgebung: [https://int-stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)"
+Q: Ich habe länger nicht mehr auf dem System gearbeitet. 
+Wie kann ich mich einloggen, auf welcher Seite und mit meinem normalen HSLU Login?
+
+A: Das Login ist das normale HSLU-Login, man muss aber immer campus\ vor den Benutzernamen schreiben
+- Login-Seite Live: [https://stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)
+- Login-Seite Schulungsumgebung: [https://int-stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)"
+Q: 
+ Könntet Ihr mir bitte kurz helfen mit dem Login fuer die Webseite?
+ 
+A: Das Login ist das normale HSLU-Login, man muss aber immer campus\ vor den Benutzernamen schreiben
+- Login-Seite Live: [https://stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)
+- Login-Seite Schulungsumgebung: [https://int-stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)"
+Q: Wie kann ich die EN-sprachige Website von unserem CAS Brand Management löschen?
+A: Hier eine Anleitung wie Sprachversionen von Seiten gelöscht werden können: Den Content Editor starten (Ribbon-Menü > Campus > Backend):
+
+1) Im Item-Tree die entsprechende Seite wählen und im Ribbon Menü zum Tab Versions wechseln.
+
+2) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass eine deutsche und eine englische Version der Seite vorhanden sind.
+
+3) Durch klicken auf den grossen Sprachbutton zur löschenden Sprachversion wechseln (hier im Beispiel englisch).
+
+4) Auf den Button Remove klicken.
+
+5) Es erscheint ein Warnhinweis, ob die Version entfernt werden soll. Wenn Sie sicher sind, auf OK klicken.
+
+6) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass die englische Version gelöscht wurde. Bei Englsh:Englisch steht 0 versions.
+Q: Durch meine heutige Umstellung auf Windows 10 habe ich meine Login-URL für Sitecore verloren. Könntet ihr mir kurz den Link zusenden?
+ 
+
+A: Das Login ist das normale HSLU-Login, man muss aber immer campus\ vor den Benutzernamen schreiben
+- Login-Seite Live: [https://stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)
+- Login-Seite Schulungsumgebung: [https://int-stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)"
+Q: Wie kann ich die Kontaktangaben einer Person anpassen?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wo kann ich die Kontaktangaben einer Person anpassen?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: 
+ Wie komme ich schon wieder zum Schulungsversion?
+ 
+A: Das Login ist das normale HSLU-Login, man muss aber immer campus\ vor den Benutzernamen schreiben
+- Login-Seite Live: [https://stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)
+- Login-Seite Schulungsumgebung: [https://int-stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)"
+Q: Gestern hatte ich eine Info-Veranstaltung und plötzlich ist mir aufgefallen, dass am Nachmittag (möglicherweise auch schon am Vormittag), die Info-Veranstaltung auf der Produkt-Webseite fehlte. Dies, obwohl ich im Evento eingestellt habe, dass man sich bis heute anmelden kann. Unter den «Veranstaltungen» war der Anmeldelink jedoch noch zu finden. Wisst ihr an was das liegt? Wie kann ich sicherstellen, dass der Anmeldelink auch auf den Produkt-Webseiten sicher bis zum Zeitpunkt der Veranstaltung publiziert ist? 
+
+
+A: Wenn ein Agendaeintrag nicht (mehr) im Call to Action Teaser auftaucht, könnte es an der "Start-Zeit-Problematik" liegen. Bei WeVe Anmeldungen kann es an den Einstellungen des Agendaeintrags liegen.
+Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit des Ereignisses im Call to Action Teaser. Wurde sowohl keine Startzeit also auch keine Endzeit für den Event festgelegt, dann bleibt der Event bis 00:00h im Call to Action Teaser. Danach wird er weder in der Filterliste, noch im automatischen CtA-Teaser angezeigt (live ist er weiterhin).
+Damit die Anmeldung über ONLA / WeVe funktioniert, muss die Evento ID in der Facts-Liste auf der Produktseite hinterlegt werden und beim Call to Action Teaser die Checkbox  "Kontextabhängige Informationen aus Evento anzeigen" aktiviert aktiviert sein (Standard)! Bei einer deaktivierten Checkbox, wird entsprechend kein Link bzw. Status Meldung angezeigt. Mehr dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_links_der_linkliste_zuweisen.htm)
+
+Q: Ich muss die Kontaktdetails einer Person in ihrem Profil aktualisieren. Wo finde ich die Option dazu?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wieso ist meine Seite nicht live?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Wie kann ich eine E-Mail-Adresse in einem Kontaktteaser anpassen?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wie kann ich überprüfen, welche Elemente auf meiner englischen Webseite den Hinweis verursachen, obwohl ich alles übersetzt habe?
+A: Falls alle Texte auf englisch übersetzt wurden, und die Meldung 'Some Content is only available in German' immer noch erscheint, liegt es daran, dass es von mindestens einem Element auf der Seite noch keine Englische Version gibt. Damit die Meldung verschwindet muss von jedem Element, auch Bilder und PDFs, eine englische Version erstellt werden. Im Backend kannst du jedes Element durchgehen und so leicht nachschauen, welche Items noch keine englische Version besitzt.
+Oftmals ist es der Kontaktteaser. Es sieht auf englisch dann korrekt aus, weil Sitecore automatisch die korrekte Berufsbezeichnung übernimmt, Sitecore merkt aber auch, dass nichts angepasst wurde und geht dann davon aus, dass es noch deutsch ist. Es muss dann einfach eine englische Version davon im Backend angelegt werden. 
+Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Bitte auch die Alt-Texte der Bilder kontrollieren.  
+[Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: Gibt es eine Möglichkeit zu sehen, welche Teile meiner englischsprachigen Webseite angeblich nicht übersetzt sind, da der Hinweis auf nicht verfügbare deutsche Inhalte weiterhin erscheint?
+A: Falls alle Texte auf englisch übersetzt wurden, und die Meldung 'Some Content is only available in German' immer noch erscheint, liegt es daran, dass es von mindestens einem Element auf der Seite noch keine Englische Version gibt. Damit die Meldung verschwindet muss von jedem Element, auch Bilder und PDFs, eine englische Version erstellt werden. Im Backend kannst du jedes Element durchgehen und so leicht nachschauen, welche Items noch keine englische Version besitzt.
+Oftmals ist es der Kontaktteaser. Es sieht auf englisch dann korrekt aus, weil Sitecore automatisch die korrekte Berufsbezeichnung übernimmt, Sitecore merkt aber auch, dass nichts angepasst wurde und geht dann davon aus, dass es noch deutsch ist. Es muss dann einfach eine englische Version davon im Backend angelegt werden. 
+Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Bitte auch die Alt-Texte der Bilder kontrollieren.  
+[Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: Ich möchte auf unserer Webseite eine Landingpage erstellen, die nicht in der Navigation auftaucht. Wie macht man das?
+A: Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Q: Ich habe gestern den Inhalt meiner Seite aktualisiert, aber wenn ich online nachschaue, ist sie nicht sichtbar. Was könnte das Problem sein?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Kann ich ein benutzerdefiniertes Bild hinterlegen, das erscheint, wenn ich eine Website auf Social Media verlinke?
+A: Wenn kein Open Graph Bild auf der jeweiligen Seite hinterlegt ist, wird automatisch das Standardbild angezeigt. Um ein benutzerdefiniertes Bild anzuzeigen kann wie folgt vorgegangen werden: 
+1) Im Content-Tree zur entsprechenden Seite navigieren.
+2) Rechts im Contentbereich unter Spezial Meta Data können die Meta-Daten bearbeitet werden.
+3) Open Graph Image - Durch Klicken auf Browse kann hier ein Bild aus der Media-Library ausgewählt werden, welches dann als Open Graph Image verwendet wird. Das Bild ist idealerweise 1200 x 630 Pixel gross oder Bildverhältnis 1.91:1. Maximum 1500px x 1500px oder 5 MB.
+4) Checkbox Open Graph Image anzeigen - Hier kann gewählt werden, ob das Bild angezeigt werden soll oder nicht. 
+Weitere Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/hm_special_meta_data.htm?zoom_highlightsub=open+graph+bild)
+ 
+ Evtl. musst du nach dem Einfuegen des Bildes den Link zu deiner Seite einmalig fuer die SoMe Plattformen bereinigen mit den folgenden Links:
+ Facebook: https://developers.facebook.com/tools/debug/
+ Twitter: https://cards-dev.twitter.com/validator
+ LinkedIn: https://www.linkedin.com/post-inspector/
+ Danach sollte dein Bild angezeigt werden.
+ 
+Q: Warum wurde meine Seite nicht publiziert?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Wie kann ich den Titel einer Person ändern?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Kann mir jemand helfen herauszufinden, warum der Hinweis auf unserer komplett übersetzten englischen Seite immer noch angezeigt wird?
+A: Falls alle Texte auf englisch übersetzt wurden, und die Meldung 'Some Content is only available in German' immer noch erscheint, liegt es daran, dass es von mindestens einem Element auf der Seite noch keine Englische Version gibt. Damit die Meldung verschwindet muss von jedem Element, auch Bilder und PDFs, eine englische Version erstellt werden. Im Backend kannst du jedes Element durchgehen und so leicht nachschauen, welche Items noch keine englische Version besitzt.
+Oftmals ist es der Kontaktteaser. Es sieht auf englisch dann korrekt aus, weil Sitecore automatisch die korrekte Berufsbezeichnung übernimmt, Sitecore merkt aber auch, dass nichts angepasst wurde und geht dann davon aus, dass es noch deutsch ist. Es muss dann einfach eine englische Version davon im Backend angelegt werden. 
+Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Bitte auch die Alt-Texte der Bilder kontrollieren.  
+[Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: Ich habe eine Veranstaltungsseite hinzugefügt, aber sie ist nicht auf unserer Website sichtbar. Woran könnte das liegen?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Ich versuche gerade eine Webseite, die es auf Deutsch schon gibt, auf English zu erstellen. Welcher ist der Ablauf zur Erstellung einer englischen Webseite?
+A: Eine neue Sprachversion kann im Experience Editor über den Versions-Tab >
+Language-Button angelegt werden. Anschliessend die Seite (ctrl+s) speichern.
+http://applsupport.hslu.ch/webhelp/index.html?hm_sprachversion.htm
+Q: Ich habe heute eine neue Seite online gestellt. In der Desktop-Variante scheint soweit alles in Ordnung. Jedoch erscheint bei der mobilen Variante dieses Fenster, welches ich mir  nicht erklären kann:
+ Könnt ihr mir da bitte weiterhelfen?
+ 
+A: Oftmals ist es der Kontaktteaser. Es sieht auf englisch dann korrekt aus, weil Sitecore automatisch die korrekte Berufsbezeichnung übernimmt, Sitecore merkt aber auch, dass nichts angepasst wurde und geht dann davon aus, dass es noch deutsch ist. Es muss dann einfach eine englische Version davon im Backend angelegt werden. 
+Q: Wie kann ich die Kontaktdetails einer Person überschreiben?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Auf unserer englischen Seite erscheint der Hinweis über nur auf Deutsch verfügbare Inhalte, obwohl ich mir sicher bin, dass ich alles übersetzt habe. Wie kann ich das Problem lösen?
+A: Falls alle Texte auf englisch übersetzt wurden, und die Meldung 'Some Content is only available in German' immer noch erscheint, liegt es daran, dass es von mindestens einem Element auf der Seite noch keine Englische Version gibt. Damit die Meldung verschwindet muss von jedem Element, auch Bilder und PDFs, eine englische Version erstellt werden. Im Backend kannst du jedes Element durchgehen und so leicht nachschauen, welche Items noch keine englische Version besitzt.
+Oftmals ist es der Kontaktteaser. Es sieht auf englisch dann korrekt aus, weil Sitecore automatisch die korrekte Berufsbezeichnung übernimmt, Sitecore merkt aber auch, dass nichts angepasst wurde und geht dann davon aus, dass es noch deutsch ist. Es muss dann einfach eine englische Version davon im Backend angelegt werden. 
+Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Bitte auch die Alt-Texte der Bilder kontrollieren.  
+[Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: Könntet Ihr mir bitte kurz mitteilen, wie ich die folgenden gelb markierte Unterseite entweder ganz löschen oder zumindest komplett offline schalten kann?
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu löschen kann so vorgegangen werden:
+ 1) Auf die zu löschende Seite navigieren und im Ribbon-Menü den Befehl "Home > Delete Page" aufrufen.
+2) Den Warnhinweis lesen und gegebenenfalls auf OK klicken.
+3) Zeigen Links auf dieses Seite, erscheint ein weiteres Hinweisfenster. Es muss entschieden werden, was mit diesen Linkst geschehen soll 
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm)
+Q: Wieso wird nicht mein hinterlegtes Bild auf Social Media dargestellt?
+A: Wenn kein Open Graph Bild auf der jeweiligen Seite hinterlegt ist, wird automatisch das Standardbild angezeigt. Um ein benutzerdefiniertes Bild anzuzeigen kann wie folgt vorgegangen werden: 
+1) Im Content-Tree zur entsprechenden Seite navigieren.
+2) Rechts im Contentbereich unter Spezial Meta Data können die Meta-Daten bearbeitet werden.
+3) Open Graph Image - Durch Klicken auf Browse kann hier ein Bild aus der Media-Library ausgewählt werden, welches dann als Open Graph Image verwendet wird. Das Bild ist idealerweise 1200 x 630 Pixel gross oder Bildverhältnis 1.91:1. Maximum 1500px x 1500px oder 5 MB.
+4) Checkbox Open Graph Image anzeigen - Hier kann gewählt werden, ob das Bild angezeigt werden soll oder nicht. 
+Weitere Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/hm_special_meta_data.htm?zoom_highlightsub=open+graph+bild)
+ 
+ Evtl. musst du nach dem Einfuegen des Bildes den Link zu deiner Seite einmalig fuer die SoMe Plattformen bereinigen mit den folgenden Links:
+ Facebook: https://developers.facebook.com/tools/debug/
+ Twitter: https://cards-dev.twitter.com/validator
+ LinkedIn: https://www.linkedin.com/post-inspector/
+ Danach sollte dein Bild angezeigt werden.
+ 
+Q: Wie kann ich das Standardbild überschreiben, bei einem Social Media Post?
+A: Wenn kein Open Graph Bild auf der jeweiligen Seite hinterlegt ist, wird automatisch das Standardbild angezeigt. Um ein benutzerdefiniertes Bild anzuzeigen kann wie folgt vorgegangen werden: 
+1) Im Content-Tree zur entsprechenden Seite navigieren.
+2) Rechts im Contentbereich unter Spezial Meta Data können die Meta-Daten bearbeitet werden.
+3) Open Graph Image - Durch Klicken auf Browse kann hier ein Bild aus der Media-Library ausgewählt werden, welches dann als Open Graph Image verwendet wird. Das Bild ist idealerweise 1200 x 630 Pixel gross oder Bildverhältnis 1.91:1. Maximum 1500px x 1500px oder 5 MB.
+4) Checkbox Open Graph Image anzeigen - Hier kann gewählt werden, ob das Bild angezeigt werden soll oder nicht. 
+Weitere Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/hm_special_meta_data.htm?zoom_highlightsub=open+graph+bild)
+ 
+ Evtl. musst du nach dem Einfuegen des Bildes den Link zu deiner Seite einmalig fuer die SoMe Plattformen bereinigen mit den folgenden Links:
+ Facebook: https://developers.facebook.com/tools/debug/
+ Twitter: https://cards-dev.twitter.com/validator
+ LinkedIn: https://www.linkedin.com/post-inspector/
+ Danach sollte dein Bild angezeigt werden.
+ 
+Q: Meine Seite wurde über Nacht nicht veröffentlicht?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Auch nachdem ich alle Teaser und Texte auf der englischen Seite übersetzt habe, erscheint der Hinweis auf nur auf Deutsch verfügbare Inhalte. Wie finde ich die Ursache?
+A: Falls alle Texte auf englisch übersetzt wurden, und die Meldung 'Some Content is only available in German' immer noch erscheint, liegt es daran, dass es von mindestens einem Element auf der Seite noch keine Englische Version gibt. Damit die Meldung verschwindet muss von jedem Element, auch Bilder und PDFs, eine englische Version erstellt werden. Im Backend kannst du jedes Element durchgehen und so leicht nachschauen, welche Items noch keine englische Version besitzt.
+Oftmals ist es der Kontaktteaser. Es sieht auf englisch dann korrekt aus, weil Sitecore automatisch die korrekte Berufsbezeichnung übernimmt, Sitecore merkt aber auch, dass nichts angepasst wurde und geht dann davon aus, dass es noch deutsch ist. Es muss dann einfach eine englische Version davon im Backend angelegt werden. 
+Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Bitte auch die Alt-Texte der Bilder kontrollieren.  
+[Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: Ich habe Änderungen an der Seite vorgenommen und gespeichert, aber sie ist immer noch nicht online. Was muss ich tun?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Wie kann ich die Infobox auf der Hauptseite löschen?
+A: Die Infobox muss wieder ueber die Page Options von der Seite gelöst werden (so wie sie hinzugefuegt wurde).
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon Sitecore_btn_window_refresh neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+Hier die Anleitung mit Bilder: [https://applsupport.hslu.ch/webhelp/index.html?hm_infobox_löschen.htm](https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm?zoom_highlightsub=infobox).
+Q: Wir haben eine Anmeldeseite fuer einen nicht-öffentlichen Anlass eingerichtet:
+<<link>>
+Die Seite ist in Navigation, Sitemap etc. ueberall auf unsichtbar geschaltet.Über die Google-Suche ist die Seite aber auffindbar
+und wir haben sogar eine Anmeldung von einer Person erhalten, die eigentlich gar nicht eingeladen wäre ?
+Gibt es einen Weg, eine Seite auch von der Suchmaschinen-Indexierung auszuschliessen?
+
+A: Um eine Seite von externen Suchmaschinen auszuschliessen muss in Sitecore die Option "Hide form Search Engine" gewählt werden.
+Wenn das bei neu publizierten Seiten nicht von Anfang gemacht wird, dann wird eine Seite in jedem Fall von Suchmaschinen indexiert. Wenn man diese Option nachträglich erfasst, wird diese bei der nächsten Google Indexierung aktiv. Dies kann aber einige Tage bis zu einer Woche dauern.
+Die Option "Hide from Search Engine" findest du im Content Editor unter Site Meta Data:
+ 
+ 1) Im Content-Tree zur entsprechenden Seite navigieren.
+
+2) Rechts im Content-Bereich unter Site Meta Data können die Meta-Daten bearbeitet werden.
+
+3) Nach Eingabe, die Daten mit ctrl + s sichern. 
+
+Weitere Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_site_meta_data_content_editor.htm)
+Q: Ich habe nochmals ein Anliegen:
+Ingo Stolz hat mich gebeten, den MAS Risk Management momentan von der Website zu nehmen.
+Dieser soll dann aber Anfang August wieder aufgeschaltet und angepasst werden.
+ 
+Wie muss ich vorgehen, damit er momentan auf der Website nicht sichtbar ist?
+
+A: Wenn eine Seite live auf der Website nicht angezeigt werden sollte, hat man Im Page Editor unter Campus > Publish Options zwei Möglichkeiten:
+1. Du setzt ein Datum, an dem die Seite veröffentlicht werden soll
+2. Du aktivierst die Checkbox "never publish". Dann musst du einfach, sobald die Seite veröffentlicht werden soll, die Checkbox wieder deaktivieren. Achtung: Alle Untergeordneten Seiten werden auch nicht sichtbar sein.
+Zu beachten: Falls die Seite bei Google bereits indexiert wurde, bleibt die Seite weiterhin dort aufgeführt,und die Klicks führen dann ins Leere. Bei beliebten Seiten mit viel Aufrufen, sollte daher bei Bedarf eine Umleitung eingerichtet werden.
+Mehr Infos dazu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm)
+Q: Ich möchte den Nachnamen in der Kontaktbox einer Person ändern. Was sind die Schritte dafür?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wie kann ich die Telefonnummer in der Kontaktbox einer Person dauerhaft anpassen?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wie kann ich einen Kontaktteaser bearbeiten?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich habe alle Seiteninhalte unserer englischen Version übersetzt, aber es wird immer noch gemeldet, dass einige Inhalte nur auf Deutsch verfügbar sind. Wie kann ich das Problem identifizieren?
+A: Falls alle Texte auf englisch übersetzt wurden, und die Meldung 'Some Content is only available in German' immer noch erscheint, liegt es daran, dass es von mindestens einem Element auf der Seite noch keine Englische Version gibt. Damit die Meldung verschwindet muss von jedem Element, auch Bilder und PDFs, eine englische Version erstellt werden. Im Backend kannst du jedes Element durchgehen und so leicht nachschauen, welche Items noch keine englische Version besitzt.
+Oftmals ist es der Kontaktteaser. Es sieht auf englisch dann korrekt aus, weil Sitecore automatisch die korrekte Berufsbezeichnung übernimmt, Sitecore merkt aber auch, dass nichts angepasst wurde und geht dann davon aus, dass es noch deutsch ist. Es muss dann einfach eine englische Version davon im Backend angelegt werden. 
+Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Bitte auch die Alt-Texte der Bilder kontrollieren.  
+[Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: Wie kann ich den akademischen Titel einer Person in ihrem Kontaktteaser bearbeiten?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich möchte den Jobtitel anpassen. Wie geht das?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: 
+ Bei uns an der Forschung D&K gibt es in der Webredaktion einen Stellenwechsel. Wie kann sich Tobias fuer den obligatorischen Webredaktionkurs anmelden? Ich habe im Intranet nichts gefunden.
+ 
+A: Informationen zur Schulungsanmeldungen findest du hier: https://inside.hslu.ch/mk/Seiten/InfoWiki/Webseite.aspx
+ 
+Q: Ich habe gestern diese engl. Seite erstellt: (nachdem zuerst die DE-Seite erstellt wurde)
+<<link>>
+ 
+Nun zeigt es mir in Sitecore eingeloggt allen Inhalt des Interviews darin in DE an. 
+Wie kann das sein?
+
+A: Sprachversionen gibt es nicht nur für Seiten sondern auch für Elemente und Datein. 
+- Wenn ein Element auf der englischen Seite einen anderen Text enthalten soll, muss zuerst eine englische Version dieses Elements erstellt werden.
+- Damit auf der englischen Seite das englische Bild dargestellt wird, muss in der Media Library eine englische Version der Grafik hinterlegt werden. Dann wird auf der Seite die Grafik der Sprache nach gewechselt.
+ Mehr dazu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_sprachversion.htm)
+Q: Wie kann ich die Telefonnummer in einem Kontaktteaser aktualisieren?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich muss die E-Mail-Adresse einer Person in ihrem Kontaktteaser ändern. Kann ich das selbst machen oder brauche ich Hilfe?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich verstehe nicht wieso meine Seite nicht live ist.
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Ich wollte unter dem unten angegebenen Pfad im sitecore  myCampus eine Änderung vornehmen, doch scheine ich keine Schreibrechte zu haben (vgl. unten).
+Müsste ich mich diesbezüglich an die Informatik-Hotline wenden?
+A: Die Berechtigungen in Sitecore sind via Bereiche (sprich bei uns Departemente) definiert. Sobald du auf einer Seite bist, die  zu deinem Departement gehört sollte diese Meldung verschwinden. Schreibrechte werden vom Service Desk vergeben (servicedesk@hslu.ch).
+
+Q: Gibt es eine Möglichkeit festzulegen, welches Bild bei einem Post auf Social Media erscheint, wenn ich ein Bild verlinke?
+A: Wenn kein Open Graph Bild auf der jeweiligen Seite hinterlegt ist, wird automatisch das Standardbild angezeigt. Um ein benutzerdefiniertes Bild anzuzeigen kann wie folgt vorgegangen werden: 
+1) Im Content-Tree zur entsprechenden Seite navigieren.
+2) Rechts im Contentbereich unter Spezial Meta Data können die Meta-Daten bearbeitet werden.
+3) Open Graph Image - Durch Klicken auf Browse kann hier ein Bild aus der Media-Library ausgewählt werden, welches dann als Open Graph Image verwendet wird. Das Bild ist idealerweise 1200 x 630 Pixel gross oder Bildverhältnis 1.91:1. Maximum 1500px x 1500px oder 5 MB.
+4) Checkbox Open Graph Image anzeigen - Hier kann gewählt werden, ob das Bild angezeigt werden soll oder nicht. 
+Weitere Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/hm_special_meta_data.htm?zoom_highlightsub=open+graph+bild)
+ 
+ Evtl. musst du nach dem Einfuegen des Bildes den Link zu deiner Seite einmalig fuer die SoMe Plattformen bereinigen mit den folgenden Links:
+ Facebook: https://developers.facebook.com/tools/debug/
+ Twitter: https://cards-dev.twitter.com/validator
+ LinkedIn: https://www.linkedin.com/post-inspector/
+ Danach sollte dein Bild angezeigt werden.
+ 
+Q: Trotz vollständiger Übersetzung unserer englischen Seite erscheint immer noch der Hinweis, dass manche Inhalte nur auf Deutsch verfügbar sind. Wie kann ich diesen Fehler beheben?
+A: Falls alle Texte auf englisch übersetzt wurden, und die Meldung 'Some Content is only available in German' immer noch erscheint, liegt es daran, dass es von mindestens einem Element auf der Seite noch keine Englische Version gibt. Damit die Meldung verschwindet muss von jedem Element, auch Bilder und PDFs, eine englische Version erstellt werden. Im Backend kannst du jedes Element durchgehen und so leicht nachschauen, welche Items noch keine englische Version besitzt.
+Oftmals ist es der Kontaktteaser. Es sieht auf englisch dann korrekt aus, weil Sitecore automatisch die korrekte Berufsbezeichnung übernimmt, Sitecore merkt aber auch, dass nichts angepasst wurde und geht dann davon aus, dass es noch deutsch ist. Es muss dann einfach eine englische Version davon im Backend angelegt werden. 
+Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Bitte auch die Alt-Texte der Bilder kontrollieren.  
+[Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: Kann ich meine Seiten zwischen den offiziellen publishing Zeiten nochmals aktualisieren?
+ 
+A: Alle Mitarbeiter/innen von M&K verfügen über die Rechte von Publish My Changes. Damit können eigene Anpassungen, die auf der Website gemacht wurden um 10.00, 15.00 und 17.00 Uhr veröffentlicht werden.
+Publish My Changes erreichst du ueber "Desktop" (auf Startseite Sitecore). Anschliessend klickst du unten links auf das Sitecore-Logo und wählst dort "Publish My Changes" aus. Danach kannst du mehrmals auf "Nächstes" klicken und deine Änderung auswählen, die zum nächsten veröffentlichungszeitpunkt live geschalten werden sollten.
+ 
+Q: Ich habe Änderungen fuer den BScMDSE auf der Website vorgenommen. <<link>>
+Fuer mich (Google Chrome) sieht alles wunderbar aus; jedoch bei X wird der Bereich verschoben dargestellt  siehe unten.
+Gibt es eine Möglichkeit dieses Darstellungsproblem im Internet Explorer zu beheben?
+ 
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Beim Bild unten MAS Grafik, habe ich den Haken bei Pop up gesetzt, aber wenn ich drauf klicke, geht es jetzt nicht. Habe ich etwas vergessen?
+/
+ 
+A: Um ein Bild einzufügen, das beim Draufklicken grösser dargestellt wird, kann ein manueller Teaser oder eine Bildergeschichte (mehrere Bilder ) eingefügt werden. Beim Bearbeiten muss die Checkbox "Link (nur Bilder via Media Link) in Popup vergrössern" ausgewählt werden. Das vergrösserte Bild muss als Link ausgewählt werden.
+Falls der Haken bei "Link (nur Bilder via Media Link) in Popup vergrössern" gesetzt wurde aber das Bild beim Draufklicken nicht grösser dargestellt wird, liegt es wohl daran, dass das Bild noch nicht in der grossen Version hochgeladen wurde. Damit dar Popup funktioniert, muss das Bild 1x in der vorgegebenen Grösse für den Teaseroder die Bildergeschichte hochladen werden und 1x in der Grösse, wie es vergrössert dargestellt werden soll. Wenn der Teaser dann bearbeitet wird, kann im Bereich  "Link" durch die Funktion  "Insert Media Link" das grössere Bild und die Checkbox "Link in Popup vergrössern" ausgewählt werden. Dadurch wird das grössere Bild beim Klick auf das Teaserbild angezeigt.
+Q: Wir möchten eine Webseite mit einem Angebot von uns auch französisch und italienisch aufschalten. Wie kann ich das machen?
+ 
+A: [Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: Leider habe ich folgende Infos nicht mehr gefunden in den Sitecore Schulungsunterlagen und der Online-Hilfe, daher kommt die Frage an euch:
+Wenn ich eine Seite (z.B. die Digitalisierungsseite) unter "ÃƒÅ“ber uns" platziere - ändert sich dann die URL zwingend? Oder kann ich in der Navigation auch einfach eine Verlinkung platzieren und die aktuelle URL beibehalten?
+
+ 
+ 
+ 
+A: Alle Hinweise zum Thema "Seite verschieben" findest du hier:
+https://applsupport.hslu.ch/webhelp/hm_seite_verschieben.htm
+Wenn die Seite verschoben wird, dann ändert sich die URL automatisch. 
+Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+
+WEBHELP-ARTIKEL 
+ Key: Login
+Navigation:  Tools
+
+Dieser Webhelp Artikel enthält informationen wie man sich im CMS Sitecore einloggen kann.
+
+1) Der Login Screen zu Sitecore ist unter den folgenden URL-Adressen zu finden:
+ 
+•Schulungssystem: https://int-stage-www.hslu.ch/sitecore/login
+ 
+•LIVESYSTEM: https://stage-www.hslu.ch/sitecore/login
+ 
+Achtung: Wer von zu Hause aus arbeitet, muss mit dem VPN der Hochschule verbunden sein.
+ 
+2) Bitte öffnen Sie Google Chrome und kopieren Sie die entsprechende URL in die Browser-Adresszeile.
+ 
+Hinweis: Während der Schulungen kann es vorkommen, dass alle Sitecore Lizenzen aufgebraucht sind. Die Lizenzen können jedoch temporär erhöht werden.
+ 
+3) Klick auf Button Mit HSLU-Login anmelden
+ 
+4) Verwenden Sie bitte die E-Mail-Adresse und das Passwort Ihres HSLU Kontos.
+ 
+> Nach einem erfolgreichen Login gelangt man zur Sitecore Experience Management Oberfläche.
+ 
+Hinweis: Das ehemaliges Sitecore-Login mit campus\Benutzername und Passwort funktioniert weiterhin (folgend).
+ 
+3) Zum Einloggen geben Sie im ersten Eingabefeld ihre Domäne, gefolgt von einem Backslash und ihrem Benutzername der HSLU ein: campus\Benutzername
+ 
+Beachten Sie den Backslash \:
+ 
+Die Windows Tastenkombination: AltGr + \
+ 
+Die Mac Tastenkombination: Shift + alt + 7
+ 
+4) Im zweiten Feld geben Sie ihr HSLU-Passwort ein
+ 
+5) Klicken Sie auf Log in.
+  
+> Nach einem erfolgreichen Login gelangt man zur Sitecore Experience Management Oberfläche.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_login.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_login.htm
+
+PRÄZISE ANTWORT:
+
+====== 
+
+RESPONSE:
+
+Leider kann ich deine Frage nicht beantworten.

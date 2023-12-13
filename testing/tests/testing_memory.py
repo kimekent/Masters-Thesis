@@ -1,5 +1,5 @@
 """
-This script is designed for evaluating the memory component of an intent-less chatbot, with a particular focus on its
+This script is designed for evaluating the memory component of the intent-less chatbot, with a particular focus on its
 ability to handle conversation turns effectively. Key aspects of the script include:
 
 - Chatbot Testing: The script tests the chatbot by using a dataset that contains conversation turns.
@@ -11,7 +11,7 @@ ability to handle conversation turns effectively. Key aspects of the script incl
 
 - Visualization: Results are visualized with bar charts to provide a clear comparison of performance metrics (Step 5).
 
-To run this script update the 'path' variable to the project directory path and add your OpenAI API key to
+To run this script update the 'path' variable to the root directory of this project and add your OpenAI API key to
 'openaiapikey.txt' in the root directory of this project.
 
 To run the evaluation on the generated responses execute steps 4-5.
@@ -19,7 +19,7 @@ To run the evaluation on the generated responses execute steps 4-5.
 
 
 # 1. Set up-------------------------------------------------------------------------------------------------------------
-# Set path to project directory and define OpenAI API key
+# Set path to root directory and OpenAI API key
 import sys
 path = r"C:\Users\Kimberly Kent\Documents\Master\HS23\Masterarbeit\Masters-Thesis" # Change
 testing_path = path + r'\testing'

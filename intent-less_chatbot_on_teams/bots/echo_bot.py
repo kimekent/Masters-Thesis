@@ -1,13 +1,32 @@
 # Copyright (c) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT License.
-# Token Management and File Operations
-import ast
+"""
+This file contains the code to run the final version of the intent-less chatbot using Microsoft Teams as the front end
+user interface.
+The question, restructured question, current prompt and response are printed on to the console. If wished
+the current prompt print statement can be commented out since this can get pretty long (line 130)
+
+To run this script update the 'path' variable to the root directory of this project and add your OpenAI API key to
+'openaiapikey.txt' in the root directory of this project.
+"""
+# 1. Set up-------------------------------------------------------------------------------------------------------------
+# Set path to project directory and define OpenAI API key
+from functions.functions import open_file
+path = r"C:\Users\Kimberly Kent\Documents\Master\HS23\Masterarbeit\Masters-Thesis"
+
+import openai
 import os
-from functions.functions import num_tokens_from_string, remove_history, save_file, open_file, adjust_similarity_scores
+os.environ["OPENAI_API_KEY"] = open_file(path + r"\openaiapikey.txt")
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
+# Import packages
+# Token Management and File Operations
+import os
+from functions.functions import num_tokens_from_string, remove_history, save_file, adjust_similarity_scores
 
 # OpenAI Libraries and functions
 import openai
-from functions.functions import gpt3_1106_completion, gpt3_0613_completion
+from functions.functions import gpt3_1106_completion
 import ast
 
 # Libraries for initializing the retriever and the vector store
@@ -22,40 +41,34 @@ from functions.functions import send_email
 from botbuilder.core import ActivityHandler, MessageFactory, TurnContext
 from botbuilder.schema import ChannelAccount
 
-from waiting import wait
-
-# 1. Set up-------------------------------------------------------------------------------------------------------------
 # Define directory paths
-path = r"C:\Users\Kimberly Kent\Documents\Master\HS23\Masterarbeit\OpenAIChatbot on Teams\bots"
-chroma_directory = path + r'\webhelp and websupport_vector_db'
-prompt_logs_directory = path + r"\gpt3_logs\prompt"
-retriever_prompt_log_directory = path + r"\gpt3_logs\retriever_prompt"
+teams_bot_path = path + r'\intent-less_chatbot_on_teams\bots'
+chroma_directory = teams_bot_path + r'\webhelp and websupport_vector_db'
+prompt_logs_directory = teams_bot_path + r"\gpt3_logs\prompt"
+retriever_prompt_log_directory = teams_bot_path + r"\gpt3_logs\retriever_prompt"
 
-# Set the API key as an environment variable
-os.environ["OPENAI_API_KEY"] = open_file(path + r"\openaiapikey.txt")
-openai.api_key = os.getenv("OPENAI_API_KEY")
-
+# Initialize Chroma vector database
 vectordb_websupport_bot = Chroma(persist_directory=chroma_directory,
                                  embedding_function=OpenAIEmbeddings(model='text-embedding-ada-002'))
 
-words_to_check = ast.literal_eval(open_file(path + r"/words_to_check_for_adjusted_similarity_score.txt"))
+# Import list of words to check for re-scoring of retriever similarity scores.
+words_to_check = ast.literal_eval(open_file(teams_bot_path + r"/words_to_check_for_adjusted_similarity_score.txt"))
 
 # Remove history from prompt, of previous sessions
-question_prompt = remove_history(open_file(path + r"\prompts\question_prompt.txt"),
+question_prompt = remove_history(open_file(teams_bot_path + r"\prompts\question_prompt.txt"),
                                  "HISTORY:(.*?)<<history>>",
                                  "HISTORY: <<history>>")
+save_file(question_prompt, teams_bot_path + r"\prompts\question_prompt.txt")
 
-save_file(question_prompt, path + r"\prompts\question_prompt.txt")
-
-retriever_prompt = remove_history(open_file(path + r"\prompts\retriever_prompt.txt"),
+retriever_prompt = remove_history(open_file(teams_bot_path + r"\prompts\retriever_prompt.txt"),
                                   "<<newest message>>(.*?)<<oldest message>>",
                                   "<<newest message>>\n<<history>>\n<<oldest message>>")
+save_file(retriever_prompt, teams_bot_path + r"\prompts\retriever_prompt.txt")
 
-save_file(retriever_prompt, path + r"\prompts\retriever_prompt.txt")
-
-save_file(str(0), path + r"\query_count.txt")
+# Initialize states and query count for every new session
+save_file(str(0), teams_bot_path + r"\query_count.txt")
 state = str({'need_help': 'no', 'edit_ticket': 'none'})
-save_file(state, path + r"\state.txt")
+save_file(state, teams_bot_path + r"\state.txt")
 
 
 class EchoBot(ActivityHandler):
@@ -65,11 +78,11 @@ class EchoBot(ActivityHandler):
         for member in members_added:
             if member.id != turn_context.activity.recipient.id:
                 await turn_context.send_activity('Hi! Als Web-Support-Chatbot bin ich hier, um dir bei Fragen zum'
-                                                 ' Bearbeiten nserer Website zu helfen. Wie kann ich dir heute zur'
+                                                 ' Bearbeiten unserer Website zu helfen. Wie kann ich dir heute zur'
                                                  ' Seite stehen?')
 
     async def on_message_activity(self, turn_context: TurnContext):
-        state = ast.literal_eval(open_file(path + r"\state.txt"))
+        state = ast.literal_eval(open_file(teams_bot_path + r"\state.txt"))
         message = str(turn_context.activity.text)
         print(f"Incoming message: {message}")
         # Set states
@@ -99,10 +112,10 @@ class EchoBot(ActivityHandler):
             print("follow_up_answer = no")
             # Load prompts
             # This prompts is used to restructure question for the retriever. For each new session the history is deleted.
-            retriever_prompt = open_file(path + r"\prompts\retriever_prompt.txt")
+            retriever_prompt = open_file(teams_bot_path + r"\prompts\retriever_prompt.txt")
 
             # This prompt is used to answer to question. For each new session the history is deleted.
-            question_prompt = open_file(path + r"\prompts\question_prompt.txt")
+            question_prompt = open_file(teams_bot_path + r"\prompts\question_prompt.txt")
 
             l_retriever_history = []  # This list will contain the previous questions and answers.
             l_qa_history = []  # This list will contain the previous questions and answers for the Q&A prompt.
@@ -112,7 +125,7 @@ class EchoBot(ActivityHandler):
             print(f"Incoming message: {message}")
 
             # Use GPT-3 to generate a response
-            query_count_file = path + r'\query_count.txt'
+            query_count_file = teams_bot_path + r'\query_count.txt'
             with open(query_count_file, 'r') as count_file:
                 query_count = int(count_file.read())
                 print("query count: " + str(query_count))
@@ -125,12 +138,12 @@ class EchoBot(ActivityHandler):
                 # Reformulate the current question to include context from previous turns for better document retrieval
                 # in multi-question sessions.
                 current_retriever_prompt = retriever_prompt.replace('<<query>>', query)
-                restructured_query = gpt3_0613_completion(current_retriever_prompt,
-                                                          directory=retriever_prompt_log_directory)
+                restructured_query = gpt3_1106_completion(prompt=current_retriever_prompt,
+                                                          log_directory=retriever_prompt_log_directory)
 
             else:
                 restructured_query = query
-            save_file(restructured_query, path + r"\restructured_query.txt")
+            save_file(restructured_query, teams_bot_path + r"\restructured_query.txt")
 
             print("restructured query: " + restructured_query)
             # Initialize lists per question.
@@ -187,7 +200,7 @@ class EchoBot(ActivityHandler):
                 print("prompt: " + current_prompt)
 
                 # Generate answer to prompt
-                response = gpt3_1106_completion(prompt=current_prompt, log_directory=path + r"\gpt3_logs\prompt")
+                response = gpt3_1106_completion(prompt=current_prompt, log_directory=teams_bot_path + r"\gpt3_logs\prompt")
                 print("response: " + response)
 
                 # Add memory to retriever
@@ -208,7 +221,7 @@ class EchoBot(ActivityHandler):
                                                                             "\n".join(l_reversed_retriever_history))
 
                 # Save history to retriever prompt.
-                save_file(updated_retriever_prompt, path + r"\prompts\retriever_prompt.txt")
+                save_file(updated_retriever_prompt, teams_bot_path + r"\prompts\retriever_prompt.txt")
 
                 # Add memory to Q&A prompt
                 # In order not to exceed token length, only the last two conversation turns are added as history
@@ -228,7 +241,7 @@ class EchoBot(ActivityHandler):
                                                  "<<history>>")
                 # Add new conversation turns
                 question_prompt = question_prompt.replace('<<history>>', " ".join(l_qa_history) + "\n<<history>>")
-                save_file(question_prompt, path + r"\prompts\question_prompt.txt")
+                save_file(question_prompt, teams_bot_path + r"\prompts\question_prompt.txt")
                 print("updated_history: " + question_prompt)
 
                 await turn_context.send_activity(MessageFactory.text(response))
@@ -243,7 +256,7 @@ class EchoBot(ActivityHandler):
 
                 state["need_help"] = "yes"
                 print(str(state["need_help"]))
-                save_file(str(state), path + r"\state.txt")
+                save_file(str(state), teams_bot_path + r"\state.txt")
                 await turn_context.send_activity(MessageFactory.text(response))
 
         if state["need_help"] == "yes" and state["edit_ticket"] == "none" and follow_up_answer == "yes":
@@ -253,7 +266,7 @@ class EchoBot(ActivityHandler):
 
             user_input = str(turn_context.activity.text).lower()
             if any(choice in user_input for choice in yes_inputs):
-                websupport_ticket = open_file(path + r"\restructured_query.txt")
+                websupport_ticket = open_file(teams_bot_path + r"\restructured_query.txt")
 
                 try:
                     #raise Exception("Forced error for testing")
@@ -270,7 +283,7 @@ class EchoBot(ActivityHandler):
                         await turn_context.send_activity(MessageFactory.text(response))
                         state["need_help"] = "no"
                         state["edit_ticket"] = "none"
-                        save_file(str(state), path + r"\state.txt")
+                        save_file(str(state), teams_bot_path + r"\state.txt")
                     else:
                         print("mailsetup dindt work")
 
@@ -282,7 +295,7 @@ class EchoBot(ActivityHandler):
                                                                                   "daraus erstellt wird?"
                     state["need_help"] = "yes"
                     state["edit_ticket"] = "question"
-                    save_file(str(state), path + r"\state.txt")
+                    save_file(str(state), teams_bot_path + r"\state.txt")
                     await turn_context.send_activity(MessageFactory.text(response))
 
             if any(choice in user_input for choice in no_inputs):
@@ -291,7 +304,7 @@ class EchoBot(ActivityHandler):
                            "behilflich sein. Ansonsten erreichst du den Websupport unter websupport@hslu.ch[mailto:websupport@hslu.ch]"
                 state["need_help"] = "no"
                 state["edit_ticket"] = "none"
-                save_file(str(state), path + r"\state.txt")
+                save_file(str(state), teams_bot_path + r"\state.txt")
                 await turn_context.send_activity(MessageFactory.text(response))
 
             if not any(choice in user_input for choice in yes_inputs) and not any(
@@ -300,7 +313,7 @@ class EchoBot(ActivityHandler):
                 response = "Bitte antworte mit 'Ja' oder 'Nein'."
                 state["need_help"] = "yes"
                 state["edit_ticket"] = "none"
-                save_file(str(state), path + r"\state.txt")
+                save_file(str(state), teams_bot_path + r"\state.txt")
                 await turn_context.send_activity(MessageFactory.text(response))
 
         if state["need_help"] == "yes" and state["edit_ticket"] == "question" and follow_up_edit_answer == "yes":
@@ -311,17 +324,17 @@ class EchoBot(ActivityHandler):
             if any(choice in edit_input for choice in yes_inputs):
                 state["need_help"] = "yes"
                 state["edit_ticket"] = "yes"
-                save_file(str(state), path + r"\state.txt")
+                save_file(str(state), teams_bot_path + r"\state.txt")
                 print(state)
                 await turn_context.send_activity(MessageFactory.text("Bitte gib die bearbeitete Nachricht ein:"))
 
             if any(choice in edit_input for choice in nope_inputs) and state["edit_ticket"] == "question":
                 print("edit input:" + edit_input)
-                restructured_query = open_file(path + r"\restructured_query.txt")
+                restructured_query = open_file(teams_bot_path + r"\restructured_query.txt")
                 send_email(restructured_query)
                 state["need_help"] = "no"
                 state["edit_ticket"] = "none"
-                save_file(str(state), path + r"\state.txt")
+                save_file(str(state), teams_bot_path + r"\state.txt")
                 await turn_context.send_activity(
                     MessageFactory.text("Ich habe ein E-Mail mit deiner Frage an den Websupport geschickt."))
 
@@ -330,16 +343,16 @@ class EchoBot(ActivityHandler):
                 response = "Ungültige Eingabe. Bitte antworte mit 'Ja' oder 'Nein'."
                 state["need_help"] = "yes"
                 state["edit_ticket"] = "question"
-                save_file(str(state), path + r"\state.txt")
+                save_file(str(state), teams_bot_path + r"\state.txt")
                 await turn_context.send_activity(MessageFactory.text(response))
 
         if state["need_help"] == "yes" and state["edit_ticket"] == "yes" and new_message_received == "yes":
             new_message = str(turn_context.activity.text)
-            save_file(new_message, path + r"\restructured_query.txt")
+            save_file(new_message, teams_bot_path + r"\restructured_query.txt")
             response = "Das ist deine Nachricht: '" + new_message + "'\nMöchtest du die Nachricht noch" \
                                                                     " bearbeiten, bevor ein Ticket " \
                                                                     "daraus erstellt wird?"
             state["need_help"] = "yes"
             state["edit_ticket"] = "question"
-            save_file(str(state), path + r"\state.txt")
+            save_file(str(state), teams_bot_path + r"\state.txt")
             await turn_context.send_activity(MessageFactory.text(response))

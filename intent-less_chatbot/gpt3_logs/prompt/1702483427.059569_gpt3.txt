@@ -1,0 +1,326 @@
+PROMPT:
+
+Deine Aufgabe ist es, auf die folgende AKTUELLE FRAGE zu antworten. Gib mögliche Ratschläge zum beheben des Problems. Sei so konkret wie möglich.
+Verwende zur Beantwortung der FRAGE ausschliesslich die folgenden WEBHELP-ARTIKEL und die ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN. Vermeide das Hinzufügen von Informationen oder Eklärungen, die nicht in einem WEBHELP-ARTIKEL oder in den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN stehen.
+Antworte so kurz wie möglich, ohne dabei wichtige Informationen auszulassen. Vermeide bei der Antwort Wiederholungen.
+Achte darauf, welche Sprachversion der Website in der Frage erwähnt wird. Verwende zur Beantwortung der Frage, die Informationen aus den WEBHELP-ARTIKEL und den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN, die zur erwähnten Sprachversion passen. Wird keine Sprachversion erwähnt, handelt es sich um die deutsche Seite, nicht um die englische Seite.
+Lies immer alle WEBHELP-ARTIKEL und ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN durch. Die obersten ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN enthalten oftmals nicht die richtige Antwort.
+Sprich in der DU-Form.
+Verwende bei längerem Texten Aufzählungszeichen.
+Verlinke hilfreiche Webhelp-Artikel in der Antwort.
+
+CHAT-HISTORY: <<history>>
+
+AKTUELLE FRAGE: Wie kann ich einen Mailverlauf im CRM aufsetzten?
+
+ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN:
+Q: Wie kann ich eine E-Mail-Adresse in einem Kontaktteaser anpassen?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wie kann ich die Kontaktdetails einer Person überschreiben?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wie kann ich die Kontaktangaben einer Person anpassen?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wo kann ich die Kontaktangaben einer Person anpassen?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wie kann ich die Telefonnummer in der Kontaktbox einer Person dauerhaft anpassen?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Die E-Mail-Adresse unseres Geschäftsführers hat sich geändert. Wie kann ich diese Änderung in seinem Kontaktteaser vornehmen?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: 
+ Kann ich bei einer Kontaktperson eine andere Emailadresse als im System hinterlegt hinzufuegen?
+ 
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden soll, müssen das folglich die  die Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) übersteuert werden. Dazu muss das Element Kontaktperson-Element (manuell) verwendet werden. Bei diesem Element können alle Daten zum Kontakt manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich muss die Kontaktdetails einer Person in ihrem Profil aktualisieren. Wo finde ich die Option dazu?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich möchte den Nachnamen in der Kontaktbox einer Person ändern. Was sind die Schritte dafür?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wie kann ich einen Kontaktteaser bearbeiten?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Unsere Mitarbeiterin hat geheiratet und ich muss ihren Nachnamen in allen Kontaktboxen ändern. Wie mache ich das?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Unser Team hat einen neuen Leiter. Wie kann ich seinen Jobtitel in allen Kontaktteasern aktualisieren?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich muss die Jobbezeichnung in der Kontaktbox einer Person korrigieren. Wie gehe ich vor?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Kann ich den Kontakteaser einmalig überschreiben?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: 
+ Wie komme ich schon wieder zum Schulungsversion?
+ 
+A: Das Login ist das normale HSLU-Login, man muss aber immer campus\ vor den Benutzernamen schreiben
+- Login-Seite Live: [https://stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)
+- Login-Seite Schulungsumgebung: [https://int-stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)"
+Q: Wie kann ich den akademischen Titel einer Person in ihrem Kontaktteaser bearbeiten?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Unser Mitarbeiter hat seinen Doktortitel erhalten. Wie kann ich seinen Titel in der Kontaktbox aktualisieren?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich muss die E-Mail-Adresse einer Person in ihrem Kontaktteaser ändern. Kann ich das selbst machen oder brauche ich Hilfe?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wie ist der Ablauf um Issue-Broschüren auf der Website auszutauschen. 
+ 
+ 
+ 
+A: Fuers Austauschen bitte an die zuständige M&K-Person wenden. 
+ 
+Q: Wie kann ich die Telefonnummer in einem Kontaktteaser aktualisieren?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich habe festgestellt, dass die Kontaktangaben einer Person nicht mehr aktuell sind. Wie kann ich sie in der Kontaktbox korrigieren?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich habe länger nicht mehr auf dem System gearbeitet. 
+Wie kann ich mich einloggen, auf welcher Seite und mit meinem normalen HSLU Login?
+
+A: Das Login ist das normale HSLU-Login, man muss aber immer campus\ vor den Benutzernamen schreiben
+- Login-Seite Live: [https://stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)
+- Login-Seite Schulungsumgebung: [https://int-stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)"
+Q: Die Jobfunktion ist veraltet und ich möchte diese anpassen. Wie mache ich das?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich habe eben einen Agenda-Eintrag erstellt: <<link>>
+Es handelt sich um einen englischsprachigen Event. Deshalb wollte ich eine englische Version erstellen und danach die deutsche Version löschen. Sollte doch gehen, oder? 
+A: Gemäss der Web Governance, müssen alle Inhalte auch auf Deutsch vorhanden sein. Daher muss von jeder Seite, jedem Element auf der Seite und jeder Datei immer eine deutsche Version vorliegen. Dies wurde technisch so umgesetzt, dass eine englische Seite nur erstellt werden, kann wenn bereits eine deutsche vorliegt. Ist diese noch nicht vorhanden, wird sie beim Erstellen der englischen Seite automatisch erstellt. Das gleiche gilt auch für Seiten Elemente. Bei Dateien erscheint eine Fehlermeldung wenn keine deutsche Version in der Media Library hochgeladen wurde.
+Englische Seitenversionen sollten bei mindestenst den obersten beiden Ebenen der Website vorliegen. Dazu gehört die Stufe der Departemente (und des Daches) ebenso wie die Stufe "Studium, Forschung, Dienstleistungen..."
+Q: Ich möchte den Jobtitel anpassen. Wie geht das?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Kann ich den Jobtitel in der Kontaktbox einer Person bearbeiten? Sie hat kürzlich eine neue Position erhalten.
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich möchte den Text bei pers. Profil von X ändert (da er nun der neue CC Leiter ist), dort steht aber "Auf dieser Seite keine Ãƒâ€žnderungen vornehmen": <<link>>
+Wie kann man den Text dann bearbeiten? Oder wird der Text von Inside uebernommen und ich soll ihn dort anpassen?
+
+A: Anpassungen am Personenprofil muss jede Person selber machen https://personenprofile.hslu.ch/. Bei jedem Personenprofil kann auch angegeben werden, ob die Person über die Personensuche gefunden werden sollte oder nicht. Manche Daten im Personenprofil kommen direkt aus Evento und müssen daher in Evento angepasst werden, so wie z.B. das Foto.
+Q: Durch meine heutige Umstellung auf Windows 10 habe ich meine Login-URL für Sitecore verloren. Könntet ihr mir kurz den Link zusenden?
+ 
+
+A: Das Login ist das normale HSLU-Login, man muss aber immer campus\ vor den Benutzernamen schreiben
+- Login-Seite Live: [https://stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)
+- Login-Seite Schulungsumgebung: [https://int-stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)"
+Q: Gibt es eine Möglichkeit festzulegen, welches Bild bei einem Post auf Social Media erscheint, wenn ich ein Bild verlinke?
+A: Wenn kein Open Graph Bild auf der jeweiligen Seite hinterlegt ist, wird automatisch das Standardbild angezeigt. Um ein benutzerdefiniertes Bild anzuzeigen kann wie folgt vorgegangen werden: 
+1) Im Content-Tree zur entsprechenden Seite navigieren.
+2) Rechts im Contentbereich unter Spezial Meta Data können die Meta-Daten bearbeitet werden.
+3) Open Graph Image - Durch Klicken auf Browse kann hier ein Bild aus der Media-Library ausgewählt werden, welches dann als Open Graph Image verwendet wird. Das Bild ist idealerweise 1200 x 630 Pixel gross oder Bildverhältnis 1.91:1. Maximum 1500px x 1500px oder 5 MB.
+4) Checkbox Open Graph Image anzeigen - Hier kann gewählt werden, ob das Bild angezeigt werden soll oder nicht. 
+Weitere Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/hm_special_meta_data.htm?zoom_highlightsub=open+graph+bild)
+ 
+ Evtl. musst du nach dem Einfuegen des Bildes den Link zu deiner Seite einmalig fuer die SoMe Plattformen bereinigen mit den folgenden Links:
+ Facebook: https://developers.facebook.com/tools/debug/
+ Twitter: https://cards-dev.twitter.com/validator
+ LinkedIn: https://www.linkedin.com/post-inspector/
+ Danach sollte dein Bild angezeigt werden.
+ 
+Q: 
+ Könntet Ihr mir mitteilen, wie ich den Stundenplan bei Studium Animation
+ so programmieren kann, dass man draufklickt und er dann gross erscheint?
+
+A: Um ein Bild einzufügen, das beim Draufklicken grösser dargestellt wird, kann ein manueller Teaser oder eine Bildergeschichte (mehrere Bilder ) eingefügt werden. Beim Bearbeiten muss die Checkbox "Link (nur Bilder via Media Link) in Popup vergrössern" ausgewählt werden. Das vergrösserte Bild muss als Link ausgewählt werden.
+Falls der Haken bei "Link (nur Bilder via Media Link) in Popup vergrössern" gesetzt wurde aber das Bild beim Draufklicken nicht grösser dargestellt wird, liegt es wohl daran, dass das Bild noch nicht in der grossen Version hochgeladen wurde. Damit dar Popup funktioniert, muss das Bild 1x in der vorgegebenen Grösse für den Teaseroder die Bildergeschichte hochladen werden und 1x in der Grösse, wie es vergrössert dargestellt werden soll. Wenn der Teaser dann bearbeitet wird, kann im Bereich  "Link" durch die Funktion  "Insert Media Link" das grössere Bild und die Checkbox "Link in Popup vergrössern" ausgewählt werden. Dadurch wird das grössere Bild beim Klick auf das Teaserbild angezeigt.
+Q: Ich möchte auf unserer Webseite eine Landingpage erstellen, die nicht in der Navigation auftaucht. Wie macht man das?
+A: Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Q: Ich möchte gerne den Titel in einer Kontaktbox überarbeiten.
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wie kann ich den Titel einer Person ändern?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wie kann ich das Standardbild überschreiben, bei einem Social Media Post?
+A: Wenn kein Open Graph Bild auf der jeweiligen Seite hinterlegt ist, wird automatisch das Standardbild angezeigt. Um ein benutzerdefiniertes Bild anzuzeigen kann wie folgt vorgegangen werden: 
+1) Im Content-Tree zur entsprechenden Seite navigieren.
+2) Rechts im Contentbereich unter Spezial Meta Data können die Meta-Daten bearbeitet werden.
+3) Open Graph Image - Durch Klicken auf Browse kann hier ein Bild aus der Media-Library ausgewählt werden, welches dann als Open Graph Image verwendet wird. Das Bild ist idealerweise 1200 x 630 Pixel gross oder Bildverhältnis 1.91:1. Maximum 1500px x 1500px oder 5 MB.
+4) Checkbox Open Graph Image anzeigen - Hier kann gewählt werden, ob das Bild angezeigt werden soll oder nicht. 
+Weitere Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/hm_special_meta_data.htm?zoom_highlightsub=open+graph+bild)
+ 
+ Evtl. musst du nach dem Einfuegen des Bildes den Link zu deiner Seite einmalig fuer die SoMe Plattformen bereinigen mit den folgenden Links:
+ Facebook: https://developers.facebook.com/tools/debug/
+ Twitter: https://cards-dev.twitter.com/validator
+ LinkedIn: https://www.linkedin.com/post-inspector/
+ Danach sollte dein Bild angezeigt werden.
+ 
+Q: Unser Teammitglied hat eine neue Telefonnummer. Wie kann ich diese in seinem Kontaktteaser ändern?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q:  Habe einen «Knopf». Bin in der Anleitung Marketingformular einbinden und habe auch das Video geschaut <<link>>
+ Wo/wie muss ich eine Seite einfuegen, damit ich das D365 Formular einfuegen kann, womit man sich fuer einen Termin meldet? 
+
+ 
+ 
+A: Die D365 Formulare werden nur in der Vorschau richtig dargestellt und ueber den Experience Editor ist nur der Code sichtbar. 
+Q: Könntet Ihr mir bitte kurz mitteilen, wie ich die folgenden gelb markierte Unterseite entweder ganz löschen oder zumindest komplett offline schalten kann?
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu löschen kann so vorgegangen werden:
+ 1) Auf die zu löschende Seite navigieren und im Ribbon-Menü den Befehl "Home > Delete Page" aufrufen.
+2) Den Warnhinweis lesen und gegebenenfalls auf OK klicken.
+3) Zeigen Links auf dieses Seite, erscheint ein weiteres Hinweisfenster. Es muss entschieden werden, was mit diesen Linkst geschehen soll 
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm)
+Q: Wie kann ich die EN-sprachige Website von unserem CAS Brand Management löschen?
+A: Hier eine Anleitung wie Sprachversionen von Seiten gelöscht werden können: Den Content Editor starten (Ribbon-Menü > Campus > Backend):
+
+1) Im Item-Tree die entsprechende Seite wählen und im Ribbon Menü zum Tab Versions wechseln.
+
+2) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass eine deutsche und eine englische Version der Seite vorhanden sind.
+
+3) Durch klicken auf den grossen Sprachbutton zur löschenden Sprachversion wechseln (hier im Beispiel englisch).
+
+4) Auf den Button Remove klicken.
+
+5) Es erscheint ein Warnhinweis, ob die Version entfernt werden soll. Wenn Sie sicher sind, auf OK klicken.
+
+6) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass die englische Version gelöscht wurde. Bei Englsh:Englisch steht 0 versions.
+Q: Wen muss ich anschreiben, wenn eine Mitarbeiterin nicht in der Personensuche der HSLU erscheint?
+A: Die Personenprofile werden direkt aus dem Evento herausgezogen. Wenn eine Person also nicht in der Suche auftaucht, kläre am besten mit dem Sekretariat ab, ob diese Person im Evento richtig erfasst wurde.
+ 
+Q: Nachdem wir heute ein E-Mailing versendet haben, wurde uns mitgeteilt, dass der Datenplan PDF (Datenplan Fachkurs Steuern Privatkunden) nicht richtig ist. Diesen habe ich im Sitecore nun ausgewechselt. 
+ 
+Darf ich hier um einen ausserordentlichen Publish bitten?
+ 
+Betrifft folgende Landing Page:
+<<link>>
+
+A: Die Publishing-Zeiten sind immer 00:05 Uhr und 12:05 Uhr. In seltenen, wirklich sehr dringenden Fällen ist es möglich, dass wir ein Publishing ausserhalb der üblichen Zeiten erzwingen können. In solchen Fällen bitte ein Mail an den [Websupport](mailto:websupport@hslu.ch) schicken. 
+ 
+Q: Gestern hatte ich eine Info-Veranstaltung und plötzlich ist mir aufgefallen, dass am Nachmittag (möglicherweise auch schon am Vormittag), die Info-Veranstaltung auf der Produkt-Webseite fehlte. Dies, obwohl ich im Evento eingestellt habe, dass man sich bis heute anmelden kann. Unter den «Veranstaltungen» war der Anmeldelink jedoch noch zu finden. Wisst ihr an was das liegt? Wie kann ich sicherstellen, dass der Anmeldelink auch auf den Produkt-Webseiten sicher bis zum Zeitpunkt der Veranstaltung publiziert ist? 
+
+
+A: Wenn ein Agendaeintrag nicht (mehr) im Call to Action Teaser auftaucht, könnte es an der "Start-Zeit-Problematik" liegen. Bei WeVe Anmeldungen kann es an den Einstellungen des Agendaeintrags liegen.
+Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit des Ereignisses im Call to Action Teaser. Wurde sowohl keine Startzeit also auch keine Endzeit für den Event festgelegt, dann bleibt der Event bis 00:00h im Call to Action Teaser. Danach wird er weder in der Filterliste, noch im automatischen CtA-Teaser angezeigt (live ist er weiterhin).
+Damit die Anmeldung über ONLA / WeVe funktioniert, muss die Evento ID in der Facts-Liste auf der Produktseite hinterlegt werden und beim Call to Action Teaser die Checkbox  "Kontextabhängige Informationen aus Evento anzeigen" aktiviert aktiviert sein (Standard)! Bei einer deaktivierten Checkbox, wird entsprechend kein Link bzw. Status Meldung angezeigt. Mehr dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_links_der_linkliste_zuweisen.htm)
+
+Q: Ich kann mich nicht ins Sitecore einloggen. Wie geht das?
+
+ 
+A: Das Login ist das normale HSLU-Login, man muss aber immer campus\ vor den Benutzernamen schreiben
+- Login-Seite Live: [https://stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)
+- Login-Seite Schulungsumgebung: [https://int-stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)"
+Q: Die Vorkurs-Seite "Grundlagen der Gestaltung“ ist nun durch eine virtuelle Navigation in der Weiterbildung verlinkt.
+ 
+<<link>>
+verlinkt in:
+<<link>>
+ 
+Nun ist der Kurs in der Flyoutnavigation verklinkt, erscheint aber nicht in der Filterliste.
+ 
+Samuel Frei (zuständig Weiterbildung) hat mir vorgeschlagen, ich könnte folgendes probieren (siehe unten).
+Bevor ich das mache, wollte ich wissen, ob ich es DARF machen:-) und ob es funktioniert.
+
+A: Voraussetzung dafür, dass eine Seite in eine Filterliste aufgenommen wird, ist dass diese online ist. Mehr dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm). 
+Spezifisch bei Aus- und Weiterbildungslisten, ist eine weitere Voraussetzung, dass der richtige Seitentyp ausgewählt wurde. In Aus- und Weiterbildungslisten, werden nur [Aus-](https://applsupport.hslu.ch/webhelp/index.html?hm_ausbildung_einfuegen.htm) bzw. [Weiterbildungsseiten](https://applsupport.hslu.ch/webhelp/index.html?hm_weiterbildung_einfuegen.htm) aufgelistet.
+Ausserdem müssen alle Angaben auf der Produktseite ausgefüllt wurden. Bei Weiterbildungsseiten z.B. die Programmart.
+Q: Kann ich ein benutzerdefiniertes Bild hinterlegen, das erscheint, wenn ich eine Website auf Social Media verlinke?
+A: Wenn kein Open Graph Bild auf der jeweiligen Seite hinterlegt ist, wird automatisch das Standardbild angezeigt. Um ein benutzerdefiniertes Bild anzuzeigen kann wie folgt vorgegangen werden: 
+1) Im Content-Tree zur entsprechenden Seite navigieren.
+2) Rechts im Contentbereich unter Spezial Meta Data können die Meta-Daten bearbeitet werden.
+3) Open Graph Image - Durch Klicken auf Browse kann hier ein Bild aus der Media-Library ausgewählt werden, welches dann als Open Graph Image verwendet wird. Das Bild ist idealerweise 1200 x 630 Pixel gross oder Bildverhältnis 1.91:1. Maximum 1500px x 1500px oder 5 MB.
+4) Checkbox Open Graph Image anzeigen - Hier kann gewählt werden, ob das Bild angezeigt werden soll oder nicht. 
+Weitere Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/hm_special_meta_data.htm?zoom_highlightsub=open+graph+bild)
+ 
+ Evtl. musst du nach dem Einfuegen des Bildes den Link zu deiner Seite einmalig fuer die SoMe Plattformen bereinigen mit den folgenden Links:
+ Facebook: https://developers.facebook.com/tools/debug/
+ Twitter: https://cards-dev.twitter.com/validator
+ LinkedIn: https://www.linkedin.com/post-inspector/
+ Danach sollte dein Bild angezeigt werden.
+ 
+Q: Auf einer Forschungsprojektseite der SA sollte ein manueller Kontakt hinzugefuegt werden. Bei PPDP-Seiten steht allerdings, dass die Seiten nicht bearbeitet werden duerfen. Könnt ihr mir bitte kurz sagen, ob es möglich ist, lediglich diesen einen Kontakt hinzuzufuegen? 
+A: Forschungsprojektseiten können nicht auf Sitecore bearbeitet werden. Der gesamte Inhalt wird aus der PPDB-Datenbank gezogen. Deshalb müssen dort die Anpassungen an der Seite gemacht werden.
+ 
+Q: Bei uns im Team soll in Zukunft eine weitere Person das Web betreuen können.
+Könnt ihr mir Daten der nächsten Sitecore-Schulungen senden oder sagen, wo diese zu finden sind?
+ 
+A: Informationen zur Schulungsanmeldungen findest du hier: https://inside.hslu.ch/mk/Seiten/InfoWiki/Webseite.aspx
+ 
+Q: Ich arbeite an der Seite für unseren neuen Kurs und möchte die Teaser enger zusammenrücken. Wie kann ich Zwischenräume reduzieren?
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Ich wollte soebenAnpassungen am Dozentenprofil von Marcel Zbinden vornehmen. Allerdings habe ich keine Rechte dafuer. Könntet ihr mir das bitte frei geben? 
+
+A: Anpassungen am Personenprofil muss jede Person selber machen https://personenprofile.hslu.ch/. Bei jedem Personenprofil kann auch angegeben werden, ob die Person über die Personensuche gefunden werden sollte oder nicht. Manche Daten im Personenprofil kommen direkt aus Evento und müssen daher in Evento angepasst werden.
+ 
+Q: Auf der Unterseite der Studierendenberatung sollte der gelb markierte Text wie in der Vorschau ueber die ganze Breite (100%) erscheinen. Gemäss Vorschau (screenshot 2) will das einfach nicht klappen, auch in der live-Version ist dieser in zwei Spalten.
+
+A: Falls ein Rich Text Teaser / Manueller Teaser verwendet wurde, ist darauf zu achten, dieser bei einer 100% Einstellung ab ca. drei Zeilen Text immer zweispaltig angezeigt wird. Fuer einspaltigen Fliesstext kann das Element "Formatierter Text mit Bild" verwendet werden. Dieser funktioniert auch ohne Bild. In diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm) findest du ganz zuunterst noch eine Auflistung welche Text-Elemente dopptelspaltig und welche einspaltig dargestellt werden.
+Q: Ich habe am Freitag einen Agenda-Eintrag erstellt fuer das MSE-Kolloquium inkl. Anmeldeformular. Nun ist dieses aber nicht auf der Live-Seite ersichtlich. 
+Seht ihr wo dieses aktuell liegt oder warum es nicht publiziert wurde?
+
+ 
+A: Bei Agendaeinträgen ist zu unterscheiden, ob die Seite offline ist, oder ob der Agendaeintrag einfach nicht in der Filterliste aufgelistet wird. Mögliche Ursachen dafür, dass eine Seite nicht öffentlich ist findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm). Ausserdem kommt es bei  Agenda-Einträgen öfters vor, dass diese etwas länger haben, bis sie veröffentlicht werden.
+Voraussetzung dafür, dass ein Event in einer Filterliste erscheint, ist, dass der Agendaeintrag live ist.  
+Mögliche Ursachen dafür, dass ein Agendaeintrag live ist aber nicht der Filterliste aufgelistet wird : 
+1. Der Event ist keiner Organisationseinheit (OE) zugeordnet
+2. Falls es sich um eine Filterliste auf einer englischen Seite handelt, ist darauf zu achten, dass nur englische Seiten aufgeführt werden.
+3. Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit in der Filterliste. Ist sowohl Startzeit als auch Endzeit leer, dann bleibt der Event bis 00:00h in der Filterliste und im Call to Action Teaser.
+Q: Gerne möchte ich nachfragen, ob es fuer die nachfolgende Seite bereit einen Shortcut gibt? 
+ <<link>>
+ Gibt es da eine Möglichkeit dies selber nachzulesen? 
+ 
+A: Um zu sehen, welche Shortcuts zu einer bestimmten Seite fuehren, kann man im Backend in der Ordnerstruktur die Seite auswählen und im Reiter "Navigation" "Links" anklicken. Dort werden dann alle Verlinkungen, die auf die Seite fuehren aufgelistet.
+ 
+ 
+Q: Wie kann ich die Infobox auf der Hauptseite löschen?
+A: Die Infobox muss wieder ueber die Page Options von der Seite gelöst werden (so wie sie hinzugefuegt wurde).
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon Sitecore_btn_window_refresh neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+Hier die Anleitung mit Bilder: [https://applsupport.hslu.ch/webhelp/index.html?hm_infobox_löschen.htm](https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm?zoom_highlightsub=infobox).
+Q: 
+ ich habe vor ein paar Tagen eine neue Veranstaltung "Kreislaufwirtschaft im Bauwesen" am 13.6.23 in sitecore erstellt, aber sie erscheint bisher nicht in der Agenda von T&A.
+ <<link>>
+ Nun habe ich eben gesehen, dass ich die Publish-Optionen noch nicht eingetragen haben und das gerade noch ergänzt (heute ab 09:30) und werde mal bis 12:00 abwarten. Allerdings hat kein anderes Event, in das ich stichprobenartig reingeschaut habe, diese Angaben gemacht und es erscheint trotzdem.
+ Habe ich sonst noch was uebersehen? 
+ Danke fuer Eure Antwort.
+ 
+A: Bei Agendaeinträgen ist zu unterscheiden, ob die Seite offline ist, oder ob der Agendaeintrag einfach nicht in der Filterliste aufgelistet wird. Mögliche Ursachen dafür, dass eine Seite nicht öffentlich ist findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm). Ausserdem kommt es bei  Agenda-Einträgen öfters vor, dass diese etwas länger haben, bis sie veröffentlicht werden.
+Voraussetzung dafür, dass ein Event in einer Filterliste erscheint, ist, dass der Agendaeintrag live ist.  
+Mögliche Ursachen dafür, dass ein Agendaeintrag live ist aber nicht der Filterliste aufgelistet wird : 
+1. Der Event ist keiner Organisationseinheit (OE) zugeordnet
+2. Falls es sich um eine Filterliste auf einer englischen Seite handelt, ist darauf zu achten, dass nur englische Seiten aufgeführt werden.
+3. Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit in der Filterliste. Ist sowohl Startzeit als auch Endzeit leer, dann bleibt der Event bis 00:00h in der Filterliste und im Call to Action Teaser.
+Q: Wir sind amÜberarbeiten unserer Weiterbildungsseiten und wollten dabei die Seiten-Navigation anpassen: 
+ 
+Wir möchten zusätzlich in der Seiten-Navigation auf unsere FAQ-Seite verlinken: <<link>>
+Und den ersten Link auf die aktuelle Seite «MAS Brand an Marketing Management» möchten wir rauslöschen.
+ Wie kann ich das machen? 
+A: Die Side-Navigation zeigt die Unterseiten der aktuellen Seite in der Sidebar an. Um eine benutzerdefinierte Navigation zu erstellen, die Seiten enthält, die nicht Unterseiten sind, kann eine virtuelle Navigation eingefügt werden.
+https://applsupport.hslu.ch/webhelp/hm_virtueller_navigationseintrag.htm
+
+ 
+Q: Ich wollte unter dem unten angegebenen Pfad im sitecore  myCampus eine Änderung vornehmen, doch scheine ich keine Schreibrechte zu haben (vgl. unten).
+Müsste ich mich diesbezüglich an die Informatik-Hotline wenden?
+A: Die Berechtigungen in Sitecore sind via Bereiche (sprich bei uns Departemente) definiert. Sobald du auf einer Seite bist, die  zu deinem Departement gehört sollte diese Meldung verschwinden. Schreibrechte werden vom Service Desk vergeben (servicedesk@hslu.ch).
+
+Q: Auf unserer Teamseite möchte ich die Teaser dichter zusammenbringen. Wie eliminiere ich die Leerräume?
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Ich habe gerade gesehen, dass der Nachname einer Person im Kontaktteaser nicht stimmt. Wie kann ich das überall anpassen?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: 
+ Gerne wuerde ich die Seite «Chronologie» <<link>>  uns all ihre Unterseiten» verschieben und zwar, dass Sie eine Unterseite von «Jubiläumsschrift» <<link>> ist. Kann ich das im Backend einfach so verschieben oder muss ich etwas beachten? Die Seiten sind allesamt noch nicht publiziert. 
+ Nina hat mir heute gesagt, dass dies möglich ist. Sorry wenn ihr mir das zum gefuehlt 1000sten Mal erklären muesst, hab ich bisher noch nie gemacht. 
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu verschieben kann so vorgegangen werden:
+1) Auf die zu verschiebende Seite navigieren und Im Ribbon-Menü den Befehl "Home > Move Page" aufrufen.
+2) Im Dialog Zielseite anwählen und mit "Move" bestätigen.
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_verschieben.htm)
+Q: Könnt ihr mir weiterhelfen? Ich wollte die Moodboards der Hauptseite Objektdesign auch in der "mobilen" Version sichtbar machen <<link>>
+Ich habe zwar mittels Sitecore-Hilfe http://applsupport.hslu.ch/webhelp/index.html?hm_grundlagen_sitecore.htm herausgefunden wie, jedoch zeigt es bei der "extended preview" nur bei iPad und Desktop die Moodboards an, nicht jedoch in der "mobile version" > siehe Screenshots
+Was muss ich noch anpassen, damit die Moodboards auch auf der Natel-Ansicht sichtbar werden?
+ 
+A: Für mobile und Desktop sind unterschiedliche Moodboards zugewiesen. Die sind nicht automatisch gleich und müssen bei mobile und bei Desktop separat zugewiesen bzw. entfernt werden. Wird das Moodboard in der mobilen Version falsch oder gar nicht angezeigt, liegt es oft daran, dass kein mobiles Moodboard erstellt wurde oder dieses nicht vollständig konfiguriert wurde. 
+1. In der Media Library muss ein seperates Bild für die Desktop und MoileMoodboardversion hochgeladen werden. 
+2. Beim Zuweisen von Bild zum Moodboard, muss bei mobile das mobile Bild ausgwählt werden.
+3. Bei den Page Options muss der Seite sowohl ein Desktop Moodboard als auch ein mobiles Moodboard zugewiesen werden. 
+Hier die Anleitungslinks dazu:
+https://applsupport.hslu.ch/webhelp/hm_neues_bild_direkt_hochladen.htm
+https://applsupport.hslu.ch/webhelp/index.html?hm_eigene_und___oder_shared_slide.htm
+Q: Ist es möglich einen externen Link (in diesem Fall unseren Newsfeed <<link>> in die Navigation reinzunehmen? 
+
+
+ 
+A: In der Navigation (virtuell oder real) können nur interne Seiten eingefügt werden. Mehr Infos dazu [hier](https://applsupport.hslu.ch/webhelp/hm_virtueller_navigationseintrag.htm).
+
+WEBHELP-ARTIKEL 
+
+
+Falls wirklich keine Information zum Beantworten der Frage in den WEBHELP-ARTIKELN oder den ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN vorhanden sind, dann antworte mit: "Leider kann ich deine Frage nicht beantworten".
+
+PRÄZISE ANTWORT:
+
+====== 
+
+RESPONSE:
+
+Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese Anpassungen gelten nur für diese eine Seite. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)

@@ -1,0 +1,459 @@
+PROMPT:
+
+Deine Aufgabe ist es, auf die folgende AKTUELLE FRAGE zu antworten. Gib mögliche Ratschläge zum beheben des Problems. Sei so konkret wie möglich.
+Verwende zur Beantwortung der FRAGE ausschliesslich die folgenden WEBHELP-ARTIKEL und die ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN. Vermeide das Hinzufügen von Informationen oder Eklärungen, die nicht in einem WEBHELP-ARTIKEL oder in den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN stehen.
+Antworte so kurz wie möglich, ohne dabei wichtige Informationen auszulassen. Vermeide bei der Antwort Wiederholungen.
+Achte darauf, welche Sprachversion der Website in der Frage erwähnt wird. Verwende zur Beantwortung der Frage, die Informationen aus den WEBHELP-ARTIKEL und den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN, die zur erwähnten Sprachversion passen. Wird keine Sprachversion erwähnt, handelt es sich um die deutsche Seite, nicht um die englische Seite.
+Lies immer alle WEBHELP-ARTIKEL und ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN durch. Die obersten ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN enthalten oftmals nicht die richtige Antwort.
+Sprich in der DU-Form.
+Verwende bei längerem Texten Aufzählungszeichen.
+Verlinke hilfreiche Webhelp-Artikel in der Antwort.
+
+CHAT-HISTORY: <<history>>
+
+AKTUELLE FRAGE: Ich habe bei folgender Website www.hslu.ch/de-ch/wirtschaft/weiterbildung/weiterbildungskurse/ibr/managementrefresher/ im Sitecore unter "Publish Options" die Publizierung auf heute 18.3. gesetzt, doch die Website ist heute nicht online. Könntet ihr dies bitte fuer mich vornehmen?
+
+ 
+
+ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN:
+Q: Ich habe bei folgender Website www.hslu.ch/de-ch/wirtschaft/weiterbildung/weiterbildungskurse/ibr/managementrefresher/ im Sitecore unter "Publish Options" die Publizierung auf heute 18.3. gesetzt, doch die Website ist heute nicht online. Könntet ihr dies bitte fuer mich vornehmen?
+
+ 
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Ich habe ein Publikationszeitpunkt bei meiner Website festgelegt. Jedoch wurde die Seite nicht zum angegeben Zeitpunkt veröffentlicht.
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: 
+ ich habe vor ein paar Tagen eine neue Veranstaltung "Kreislaufwirtschaft im Bauwesen" am 13.6.23 in sitecore erstellt, aber sie erscheint bisher nicht in der Agenda von T&A.
+ <<link>>
+ Nun habe ich eben gesehen, dass ich die Publish-Optionen noch nicht eingetragen haben und das gerade noch ergänzt (heute ab 09:30) und werde mal bis 12:00 abwarten. Allerdings hat kein anderes Event, in das ich stichprobenartig reingeschaut habe, diese Angaben gemacht und es erscheint trotzdem.
+ Habe ich sonst noch was uebersehen? 
+ Danke fuer Eure Antwort.
+ 
+A: Bei Agendaeinträgen ist zu unterscheiden, ob die Seite offline ist, oder ob der Agendaeintrag einfach nicht in der Filterliste aufgelistet wird. Mögliche Ursachen dafür, dass eine Seite nicht öffentlich ist findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm). Ausserdem kommt es bei  Agenda-Einträgen öfters vor, dass diese etwas länger haben, bis sie veröffentlicht werden.
+Voraussetzung dafür, dass ein Event in einer Filterliste erscheint, ist, dass der Agendaeintrag live ist.  
+Mögliche Ursachen dafür, dass ein Agendaeintrag live ist aber nicht der Filterliste aufgelistet wird : 
+1. Der Event ist keiner Organisationseinheit (OE) zugeordnet
+2. Falls es sich um eine Filterliste auf einer englischen Seite handelt, ist darauf zu achten, dass nur englische Seiten aufgeführt werden.
+3. Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit in der Filterliste. Ist sowohl Startzeit als auch Endzeit leer, dann bleibt der Event bis 00:00h in der Filterliste und im Call to Action Teaser.
+Q: Nachdem wir heute ein E-Mailing versendet haben, wurde uns mitgeteilt, dass der Datenplan PDF (Datenplan Fachkurs Steuern Privatkunden) nicht richtig ist. Diesen habe ich im Sitecore nun ausgewechselt. 
+ 
+Darf ich hier um einen ausserordentlichen Publish bitten?
+ 
+Betrifft folgende Landing Page:
+<<link>>
+
+A: Die Publishing-Zeiten sind immer 00:05 Uhr und 12:05 Uhr. In seltenen, wirklich sehr dringenden Fällen ist es möglich, dass wir ein Publishing ausserhalb der üblichen Zeiten erzwingen können. In solchen Fällen bitte ein Mail an den [Websupport](mailto:websupport@hslu.ch) schicken. 
+ 
+Q: Ich habe am Freitag einen Agenda-Eintrag erstellt fuer das MSE-Kolloquium inkl. Anmeldeformular. Nun ist dieses aber nicht auf der Live-Seite ersichtlich. 
+Seht ihr wo dieses aktuell liegt oder warum es nicht publiziert wurde?
+
+ 
+A: Bei Agendaeinträgen ist zu unterscheiden, ob die Seite offline ist, oder ob der Agendaeintrag einfach nicht in der Filterliste aufgelistet wird. Mögliche Ursachen dafür, dass eine Seite nicht öffentlich ist findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm). Ausserdem kommt es bei  Agenda-Einträgen öfters vor, dass diese etwas länger haben, bis sie veröffentlicht werden.
+Voraussetzung dafür, dass ein Event in einer Filterliste erscheint, ist, dass der Agendaeintrag live ist.  
+Mögliche Ursachen dafür, dass ein Agendaeintrag live ist aber nicht der Filterliste aufgelistet wird : 
+1. Der Event ist keiner Organisationseinheit (OE) zugeordnet
+2. Falls es sich um eine Filterliste auf einer englischen Seite handelt, ist darauf zu achten, dass nur englische Seiten aufgeführt werden.
+3. Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit in der Filterliste. Ist sowohl Startzeit als auch Endzeit leer, dann bleibt der Event bis 00:00h in der Filterliste und im Call to Action Teaser.
+Q: Ich wollte soebenim Sitecore-Backend die englische Version des Luzerner Kongress Gesellschaftspolitik löschen, doch kam dann eine Sicherheitsfrage, wo die aktuelle Website 2023 abgefragt wird, siehe Print Screen. Nun bin ich mir nicht sicher, ob ich das wirklich löschen kann. Könntet Ihr dies bitte kurz anschauen und mir rueckbestätigen, ob ich korrekt vorgehe:
+
+A: Hier eine Anleitung wie Sprachversionen von Seiten gelöscht werden können: Den Content Editor starten (Ribbon-Menü > Campus > Backend):
+
+1) Im Item-Tree die entsprechende Seite wählen und im Ribbon Menü zum Tab Versions wechseln.
+
+2) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass eine deutsche und eine englische Version der Seite vorhanden sind.
+
+3) Durch klicken auf den grossen Sprachbutton zur löschenden Sprachversion wechseln (hier im Beispiel englisch).
+
+4) Auf den Button Remove klicken.
+
+5) Es erscheint ein Warnhinweis, ob die Version entfernt werden soll. Wenn Sie sicher sind, auf OK klicken.
+
+6) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass die englische Version gelöscht wurde. Bei Englsh:Englisch steht 0 versions.
+Q: Aktuell arbeite ich die Übersetzungen der IKM-Webseiten in Sitecore ein. Auf unserer Webseite "Alle Weiterbildungen" werden in der englischen Version keine Ergebnisse in der Filterliste angezeigt: <<link>>
+Könntest du mir hier eventuell weiterhelfen?
+ 
+A: Bei Agendaeinträgen ist zu unterscheiden, ob die Seite offline ist, oder ob der Agendaeintrag einfach nicht in der Filterliste aufgelistet wird. Mögliche Ursachen dafür, dass eine Seite nicht öffentlich ist findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm). Ausserdem kommt es bei  Agenda-Einträgen öfters vor, dass diese etwas länger haben, bis sie veröffentlicht werden.
+Voraussetzung dafür, dass ein Event in einer Filterliste erscheint, ist, dass der Agendaeintrag live ist.  
+Mögliche Ursachen dafür, dass ein Agendaeintrag live ist aber nicht der Filterliste aufgelistet wird : 
+1. Der Event ist keiner Organisationseinheit (OE) zugeordnet
+2. Falls es sich um eine Filterliste auf einer englischen Seite handelt, ist darauf zu achten, dass nur englische Seiten aufgeführt werden.
+3. Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit in der Filterliste. Ist sowohl Startzeit als auch Endzeit leer, dann bleibt der Event bis 00:00h in der Filterliste und im Call to Action Teaser.
+Spezifisch für Englische Seiten git: In englischen Filterlisten werden nur diejenigen Kurse angezeigt, die eine englische Version haben. Damit ein Event oder Kurs in der englischen Filterliste erscheint, muss die Seite des Events oder Kurses in einer englischen Version existieren.  Bitte keine englischen Versionen von Seiten anlegen, wenn diese nicht auch übersetzt werden, das wäre fuer die englische User Experience schlecht.
+Q: Ich habe den Veröffentlichungszeitpunkt für unsere Seite eingestellt, aber sie wurde nicht veröffentlicht.
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Ich habe am Mittwoch die Site <<link>> neu gemacht und diese war gestern bis ca. 15.00 Uhr live geschaltet. Also alles tipp top.
+Aber gestern um 18.00 Uhr erschien nur noch der Introtext ohne die Contents Formatierter Text mit Bild. Diese waren heute auch im Sitecore gelöscht. Was ist hier falsch?
+A: Wenn Elemente von der Seite verschwinden, kann es an den publish Einstellungen liegen oder die Elemente wurden nur in der englischen Version erfasst. 
+Die Publishing Einstellungen können so geprüft werden: Element anklicken und das Edit-Icon auswählen. Im neuen Fenster können unter anderem unter Publish / Unpublish die Publish Einstellungen bearbeitet werden. Mehr dazu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm)
+Auf einer DE und EN  Seite müssen immer die gleichen Elemente platziert werden. Sonst wird die englische Version immer von der deutschen überschrieben.
+
+ 
+Q: Kann ich meine Seiten zwischen den offiziellen publishing Zeiten nochmals aktualisieren?
+ 
+A: Alle Mitarbeiter/innen von M&K verfügen über die Rechte von Publish My Changes. Damit können eigene Anpassungen, die auf der Website gemacht wurden um 10.00, 15.00 und 17.00 Uhr veröffentlicht werden.
+Publish My Changes erreichst du ueber "Desktop" (auf Startseite Sitecore). Anschliessend klickst du unten links auf das Sitecore-Logo und wählst dort "Publish My Changes" aus. Danach kannst du mehrmals auf "Nächstes" klicken und deine Änderung auswählen, die zum nächsten veröffentlichungszeitpunkt live geschalten werden sollten.
+ 
+Q: Ich habe eine neue Seite zu unserer Website hinzugefügt, aber sie erscheint nicht im Internet. Wurde sie richtig publiziert?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: 
+ ich habe ein Problem mit der Sichtbarkeit einer Anmeldeseite im Web.
+ Diese Seite <<link>> soll NICHT im Web erscheinen, da wir sie nur intern verteilen wollen.
+ Nun habe ich in sitecore bereits in der Navigation alle Hökeli entfernt, weiss aber nicht, ob das reicht. Noch ist sie auffindbar, wenn ich HSLU örtli Ophtha Lab google.
+ Wird das auch erst nach dem Mittag verschwinden? Muss ich im Backend nochwas machen (Veröffentlichung, Navigation virtual)?
+ Danke fuer Eure Hilfe!
+ 
+A: Um eine Seite von externen Suchmaschinen auszuschliessen muss in Sitecore die Option "Hide form Search Engine" gewählt werden.
+Wenn das bei neu publizierten Seiten nicht von Anfang gemacht wird, dann wird eine Seite in jedem Fall von Suchmaschinen indexiert. Wenn man diese Option nachträglich erfasst, wird diese bei der nächsten Google Indexierung aktiv. Dies kann aber einige Tage bis zu einer Woche dauern.
+Die Option "Hide from Search Engine" findest du im Content Editor unter Site Meta Data:
+ 
+ 1) Im Content-Tree zur entsprechenden Seite navigieren.
+
+2) Rechts im Content-Bereich unter Site Meta Data können die Meta-Daten bearbeitet werden.
+
+3) Nach Eingabe, die Daten mit ctrl + s sichern. 
+
+Weitere Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_site_meta_data_content_editor.htm)
+Q: Ich habe vor paar Tagen eine Datei aktualisiert auf der Webseite <<link>> 
+Nun wollte ich sie ueberpruefen, aber sie ist vom Internet verschwunden, nur in Sitecore sehe ich sie. 
+
+A: Dies könnte mit den publish Einstellungen zusammenhängen.
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird.
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert. "Never publish" wirkt sich auch auf alle darunterliegenden Seiten aus.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+ 
+Q: Warum wurde meine Seite nicht publiziert?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: X möchte bei seiner Funktion gerne die Bezeichnung Co-Leitung CC Public & Nonprofit Management und nicht Co-Leiter International Office. Ich habe es im Sitecore unter "Funktion" hinzugefuegt, und es ist ersichtlich, auf der Website aber leider nicht. 
+Könnt ihr diese Ãƒâ€žnderung bei seinem Profil bitte anpassen? 
+ 
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden soll, müssen das folglich die  die Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) übersteuert werden. Dazu muss das Element Kontaktperson-Element (manuell) verwendet werden. Bei diesem Element können alle Daten zum Kontakt manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Auf folgender Website Public and Nonprofit Management | Hochschule Luzern (hslu.ch) habe ich ganz unten eine Linkliste eingefuegt und habe alle drei Links mit "Ziel: Neuer Browser" gespeichert, doch leider öffnet sich auf der Website keine neue Seite, wenn man den Event öffnet. Könnt ihr mit bitte helfen?
+
+A: Bei internen Verlinkungen wird kein neues Fenster geöffnet. Das dient der User Experience, vor allem Bei der Nutzung von mobilen Geräten.
+Bei externen Verlinkungen wird der Link in einem neuen Tab geöffnet. Dies aus dem Grund, da wir Die User sonst verlieren.
+Q: Auf der Webseite www.hslu.ch/dba ist X (Studienleiter) plötzlich verschwunden. Er wäre oberhalb von Y platziert. Ich muss morgen ein Mailing rauslassen und dann muss die Webseite einwandfrei sein. Könnt ihr mir da behilflich sein und schauen, dass Ingo wieder angezeigt wird? Und wisst ihr warum er plötzlich nicht mehr erscheint?
+A: Wenn Elemente von der Seite verschwinden, kann es an den publish Einstellungen liegen oder die Elemente wurden nur in der englischen Version erfasst. 
+Die Publishing Einstellungen können so geprüft werden: Element anklicken und das Edit-Icon auswählen. Im neuen Fenster können unter anderem unter Publish / Unpublish die Publish Einstellungen bearbeitet werden. Mehr dazu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm)
+Auf einer DE und EN  Seite müssen immer die gleichen Elemente platziert werden. Sonst wird die englische Version immer von der deutschen überschrieben.
+
+ 
+Q: Bei folgender Website ist das Moodboard Bild nicht ersichtlich, obwohl es im Sitecore ersichtlich ist:
+Beratungsstelle fuer Mitarbeitende und Fuehrungskräfte | Hochschule Luzern (hslu.ch)
+Ich muss diese Website heute liefern und ich kann sie dem Team nicht ohne das Bild abgeben.
+
+ 
+A: Falls ein Moodboard Slide schon erstellt wurde, jedoch das Moodboard nicht angezeigt wird, liegt es oftmals daran, dass der Slide noch nicht der Seite zugewiesen wurde: 
+Im Experience Editor zur gewünschten Seite navigieren und im Ribbon-Menü auf Campus > Page Options klicken. Im Data Bereich unter Moodboard können die Slides zugewiesen werden (Für Desktop und Mobile separat).
+ 
+-Im linken Bereich "Moodboard Slides" das Slide in der Baumstruktur auswählen und durch den Pfeil-Button der Seite zuweisen und OK klicken. Alle der Seite zugewiesenen Slides werden im rechten Bereich "Selected" aufgelistet.
+
+-Im linken Bereich "Moodboard Slides (Mobile)" das Slide in der Baumstruktur auswählen und durch den Pfeil-Button der Seite zuweisen und OK klicken. Alle der Seite zugewiesenen Slides werden im rechten Bereich "Selected" aufgelistet.
+
+
+2) Anschliessend im Page-Editor auf Speichern Sitecore_btn_window_save klicken.
+ https://applsupport.hslu.ch/webhelp/hm_eigene_und___oder_shared_slide.htm?zoom_highlightsub=mood+board
+Auserdem ist bei den Moodboard darauf zu achten, dass für mobile Moodboards ein seperates Bild hochgeladen werden muss (andere Abmessungen) und dann auch der Seite zugewiesen werden muss. 
+ 
+Q: Leider habe ich folgende Infos nicht mehr gefunden in den Sitecore Schulungsunterlagen und der Online-Hilfe, daher kommt die Frage an euch:
+Wenn ich eine Seite (z.B. die Digitalisierungsseite) unter "ÃƒÅ“ber uns" platziere - ändert sich dann die URL zwingend? Oder kann ich in der Navigation auch einfach eine Verlinkung platzieren und die aktuelle URL beibehalten?
+
+ 
+ 
+ 
+A: Alle Hinweise zum Thema "Seite verschieben" findest du hier:
+https://applsupport.hslu.ch/webhelp/hm_seite_verschieben.htm
+Wenn die Seite verschoben wird, dann ändert sich die URL automatisch. 
+Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Q: Bei uns im Team soll in Zukunft eine weitere Person das Web betreuen können.
+Könnt ihr mir Daten der nächsten Sitecore-Schulungen senden oder sagen, wo diese zu finden sind?
+ 
+A: Informationen zur Schulungsanmeldungen findest du hier: https://inside.hslu.ch/mk/Seiten/InfoWiki/Webseite.aspx
+ 
+Q: Leider weiss ich nicht, warum dieser Artikel nicht zu publizieren ist:
+ <<link>>
+ Könnt ihr mir weiterhelfen?
+ 
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Gestern hatte ich eine Info-Veranstaltung und plötzlich ist mir aufgefallen, dass am Nachmittag (möglicherweise auch schon am Vormittag), die Info-Veranstaltung auf der Produkt-Webseite fehlte. Dies, obwohl ich im Evento eingestellt habe, dass man sich bis heute anmelden kann. Unter den «Veranstaltungen» war der Anmeldelink jedoch noch zu finden. Wisst ihr an was das liegt? Wie kann ich sicherstellen, dass der Anmeldelink auch auf den Produkt-Webseiten sicher bis zum Zeitpunkt der Veranstaltung publiziert ist? 
+
+
+A: Wenn ein Agendaeintrag nicht (mehr) im Call to Action Teaser auftaucht, könnte es an der "Start-Zeit-Problematik" liegen. Bei WeVe Anmeldungen kann es an den Einstellungen des Agendaeintrags liegen.
+Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit des Ereignisses im Call to Action Teaser. Wurde sowohl keine Startzeit also auch keine Endzeit für den Event festgelegt, dann bleibt der Event bis 00:00h im Call to Action Teaser. Danach wird er weder in der Filterliste, noch im automatischen CtA-Teaser angezeigt (live ist er weiterhin).
+Damit die Anmeldung über ONLA / WeVe funktioniert, muss die Evento ID in der Facts-Liste auf der Produktseite hinterlegt werden und beim Call to Action Teaser die Checkbox  "Kontextabhängige Informationen aus Evento anzeigen" aktiviert aktiviert sein (Standard)! Bei einer deaktivierten Checkbox, wird entsprechend kein Link bzw. Status Meldung angezeigt. Mehr dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_links_der_linkliste_zuweisen.htm)
+
+Q: Ich habe gestern den Inhalt meiner Seite aktualisiert, aber wenn ich online nachschaue, ist sie nicht sichtbar. Was könnte das Problem sein?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Im Sitecore habe ich per heute zwei News erstellt:
+Leider gibt es bei beiden Bildern eine Fehlermeldung. An wen darf ich mich wenden?
+ 
+A: Um Fehlermeldungen bei Bildern zu vermeidern, muss das Bild auf die richtige Grösse zugeschnitten werden, progressiv gespeichert werden und ohne Sonderzeichen benannt werden (Umlaute und Klammern sind z.B. nicht erlaubt).  
+- Die Maquetten visualisieren, zu welchem Format ein Bild zugeschnitten werden muss. Zudem findest du hier eine Auflistung aller Bildergrössen: [https://applsupport.hslu.ch/webhelp/index.html?hm_maquetten.htm](https://applsupport.hslu.ch/webhelp/index.html?hm_maquetten.htm)
+- Hier steht beschrieben, wie die Bilder aufbereitet werden müssen: [http://applsupport.hslu.ch/web12/index.html?hm_photoshop.htm](http://applsupport.hslu.ch/web12/index.html?hm_photoshop.htm)
+- Hier die Anleitung zur Namenskonvention [https://applsupport.hslu.ch/webhelp/index.html?hm_präfixe_dateinamen.htm](https://applsupport.hslu.ch/webhelp/index.html?hm_präfixe_dateinamen.htm)
+ 
+Q: Ich wollte unter dem unten angegebenen Pfad im sitecore  myCampus eine Änderung vornehmen, doch scheine ich keine Schreibrechte zu haben (vgl. unten).
+Müsste ich mich diesbezüglich an die Informatik-Hotline wenden?
+A: Die Berechtigungen in Sitecore sind via Bereiche (sprich bei uns Departemente) definiert. Sobald du auf einer Seite bist, die  zu deinem Departement gehört sollte diese Meldung verschwinden. Schreibrechte werden vom Service Desk vergeben (servicedesk@hslu.ch).
+
+Q: Ich kann mich nicht ins Sitecore einloggen. Wie geht das?
+
+ 
+A: Das Login ist das normale HSLU-Login, man muss aber immer campus\ vor den Benutzernamen schreiben
+- Login-Seite Live: [https://stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)
+- Login-Seite Schulungsumgebung: [https://int-stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)"
+Q: soebenhabe ich 2 Infoveranstaltungen fuer das CAS Online Shop and Sales Management aufgeschaltet.
+Eigentlich sollten die beiden Infoveranstaltungen (spezifisch fuer das CAS OSM am 24.06. und 30.06.) auch auf der CAS Info Seite OSM aufgeschaltet sein.
+Nach meiner Meinung sollte dies mit dieser Auswahl bestätigt sein:
+ 
+Jedoch erscheinen die beiden Infoveranstaltungen nicht. Wo genau liegt der Fehler?
+Könnt ihr mir da weiterhelfen?
+
+ 
+A: Bei Agendaeinträgen ist zu unterscheiden, ob die Seite offline ist, oder ob der Agendaeintrag einfach nicht in der Filterliste aufgelistet wird. Mögliche Ursachen dafür, dass eine Seite nicht öffentlich ist findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm). Ausserdem kommt es bei  Agenda-Einträgen öfters vor, dass diese etwas länger haben, bis sie veröffentlicht werden.
+Voraussetzung dafür, dass ein Event in einer Filterliste erscheint, ist, dass der Agendaeintrag live ist.  
+Mögliche Ursachen dafür, dass ein Agendaeintrag live ist aber nicht der Filterliste aufgelistet wird : 
+1. Der Event ist keiner Organisationseinheit (OE) zugeordnet
+2. Falls es sich um eine Filterliste auf einer englischen Seite handelt, ist darauf zu achten, dass nur englische Seiten aufgeführt werden.
+3. Start-Zeit-Problematik: Der Event bleibt solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bis die Startzeit erreicht wird. Ist die Startzeit leer, dann bis 00:00h.
+Q: Meine Seite wurde über Nacht nicht veröffentlicht?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Ich habe Änderungen an der Seite vorgenommen und gespeichert, aber sie ist immer noch nicht online. Was muss ich tun?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Noch eine Frage hierzu
+ Wie lange dauert die Aktualisierung mit "Publish my Changes"?
+ 
+A: Alle Mitarbeiter/innen von M&K verfügen über die Rechte von Publish My Changes. Damit können eigene Anpassungen, die auf der Website gemacht wurden um 10.00, 15.00 und 17.00 Uhr veröffentlicht werden.
+Publish My Changes erreichst du ueber "Desktop" (auf Startseite Sitecore). Anschliessend klickst du unten links auf das Sitecore-Logo und wählst dort "Publish My Changes" aus. Danach kannst du mehrmals auf "Nächstes" klicken und deine Änderung auswählen, die zum nächsten veröffentlichungszeitpunkt live geschalten werden sollten.
+ 
+Q: In Sitecore lässt sich die Funktion 'Insert Weiterbildung' schon seit geraumer Zeit nicht mehr finden. 
+ Anstelle dessen gibt es die Funktion 'Insert Page', welche jedoch eine nur gering formatierte Seite eröffnet (siehe angehängtes PDF).
+ Was mache ich falsch?
+A: Spezialseiten, wie Aus- und Weiterbildungsseiten oder News-Seiten, können nur an gewissen Orten eingefügt werden:
+[Ausbildung Einfügpunkte](https://applsupport.hslu.ch/webhelp/index.html?hm_template_ausbildung.htm)
+[Weiterbildung Einfügpunkte](https://applsupport.hslu.ch/webhelp/index.html?hm_weiterbildung_einfuegen.htm)
+[News Einfügpunkte](https://applsupport.hslu.ch/webhelp/index.html?hm_news_einfuegen.htm)
+[Agendaeintrag Einfügpunkte](https://applsupport.hslu.ch/webhelp/index.html?hm_veranstaltung_erfassen.htm)
+Q: Ich erstelle eine neue Unterseite und konnte den Never Publish button nirgends finden.
+Könnt ihr bitte folgende Seite unsichtbar machen? <<link>>
+
+A: Den "Never Publish" Button findest du im Experience Editor unter Campus > Publish Options. Hier noch den Link zum Webhelp-Artikel: [https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm)
+ 
+Q: Meine aktualisierte Seite ist nicht in der Live-Ansicht zu sehen, obwohl ich sie publiziert habe.
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: 
+ Gerne wuerde ich die Seite «Chronologie» <<link>>  uns all ihre Unterseiten» verschieben und zwar, dass Sie eine Unterseite von «Jubiläumsschrift» <<link>> ist. Kann ich das im Backend einfach so verschieben oder muss ich etwas beachten? Die Seiten sind allesamt noch nicht publiziert. 
+ Nina hat mir heute gesagt, dass dies möglich ist. Sorry wenn ihr mir das zum gefuehlt 1000sten Mal erklären muesst, hab ich bisher noch nie gemacht. 
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu verschieben kann so vorgegangen werden:
+1) Auf die zu verschiebende Seite navigieren und Im Ribbon-Menü den Befehl "Home > Move Page" aufrufen.
+2) Im Dialog Zielseite anwählen und mit "Move" bestätigen.
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_verschieben.htm)
+Q: Auf dieser Seite ist die Darstellung der Beiträge (siehe ganz unten) verschoben. Ich habe keine Ahnung wie ich das Rueckgängig machen kann. Könntet ihr dies bitte mal ueberpruefen?
+ <<link>>
+A: [Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: Ich bin dabei, die neue WIT-Seite einzupflegen. Sie ist momentan komplett auf unpublished gestellt. 
+Leider klappt die Vorschau nicht, wenn ich sehen will, wie es aussehen wird (bes. bei Tabellen). Es springt mir immer auf irgendeine Hauptseite von T&A zurueck.
+Muss da von Eurer Seite vielleicht irgendwo eine Einstellung gemacht werden?
+ 
+A: Wenn die Seite auf Never Publish ist, kann keine Vorschau angesehen werde, da die Vorschau jeweils zeigt, wie es nach dem nächsten Publizieren aussehen würde. 
+Du kannst entweder kurz Never Publish rausnehmen und nachher wieder reintun oder (etwas weniger heikel weil man das Zurückstellen oft vergisst) das Publishing-Datum in die Zukunft stellen und dann bei der Vorschau eine Zeit in der Zukunft angeben.
+ 
+Q: Das Seminar Storytelling vom 19.03.2015 ist vorbei und ich wollte heute die Seminarseite auf dem Web12 mit dem Status "Never Publish“ versehen. 
+Nun meine Frage: Wenn ich die Hauptseite Storytelling mit "Never Publish“ pflege, was passiert dann mit den Links und mit der Übersichtsseite
+unter der Rubrik "Wirtschaft, Weiterbildungen, Seminare“: Dort erscheint mir immer noch das Seminar Storytelling
+A: Wenn eine Seite auf "Never Publish" gesetzt wird, werden alle Links, die automatisch entstehen auch automatisch gelöscht. 
+Alle Links, die von Hand auf eine bestimmte Seite gesetzt wurden, müssen du manuell entfernt werden. 
+ 
+Q: 
+ Ich hatte den Auftrag erhalten eine Veranstaltung aufs Web zu stellen.
+ Die Seite habe ich erstellt und dann gesehen, dass die Seite schon existiert
+ Jetzt möchte ich meine Seite natuerlich wieder löschen:
+ 
+ Kann ich das einfach ueber diesen Button machen oder wie muss ich vorgehen?
+ 
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu löschen kann so vorgegangen werden:
+ 1) Auf die zu löschende Seite navigieren und im Ribbon-Menü den Befehl "Home > Delete Page" aufrufen.
+2) Den Warnhinweis lesen und gegebenenfalls auf OK klicken.
+3) Zeigen Links auf dieses Seite, erscheint ein weiteres Hinweisfenster. Es muss entschieden werden, was mit diesen Linkst geschehen soll 
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm)
+
+WEBHELP-ARTIKEL 
+ Key: Publish
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Home
+
+Dieser Webhelp-Artikel enthält Informationen zum publishing Zeitpunkt der Website und wie man verhindern kann, dass gewisse Seiten Live gestellt werden.
+
+HINWEIS
+•Alle gespeicherten Inhalte werden täglich jeweils um 12:05 Uhr und 00:05 Uhr automatisch publiziert. Morgens um 05:00 Uhr wird der Cache automatisiert "geweckt". Nach der Publikation sind die neuen Inhalte öffentlich sichtbar.
+
+•Der Publish-Button ist nur noch für die Administratoren sichtbar. Es sollen nur noch die Benutzer der Gruppe h-Admin manuell publizieren können. Dies auf Anfrage an die/den Kommunikations- und Marketing-Verantwortliche/-n des Departements und wirklich nur in Ausnahmefällen. Zudem müssen durchgeführte Publishings durch die Administratoren per E-Mail mit dem Betreff "Publishing gestartet" an die Adresse publish@hslu.ch mitgeteilt werden.
+
+Seiten und Unterseiten nicht veröffentlichen:
+•Will die Redaktion einen Inhalt nicht veröffentlichen, unterbindet sie die Publikation in den Publish Options.
+Achtung: Bei bestehenden Seiten, welche schon veröffentlicht wurden, muss zuerst eine Umleitung eingerichtet werden. Melden Sie sich dazu via eMail beim Web-Support.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_publishing.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_publishing.htm  Key: Publish Options
+Navigation:  Tools > Sitecore Experience Management > Experience Editor > Ribbon-Menü > Campus
+
+In diesem Webhelp-Artikel sind die verschiedenen Publishing Options von Seiten und Elementen beschrieben. Elemente und Seiten können in Sitecore erstellt werden aber so eingestellt werden, dass diese nicht publiziert werden oder erst zu einem gewissen Zeitpunkt Live geschatltet werden. Wie das geht und was dabie beachtet werden muss ist hier beschrieben. 
+
+HINWEIS: Will ein Redaktor einen Inhalt vor der Veröffentlichung mehrmals editieren oder bis zu einem gewissen Zeitpunkt zurückhalten, können die Publish Options genutzt werden. Diese Funktion sollte aber nur bei neuen Seiten verwendet werden, welche noch nie publiziert wurden.
+
+HINWEIS: Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert die Redaktion, ob und wann Inhalte publiziert werden.
+
+•Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Zurzeit können keine Sitecore-Items zeitgenau publiziert werden, sondern immer nur für die gesamte Zeitspanne zwischen 2 Publishing-Jobs.  Auch wenn die Publishing-Zeit auf 09:00 Uhr gestellt ist, wird da Item erst beim kommenden Publish um 12:05 Uhr veröffentlicht.
+•Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+•Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+ 
+ACHTUNG: Bei bestehenden Seiten, welche schon veröffentlicht wurden, muss zuerst eine Umleitung eingerichtet werden. Ansonsten können beim Besucher Fehlerseiten entstehen (404 Seite nicht gefunden). Melden Sie sich dazu via eMail beim Web-Support.
+
+ 
+Die Publish-Funktionalität steht nicht nur für Seiten, sondern auch für einzelne Elemente zur Verfügung. So können etwa auch Teaser über den "Manual Teaser bearbeiten" zu einem bestimmten Zeitpunkt publiziert und zurückgezogen werden oder vor einer vorzeitigen Publikation geschützt werden.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_publish_options.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_publish_options.htm
+
+Falls wirklich gar keine Information zum Beantworten der Frage in den WEBHELP-ARTIKELN oder den ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN vorhanden sind, dann antworte mit: "Leider kann ich deine Frage nicht beantworten".
+
+PRÄZISE ANTWORT:
+
+====== 
+
+RESPONSE:
+
+Aufgrund der Publish-Einstellungen werden die Seiten immer um 12:05 Uhr oder 00:05 Uhr veröffentlicht. Wenn eine Seite nicht erscheint, kann das an den Publish-Einstellungen liegen. Bitte überprüfe die Publish-Optionen im Experience Editor und prüfe, ob die gewünschte Seite auf "Never publish" gesetzt ist. Weitere Informationen findest du in den Webhelp-Artikeln [Publish](https://applsupport.hslu.ch/webhelp/hm_publishing.htm) und [Publish Options](https://applsupport.hslu.ch/webhelp/hm_publish_options.htm).

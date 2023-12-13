@@ -1,0 +1,562 @@
+PROMPT:
+
+Deine Aufgabe ist es, auf die folgende AKTUELLE FRAGE zu antworten.
+Gib mögliche Ratschläge zum beheben des Problems. Sei so konkret wie möglich.
+Verwende zur Beantwortung der FRAGE ausschliesslich die folgenden WEBHELP-ARTIKEL und die ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN.
+Vermeide das Hinzufügen von Informationen oder Eklärungen, die nicht in einem WEBHELP-ARTIKEL oder in den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN stehen.
+Anworte nur dann, wenn die Informationen zur Beantwortung der Frage in den WEBHELP-ARTIKEL und die ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN zu finden ist.
+Ansonsten antworte mit 'Leider kann ich deine Frage nicht beantworten'.
+Vermeide bei der Antwort Wiederholungen.
+Achte darauf, welche Sprachversion der Website in der Frage erwähnt wird. Verwende zur Beantwortung der Frage, die Informationen aus den WEBHELP-ARTIKEL und den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN, die zur erwähnten Sprachversion passen. Wird keine Sprachversion erwähnt, handelt es sich um die deutsche Seite, nicht um die englische Seite.
+Lies immer alle WEBHELP-ARTIKEL und ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN durch. Die obersten ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN enthalten oftmals nicht die richtige Antwort.
+Sprich in der DU-Form.
+Verwende bei längerem Texten Aufzählungszeichen.
+Verlinke hilfreiche Webhelp-Artikel in der Antwort.
+
+CHAT-HISTORY: <<history>>
+
+AKTUELLE FRAGE: wie füge ich einen anker ein?
+
+ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN:
+Q: Ich hab schon wieder ein Frage, danke fuer Eure Hilfe:
+Auf <<link>>
+habe ich einen Link mit Anker definiert, 
+ 
+Aber der Anker wird nicht angesprungen. Was habe ich falsch gemacht? 
+
+A: Ein häufige Fehler bei Anker ist, dass das # fälschlicherweise entweder vergessen geht oder mitkopiert wird. Bei manchen Elementen braucht es das #, bei manchen nicht. 
+- Für die Verlinkung innerhalb der gleichen Seite auf einen manuellen Teasern muss das # weggelassen werden. 
+- Bei der Verlinkung von Rich Text Teasern auf der gleichen Seite, muss das # mitkopiert werden. 
+- Bei der Verlinkung von externen Seiten muss das # immer mitkopiert werden. 
+Hier sind die Webhelp-Artikel dazu:
+https://applsupport.hslu.ch/webhelp/index.html?hm_anker_auf_anderer_seite.htm
+https://applsupport.hslu.ch/webhelp/index.html?hm_anker_auf_anderer_seite.htm
+Q: Wie kann ich einen Kontaktteaser bearbeiten?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ist es möglich, die 5 Titel als Ankerpunkte zu hinterlegen. Wir haben es leider nicht geschafft, da die untenstehenden Abschnitte als Toogle Text erfasst sind. 
+ 
+ 
+A: [Hier](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm
+ ) findest du die Anleitung, wie Anker angelegt werden können.
+Q: Eigentlich weiss ich jetzt wie man einen Teaser umplatzieren kann aber irgendwie schaffe ich das nicht: 
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Ist es möglich einen externen Link (in diesem Fall unseren Newsfeed <<link>> in die Navigation reinzunehmen? 
+
+
+ 
+A: In der Navigation (virtuell oder real) können nur interne Seiten eingefügt werden. Mehr Infos dazu [hier](https://applsupport.hslu.ch/webhelp/hm_virtueller_navigationseintrag.htm).
+Q: Gerne würde ich von der Forschungs-Seite DK aus einen Link zum Medienspiegel setzen, da der Forschungs-Medienspiegel jedoch in der Mitte der Seite ist, würde ich gerne auf den Anchor verlinken.
+<<link>>
+Geht dies mittlerweile? Oder müsste man eine Unterseite machen
+
+A: [Hier](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm
+ ) findest du die Anleitung, wie Anker angelegt werden können.
+Q: Wie kann ich die Kontaktangaben einer Person anpassen?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wo kann ich die Kontaktangaben einer Person anpassen?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wie kann ich die Kontaktdetails einer Person überschreiben?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: 
+ ich möcht au einer unterseite ein animiertes gif platzieren, wie geht das?
+ 
+A: Bei Image Teasern und manuellen Teasern kann ein GIF eingefügt werden. Es muss die angegebenene Masse haben und es muss die Checkbox "animiertes Bild" aktiviert werden (damit es nicht falsch umgerechnet wird). Weitere Informationen dazu findest du [hier](https://applsupport.hslu.ch/webhelp/hm_teaser_bearbeiten.htm?zoom_highlightsub=gif)
+Q: Wie kann ich eine E-Mail-Adresse in einem Kontaktteaser anpassen?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wie kann ich den Titel einer Person ändern?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wie kann ich den akademischen Titel einer Person in ihrem Kontaktteaser bearbeiten?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q:  Habe einen «Knopf». Bin in der Anleitung Marketingformular einbinden und habe auch das Video geschaut <<link>>
+ Wo/wie muss ich eine Seite einfuegen, damit ich das D365 Formular einfuegen kann, womit man sich fuer einen Termin meldet? 
+
+ 
+ 
+A: Die D365 Formulare werden nur in der Vorschau richtig dargestellt und ueber den Experience Editor ist nur der Code sichtbar. 
+Q: Wie kann ich den Teaser an einer bestimmten Stelle einfügen ohne dass sich dieser willkürlich verschiebt?
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Ich wollte für die SA eine News aufschalten mit Bild. 
+Aber ich scheine keine Rechte für das Erstellen einer Bildergalerie zu haben.
+Was mache ich falsch? LG Anette
+Die News ist hier angelegt
+<<link>>
+
+A: Du musst einen Unterordner anwählen, du kannst nicht auf der obersten Ebene eine Bildergalerie anlegen. 
+Q: Es gibt von der externen Studienleiterin ein youtube-Filmli, welches ich auch hochladen sollte. Binde ich dieses mit einen Teaser ein (welcher Art?) und wie kriege ich nun schon wieder ein Standbild nach eigener Wahl hin?
+A: Um ein Video auf der Website einzubinden, muss dieses zuerst entweder auf YouTube oder Vimeo hochgeladen werden. Danach kann das Video in einem Teaser eingebunden werden . Hier findest du die Anleitung dazu: 
+[http://applsupport.hslu.ch/webhelp/hm_manueller_teaser_video_einbind.htm](http://applsupport.hslu.ch/webhelp/hm_manueller_teaser_video_einbind.htm)
+[https://applsupport.hslu.ch/webhelp/index.html?hm_manueller_teaser_video_einbind.htm](https://applsupport.hslu.ch/webhelp/index.html?hm_manueller_teaser_video_einbind.htm)
+
+
+Q: Ich habe auf dieser Seite einen Image Teaser eingebaut und dann noch verlinkt mit einem A3 JPG. Leider geht das Pop-Up nicht auf.
+Was habe ich vergessen? Konnte es in Web-Help nicht rausfinden.
+
+A: Um ein Bild einzufügen, das beim Draufklicken grösser dargestellt wird, kann ein manueller Teaser oder eine Bildergeschichte (mehrere Bilder ) eingefügt werden. Beim Bearbeiten muss die Checkbox "Link (nur Bilder via Media Link) in Popup vergrössern" ausgewählt werden. Das vergrösserte Bild muss als Link ausgewählt werden.
+Falls der Haken bei "Link (nur Bilder via Media Link) in Popup vergrössern" gesetzt wurde aber das Bild beim Draufklicken nicht grösser dargestellt wird, liegt es wohl daran, dass das Bild noch nicht in der grossen Version hochgeladen wurde. Damit dar Popup funktioniert, muss das Bild 1x in der vorgegebenen Grösse für den Teaseroder die Bildergeschichte hochladen werden und 1x in der Grösse, wie es vergrössert dargestellt werden soll. Wenn der Teaser dann bearbeitet wird, kann im Bereich  "Link" durch die Funktion  "Insert Media Link" das grössere Bild und die Checkbox "Link in Popup vergrössern" ausgewählt werden. Dadurch wird das grössere Bild beim Klick auf das Teaserbild angezeigt.
+Q: Ich mal wieder mit einer Moodboard-Frage:
+ 
+Ich hätte gerne das Bild im Anhang als Moodboard-Slide in die Bestehenden eingefügt.
+In der Media Library habe ich es eingefügt unter  «moodboard Sichtwandel»
+Bei den Moodboards unter <<link>>
+habe ich einen neuen Slide eingefügt und das ganze verlinkt unter «Page Options».
+ 
+Leider erscheint der Slide trotzdem nicht richtig oder vielmehr doppelt... einmal richtig und einmal nur als Platzhalter-Meldung  was könnte ich falsch gemacht haben?
+
+A: Falls ein Moodboard Slide schon erstellt wurde, jedoch das Moodboard nicht angezeigt wird, liegt es oftmals daran, dass der Slide noch nicht der Seite zugewiesen wurde: 
+Im Experience Editor zur gewünschten Seite navigieren und im Ribbon-Menü auf Campus > Page Options klicken. Im Data Bereich unter Moodboard können die Slides zugewiesen werden (Für Desktop und Mobile separat).
+ 
+-Im linken Bereich "Moodboard Slides" das Slide in der Baumstruktur auswählen und durch den Pfeil-Button der Seite zuweisen und OK klicken. Alle der Seite zugewiesenen Slides werden im rechten Bereich "Selected" aufgelistet.
+
+-Im linken Bereich "Moodboard Slides (Mobile)" das Slide in der Baumstruktur auswählen und durch den Pfeil-Button der Seite zuweisen und OK klicken. Alle der Seite zugewiesenen Slides werden im rechten Bereich "Selected" aufgelistet.
+
+
+2) Anschliessend im Page-Editor auf Speichern Sitecore_btn_window_save klicken.
+ https://applsupport.hslu.ch/webhelp/hm_eigene_und___oder_shared_slide.htm?zoom_highlightsub=mood+board
+Auserdem ist bei den Moodboard darauf zu achten, dass für mobile Moodboards ein seperates Bild hochgeladen werden muss (andere Abmessungen) und dann auch der Seite zugewiesen werden muss. 
+ 
+Q: Auf der Studiengangseite habe ich zwei manuelle Teaser eingefügt. Einer wird ganz links und der andere ganz rechts angezeigt. Wie kann ich sie unter einander anzeichen lassen?
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Wie kann ich die Telefonnummer in einem Kontaktteaser aktualisieren?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: 
+ Ich wollte die Position ändern und konnte das Element auch entsprechend markieren. Und wie verschiebe ich es nun? In der Anleitung habe ich unter Position oder Reihenfolge ändern nichts gefunden.
+
+A: 
+ Du kannst die Position des Elementes nicht per Drag & Drop ändern. Du kannst aber an der gewuenschten Stelle das bereits erstellte Element nochmals einfuegen und an der alten Stelle entfernen. Vorgehensweise ist gleich wie wennd du ein neues Element erstellst, nur das du kein neues erstellen musst sondern unter "bestehenden Inhalt auswählen" das vorhandene auswählst. 
+ 
+ 
+Q: Ich sollte die roten Manuellen Teaser  der Seite <<link>>
+auf die Seite <<link>>
+verschieben.
+Wie mache ich das ? Wie man innerhalb der Seite verschiebt, weiss ich, aber zwischen 2 Seiten? 
+A: Die einzige Möglichkeit besteht darin, die Teaser in den Shared Ordner zu verschieben. Elemente welche sich in einem shared Ordner befinden können auf jeder Seite ausgewählt und eingefügt werden.
+1.) Die Teaser ueber «Verschieben nach» in den Shared Ordner verschieben (Schauen, dass man beim Shared Orner den richtigen Unterordner wählt). 
+2.) Die Teaser, die im Shared Ordner sind kann man dann auf der Seite einfuegen. 
+ 
+ 
+Q: Wie kann ich das Standardbild überschreiben, bei einem Social Media Post?
+A: Wenn kein Open Graph Bild auf der jeweiligen Seite hinterlegt ist, wird automatisch das Standardbild angezeigt. Um ein benutzerdefiniertes Bild anzuzeigen kann wie folgt vorgegangen werden: 
+1) Im Content-Tree zur entsprechenden Seite navigieren.
+2) Rechts im Contentbereich unter Spezial Meta Data können die Meta-Daten bearbeitet werden.
+3) Open Graph Image - Durch Klicken auf Browse kann hier ein Bild aus der Media-Library ausgewählt werden, welches dann als Open Graph Image verwendet wird. Das Bild ist idealerweise 1200 x 630 Pixel gross oder Bildverhältnis 1.91:1. Maximum 1500px x 1500px oder 5 MB.
+4) Checkbox Open Graph Image anzeigen - Hier kann gewählt werden, ob das Bild angezeigt werden soll oder nicht. 
+Weitere Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/hm_special_meta_data.htm?zoom_highlightsub=open+graph+bild)
+ 
+ Evtl. musst du nach dem Einfuegen des Bildes den Link zu deiner Seite einmalig fuer die SoMe Plattformen bereinigen mit den folgenden Links:
+ Facebook: https://developers.facebook.com/tools/debug/
+ Twitter: https://cards-dev.twitter.com/validator
+ LinkedIn: https://www.linkedin.com/post-inspector/
+ Danach sollte dein Bild angezeigt werden.
+ 
+Q: 
+ Wenn ich in verschiedenen Containern eigene Bilder einfuegen möchte, sprich Bilder von meine Computer, wie muss ich das machen? Ich dachte man muesse auf upload und hätte dann Zugriff. Die Bilder habe ich bereits vorbereitet und ans richtige Format angepasst.
+A: [Hier](https://applsupport.hslu.ch/webhelp/index.html?hm_upload_files.htm) steht beschrieben, wie du Bilder in die Media Library lädst: 1. Im Ribbon-Menü Campus > Media Library wählen.
+
+2.In der Media Library im Item Tree der entsprechenden Ordner für deinen Speicherort auswählen. Wenn kein Ordner ausgewählt wird, erscheint eine Fehlermeldung, die das Speichern der Datei oder des Bildes verhindert.
+  
+3.Im Reiter Folder auf das Upload-Files-Icon klicken.
+ 
+4.Gewünschte Dateien im Explorer-Fenster auswählen, z.B. Bilder und auföffnen klicken. Die Bilder werden hoch geladen.
+ 
+Hinweis: Mit gedrückter Ctrl-Taste können mehrere Files ausgewählt werden.
+
+5.Die Files wurden in den ausgewählten Ordner (hier der Ordner ta) hoch geladen. Im rechten Bereich Media werden die Bildinhalte mit einem Warnhinweis dargestellt. Dies, weil bei den Bilder noch die Alt-Texte fehlen und ausgefüllt werden müssen.
+ 
+
+6.Links im Item Tree auf das jeweilige Bild klicken und anschliessend im Content Bereich auf der rechten Seite den Alt-Text eingeben. Dieser Text sollte das Bild beschreiben. Die Eingaben speichern.
+ Danach kannst du beim entsprechenden Teaser das gewuenschte Bild einfuegen.
+ Du kannst ein Bild auch direkt ueber den Teaser uploaden. Dazu auf das "bearbeiten"-Icon des Teasers klicken, beim Feld "Bild" auf Browse klicken und dann auf Upload.
+ 
+Q: Gerne möchte ich in der Englischen Seitennavigation die Rechtschreibung korrigieren. Ich komme aber stets nur in das Menü, in dem ich eine neue Side-Navigation einfügen kann. Könntet ihr mir weiterhelfen?
+Screenshot hänge ich anbei, es handelt sich um diese Navigation
+<<link>>
+Vielen Dank euch und liebe Grüsse
+
+A: Die Überschrift von Flyout und Side-Navigation, sowie die Linktexte der Hauptseiten in der Navigation und die Linktexte der Side-Navigation, können auf der Seite unter "Navigation Options" angepasst werden.  Der Text, der bei der Seite selbst in den Navigationsoptionen hinterlegt ist, ist der "stärkste" und uebersteuert alles. Diese hinterlegten Texte werden sowohl für virtuelle als auch reale Navigationen übernommen. Wird kein Text hinterlegt, wird der Titel der Seite verwendet. Mehr Infos dazu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_navigations_options-ribbon.htm)
+
+ 
+Q: Wie kann ich die Telefonnummer in der Kontaktbox einer Person dauerhaft anpassen?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich muss die Jobbezeichnung in der Kontaktbox einer Person korrigieren. Wie gehe ich vor?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich möchte den Jobtitel anpassen. Wie geht das?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Beim Bild unten MAS Grafik, habe ich den Haken bei Pop up gesetzt, aber wenn ich drauf klicke, geht es jetzt nicht. Habe ich etwas vergessen?
+/
+ 
+A: Um ein Bild einzufügen, das beim Draufklicken grösser dargestellt wird, kann ein manueller Teaser oder eine Bildergeschichte (mehrere Bilder ) eingefügt werden. Beim Bearbeiten muss die Checkbox "Link (nur Bilder via Media Link) in Popup vergrössern" ausgewählt werden. Das vergrösserte Bild muss als Link ausgewählt werden.
+Falls der Haken bei "Link (nur Bilder via Media Link) in Popup vergrössern" gesetzt wurde aber das Bild beim Draufklicken nicht grösser dargestellt wird, liegt es wohl daran, dass das Bild noch nicht in der grossen Version hochgeladen wurde. Damit dar Popup funktioniert, muss das Bild 1x in der vorgegebenen Grösse für den Teaseroder die Bildergeschichte hochladen werden und 1x in der Grösse, wie es vergrössert dargestellt werden soll. Wenn der Teaser dann bearbeitet wird, kann im Bereich  "Link" durch die Funktion  "Insert Media Link" das grössere Bild und die Checkbox "Link in Popup vergrössern" ausgewählt werden. Dadurch wird das grössere Bild beim Klick auf das Teaserbild angezeigt.
+Q: 
+ Ich habe auf der D&K-Website <<link>> im Footer einen neuen Quicklink erfasst. Nun möchte ich den aber auch in EN. Dazu habe ich eine EN-Version erstellt, aber ich habe keine Ahnung, wo ich den EN-Linkname hinterlegen soll. In der Webhelp habe ich nichts gefunden. Help!
+ 
+ 
+ 
+ Ziel link wäre: <<link>>
+ Und Linkname in EN wäre: Journal search of the Region of Central Switzerland (RZS)
+ Herzlichen Dank fuer eure Hilfe!
+ 
+A: Unter dem Reiter "Aussehen" im Backend kannst du den Anzeigenamen fuer die Englische Version anpassen.
+ 
+Q: Kann ich den Kontakteaser einmalig überschreiben?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich möchte gerne auf der Seite <<link>> das Video <<link>> einfuegen.
+ 
+Wenn ich es als iFrame einfuege, steht da IFRAME NOT ALLOWED.
+Könnt ihr das machen?
+A: Um ein Video auf der Website einzubinden, muss dieses zuerst entweder auf YouTube oder Vimeo hochgeladen werden. Danach kann das Video in einem Teaser eingebunden werden . Hier findest du die Anleitung dazu: 
+[http://applsupport.hslu.ch/webhelp/hm_manueller_teaser_video_einbind.htm](http://applsupport.hslu.ch/webhelp/hm_manueller_teaser_video_einbind.htm)
+[https://applsupport.hslu.ch/webhelp/index.html?hm_manueller_teaser_video_einbind.htm](https://applsupport.hslu.ch/webhelp/index.html?hm_manueller_teaser_video_einbind.htm)
+
+
+Q: Ich muss die Kontaktdetails einer Person in ihrem Profil aktualisieren. Wo finde ich die Option dazu?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wie entferne ich Lücken zwischen den Teasern?
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Uns ist soebenaufgefallen, dass das untenstehende Bild in der Mobile Ansicht nicht angezeigt wird. 
+<<link>>
+Könnt ihr mir diesbezueglich weiterhelfen? 
+ 
+A: Für mobile und Desktop sind unterschiedliche Moodboards zugewiesen. Die sind nicht automatisch gleich und müssen bei mobile und bei Desktop separat zugewiesen bzw. entfernt werden. Wird das Moodboard in der mobilen Version falsch oder gar nicht angezeigt, liegt es oft daran, dass kein mobiles Moodboard erstellt wurde oder dieses nicht vollständig konfiguriert wurde. 
+1. In der Media Library muss ein seperates Bild für die Desktop und MoileMoodboardversion hochgeladen werden. 
+2. Beim Zuweisen von Bild zum Moodboard, muss bei mobile das mobile Bild ausgwählt werden.
+3. Bei den Page Options muss der Seite sowohl ein Desktop Moodboard als auch ein mobiles Moodboard zugewiesen werden. 
+Hier die Anleitungslinks dazu:
+https://applsupport.hslu.ch/webhelp/hm_neues_bild_direkt_hochladen.htm
+https://applsupport.hslu.ch/webhelp/index.html?hm_eigene_und___oder_shared_slide.htm
+Q: Könntet Ihr mir bitte kurz mitteilen, wie ich die folgenden gelb markierte Unterseite entweder ganz löschen oder zumindest komplett offline schalten kann?
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu löschen kann so vorgegangen werden:
+ 1) Auf die zu löschende Seite navigieren und im Ribbon-Menü den Befehl "Home > Delete Page" aufrufen.
+2) Den Warnhinweis lesen und gegebenenfalls auf OK klicken.
+3) Zeigen Links auf dieses Seite, erscheint ein weiteres Hinweisfenster. Es muss entschieden werden, was mit diesen Linkst geschehen soll 
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm)
+Q: Ich bin mal wieder auf ein Problem gestossen:
+<<link>>
+ 
+Auf dieser Seite ist zwischen Introtext und Teasers bei der mobilen Version Englisch «Branchentag 2018» sichtbar (was da nicht hingehört), auf der Desktop-Version wie auch dort, wo ich bearbeiten kann, ist dies nicht sichtbar, sodass ich es auch nicht rauslöschen kann > siehe Screenshots.
+
+A: Wenn ein grauer Balken an der Stelle der Infobox erscheint, kann dies daran liegen, dass die Farbe der Infobox angepasst wurde oder der ganze Infobox Platzhalter wurde entfernt.   
+Wichtig: Die Infobox darf nur über die Page Options hinzugefügt oder entfernt werden. Hier stehts noch beschrieben: https://applsupport.hslu.ch/webhelp/hm_infoboxtext.htm?zoom_highlightsub=infobox
+Falls der Infobox-Platzhalter gelöscht wurde, bitte beim [websupport](mailto:websuport@hslu.ch) melden. 
+
+Q: Kann ich ein benutzerdefiniertes Bild hinterlegen, das erscheint, wenn ich eine Website auf Social Media verlinke?
+A: Wenn kein Open Graph Bild auf der jeweiligen Seite hinterlegt ist, wird automatisch das Standardbild angezeigt. Um ein benutzerdefiniertes Bild anzuzeigen kann wie folgt vorgegangen werden: 
+1) Im Content-Tree zur entsprechenden Seite navigieren.
+2) Rechts im Contentbereich unter Spezial Meta Data können die Meta-Daten bearbeitet werden.
+3) Open Graph Image - Durch Klicken auf Browse kann hier ein Bild aus der Media-Library ausgewählt werden, welches dann als Open Graph Image verwendet wird. Das Bild ist idealerweise 1200 x 630 Pixel gross oder Bildverhältnis 1.91:1. Maximum 1500px x 1500px oder 5 MB.
+4) Checkbox Open Graph Image anzeigen - Hier kann gewählt werden, ob das Bild angezeigt werden soll oder nicht. 
+Weitere Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/hm_special_meta_data.htm?zoom_highlightsub=open+graph+bild)
+ 
+ Evtl. musst du nach dem Einfuegen des Bildes den Link zu deiner Seite einmalig fuer die SoMe Plattformen bereinigen mit den folgenden Links:
+ Facebook: https://developers.facebook.com/tools/debug/
+ Twitter: https://cards-dev.twitter.com/validator
+ LinkedIn: https://www.linkedin.com/post-inspector/
+ Danach sollte dein Bild angezeigt werden.
+ 
+Q: Unser Teammitglied hat eine neue Telefonnummer. Wie kann ich diese in seinem Kontaktteaser ändern?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Auf einer Forschungsprojektseite der SA sollte ein manueller Kontakt hinzugefuegt werden. Bei PPDP-Seiten steht allerdings, dass die Seiten nicht bearbeitet werden duerfen. Könnt ihr mir bitte kurz sagen, ob es möglich ist, lediglich diesen einen Kontakt hinzuzufuegen? 
+A: Forschungsprojektseiten können nicht auf Sitecore bearbeitet werden. Der gesamte Inhalt wird aus der PPDB-Datenbank gezogen. Deshalb müssen dort die Anpassungen an der Seite gemacht werden.
+ 
+Q: 
+ Ich glaube, wir haben diesen Punkt schon einmal besprochen (ich kann mich aber nicht mehr an die Antwort erinnern):
+ Wenn ich auf der News Seite vom iHomeLab eine Bildergallerie einfuegen möchte, bleibt der OK Button inaktiv. Was mache ich falsch?
+ 
+A: Du musst einen Unterordner anwählen, du kannst nicht auf der obersten Ebene eine Bildergalerie anlegen. 
+ 
+Q: Kann ich eine Infobox ausblenden?
+A: Die Infobox muss wieder ueber die Page Options von der Seite gelöst werden (so wie sie hinzugefuegt wurde).
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon Sitecore_btn_window_refresh neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+Hier die Anleitung mit Bilder: [https://applsupport.hslu.ch/webhelp/index.html?hm_infobox_löschen.htm](https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm?zoom_highlightsub=infobox).
+Q: Wie kann die Infobox gelöscht werden?
+A: Die Infobox muss wieder ueber die Page Options von der Seite gelöst werden (so wie sie hinzugefuegt wurde).
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon Sitecore_btn_window_refresh neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+Hier die Anleitung mit Bilder: [https://applsupport.hslu.ch/webhelp/index.html?hm_infobox_löschen.htm](https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm?zoom_highlightsub=infobox).
+Q: Ich habe letzte Woche schon versucht, ein neues Bild hochzuladen bzw. zu verlinken, allerdings scheint da etwas nicht zu klappen, siehe Screenshots. Mit der Bilddatei scheint alles in Ordnung zu sein, allerdings kann ich das Bild nicht auf der Seite einfuegen. Woran kann das liegen? 
+
+ 
+A: Um Fehlermeldungen bei Bildern zu vermeidern, muss das Bild auf die richtige Grösse zugeschnitten werden, progressiv gespeichert werden und ohne Sonderzeichen benannt werden (Umlaute und Klammern sind z.B. nicht erlaubt).  
+- Die Maquetten visualisieren, zu welchem Format ein Bild zugeschnitten werden muss. Zudem findest du hier eine Auflistung aller Bildergrössen: [https://applsupport.hslu.ch/webhelp/index.html?hm_maquetten.htm](https://applsupport.hslu.ch/webhelp/index.html?hm_maquetten.htm)
+- Hier steht beschrieben, wie die Bilder aufbereitet werden müssen: [http://applsupport.hslu.ch/web12/index.html?hm_photoshop.htm](http://applsupport.hslu.ch/web12/index.html?hm_photoshop.htm)
+- Hier die Anleitung zur Namenskonvention [https://applsupport.hslu.ch/webhelp/index.html?hm_präfixe_dateinamen.htm](https://applsupport.hslu.ch/webhelp/index.html?hm_präfixe_dateinamen.htm)
+ 
+Q: Gerne möchte ich asap letztem Jahr Filme und Dokumentationen der Abschlussarbeiten Objektdesign 2018 auf die Homepage hochladen. Wie kann ich diese Videos auf der Website einfügen?
+A: Um ein Video auf der Website einzubinden, muss dieses zuerst entweder auf YouTube oder Vimeo hochgeladen werden. Danach kann das Video in einem Teaser eingebunden werden . Hier findest du die Anleitung dazu: 
+[http://applsupport.hslu.ch/webhelp/hm_manueller_teaser_video_einbind.htm](http://applsupport.hslu.ch/webhelp/hm_manueller_teaser_video_einbind.htm)
+[https://applsupport.hslu.ch/webhelp/index.html?hm_manueller_teaser_video_einbind.htm](https://applsupport.hslu.ch/webhelp/index.html?hm_manueller_teaser_video_einbind.htm)
+
+
+Q: Ich möchte den Nachnamen in der Kontaktbox einer Person ändern. Was sind die Schritte dafür?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+
+WEBHELP-ARTIKEL 
+ Key: Anker auf einer anderen Seite
+Navigation: navigation>anker
+
+Diese Anleitung beschreibt, wie man einen Anker auf der Website setzen kann, um zu einem bestimmten Abschnitt auf einen anderen Seite zu gelangen.
+
+1) Zu einem Anker auf einer anderen internen Seite springen
+
+Beispiel mit einem Rich Text Teaser:
+ 
+1.Der Ankername mit dem "Gartenzaun-Zeichen" # auf der Zielseite kopieren, z.B. #zwischentitel
+  
+2.Den Textbereich, welcher als Ankerlink fungieren soll markieren und auf das Link-Symbol für interne Links anklicken.
+  
+3.Die interne Zielseite, auf welcher sich der Anker befindet, auswählen und auf Link klicken. Nun muss in einem weiteren Schritt die Sprungmarke angefügt werden.
+ 
+4.Den Cursor im neuen Link platzieren und auf das Link-Symbol für externe Links anklicken.
+ 
+5.Im Feld URL ganz am Schluss ohne Slash den Ankername anfügen z.B. xxxxxxx#zwischentitel
+
+Hinweis: Unter dem Register Anchor (Anker) können im Rich-Text eigene Anker definiert werden. 
+
+6.Die Seite speichern (ctrl-S)
+
+Link: https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm  Key: Anker auf gleicher Seite
+Navigation:  Navigation > Anker
+
+Diese Anleitung erklärt, wie ein Anker der zu einem Abschnitt auf der gleichen Seite eingefügt werden kann. Es wird gezeigt wie man das beinem Manuellen Teaser (ohne #) macht und wie man das bei eienm Rich Text Teaser macht (mit #).
+
+Hinweis: Falls eine Sprungmarke in einer Linkliste auf einen Anker auf derselben Seite gesetzt werden soll, dann bitte die Link-List V2 verwenden (und nicht die Link- und Downloadliste).
+
+Zu einem Anker auf derselben internen Seite springen
+
+Beispiel 1 - mit einem "Manuellen Teaser"
+1.Der Ankername OHNE dem "Gartenzaun-Zeichen" # kopieren, z.B. zwischentitel
+ 
+2.Beim Manuellen Teaser auf bearbeiten klicken ..
+ 
+3.... und im neuen Fenster zum beim Bereich Link scrollen, dann weiter auf Link einfügen klicken
+ 
+4.Im Seitenbaum die aktuelle Seite auswählen und im Feld Anker der entsprechende Ankername; hier in diesem Beispiel zwischentitel, OHNE # eintragen. Danach auf den Button Einfügen klicken und speichern
+
+Beispiel 2 - mit einem "Rich Text Teaser":
+5.Der Ankername MIT dem "Gartenzaun-Zeichen" # kopieren, z.B. #linkunddownloadliste
+ 
+6.Den Textbereich, welcher als Ankerlink fungieren soll markieren und auf das Link-Symbol für externe Links anklicken.
+ 
+7.Der Ankername inkl. dem #-Zeichen im Feld URL einfügen und auf OK klicken.
+ 
+Hinweis: Unter dem Register Anchor (Anker) können im Rich-Text eigene Anker definiert werden.
+
+8.Die Seite speichern (ctrl-S)
+
+Link: https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm  Key: Eigener Anker im Rich-Text
+Navigation:  Navigation > Anker
+
+Diese Anleitung zeigt, wie man eine eignen Anker im Rich Text erstellen kann, der dann angesprungen werden kann. Ausserdem wird dann beschrieben, wie ein Link zu einem Rich Text Anker gesetzt werden kann (Wie der Anker angesprungen werden kann). 
+
+Eigener Anker im Rich-Text Teaser definieren:
+1.Den Text im Rich-Text Editor markieren und auf das Icon für externe Links klicken.
+ 
+2.Unter dem Tab Anchor ein Name für den eigenen Anker vergeben, z.B meinanker und auf OK klicken.
+ 
+3.Der Anker wurde gesetzt, ist aber leider nur im Rich-Text unter dem Tab HTML ersichtlich:
+... <a name="meinanker"> ...
+
+Auf eigenen Anker im Rich-Text Teaser springen:
+1.Den Text im Rich-Text Editor markieren und auf das Icon für externe Links klicken.
+ 
+2.Den Tab Hyperlink wählen. Unter dem Drop-Down-Menü "Existing Anchor" werden alle existierenden Anker welche im Rich-Text erstellt wurden, aufgeführt. Der entsprechende Anker wählen und auf OK klicken.
+
+3.Die Seite speichern (ctrl-S)
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm  Key: Anker
+Navigation: navigation
+
+Als Anker werden Sprungmarken in einer Seite bezeichnet. Wird einem Text (meistens zu Beginn der Seite) der entsprechende Link hinterlegt, springt der Browser nach anklicken dieses Textbereichs direkt zum definierten Anker.
+ 
+Einige Elemente enthalten automatisch einen Anker, erkennbar am grünen Ankernamen.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_anker.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_anker.htm  Key: Neue Extrateaser einfügen
+Navigation:  Seitenelemente > Extrafooter Container > Extrafooter
+
+Diese Anleitung erklärt wie nachdem ein leeres Extrateaser Element eingefügt wurde, dieses mit  Teasern befüllt werden kann.
+
+Hinweis: Der Extrafooter muss immer genau 4 Teaser enthalten! Die folgende Prozedur muss daher vier mal durchgespielt werden.
+ 
+1 ) Das Element Extrafooter auswählen und auf den Hinzufügen-Button klicken.
+ 
+2) Element Extrateaser auswählen, im Feld Item Name einen Titel für den Extrateaser eingeben und mit Insert bestätigen.
+ 
+Wichtig: Speichern (ctrl + s), denn die Änderungen werden erst nach dem Speichern sichtbar!
+ 
+Ein Extrateaser wurde erstellt, aber noch nicht dem Extrafooter hinzugefügt (siehe roter Hinweistext).
+ 
+3) Die leeren Felder im Extrafooter und Extrateaser können bereits hier mit Inhalt versehen werden und mit ctrl + s gesichert werden.
+ 
+Nach viermaligem einfügen der Extrateaser, sieht der Extrafooter folgender massen aus:
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_extra_teaser_einfuegen2.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_extra_teaser_einfuegen2.htm  Key: Teaser einfügen
+Navigation:  Seitenelemente > Content Container > Teaser > Teaser erstellen
+
+In dieser Anleitung ist beschrieben, wie ein Teaser im Template A eingefügt werden kann.
+
+Hinweis: Im Kapitel Template ... ist erklärt, wie ein Template Container der Seite hinzugefügt werden kann.
+Je nach Template Typ (A, B, C, ...) sehen die Teaser anders aus und haben teils auch unterschiedliche Fähigkeiten.
+ 
+1) Auf den Einfüge-Button + Add to here klicken.
+ 
+Hinweis: Unter dem Kapitel "Template auf einer Seite platzieren" wird erklärt, wie die Einfüge-Buttons eingeblendet werden können.
+ 
+2) Im neuen Fenster einen der Teaser-Typen auswählen und auf Select klicken:
+ 
+•Manueller Teaser
+•Rich Text Teaser
+•Image Teaser
+
+3) Entweder wird über Create New Content ein neuer Teaser erstellt oder über Select Existing Content ein bestehender Teaser ausgewählt.
+ 
+Hinweis: Das Item kann Lokal oder Shared gespeichert (Create) oder ausgewählt (Select) werden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_teaser_in_template_a.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_teaser_in_template_a.htm  Key: Issuu erstellen
+Navigation:  Seitenelemente > Content Container > Issuu (PDF-Reader)
+
+In diser Anleitung wird erklärt, wie ein Issuu-Element auf einer Seite eingefügt werden kann und wie ein PDF in diesem Element dargestellt werden kann. Um herauszufinden, wie ein PDF welches auf issuu.com veröffentlicht ist, wingefügt werden kann, kann diese Anleitung konsultieren: https://applsupport.hslu.ch/webhelp/index.html?hm_isuu-pfad-finden---neu.htm
+
+1) Auf den Einfüge-Button + Add to here klicken.
+ 
+Hinweis: Unter dem Kapitel "Template auf einer Seite platzieren" wird erklärt, wie die Einfüge-Buttons eingeblendet werden können.
+ 
+2) Im neuen Fenster den Issuu auswählen und auf Select klicken.
+ 
+3) Entweder wird über Create New Content ein neues Issuu erstellt, oder über Select Existing Content ein bestehendes Issuu ausgewählt.
+ 
+3) Um die Issuu ID und der Pfad vom original PDF Dokument definieren zu können, muss auf das Icon editieren geklickt werden.
+ 
+4) Im neuen Fenster kann der Titel geändert, ein Original PDF Dokument ausgewählt und  NEU den Issuu Pfad eingegeben werden.
+Alternativ ist es nach wie vor auch noch möglich, die veraltete Issuu ID zu hinterlegen.
+ 
+5) Element mit Ctrl+S sichern. Danach ist der Inhalt sichtbar:
+
+Link: https://applsupport.hslu.ch/webhelp/hm_issuu_erstellen.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_issuu_erstellen.htm  Key: Extrafooter einfügen
+Navigation:  Seitenelemente > Extrafooter Container > Extrafooter
+
+Diese Anleitung beschreibt, wie ein Extra Teaser eingefügt werden kann.
+
+1) In den untersten leeren Container Extrafooter wählen und + Add to here klicken.
+ 
+Hinweis: Unter dem Kapitel "Template auf einer Seite platzieren" wird erklärt, wie die Einfüge-Buttons eingeblendet werden können.
+ 
+2) Das Element Extrafooter auswählen und mit Select bestätigen.
+ 
+3) Entweder wird über Create New Content ein neuer Extrafooter erstellt, oder über Select Existing Content ein bestehender Extrafooter ausgewählt. Im Feld Name der Titel des neuen Elements eingeben und auf OK klicken.
+ 
+Hinweis: Extrafooter können auch als "shared" (geteilt) gespeichert werden.
+ 
+Wichtig: Speichern (ctrl + s)
+
+4) Ein leerer Extrafooter wurde platziert.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_extra_teaser_einfuegen.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_extra_teaser_einfuegen.htm  Key: RSS einfügen
+Navigation:  Seitenelemente > Content Container > RSS Reader / RSS Reader mit Vorschau
+
+In dieser Anleitung wird beschrieben, wie ein RSS Feed eingefügt werden kann. Für was ein RSS Feed verwendet werden kann und was es ist, ist hier beschrieben: https://applsupport.hslu.ch/webhelp/index.html?hm_rss.htm
+
+1) Im Content Container auf + Add to here klicken.
+ 
+2) RSS Reader oder RSS Reader mit Vorschau wählen. Die zweite Option zeigt zusätzlich zum Link eine Kurzversion der angezeigten Mitteilungen.
+ 
+3) Neuen Inhalt generieren mittels Create New Content und das Element benennen.
+ 
+4) In der Floating Toolbar auf den Editierbutton klicken.
+ 
+5) Folgende Eingaben in den drei Feldern tätigen:
+ 
+1.Im Menü die RSS Feed URL eintragen (Beispiel: "http://blog.hslu.ch/feed")
+2.Bestimmen, wie viele Einträge maximal angezeigt werden sollen "RSSReaderMaxCount"
+3.Optional einen Link auf die Quelle des RSS Feeds einfügen
+ 
+RSS Reader (ohne Vorschau):
+
+RSS Reader mit Vorschau: Zusätzlich kann zwischen den Grössen 50% und 100% gewählt werden.
+
+6) RSS-FEED wird platziert:
+
+Link: https://applsupport.hslu.ch/webhelp/hm_rss_einfuegen.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_rss_einfuegen.htm  Key: Quick Link neu erstellen
+Navigation:  Seitenelemente > Footer > Quick Links
+
+Im Footer kann auf jeder Seite Quicklinks eingefügt werden. In dieser Anleitung wird beschriebne, wie ein Quicklink neu erstellt werden kann. Wie der Quicklink anschliessend der Seite zugewiesen werden kann, steht hier beschrieben: https://applsupport.hslu.ch/webhelp/index.html?hm_quicklinks_zuweisen.htm
+
+ 
+1. Den Ordner Quick Links unter Shared Data im Content-Tree öffnen.
+ 
+2. Wenn nötig den Zielordner in welchem das neue Link-Item erstellt werden soll auch öffnen.
+ 
+3. Auf dem Zielordner (z.B. h) das Kontextmenü öffnen und Insert > Quick Link > Quick Link wählen
+
+4. Im neuen Fenster wird dem Link-Item einen Namen vergeben, weiter mit OK. Dadurch wird das Link-Objekt angelegt und im gewählten Zielordner gesichert.
+
+5. Das Link-Item wurde im Content-Tree angelegt.
+
+6. Das Link Item im Ordner Quick Links wählen und auf Insert Link klicken.
+
+7. Im neuen Fester die Zielseite auswählen und auf Insert Link klicken.
+ 
+8. Der Pfad der Zielseite wird im Link-Item hinterlegt.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_link_item_neu_erstellen.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_link_item_neu_erstellen.htm
+
+Bitte antworte auf die folgende Frage ausschließlich mit Informationen aus den bereitgestellten Webhelp-Artikeln und ähnlichen Fragen und Antworten. Wenn die spezifische Information zur Beantwortung der Frage in den bereitgestellten Ressourcen nicht vorhanden ist, antworte mit 'Leider kann ich deine Frage nicht beantworten'. Es ist wichtig, keine Informationen hinzuzufügen, die nicht in den bereitgestellten Quellen enthalten sind.
+
+PRÄZISE ANTWORT:
+
+====== 
+
+RESPONSE:
+
+Um einen Anker auf einer anderen Seite zu setzen, können folgende Schritte befolgt werden:
+
+1. Den Ankername mit dem "Gartenzaun-Zeichen" # auf der Zielseite kopieren, z.B. #zwischentitel.
+2. Den Textbereich, welcher als Ankerlink fungieren soll, markieren und auf das Link-Symbol für interne Links klicken.
+3. Die interne Zielseite, auf welcher sich der Anker befindet, auswählen und auf Link klicken. Nun muss in einem weiteren Schritt die Sprungmarke angefügt werden.
+4. Den Cursor im neuen Link platzieren und auf das Link-Symbol für externe Links anklicken.
+5. Im Feld URL ganz am Schluss ohne Slash den Ankername anfügen z.B. xxxxxxx#zwischentitel.
+
+Für Anker auf derselben Seite und eigene Anker im Rich-Text Teaser gibt es ebenfalls spezifische Anleitungen, die in den bereitgestellten Webhelp-Artikeln enthalten sind.
+
+Quellen:
+- [Anker auf einer anderen Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm)
+- [Anker auf gleicher Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm)
+- [Eigener Anker im Rich-Text](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm)

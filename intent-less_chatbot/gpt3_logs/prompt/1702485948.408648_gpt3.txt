@@ -1,0 +1,493 @@
+PROMPT:
+
+Deine Aufgabe ist es, auf die folgende AKTUELLE FRAGE zu antworten. Gib mögliche Ratschläge zum beheben des Problems. Sei so konkret wie möglich.
+Verwende zur Beantwortung der FRAGE ausschliesslich die folgenden WEBHELP-ARTIKEL und die ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN.
+Vermeide das Hinzufügen von Informationen oder Eklärungen, die nicht in einem WEBHELP-ARTIKEL oder in den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN stehen.
+Antworte so kurz wie möglich, ohne dabei wichtige Informationen auszulassen.
+Vermeide bei der Antwort Wiederholungen.
+Achte darauf, welche Sprachversion der Website in der Frage erwähnt wird. Verwende zur Beantwortung der Frage, die Informationen aus den WEBHELP-ARTIKEL und den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN, die zur erwähnten Sprachversion passen. Wird keine Sprachversion erwähnt, handelt es sich um die deutsche Seite, nicht um die englische Seite.
+Lies immer alle WEBHELP-ARTIKEL und ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN durch. Die obersten ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN enthalten oftmals nicht die richtige Antwort.
+Sprich in der DU-Form.
+Verwende bei längerem Texten Aufzählungszeichen.
+Verlinke hilfreiche Webhelp-Artikel in der Antwort.
+
+CHAT-HISTORY: 
+
+Human: was ist ein anker? 
+AI: Ein Anker ist ein Sprungmarke in einer Seite, die es ermöglicht, direkt zu einem bestimmten Abschnitt auf der gleichen Seite zu springen. Beim Einrichten von Ankerlinks ist es wichtig, den Ankername entsprechend zu definieren und zu verlinken. Dabei müssen verschiedene Schritte beachtet werden, je nachdem ob der Anker auf derselben Seite oder auf einer anderen internen Seite erstellt werden soll. Weitere Informationen zum Einrichten von Ankerlinks findest du in den folgenden Webhelp-Artikeln:
+
+- [Anker](https://applsupport.hslu.ch/webhelp/hm_anker.htm)
+- [Anker auf einer anderen Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm)
+- [Eigener Anker im Rich-Text](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm)
+- [Anker auf gleicher Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm) 
+Human: Wie kann ich einen Mailverlauf im CRM aufsetzen? 
+AI: Leider kann ich deine Frage nicht beantworten.
+<<history>>
+
+AKTUELLE FRAGE: Wie kann ich auf Evento zugreifen?
+
+ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN:
+Q: Gestern hatte ich eine Info-Veranstaltung und plötzlich ist mir aufgefallen, dass am Nachmittag (möglicherweise auch schon am Vormittag), die Info-Veranstaltung auf der Produkt-Webseite fehlte. Dies, obwohl ich im Evento eingestellt habe, dass man sich bis heute anmelden kann. Unter den «Veranstaltungen» war der Anmeldelink jedoch noch zu finden. Wisst ihr an was das liegt? Wie kann ich sicherstellen, dass der Anmeldelink auch auf den Produkt-Webseiten sicher bis zum Zeitpunkt der Veranstaltung publiziert ist? 
+
+
+A: Wenn ein Agendaeintrag nicht (mehr) im Call to Action Teaser auftaucht, könnte es an der "Start-Zeit-Problematik" liegen. Bei WeVe Anmeldungen kann es an den Einstellungen des Agendaeintrags liegen.
+Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit des Ereignisses im Call to Action Teaser. Wurde sowohl keine Startzeit also auch keine Endzeit für den Event festgelegt, dann bleibt der Event bis 00:00h im Call to Action Teaser. Danach wird er weder in der Filterliste, noch im automatischen CtA-Teaser angezeigt (live ist er weiterhin).
+Damit die Anmeldung über ONLA / WeVe funktioniert, muss die Evento ID in der Facts-Liste auf der Produktseite hinterlegt werden und beim Call to Action Teaser die Checkbox  "Kontextabhängige Informationen aus Evento anzeigen" aktiviert aktiviert sein (Standard)! Bei einer deaktivierten Checkbox, wird entsprechend kein Link bzw. Status Meldung angezeigt. Mehr dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_links_der_linkliste_zuweisen.htm)
+
+Q: Ich habe eine Veranstaltungsseite hinzugefügt, aber sie ist nicht auf unserer Website sichtbar. Woran könnte das liegen?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Ich habe länger nicht mehr auf dem System gearbeitet. 
+Wie kann ich mich einloggen, auf welcher Seite und mit meinem normalen HSLU Login?
+
+A: Das Login ist das normale HSLU-Login, man muss aber immer campus\ vor den Benutzernamen schreiben
+- Login-Seite Live: [https://stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)
+- Login-Seite Schulungsumgebung: [https://int-stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)"
+Q: 
+ Ich hatte den Auftrag erhalten eine Veranstaltung aufs Web zu stellen.
+ Die Seite habe ich erstellt und dann gesehen, dass die Seite schon existiert
+ Jetzt möchte ich meine Seite natuerlich wieder löschen:
+ 
+ Kann ich das einfach ueber diesen Button machen oder wie muss ich vorgehen?
+ 
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu löschen kann so vorgegangen werden:
+ 1) Auf die zu löschende Seite navigieren und im Ribbon-Menü den Befehl "Home > Delete Page" aufrufen.
+2) Den Warnhinweis lesen und gegebenenfalls auf OK klicken.
+3) Zeigen Links auf dieses Seite, erscheint ein weiteres Hinweisfenster. Es muss entschieden werden, was mit diesen Linkst geschehen soll 
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm)
+Q: 
+ Wie komme ich schon wieder zum Schulungsversion?
+ 
+A: Das Login ist das normale HSLU-Login, man muss aber immer campus\ vor den Benutzernamen schreiben
+- Login-Seite Live: [https://stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)
+- Login-Seite Schulungsumgebung: [https://int-stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)"
+Q: Die Online-Info-Veranstaltung von heute Abend ist dem Lehrgang zugewiesen, taucht jedoch nicht mehr in der CTA-Box der Info-Veranstaltungen auf.
+MAS Private Banking & Wealth Management <<link>>
+Info-V von heute Abend
+<<link>>
+Ich bin gerade ratlos, weshalb. Anscheinend war die Info-Veranstaltung bis gestern noch im CTA-Teaser der Lehrgangs-Landing-Page.
+Das muss fuer heute nicht mehr gelöst werden, die Admin sendet den Interessenten nun den direkten Link zu. Aber was kann ich machen, dass dies nicht mehr passiert oder handelt es sich um einen technischen Bug?
+ 
+A: Wenn ein Agendaeintrag nicht (mehr) im Call to Action Teaser auftaucht, könnte es an der "Start-Zeit-Problematik" liegen. Bei WeVe Anmeldungen kann es an den Einstellungen des Agendaeintrags liegen.
+Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit des Ereignisses im Call to Action Teaser. Wurde sowohl keine Startzeit also auch keine Endzeit für den Event festgelegt, dann bleibt der Event bis 00:00h im Call to Action Teaser. Danach wird er weder in der Filterliste, noch im automatischen CtA-Teaser angezeigt (live ist er weiterhin).
+Damit die Anmeldung über ONLA / WeVe funktioniert, muss die Evento ID in der Facts-Liste auf der Produktseite hinterlegt werden und beim Call to Action Teaser die Checkbox  "Kontextabhängige Informationen aus Evento anzeigen" aktiviert aktiviert sein (Standard)! Bei einer deaktivierten Checkbox, wird entsprechend kein Link bzw. Status Meldung angezeigt. Mehr dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_links_der_linkliste_zuweisen.htm)
+
+Q: soebenhabe ich 2 Infoveranstaltungen fuer das CAS Online Shop and Sales Management aufgeschaltet.
+Eigentlich sollten die beiden Infoveranstaltungen (spezifisch fuer das CAS OSM am 24.06. und 30.06.) auch auf der CAS Info Seite OSM aufgeschaltet sein.
+Nach meiner Meinung sollte dies mit dieser Auswahl bestätigt sein:
+ 
+Jedoch erscheinen die beiden Infoveranstaltungen nicht. Wo genau liegt der Fehler?
+Könnt ihr mir da weiterhelfen?
+
+ 
+A: Bei Agendaeinträgen ist zu unterscheiden, ob die Seite offline ist, oder ob der Agendaeintrag einfach nicht in der Filterliste aufgelistet wird. Mögliche Ursachen dafür, dass eine Seite nicht öffentlich ist findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm). Ausserdem kommt es bei  Agenda-Einträgen öfters vor, dass diese etwas länger haben, bis sie veröffentlicht werden.
+Voraussetzung dafür, dass ein Event in einer Filterliste erscheint, ist, dass der Agendaeintrag live ist.  
+Mögliche Ursachen dafür, dass ein Agendaeintrag live ist aber nicht der Filterliste aufgelistet wird : 
+1. Der Event ist keiner Organisationseinheit (OE) zugeordnet
+2. Falls es sich um eine Filterliste auf einer englischen Seite handelt, ist darauf zu achten, dass nur englische Seiten aufgeführt werden.
+3. Start-Zeit-Problematik: Der Event bleibt solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bis die Startzeit erreicht wird. Ist die Startzeit leer, dann bis 00:00h.
+Q: Wie kann ich einen Kontaktteaser bearbeiten?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Beim Master BA (W) haben wir soebendie Info-Box rueckgängig angepasst.
+ 
+Die Verlinkung fuehrt nun auf die Online Info-Events. Auf der deutschen Webseite klappt alles wunderbar. Auf der Englischen Webseite fuehrt die Verlinkung jedoch auch auf die deutschen Info-Events und nicht auf die englische Webseite. 
+Könnt ihr mir da weiterhelfen?
+ 
+A: Bei Verlinkungen zu einer Sitecore Seite sollte die Verlinkung über den Baum zur entsprechenden Seite eingefügt werden. So wird dann die Seite auch immer in der richtigen Sprachversion dargestellt. Verlinkt man eine Seite über einen externen Link kann immer nur entweder die deutsche oder die englische URL hinterlegt werden.
+Mehr Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_links-einfuegen.htm).
+ 
+Q: Wie kann ich die Kontaktangaben einer Person anpassen?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich versuche, auf unserer Eventseite die Teaser näher zusammenzubringen. Gibt es eine Möglichkeit, unnötige Zwischenräume zu entfernen?
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Ich kann mich nicht ins Sitecore einloggen. Wie geht das?
+
+ 
+A: Das Login ist das normale HSLU-Login, man muss aber immer campus\ vor den Benutzernamen schreiben
+- Login-Seite Live: [https://stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)
+- Login-Seite Schulungsumgebung: [https://int-stage-www.hslu.ch/sitecore/login](https://int-stage-www.hslu.ch/sitecore/login)"
+Q: Wie kann ich den Titel einer Person ändern?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich bin mir nicht mehr ganz sicher wie lange die Veranstaltungen online bleiben  in diesem speziellen Fall Konferenzen. In der Webhilfe habe ich die Info zur Info-Veranstaltung gefunden jedoch weicht der Printscreen in der Webhilfe (siehe unten) ab von dem der Konferenzen.
+ Beispiel: Die FinTech Konferenz findet am 3. März 2021 von 13:20 bis 18 Uhr statt. Da es eine Online-Veranstaltung ist, könnte es gut sein, dass sich vielleicht auch noch nach 13:20 Uhr Interessierte anmelden. Was muss hier ausgefuellt werden, damit die Konferenz ebenfalls bis 18 Uhr online bleibt? Oder verschwinden die Konferenzen (anders als die Info-Veranstaltungen) erst um Mitternacht des jeweiligen Tages? 
+
+A: Wichtig ist zuerst der Unterschied zwischen "online bleiben" und "in der Filterliste bleiben". 
+ "online bleiben": Die Veranstaltungsseiten bleiben eigentlich solange online, bis sie gelöscht oder offline genommen (unpublished) werden. Wenn also jemand den direkten Link hat, kann er/sie sich auch später noch anmelden (es sei denn, das Formular wird gelöscht oder es ist ein WeVe-Formular mit Anmeldefrist, oder die Seite wurde eben auf "never publish" gesetzt etc.)
+ "in der Filterliste bleiben": Der Event bleibt solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bis die Startzeit erreicht wird. Startzeit=leer=00:00h.
+ Danach wird er weder in der Filterliste, noch im automatischen CtA-Teaser angezeigt (live ist er weiterhin).
+ 
+Q: Wie kann ich eine E-Mail-Adresse in einem Kontaktteaser anpassen?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich habe eben einen Agenda-Eintrag erstellt: <<link>>
+Es handelt sich um einen englischsprachigen Event. Deshalb wollte ich eine englische Version erstellen und danach die deutsche Version löschen. Sollte doch gehen, oder? 
+A: Gemäss der Web Governance, müssen alle Inhalte auch auf Deutsch vorhanden sein. Daher muss von jeder Seite, jedem Element auf der Seite und jeder Datei immer eine deutsche Version vorliegen. Dies wurde technisch so umgesetzt, dass eine englische Seite nur erstellt werden, kann wenn bereits eine deutsche vorliegt. Ist diese noch nicht vorhanden, wird sie beim Erstellen der englischen Seite automatisch erstellt. Das gleiche gilt auch für Seiten Elemente. Bei Dateien erscheint eine Fehlermeldung wenn keine deutsche Version in der Media Library hochgeladen wurde.
+Englische Seitenversionen sollten bei mindestenst den obersten beiden Ebenen der Website vorliegen. Dazu gehört die Stufe der Departemente (und des Daches) ebenso wie die Stufe "Studium, Forschung, Dienstleistungen..."
+Q: Wie kann ich die EN-sprachige Website von unserem CAS Brand Management löschen?
+A: Hier eine Anleitung wie Sprachversionen von Seiten gelöscht werden können: Den Content Editor starten (Ribbon-Menü > Campus > Backend):
+
+1) Im Item-Tree die entsprechende Seite wählen und im Ribbon Menü zum Tab Versions wechseln.
+
+2) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass eine deutsche und eine englische Version der Seite vorhanden sind.
+
+3) Durch klicken auf den grossen Sprachbutton zur löschenden Sprachversion wechseln (hier im Beispiel englisch).
+
+4) Auf den Button Remove klicken.
+
+5) Es erscheint ein Warnhinweis, ob die Version entfernt werden soll. Wenn Sie sicher sind, auf OK klicken.
+
+6) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass die englische Version gelöscht wurde. Bei Englsh:Englisch steht 0 versions.
+Q: Wie kann ich die Kontaktdetails einer Person überschreiben?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wo kann ich die Kontaktangaben einer Person anpassen?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: 
+ ich habe vor ein paar Tagen eine neue Veranstaltung "Kreislaufwirtschaft im Bauwesen" am 13.6.23 in sitecore erstellt, aber sie erscheint bisher nicht in der Agenda von T&A.
+ <<link>>
+ Nun habe ich eben gesehen, dass ich die Publish-Optionen noch nicht eingetragen haben und das gerade noch ergänzt (heute ab 09:30) und werde mal bis 12:00 abwarten. Allerdings hat kein anderes Event, in das ich stichprobenartig reingeschaut habe, diese Angaben gemacht und es erscheint trotzdem.
+ Habe ich sonst noch was uebersehen? 
+ Danke fuer Eure Antwort.
+ 
+A: Bei Agendaeinträgen ist zu unterscheiden, ob die Seite offline ist, oder ob der Agendaeintrag einfach nicht in der Filterliste aufgelistet wird. Mögliche Ursachen dafür, dass eine Seite nicht öffentlich ist findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm). Ausserdem kommt es bei  Agenda-Einträgen öfters vor, dass diese etwas länger haben, bis sie veröffentlicht werden.
+Voraussetzung dafür, dass ein Event in einer Filterliste erscheint, ist, dass der Agendaeintrag live ist.  
+Mögliche Ursachen dafür, dass ein Agendaeintrag live ist aber nicht der Filterliste aufgelistet wird : 
+1. Der Event ist keiner Organisationseinheit (OE) zugeordnet
+2. Falls es sich um eine Filterliste auf einer englischen Seite handelt, ist darauf zu achten, dass nur englische Seiten aufgeführt werden.
+3. Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit in der Filterliste. Ist sowohl Startzeit als auch Endzeit leer, dann bleibt der Event bis 00:00h in der Filterliste und im Call to Action Teaser.
+Q: Wie ist der Ablauf um Issue-Broschüren auf der Website auszutauschen. 
+ 
+ 
+ 
+A: Fuers Austauschen bitte an die zuständige M&K-Person wenden. 
+ 
+Q: Ich habe eine Frage zum manuellen Teaser: fuer die online Info-Veranstaltung an der I, schalte ich einen Teaser mit der Grafik vom Programmablauf auf. Wenn ich jedoch die englische Grafik einsetze, zeigt es mir bei der deutschen Version die Grafik nicht mehr an. Könnt ihr mir hier weiterhelfen?
+ 
+A: Sprachversionen gibt es nicht nur für Seiten sondern auch für Elemente und Datein. 
+- Wenn ein Element auf der englischen Seite einen anderen Text enthalten soll, muss zuerst eine englische Version dieses Elements erstellt werden.
+- Damit auf der englischen Seite das englische Bild dargestellt wird, muss in der Media Library eine englische Version der Grafik hinterlegt werden. Dann wird auf der Seite die Grafik der Sprache nach gewechselt.
+ Mehr dazu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_sprachversion.htm)
+Q: Ich muss die Kontaktdetails einer Person in ihrem Profil aktualisieren. Wo finde ich die Option dazu?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Bereits zum 2. Mal haben wir Probleme beim Aufschalten von neu erstellen Info-Veranstaltungen.
+Das genaue Problem
+In der Vorschau werden die Veranstaltungen korrekt angezeigt, jedoch nur das 1. erfasste Datum, das 2. erfasste Datum erscheint in der Vorschau nicht, obwohl diese 2. Seiten exakt gleich erstellt wurden wie die Seiten der ersten Daten. Sobald die Seiten dann live geschaltet werden (12.05 und 00.05) werden die neu erstellten Seiten mit den Info-Veranstaltungen nicht angezeigt.
+ Beispiele HSLU Wirtschaft, IBR
+ CAS Educational Governance / 29.10.2019 + 16.01.2020
+ CAS Betriebswirtschaft (Tageskurs) / 30.08.2019 + 23.10.2019
+ CAS Betriebswirtschaft (Abendkurs) / 30.08.2019 + 23.10.2019
+ Danke fuer Eure Hilfe.
+ 
+A: Bei Agendaeinträgen ist zu unterscheiden, ob die Seite offline ist, oder ob der Agendaeintrag einfach nicht in der Filterliste aufgelistet wird. Mögliche Ursachen dafür, dass eine Seite nicht öffentlich ist findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm). Ausserdem kommt es bei  Agenda-Einträgen öfters vor, dass diese etwas länger haben, bis sie veröffentlicht werden.
+Voraussetzung dafür, dass ein Event in einer Filterliste erscheint, ist, dass der Agendaeintrag live ist.  
+Mögliche Ursachen dafür, dass ein Agendaeintrag live ist aber nicht der Filterliste aufgelistet wird : 
+1. Der Event ist keiner Organisationseinheit (OE) zugeordnet
+2. Falls es sich um eine Filterliste auf einer englischen Seite handelt, ist darauf zu achten, dass nur englische Seiten aufgeführt werden.
+3. Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit in der Filterliste. Ist sowohl Startzeit als auch Endzeit leer, dann bleibt der Event bis 00:00h in der Filterliste und im Call to Action Teaser.
+Q: Ich möchte den Jobtitel anpassen. Wie geht das?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wie kann ich die Telefonnummer in einem Kontaktteaser aktualisieren?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wieso ist meine Seite nicht live?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: 
+ Könntet Ihr mir mitteilen, wie ich den Stundenplan bei Studium Animation
+ so programmieren kann, dass man draufklickt und er dann gross erscheint?
+
+A: Um ein Bild einzufügen, das beim Draufklicken grösser dargestellt wird, kann ein manueller Teaser oder eine Bildergeschichte (mehrere Bilder ) eingefügt werden. Beim Bearbeiten muss die Checkbox "Link (nur Bilder via Media Link) in Popup vergrössern" ausgewählt werden. Das vergrösserte Bild muss als Link ausgewählt werden.
+Falls der Haken bei "Link (nur Bilder via Media Link) in Popup vergrössern" gesetzt wurde aber das Bild beim Draufklicken nicht grösser dargestellt wird, liegt es wohl daran, dass das Bild noch nicht in der grossen Version hochgeladen wurde. Damit dar Popup funktioniert, muss das Bild 1x in der vorgegebenen Grösse für den Teaseroder die Bildergeschichte hochladen werden und 1x in der Grösse, wie es vergrössert dargestellt werden soll. Wenn der Teaser dann bearbeitet wird, kann im Bereich  "Link" durch die Funktion  "Insert Media Link" das grössere Bild und die Checkbox "Link in Popup vergrössern" ausgewählt werden. Dadurch wird das grössere Bild beim Klick auf das Teaserbild angezeigt.
+Q: Könntet Ihr mir bitte kurz mitteilen, wie ich die folgenden gelb markierte Unterseite entweder ganz löschen oder zumindest komplett offline schalten kann?
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu löschen kann so vorgegangen werden:
+ 1) Auf die zu löschende Seite navigieren und im Ribbon-Menü den Befehl "Home > Delete Page" aufrufen.
+2) Den Warnhinweis lesen und gegebenenfalls auf OK klicken.
+3) Zeigen Links auf dieses Seite, erscheint ein weiteres Hinweisfenster. Es muss entschieden werden, was mit diesen Linkst geschehen soll 
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm)
+Q: Auf unserer englischen Seite erscheint der Hinweis über nur auf Deutsch verfügbare Inhalte, obwohl ich mir sicher bin, dass ich alles übersetzt habe. Wie kann ich das Problem lösen?
+A: Falls alle Texte auf englisch übersetzt wurden, und die Meldung 'Some Content is only available in German' immer noch erscheint, liegt es daran, dass es von mindestens einem Element auf der Seite noch keine Englische Version gibt. Damit die Meldung verschwindet muss von jedem Element, auch Bilder und PDFs, eine englische Version erstellt werden. Im Backend kannst du jedes Element durchgehen und so leicht nachschauen, welche Items noch keine englische Version besitzt.
+Oftmals ist es der Kontaktteaser. Es sieht auf englisch dann korrekt aus, weil Sitecore automatisch die korrekte Berufsbezeichnung übernimmt, Sitecore merkt aber auch, dass nichts angepasst wurde und geht dann davon aus, dass es noch deutsch ist. Es muss dann einfach eine englische Version davon im Backend angelegt werden. 
+Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Bitte auch die Alt-Texte der Bilder kontrollieren.  
+[Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: Wisst ihr an was es liegt, dass der Link zu den Online Info-Events im Master BA immer nur deutsch oder englisch hinterlegt werden kann und es dann den Link auf der Page der anderen Sprache überscheibt?
+ 
+<<link>>
+
+A: Bei Verlinkungen zu einer Sitecore Seite sollte die Verlinkung über den Baum zur entsprechenden Seite eingefügt werden. So wird dann die Seite auch immer in der richtigen Sprachversion dargestellt. Verlinkt man eine Seite über einen externen Link kann immer nur entweder die deutsche oder die englische URL hinterlegt werden.
+Mehr Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_links-einfuegen.htm).
+ 
+Q: Ich habe am Freitag einen Agenda-Eintrag erstellt fuer das MSE-Kolloquium inkl. Anmeldeformular. Nun ist dieses aber nicht auf der Live-Seite ersichtlich. 
+Seht ihr wo dieses aktuell liegt oder warum es nicht publiziert wurde?
+
+ 
+A: Bei Agendaeinträgen ist zu unterscheiden, ob die Seite offline ist, oder ob der Agendaeintrag einfach nicht in der Filterliste aufgelistet wird. Mögliche Ursachen dafür, dass eine Seite nicht öffentlich ist findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm). Ausserdem kommt es bei  Agenda-Einträgen öfters vor, dass diese etwas länger haben, bis sie veröffentlicht werden.
+Voraussetzung dafür, dass ein Event in einer Filterliste erscheint, ist, dass der Agendaeintrag live ist.  
+Mögliche Ursachen dafür, dass ein Agendaeintrag live ist aber nicht der Filterliste aufgelistet wird : 
+1. Der Event ist keiner Organisationseinheit (OE) zugeordnet
+2. Falls es sich um eine Filterliste auf einer englischen Seite handelt, ist darauf zu achten, dass nur englische Seiten aufgeführt werden.
+3. Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit in der Filterliste. Ist sowohl Startzeit als auch Endzeit leer, dann bleibt der Event bis 00:00h in der Filterliste und im Call to Action Teaser.
+Q: Ich muss die E-Mail-Adresse einer Person in ihrem Kontaktteaser ändern. Kann ich das selbst machen oder brauche ich Hilfe?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wie kann ich die Infobox auf der Hauptseite löschen?
+A: Die Infobox muss wieder ueber die Page Options von der Seite gelöst werden (so wie sie hinzugefuegt wurde).
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon Sitecore_btn_window_refresh neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+Hier die Anleitung mit Bilder: [https://applsupport.hslu.ch/webhelp/index.html?hm_infobox_löschen.htm](https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm?zoom_highlightsub=infobox).
+Q: Die E-Mail-Adresse unseres Geschäftsführers hat sich geändert. Wie kann ich diese Änderung in seinem Kontaktteaser vornehmen?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+
+WEBHELP-ARTIKEL 
+ Key: Veranstaltung erfassen
+Navigation:  Seitentypen > Veranstaltung (Agenda-Eintrag)
+
+In dieser Webhelp-Anleitung wird beschrieben, wie ein Agneda-Eintrag, Veranstaltung erfasst werden kann und wo diese Seiten eingefügt werden können. 
+ 
+Hinweis: Nach dem Erstellen einer Veranstaltung wird der Index neu erstellt. Dies kann bis zu 15 Minuten dauern (Wird Zukünftig vermutlich auf 1/2 Tag eingestellt). Erst danach ist die neue Veranstaltung in den Filterlisten oder Teaser auffindbar.
+ 
+1) Im Experience Editor zur Haupt-Agenda-Seite des entsprechenden Departements navigieren, nur hier können Agenda Einträge erfasst werden. Eine Agenda-Seite ist im Content Editor am Seiten-Icon mit der Uhr erkennbar. In einer anderen Anleitung sind diese Seiten pro Departement explizit aufgeführt.
+ 
+2) Im Ribbon-Menü den Befehl Home > Insert Event auswählen.
+ 
+3) Im Dialog den gewünschten Event-Typ auswählen und dem Event-Item einen Namen geben und auf Insert klicken.
+ 
+Achtung: Nur über eine Informations Event Site kann der Event  auch noch über ein Aus- / Weiterbildungsangebot informieren. Diese Funktionalität steht bei der "normalen" Event Site nicht zur Verfügung.
+ 
+Man wird automatisch auf die neu erstellte Event-Seite geleitet.
+ 
+Hinweis: Standardmässig werden neue Veranstaltungsseiten mit dem aktuellen Datum erstellt. Deshalb: Als erstes immer das Datum berichtigen.
+ 
+4) Das Kalender-Icon wählen.
+ 
+5) Im neuen Fenster gewünschtes Anfangs- und Enddatum sowie die Uhrzeit definieren, mit OK bestätigen und die Seite anschliessend sichern. Dies wirkt sich auf die Aufnahme in den Call-to-Action und Eventfilterliste aus.
+ 
+Hinweis: Soll ein Event verschoben werden, reicht es einfach das Datum anzupassen.
+ 
+6) Im EventIntro auch auf den Edit-Knopf klicken
+ 
+7) Im nächsten Fenster die Details wie Veranstaltungsart, Organisator usw. erfassen
+ 
+Hinweis: Je nach Event-Typ stehen andere Felder zur Verfügung
+ 
+•Details zu Event Site (https://applsupport.hslu.ch/webhelp/hm_event_site.htm)
+•Details zu Informations Event Site (https://applsupport.hslu.ch/webhelp/hm_informations_event_site.htm)
+•Details zu Concert Event Site (https://applsupport.hslu.ch/webhelp/hm_concert_event_site.htm)
+ 
+8) Im Item "Formatierter Text mit Bild" das entsprechende Bild (Breite 234px) und Text erfassen.
+ 
+Hinweis: Dieser Text und das Bild werden auch in der Filterliste angezeigt.
+Achtung: Daher darf dieses Item nicht von der Seite gelöscht werden, da sonst die Verknüpfung fehlt und die Filterliste das Bild nicht mehr anzeigen kann. In solch einem Fall der Event löschen und neu erstellen.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_veranstaltung_erfassen.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_veranstaltung_erfassen.htm  Key: Veranstaltung erfassen
+Navigation:  Seitentypen > Veranstaltung (Agenda-Eintrag)
+
+In dieser Webhelp-Anleitung wird pro Departement aufgelistet auf welchen Seiten eine Veranstaltung erfasst werden kann
+ 
+Technik und Architektur (T&A):
+hslu.ch/de-ch/technikarchitektur/campus/veranstaltungen/
+Wirtschaft (W):
+hslu.ch/de-ch/wirtschaft/agenda/veranstaltungen/
+Informatik (I): 
+hslu.ch/de-ch/informatik/agenda/veranstaltungen/
+Soziale Arbeit (SA): 
+hslu.ch/de-ch/soziale-arbeit/agenda/veranstaltungen/
+Design & Kunst (D&K):                        
+hslu.ch/de-ch/design-kunst/agenda/veranstaltungen/
+Musik (M):                                
+hslu.ch/de-ch/musik/agenda/veranstaltungen/
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_veranstaltung_erfassen.htm
+Link: https://applsupport.hslu.ch/webhelp/hm_veranstaltung_erfassen.htm  Key: Veranstaltung löschen
+Navigation:  Seitentypen > Veranstaltung (Agenda-Eintrag)
+
+In dieser Webhelp-Anleitung wird beschrieben, wie eine Veranstaltungsseite gelöscht werden kann.
+
+1) Im Experience Editor zur Event Detail-Seite navigieren
+ 
+2) Im Ribbon-Menü den Befehl Home > Delete Event auswählen.
+ 
+3) Es erscheint ein neues Fenster, bei welchen die Löschung bestätigt werden kann.
+ 
+4) Navigiert man mit der Breadcrumb Navigation zurück auf die Agenda Seite, ist ersichtlich, dass der Event gelöscht wurde.
+ 
+Der Event wir in der Liste nicht mehr aufgeführt:
+ 
+
+Link: https://applsupport.hslu.ch/webhelp/hm_veranstaltung_loeschen.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_veranstaltung_loeschen.htm  Key: Veranstaltung erfassen
+Navigation:  Seitentypen > Veranstaltung (Agenda-Eintrag)
+
+In diesem Webhelp-Beitrag wird die Star und Endzeit Einstellung etwas genauer beschrieben und gezeigt, wie sich diese Angaben darauf auswirken können, dass eine Veranstaltung im Call to Action oder in der Eventfilterliste verschwindet. 
+
+Achtung: Bei Events kann nun bei den Feldern Start und Ende zusätzliche die Uhrzeit angegeben werden. Diese Uhrzeit wird für die korrekte Sortierung und die Dauer der Sichtbarkeit der Infoveranstaltungen benutzt.
+Im Freitext-Feld kann die Zeit des Anlasses eingetragen, welche der Nutzer zu sehen bekommt. Falls ein Event nicht mehr in einem Call-to-Action Teaser (CTA) oder Eventfilterliste dargestellt wird, liegt es wohl daran, dass der Event nur bis zur angegebenen Endzeit dargestellt wird. Wird kein Enddatum angegeben wird die Startzeit genommen und der Event nur bis zur Startzeit dargestellt.
+ 
+Hinweis: Der Event wird bis und mit dem eingestellten Datum auf dem Web dargestellt. Danach sind abgelaufene Events nur noch im Page-Editor, mit dem entsprechenden Hinweis sichtbar. So können abgelaufene Events gelöscht oder angepasst werden.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_veranstaltung_erfassen.htm
+
+Link: https://applsupport.hslu.ch/webhelp/hm_veranstaltung_erfassen.htm  Key: Event Filter List konfigurieren
+Navigation:  Seitenelemente > Template Container > Such- und Filterlisten > Filter Konfigurationen
+
+In dieser Anleitung wird beschrieben, wie Filterlisten für Event konfigueriert werden. Was Fixe und vorselektierte Filter in dem zusammenhang bedeuten und welche Einstellungen bei den Eventfilterlisten vorgenommen werden können.
+
+Siehe auch: Veranstaltung erfassen (https://applsupport.hslu.ch/webhelp/hm_veranstaltung_erfassen.htm), Single Agenda Teaser (https://applsupport.hslu.ch/webhelp/hm_event_teaser_einfuegen.htm), Multi Agenda Teaser (https://applsupport.hslu.ch/webhelp/hm_multi_event_teaser_einfueg2.htm)
+
+Optionen zugreifen:
+Die Filterliste auswählen und auf der folgenden drei Buttons klicken:
+ 
+• Filterliste bearbeiten
+• vorselektierte Filter bearbeiten
+• fixe Filter bearbeiten
+
+Weiter unten ist beschrieben, wie diese drei Optionen konfiguriert werden können.
+
+Filterliste bearbeiten (was die verschiedenen Einstellungen bedeuten):
+•Filter ausblenden: Wird dies aktiviert, verschwinden für die User die Filtermöglichkeiten.
+•Kein Resultat Text: Der Text, welcher in diesem Feld eingetragen ist, wird angezeigt, wenn keine Resultate gefunden wurden.
+•Filter standartmässig ausgeklappt: Seit November 2015 werden die Filter standartmässig zugeklappt dargestellt. Dies spart Platz in der Browser-Ansicht. Wird diese Check-Box hingegen aktiviert, werden die Filter wieder aufgeklappt dargestellt.
+  
+Vorselektierte Filter bearbeiten:
+Filter vorselektiert: Die hier ausgewählten Filter sind Voreinstellungen. Die User können diese Voreinstellungen über steuern.
+ 
+•Veranstaltungstyp vorselektiert: Veranstaltungstyp vorselektieren. User kann Studienort wechseln.
+•OE vorselektiert: OE vorselektieren. User kann Studienort wechseln.
+ 
+1.Das gewünschte Element in der linken Spalte All doppelklicken oder mittels der Links- und Rechts-Pfeile auswählen (heisst in die Selected-Spalte verschieben).
+2.OK klicken.
+ 
+Wichtig: Speichern (ctrl + s), denn die Änderungen werden erst nach dem Speichern sichtbar!
+ 
+fixe Filter bearbeiten
+Filter fix: Die hier ausgewählten Filter sind fix. Die User können diese nicht beeinflussen.
+ 
+•Veranstaltungstyp fix: Veranstaltungstyp fix bestimmen. User kann Veranstaltungstyp nicht wechseln.
+•OE fix: OE fix bestimmen. User kann OE nicht wechseln.
+ 
+1.Das gewünschte Element in der linken Spalte All doppelklicken oder mittels der Links- und Rechts-Pfeile auswählen (heisst in die Selected-Spalte verschieben).
+2.OK klicken.
+ 
+Wichtig: Speichern (ctrl + s), denn die Änderungen werden erst nach dem Speichern sichtbar!
+ 
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_event_filter_list.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_event_filter_list.htm  Key: Single Event Teaser einfügen
+Navigation:  Seitenelemente > Template Container > Templates A, B, C, Content > Event Teaser
+
+In dieser Anleitung wird erklärt, wie ein Event Teaser eingefügt werden kann.
+
+Siehe auch: Veranstaltung erfassen ( https://applsupport.hslu.ch/webhelp/hm_veranstaltung_erfassen.htm), Multi Event Teaser ( https://applsupport.hslu.ch/webhelp/hm_multi_event_teaser_einfueg2.htm), Event Filter List konfigurieren ( https://applsupport.hslu.ch/webhelp/hm_event_filter_list.htm)
+ 
+Hinweis: Sofern nicht bereits vorhanden, ein Template (A, B, C) einfügen.
+Dieses Element kann wie ein normalen Teaser eingefügt werden.
+ 
+1) Nach dem Platzieren des Event Teaser muss dieser noch konfiguriert werden. Dazu den Editier-Button anklicken.
+ 
+Im Feld Event Seite die gewünschte Veranstaltung suchen. Auswählen mit den blauen Pfeilen.
+ 
+Wie in anderen Teasern kann im Dialog auch das Teaser-Bild, die Teaser-Breite, je nach Template die Teaser-Ausrichtung und die Publish-Optionen bestimmt werden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_event_teaser_einfuegen.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_event_teaser_einfuegen.htm  Key: Veranstaltung (Agenda-Eintrag)
+Navigation:  Seitentypen
+
+Dieser Webhelp-Artikel stellt die Spezialseite Veranstaltung vor und listet auf welche Elemente sie standardmässtig enthält.
+
+Hinweis: Nach dem Erstellen einer Veranstaltung wird der Index neu erstellt. Dies kann bis zu 15 Minuten dauern (Wird Zukünftig vermutlich auf 1/2 Tag eingestellt). Erst danach ist die neue Veranstaltung in den Filterlisten oder Teaser auffindbar.
+ 
+Achtung: Seiten nie kopieren oder duplizieren.
+ 
+Achtung: Die speziellen Event-Items wie z.B. "Formatierte Text mit Bild" nicht löschen, da die Filterliste sonst das Bild nicht mehr anzeigen kann.
+ 
+Die Event- oder Veranstaltungs-Seite stellt eine Veranstaltung dar. Es gibt allgemeine Events, Infoveranstaltungen und Konzerte. Das System generiert auf einer neuen Eventseite die folgenden Elemente:
+ 
+1.Page-Intro (ohne Titel 2)
+2.Social Media Buttons
+3.Formatierter Text mit Bild (Achtung: Dieses Item darf nicht gelöscht und durch ein eigenes Item ersetzt werden. Die Filterliste kann sonst das Bild nicht mehr anzeigen)
+4.Datumsfeld
+5.Zeitfeld
+6.Karte
+7.Kontakt
+ 
+Weitere Elemente können optional hinzugefügt werden. Zur Auswahl stehen alle Elemente, die in Content- oder Sidebarcontainern verwendet werden können.
+ 
+Datum und Zeitbestimmen
+Das Datum einer Veranstaltung bestimmt nicht nur, wann ein Event stattfindet, es definiert auch wo und wie lange ein Event auf hslu.ch angezeigt wird. Zum Verschieben einer Veranstaltung einfach das Datum ändern.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_template_veranstaltung_event.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_template_veranstaltung_event.htm  Key: WeVe-Link (Evento Anlass Anmeldungen)
+Navigation:  Seitentypen > Weiterbildung
+
+Diese Anleitung beschreibt, wie Evento-Anlässein Sitecore eingefügt werden können und beschreiebn, wie durch das einfügen eines Evento Anlasses mit WeVe-Link, die Infobox automatisch ausgefüllt wird.
+
+Hinweis: Die Linkliste mit E-Mail und Telefon (Call-to-Action Teaser) muss auf der Seite manuell eingefügt werden, will man die WeVe-Link Funktionalität nützen.
+ 
+Die folgenden Weiterbildungen erlauben das automatische generieren eines WeVe-Link's im Item Linkliste mit E-Mail und Telefon (Call-to-Action Teaser). Dazu muss in der Fact's Liste im Feld Evento Anlass ID eine gültige Anlass Nummer eingetragen werden.
+
+Achtung: Die Linkliste mit E-Mail und Telefon (Call-to-Action Teaser) muss auf der Seite manuell eingefügt werden, will man die WeVe-Link Funktionalität nützen.
+
+1. Evento Anlass ID in der Factsliste Weiterbildung eintragen:
+1.Auf der Weiterbildungsseite die Facts Liste bearbeiten.
+
+2.Ganz am Ende kann die Evento Anlass ID eingetragen werden. Danach auf OK klicken und die Seite speichern.
+
+2. Das Item "Linkliste mit E-Mail und Telefon (Call-to-Action Teaser) auf der Seite platzieren: 
+1.Beim Container Sidebar das Item Linkliste mit E-Mail und Telefon hinzufügen.
+ 
+2.Wurde eine gültige Evento Anlass ID eingegeben wird der WeVe-Link mit einer Status Meldung automatisch in der Linkliste mti E-Mail und Telefon angezeigt. Umgangssprachlich wird dieses Elment auch Infobox genannt. Die Informationen erscheinen dort nur automatisch wenn in der Filterliste eine gültige Evento-ID hinterlegt wurde und der Event in Evento richtig gepflegt wurde. 
+ 
+Folgende Status können angezeigt werden:
+•Anmeldung nicht möglich
+•Anmelden
+ 
+3.Wird der Status Anmelden angezeigt, wird man durch klicken auf den WeVe-Link zur Anmeldeseite des Anlasses weitergeleitet.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_weve-link.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_weve-link.htm
+
+Falls wirklich gar keine Information zum Beantworten der Frage in den WEBHELP-ARTIKELN oder den ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN vorhanden sind, dann antworte mit: "Leider kann ich deine Frage nicht beantworten". Antworte nur mit Aussagen die mit den WEBHELP-ARTIKELN und die ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN bewiesen werden kann.
+
+PRÄZISE ANTWORT:
+
+====== 
+
+RESPONSE:
+
+Um auf Evento zuzugreifen, können verschiedene Schritte unternommen werden, je nachdem, was genau benötigt wird. Falls es um das Einfügen eines Evento-Anlasses mit WeVe-Link geht, kann dies mithilfe der Anleitung "WeVe-Link (Evento Anlass Anmeldungen)" im Webhelp umgesetzt werden. Weitere Informationen dazu finden sich im Webhelp-Artikel "WeVe-Link (Evento Anlass Anmeldungen)". Falls weitere Schritte oder spezifischere Anleitungen benötigt werden, kann die entsprechende Webhelp-Artikel konsultiert werden.

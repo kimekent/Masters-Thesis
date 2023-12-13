@@ -1,0 +1,550 @@
+PROMPT:
+
+Deine Aufgabe ist es, auf die folgende AKTUELLE FRAGE zu antworten. Gib mögliche Ratschläge zum beheben des Problems. Sei so konkret wie möglich.
+Verwende zur Beantwortung der FRAGE ausschliesslich die folgenden WEBHELP-ARTIKEL und die ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN. Vermeide das Hinzufügen von Informationen oder Eklärungen, die nicht in einem WEBHELP-ARTIKEL oder in den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN stehen.
+Antworte so kurz wie möglich, ohne dabei wichtige Informationen auszulassen. Vermeide bei der Antwort Wiederholungen.
+Achte darauf, welche Sprachversion der Website in der Frage erwähnt wird. Verwende zur Beantwortung der Frage, die Informationen aus den WEBHELP-ARTIKEL und den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN, die zur erwähnten Sprachversion passen. Wird keine Sprachversion erwähnt, handelt es sich um die deutsche Seite, nicht um die englische Seite.
+Lies immer alle WEBHELP-ARTIKEL und ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN durch. Die obersten ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN enthalten oftmals nicht die richtige Antwort.
+Sprich in der DU-Form.
+Verwende bei längerem Texten Aufzählungszeichen.
+Verlinke hilfreiche Webhelp-Artikel in der Antwort.
+
+CHAT-HISTORY: 
+Human: wie lösche ich eine Seite? 
+AI: Um eine Seite zu löschen, navigiere im Ribbon-Menü zu "Home" und wähle "Delete Page". Bestätige den Löschvorgang und entscheide, was mit den Links geschehen soll, die auf die Seite verweisen. Weitere Informationen findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm).
+
+Wenn du eine Seite verschieben möchtest, navigiere im Ribbon-Menü zu "Home" und wähle "Move Page". Wähle dann die Zielseite aus und bestätige den Vorgang. Weitere Informationen findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_verschieben.htm).
+<<history>>
+
+AKTUELLE FRAGE: Was ist ein Anker in Bezug auf Webseiten?
+
+ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN:
+Q: Ich hab schon wieder ein Frage, danke fuer Eure Hilfe:
+Auf <<link>>
+habe ich einen Link mit Anker definiert, 
+ 
+Aber der Anker wird nicht angesprungen. Was habe ich falsch gemacht? 
+
+A: Ein häufige Fehler bei Anker ist, dass das # fälschlicherweise entweder vergessen geht oder mitkopiert wird. Bei manchen Elementen braucht es das #, bei manchen nicht. 
+- Für die Verlinkung innerhalb der gleichen Seite auf einen manuellen Teasern muss das # weggelassen werden. 
+- Bei der Verlinkung von Rich Text Teasern auf der gleichen Seite, muss das # mitkopiert werden. 
+- Bei der Verlinkung von externen Seiten muss das # immer mitkopiert werden. 
+Hier sind die Webhelp-Artikel dazu:
+https://applsupport.hslu.ch/webhelp/index.html?hm_anker_auf_anderer_seite.htm
+https://applsupport.hslu.ch/webhelp/index.html?hm_anker_auf_anderer_seite.htm
+Q: Ich versuche gerade eine Webseite, die es auf Deutsch schon gibt, auf English zu erstellen. Welcher ist der Ablauf zur Erstellung einer englischen Webseite?
+A: Eine neue Sprachversion kann im Experience Editor über den Versions-Tab >
+Language-Button angelegt werden. Anschliessend die Seite (ctrl+s) speichern.
+http://applsupport.hslu.ch/webhelp/index.html?hm_sprachversion.htm
+Q: Gerne würde ich von der Forschungs-Seite DK aus einen Link zum Medienspiegel setzen, da der Forschungs-Medienspiegel jedoch in der Mitte der Seite ist, würde ich gerne auf den Anchor verlinken.
+<<link>>
+Geht dies mittlerweile? Oder müsste man eine Unterseite machen
+
+A: [Hier](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm
+ ) findest du die Anleitung, wie Anker angelegt werden können.
+Q: Leider habe ich folgende Infos nicht mehr gefunden in den Sitecore Schulungsunterlagen und der Online-Hilfe, daher kommt die Frage an euch:
+Wenn ich eine Seite (z.B. die Digitalisierungsseite) unter "ÃƒÅ“ber uns" platziere - ändert sich dann die URL zwingend? Oder kann ich in der Navigation auch einfach eine Verlinkung platzieren und die aktuelle URL beibehalten?
+
+ 
+ 
+ 
+A: Alle Hinweise zum Thema "Seite verschieben" findest du hier:
+https://applsupport.hslu.ch/webhelp/hm_seite_verschieben.htm
+Wenn die Seite verschoben wird, dann ändert sich die URL automatisch. 
+Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Q: Gibt es eine Möglichkeit, dass eine Webseite noch heute aktualisiert wird?
+ Falls ja, handelt es sich um folgende Seite: <<link>>
+
+A: Die Publishing-Zeiten sind immer 00:05 Uhr und 12:05 Uhr. In seltenen, wirklich sehr dringenden Fällen ist es möglich, dass wir ein Publishing ausserhalb der üblichen Zeiten erzwingen können. In solchen Fällen bitte ein Mail an den [Websupport](mailto:websupport@hslu.ch) schicken. 
+ 
+Q: Wisst ihr an was es liegt, dass der Link zu den Online Info-Events im Master BA immer nur deutsch oder englisch hinterlegt werden kann und es dann den Link auf der Page der anderen Sprache überscheibt?
+ 
+<<link>>
+
+A: Bei Verlinkungen zu einer Sitecore Seite sollte die Verlinkung über den Baum zur entsprechenden Seite eingefügt werden. So wird dann die Seite auch immer in der richtigen Sprachversion dargestellt. Verlinkt man eine Seite über einen externen Link kann immer nur entweder die deutsche oder die englische URL hinterlegt werden.
+Mehr Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_links-einfuegen.htm).
+ 
+Q: Ist es möglich, die 5 Titel als Ankerpunkte zu hinterlegen. Wir haben es leider nicht geschafft, da die untenstehenden Abschnitte als Toogle Text erfasst sind. 
+ 
+ 
+A: [Hier](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm
+ ) findest du die Anleitung, wie Anker angelegt werden können.
+Q: Kurze Frage zu einer virtuellen Navigation auf dieser Seite: 
+<<link>>
+Im Backend ist der anzuzeigende Text uebersteuert mit "Infos und Fakten"
+ 
+In der Seitennavigation funktioniert das jedoch nicht. Z.B. hier: 
+ ttps://stage-www.hslu.ch/de-ch/design-kunst/studium/bachelor/data-design-and-art/was-lerne-ich-im-studium/
+ 
+ Anstelle von "Wo melde ich mich an? Infos" sollte eben "Infos und Fakten" stehen.
+ Was mache ich falsch?
+ 
+A: Die Überschrift von Flyout und Side-Navigation, sowie die Linktexte der Hauptseiten in der Navigation und die Linktexte der Side-Navigation, können auf der Seite unter "Navigation Options" angepasst werden.  Der Text, der bei der Seite selbst in den Navigationsoptionen hinterlegt ist, ist der "stärkste" und uebersteuert alles. Diese hinterlegten Texte werden sowohl für virtuelle als auch reale Navigationen übernommen. Wird kein Text hinterlegt, wird der Titel der Seite verwendet. Wenn eine englische Seite geändert werden soll, nicht vergessen vorher auf die Englische Seitenversion zu wechsel. Mehr Infos dazu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_navigations_options-ribbon.htm)
+
+ 
+Q: Ist es möglich einen externen Link (in diesem Fall unseren Newsfeed <<link>> in die Navigation reinzunehmen? 
+
+
+ 
+A: In der Navigation (virtuell oder real) können nur interne Seiten eingefügt werden. Mehr Infos dazu [hier](https://applsupport.hslu.ch/webhelp/hm_virtueller_navigationseintrag.htm).
+Q: Gibt es eine Möglichkeit zu sehen, welche Teile meiner englischsprachigen Webseite angeblich nicht übersetzt sind, da der Hinweis auf nicht verfügbare deutsche Inhalte weiterhin erscheint?
+A: Falls alle Texte auf englisch übersetzt wurden, und die Meldung 'Some Content is only available in German' immer noch erscheint, liegt es daran, dass es von mindestens einem Element auf der Seite noch keine Englische Version gibt. Damit die Meldung verschwindet muss von jedem Element, auch Bilder und PDFs, eine englische Version erstellt werden. Im Backend kannst du jedes Element durchgehen und so leicht nachschauen, welche Items noch keine englische Version besitzt.
+Oftmals ist es der Kontaktteaser. Es sieht auf englisch dann korrekt aus, weil Sitecore automatisch die korrekte Berufsbezeichnung übernimmt, Sitecore merkt aber auch, dass nichts angepasst wurde und geht dann davon aus, dass es noch deutsch ist. Es muss dann einfach eine englische Version davon im Backend angelegt werden. 
+Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Bitte auch die Alt-Texte der Bilder kontrollieren.  
+[Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: Kann ich ein benutzerdefiniertes Bild hinterlegen, das erscheint, wenn ich eine Website auf Social Media verlinke?
+A: Wenn kein Open Graph Bild auf der jeweiligen Seite hinterlegt ist, wird automatisch das Standardbild angezeigt. Um ein benutzerdefiniertes Bild anzuzeigen kann wie folgt vorgegangen werden: 
+1) Im Content-Tree zur entsprechenden Seite navigieren.
+2) Rechts im Contentbereich unter Spezial Meta Data können die Meta-Daten bearbeitet werden.
+3) Open Graph Image - Durch Klicken auf Browse kann hier ein Bild aus der Media-Library ausgewählt werden, welches dann als Open Graph Image verwendet wird. Das Bild ist idealerweise 1200 x 630 Pixel gross oder Bildverhältnis 1.91:1. Maximum 1500px x 1500px oder 5 MB.
+4) Checkbox Open Graph Image anzeigen - Hier kann gewählt werden, ob das Bild angezeigt werden soll oder nicht. 
+Weitere Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/hm_special_meta_data.htm?zoom_highlightsub=open+graph+bild)
+ 
+ Evtl. musst du nach dem Einfuegen des Bildes den Link zu deiner Seite einmalig fuer die SoMe Plattformen bereinigen mit den folgenden Links:
+ Facebook: https://developers.facebook.com/tools/debug/
+ Twitter: https://cards-dev.twitter.com/validator
+ LinkedIn: https://www.linkedin.com/post-inspector/
+ Danach sollte dein Bild angezeigt werden.
+ 
+Q: Warum ist die Seite, die ich letzte Woche fertiggestellt habe, immer noch nicht im Netz?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Wir haben eine Anmeldeseite fuer einen nicht-öffentlichen Anlass eingerichtet:
+<<link>>
+Die Seite ist in Navigation, Sitemap etc. ueberall auf unsichtbar geschaltet.Über die Google-Suche ist die Seite aber auffindbar
+und wir haben sogar eine Anmeldung von einer Person erhalten, die eigentlich gar nicht eingeladen wäre ?
+Gibt es einen Weg, eine Seite auch von der Suchmaschinen-Indexierung auszuschliessen?
+
+A: Um eine Seite von externen Suchmaschinen auszuschliessen muss in Sitecore die Option "Hide form Search Engine" gewählt werden.
+Wenn das bei neu publizierten Seiten nicht von Anfang gemacht wird, dann wird eine Seite in jedem Fall von Suchmaschinen indexiert. Wenn man diese Option nachträglich erfasst, wird diese bei der nächsten Google Indexierung aktiv. Dies kann aber einige Tage bis zu einer Woche dauern.
+Die Option "Hide from Search Engine" findest du im Content Editor unter Site Meta Data:
+ 
+ 1) Im Content-Tree zur entsprechenden Seite navigieren.
+
+2) Rechts im Content-Bereich unter Site Meta Data können die Meta-Daten bearbeitet werden.
+
+3) Nach Eingabe, die Daten mit ctrl + s sichern. 
+
+Weitere Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_site_meta_data_content_editor.htm)
+Q: Ich habe eine Veranstaltungsseite hinzugefügt, aber sie ist nicht auf unserer Website sichtbar. Woran könnte das liegen?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Eine Frage zum Web:
+<<link>> 
+<<link>>
+bei diesen Seiten ist der Text in zwei Spalten dargestellt. Wie kann ich es ändern, damit es in einem «einheitlichen» Text erscheint?
+A: Falls ein Rich Text Teaser / Manueller Teaser verwendet wurde, ist darauf zu achten, dieser bei einer 100% Einstellung ab ca. drei Zeilen Text immer zweispaltig angezeigt wird. Fuer einspaltigen Fliesstext kann das Element "Formatierter Text mit Bild" verwendet werden. Dieser funktioniert auch ohne Bild. In diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm) findest du ganz zuunterst noch eine Auflistung welche Text-Elemente dopptelspaltig und welche einspaltig dargestellt werden.
+Q: Ich habe gesehen, dass  wenn ich unsere Seiten auf dem Handy anschaue  bei einigen das Moodboard gar nicht erscheint, bei anderen aber ein "leeres Bild" erscheint. In der Webhelp habe ich grad nichts gefunden, daher: Ist es besser ein Bild fuers Handy einzufuegen oder  falls nein  was kann ich machen, dass kein "leeres Bild" erscheint?
+  
+A: Für mobile und Desktop sind unterschiedliche Moodboards zugewiesen. Die sind nicht automatisch gleich und müssen bei mobile und bei Desktop separat zugewiesen bzw. entfernt werden. Wird das Moodboard in der mobilen Version falsch oder gar nicht angezeigt, liegt es oft daran, dass kein mobiles Moodboard erstellt wurde oder dieses nicht vollständig konfiguriert wurde. 
+1. In der Media Library muss ein seperates Bild für die Desktop und MoileMoodboardversion hochgeladen werden. 
+2. Beim Zuweisen von Bild zum Moodboard, muss bei mobile das mobile Bild ausgwählt werden.
+3. Bei den Page Options muss der Seite sowohl ein Desktop Moodboard als auch ein mobiles Moodboard zugewiesen werden. 
+Hier die Anleitungslinks dazu:
+https://applsupport.hslu.ch/webhelp/hm_neues_bild_direkt_hochladen.htm
+https://applsupport.hslu.ch/webhelp/index.html?hm_eigene_und___oder_shared_slide.htm
+Q: Gestern hatte ich eine Info-Veranstaltung und plötzlich ist mir aufgefallen, dass am Nachmittag (möglicherweise auch schon am Vormittag), die Info-Veranstaltung auf der Produkt-Webseite fehlte. Dies, obwohl ich im Evento eingestellt habe, dass man sich bis heute anmelden kann. Unter den «Veranstaltungen» war der Anmeldelink jedoch noch zu finden. Wisst ihr an was das liegt? Wie kann ich sicherstellen, dass der Anmeldelink auch auf den Produkt-Webseiten sicher bis zum Zeitpunkt der Veranstaltung publiziert ist? 
+
+
+A: Wenn ein Agendaeintrag nicht (mehr) im Call to Action Teaser auftaucht, könnte es an der "Start-Zeit-Problematik" liegen. Bei WeVe Anmeldungen kann es an den Einstellungen des Agendaeintrags liegen.
+Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit des Ereignisses im Call to Action Teaser. Wurde sowohl keine Startzeit also auch keine Endzeit für den Event festgelegt, dann bleibt der Event bis 00:00h im Call to Action Teaser. Danach wird er weder in der Filterliste, noch im automatischen CtA-Teaser angezeigt (live ist er weiterhin).
+Damit die Anmeldung über ONLA / WeVe funktioniert, muss die Evento ID in der Facts-Liste auf der Produktseite hinterlegt werden und beim Call to Action Teaser die Checkbox  "Kontextabhängige Informationen aus Evento anzeigen" aktiviert aktiviert sein (Standard)! Bei einer deaktivierten Checkbox, wird entsprechend kein Link bzw. Status Meldung angezeigt. Mehr dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_links_der_linkliste_zuweisen.htm)
+
+Q: Kann ich die Infobox auf der Startseite deaktivieren oder ist sie ein festes Element der Seite?
+A: Die Infobox muss wieder ueber die Page Options von der Seite gelöst werden (so wie sie hinzugefuegt wurde).
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon Sitecore_btn_window_refresh neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+Hier die Anleitung mit Bilder: [https://applsupport.hslu.ch/webhelp/index.html?hm_infobox_löschen.htm](https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm?zoom_highlightsub=infobox).
+Q: Wir haben auf der IKM-Update Seite  
+ 
+<<link>>
+ 
+die Informationen der IKM-Impuls Seite integriert
+ 
+<<link>>
+ 
+und die URL der IKM-Update Seite zu IKM-Events umbenannt. 
+ 
+<<link>>
+ 
+Die Seite IKM-Impuls haben wir deaktiviert.
+ 
+Darf ich euch darum bitten, die entsprechenden Weiterleitungen einzurichten?
+
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite umzubennenen, kann so vorgegangen werden:
+Um Seiten nach deren Erstellung umzubenennen ins Backend navigieren
+Im Backend zur umzubenennenden Seite navigieren und den Befehl "Home > Rename" wählen und im folgenden Dialog den neuen Seiten-Namen inklusive Präfix eingeben.
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_umbenennen.htm)
+Q: Kurze Frage zu WeVe-Formularen: Ist es zulässig, den Link zum Formular nicht auf einer Event-Seite, sondern auf einer «normalen» Seite als Link einzubauen, wie z.B. hier (im Kasten rechts)?
+ 
+A: WeVe-Links, resp. die Integrierung einer Evento-ID ist nur bei Weiterbildungs- und Event-Seiten möglich. Nur so ist die WeVe-Link Funktionalität gewährleistet.
+
+Q: Kann ich URLs selber anpassen oder macht ihr das? 
+ 
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um URL zu ändern, kann so vorgegangen werden:
+1) Im Dialog die gewünschte URL eingeben. Soll eine URL auf die ursprüngliche Zeichenfolge zurückgesetzt werden, ist hier ein Stern (*) einzugeben.
+2) Der Button "Validieren" zeigt, wie der letzte Teil der URL (http://www.hslu.ch/Neue-URL) neu in der Adresszeile aussehen wird. Bei der Validation fallen Sonderzeichen ("/,#@...) weg, Umlaute ("ö, ü, ä") werden ausgeschrieben ("ö, ue, ä") und Leerschläge durch Bindestriche ("-") ersetzt.
+3) Durch Klicken auf OK wird die URL entsprechend angepasst.
+Mehr Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_url_bearbeiten.htm)
+
+Q: 
+ Mir ist aufgefallen, dass in der mobilen Ansicht der IDS-Datenwelten-Webseite ein Platzhalter angezeigt wird (siehe Anhang).
+ Fuer das Moodboard habe ich jedoch eine mobile Ansicht in Sitecore hinzugefuegt. Könntest du das eventuell mal anschauen?
+
+A: Für mobile und Desktop sind unterschiedliche Moodboards zugewiesen. Die sind nicht automatisch gleich und müssen bei mobile und bei Desktop separat zugewiesen bzw. entfernt werden. Wird das Moodboard in der mobilen Version falsch oder gar nicht angezeigt, liegt es oft daran, dass kein mobiles Moodboard erstellt wurde oder dieses nicht vollständig konfiguriert wurde. 
+1. In der Media Library muss ein seperates Bild für die Desktop und MoileMoodboardversion hochgeladen werden. 
+2. Beim Zuweisen von Bild zum Moodboard, muss bei mobile das mobile Bild ausgwählt werden.
+3. Bei den Page Options muss der Seite sowohl ein Desktop Moodboard als auch ein mobiles Moodboard zugewiesen werden. 
+Hier die Anleitungslinks dazu:
+https://applsupport.hslu.ch/webhelp/hm_neues_bild_direkt_hochladen.htm
+https://applsupport.hslu.ch/webhelp/index.html?hm_eigene_und___oder_shared_slide.htm
+Q: Ich bin unteranderem fuer folgende Seite (inkl. Unterseiten) verantwortlich: <<link>>
+Leider kommt bei der Englischen Version immer oben der rote Balken «Some content is not available in English», obwohl wir ALLES auf der Seite übersetzt haben. Woran liegt das und wie können wir das ändern?
+In der Sidebar wird auch bei einigen Links «only in German» automatisch angehängt. Das ist aber falsch; beim Yearbook 2019/2020 ist alles in beiden Sprachen im PDF (aber beim Yearbook 2018/2019 steht dann wieder nichts?) und die Info Veranstaltungen sind sowieso NUR auf Englisch da der ganze Studiengang auf Englisch ist.
+ 
+A: Falls alle Texte auf englisch übersetzt wurden, und die Meldung 'Some Content is only available in German' immer noch erscheint, liegt es daran, dass es von mindestens einem Element auf der Seite noch keine Englische Version gibt. Damit die Meldung verschwindet muss von jedem Element, auch Bilder und PDFs, eine englische Version erstellt werden. Im Backend kannst du jedes Element durchgehen und so leicht nachschauen, welche Items noch keine englische Version besitzt.
+Oftmals ist es der Kontaktteaser. Es sieht auf englisch dann korrekt aus, weil Sitecore automatisch die korrekte Berufsbezeichnung übernimmt, Sitecore merkt aber auch, dass nichts angepasst wurde und geht dann davon aus, dass es noch deutsch ist. Es muss dann einfach eine englische Version davon im Backend angelegt werden. 
+Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Bitte auch die Alt-Texte der Bilder kontrollieren.  
+[Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: Gerne möchte ich nachfragen, ob es fuer die nachfolgende Seite bereit einen Shortcut gibt? 
+ <<link>>
+ Gibt es da eine Möglichkeit dies selber nachzulesen? 
+ 
+A: Um zu sehen, welche Shortcuts zu einer bestimmten Seite fuehren, kann man im Backend in der Ordnerstruktur die Seite auswählen und im Reiter "Navigation" "Links" anklicken. Dort werden dann alle Verlinkungen, die auf die Seite fuehren aufgelistet.
+ 
+ 
+Q: Folgende Seite wird nicht angezeigt und ich finde nicht raus, warum:
+<<link>>
+Könnt ihr mir hier weiterhelfen?
+ 
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Ich möchte auf unserer Webseite eine Landingpage erstellen, die nicht in der Navigation auftaucht. Wie macht man das?
+A: Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Q: Ich möchte mich bei euch erkundigen, was man bei einer   Namensänderung alles beachten muss?
+Muss in einem solchen Fall nicht auch noch die URL angepasst werden?
+
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite umzubennenen, kann so vorgegangen werden:
+Um Seiten nach deren Erstellung umzubenennen ins Backend navigieren
+Im Backend zur umzubenennenden Seite navigieren und den Befehl "Home > Rename" wählen und im folgenden Dialog den neuen Seiten-Namen inklusive Präfix eingeben.
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_umbenennen.htm)
+Q: Ich habe gestern den Inhalt meiner Seite aktualisiert, aber wenn ich online nachschaue, ist sie nicht sichtbar. Was könnte das Problem sein?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Fuer die Werkschau gibt es auf Sitecore jeweils eine separate Seite bei der Agenda zusätzlich zu den Agenda Einträgen. In diesem Jahr möchten wir möglichst wenig Doppelungen und deshalb möchten wir gerne alle Infos auf der Plattform wwwerkschau platzieren. Ist es möglich, dass man auf der regulären hslu.ch-Domain eine virtuelle Navigation setzen kann direkt zu dieser Plattform ( <<link>>
+ 
+A: In der Navigation (virtuell oder real) können nur interne Seiten eingefügt werden. Mehr Infos dazu [hier](https://applsupport.hslu.ch/webhelp/hm_virtueller_navigationseintrag.htm).
+ 
+Q: Ich bin mal wieder auf ein Problem gestossen:
+<<link>>
+ 
+Auf dieser Seite ist zwischen Introtext und Teasers bei der mobilen Version Englisch «Branchentag 2018» sichtbar (was da nicht hingehört), auf der Desktop-Version wie auch dort, wo ich bearbeiten kann, ist dies nicht sichtbar, sodass ich es auch nicht rauslöschen kann > siehe Screenshots.
+
+A: Wenn ein grauer Balken an der Stelle der Infobox erscheint, kann dies daran liegen, dass die Farbe der Infobox angepasst wurde oder der ganze Infobox Platzhalter wurde entfernt.   
+Wichtig: Die Infobox darf nur über die Page Options hinzugefügt oder entfernt werden. Hier stehts noch beschrieben: https://applsupport.hslu.ch/webhelp/hm_infoboxtext.htm?zoom_highlightsub=infobox
+Falls der Infobox-Platzhalter gelöscht wurde, bitte beim [websupport](mailto:websuport@hslu.ch) melden. 
+
+Q: Ich habe auf dieser Seite einen Image Teaser eingebaut und dann noch verlinkt mit einem A3 JPG. Leider geht das Pop-Up nicht auf.
+Was habe ich vergessen? Konnte es in Web-Help nicht rausfinden.
+
+A: Um ein Bild einzufügen, das beim Draufklicken grösser dargestellt wird, kann ein manueller Teaser oder eine Bildergeschichte (mehrere Bilder ) eingefügt werden. Beim Bearbeiten muss die Checkbox "Link (nur Bilder via Media Link) in Popup vergrössern" ausgewählt werden. Das vergrösserte Bild muss als Link ausgewählt werden.
+Falls der Haken bei "Link (nur Bilder via Media Link) in Popup vergrössern" gesetzt wurde aber das Bild beim Draufklicken nicht grösser dargestellt wird, liegt es wohl daran, dass das Bild noch nicht in der grossen Version hochgeladen wurde. Damit dar Popup funktioniert, muss das Bild 1x in der vorgegebenen Grösse für den Teaseroder die Bildergeschichte hochladen werden und 1x in der Grösse, wie es vergrössert dargestellt werden soll. Wenn der Teaser dann bearbeitet wird, kann im Bereich  "Link" durch die Funktion  "Insert Media Link" das grössere Bild und die Checkbox "Link in Popup vergrössern" ausgewählt werden. Dadurch wird das grössere Bild beim Klick auf das Teaserbild angezeigt.
+Q: Kann man die Seite "Externe Projektwoche 2018 in Hamburg" aus der Navigation ausblenden? Es sollte lediglich der Teaser auf die Seite verweisen. 
+ 
+A: In den Navigations Options einer Seite kann definiert werden welche Seiten in der Flyout-Navigation, in der Side-Navigation und in den Breadcrumbs angezeigt werden sollten und welche nicht. Mehr Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/hm_navigations_options-ribbon.htm?zoom_highlightsub=navigation+option)
+ 
+Q: Kann mir jemand helfen herauszufinden, warum der Hinweis auf unserer komplett übersetzten englischen Seite immer noch angezeigt wird?
+A: Falls alle Texte auf englisch übersetzt wurden, und die Meldung 'Some Content is only available in German' immer noch erscheint, liegt es daran, dass es von mindestens einem Element auf der Seite noch keine Englische Version gibt. Damit die Meldung verschwindet muss von jedem Element, auch Bilder und PDFs, eine englische Version erstellt werden. Im Backend kannst du jedes Element durchgehen und so leicht nachschauen, welche Items noch keine englische Version besitzt.
+Oftmals ist es der Kontaktteaser. Es sieht auf englisch dann korrekt aus, weil Sitecore automatisch die korrekte Berufsbezeichnung übernimmt, Sitecore merkt aber auch, dass nichts angepasst wurde und geht dann davon aus, dass es noch deutsch ist. Es muss dann einfach eine englische Version davon im Backend angelegt werden. 
+Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Bitte auch die Alt-Texte der Bilder kontrollieren.  
+[Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: Bei uns am IKM sind die CAS Landing Pages auf Englisch übersetzt. Diese werden jedoch nicht aktiv gepflegt, weshalb die Inhalte veraltet sind. 
+Ist es von Vorteil oder ein "Muss" diese Landing Pages auf Englisch zu publizieren oder können wir sie löschen/inaktivieren?
+ 
+A: Englische Seitenversionen sollten bei mindestenst den obersten beiden Ebenen der Website vorliegen. Dazu gehört die Stufe der Departemente (und des Daches) ebenso wie die Stufe "Studium, Forschung, Dienstleistungen..."
+Q: 
+ Das IKM hat fuer (fast) alle Webseiten eine englische Version, ohne übersetzte Inhalte. Nun möchte ich alle diese Seiten löschen. Sollte ich dir eine Liste mit den URLs senden, damit du Umleitungen einrichten kannst?
+A: Wenn es sich nur um englische Versionen handelt, müssen keine Weiterleitungen eingerichtet werden, da automatische die deutsche als Backup erscheint, falls jemand noch eine englische URL vorliegen hätte. Du kannst die Versionen einfach löschen.
+ 
+ 
+Q: Wie kann ich überprüfen, welche Elemente auf meiner englischen Webseite den Hinweis verursachen, obwohl ich alles übersetzt habe?
+A: Falls alle Texte auf englisch übersetzt wurden, und die Meldung 'Some Content is only available in German' immer noch erscheint, liegt es daran, dass es von mindestens einem Element auf der Seite noch keine Englische Version gibt. Damit die Meldung verschwindet muss von jedem Element, auch Bilder und PDFs, eine englische Version erstellt werden. Im Backend kannst du jedes Element durchgehen und so leicht nachschauen, welche Items noch keine englische Version besitzt.
+Oftmals ist es der Kontaktteaser. Es sieht auf englisch dann korrekt aus, weil Sitecore automatisch die korrekte Berufsbezeichnung übernimmt, Sitecore merkt aber auch, dass nichts angepasst wurde und geht dann davon aus, dass es noch deutsch ist. Es muss dann einfach eine englische Version davon im Backend angelegt werden. 
+Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Bitte auch die Alt-Texte der Bilder kontrollieren.  
+[Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: 
+ Eine kurze Frage: Damit der Hinweis (Seite nicht komplett übersetzt) verschwindet. Finde ich irgendwo eine Auflistung welche Elemente fehlen?
+ Und müssen auch alle Bilder doppelt (de/en) hochgeladen werden, damit die Nachricht nicht angezeigt wird?
+ 
+A: Falls alle Texte auf englisch übersetzt wurden, und die Meldung 'Some Content is only available in German' immer noch erscheint, liegt es daran, dass es von mindestens einem Element auf der Seite noch keine Englische Version gibt. Damit die Meldung verschwindet muss von jedem Element, auch Bilder und PDFs, eine englische Version erstellt werden. Im Backend kannst du jedes Element durchgehen und so leicht nachschauen, welche Items noch keine englische Version besitzt.
+Oftmals ist es der Kontaktteaser. Es sieht auf englisch dann korrekt aus, weil Sitecore automatisch die korrekte Berufsbezeichnung übernimmt, Sitecore merkt aber auch, dass nichts angepasst wurde und geht dann davon aus, dass es noch deutsch ist. Es muss dann einfach eine englische Version davon im Backend angelegt werden. 
+Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Bitte auch die Alt-Texte der Bilder kontrollieren.  
+[Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: Wir möchten eine Webseite mit einem Angebot von uns auch französisch und italienisch aufschalten. Wie kann ich das machen?
+ 
+A: [Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: Wieso ist meine Seite nicht live?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Auf folgender Website Public and Nonprofit Management | Hochschule Luzern (hslu.ch) habe ich ganz unten eine Linkliste eingefuegt und habe alle drei Links mit "Ziel: Neuer Browser" gespeichert, doch leider öffnet sich auf der Website keine neue Seite, wenn man den Event öffnet. Könnt ihr mit bitte helfen?
+
+A: Bei internen Verlinkungen wird kein neues Fenster geöffnet. Das dient der User Experience, vor allem Bei der Nutzung von mobilen Geräten.
+Bei externen Verlinkungen wird der Link in einem neuen Tab geöffnet. Dies aus dem Grund, da wir Die User sonst verlieren.
+Q: Wir möchten gerne im Hinblick auf die Einfuehrungswochen einen Smart-up Wettbewerb machen. Ist es möglich, im Sitecore eine solche Landingpage zu erstellen, welche ansonsten auf der Website nicht ersichtlich ist?
+ 
+A: In den Navigations Options einer Seite kann definiert werden welche Seiten in der Flyout-Navigation, in der Side-Navigation und in den Breadcrumbs angezeigt werden sollten und welche nicht. Mehr Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/hm_navigations_options-ribbon.htm?zoom_highlightsub=navigation+option)
+ 
+Q: Die folgende Seite <<link>> enthält eine Side Navigation.
+Auf diese Side Navigation möchten wir die Verlinkung zum dazugehörigen Forschungsprojekt vornehmen. 
+<<link>>
+ Könnt ihr mir dabei helfen? Trotz Webhelp konnte ich die Verlinkung nicht vornehmen.
+ 
+A: Die Side-Navigation zeigt die Unterseiten der aktuellen Seite in der Sidebar an. Um eine benutzerdefinierte Navigation zu erstellen, die Seiten enthält, die nicht Unterseiten sind, kann eine virtuelle Navigation eingefügt werden.
+https://applsupport.hslu.ch/webhelp/hm_virtueller_navigationseintrag.htm
+
+ 
+
+WEBHELP-ARTIKEL 
+ Key: Anker
+Navigation: navigation
+
+Als Anker werden Sprungmarken in einer Seite bezeichnet. Wird einem Text (meistens zu Beginn der Seite) der entsprechende Link hinterlegt, springt der Browser nach anklicken dieses Textbereichs direkt zum definierten Anker.
+ 
+Einige Elemente enthalten automatisch einen Anker, erkennbar am grünen Ankernamen.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_anker.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_anker.htm  Key: Anker auf einer anderen Seite
+Navigation: navigation>anker
+
+Diese Anleitung beschreibt, wie man einen Anker auf der Website setzen kann, um zu einem bestimmten Abschnitt auf einen anderen Seite zu gelangen.
+
+1) Zu einem Anker auf einer anderen internen Seite springen
+
+Beispiel mit einem Rich Text Teaser:
+ 
+1.Der Ankername mit dem "Gartenzaun-Zeichen" # auf der Zielseite kopieren, z.B. #zwischentitel
+  
+2.Den Textbereich, welcher als Ankerlink fungieren soll markieren und auf das Link-Symbol für interne Links anklicken.
+  
+3.Die interne Zielseite, auf welcher sich der Anker befindet, auswählen und auf Link klicken. Nun muss in einem weiteren Schritt die Sprungmarke angefügt werden.
+ 
+4.Den Cursor im neuen Link platzieren und auf das Link-Symbol für externe Links anklicken.
+ 
+5.Im Feld URL ganz am Schluss ohne Slash den Ankername anfügen z.B. xxxxxxx#zwischentitel
+
+Hinweis: Unter dem Register Anchor (Anker) können im Rich-Text eigene Anker definiert werden. 
+
+6.Die Seite speichern (ctrl-S)
+
+Link: https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm  Key: Eigener Anker im Rich-Text
+Navigation:  Navigation > Anker
+
+Diese Anleitung zeigt, wie man eine eignen Anker im Rich Text erstellen kann, der dann angesprungen werden kann. Ausserdem wird dann beschrieben, wie ein Link zu einem Rich Text Anker gesetzt werden kann (Wie der Anker angesprungen werden kann). 
+
+Eigener Anker im Rich-Text Teaser definieren:
+1.Den Text im Rich-Text Editor markieren und auf das Icon für externe Links klicken.
+ 
+2.Unter dem Tab Anchor ein Name für den eigenen Anker vergeben, z.B meinanker und auf OK klicken.
+ 
+3.Der Anker wurde gesetzt, ist aber leider nur im Rich-Text unter dem Tab HTML ersichtlich:
+... <a name="meinanker"> ...
+
+Auf eigenen Anker im Rich-Text Teaser springen:
+1.Den Text im Rich-Text Editor markieren und auf das Icon für externe Links klicken.
+ 
+2.Den Tab Hyperlink wählen. Unter dem Drop-Down-Menü "Existing Anchor" werden alle existierenden Anker welche im Rich-Text erstellt wurden, aufgeführt. Der entsprechende Anker wählen und auf OK klicken.
+
+3.Die Seite speichern (ctrl-S)
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm  Key: Anker auf gleicher Seite
+Navigation:  Navigation > Anker
+
+Diese Anleitung erklärt, wie ein Anker der zu einem Abschnitt auf der gleichen Seite eingefügt werden kann. Es wird gezeigt wie man das beinem Manuellen Teaser (ohne #) macht und wie man das bei eienm Rich Text Teaser macht (mit #).
+
+Hinweis: Falls eine Sprungmarke in einer Linkliste auf einen Anker auf derselben Seite gesetzt werden soll, dann bitte die Link-List V2 verwenden (und nicht die Link- und Downloadliste).
+
+Zu einem Anker auf derselben internen Seite springen
+
+Beispiel 1 - mit einem "Manuellen Teaser"
+1.Der Ankername OHNE dem "Gartenzaun-Zeichen" # kopieren, z.B. zwischentitel
+ 
+2.Beim Manuellen Teaser auf bearbeiten klicken ..
+ 
+3.... und im neuen Fenster zum beim Bereich Link scrollen, dann weiter auf Link einfügen klicken
+ 
+4.Im Seitenbaum die aktuelle Seite auswählen und im Feld Anker der entsprechende Ankername; hier in diesem Beispiel zwischentitel, OHNE # eintragen. Danach auf den Button Einfügen klicken und speichern
+
+Beispiel 2 - mit einem "Rich Text Teaser":
+5.Der Ankername MIT dem "Gartenzaun-Zeichen" # kopieren, z.B. #linkunddownloadliste
+ 
+6.Den Textbereich, welcher als Ankerlink fungieren soll markieren und auf das Link-Symbol für externe Links anklicken.
+ 
+7.Der Ankername inkl. dem #-Zeichen im Feld URL einfügen und auf OK klicken.
+ 
+Hinweis: Unter dem Register Anchor (Anker) können im Rich-Text eigene Anker definiert werden.
+
+8.Die Seite speichern (ctrl-S)
+
+Link: https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm  Key: Text
+Navigation:  Seitenelemente
+
+Dieser Webhelp-Artikel enthält allgmeneine stylistische Tipps die beim erfassen von Texten auf der Website zu beachten sind.
+
+Auszeichnung: Fett vor Kursiv: 
+Oft empfiehlt es sich, Wichtiges, etwa Keywords, besonders hervorzuheben. Fettdruck ist der Kursivschrift vorzuziehen, weil Kursivschrift am Bildschirm schwerer zu lesen ist. Wir wenden Auszeichnungen punktuell an und nicht flächendeckend.
+
+Links machen klar, wohin sie führen:
+Ein Link verrät, wohin er führt. Richtig eingesetzt, dienen Links als Belege (ähnlich Zitaten in Forschungsarbeiten) und verleihen einem Text im Internet Autorität.
+ 
+Beispiel: Es ist besser, so zum World Wide Web Konsortium zu verlinken als so: hier klicken.
+
+Bildhafte Sprache erschwert das Übersetzen:
+Texte im Netz werden nicht immer in der Sprache gelesen, in der sie ursprünglich geschrieben wurden. Google-Translate macht es möglich: Aus Deutsch wird Englisch. Je weniger idiomatische (das heisst sprach-typische Ausdrücke) verwendet werden, desto besser die automatischen Übersetzungen. Idiomatische Ausdrücke und Redewendungen sind deshalb durch nicht-bildliche Synonyme zu ersetzen.
+ 
+Beispiel: „Sie ist gestorben“, statt „Sie hat das Zeitliche gesegnet.“
+
+Es lohnt sich, Abkürzungen einzuführen:
+In Texten für die Öffentlichkeit sind Abkürzungen bei der ersten Verwendung einzuführen. An der Hochschule Luzern gibt es ähnlich viele Abkürzungen wie im Schweizer Militär. Hier wie dort sind Abkürzungen – CCs, KAMs und so weiter – für Aussenstehende unverständlich.
+ 
+Beispiel: „Das Competence Center Tourismus (CC Tourismus) hat vorgestern […] so berichtete Henriette Muster vom CC Tourismus.“
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_text.htm
+
+Link: https://applsupport.hslu.ch/webhelp/hm_text.htm  Key: URL (Web-Adresse)
+Navigation:  Standards
+
+In diesem Webhelp-Artikel ist beschriebenwas bei der Erstellung einer URL zu beachten ist.
+
+Selbsterklärende URLs (oder Web-Adressen):
+•Kryptische URL: http://de.wikipedia.org/w/index.php?title=Clean_URL oder http://de.wikipedia.org/w/index.php?id=123.
+Solche URLs lassen keinen Schluss auf den Inhalt zu. User wissen nicht, was sie nach dem Klick erwartet und können sich die Adressen schlecht merken. Die Auffindbarkeit in Google leidet darunter.
+ 
+•Selbsterklärende URL: http://de.wikipedia.org/wiki/Clean_URL.
+Selbsterklärende URLs sprechen für sich selbst: Es ist klar, worum es an dieser Adresse gehen wird. Die Auffindbarkeit in Google wird erleichtert.
+ 
+Beim Erstellen einer neuen Seite deshalb immer überprüfen, ob eine URL verständlich und kurz genug ist. Die automatisch generierten URL's wenn nötig umbenennen.
+
+Verständliche und kurze URLs:
+Automatische URL: http://hslu.ch/de-ch/fussball/neue-seite-die-noch-nicht-so-genau-weiss-was-sie-einmal-sein-wird
+Sitecore generiert URLs basierend auf dem Seitentitel (Displaynamen). Nicht jeder Titel eignet sich aber als URL. Das Beispiel oben ist zu lang und sagt wenig aus.
+ 
+Bearbeitete URL: http://hslu.ch/de-ch/fussball/wm-brasilien/
+Die bearbeitete URL zeigt kurz und klar, worum es auf der Seite gehen wird.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_sprechende_url.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_sprechende_url.htm  Key: Text
+Navigation:  Seitenelemente
+
+Dieser Webhelp-Artikel enthält allgmeneine stylistische Tipps die beim erfassen von Texten auf der Website zu beachten sind.
+
+Der Haupttext belegt:
+Der Haupttext (,Body‘) liefert die Belege für die Behauptungen im Lead. Er ist schnell erfass- und überblickbar. Beispiele sind eine sehr effiziente Art etwas zu belegen.
+ 
+Überfliegbare Texte sind gut strukturierte Texte: Absätze, Zwischentitel, Blockquotes, Listen, Fettdruck und der Einsatz von visuellen Medien unterstützen Leser bei der Navigation durch einen Inhalt.
+
+Abschnitte beginnen mit dem Allerwichtigsten:
+Ein Abschnitt (‚Paragraph‘) ist kurz und pointiert. Er stellt ein Thema oder einen Aspekt dar und bietet der Leserschaft das Wichtigste im ersten Satz. Schreibende nehmen so der Leserschaft Arbeit ab. Dies ist der Grundsatz von Usability, also dem Bestreben, die Benutzbarkeit zu vereinfachen.
+
+Blockquotes holen Leser ab:
+Das typographisch vom Fliesstext klar abgesetzte Zitat hat sich etabliert. Dieses sogenannte Blockquote lockert den Text auf und bietet einen zusätzlichen Einstiegspunkt. Das Blockquote ist ein Mittel, Texte im Web besser zu strukturieren.
+ 
+Beispiel: „Ein gutes Zitat ist wie ein offenes Fenster. Es lädt ein, etwas tiefer zu blicken.“
+
+Ein Satz macht eine (und nur eine) Aussage:
+Sätze im Internet sind kurz. Wie Abschnitte beschränken sie sich auf eine Aussage.
+ 
+Schachtelsätze und Passivkonstruktionen erschweren den Lesefluss. Synonyme oder stark sinnverwandte Begriffe machen Texte verständlicher und stilistisch schöner. Synonyme verbessern die Auffindbarkeit durch Suchmaschinen-Bots.
+ 
+Beispiel: Metzger Meier, Herr Meier, der Metzger, Hans Meier sind alles Synonyme für ein und dieselbe Person.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_text.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_text.htm
+
+Falls wirklich gar keine Information zum Beantworten der Frage in den WEBHELP-ARTIKELN oder den ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN vorhanden sind, dann antworte mit: "Leider kann ich deine Frage nicht beantworten".
+
+PRÄZISE ANTWORT:
+
+====== 
+
+RESPONSE:
+
+Um Anker auf einer Webseite zu setzen, navigiere zu dem gewünschten Textbereich und füge das Ankerzeichen (#) vor dem Text ein. Anschließend kannst du einen Link zu diesem Anker setzen, indem du die URL der Seite gefolgt von "#" und dem Ankername angibst. Weitere Informationen findest du [hier](https://applsupport.hslu.ch/webhelp/hm_anker.htm) und [hier](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm).

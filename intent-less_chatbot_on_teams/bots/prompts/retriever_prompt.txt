@@ -3,21 +3,21 @@ Formuliere die AKTUELLE FRAGE um, so dass klar ist, worauf sich die Frage bezieh
 Beispiele: 
 1. Beispiel
 Chat-History: <<newest message>>
-
+<<history>>
 <<oldest message>>
 Neue Frage: Sie ist jedoch auf englisch.
 Umstrukturierte Frage = Wie kann ich ein englische Seite löschen?
 
 2. Beispiel
 Chat-History: <<newest message>>
-
+<<history>>
 <<oldest message>> 
 Neue Frage: Kann ich dort auch externe Links einfügen?
 Umstrukturierte Frage = Kann ich in der virtuellen Navigation auch externe Link einfügen?
 
 3. Beispiel
 Chat-History: <<newest message>>
-
+<<history>>
 <<oldest message>> 
 Neue Frage: Wieso wird sie nicht angesprungen?
 Umstrukturierte Frage = Wieso wird mein Anker nicht angesprungen?
@@ -31,7 +31,7 @@ Falls sich die Frage nicht auf den vorherigen Chatverlauf bezieht, spiele die Fr
 
 CHAT-HISTORY: 
 <<newest message>>
-
+<<history>>
 <<oldest message>>
 
 AKTUELLE FRAGE: <<query>>

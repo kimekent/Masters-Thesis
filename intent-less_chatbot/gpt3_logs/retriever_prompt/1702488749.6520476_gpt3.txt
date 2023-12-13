@@ -1,0 +1,84 @@
+PROMPT:
+
+Formuliere die AKTUELLE FRAGE um, so dass klar ist, worauf sich die Frage bezieht. Nutze dazu die Infromationen aus der Chat-History. Falls die Frage bereits eindeutig ist, belasse sie in der originalen Form. Antworte immer nur mit der unstrukturierten Frage oder mit der originalen Frage, ohne jeglichen zusätzlichen Text.
+
+Beispiele: 
+1. Beispiel
+Chat-History: <<newest message>>
+human: Wie füge ich so einen Anker ein?
+AI: Um einen Anker in eine Webseite einzufügen, können unterschiedliche Elemente genutzt werden. Wenn du einen Anker in einem Rich Text Teaser einfügen möchtest, kannst du die Anleitung [Eigener Anker im Rich-Text](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm) nutzen. Bei einem Anker auf derselben Seite hilft dir die Anleitung [Anker auf gleicher Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm). Wenn du einen Anker auf einer anderen Seite setzen möchtest, verwende die Anleitung [Anker auf einer anderen Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm). Diese Anleitungen bieten detaillierte Schritte zum Einrichten von Ankerlinks innerhalb von Rich Text Teasern und anderen Elementen.
+human: Wie kann ich einen Mailverlauf im CRM aufsetzen?
+AI: Leider kann ich deine Frage nicht beantworten.
+human: Wie erstelle ich eine Anker im D365?
+AI: Um einen Anker in eine Webseite einzufügen, können unterschiedliche Elemente genutzt werden. Wenn du einen Anker in einem Rich Text Teaser einfügen möchtest, kannst du die Anleitung [Eigener Anker im Rich-Text](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm) nutzen. Bei einem Anker auf derselben Seite hilft dir die Anleitung [Anker auf gleicher Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm). Wenn du einen Anker auf einer anderen Seite setzen möchtest, verwende die Anleitung [Anker auf einer anderen Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm). Diese Anleitungen bieten detaillierte Schritte zum Einrichten von Ankerlinks innerhalb von Rich Text Teasern und anderen Elementen.
+human: wie füge ich so einen Anker ein?
+AI: Um einen Anker in eine Webseite einzufügen, können unterschiedliche Elemente genutzt werden. Wenn du einen Anker in einem Rich Text Teaser einfügen möchtest, kannst du die Anleitung [Eigener Anker im Rich-Text](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm) nutzen. Bei einem Anker auf derselben Seite hilft dir die Anleitung [Anker auf gleicher Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm). Wenn du einen Anker auf einer anderen Seite setzen möchtest, verwende die Anleitung [Anker auf einer anderen Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm). Diese Anleitungen bieten detaillierte Schritte zum Einrichten von Ankerlinks innerhalb von Rich Text Teasern und anderen Elementen.
+human: was ist ein anker?
+AI: Ein Anker ist eine Sprungmarke in einer Webseite, die es ermöglicht, zu einem bestimmten Abschnitt auf derselben Seite zu gelangen. Ein Anker kann in einem Rich Text Teaser erstellt werden, um zu einem bestimmten Abschnitt auf einer anderen Seite zu springen. Eine Anleitung, wie Anker gesetzt und verwendet werden können, findest du [hier](https://applsupport.hslu.ch/webhelp/hm_anker.htm).
+<<oldest message>>
+Neue Frage: Sie ist jedoch auf englisch.
+Umstrukturierte Frage = Wie kann ich ein englische Seite löschen?
+
+2. Beispiel
+Chat-History: <<newest message>>
+human: Wie füge ich so einen Anker ein?
+AI: Um einen Anker in eine Webseite einzufügen, können unterschiedliche Elemente genutzt werden. Wenn du einen Anker in einem Rich Text Teaser einfügen möchtest, kannst du die Anleitung [Eigener Anker im Rich-Text](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm) nutzen. Bei einem Anker auf derselben Seite hilft dir die Anleitung [Anker auf gleicher Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm). Wenn du einen Anker auf einer anderen Seite setzen möchtest, verwende die Anleitung [Anker auf einer anderen Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm). Diese Anleitungen bieten detaillierte Schritte zum Einrichten von Ankerlinks innerhalb von Rich Text Teasern und anderen Elementen.
+human: Wie kann ich einen Mailverlauf im CRM aufsetzen?
+AI: Leider kann ich deine Frage nicht beantworten.
+human: Wie erstelle ich eine Anker im D365?
+AI: Um einen Anker in eine Webseite einzufügen, können unterschiedliche Elemente genutzt werden. Wenn du einen Anker in einem Rich Text Teaser einfügen möchtest, kannst du die Anleitung [Eigener Anker im Rich-Text](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm) nutzen. Bei einem Anker auf derselben Seite hilft dir die Anleitung [Anker auf gleicher Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm). Wenn du einen Anker auf einer anderen Seite setzen möchtest, verwende die Anleitung [Anker auf einer anderen Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm). Diese Anleitungen bieten detaillierte Schritte zum Einrichten von Ankerlinks innerhalb von Rich Text Teasern und anderen Elementen.
+human: wie füge ich so einen Anker ein?
+AI: Um einen Anker in eine Webseite einzufügen, können unterschiedliche Elemente genutzt werden. Wenn du einen Anker in einem Rich Text Teaser einfügen möchtest, kannst du die Anleitung [Eigener Anker im Rich-Text](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm) nutzen. Bei einem Anker auf derselben Seite hilft dir die Anleitung [Anker auf gleicher Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm). Wenn du einen Anker auf einer anderen Seite setzen möchtest, verwende die Anleitung [Anker auf einer anderen Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm). Diese Anleitungen bieten detaillierte Schritte zum Einrichten von Ankerlinks innerhalb von Rich Text Teasern und anderen Elementen.
+human: was ist ein anker?
+AI: Ein Anker ist eine Sprungmarke in einer Webseite, die es ermöglicht, zu einem bestimmten Abschnitt auf derselben Seite zu gelangen. Ein Anker kann in einem Rich Text Teaser erstellt werden, um zu einem bestimmten Abschnitt auf einer anderen Seite zu springen. Eine Anleitung, wie Anker gesetzt und verwendet werden können, findest du [hier](https://applsupport.hslu.ch/webhelp/hm_anker.htm).
+<<oldest message>> 
+Neue Frage: Kann ich dort auch externe Links einfügen?
+Umstrukturierte Frage = Kann ich in der virtuellen Navigation auch externe Link einfügen?
+
+3. Beispiel
+Chat-History: <<newest message>>
+human: Wie füge ich so einen Anker ein?
+AI: Um einen Anker in eine Webseite einzufügen, können unterschiedliche Elemente genutzt werden. Wenn du einen Anker in einem Rich Text Teaser einfügen möchtest, kannst du die Anleitung [Eigener Anker im Rich-Text](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm) nutzen. Bei einem Anker auf derselben Seite hilft dir die Anleitung [Anker auf gleicher Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm). Wenn du einen Anker auf einer anderen Seite setzen möchtest, verwende die Anleitung [Anker auf einer anderen Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm). Diese Anleitungen bieten detaillierte Schritte zum Einrichten von Ankerlinks innerhalb von Rich Text Teasern und anderen Elementen.
+human: Wie kann ich einen Mailverlauf im CRM aufsetzen?
+AI: Leider kann ich deine Frage nicht beantworten.
+human: Wie erstelle ich eine Anker im D365?
+AI: Um einen Anker in eine Webseite einzufügen, können unterschiedliche Elemente genutzt werden. Wenn du einen Anker in einem Rich Text Teaser einfügen möchtest, kannst du die Anleitung [Eigener Anker im Rich-Text](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm) nutzen. Bei einem Anker auf derselben Seite hilft dir die Anleitung [Anker auf gleicher Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm). Wenn du einen Anker auf einer anderen Seite setzen möchtest, verwende die Anleitung [Anker auf einer anderen Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm). Diese Anleitungen bieten detaillierte Schritte zum Einrichten von Ankerlinks innerhalb von Rich Text Teasern und anderen Elementen.
+human: wie füge ich so einen Anker ein?
+AI: Um einen Anker in eine Webseite einzufügen, können unterschiedliche Elemente genutzt werden. Wenn du einen Anker in einem Rich Text Teaser einfügen möchtest, kannst du die Anleitung [Eigener Anker im Rich-Text](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm) nutzen. Bei einem Anker auf derselben Seite hilft dir die Anleitung [Anker auf gleicher Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm). Wenn du einen Anker auf einer anderen Seite setzen möchtest, verwende die Anleitung [Anker auf einer anderen Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm). Diese Anleitungen bieten detaillierte Schritte zum Einrichten von Ankerlinks innerhalb von Rich Text Teasern und anderen Elementen.
+human: was ist ein anker?
+AI: Ein Anker ist eine Sprungmarke in einer Webseite, die es ermöglicht, zu einem bestimmten Abschnitt auf derselben Seite zu gelangen. Ein Anker kann in einem Rich Text Teaser erstellt werden, um zu einem bestimmten Abschnitt auf einer anderen Seite zu springen. Eine Anleitung, wie Anker gesetzt und verwendet werden können, findest du [hier](https://applsupport.hslu.ch/webhelp/hm_anker.htm).
+<<oldest message>> 
+Neue Frage: Wieso wird sie nicht angesprungen?
+Umstrukturierte Frage = Wieso wird mein Anker nicht angesprungen?
+
+Vorgehen:
+Lies die CHAT-HISTORY und die AKTUELLE FRAGE.
+Ergänze die AKTUELLE FRAGE mit dem Webelement auf die sich die Frage bezieht.
+Das ist eine Liste von Webelementen: Anker, Teaser, Moodboard, Hauptnavigation, Sidenavigation, viruelle Navigation, Filterliste. 
+Ersetze alle Anaphern in der AKTUELLEN FRAGE mit den konkreten Wörtern, die in der CHAT-History erwähnt werden. Beispiele für Anaphern sind "dieses", "dort" usw.
+
+Falls sich die Frage nicht auf den vorherigen Chatverlauf bezieht, spiele die Frage in ihrer originalen Form zurück. Antworte immer nur mit der unstrukturierten Frage oder mit der originalen Frage, ohne jeglichen zusätzlichen Text.
+
+CHAT-HISTORY: 
+<<newest message>>
+human: Wie füge ich so einen Anker ein?
+AI: Um einen Anker in eine Webseite einzufügen, können unterschiedliche Elemente genutzt werden. Wenn du einen Anker in einem Rich Text Teaser einfügen möchtest, kannst du die Anleitung [Eigener Anker im Rich-Text](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm) nutzen. Bei einem Anker auf derselben Seite hilft dir die Anleitung [Anker auf gleicher Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm). Wenn du einen Anker auf einer anderen Seite setzen möchtest, verwende die Anleitung [Anker auf einer anderen Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm). Diese Anleitungen bieten detaillierte Schritte zum Einrichten von Ankerlinks innerhalb von Rich Text Teasern und anderen Elementen.
+human: Wie kann ich einen Mailverlauf im CRM aufsetzen?
+AI: Leider kann ich deine Frage nicht beantworten.
+human: Wie erstelle ich eine Anker im D365?
+AI: Um einen Anker in eine Webseite einzufügen, können unterschiedliche Elemente genutzt werden. Wenn du einen Anker in einem Rich Text Teaser einfügen möchtest, kannst du die Anleitung [Eigener Anker im Rich-Text](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm) nutzen. Bei einem Anker auf derselben Seite hilft dir die Anleitung [Anker auf gleicher Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm). Wenn du einen Anker auf einer anderen Seite setzen möchtest, verwende die Anleitung [Anker auf einer anderen Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm). Diese Anleitungen bieten detaillierte Schritte zum Einrichten von Ankerlinks innerhalb von Rich Text Teasern und anderen Elementen.
+human: wie füge ich so einen Anker ein?
+AI: Um einen Anker in eine Webseite einzufügen, können unterschiedliche Elemente genutzt werden. Wenn du einen Anker in einem Rich Text Teaser einfügen möchtest, kannst du die Anleitung [Eigener Anker im Rich-Text](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm) nutzen. Bei einem Anker auf derselben Seite hilft dir die Anleitung [Anker auf gleicher Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm). Wenn du einen Anker auf einer anderen Seite setzen möchtest, verwende die Anleitung [Anker auf einer anderen Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm). Diese Anleitungen bieten detaillierte Schritte zum Einrichten von Ankerlinks innerhalb von Rich Text Teasern und anderen Elementen.
+human: was ist ein anker?
+AI: Ein Anker ist eine Sprungmarke in einer Webseite, die es ermöglicht, zu einem bestimmten Abschnitt auf derselben Seite zu gelangen. Ein Anker kann in einem Rich Text Teaser erstellt werden, um zu einem bestimmten Abschnitt auf einer anderen Seite zu springen. Eine Anleitung, wie Anker gesetzt und verwendet werden können, findest du [hier](https://applsupport.hslu.ch/webhelp/hm_anker.htm).
+<<oldest message>>
+
+AKTUELLE FRAGE: wie ist das wetter heute?
+
+UMSTRUKTURIERTE/ORIGINALE FRAGE:
+
+====== 
+
+RESPONSE:
+
+Leider kann ich deine Frage nicht beantworten.

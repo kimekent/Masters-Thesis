@@ -1,5 +1,5 @@
 """
-This file contains the functions used to run the testing OpenAI chatbot.
+This file contains the functions used to run the testing OpenAI chatbots located at '\testing\testing_chatbot'.
 """
 
 from time import time, sleep
@@ -44,58 +44,6 @@ def gpt3_1106_completion(prompt, model='gpt-3.5-turbo-1106', temperature=0.7, ma
             if retry > max_retry:
                 return f"GPT3 error: {e}"
             print('Error communicating with OpenAI:', e)
-            sleep(1)
-
-
-def gpt3_0613_completion(prompt, model='gpt-3.5-turbo-0613', messages=None, temperature=0.6, top_p=1.0, max_tokens=1000, directory=None):
-    """
-    Generate a text completion using OpenAI's GPT-3.5-turbo model and log the response.
-    This generation function is used to reformulate the question for the retriever prompt.
-
-    :param prompt: The input text to prompt the model.
-    :param model: The GPT-3.5 model used for generating text (default 'gpt-3.5-turbo')..
-    :param messages: Additional context messages for the chat (optional).
-    :param temperature: The temperature setting for response generation (default 0.6).
-    :param top_p: The top_p setting for controlling the randomness of the response (default 1.0).
-    :param max_tokens: The maximum number of tokens to generate (default 1000).
-    :param directory: Directory to save the generated responses.
-    :return: The generated completion text.
-    """
-
-    # Attempt GPT-3.5 Turbo completion with retries
-    max_retry = 5
-    retry = 0
-    while True:
-        try:
-            # Create a chat conversation with GPT-3.5 Turbo
-            response = openai.ChatCompletion.create(
-                model=model,
-                messages=messages or [
-                    {"role": "system", "content": "You are a helpful assistant."},
-                    {"role": "assistant", "content": prompt}
-                ],
-                temperature=temperature,
-                top_p=top_p,
-                max_tokens=max_tokens,
-                stop=['<<END>>']
-            )
-
-            try:
-                # Extract and save the response
-                text = response.choices[0].message.content.strip()
-                filename = f'{time()}_gpt3.txt'
-                with open(f'{directory}/{filename}', 'w') as outfile:
-                    outfile.write('PROMPT:\n\n' + prompt + '\n\n====== \n\nRESPONSE:\n\n' + text)
-                print("saved to log")
-                return text
-            except:
-                print("couldnt save to log")
-        except Exception as oops:
-            # Handle errors and retry
-            retry += 1
-            if retry > max_retry:
-                return f"GPT3 error: {oops}"
-            print('Error communicating with OpenAI:', oops)
             sleep(1)
 
 

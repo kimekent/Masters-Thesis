@@ -16,8 +16,8 @@ It takes the following parameters: Test type, question, retriever, prompt, and i
     A dedicated generation component manages this unique setup, storing previous responses in the prompt
     for reference.
 
-To run the code, change the "path" variable to the directory path where your project files are located and
-add your OpenAI API key to the 'openaiapikey.txt' file, which can be found in the root folder of this project.
+To run this script update the 'path' variable to the root directory of this project and add your OpenAI API key to
+'openaiapikey.txt' in the root directory of this project.
 """
 
 
@@ -25,7 +25,7 @@ add your OpenAI API key to the 'openaiapikey.txt' file, which can be found in th
 import openai
 import os
 import ast
-from testing_functions import gpt3_0613_completion, gpt3_1106_completion, open_file, num_tokens_from_string, remove_history, save_file, OpenAI_retriever
+from testing_functions import gpt3_1106_completion, open_file, num_tokens_from_string, remove_history, save_file, OpenAI_retriever
 
 
 # 1. Setup-----------------------------------------------------------------------------------------
@@ -143,12 +143,8 @@ def main(test, retriever, query=None, max_input=None, question_prompt=None, retr
             if query_count >= 1:
                 # Add memory to retriever
                 current_retriever_prompt = testing_retriever_prompt.replace('<<query>>', question)
-                restructured_query = gpt3_0613_completion(current_retriever_prompt,
-                                                          model='gpt-3.5-turbo-0613',
-                                                          messages=None, temperature=0.6,
-                                                          top_p=1.0,
-                                                          max_tokens=1000,
-                                                          directory=testing_retriever_prompt_logs)
+                restructured_query = gpt3_1106_completion(prompt=current_retriever_prompt,
+                                                          log_directory=testing_retriever_prompt_logs)
 
                 print("Restructured query: " + restructured_query)
             else:

@@ -1,0 +1,48 @@
+PROMPT:
+
+Formuliere die AKTUELLE FRAGE um, so dass klar ist, worauf sich die Frage bezieht. Nutze dazu die Infromationen aus der Chat-History. Falls die Frage bereits eindeutig ist, belasse sie in der originalen Form. Antworte immer nur mit der unstrukturierten Frage oder mit der originalen Frage, ohne jeglichen zusätzlichen Text.
+
+Beispiele: 
+1. Beispiel
+Chat-History: <<newest message>>
+
+<<oldest message>>
+Neue Frage: Sie ist jedoch auf englisch.
+Umstrukturierte Frage = Wie kann ich ein englische Seite löschen?
+
+2. Beispiel
+Chat-History: <<newest message>>
+
+<<oldest message>> 
+Neue Frage: Kann ich dort auch externe Links einfügen?
+Umstrukturierte Frage = Kann ich in der virtuellen Navigation auch externe Link einfügen?
+
+3. Beispiel
+Chat-History: <<newest message>>
+
+<<oldest message>> 
+Neue Frage: Wieso wird sie nicht angesprungen?
+Umstrukturierte Frage = Wieso wird mein Anker nicht angesprungen?
+
+Vorgehen:
+Lies die CHAT-HISTORY und die AKTUELLE FRAGE.
+Ergänze die AKTUELLE FRAGE mit dem Webelement auf die sich die Frage bezieht.
+Das ist eine Liste von Webelementen: Anker, Teaser, Moodboard, Hauptnavigation, Sidenavigation, viruelle Navigation, Filterliste. 
+Ersetze alle Anaphern in der AKTUELLEN FRAGE mit den konkreten Wörtern, die in der CHAT-History erwähnt werden. Beispiele für Anaphern sind "dieses", "dort" usw.
+
+Falls sich die Frage nicht auf den vorherigen Chatverlauf bezieht, spiele die Frage in ihrer originalen Form zurück. Antworte immer nur mit der unstrukturierten Frage oder mit der originalen Frage, ohne jeglichen zusätzlichen Text.
+
+CHAT-HISTORY: 
+<<newest message>>
+
+<<oldest message>>
+
+AKTUELLE FRAGE: Wieso wird meine Infoveranstaltung in der Filterliste nicht dargestellt?
+
+UMSTRUKTURIERTE/ORIGINALE FRAGE:
+
+====== 
+
+RESPONSE:
+
+Wieso wird meine Infoveranstaltung in der Filterliste nicht dargestellt?

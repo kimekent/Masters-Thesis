@@ -1,5 +1,6 @@
 """
-This file contains the functions that are used to run the intent-less chatbot.
+This file contains the functions that are used to run the intent-less chatbot located at
+'\intent-less_chatbot\chatbot.py'.
 """
 
 from time import time, sleep
@@ -43,55 +44,6 @@ def gpt3_1106_completion(prompt, model='gpt-3.5-turbo-1106', temperature=0.7, ma
             if retry > max_retry:
                 return f"GPT3 error: {e}"
             print('Error communicating with OpenAI:', e)
-            sleep(1)
-
-
-def gpt3_0613_completion(prompt, model='gpt-3.5-turbo-0613', messages=None, temperature=0.6, top_p=1.0, max_tokens=1000, directory=None):
-    """
-    Generate a text completion using OpenAI's GPT-3.5-turbo model and log the response.
-    This generation function is used to reformulate the question for the retriever prompt.
-
-    :param prompt: The input text to prompt the model.
-    :param model: The GPT-3.5 model used for generating text (default 'gpt-3.5-turbo')..
-    :param messages: Additional context messages for the chat (optional).
-    :param temperature: The temperature setting for response generation (default 0.6).
-    :param top_p: The top_p setting for controlling the randomness of the response (default 1.0).
-    :param max_tokens: The maximum number of tokens to generate (default 1000).
-    :param directory: Directory to save the generated responses.
-    :return: The generated completion text.
-    """
-    # Attempt GPT-3.5 Turbo completion with retries
-    max_retry = 5
-    retry = 0
-    while True:
-        try:
-            # Create a chat conversation with GPT-3.5 Turbo
-            response = openai.ChatCompletion.create(
-                model=model,
-                messages=messages or [
-                    {"role": "system", "content": "You are a helpful assistant."},
-                    {"role": "assistant", "content": prompt}
-                ],
-                temperature=temperature,
-                top_p=top_p,
-                max_tokens=max_tokens,
-                stop=['<<END>>']
-            )
-            try:
-                # Extract and save the response
-                text = response.choices[0].message.content.strip()
-                filename = f'{time()}_gpt3.txt'
-                with open(f'{directory}/{filename}', 'w') as outfile:
-                    outfile.write('PROMPT:\n\n' + prompt + '\n\n====== \n\nRESPONSE:\n\n' + text)
-                return text
-            except:
-                print("error saving to log")
-        except Exception as oops:
-            # Handle errors and retry
-            retry += 1
-            if retry > max_retry:
-                return f"GPT3 error: {oops}"
-            print('Error communicating with OpenAI:', oops)
             sleep(1)
 
 
@@ -190,7 +142,7 @@ def adjust_similarity_scores(results, question, word_intent_dict, multiplier):
 
     # Extract words from the question
     question_lower = question.lower()
-    print(question_lower)
+
 
     # Determine relevant intents based on single words and combinations
     relevant_intents = set()
@@ -201,7 +153,6 @@ def adjust_similarity_scores(results, question, word_intent_dict, multiplier):
         elif isinstance(key, str):  # Check for single words
             if key.lower() in question_lower:
                 relevant_intents.update(intents)
-    print(relevant_intents)
     for document, score in results:
         try:
             doc_intent = document.metadata.get("intent")
@@ -212,8 +163,8 @@ def adjust_similarity_scores(results, question, word_intent_dict, multiplier):
                 document.metadata['adjusted_similarity_score'] = score
             adjusted_results.append((document, score))
 
-        except KeyError:
-            print("im in except")
+        except KeyError as e:
+            print(e)
             continue
 
     adjusted_results.sort(key=lambda x: x[1])
@@ -233,34 +184,3 @@ def replace_links_with_placeholder(text):
     url_pattern = r'https://\S+'
     modified_link = re.sub(url_pattern, '<<link>>', str(text))
     return modified_link
-
-from langchain.memory import ConversationBufferWindowMemory,ConversationBufferMemory, ConversationSummaryBufferMemory
-from langchain.prompts.prompt import PromptTemplate
-
-def prompt_memory(memory_type, llm, max_conversation_turns=None, max_token_limit=None, memory_file_path=None):
-    """
-    Initialize and return a specific type of memory for a language model.
-
-    :param memory_type: The type of memory to use ('ConversationSummaryBufferMemory', 'ConversationBufferWindowMemory', or 'ConversationBufferMemory').
-    :param llm: The language learning model to be used with the memory.
-    :param max_conversation_turns: The maximum number of conversation turns to store (applicable for ConversationBufferWindowMemory).
-    :param max_token_limit: The maximum number of tokens to store (applicable for ConversationSummaryBufferMemory).
-    :param memory_file_path: File path for the memory prompt template (applicable for ConversationSummaryBufferMemory).
-    :return: An instance of the specified memory type.
-    """
-    if memory_type == 'ConversationSummaryBufferMemory':
-        with open(memory_file_path, 'r', encoding='utf-8') as file:
-            memory_prompt_text = file.read()
-            memory_prompt = PromptTemplate(input_variables=['summary', 'new_lines'], template=memory_prompt_text)
-            memory = ConversationSummaryBufferMemory(llm=llm, max_token_limit=max_token_limit, prompt=memory_prompt)
-
-    elif memory_type == 'ConversationBufferWindowMemory':
-        memory = ConversationBufferWindowMemory(k=max_conversation_turns)
-
-    elif memory_type == 'ConversationBufferMemory':
-        memory = ConversationBufferMemory()
-
-    else:
-        raise ValueError(f"Invalid memory type: {memory_type}")
-
-    return memory

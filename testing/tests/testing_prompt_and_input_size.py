@@ -12,7 +12,7 @@ It encompasses several key stages:
 
 - Visualization: Results of the performance evaluation are visualized using line charts (step 5).
 
-To run this script update the 'path' variable to the project directory path and add your OpenAI API key to
+To run this script update the 'path' variable to the root directory of this project and add your OpenAI API key to
 'openaiapikey.txt' in the root directory of this project.
 
 To run the evaluation on the generated responses execute steps 3-6.
@@ -20,7 +20,7 @@ To run the evaluation on the generated responses execute steps 3-6.
 
 
 # 1. Setup--------------------------------------------------------------------------------------------------------------
-# Set variables and paths
+# Set path to root directory and OpenAI API key
 import sys
 path = r'C:\Users\Kimberly Kent\Documents\Master\HS23\Masterarbeit\Masters-Thesis' # Change
 testing_path = path + r'\testing'

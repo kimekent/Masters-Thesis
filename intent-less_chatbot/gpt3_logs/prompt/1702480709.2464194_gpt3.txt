@@ -1,0 +1,383 @@
+PROMPT:
+
+Deine Aufgabe ist es, auf die folgende AKTUELLE FRAGE zu antworten. Gib mögliche Ratschläge zum beheben des Problems. Sei so konkret wie möglich.
+Verwende zur Beantwortung der FRAGE ausschliesslich die folgenden WEBHELP-ARTIKEL und die ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN. Vermeide das Hinzufügen von Informationen oder Eklärungen, die nicht in einem WEBHELP-ARTIKEL oder in den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN stehen.
+Antworte so kurz wie möglich, ohne dabei wichtige Informationen auszulassen. Vermeide bei der Antwort Wiederholungen.
+Achte darauf, welche Sprachversion der Website in der Frage erwähnt wird. Verwende zur Beantwortung der Frage, die Informationen aus den WEBHELP-ARTIKEL und den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN, die zur erwähnten Sprachversion passen. Wird keine Sprachversion erwähnt, handelt es sich um die deutsche Seite, nicht um die englische Seite.
+Lies immer alle WEBHELP-ARTIKEL und ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN durch. Die obersten ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN enthalten oftmals nicht die richtige Antwort.
+Sprich in der DU-Form.
+Verwende bei längerem Texten Aufzählungszeichen.
+Verlinke hilfreiche Webhelp-Artikel in der Antwort.
+
+CHAT-HISTORY: 
+
+
+
+Human: wie lösche ich eine Seite? 
+AI: Um eine Seite zu löschen, navigiere im Ribbon-Menü zu "Home" und wähle "Delete Page". Bestätige den Löschvorgang und entscheide, was mit den Links geschehen soll, die auf die Seite verweisen. Weitere Informationen findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm).
+
+Wenn du eine Seite verschieben möchtest, navigiere im Ribbon-Menü zu "Home" und wähle "Move Page". Wähle dann die Zielseite aus und bestätige den Vorgang. Weitere Informationen findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_verschieben.htm). 
+Human: Was ist ein Anker in Bezug auf Webseiten? 
+AI: Um Anker auf einer Webseite zu setzen, navigiere zu dem gewünschten Textbereich und füge das Ankerzeichen (#) vor dem Text ein. Anschließend kannst du einen Link zu diesem Anker setzen, indem du die URL der Seite gefolgt von "#" und dem Ankername angibst. Weitere Informationen findest du [hier](https://applsupport.hslu.ch/webhelp/hm_anker.htm) und [hier](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm). 
+Human: Wie füge ich einen Anker auf der Seite hinzu? 
+AI: Um einen Anker auf der Seite hinzuzufügen, navigiere zu dem gewünschten Textbereich und füge das Ankerzeichen (#) vor dem Text ein. Weitere Informationen findest du [hier](https://applsupport.hslu.ch/webhelp/hm_anker.htm) und [hier](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm). 
+Human: Wie kann ich die englische Sprachversion einer Seite löschen, ohne die deutsche Version zu löschen? 
+AI: Um die englische Sprachversion einer Seite zu löschen, navigiere im Item-Tree zur entsprechenden Seite und wechsle im Ribbon Menü zum Tab Versions. Klicke auf den großen Sprachbutton zur zu löschenden Sprachversion (hier im Beispiel englisch) und wähle "Remove". Bestätige den Löschvorgang und die englische Version wird gelöscht. Weitere Informationen findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm).
+<<history>>
+
+AKTUELLE FRAGE: Wie kann ich die Kontaktinformationen in der Kontaktbox anpassen?
+
+ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN:
+Q: Wie kann ich die Kontaktangaben einer Person anpassen?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wie kann ich die Telefonnummer in der Kontaktbox einer Person dauerhaft anpassen?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wo kann ich die Kontaktangaben einer Person anpassen?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich habe festgestellt, dass die Kontaktangaben einer Person nicht mehr aktuell sind. Wie kann ich sie in der Kontaktbox korrigieren?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wie kann ich eine E-Mail-Adresse in einem Kontaktteaser anpassen?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wie kann ich die Kontaktdetails einer Person überschreiben?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich möchte den Nachnamen in der Kontaktbox einer Person ändern. Was sind die Schritte dafür?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich muss die Jobbezeichnung in der Kontaktbox einer Person korrigieren. Wie gehe ich vor?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wie kann ich die Telefonnummer in einem Kontaktteaser aktualisieren?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich muss die Kontaktdetails einer Person in ihrem Profil aktualisieren. Wo finde ich die Option dazu?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich möchte gerne den Titel in einer Kontaktbox überarbeiten.
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wie kann ich einen Kontaktteaser bearbeiten?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Kann ich den Jobtitel in der Kontaktbox einer Person bearbeiten? Sie hat kürzlich eine neue Position erhalten.
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Unsere Mitarbeiterin hat geheiratet und ich muss ihren Nachnamen in allen Kontaktboxen ändern. Wie mache ich das?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wie kann ich den akademischen Titel einer Person in ihrem Kontaktteaser bearbeiten?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich habe gerade gesehen, dass der Nachname einer Person im Kontaktteaser nicht stimmt. Wie kann ich das überall anpassen?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich muss die E-Mail-Adresse einer Person in ihrem Kontaktteaser ändern. Kann ich das selbst machen oder brauche ich Hilfe?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Die E-Mail-Adresse unseres Geschäftsführers hat sich geändert. Wie kann ich diese Änderung in seinem Kontaktteaser vornehmen?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Unser Teammitglied hat eine neue Telefonnummer. Wie kann ich diese in seinem Kontaktteaser ändern?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: 
+ Kann ich bei einer Kontaktperson eine andere Emailadresse als im System hinterlegt hinzufuegen?
+ 
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden soll, müssen das folglich die  die Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) übersteuert werden. Dazu muss das Element Kontaktperson-Element (manuell) verwendet werden. Bei diesem Element können alle Daten zum Kontakt manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Unser Mitarbeiter hat seinen Doktortitel erhalten. Wie kann ich seinen Titel in der Kontaktbox aktualisieren?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Die Jobbezeichnung stimmt bei einer Person im Kontaktteaser nicht. Wie kann ich dies ändern?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wie kann die Infobox gelöscht werden?
+A: Die Infobox muss wieder ueber die Page Options von der Seite gelöst werden (so wie sie hinzugefuegt wurde).
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon Sitecore_btn_window_refresh neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+Hier die Anleitung mit Bilder: [https://applsupport.hslu.ch/webhelp/index.html?hm_infobox_löschen.htm](https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm?zoom_highlightsub=infobox).
+Q: Wie kann ich den Titel einer Person ändern?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich möchte den Jobtitel anpassen. Wie geht das?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wie kann ich die Infobox auf der Hauptseite löschen?
+A: Die Infobox muss wieder ueber die Page Options von der Seite gelöst werden (so wie sie hinzugefuegt wurde).
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon Sitecore_btn_window_refresh neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+Hier die Anleitung mit Bilder: [https://applsupport.hslu.ch/webhelp/index.html?hm_infobox_löschen.htm](https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm?zoom_highlightsub=infobox).
+Q: Kann ich den Kontakteaser einmalig überschreiben?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich möchte diese Info-Box löschen, da ein alter Text drin war.
+ 
+Wie muss ich da vorgehen?
+
+A: Die Infobox muss wieder ueber die Page Options von der Seite gelöst werden (so wie sie hinzugefuegt wurde).
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon Sitecore_btn_window_refresh neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+Hier die Anleitung mit Bilder: [https://applsupport.hslu.ch/webhelp/index.html?hm_infobox_löschen.htm](https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm?zoom_highlightsub=infobox).
+Q: Ich möchte permanent die Telefonnummer einer Person anpassen.
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Die Jobfunktion ist veraltet und ich möchte diese anpassen. Wie mache ich das?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Kann ich eine Infobox ausblenden?
+A: Die Infobox muss wieder ueber die Page Options von der Seite gelöst werden (so wie sie hinzugefuegt wurde).
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon Sitecore_btn_window_refresh neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+Hier die Anleitung mit Bilder: [https://applsupport.hslu.ch/webhelp/index.html?hm_infobox_löschen.htm](https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm?zoom_highlightsub=infobox).
+Q: Auf einer Forschungsprojektseite der SA sollte ein manueller Kontakt hinzugefuegt werden. Bei PPDP-Seiten steht allerdings, dass die Seiten nicht bearbeitet werden duerfen. Könnt ihr mir bitte kurz sagen, ob es möglich ist, lediglich diesen einen Kontakt hinzuzufuegen? 
+A: Forschungsprojektseiten können nicht auf Sitecore bearbeitet werden. Der gesamte Inhalt wird aus der PPDB-Datenbank gezogen. Deshalb müssen dort die Anpassungen an der Seite gemacht werden.
+ 
+Q: Unser Team hat einen neuen Leiter. Wie kann ich seinen Jobtitel in allen Kontaktteasern aktualisieren?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich möchte alle Kontaktteaser einer Person ändern.
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Kann ich die Infobox auf der Startseite deaktivieren oder ist sie ein festes Element der Seite?
+A: Die Infobox muss wieder ueber die Page Options von der Seite gelöst werden (so wie sie hinzugefuegt wurde).
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon Sitecore_btn_window_refresh neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+Hier die Anleitung mit Bilder: [https://applsupport.hslu.ch/webhelp/index.html?hm_infobox_löschen.htm](https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm?zoom_highlightsub=infobox).
+Q: Wie kann ich eine Infobox auf unserer Kursseite entfernen, wenn sie nicht mehr benötigt wird?
+A: Die Infobox muss wieder ueber die Page Options von der Seite gelöst werden (so wie sie hinzugefuegt wurde).
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon Sitecore_btn_window_refresh neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+Hier die Anleitung mit Bilder: [https://applsupport.hslu.ch/webhelp/index.html?hm_infobox_löschen.htm](https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm?zoom_highlightsub=infobox).
+Q: Ich möchte den Text bei pers. Profil von X ändert (da er nun der neue CC Leiter ist), dort steht aber "Auf dieser Seite keine Ãƒâ€žnderungen vornehmen": <<link>>
+Wie kann man den Text dann bearbeiten? Oder wird der Text von Inside uebernommen und ich soll ihn dort anpassen?
+
+A: Anpassungen am Personenprofil muss jede Person selber machen https://personenprofile.hslu.ch/. Bei jedem Personenprofil kann auch angegeben werden, ob die Person über die Personensuche gefunden werden sollte oder nicht. Manche Daten im Personenprofil kommen direkt aus Evento und müssen daher in Evento angepasst werden, so wie z.B. das Foto.
+Q: Ich habe auf der Produktseite mehrere Infoboxen eingefügt, aber es gibt zu grosse Leerflächen zwischen ihnen. Wie lösche ich diese Zwischenräume?
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Kann ich URLs selber anpassen oder macht ihr das? 
+ 
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um URL zu ändern, kann so vorgegangen werden:
+1) Im Dialog die gewünschte URL eingeben. Soll eine URL auf die ursprüngliche Zeichenfolge zurückgesetzt werden, ist hier ein Stern (*) einzugeben.
+2) Der Button "Validieren" zeigt, wie der letzte Teil der URL (http://www.hslu.ch/Neue-URL) neu in der Adresszeile aussehen wird. Bei der Validation fallen Sonderzeichen ("/,#@...) weg, Umlaute ("ö, ü, ä") werden ausgeschrieben ("ö, ue, ä") und Leerschläge durch Bindestriche ("-") ersetzt.
+3) Durch Klicken auf OK wird die URL entsprechend angepasst.
+Mehr Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_url_bearbeiten.htm)
+
+Q: Beim Master BA (W) haben wir soebendie Info-Box rueckgängig angepasst.
+ 
+Die Verlinkung fuehrt nun auf die Online Info-Events. Auf der deutschen Webseite klappt alles wunderbar. Auf der Englischen Webseite fuehrt die Verlinkung jedoch auch auf die deutschen Info-Events und nicht auf die englische Webseite. 
+Könnt ihr mir da weiterhelfen?
+ 
+A: Bei Verlinkungen zu einer Sitecore Seite sollte die Verlinkung über den Baum zur entsprechenden Seite eingefügt werden. So wird dann die Seite auch immer in der richtigen Sprachversion dargestellt. Verlinkt man eine Seite über einen externen Link kann immer nur entweder die deutsche oder die englische URL hinterlegt werden.
+Mehr Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_links-einfuegen.htm).
+ 
+Q: Gibt es eine Möglichkeit, eine Infobox zu löschen, ohne den Rest der Seite zu beeinflussen?
+A: Die Infobox muss wieder ueber die Page Options von der Seite gelöst werden (so wie sie hinzugefuegt wurde).
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon Sitecore_btn_window_refresh neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+Hier die Anleitung mit Bilder: [https://applsupport.hslu.ch/webhelp/index.html?hm_infobox_löschen.htm](https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm?zoom_highlightsub=infobox).
+Q: 
+ Kann es sein, dass ich hier unter Facts z.T. keine Anpassungen vornehmen kann? <<link>>
+ 
+ Hier muesste anstelle von "Kommunikation" neu "Kommunikationsmanagement" stehen. 
+ Könntet ihr diese Anpassung bitte vornehmen?
+ 
+A: In der Factsliste können gewisse Felder nicht manuell überschrieben werden. Diese Informationen kommen aus dem Evento. Wenn es in Evento nicht korrekt hinterlegt ist, wird es nicht korrekt auf der Website ausgespielt. Die Anpassung muss daher in Evento vorgenommen werden.
+Q: Ich möchte auf der Website Master IDS: <<link>> X als Stv. Studiengangleiterin hinzufuegen.
+Sie hat bereits ein Kontaktböxli als Dozentin, was muss ich machen, dass ich Ihre Verantwortlichkeit auf Stv. Studiengangleiterin ändern kann?
+
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden soll, müssen das folglich die  die Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) übersteuert werden. Dazu muss das Element Kontaktperson-Element (manuell) verwendet werden. Bei diesem Element können alle Daten zum Kontakt manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wie kann ich das Standardbild überschreiben, bei einem Social Media Post?
+A: Wenn kein Open Graph Bild auf der jeweiligen Seite hinterlegt ist, wird automatisch das Standardbild angezeigt. Um ein benutzerdefiniertes Bild anzuzeigen kann wie folgt vorgegangen werden: 
+1) Im Content-Tree zur entsprechenden Seite navigieren.
+2) Rechts im Contentbereich unter Spezial Meta Data können die Meta-Daten bearbeitet werden.
+3) Open Graph Image - Durch Klicken auf Browse kann hier ein Bild aus der Media-Library ausgewählt werden, welches dann als Open Graph Image verwendet wird. Das Bild ist idealerweise 1200 x 630 Pixel gross oder Bildverhältnis 1.91:1. Maximum 1500px x 1500px oder 5 MB.
+4) Checkbox Open Graph Image anzeigen - Hier kann gewählt werden, ob das Bild angezeigt werden soll oder nicht. 
+Weitere Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/hm_special_meta_data.htm?zoom_highlightsub=open+graph+bild)
+ 
+ Evtl. musst du nach dem Einfuegen des Bildes den Link zu deiner Seite einmalig fuer die SoMe Plattformen bereinigen mit den folgenden Links:
+ Facebook: https://developers.facebook.com/tools/debug/
+ Twitter: https://cards-dev.twitter.com/validator
+ LinkedIn: https://www.linkedin.com/post-inspector/
+ Danach sollte dein Bild angezeigt werden.
+ 
+Q: ich habe unten folgendes Problem (siehe Betreff) erhalten und auf der Support-Seite eigentlich auch die Antwort dazu gefunden.
+Leider weiss ich nun nur nicht, wie ich im Backend eine englische Version des Kontaktteaser erstellen müsste? Ich sehe nur, auch im Backend, dass eine englische Version vorhanden ist.
+
+A: Falls alle Texte auf englisch übersetzt wurden, und die Meldung 'Some Content is only available in German' immer noch erscheint, liegt es daran, dass es von mindestens einem Element auf der Seite noch keine Englische Version gibt. Damit die Meldung verschwindet muss von jedem Element, auch Bilder und PDFs, eine englische Version erstellt werden. Im Backend kannst du jedes Element durchgehen und so leicht nachschauen, welche Items noch keine englische Version besitzt.
+Oftmals ist es der Kontaktteaser. Es sieht auf englisch dann korrekt aus, weil Sitecore automatisch die korrekte Berufsbezeichnung übernimmt, Sitecore merkt aber auch, dass nichts angepasst wurde und geht dann davon aus, dass es noch deutsch ist. Es muss dann einfach eine englische Version davon im Backend angelegt werden. 
+Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Bitte auch die Alt-Texte der Bilder kontrollieren.  
+[Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: Ich möchte die Infobox auf der Über uns-Seite löschen, da sie nicht mehr aktuell ist.
+A: Die Infobox muss wieder ueber die Page Options von der Seite gelöst werden (so wie sie hinzugefuegt wurde).
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon Sitecore_btn_window_refresh neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+Hier die Anleitung mit Bilder: [https://applsupport.hslu.ch/webhelp/index.html?hm_infobox_löschen.htm](https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm?zoom_highlightsub=infobox).
+Q: Wen muss ich anschreiben, wenn eine Mitarbeiterin nicht in der Personensuche der HSLU erscheint?
+A: Die Personenprofile werden direkt aus dem Evento herausgezogen. Wenn eine Person also nicht in der Suche auftaucht, kläre am besten mit dem Sekretariat ab, ob diese Person im Evento richtig erfasst wurde.
+ 
+Q: Eine kurze Frage: Damit der Hinweis verschwindet. Finde ich irgendwo eine Auflistung welche Elemente fehlen? Und müssen auch alle Bilder doppelt hochgeladen werden, damit die Nachricht nicht angezeigt wird?
+A: Falls alle Texte auf englisch übersetzt wurden, und die Meldung 'Some Content is only available in German' immer noch erscheint, liegt es daran, dass es von mindestens einem Element auf der Seite noch keine Englische Version gibt. Damit die Meldung verschwindet muss von jedem Element, auch Bilder und PDFs, eine englische Version erstellt werden. Im Backend kannst du jedes Element durchgehen und so leicht nachschauen, welche Items noch keine englische Version besitzt.
+Oftmals ist es der Kontaktteaser. Es sieht auf englisch dann korrekt aus, weil Sitecore automatisch die korrekte Berufsbezeichnung übernimmt, Sitecore merkt aber auch, dass nichts angepasst wurde und geht dann davon aus, dass es noch deutsch ist. Es muss dann einfach eine englische Version davon im Backend angelegt werden. 
+Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Bitte auch die Alt-Texte der Bilder kontrollieren.  
+[Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+
+WEBHELP-ARTIKEL 
+ Key: Kontaktperson auswählen
+content2>sidebar-_moegliche_items>kontakt2
+1) Auf den leeren Kontakt-Teaser klicken und im Kontext-Menü auf den Editier-Button klicken.
+ 
+
+ 
+ 
+2) Im Suchfeld ein Name eingeben und dann die gewünschte Person auswählen. Die Person kann mittels Doppelklick oder mit einem Klick auf den Pfeil in die rechte Spalte aufgenommen werden.
+ 
+
+ 
+ 
+3) Falls gewünscht, kann die Funktion der gewählten Person im Feld "Funktion (benutzerdefiniert)" übersteuert werden.
+ 
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_kontaktperson_auswaehlen.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_kontaktperson_auswaehlen.htm  Key: Kontaktperson (SelpstpflegeDB)
+Navigation:  Seitenelemente > Sidebar Container 
+
+Die Kontaktperson (automatisch) lässt die Redaktion ein Person auswählen und fügt diese mit Bild, Name, Standardfunktion, Telefonnummer und Email ein.
+
+Die Redaktion kann die Funktion manuell übersteuern.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_kontakt2.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_kontakt2.htm  Key: Kontaktperson-Element (manuell) einfügen
+content2>sidebar-_moegliche_items>unpersoenlicher_kontakt-teaser
+1) In die Sidebar klicken. Dann auf + Add to here klicken.
+ 
+Hinweis: Unter dem Kapitel "Template auf einer Seite platzieren" wird erklärt, wie die Einfüge-Buttons eingeblendet werden können.
+ 
+
+ 
+ 
+2) Kontaktperson (Manuell) auswählen und Select klicken.
+ 
+
+ 
+ 
+3) Entweder wird über Create New Content ein neuer Kontakt erstellen, oder über Select Existing Content ein bestehender Kontakt auswählen.
+ 
+
+ 
+ 
+4) Alle benötigten Felder können direkt im leeren Kontakt eingepflegt werden ("Name", "Funktion / Büro", "Telefon", "E-Mail") oder über den Bearbeiten-Button im Editierfenster bearbeitet werden.
+ 
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm  Key: Infobox wählen / wechseln
+Navigation:  Seitenelemente > Info Box
+
+In dieser Anleitung wird erklärt, wie die Infobox ausgetauscht oder neu hinzugefügt werden kann. Voraussertzung hier ist, dass die Infobox schon erstellt wurde (https://applsupport.hslu.ch/webhelp/index.html?hm_infoboxtitle.htm).
+
+1) Im Ribbon-Menü unter Campus > Page Options kann eine andere Infobox der Seite zugewiesen werden. Eine Infobox auswählen und mit OK der Seite zuweisen.
+ 
+Hinweis: Es können pro Seite mehrere Infoboxen erstellt werden, aber nur eine kann auf der Seite dargestellt werden.
+ 
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_infoboxtext.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_infoboxtext.htm  Key: Kontaktadresse zuweisen
+Navigation:  Seitenelemente > Footer > Kontaktadressen >
+ 
+Diese Anleitung erklärt, wie eine Kontaktadresse im Footer einer Seite neu hinzugefügt werden kann. Voraussetzung ist, dass die Adresse schon vorhanden ist (https://applsupport.hslu.ch/webhelp/index.html?hm_footer_adress_neu_erstellen.htm)
+
+1) Im Content Tree die zu bearbeitende Seite auswählen.
+ 
+2) Beim Inhalt im Bereich Footer > Kontaktadresse in das leere Feld klicken und im Drop-Down Menü eine Adresse auswählen.
+ 
+3) Im Ribbon-Menü auf Save (Tastenkombination Ctrl + S) klicken.
+ 
+
+Link: https://applsupport.hslu.ch/webhelp/hm_kontakt.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_kontakt.htm  Key: Kontaktadressen
+Navigation:  Seitenelemente > Footer
+
+In dieser Anleitung wird beschrieben, wo, in welchem Ordner, die Kontaktadressen, die untem im Footer auf den Websiten sichtbar sind im Backend gespeichert sind und wie eine Änderung dieser Adressen beantragt werden kann.
+
+Pfad im Page-Editor: Ribbon-Menü > Campus > Configuration > Campus > Footer Adresses
+ 
+Neue Kontaktadresse: Eine zusätzlich gewünschte Adresse kann via eMail über web-support@hslu.ch beantragt werden.
+ 
+Änderungen Kontaktadresse: Änderungen an einer bestehenden Adresse können via eMail über web-support@hslu.ch beantragt werden.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_footer_adresses_-_system.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_footer_adresses_-_system.htm  Key: Bestehende Kontaktadresse editieren
+Navigation:  Seitenelemente > Footer > Kontaktadressen
+
+Änderungen Kontaktadresse: Änderungen an einer bestehenden Adresse können via eMail über web-support@hslu.ch beantragt werden.
+ 
+Wie kommt man zum richtigen Ordner
+1) Configuration Fenster öffnen (Ribbon > Campus > Configuration)
+2) Im Zielordner Campus > Footer Adresses eine zu bearbeitende Adresse auswähen.
+3) Im Content-Bereich können die Daten bearbeitet werden.
+ 
+1) Im Ordner Footer Addresses eine zu bearbeitende Adresse auswählen.
+ 
+2) Im Content-Bereich können die einzelnen Felder bearbeitet werden.
+ 
+3) Wird ein Pflichtfeld nicht ausgefüllt, und die Adresse gesichert, erscheint eine Warnung:
+ 
+4) Wird dann auf OK geklickt, wird der Inhalt gesichert und das Pflichtfeld wird rot markiert. In diesem Fall das Feld korrekt ausfüllen und nochmals sichern.
+Wir Abbrechen wird das Warnfenster geschlossen, und die fehlenden Daten können weiter erfasst werden.
+ 
+5) Beim Pflichtfeld Telefon erscheint eine anderer Warnhinweis mit der gewünschten Formatierung.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_bestehende_footer_adress_editi.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_bestehende_footer_adress_editi.htm  Key: Kontaktperson-Element (automatisch) einfügen
+content2>sidebar-_moegliche_items>kontakt2
+1) In die Sidebar klicken. Dann auf + Add to here klicken.
+ 
+Hinweis: Unter dem Kapitel "Template auf einer Seite platzieren" wird erklärt, wie die Einfüge-Buttons eingeblendet werden können.
+ 
+
+ 
+ 
+2) Kontaktperson (SelbstpflegeDB) auswählen und Select klicken.
+ 
+
+ 
+ 
+3) Entweder wird über Create New Content ein neuer Kontakt erstellen, oder über Select Existing Content ein bestehender Kontakt ausgewählt. Ins Feld Name den Titel des neuen Elementes einfügen.
+ 
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_kontaktperson_automatisch_einf.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_kontaktperson_automatisch_einf.htm  Key: Kontaktperson (manuell)
+Navigation:  Seitenelemente > Sidebar Container
+ 
+Das manuelle Kontakt-Element dient dazu, auf Sekretariate oder Gremien zu verweisen, die nicht eindeutig einer einzelnen Person zugeordnet werden können.
+
+Manuelle Kontakt-Elemente müssen keine Bilder enthalten.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_unpersoenlicher_kontakt-teaser.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_unpersoenlicher_kontakt-teaser.htm  Key: Infobox Titel, Text, Link, Farbe definieren
+Navigation:  Seitenelemente > Info Box
+
+In diesem Webhelp-Artikel ist beschrieben, wie eine Infobox editiert werden kann. Voraussetzung ist, dass die Infobox schon erstellt wurde und der Seite hinzugefügt wurde. Wie das geht ist hier beschrieben: https://applsupport.hslu.ch/webhelp/index.html?hm_infoboxtitle.htm Infoboxen nie Löschen sondern über Page Options der Seite hinzufügen und entfernen.
+
+1) Der Titel und der Text der Infobox kann direkt im Page Editor editiert werden. Mit einem Klick auf den Button , dann weiter ...
+
+2) ... mit einem Klick auf Bearbeiten , kann nebst dem Titel und dem Text, auch noch ein Link oder die Farbe der Infobox definiert werden.
+
+4) Die Seite mit Ctrl+S oder mit Klick auf das Icon speichern. Danach wird die neue leere Infobox auf der Seite dargestellt.
+
+Link: https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm
+
+Falls wirklich gar keine Information zum Beantworten der Frage in den WEBHELP-ARTIKELN oder den ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN vorhanden sind, dann antworte mit: "Leider kann ich deine Frage nicht beantworten".
+
+PRÄZISE ANTWORT:
+
+====== 
+
+RESPONSE:
+
+Um die Kontaktinformationen in der Kontaktbox anzupassen, müssen die Personaldatenverantwortlichen in Evento die Angaben dauerhaft ändern. Weitere Informationen findest du [hier](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson).

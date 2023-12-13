@@ -1,0 +1,96 @@
+PROMPT:
+
+Formuliere die AKTUELLE FRAGE um, so dass klar ist, worauf sich die Frage bezieht. Nutze dazu die Infromationen aus der Chat-History. Falls die Frage bereits eindeutig ist, belasse sie in der originalen Form. Antworte immer nur mit der unstrukturierten Frage oder mit der originalen Frage, ohne jeglichen zusätzlichen Text.
+
+Beispiele: 
+1. Beispiel
+Chat-History: <<newest message>>
+human: Was ist ein Anker?
+AI: Das Wort "Anker" bezieht sich auf Sprungmarken in einer Webseite, die es ermöglichen, direkt zu einem bestimmten Abschnitt innerhalb derselben Seite zu springen. Die Anker können sowohl auf derselben Seite als auch auf anderen internen Seiten gesetzt werden. Um einen Anker auf derselben Seite zu setzen, können verschiedene Methoden verwendet werden, je nachdem, welches Element (z. B. Rich Text Teaser, Manueller Teaser) verwendet wird.
+
+Weitere Informationen zur Erstellung von Ankern auf verschiedenen Seiten, zur Verwendung von Rich Text Teasern und zur Behandlung von Texten und Links auf Webseiten finden Sie in den folgenden Webhelp-Artikeln:
+
+- [Anker auf einer anderen Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm)
+- [Eigener Anker im Rich-Text](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm)
+- [Anker auf gleicher Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm)
+- [Text](https://applsupport.hslu.ch/webhelp/hm_text.htm)
+
+Falls die spezifische Information zur Beantwortung der Frage in den bereitgestellten Ressourcen nicht vorhanden ist, antworte mit 'Leider kann ich deine Frage nicht beantworten'.
+human: Wie kann ich mich bei Google Analytics einloggen?
+AI: Leider kann ich deine Frage nicht beantworten.
+<<oldest message>>
+Neue Frage: Sie ist jedoch auf englisch.
+Umstrukturierte Frage = Wie kann ich ein englische Seite löschen?
+
+2. Beispiel
+Chat-History: <<newest message>>
+human: Was ist ein Anker?
+AI: Das Wort "Anker" bezieht sich auf Sprungmarken in einer Webseite, die es ermöglichen, direkt zu einem bestimmten Abschnitt innerhalb derselben Seite zu springen. Die Anker können sowohl auf derselben Seite als auch auf anderen internen Seiten gesetzt werden. Um einen Anker auf derselben Seite zu setzen, können verschiedene Methoden verwendet werden, je nachdem, welches Element (z. B. Rich Text Teaser, Manueller Teaser) verwendet wird.
+
+Weitere Informationen zur Erstellung von Ankern auf verschiedenen Seiten, zur Verwendung von Rich Text Teasern und zur Behandlung von Texten und Links auf Webseiten finden Sie in den folgenden Webhelp-Artikeln:
+
+- [Anker auf einer anderen Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm)
+- [Eigener Anker im Rich-Text](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm)
+- [Anker auf gleicher Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm)
+- [Text](https://applsupport.hslu.ch/webhelp/hm_text.htm)
+
+Falls die spezifische Information zur Beantwortung der Frage in den bereitgestellten Ressourcen nicht vorhanden ist, antworte mit 'Leider kann ich deine Frage nicht beantworten'.
+human: Wie kann ich mich bei Google Analytics einloggen?
+AI: Leider kann ich deine Frage nicht beantworten.
+<<oldest message>> 
+Neue Frage: Kann ich dort auch externe Links einfügen?
+Umstrukturierte Frage = Kann ich in der virtuellen Navigation auch externe Link einfügen?
+
+3. Beispiel
+Chat-History: <<newest message>>
+human: Was ist ein Anker?
+AI: Das Wort "Anker" bezieht sich auf Sprungmarken in einer Webseite, die es ermöglichen, direkt zu einem bestimmten Abschnitt innerhalb derselben Seite zu springen. Die Anker können sowohl auf derselben Seite als auch auf anderen internen Seiten gesetzt werden. Um einen Anker auf derselben Seite zu setzen, können verschiedene Methoden verwendet werden, je nachdem, welches Element (z. B. Rich Text Teaser, Manueller Teaser) verwendet wird.
+
+Weitere Informationen zur Erstellung von Ankern auf verschiedenen Seiten, zur Verwendung von Rich Text Teasern und zur Behandlung von Texten und Links auf Webseiten finden Sie in den folgenden Webhelp-Artikeln:
+
+- [Anker auf einer anderen Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm)
+- [Eigener Anker im Rich-Text](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm)
+- [Anker auf gleicher Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm)
+- [Text](https://applsupport.hslu.ch/webhelp/hm_text.htm)
+
+Falls die spezifische Information zur Beantwortung der Frage in den bereitgestellten Ressourcen nicht vorhanden ist, antworte mit 'Leider kann ich deine Frage nicht beantworten'.
+human: Wie kann ich mich bei Google Analytics einloggen?
+AI: Leider kann ich deine Frage nicht beantworten.
+<<oldest message>> 
+Neue Frage: Wieso wird sie nicht angesprungen?
+Umstrukturierte Frage = Wieso wird mein Anker nicht angesprungen?
+
+Vorgehen:
+Lies die CHAT-HISTORY und die AKTUELLE FRAGE.
+Ergänze die AKTUELLE FRAGE mit dem Webelement auf die sich die Frage bezieht.
+Das ist eine Liste von Webelementen: Anker, Teaser, Moodboard, Hauptnavigation, Sidenavigation, viruelle Navigation, Filterliste. 
+Ersetze alle Anaphern in der AKTUELLEN FRAGE mit den konkreten Wörtern, die in der CHAT-History erwähnt werden. Beispiele für Anaphern sind "dieses", "dort" usw.
+
+Falls sich die Frage nicht auf den vorherigen Chatverlauf bezieht, spiele die Frage in ihrer originalen Form zurück. Antworte immer nur mit der unstrukturierten Frage oder mit der originalen Frage, ohne jeglichen zusätzlichen Text.
+
+CHAT-HISTORY: 
+<<newest message>>
+human: Was ist ein Anker?
+AI: Das Wort "Anker" bezieht sich auf Sprungmarken in einer Webseite, die es ermöglichen, direkt zu einem bestimmten Abschnitt innerhalb derselben Seite zu springen. Die Anker können sowohl auf derselben Seite als auch auf anderen internen Seiten gesetzt werden. Um einen Anker auf derselben Seite zu setzen, können verschiedene Methoden verwendet werden, je nachdem, welches Element (z. B. Rich Text Teaser, Manueller Teaser) verwendet wird.
+
+Weitere Informationen zur Erstellung von Ankern auf verschiedenen Seiten, zur Verwendung von Rich Text Teasern und zur Behandlung von Texten und Links auf Webseiten finden Sie in den folgenden Webhelp-Artikeln:
+
+- [Anker auf einer anderen Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_anderer_seite.htm)
+- [Eigener Anker im Rich-Text](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm)
+- [Anker auf gleicher Seite](https://applsupport.hslu.ch/webhelp/hm_anker_auf_gleicher_seite.htm)
+- [Text](https://applsupport.hslu.ch/webhelp/hm_text.htm)
+
+Falls die spezifische Information zur Beantwortung der Frage in den bereitgestellten Ressourcen nicht vorhanden ist, antworte mit 'Leider kann ich deine Frage nicht beantworten'.
+human: Wie kann ich mich bei Google Analytics einloggen?
+AI: Leider kann ich deine Frage nicht beantworten.
+<<oldest message>>
+
+AKTUELLE FRAGE: wie kann ich so einen einfügen?
+
+UMSTRUKTURIERTE/ORIGINALE FRAGE:
+
+====== 
+
+RESPONSE:
+
+Wie kann ich so einen Anker einfügen?

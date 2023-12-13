@@ -1,18 +1,23 @@
 """
-This script runs the latest version of the intent-less chatbot on questions related to one of the intents that the
+This script runs the latest set-up of the intent-less chatbot on questions related to one of the intents that the
 intent-based rasa chatbot was trained on. For each intent, ten questions are posed to the chatbot.
 These same questions have also been answered by the intent-based chatbot, enabling a comparison of performance
 between the two bots.
 
-To run this script update the 'path' variable to the project directory path and add your OpenAI API key to
+The script for this testing chatbot testing, located at '\testing\testing_chatbot\rasa_openai_test_chatbot.py',
+mirrors the latest intent-less chatbot found at '\intent-less_chatbot\chatbot.py', with the key difference being
+the exclusion of human handoff functions in the test chatbot
+
+To run this script update the 'path' variable to the root directory of this project and add your OpenAI API key to
 'openaiapikey.txt' in the root directory of this project.
 """
 
 
 # 1. Set up-------------------------------------------------------------------------------------------------------------
-# Set path to project directory and define OpenAI API key
+# Define path to root directory and OpenAI API key
 path = r'C:\Users\Kimberly Kent\Documents\Master\HS23\Masterarbeit\Masters-Thesis'
 testing_path = path + r'\testing'
+import sys
 sys.path.append(testing_path)
 
 from testing_chatbot.testing_functions import open_file

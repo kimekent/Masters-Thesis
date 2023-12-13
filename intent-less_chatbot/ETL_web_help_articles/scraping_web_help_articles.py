@@ -1,18 +1,28 @@
 """
 This script was used to scrape the web help articles and store them as .txt files.
+The web help articles were subsequently saved in a Chroma vector database
+(located at '\intent-less_chatbot\webhelp_and_websupport_vector_db') together with the web support Q&As from the
+ticketing dataset
 """
-# Import packages
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 
+
+# 1. Set up--------------------------------------------------------------------------------------------------------------
+# Set path to root directory and intent-less chatbot folder
 path = r"C:\Users\Kimberly Kent\Documents\Master\HS23\Masterarbeit\Masters-Thesis"
 intent_less_path = path + r'\intent-less_chatbot'
 
-# 1. Create a list of pages to scrape and store them in keyword-link-pairs.txt------------------------------------------
+# Import packages
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.action_chains import ActionChains
+import time
+import os
+
+
+# 2. Create a list of pages to scrape and store them in keyword-link-pairs.txt------------------------------------------
 # Specify the directory where the ChromeDriver executable is located
 chromedriver_path = r'C:\Program Files (x86)\chromedriver.exe'
 
@@ -91,16 +101,7 @@ with open(file_path, 'w') as file:
         file.write(f"'{key}': '{value}'\n")
 
 
-# 2. Scrape content of pages stored in keyword-link-pairs.txt-----------------------------------------------------------
-
-# Import packages
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-import time
-import os
+# 3. Scrape content of pages stored in keyword-link-pairs.txt-----------------------------------------------------------
 
 # Specify the directory where the ChromeDriver executable is located
 chromedriver_path = r'C:\Program Files (x86)\chromedriver.exe'

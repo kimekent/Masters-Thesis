@@ -1,0 +1,100 @@
+PROMPT:
+
+Formuliere die AKTUELLE FRAGE um, so dass klar ist, worauf sich die Frage bezieht. Nutze dazu die Infromationen aus der Chat-History. Falls die Frage bereits eindeutig ist, belasse sie in der originalen Form. Antworte immer nur mit der unstrukturierten Frage oder mit der originalen Frage, ohne jeglichen zusätzlichen Text.
+
+Beispiele: 
+1. Beispiel
+Chat-History: <<newest message>>
+human: Leider bezieht sich deine Frage nicht auf den vorherigen Chatverlauf. Bitte gib mir mehr Kontext oder stelle mir eine spezifische Frage zu einem Web-Element, auf das sich deine Frage bezieht, z.B. Teaser, Moodboard, Hauptnavigation, Sidenavigation, virtuelle Navigation oder Filterliste.
+AI: Leider kann ich deine Frage nicht beantworten.
+human: wieso wird mein text im rich text teaser in zwei spalten dargestellt?
+AI: Um sicherzustellen, dass der Text im Rich Text Teaser einzeilig dargestellt wird, gibt es einige wichtige Punkte zu beachten:
+
+- Bei einer 100% Einstellung wird der Text im Rich Text Teaser ab ca. drei Zeilen immer zweispaltig angezeigt.
+- Falls ein einspaltiger Fließtext gewünscht ist, kann das Element "Formatierter Text mit Bild" verwendet werden. Dieses funktioniert auch ohne Bild.
+- In diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm) findest du eine Auflistung, welche Text-Elemente doppeltspaltig und welche einspaltig dargestellt werden.
+
+Wenn der Text im Rich Text Teaser in der Vorschau oder live zweispaltig angezeigt wird und ein einspaltiges Layout gewünscht ist, ist es wichtig, das Element "Formatierter Text mit Bild" zu verwenden. Dieses Element ist für einspaltigen Fließtext geeignet und kann auch ohne Bild eingefügt werden. Weitere Informationen zu häufigen Fehlern und zur Funktionalität der einzelnen Teaser-Items findest du in diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm).
+
+Wenn du weitere Informationen zur Verwendung von Ankerpunkten im Rich-Text Editor benötigst, findest du eine Anleitung dazu in diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm).
+human: Wieso wird mein Text in zwei Spalten dargestellt?
+AI: Leider kann ich deine Frage nicht beantworten.
+<<oldest message>>
+Neue Frage: Sie ist jedoch auf englisch.
+Umstrukturierte Frage = Wie kann ich ein englische Seite löschen?
+
+2. Beispiel
+Chat-History: <<newest message>>
+human: Leider bezieht sich deine Frage nicht auf den vorherigen Chatverlauf. Bitte gib mir mehr Kontext oder stelle mir eine spezifische Frage zu einem Web-Element, auf das sich deine Frage bezieht, z.B. Teaser, Moodboard, Hauptnavigation, Sidenavigation, virtuelle Navigation oder Filterliste.
+AI: Leider kann ich deine Frage nicht beantworten.
+human: wieso wird mein text im rich text teaser in zwei spalten dargestellt?
+AI: Um sicherzustellen, dass der Text im Rich Text Teaser einzeilig dargestellt wird, gibt es einige wichtige Punkte zu beachten:
+
+- Bei einer 100% Einstellung wird der Text im Rich Text Teaser ab ca. drei Zeilen immer zweispaltig angezeigt.
+- Falls ein einspaltiger Fließtext gewünscht ist, kann das Element "Formatierter Text mit Bild" verwendet werden. Dieses funktioniert auch ohne Bild.
+- In diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm) findest du eine Auflistung, welche Text-Elemente doppeltspaltig und welche einspaltig dargestellt werden.
+
+Wenn der Text im Rich Text Teaser in der Vorschau oder live zweispaltig angezeigt wird und ein einspaltiges Layout gewünscht ist, ist es wichtig, das Element "Formatierter Text mit Bild" zu verwenden. Dieses Element ist für einspaltigen Fließtext geeignet und kann auch ohne Bild eingefügt werden. Weitere Informationen zu häufigen Fehlern und zur Funktionalität der einzelnen Teaser-Items findest du in diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm).
+
+Wenn du weitere Informationen zur Verwendung von Ankerpunkten im Rich-Text Editor benötigst, findest du eine Anleitung dazu in diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm).
+human: Wieso wird mein Text in zwei Spalten dargestellt?
+AI: Leider kann ich deine Frage nicht beantworten.
+<<oldest message>> 
+Neue Frage: Kann ich dort auch externe Links einfügen?
+Umstrukturierte Frage = Kann ich in der virtuellen Navigation auch externe Link einfügen?
+
+3. Beispiel
+Chat-History: <<newest message>>
+human: Leider bezieht sich deine Frage nicht auf den vorherigen Chatverlauf. Bitte gib mir mehr Kontext oder stelle mir eine spezifische Frage zu einem Web-Element, auf das sich deine Frage bezieht, z.B. Teaser, Moodboard, Hauptnavigation, Sidenavigation, virtuelle Navigation oder Filterliste.
+AI: Leider kann ich deine Frage nicht beantworten.
+human: wieso wird mein text im rich text teaser in zwei spalten dargestellt?
+AI: Um sicherzustellen, dass der Text im Rich Text Teaser einzeilig dargestellt wird, gibt es einige wichtige Punkte zu beachten:
+
+- Bei einer 100% Einstellung wird der Text im Rich Text Teaser ab ca. drei Zeilen immer zweispaltig angezeigt.
+- Falls ein einspaltiger Fließtext gewünscht ist, kann das Element "Formatierter Text mit Bild" verwendet werden. Dieses funktioniert auch ohne Bild.
+- In diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm) findest du eine Auflistung, welche Text-Elemente doppeltspaltig und welche einspaltig dargestellt werden.
+
+Wenn der Text im Rich Text Teaser in der Vorschau oder live zweispaltig angezeigt wird und ein einspaltiges Layout gewünscht ist, ist es wichtig, das Element "Formatierter Text mit Bild" zu verwenden. Dieses Element ist für einspaltigen Fließtext geeignet und kann auch ohne Bild eingefügt werden. Weitere Informationen zu häufigen Fehlern und zur Funktionalität der einzelnen Teaser-Items findest du in diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm).
+
+Wenn du weitere Informationen zur Verwendung von Ankerpunkten im Rich-Text Editor benötigst, findest du eine Anleitung dazu in diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm).
+human: Wieso wird mein Text in zwei Spalten dargestellt?
+AI: Leider kann ich deine Frage nicht beantworten.
+<<oldest message>> 
+Neue Frage: Wieso wird sie nicht angesprungen?
+Umstrukturierte Frage = Wieso wird mein Anker nicht angesprungen?
+
+Vorgehen:
+Lies die CHAT-HISTORY und die AKTUELLE FRAGE.
+Ergänze die AKTUELLE FRAGE mit dem Webelement auf die sich die Frage bezieht.
+Das ist eine Liste von Webelementen: Anker, Teaser, Moodboard, Hauptnavigation, Sidenavigation, viruelle Navigation, Filterliste. 
+Ersetze alle Anaphern in der AKTUELLEN FRAGE mit den konkreten Wörtern, die in der CHAT-History erwähnt werden. Beispiele für Anaphern sind "dieses", "dort" usw.
+
+Falls sich die Frage nicht auf den vorherigen Chatverlauf bezieht, spiele die Frage in ihrer originalen Form zurück. Antworte immer nur mit der unstrukturierten Frage oder mit der originalen Frage, ohne jeglichen zusätzlichen Text.
+
+CHAT-HISTORY: 
+<<newest message>>
+human: Leider bezieht sich deine Frage nicht auf den vorherigen Chatverlauf. Bitte gib mir mehr Kontext oder stelle mir eine spezifische Frage zu einem Web-Element, auf das sich deine Frage bezieht, z.B. Teaser, Moodboard, Hauptnavigation, Sidenavigation, virtuelle Navigation oder Filterliste.
+AI: Leider kann ich deine Frage nicht beantworten.
+human: wieso wird mein text im rich text teaser in zwei spalten dargestellt?
+AI: Um sicherzustellen, dass der Text im Rich Text Teaser einzeilig dargestellt wird, gibt es einige wichtige Punkte zu beachten:
+
+- Bei einer 100% Einstellung wird der Text im Rich Text Teaser ab ca. drei Zeilen immer zweispaltig angezeigt.
+- Falls ein einspaltiger Fließtext gewünscht ist, kann das Element "Formatierter Text mit Bild" verwendet werden. Dieses funktioniert auch ohne Bild.
+- In diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm) findest du eine Auflistung, welche Text-Elemente doppeltspaltig und welche einspaltig dargestellt werden.
+
+Wenn der Text im Rich Text Teaser in der Vorschau oder live zweispaltig angezeigt wird und ein einspaltiges Layout gewünscht ist, ist es wichtig, das Element "Formatierter Text mit Bild" zu verwenden. Dieses Element ist für einspaltigen Fließtext geeignet und kann auch ohne Bild eingefügt werden. Weitere Informationen zu häufigen Fehlern und zur Funktionalität der einzelnen Teaser-Items findest du in diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/index.html?hm_häufige_fehler.htm).
+
+Wenn du weitere Informationen zur Verwendung von Ankerpunkten im Rich-Text Editor benötigst, findest du eine Anleitung dazu in diesem [Webhelp-Artikel](https://applsupport.hslu.ch/webhelp/hm_eigener_anker_im_richtext_defi.htm).
+human: Wieso wird mein Text in zwei Spalten dargestellt?
+AI: Leider kann ich deine Frage nicht beantworten.
+<<oldest message>>
+
+AKTUELLE FRAGE: Wie kann ich mich bei Google Analytics einloggen?
+
+UMSTRUKTURIERTE/ORIGINALE FRAGE:
+
+====== 
+
+RESPONSE:
+
+Wie kann ich mich bei Google Analytics einloggen?
