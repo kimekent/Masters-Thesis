@@ -61,8 +61,10 @@ These components collectively make up the chatbot application for Teams. Ensure 
 
 Before running any scripts, you need to install the required dependencies:
 
-1. Clone the project repository.
+1. Clone a copy of the repo:
+`git clone https://github.com/kimekent/Masters-Thesis.git`
 2. Navigate to the root project folder.
+`cd Masters-Thesis`
 3. Install the dependencies using pip: pip install -r requirements.txt
 
 ### Running the Chatbots
@@ -108,8 +110,8 @@ For testing:
 Integration with Microsoft Teams:
 
 1. Replace actions/actions.py with the content from MS_teams_files/teams_actions.py.
-2. Add MS_teams_files/cards.py to the actions/ directory.
-3. Update domain.yml with the content from MS_teams_files/domain_teams.yml.
+2. Add `intent-based_chatbo/MS_teams_files/cards.py` to the `intent-based_chatbo/actions/` directory.
+3. Update `intent-based_chatbot\domain.yml` with the content from `intent-based_chatbot/MS_teams_files/domain_teams.yml`.
 4. Add Bot Framework credentials (app_id and app_password) in intent-based_chatbot/credentials.py. These credentials can be found in your Azure bot under 'Configurations' > 'Manage Password'.
 
 #### Running the Inten-based Chatbot on Teams
@@ -127,8 +129,8 @@ Integration with Microsoft Teams:
 #### Running the Inten-less Chatbot on Teams
 1. Navigate to intent-less_chatbot.
 2. Run the chatbot:
-python app.py
+`python app.py`
 3. Start Ngrok on the same port:
-ngrok http [port]
+`ngrok http [port]`
 4. In the Azure portal, set the messaging endpoint to your Ngrok URL followed by /api/messages.
 5. Add Microsoft Teams as a channel and open the chatbot in Teams.
