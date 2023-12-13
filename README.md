@@ -57,87 +57,78 @@ This repository contains the components for building, running and testing the in
 These components collectively make up the chatbot application for Teams. Ensure you have all dependencies installed as listed in `requirements.txt` before running `app.py`.
 
 
-## Instructions
+## Set up and Installation
+
+Before running any scripts, you need to install the required dependencies:
+
+1. Clone the project repository.
+2. Navigate to the root project folder.
+3. Install the dependencies using pip: pip install -r requirements.txt
+
+### Running the Chatbots
 To run any of these scripts, first install the requirements list by cd into root project folder clone the directory with then with pip install requirements.txt
 
 #### Intent-based chatbot
-To run the intent-based rasa chatbot on terminal navigate to \intent-based_chatbot
-before running chatbot execute python -m spacy download de_core_news_sm
-then run command rasa shell
-in seperate terminal start actions server with rasa run acitons
-talk to chatbot
+To run the intent-based Rasa chatbot:
+
+1. Navigate to the intent-based_chatbot directory:
+`cd intent-based_chatbot`
+2. Install the necessary language model:
+`python -m spacy download de_core_news_sm`
+3. Start the Rasa shell in the terminal:
+`rasa shell`
+In a separate terminal, start the actions server:
+`cd intent-based_chatbot`
+`rasa run actions`
+5. Now, you can interact with the chatbot in the Rasa shell.
+
 
 #### Intent-less chatbot
-To run intent-less chatbot in terminal navigate to \intent-less_chatbot\chatbot.py or run the \intent-less_chatbot\chatbot.py in an IDE.
-Before running the script change the root folder path to your root folder and add your OpenAI API key to \openaiapikey.txt
+To run the intent-less chatbot:
+
+1. Modify the root folder path in chatbot.py to your project's root folder.
+2. Add your OpenAI API key to openaiapikey.txt located in root folder of this project.
+3. You can run chatbot.py either from the terminal or run `\intent-less_chatbot\chatbot.pychatbot.py` in an IDE.
+`python intent-less_chatbot/chatbot.py`
+
 
 #### Testing
-To run the tests make sure to change the root folder path to your root folder and add your OpenAI API key to \openaiapikey.txt
-The tests such as calculating BLEU-4, ROUGE-L, and BERTScore can also be calculated on the saved genereated datasets. At the top of script there is a
-description which tells you which steps to execute if you wish to do so.
+For testing:
 
-#### Run chatbots on Microsoft Teams
-Prerequisites
-To run the bots on MS Teams a Azure Bot Service Instance need to be created. 
-Install Ngrok
+1. Modify the root folder path in chatbot.py to your project's root folder.
+2. Add your OpenAI API key to openaiapikey.txt located in root folder of this project.
+3. Follow the instructions at the top of the test scripts to calculate metrics like BLEU-4, ROUGE-L, and BERTScore on saved generated answers datasets.
 
-intent-based chatbot
- - To integrate with Microsoft Teams, you will need to:
-    1. Replace the `actions/actions.py` file with the contents from `MS_teams_files/teams_actions.py`.
-    2. Add the `MS_teams_files/cards.py` file to the `actions/` directory.
-    3. Replace the content in the `domain.yml` file with the content from `MS_teams_files/domain_teams.yml`.
-	4. Add botframework credentials (app_id and app_password) to run chatbot with Microsoft Teams frontend \intent-based_chatbot\credentials.py
-These credentials can be found in your azure bot under 'congigurations' > Manage Password
-1. **Updating Actions**: Replace the existing `actions.py` script with `teams_actions.py` to ensure the chatbot actions are compatible with Microsoft Teams.
+### Running Chatbots on Microsoft Teams
+#### Prerequisites
+1. Create an Azure Bot Service Instance.
+2. Install Ngrok.
 
-2. **Adding Card Functionality**: Transfer `cards.py` into the `actions/` directory to enable rich message formats, such as adaptive cards in Microsoft Teams.
+#### Intent-based Chatbot
+Integration with Microsoft Teams:
 
-3. **Domain Modification**: Update the `domain.yml` with `domain_teams.yml` to align the chatbot's responses and actions with the conversational flows and capabilities supported by Microsoft Teams.
-## Setup and Installation
+1. Replace actions/actions.py with the content from MS_teams_files/teams_actions.py.
+2. Add MS_teams_files/cards.py to the actions/ directory.
+3. Update domain.yml with the content from MS_teams_files/domain_teams.yml.
+4. Add Bot Framework credentials (app_id and app_password) in intent-based_chatbot/credentials.py. These credentials can be found in your Azure bot under 'Configurations' > 'Manage Password'.
 
-Running the chatbot
-Navigate to \intent-bases_chatbot
-In terminal run rasa run
-In seperate terminal run rasa run acitons
-In separate terminal run ngrok http 5005
-In Azure Bot service instance add the ngrok https url  Azure portal, open the resource page of your bot channel registration and navigate to „Settings > Configuration“. As messaging endpoint, enter your individual ngrok URL followed by „/webhooks/botframework/webhook“.
-On ressource page on bot channel navigate to channels "add Chanel" Microsoft teams and then Click open in Microsoft Teams
-YOu can now chat to chatbot through teams
+#### Running the Inten-based Chatbot on Teams
+1. Navigate to intent-based_chatbot.
+2. Start Rasa:
+`rasa run`
+3. In a separate terminal, start actions:
+`rasa run actions`
+4. Run Ngrok:
+`ngrok http 5005`
+5. In the Azure portal, set the messaging endpoint to your Ngrok URL followed by /webhooks/botframework/webhook.
+6. Add Microsoft Teams as a channel and open the chatbot in Teams.
 
 
-Intent-less Chatbot
-Navigate to \intent-less chatbot 
-In terminal run python app.py
-In seperate terminalrun ngrok http [protal where app.py is running on]
-In Azure Bot service instance add the ngrok https url  Azure portal, open the resource page of your bot channel registration and navigate to „Settings > Configuration“. As messaging endpoint, enter your individual ngrok URL followed '/api/messages'
-On ressource page on bot channel navigate to channels "add Chanel" Microsoft teams and then Click open in Microsoft Teams
-YOu can now chat to chatbot through teams
-
-
-### To 
-
-
-#### Additional Information
-
- 
-
-#### Instructions for Microsoft Teams Integration
-
-
-
-[Provide instructions here on how to set up and install the chatbot, including any prerequisites.]
-
-## Usage
-
-[Provide instructions here on how to train the bot, run it, and interact with it.]
-
-## Contributing
-
-[If open to contributions, include instructions on how contributors can help with your project.]
-
-## License
-
-[State the license under which this project is available.]
-
-Remember to replace placeholder text with specific information about how to set up, configure, and use your chatbot. Include any additional instructions or explanations as necessary.
-
+#### Running the Inten-less Chatbot on Teams
+1. Navigate to intent-less_chatbot.
+2. Run the chatbot:
+python app.py
+3. Start Ngrok on the same port:
+ngrok http [port]
+4. In the Azure portal, set the messaging endpoint to your Ngrok URL followed by /api/messages.
+5. Add Microsoft Teams as a channel and open the chatbot in Teams.
