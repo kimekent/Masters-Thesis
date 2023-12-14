@@ -72,7 +72,7 @@ To run the intent-based Rasa chatbot:
 `python -m spacy download de_core_news_sm`
 3. Start the Rasa shell in the terminal:
 `rasa shell`
-In a separate terminal, start the actions server:
+4. In a separate terminal, start the actions server:
 `cd intent-based_chatbot`
 `rasa run actions`
 5. Now, you can interact with the chatbot in the Rasa shell.
@@ -89,7 +89,7 @@ To run the intent-less chatbot:
 #### Testing
 For testing:
 
-1. Modify the root folder path in chatbot.py to your project's root folder.
+1. Modify the root folder path in the .py files to your project's root folder.
 2. Add your OpenAI API key to openaiapikey.txt located in root folder of this project.
 3. Follow the instructions at the top of the test scripts to calculate metrics like BLEU-4, ROUGE-L, and BERTScore on saved generated answers datasets.
 

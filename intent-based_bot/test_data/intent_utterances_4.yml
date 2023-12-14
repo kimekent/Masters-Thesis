@@ -1,0 +1,251 @@
+version: "3.1"
+
+# This file contains the one set of testing utterances that were used to evaluate the nlu component of the rasa chatbot.
+
+nlu:
+- intent: insert_video
+  examples: |
+    - Wie kann ich ein Erklärvideo zu unserem neuen Service auf der Homepage integrieren?
+    - Kann mir jemand zeigen, wie ich ein selbstgehostetes Video in den Blogbeitrag meiner Webseite einbinde?
+    - Welche Schritte sind notwendig, um ein "How-to"-Video in unsere Online-Hilfeseite einzufügen?
+    - Ich möchte ein Zeitraffer-Video unseres Firmenevents in die Mediengalerie aufnehmen, was muss ich tun?
+    - Gibt es eine Anleitung, wie man ein Kunden-Testimonial-Video auf der Testimonial-Seite einbetten kann?
+    - Welche Code-Snippets benötige ich, um ein Video in einen Artikel auf unserer Wordpress-Seite einzufügen?
+    - Wie füge ich ein Video in den Header-Bereich unserer Website ein, so dass es im Loop abgespielt wird?
+    - Was sind die Best Practices, um ein Video in einer E-Mail-Kampagne einzubetten, damit es korrekt angezeigt wird?
+    - Können Sie mir helfen, ein Video in meine Joomla-Seite einzufügen, ohne dass die Ladezeit stark beeinflusst wird?
+    - Wie stelle ich sicher, dass das Video, das ich in unsere Landing-Page einbetten möchte, auf allen Geräten richtig dargestellt wird?
+
+- intent: mobile_moodboard
+  examples: |
+    - Warum wird das Moodboard auf meinem Handy nicht richtig skaliert, obwohl es auf dem Desktop perfekt funktioniert?
+    - Kann ich für die Mobilversion meiner Webseite ein anderes Moodboard als auf dem Desktop verwenden?
+    - Wie kann ich sicherstellen, dass mein Moodboard auf allen mobilen Geräten gut aussieht?
+    - Was sind die besten Praktiken für die Erstellung eines responsiven Moodboards für mobile Webseiten?
+    - Wie kann ich auf meinem Tablet das Moodboard so anzeigen lassen, wie es auf dem Smartphone erscheint?
+    - Mein Moodboard lädt auf der mobilen Seite sehr langsam. Gibt es eine Möglichkeit, die Ladezeit zu verbessern?
+    - Die Interaktionselemente auf meinem Moodboard funktionieren nicht auf Touch-Geräten. Was kann ich tun, um das zu beheben?
+    - Wie passe ich die Größe meines Moodboards automatisch an verschiedene Bildschirmauflösungen auf mobilen Geräten an?
+    - Gibt es spezielle Tools oder Plugins, die ich verwenden sollte, um mein Moodboard für Mobilgeräte zu erstellen?
+    - Warum werden die Schriftarten und Icons auf dem Moodboard meiner mobilen Seite nicht korrekt angezeigt?
+
+- intent: infobox_delete
+  examples: |
+    - Was sind die Schritte, um die Infobox für den bevorstehenden Workshop, der abgesagt wurde, von unserer Nachrichtenseite zu entfernen?
+    - Kannst du mir erklären, wie ich die 'Aktuelles'-Infobox auf unserer Homepage deaktiviere?
+    - Ich muss die 'Neuigkeiten'-Box auf unserer Vereinsseite löschen. Kannst du mir helfen?
+    - Wie kann ich die Infobox mit dem Hinweis auf die geänderten Öffnungszeiten von unserer Kontaktseite entfernen?
+    - Was muss ich tun, um die 'Heutige Veranstaltung'-Box von unserer Startseite zu löschen, da die Veranstaltung vorbei ist?
+    - Ich möchte die 'Wichtige Mitteilung' Box von der Startseite unserer Schulwebseite nehmen. Kannst du mir die Schritte dazu geben?
+    - Wie kann ich die 'Feature'-Infobox, die nicht mehr benötigt wird, von unserer Produktseite löschen?
+    - Wie entferne ich die 'Spezialangebot'-Box, die abgelaufen ist, von unserer Angebotsseite?
+    - Kann ich die Infobox 'Neue Öffnungszeiten' von der Webseite unseres Ladens selbst entfernen, oder benötige ich dafür spezielle Rechte?
+    - Ich möchte die 'Willkommen'-Infobox von unserer Firmenwebseite entfernen, da sie veraltet ist. Wie gehe ich vor?
+
+- intent: login
+  examples: |
+    - Wo kann ich Anweisungen für den ersten Login in das neue Mitarbeiterportal finden?
+    - Welche Schritte muss ich befolgen, um mich bei der Online-Bibliothek einzuloggen?
+    - Ich habe versucht, mich in mein E-Mail-Konto einzuloggen, aber ich erhalte eine Fehlermeldung. Was kann ich tun?
+    - Wie setze ich mein vergessenes Passwort zurück, um mich wieder in das Bestellsystem einzuloggen?
+    - Gibt es eine Zwei-Faktor-Authentifizierung für den Login bei unserem Projektmanagement-Tool?
+    - Warum kann ich mich nicht mit meinen Social-Media-Accounts auf der Plattform einloggen?
+    - Kann mir jemand den genauen Vorgang für den Login in das internationale Konferenzsystem schildern?
+    - Ich habe meinen Benutzernamen für das Intranet vergessen. Wie kann ich diesen wiederherstellen?
+    - Was muss ich tun, wenn meine Kontoaktivierung für den Login fehlgeschlagen ist?
+    - Wie kann ich mein Konto entsperren, um mich wieder in das Zeiterfassungssystem einzuloggen?
+
+- intent: warning_only_in_german
+  examples: |
+    - Unsere englische Webseite zeigt bei den Formularen den Vermerk 'Only in German', obwohl wir sie übersetzt haben. Was ist der nächste Schritt zur Korrektur?
+    - Trotz der Verfügbarkeit einer englischen Übersetzung erscheint die Meldung 'Only in German' auf der Download-Seite. Wie kann ich das beheben?
+    - Ich habe die englischen Beschreibungen unserer Dienstleistungen hinzugefügt, aber der Hinweis 'Only in German' wird immer noch angezeigt. Wie kann ich das Problem lösen?
+    - Auf der internationalen Version unserer Website ist der Fehler 'Only in German' neben den Bildern zu sehen. Wie kann ich das korrigieren?
+    - Ich sehe den Hinweis 'Only in German' bei den FAQ, die bereits übersetzt wurden. Wie aktualisiere ich das System?
+    - Wir haben die englische Pressemitteilung eingefügt, aber es erscheint noch 'Only in German'. Wie stelle ich das um?
+    - Die englische Übersetzung unserer Nutzungsbedingungen ist fertig, aber online steht noch 'Only in German'. Wie ändere ich das?
+    - Ich stelle fest, dass bei den Biografien unserer Mitarbeiter auf Englisch noch 'Only in German' steht. Wie kann ich das anpassen?
+    - Auf der englischen Seite für unsere Datenschutzrichtlinien wird irrtümlich 'Only in German' angezeigt. Wo kann ich das ändern?
+    - Warum wird bei unseren Produktbeschreibungen auf der englischen Seite noch 'Only in German' angegeben, und wie entferne ich diese Markierung?
+
+- intent: site_delete_en
+  examples: |
+    - Wie kann ich die englische Version einer News-Seite von unserer Webseite entfernen, ohne die anderen Sprachversionen zu löschen?
+    - Kannst du mir Schritt für Schritt erklären, wie ich eine englischsprachige Unterseite auf unserer Website dauerhaft deaktivieren kann?
+    - Was ist die korrekte Vorgehensweise, um eine englische Inhaltsseite, die veraltet ist, von unserer Website zu nehmen?
+    - Unsere Firma hat eine Seite auf Englisch, die nicht mehr benötigt wird. Wie entferne ich diese Seite, ohne die Hauptseite zu beeinträchtigen?
+    - Ich möchte eine englische Informationsseite von unserer mehrsprachigen Website löschen. Wie stelle ich sicher, dass nur diese eine Sprachversion entfernt wird?
+    - Wie kann ich vorgehen, um eine spezielle englische Landing-Page zu löschen, ohne dass es Auswirkungen auf die anderen Sprachvarianten hat?
+    - Gibt es eine Möglichkeit, die englische Version einer Seite zu entfernen, während die anderen Sprachen weiterhin live bleiben?
+    - Kann ich eine englische Seite unserer Bildungsinstitution aus dem Webangebot entfernen, ohne die strukturelle Integrität der Website zu gefährden?
+    - Ich möchte die englische Version einer Kampagnenseite von unserer Webseite löschen. Können Sie mir den Prozess dafür erklären?
+    - Wie entferne ich sicher und korrekt eine veraltete englische Kategorieseite auf unserer E-Commerce-Plattform, ohne andere Kategorien oder Sprachversionen zu löschen?
+
+- intent: contact_edit
+  examples: |
+    - Können Sie die Büroadresse von Herrn Fischer im Adressbuch ändern? Er ist umgezogen.
+    - Frau Wagner hat geheiratet; wie kann ich ihren Nachnamen im E-Mail-Verteiler zu 'Müller' aktualisieren?
+    - Wie ändere ich die Durchwahl von Herrn Schmidt in unserem Telefonverzeichnis? Er hat jetzt eine neue Nummer.
+    - Kann jemand die Position von Frau Becker im Mitarbeiterportal auf 'Abteilungsleiterin Finanzen' updaten?
+    - Die E-Mail-Signatur von Herrn Lorenz ist veraltet. Wie kann ich seine neue Position und Telefonnummer einfügen?
+    - Im Kontaktformular auf unserer Homepage ist ein Tippfehler im Namen von Frau Klein. Wer kann das ausbessern?
+    - Herrn Neumanns Profilbild im Kontaktbereich unserer App ist veraltet. Wie lade ich ein aktuelles Foto hoch?
+    - Wie kann ich die Kontaktinformation von Frau Hofmann für unseren Newsletter-Empfängerkreis aktualisieren?
+    - Herr Krüger hat seine Zertifizierungen erweitert. Können wir das in seiner Online-Biografie ändern?
+    - Kann ich die Büronummer von Frau Schwarz in unserem internen Kontaktsystem selbst ändern, oder muss das die IT-Abteilung machen?
+
+- intent: warning_some_content_only_available_in_german
+  examples: |
+    - Ich sehe auf der englischen Übersichtsseite unseres Dienstleistungsangebots immer noch die Warnung, dass gewisse Inhalte nur auf Deutsch zugänglich sind. Wie kann ich das Problem beheben?
+    - Trotz vollständiger Übersetzung zeigt die englische Landing Page unserer Konferenz Hinweise auf deutschsprachige Inhalte. Welche Schritte sind nötig, um das zu korrigieren?
+    - Auf der englischen Version unserer Pressemitteilungen wird behauptet, dass einige Informationen nur auf Deutsch vorhanden sind. Wie kann ich sicherstellen, dass alles übersetzt ist?
+    - Wir haben eine Benachrichtigung auf der englischen Seite unserer Bibliothek, dass einige Ressourcen nur auf Deutsch angeboten werden. Wie kann ich herausfinden, was noch übersetzt werden muss?
+    - Ich habe bemerkt, dass auf der englischen Darstellung unseres Kulturprogramms steht, dass Teile nur auf Deutsch verfügbar sind. Was sind die nächsten Schritte zur Lösung dieses Problems?
+    - Wie kann ich die Warnung entfernen, dass auf der englischen Seite unserer akademischen Publikationen manche Beiträge nur auf Deutsch verfügbar sind, wenn ich bereits alles übersetzt habe?
+    - Obwohl ich dachte, unsere gesamte Website sei zweisprachig, zeigt die englische Version des Karrierebereichs noch an, dass bestimmte Informationen nur auf Deutsch erhältlich sind. An wen kann ich mich wenden, um das zu klären?
+    - Wie kann ich die Fehlermeldung auf der englischen Produktseite unseres Online-Shops korrigieren, dass einige Produktbeschreibungen nur auf Deutsch zur Verfügung stehen?
+    - Auf der englischen Informationsseite zu unserem internationalen Austauschprogramm erscheint der Hinweis auf deutschsprachige Inhalte. Wie gehe ich vor, um alles zu übersetzen?
+    - Wie kann ich die Anzeige auf unserer englischen Startseite ändern, dass spezifische Dienste nur auf Deutsch beschrieben sind, wenn tatsächlich alles übersetzt wurde?
+
+- intent: navigation_edit_visibility
+  examples: |
+    - Ich möchte auf unserer Projektwebseite einen Link zu den häufig gestellten Fragen in der Navbar hinzufügen. Kannst du mir den Prozess beschreiben?
+    - Wie kann ich eine Verknüpfung zu unserem Partnerportal in der oberen Navigation unserer Seite einbetten?
+    - Gibt es eine Möglichkeit, einen Link zu unserem neuesten Produktkatalog in der Hauptnavigation zu integrieren?
+    - Kannst du mir helfen, in der Navigationsleiste einen Menüpunkt für Kundenrezensionen einzurichten?
+    - Wie füge ich der Navigationsleiste unserer Dienstleistungsseite einen Unterpunkt für Spezialangebote hinzu?
+    - Ich möchte, dass die Rubrik 'Aktuelle Nachrichten' in unserer Webseiten-Navigation prominenter angezeigt wird. Was sind die Schritte dazu?
+    - Wie aktualisiere ich die Seitenleiste unserer Blogseite, um die meistgelesenen Artikel zu zeigen?
+    - Gibt es eine einfache Methode, um in der Fußzeilennavigation Links zu unseren Datenschutzbestimmungen und Nutzungsbedingungen hinzuzufügen?
+    - Wie binde ich einen Link zu unserer Hilfeseite in das Dropdown-Menü der Website-Navigation ein?
+    - Ich will einen Link zu unserem Jahresbericht in der horizontalen Navigation der Startseite platzieren. Kannst du mir erklären, wie das funktioniert?
+
+- intent: site_structure_german_english
+  examples: |
+    - Wie kann ich sicherstellen, dass bestimmte Inhalte nur auf der deutschen Seite unserer Website erscheinen und nicht auf der englischen?
+    - Gibt es eine Möglichkeit, automatische Sprachwechsel zwischen der deutschen und englischen Version der Website zu implementieren, ohne die Struktur zu beeinflussen?
+    - Kann ich ein Event nur im Kalender der englischen Seite hinzufügen, ohne dass es auf der deutschen Seite angezeigt wird?
+    - Gibt es Einschränkungen, wenn wir unterschiedliche Menüs für die deutsche und die englische Version unserer Website erstellen wollen?
+    - Wie kann ich eine News-Sektion nur für die englische Version der Seite einrichten, ohne dass diese auf der deutschen Seite erscheint?
+    - Ist es möglich, ein Anmeldeformular nur auf der englischen Seite zu integrieren, während die deutsche Seite dieses Formular nicht zeigt?
+    - Wie kann ich eine Karriereseite nur auf Englisch bereitstellen, da unsere Zielgruppe für diese Stellen international ist?
+    - Kann ich auf der Startseite unserer englischen Website einen Slider nur mit englischsprachigen Nachrichten anzeigen und diesen für die deutsche Version ausschließen?
+    - Wir möchten auf der englischen Version unserer Website ein spezielles Angebot hervorheben, das für das deutsche Publikum nicht relevant ist. Welche Schritte sind dafür notwendig?
+    - Wie kann ich einen Blogbeitrag so veröffentlichen, dass er nur in der englischen Kategorie erscheint und nicht in der deutschen Version der Website aufgeführt wird?
+
+- intent: open_graph
+  examples: |
+    - Warum wird das Open Graph Bild nicht aktualisiert, wenn ich den Link unserer neuesten Kampagnenseite auf WhatsApp teile?
+    - Wie kann ich das Open Graph Vorschaubild für meine Landing Page so einstellen, dass es bei jedem Teilen korrekt angezeigt wird?
+    - Kann ich für unterschiedliche Seiten meiner Website verschiedene Open Graph Bilder verwenden, und wenn ja, wie stelle ich das ein?
+    - Was muss ich tun, um das Vorschaubild, das in Slack angezeigt wird, wenn jemand unsere Team-Seite teilt, zu aktualisieren?
+    - Wie kann ich das Open Graph Bild für unsere Produktseite festlegen, um eine höhere Klickrate zu erzielen, wenn es auf Twitter geteilt wird?
+    - Gibt es eine Möglichkeit, das Open Graph Bild für bereits geteilte Beiträge auf Facebook zu aktualisieren, oder muss der Beitrag neu geteilt werden?
+    - Welche Abmessungen sollte mein Open Graph Bild haben, damit es auf allen Plattformen optimal dargestellt wird?
+    - Warum zeigt Google+ ein anderes Bild an, als ich in den Open Graph Tags meiner Website spezifiziert habe, und wie kann ich das beheben?
+    - Wie überprüfe ich, ob das Open Graph Bild korrekt auf meiner neu gestalteten About-Us-Seite eingebunden ist?
+    - Ich möchte für ein Event unterschiedliche Open Graph Bilder für verschiedene soziale Netzwerke verwenden. Wie kann ich das einrichten?
+
+- intent: picture_popup
+  examples: |
+    - Wie kann ich eine Lightbox-Funktion für die Bildvorschau in meinem Blog integrieren, so dass die Fotos beim Anklicken in einem Popup erscheinen?
+    - Was ist der beste Weg, um in meinem Portfolio Popups für meine Grafikdesign-Arbeiten einzurichten, damit Besucher sie in voller Auflösung betrachten können?
+    - Kannst du mir erklären, wie ich für die Bilder in meiner Online-Ausstellung ein Popup erstelle, das beim Klicken erscheint?
+    - Ich möchte, dass die Produktfotos in unserer digitalen Broschüre in einem Popup-Fenster angezeigt werden, wenn man darauf klickt. Wie gehe ich vor?
+    - Wie integriere ich ein Skript, damit sich die Bilder meiner Immobilienangebote in einem Popup-Fenster öffnen, wenn Interessenten darauf klicken?
+    - Wie richte ich ein Bild-Popup für die Speisekarte in meinem Restaurant-Website ein, damit Kunden die Gerichte im Detail sehen können?
+    - Gibt es eine einfache Methode, um die Bilder in meinem Reiseblog beim Anklicken in einem Popup darzustellen, ohne dass die Seite neu geladen wird?
+    - Ich suche nach einer Lösung, um ein automatisches Popup für die Bild-Icons meiner Software-Funktionen zu aktivieren. Können Sie mir helfen?
+    - Wie kann ich sicherstellen, dass die Bilder meiner Kunstwerke in einem modalen Popup-Fenster geöffnet werden, sobald Besucher auf die Thumbnails klicken?
+    - Ich möchte ein benutzerdefiniertes Popup für Infografiken auf meiner Lernplattform realisieren, das beim Klicken erscheint. Was sind die Schritte dafür?
+
+- intent: picture_error
+  examples: |
+    - Trotz korrekter Bildabmessungen erhalte ich beim Hochladen auf das Produktblatt eine Fehlermeldung. Was könnte die Ursache sein?
+    - Ich kann kein Profilbild in meinem Benutzerkonto setzen, da immer eine Fehlermeldung auftaucht. Welche Schritte sollte ich unternehmen?
+    - Beim Aktualisieren des Deckbildes für den Newsletter stoße ich auf eine Fehlermeldung. Welche technischen Anforderungen übersehe ich möglicherweise?
+    - Warum zeigt das System eine Fehlermeldung an, wenn ich versuche, ein PNG-Bild in meinem Portfolio zu platzieren?
+    - Jedes Mal, wenn ich ein Bild für die Slideshow hochlade, kommt eine Fehlermeldung. Gibt es eine Limitierung bei der Dateigröße?
+    - Ich versuche, Bilder für unsere neue Kampagne hochzuladen, aber ich bekomme ständig Fehlermeldungen. Könnte es am Farbprofil der Bilder liegen?
+    - Es erscheint eine Fehlermeldung, als ich ein Bild in den Artikel-Editor einbetten möchte. Muss ich besondere Bildrechte beachten?
+    - Beim Einfügen eines Bildes in meinen Forenbeitrag wird eine Fehlermeldung angezeigt. Welche Formate werden unterstützt?
+    - Eine Fehlermeldung verhindert, dass ich ein Logo auf unserer Sponsorenseite hinzufügen kann. Könnte es an einer inkompatiblen Dateierweiterung liegen?
+    - Ich versuche, ein Bild für unsere Case Studies Seite zu uploaden, aber es tritt eine Fehlermeldung auf. Spielt die Dateinamenskonvention hierbei eine Rolle?
+
+- intent: site_not_published
+  examples: |
+    - Warum ist die Startseite unseres neuen Projekts nach dem Hochladen nicht im Internet sichtbar?
+    - Ich habe die Datenschutzerklärung auf unserer Website aktualisiert, aber die Änderungen werden nicht angezeigt. Liegt ein Fehler vor?
+    - Unsere neue Produktseite sollte heute live gehen, aber ich kann sie nirgends finden. Was habe ich möglicherweise übersehen?
+    - Ich habe den Blogbeitrag für diese Woche veröffentlicht, doch er erscheint nicht auf der Hauptseite. Wie kann ich das Problem beheben?
+    - Die Anmeldeseite für unser Webinar wurde fertiggestellt, ist aber nicht erreichbar. Gibt es Einstellungen, die ich noch prüfen sollte?
+    - Nach dem Update unserer Kontaktseite ist diese jetzt nicht mehr online. Wie stelle ich sie wieder her?
+    - Ich habe versucht, unsere neue Firmenphilosophie-Seite zu veröffentlichen, aber sie wird nicht angezeigt. Könnte es ein Berechtigungsproblem geben?
+    - Unsere Kundenfeedback-Seite wurde überarbeitet, aber die Änderungen sind nicht live. Muss ich die Veröffentlichung erneut bestätigen?
+    - Trotz Bestätigung der Veröffentlichung zeigt unsere Website die neue Stellenausschreibung nicht an. Was fehlt noch?
+    - Ich habe alle Schritte befolgt, um unsere Sonderangebotsseite zu publizieren, doch sie ist nicht im Netz. Welche technischen Probleme könnten dahinterstecken?
+
+- intent: site_delete
+  examples: |
+    - Wie kann ich eine fehlerhafte Unterseite auf unserer Hochschulseite entfernen? Muss ich das selbst im Content-Management-System machen oder gibt es dafür einen Workflow? Hier ist die URL: https://www.hslu.ch/de-ch/fehler/unterseite/.
+    - Ich habe bemerkt, dass einige unserer Fakultätsseiten nicht mehr benötigt werden. Was ist das Standardverfahren zum Löschen dieser Seiten? Zum Beispiel diese hier: https://www.hslu.ch/de-ch/fakultaet/unnötig/.
+    - Wir haben eine alte Dozentenseite, die aktualisiert wurde und die alte Version soll nun entfernt werden. Gibt es eine Anleitung, wie ich vorgehen soll? Die Seite befindet sich hier: https://www.hslu.ch/de-ch/dozenten/alt/.
+    - Die Informationen auf einer unserer Forschungsprojektseiten sind veraltet und irreführend. Wie kann ich die Seite aus dem System entfernen? Hier ist die URL: https://www.hslu.ch/de-ch/forschung/projekt/veraltet/.
+    - Könntest du mir erklären, wie ich eine Seite von unserer Website lösche, die doppelt vorhanden ist? Ich will sicherstellen, dass ich nichts Falsches mache. Hier ist die betreffende Seite: https://www.hslu.ch/de-ch/doppelt/.
+    - Ich möchte eine alte Ankündigungsseite von unserer Website dauerhaft entfernen. Kann ich das eigenständig erledigen? Die Seite ist unter folgendem Link zu finden: https://www.hslu.ch/de-ch/ankuendigungen/alt/.
+    - Unsere Partnerseite hat sich geändert und die alte muss gelöscht werden. Gibt es besondere Schritte, die ich beachten muss? Hier ist die Seite: https://www.hslu.ch/de-ch/partner/veraltet/.
+    - Es gibt eine Seite mit einem veralteten Studienplan auf unserer Website, die gelöscht werden muss. Wie gehe ich am besten vor? Der Link zur Seite ist: https://www.hslu.ch/de-ch/studienplan/veraltet/.
+    - Eine unserer Publikationsseiten ist nicht mehr relevant und soll vom Netz genommen werden. Kann ich das selbst im CMS erledigen? Hier ist der Link: https://www.hslu.ch/de-ch/publikationen/unnötig/.
+    - Ich muss eine Service-Seite, die nicht mehr angeboten wird, von unserer Website entfernen. Was ist der richtige Prozess dafür? Die URL ist: https://www.hslu.ch/de-ch/service/nicht-mehr-verfuegbar/.
+
+- intent: break
+  examples: |
+    - Die Bilder in unserer Galerie haben unerwünschte Abstände. Kann ich die Ränder irgendwie gleichmäßiger gestalten?
+    - Auf unserer Mitarbeiter-Seite überschneiden sich die Profile. Wie kann ich für einen gleichmäßigen Abstand sorgen?
+    - Die Produktkacheln auf der Startseite sind ungleichmäßig angeordnet, was unschön aussieht. Wie kann ich das Layout verbessern?
+    - Wie kann ich den Abstand zwischen den einzelnen Blog-Einträgen auf meiner Seite reduzieren?
+    - Die Abstände zwischen den Bullet Points in unserer Liste sind zu groß. Gibt es eine Einstellung, um das zu korrigieren?
+    - Die Buttons unterhalb unserer Slideshow sind unregelmäßig verteilt. Wie kann ich sie ordentlich anordnen?
+    - Nach dem Hinzufügen eines Zitats ist der Textfluss auf unserer "Über uns"-Seite gestört. Wie reguliere ich den Abstand?
+    - Die Fußzeile unserer Website hat zu viel Leerraum zu den anderen Inhalten. Wie kann ich das anpassen?
+    - Die Abstände zwischen den Abschnitten auf unserer FAQ-Seite sind ungleich. Wie kann ich für einheitliche Abstände sorgen?
+    - Nach dem Einfügen von Partner-Logos auf unserer Homepage sind die Abstände inkonsistent. Wie kann ich die Anordnung optimieren?
+
+- intent: youtube
+  examples: |
+    - Wie können wir ein Untertitel-File zu unserem Produktvideo auf YouTube hinzufügen, um eine bessere Barrierefreiheit zu gewährleisten?
+    - Wer ist zuständig für das Einbetten des neuesten Webinar-Aufzeichnungsvideos in unsere YouTube-Playlist?
+    - Wie aktualisiere ich das Thumbnail eines bereits veröffentlichten Videos auf unserem YouTube-Kanal?
+    - Können wir Analyse-Daten von unserem YouTube-Video bekommen, um die Zuschauerbeteiligung zu messen?
+    - Was sind die Richtlinien für das Hochladen eines Videos auf YouTube, das urheberrechtlich geschützte Musik enthält?
+    - Kann jemand aus dem Team die Kommentare unter unserem neuesten YouTube-Video moderieren?
+    - Wie können wir eine Kollaboration mit einem anderen YouTube-Kanal initiieren, um unsere Reichweite zu erhöhen?
+    - Gibt es eine Möglichkeit, ein Video auf YouTube zu veröffentlichen, aber es nur für Benutzer mit einem bestimmten Link zugänglich zu machen?
+    - Wie kann ich eine Videobeschreibung zu unserem YouTube-Video hinzufügen, um unsere SEO zu verbessern?
+    - Wer kann eine detaillierte Anleitung bereitstellen, um unsere Abonnenten auf YouTube über ein bevorstehendes Live-Event zu informieren?
+
+- intent: rich_text_teaser_format
+  examples: |
+    - Wie kann ich die Spaltenanordnung im Rich Text Teaser für unsere Projektseite so ändern, dass der Text als Ganzes und nicht aufgeteilt angezeigt wird?
+    - Ich möchte, dass der Rich Text Teaser auf der Übersichtsseite unserer Konferenz in voller Breite ohne Spaltentrennung erscheint. Wie stelle ich das ein?
+    - Gibt es eine Möglichkeit, den Rich Text Teaser auf der Homepage unseres Vereins so zu konfigurieren, dass er in einer einzelnen, durchgängigen Spalte statt zweispaltig angezeigt wird?
+    - Kann ich den Rich Text Teaser auf unserer Kampagnenseite so formatieren, dass der Inhalt nicht spaltenweise, sondern als kontinuierlicher Textblock erscheint?
+    - Wie passe ich den Rich Text Teaser auf der Informationsseite unseres Events so an, dass er nicht zweigeteilt, sondern in einem Stück dargestellt wird?
+    - Ich habe einen Rich Text Teaser in unserem Blog-Artikel eingefügt, aber er teilt den Inhalt in zwei Spalten auf. Wie kann ich das ändern, damit der Text fließend ist?
+    - Auf der Teamseite wird der Text im Rich Text Teaser zweispaltig angezeigt, obwohl ich eine einheitliche Formatierung bevorzuge. Welche Einstellungen muss ich vornehmen?
+    - Was muss ich tun, um den Rich Text Teaser auf der Produktseite so zu formatieren, dass der Text nicht in Spalten, sondern als Ganzes angezeigt wird?
+    - Wie verhindere ich, dass der Text im Rich Text Teaser auf unserer Dienstleistungsseite automatisch in Spalten aufgeteilt wird?
+    - Wie kann ich den Rich Text Teaser so anpassen, dass auf der Übersichtsseite unserer Publikationen der Text in voller Breite ohne Spaltenteilung erscheint?
+
+- intent: url_change
+  examples: |
+    - Was ist der beste Weg, um die URL für unsere Produktseite zu ändern, ohne das Ranking in Suchmaschinen zu verlieren?
+    - Wie aktualisiere ich die URL meiner Kontaktseite, damit sie den neuesten Änderungen in unserem Unternehmen entspricht?
+    - Wie leite ich Besucher automatisch von der alten auf die neue URL um, nachdem ich eine Änderung vorgenommen habe?
+    - Welche Schritte sind notwendig, um die URL einer Seite in unserem CMS zu ändern?
+    - Wie kann ich sicherstellen, dass eine URL-Änderung nicht zu 404-Fehlerseiten für unsere Kunden führt?
+    - Sollte ich eine Sitemap erneut einreichen, nachdem ich die URLs mehrerer Seiten geändert habe?
+    - Wie ändere ich die URL einer Blogseite, um die Keywords zu reflektieren, auf die ich mich jetzt konzentriere?
+    - Welche Auswirkungen hat die Änderung einer URL auf die Backlinks, die auf die alte Seite zeigen?
+    - Kann ich eine benutzerdefinierte URL erstellen, die einfacher zu merken ist, ohne die bestehende URL-Struktur zu beeinträchtigen?
+    - Wie verwalte ich Weiterleitungen nach einer URL-Änderung, um das Tracking von Marketingkampagnen zu erhalten?

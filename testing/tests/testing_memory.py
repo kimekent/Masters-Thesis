@@ -289,10 +289,10 @@ bar3 = ax.bar(index + 2 * bar_width, bleu_results_instruction, bar_width, label=
 # Customization BLEU bar chart
 ax.set_xlabel('Tasks', fontsize=16)
 ax.set_ylabel('BLEU-4 Score', fontsize=16)
-ax.set_title('BLEU-4 Scores by Retriever Prompt and Task', fontsize=20)
+#ax.set_title('BLEU-4 Scores by Retriever Prompt and Task', fontsize=20)
 ax.set_xticks(index + bar_width)
 ax.set_xticklabels(tasks, fontsize=14)
-ax.legend(fontsize=16)
+ax.legend(fontsize=12)
 ax.set_ylim([0, 1])
 
 # Show BLEU plot
@@ -308,10 +308,10 @@ bar3 = ax.bar(index + 2 * bar_width, rouge_results_instruction, bar_width, label
 # Customize ROUGE bar chart
 ax.set_xlabel('Tasks', fontsize=16)
 ax.set_ylabel('ROUGE-L Score', fontsize=16)
-ax.set_title('ROUGE-L Scores by Retriever Prompt and Task', fontsize=20)
+#ax.set_title('ROUGE-L Scores by Retriever Prompt and Task', fontsize=20)
 ax.set_xticks(index + bar_width)
 ax.set_xticklabels(tasks, fontsize=14)
-ax.legend(fontsize=16)
+ax.legend(fontsize=12)
 ax.set_ylim([0, 1])
 
 # Show ROUGE plot
@@ -329,10 +329,10 @@ bar3 = ax.bar(index + 2 * bar_width, s_similarity_score_results_instruction, bar
 # Customize semantic similarity bar chart
 ax.set_xlabel('Tasks', fontsize=16)
 ax.set_ylabel('Average F1-Score', fontsize=16)
-ax.set_title('Semantic Similarity Score by Retriever Prompt and Task', fontsize=20)
+#ax.set_title('Semantic Similarity Score by Retriever Prompt and Task', fontsize=20)
 ax.set_xticks(index + bar_width)
 ax.set_xticklabels(tasks, fontsize=14)
-ax.legend(fontsize=16)
+ax.legend(fontsize=12)
 ax.set_ylim([0, 1])
 
 # Show semantic similarity bar plot

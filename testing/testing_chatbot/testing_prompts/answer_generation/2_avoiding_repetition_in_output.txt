@@ -1,9 +1,11 @@
-Deine Aufgabe ist es, auf die folgende AKTUELLE FRAGE zu antworten. Gib mögliche Ratschläge zum beheben des Problems. Sei so konkret wie möglich.
-Verwende zur Beantwortung der FRAGE ausschliesslich die folgenden WEBHELP-ARTIKEL und die ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN.
+Deine Aufgabe ist es, auf die folgende AKTUELLE FRAGE zu antworten. 
+Finde Parallelen zwischen der AKTUELLEN FRAGE und den WEBHELP-ARTIKEL und den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN und versuche dann die Frage zu beantworten.
 Antworte so kurz wie möglich, ohne dabei wichtige Informationen auszulassen.
 Vermeide bei der Antwort Wiederholungen.
-Sprich in der DU-Form.
+Verwende zum Beantworten der Frage ausschliesslich die Informationen aus den WEBHELP-ARTIKEL und den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN.
+Antworte in der DU-Form.
 Bei längerem Text verwende Aufzählungszeichen.
+Verlinke hilfreiche Webhelp-Artikel in der Antwort.
 
 AKTUELLE FRAGE: <<query>>
 

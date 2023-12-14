@@ -1,4 +1,15 @@
-Formuliere die AKTUELLE FRAGE um, so dass klar ist, worauf sich die Frage bezieht. Nutze dazu die Infromationen aus der Chat-History. Falls die Frage bereits eindeutig ist, belasse sie in der originalen Form. 
+Formuliere die AKTUELLE FRAGE um, so dass klar ist, worauf sich die Frage bezieht. Nutze dazu die Infromationen aus der Chat-History. Falls die Frage bereits eindeutig ist, antworte mit der aktuellen Frage. Falls keine Chat-History vorhanden ist, antworte mit der aktuellen Frage. Anworte immer nur mit der umformulierten Frage oder mit der aktuellen Frage und nie mit einem anderen Text. Deine Antwort sollte nur die Frage sein, entweder in ihrer ursprünglichen Form (wenn sie bereits klar ist) oder in ihrer umstrukturierten Form (wenn eine Klarstellung erforderlich war). Füge keinen zusätzlichen Text oder Kommentar hinzu.
+
+Vorgehen:
+Lies die CHAT-HISTORY und die AKTUELLE FRAGE.
+Ergänze die AKTUELLE FRAGE mit dem Webelement auf die sich die Frage bezieht.
+Das ist eine Liste von Webelementen: Anker, Teaser, Moodboard, Hauptnavigation, Sidenavigation, viruelle Navigation, Filterliste. 
+Ersetze alle Anaphern in der AKTUELLEN FRAGE mit den konkreten Wörtern, die in der CHAT-History erwähnt werden. Beispiele für Anaphern sind "dieses", "dort" usw.
+Falls sich die aktuelle Frage nicht auf den vorherigen Chatverlauf bezieht, antworte mit der aktuellen Frage.
+Falls keine Chat-History vorhanden ist, antworte mit der aktuellen Frage.
+Antworte nur mit der Frage: Deine Antwort sollte nur die Frage sein, entweder in ihrer ursprünglichen Form (wenn sie bereits klar ist) oder in ihrer umstrukturierten Form (wenn eine Klarstellung erforderlich war). Füge keinen zusätzlichen Text oder Kommentar hinzu.
+Vermeide die Bestätigung der Klarheit der Frage: Antworte nicht mit Aussagen wie "Die Frage ist bereits in ihrer ursprünglichen Form klar". Wiederhole stattdessen einfach die Frage, wie sie ist, oder stelle die umstrukturierte Version bereit.
+
 
 Beispiele: 
 1. Beispiel
@@ -22,13 +33,6 @@ Chat-History: <<newest message>>
 Neue Frage: Wieso wird sie nicht angesprungen?
 Umstrukturierte Frage = Wieso wird mein Anker nicht angesprungen?
 
-Vorgehen:
-Lies die CHAT-HISTORY und die AKTUELLE FRAGE.
-Ergänze die AKTUELLE FRAGE mit dem Webelement auf die sich die Frage bezieht.
-Das ist eine Liste von Webelementen: Anker, Teaser, Moodboard, Hauptnavigation, Sidenavigation, viruelle Navigation, Filterliste. 
-Ersetze alle Anaphern in der AKTUELLEN FRAGE mit den konkreten Wörtern, die in der CHAT-History erwähnt werden. Beispiele für Anaphern sind "dieses", "dort" usw.
-Falls sich die Frage nicht auf den vorherigen Chatverlauf bezieht, spiele die Frage in ihrer originalen Form zurück.
-
 CHAT-HISTORY: 
 <<newest message>>
 
@@ -36,4 +40,6 @@ CHAT-HISTORY:
 
 AKTUELLE FRAGE: <<query>>
 
-UMSTRUKTURIERTE/ORIGINALE FRAGE:
+Deine Antwort sollte nur die Frage sein, entweder in ihrer ursprünglichen Form (wenn sie bereits klar ist) oder in ihrer umstrukturierten Form (wenn eine Klarstellung erforderlich war). Füge keinen zusätzlichen Text oder Kommentar hinzu.
+
+UMFORMULIERTE FRAGE oder ORIGINALE FRAGE:

@@ -1,6 +1,7 @@
 Verwende die folgenden WEBHELP-ARTIKEL und die ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN, um eine detaillierte Antwort auf die AKTUELLE FRAGE zu geben. Gib mögliche Ratschläge zum beheben des Problems. Sei so konkret wie möglich.
-Sprich in der DU-Form.
+Antworte in der DU-Form.
 Bei längerem Text verwende Aufzählungszeichen.
+Verlinke hilfreiche Webhelp-Artikel in der Antwort.
 
 AKTUELLE FRAGE: <<query>>
 

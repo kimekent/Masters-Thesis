@@ -1,24 +1,45 @@
-Ersetze in der aktuellen Frage anaphorische Ausdrücke durch das entsprechende Subjekt, auf das sich die Anapher bezieht. Falls keine Anapher vorhanden ist, lasse die Frage in ihrer originalen Form. Du kannst in der Chat-History nachsehen, um das korrekte Subjekt zu identifizieren. 
+Formuliere die AKTUELLE FRAGE um, so dass klar ist, worauf sich die Frage bezieht. Nutze dazu die Infromationen aus der Chat-History. Falls die Frage bereits eindeutig ist, antworte mit der aktuellen Frage. Falls keine Chat-History vorhanden ist, antworte mit der aktuellen Frage. Anworte immer nur mit der umformulierten Frage oder mit der aktuellen Frage und nie mit einem anderen Text. Deine Antwort sollte nur die Frage sein, entweder in ihrer ursprünglichen Form (wenn sie bereits klar ist) oder in ihrer umstrukturierten Form (wenn eine Klarstellung erforderlich war). Füge keinen zusätzlichen Text oder Kommentar hinzu.
 
-CHAT-HISTORY: <<newest message>>
-human: Meine Seite ist jedoch auf englisch.
-AI: Bitte in der Media Library vom Dokument eine englische Version anlegen, damit der Hinweis "Only in German" verschwindet. In der Media-Library ist es möglich, von einem Bild- oder Dokument-Item auch eine Sprachversion (EN) zu erstellen. Mehr dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_file-item-englische-version-er.htm).
-human: Wie kann ich eine Website löschen?
-AI: Hier eine Anleitung wie Sprachversionen von Seiten gelöscht werden können: Den Content Editor starten (Ribbon-Menü > Campus > Backend):
+Vorgehen:
+Lies die CHAT-HISTORY und die AKTUELLE FRAGE.
+Ergänze die AKTUELLE FRAGE mit dem Webelement auf die sich die Frage bezieht.
+Das ist eine Liste von Webelementen: Anker, Teaser, Moodboard, Hauptnavigation, Sidenavigation, viruelle Navigation, Filterliste. 
+Ersetze alle Anaphern in der AKTUELLEN FRAGE mit den konkreten Wörtern, die in der CHAT-History erwähnt werden. Beispiele für Anaphern sind "dieses", "dort" usw.
+Falls sich die aktuelle Frage nicht auf den vorherigen Chatverlauf bezieht, antworte mit der aktuellen Frage.
+Falls keine Chat-History vorhanden ist, antworte mit der aktuellen Frage.
+Antworte nur mit der Frage: Deine Antwort sollte nur die Frage sein, entweder in ihrer ursprünglichen Form (wenn sie bereits klar ist) oder in ihrer umstrukturierten Form (wenn eine Klarstellung erforderlich war). Füge keinen zusätzlichen Text oder Kommentar hinzu.
+Vermeide die Bestätigung der Klarheit der Frage: Antworte nicht mit Aussagen wie "Die Frage ist bereits in ihrer ursprünglichen Form klar". Wiederhole stattdessen einfach die Frage, wie sie ist, oder stelle die umstrukturierte Version bereit.
 
-1) Im Item-Tree die entsprechende Seite wählen und im Ribbon Menü zum Tab Versions wechseln.
 
-2) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass eine deutsche und eine englische Version der Seite vorhanden sind.
+Beispiele: 
+1. Beispiel
+Chat-History: <<newest message>>
 
-3) Durch klicken auf den grossen Sprachbutton zur löschenden Sprachversion wechseln (hier im Beispiel englisch).
+<<oldest message>>
+Neue Frage: Sie ist jedoch auf englisch.
+Umstrukturierte Frage = Wie kann ich ein englische Seite löschen?
 
-4) Auf den Button Remove klicken.
+2. Beispiel
+Chat-History: <<newest message>>
 
-5) Es erscheint ein Warnhinweis, ob die Version entfernt werden soll. Wenn Sie sicher sind, auf OK klicken.
+<<oldest message>> 
+Neue Frage: Kann ich dort auch externe Links einfügen?
+Umstrukturierte Frage = Kann ich in der virtuellen Navigation auch externe Link einfügen?
 
-6) Durch klicken auf den kleinen Sprachbutton ist ersichtlich, dass die englische Version gelöscht wurde. Bei Englsh:Englisch steht 0 versions. Mehr Infos dazu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm)
+3. Beispiel
+Chat-History: <<newest message>>
+
+<<oldest message>> 
+Neue Frage: Wieso wird sie nicht angesprungen?
+Umstrukturierte Frage = Wieso wird mein Anker nicht angesprungen?
+
+CHAT-HISTORY: 
+<<newest message>>
+
 <<oldest message>>
 
 AKTUELLE FRAGE: <<query>>
 
-UMSTRUKTURIERTE/ORIGINALE FRAGE:
+Deine Antwort sollte nur die Frage sein, entweder in ihrer ursprünglichen Form (wenn sie bereits klar ist) oder in ihrer umstrukturierten Form (wenn eine Klarstellung erforderlich war). Füge keinen zusätzlichen Text oder Kommentar hinzu.
+
+UMFORMULIERTE FRAGE oder ORIGINALE FRAGE:
