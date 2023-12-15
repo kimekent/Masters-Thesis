@@ -1,0 +1,182 @@
+[
+  {
+    "text": "Wie kann ich eine fehlerhafte Seite entfernen? Brauche ich dafür spezielle Berechtigungen? Die Seite, die ich meine, ist https://www.hslu.ch/de-ch/publikationen/fehlerhaft/",
+    "entities": [
+      {
+        "start": 121,
+        "end": 172,
+        "value": "https://www.hslu.ch/de-ch/publikationen/fehlerhaft/",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 45,
+        "end": 46,
+        "confidence_entity": 0.7564247846603394,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 89,
+        "end": 90,
+        "confidence_entity": 0.6426408886909485,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 100,
+        "end": 101,
+        "confidence_entity": 0.7422910332679749,
+        "value": ",",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 115,
+        "end": 116,
+        "confidence_entity": 0.6278620362281799,
+        "value": ",",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 121,
+        "end": 172,
+        "confidence_entity": 0.645268440246582,
+        "value": "https://www.hslu.ch/de-ch/publikationen/fehlerhaft/",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wir haben eine alte Informationsseite. Muss ich etwas beachten, bevor ich sie lösche? Hier ist die URL https://www.hslu.ch/de-ch/buerozeiten/alt/",
+    "entities": [
+      {
+        "start": 103,
+        "end": 145,
+        "value": "https://www.hslu.ch/de-ch/buerozeiten/alt/",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 37,
+        "end": 38,
+        "confidence_entity": 0.8523312211036682,
+        "value": ".",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 62,
+        "end": 63,
+        "confidence_entity": 0.6072246432304382,
+        "value": ",",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 84,
+        "end": 85,
+        "confidence_entity": 0.8168659210205078,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 103,
+        "end": 145,
+        "confidence_entity": 0.7965396046638489,
+        "value": "https://www.hslu.ch/de-ch/buerozeiten/alt/",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Es gibt eine Seite mit einem veralteten Studienplan, die von unserer Website gelöscht werden muss. Wie kann ich dies korrekt umsetzen? Die Seite ist hier zu finden https://www.hslu.ch/de-ch/studienplan/veraltet/",
+    "entities": [
+      {
+        "start": 164,
+        "end": 211,
+        "value": "https://www.hslu.ch/de-ch/studienplan/veraltet/",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 51,
+        "end": 52,
+        "confidence_entity": 0.7723228931427002,
+        "value": ",",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 97,
+        "end": 98,
+        "confidence_entity": 0.8228482007980347,
+        "value": ".",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 164,
+        "end": 210,
+        "confidence_entity": 0.9989594221115112,
+        "value": "https://www.hslu.ch/de-ch/studienplan/veraltet",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ich habe eine Seite, die gelöscht werden sollte. Wie melde ich das oder kann ich das selbst beheben? Die Seite ist https://www.hslu.ch/de-ch/kontakt/fehlerhaft/",
+    "entities": [
+      {
+        "start": 115,
+        "end": 160,
+        "value": "https://www.hslu.ch/de-ch/kontakt/fehlerhaft/",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 19,
+        "end": 20,
+        "confidence_entity": 0.8125634789466858,
+        "value": ",",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 47,
+        "end": 48,
+        "confidence_entity": 0.5908763408660889,
+        "value": ".",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 99,
+        "end": 100,
+        "confidence_entity": 0.6453443765640259,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 115,
+        "end": 160,
+        "confidence_entity": 0.6402217745780945,
+        "value": "https://www.hslu.ch/de-ch/kontakt/fehlerhaft/",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

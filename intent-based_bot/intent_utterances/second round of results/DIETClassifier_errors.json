@@ -1,0 +1,568 @@
+[
+  {
+    "text": "Ich möchte ein Interview-Video auf unserer https://hslu.ch/ueber-uns.ch Seite einbinden. Wie kann ich das am besten umsetzen?",
+    "entities": [
+      {
+        "start": 43,
+        "end": 71,
+        "value": "https://hslu.ch/ueber-uns.ch",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 43,
+        "end": 71,
+        "confidence_entity": 0.9978429079055786,
+        "value": "https://hslu.ch/ueber-uns.ch",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 87,
+        "end": 88,
+        "confidence_entity": 0.6900618672370911,
+        "value": ".",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 124,
+        "end": 125,
+        "confidence_entity": 0.9629190564155579,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wir möchten auf unserer Kampagnenseite https:////hslu.ch/kampagne.ch ein Video mit Kundenfeedback einfügen. Wie binde ich es ein?",
+    "entities": [
+      {
+        "start": 39,
+        "end": 68,
+        "value": "https:////hslu.ch/kampagne.ch",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 39,
+        "end": 56,
+        "confidence_entity": 0.9951512813568115,
+        "value": "https:////hslu.ch",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 128,
+        "end": 129,
+        "confidence_entity": 0.8595665693283081,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ich habe ein Moodboard für die mobile Ansicht unserer Website https://hslu.ch/ hinzugefügt, aber es erscheint nur ein grauer Platzhalter. Wie kann ich das Bild sichtbar machen?",
+    "entities": [
+      {
+        "start": 62,
+        "end": 78,
+        "value": "https://hslu.ch/",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 62,
+        "end": 77,
+        "confidence_entity": 0.9963957667350769,
+        "value": "https://hslu.ch",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ich versuche, das Moodboard unserer Fakultätsseite https://hslu.ch/fakulaet für die mobile Ansicht zu optimieren, aber es wird nicht korrekt dargestellt. Welche Schritte muss ich unternehmen?",
+    "entities": [
+      {
+        "start": 51,
+        "end": 75,
+        "value": "https://hslu.ch/fakulaet",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 12,
+        "end": 13,
+        "confidence_entity": 0.563244104385376,
+        "value": ",",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 51,
+        "end": 75,
+        "confidence_entity": 0.9955462217330933,
+        "value": "https://hslu.ch/fakulaet",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 190,
+        "end": 191,
+        "confidence_entity": 0.6564157009124756,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Auf unserer englischen Veranstaltungsseite https://hslu.ch/veranstaltung wird bei den Downloads fälschlicherweise 'Only in German' angezeigt. Was muss ich tun?",
+    "entities": [
+      {
+        "start": 43,
+        "end": 72,
+        "value": "https://hslu.ch/veranstaltung",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Auf der englischen Version unserer Fakultätsseite https://hslu.ch/fakutaet erscheint der Hinweis 'Only in German' bei mehreren PDFs. Kann ich diese Meldung abstellen?",
+    "entities": [
+      {
+        "start": 50,
+        "end": 74,
+        "value": "https://hslu.ch/fakutaet",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 50,
+        "end": 74,
+        "confidence_entity": 0.9960299134254456,
+        "value": "https://hslu.ch/fakutaet",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 165,
+        "end": 166,
+        "confidence_entity": 0.6322216987609863,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Die englische Version unserer Produktseite https://hslu.ch/produkte ist veraltet. Kann ich sie löschen, ohne die deutsche Version zu beeinträchtigen?",
+    "entities": [
+      {
+        "start": 43,
+        "end": 67,
+        "value": "https://hslu.ch/produkte",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 43,
+        "end": 67,
+        "confidence_entity": 0.9961481094360352,
+        "value": "https://hslu.ch/produkte",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 80,
+        "end": 81,
+        "confidence_entity": 0.6141299605369568,
+        "value": ".",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 102,
+        "end": 103,
+        "confidence_entity": 0.5722147226333618,
+        "value": ",",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 148,
+        "end": 149,
+        "confidence_entity": 0.8776137828826904,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ich muss eine Seite unserer Abteilung entfernen, da die Informationen nicht mehr aktuell sind. Die URL ist https://www.hslu.ch/de-ch/abteilung/veraltete-seite/. Kann ich das direkt im CMS machen oder benötige ich Unterstützung?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 47,
+        "end": 48,
+        "confidence_entity": 0.796891987323761,
+        "value": ",",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 93,
+        "end": 94,
+        "confidence_entity": 0.7831248044967651,
+        "value": ".",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 107,
+        "end": 160,
+        "confidence_entity": 0.9986875653266907,
+        "value": "https://www.hslu.ch/de-ch/abteilung/veraltete-seite/.",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 226,
+        "end": 227,
+        "confidence_entity": 0.5496324896812439,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Da wir unser Projekt abgeschlossen haben, ist die Projektsite nicht mehr nötig. Hier ist der Link: https://www.hslu.ch/de-ch/projekte/abgeschlossen/. Wie kann ich vorgehen, um sie zu löschen?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 40,
+        "end": 41,
+        "confidence_entity": 0.8318842053413391,
+        "value": ",",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 78,
+        "end": 79,
+        "confidence_entity": 0.7099547982215881,
+        "value": ".",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 97,
+        "end": 98,
+        "confidence_entity": 0.7569355368614197,
+        "value": ":",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 99,
+        "end": 149,
+        "confidence_entity": 0.9982120990753174,
+        "value": "https://www.hslu.ch/de-ch/projekte/abgeschlossen/.",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 190,
+        "end": 191,
+        "confidence_entity": 0.7398035526275635,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Es gibt eine alte Veranstaltungsseite, die nicht mehr benötigt wird. Kann ich sie direkt über das Backend löschen, oder gibt es einen speziellen Prozess dafür? Die Seite ist hier: https://www.hslu.ch/de-ch/events/alt/",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 37,
+        "end": 38,
+        "confidence_entity": 0.8349164724349976,
+        "value": ",",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 67,
+        "end": 68,
+        "confidence_entity": 0.5758901238441467,
+        "value": ".",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 113,
+        "end": 114,
+        "confidence_entity": 0.6883859038352966,
+        "value": ",",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 180,
+        "end": 217,
+        "confidence_entity": 0.7752599716186523,
+        "value": "https://www.hslu.ch/de-ch/events/alt/",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ich möchte eine Seite mit veralteten Kursinformationen entfernen. Die Seite ist schon offline, aber ich möchte sie komplett löschen. Hier ist der Link: https://www.hslu.ch/de-ch/kurse/veraltet/.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 64,
+        "end": 65,
+        "confidence_entity": 0.6914820075035095,
+        "value": ".",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 93,
+        "end": 94,
+        "confidence_entity": 0.7354894876480103,
+        "value": ",",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 131,
+        "end": 132,
+        "confidence_entity": 0.5598083138465881,
+        "value": ".",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 152,
+        "end": 194,
+        "confidence_entity": 0.997010350227356,
+        "value": "https://www.hslu.ch/de-ch/kurse/veraltet/.",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wir haben unsere Website umstrukturiert und einige Seiten sind nun überflüssig. Wie kann ich diese sicher entfernen, ohne dass es zu Problemen mit internen Links oder SEO kommt? Zum Beispiel diese Seite: https://www.hslu.ch/de-ch/ueberflüssig/",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 78,
+        "end": 79,
+        "confidence_entity": 0.5795192122459412,
+        "value": ".",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 115,
+        "end": 116,
+        "confidence_entity": 0.7535721063613892,
+        "value": ",",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 204,
+        "end": 243,
+        "confidence_entity": 0.6364115476608276,
+        "value": "https://www.hslu.ch/de-ch/ueberflüssig/",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ich brauche Hilfe beim Löschen einer Unterseite unseres Instituts. Sie ist veraltet und sollte nicht mehr angezeigt werden. Hier ist der Link: https://www.hslu.ch/de-ch/institut/unterseite/veraltet/",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 65,
+        "end": 66,
+        "confidence_entity": 0.6037240624427795,
+        "value": ".",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 122,
+        "end": 123,
+        "confidence_entity": 0.7004924416542053,
+        "value": ".",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 143,
+        "end": 198,
+        "confidence_entity": 0.6808609366416931,
+        "value": "https://www.hslu.ch/de-ch/institut/unterseite/veraltet/",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Unsere Teamseite wurde aktualisiert und die alte Version muss gelöscht werden. Kann ich das direkt im System tun? Die alte Seite ist hier: https://www.hslu.ch/de-ch/team/alt/",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 77,
+        "end": 78,
+        "confidence_entity": 0.5861372351646423,
+        "value": ".",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 112,
+        "end": 113,
+        "confidence_entity": 0.7304402589797974,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 139,
+        "end": 174,
+        "confidence_entity": 0.6682731509208679,
+        "value": "https://www.hslu.ch/de-ch/team/alt/",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Es gibt eine Fehlerseite auf unserer Website, die entfernt werden muss. Sie führt zu Verwirrung bei den Besuchern. Wie gehe ich vor, um sie zu löschen? Die URL ist: https://www.hslu.ch/de-ch/fehlerseite/",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 44,
+        "end": 45,
+        "confidence_entity": 0.7769638299942017,
+        "value": ",",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 70,
+        "end": 71,
+        "confidence_entity": 0.5803793668746948,
+        "value": ".",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 113,
+        "end": 114,
+        "confidence_entity": 0.6459389925003052,
+        "value": ".",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 165,
+        "end": 203,
+        "confidence_entity": 0.7034173011779785,
+        "value": "https://www.hslu.ch/de-ch/fehlerseite/",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Die Seite für ein abgelaufenes Event muss von unserer Website entfernt werden. Soll ich sie einfach aus dem CMS löschen? Hier ist der Link zur Seite: https://www.hslu.ch/de-ch/events/abgelaufen/",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 77,
+        "end": 78,
+        "confidence_entity": 0.6447250247001648,
+        "value": ".",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 119,
+        "end": 120,
+        "confidence_entity": 0.6598584055900574,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 150,
+        "end": 194,
+        "confidence_entity": 0.5787466764450073,
+        "value": "https://www.hslu.ch/de-ch/events/abgelaufen/",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ich muss eine alte Newsseite von unserer Website löschen. Sie enthält veraltete Informationen. Kann ich das selbst machen, oder muss ich das an jemand anderen weiterleiten? Die Seite ist hier: https://www.hslu.ch/de-ch/news/veraltet/",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 56,
+        "end": 57,
+        "confidence_entity": 0.6732524633407593,
+        "value": ".",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 93,
+        "end": 94,
+        "confidence_entity": 0.8005344271659851,
+        "value": ".",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 121,
+        "end": 122,
+        "confidence_entity": 0.7103433012962341,
+        "value": ",",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 193,
+        "end": 233,
+        "confidence_entity": 0.6483058929443359,
+        "value": "https://www.hslu.ch/de-ch/news/veraltet/",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

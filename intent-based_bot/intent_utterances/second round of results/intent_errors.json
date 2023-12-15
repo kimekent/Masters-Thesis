@@ -1,0 +1,330 @@
+[
+  {
+    "text": "Ich möchte ein Interview-Video auf unserer https://hslu.ch/ueber-uns.ch Seite einbinden. Wie kann ich das am besten umsetzen?",
+    "intent": "insert_video",
+    "intent_prediction": {
+      "name": "site_delete",
+      "confidence": 0.3549664318561554
+    }
+  },
+  {
+    "text": "Ich habe ein Tutorial-Video, das ich gerne in den FAQ-Bereich unserer Website einbinden möchte. Kann mir jemand den Prozess erklären?",
+    "intent": "insert_video",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.7695986032485962
+    }
+  },
+  {
+    "text": "Wir haben ein neues Produktvideo erstellt. Wie kann ich es auf der Website einbinden?",
+    "intent": "insert_video",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.31530192494392395
+    }
+  },
+  {
+    "text": "Ich möchte auf der Startseite ein Willkommensvideo einbetten. Kann ich das direkt über das CMS machen oder benötige ich technische Unterstützung?",
+    "intent": "insert_video",
+    "intent_prediction": {
+      "name": "site_delete",
+      "confidence": 0.8178322911262512
+    }
+  },
+  {
+    "text": "Für unsere Online-Kurse brauche ich Hilfe beim Einfügen von Lehrvideos. Wo in Sitecore kann ich das machen und gibt es eine Größenbeschränkung?",
+    "intent": "insert_video",
+    "intent_prediction": {
+      "name": "login",
+      "confidence": 0.38713112473487854
+    }
+  },
+  {
+    "text": "Ich würde gerne ein Video in unseren Website integrieren. Ist das möglich und wie gehe ich vor?",
+    "intent": "insert_video",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.4719694256782532
+    }
+  },
+  {
+    "text": "Auf der Seite unserer letzten Konferenz möchte ich das Abschlussvideo hinzufügen. Wie kann ich es so einbetten, dass es direkt auf der Seite abspielbar ist?",
+    "intent": "insert_video",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.1740218549966812
+    }
+  },
+  {
+    "text": "Ich habe ein Video zur Studiengangsvorstellung, das ich auf der Informationsseite einfügen möchte. Welche Schritte muss ich befolgen?",
+    "intent": "insert_video",
+    "intent_prediction": {
+      "name": "site_delete",
+      "confidence": 0.2991061508655548
+    }
+  },
+  {
+    "text": "Wir möchten auf unserer Kampagnenseite https:////hslu.ch/kampagne.ch ein Video mit Kundenfeedback einfügen. Wie binde ich es ein?",
+    "intent": "insert_video",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.9094116687774658
+    }
+  },
+  {
+    "text": "Auf dem Smartphone wird das Moodboard unserer Kampagnenseite nicht angezeigt, obwohl es in Sitecore eingestellt ist. Wie behebe ich das?",
+    "intent": "mobile_moodboard",
+    "intent_prediction": {
+      "name": "picture_error",
+      "confidence": 0.31921765208244324
+    }
+  },
+  {
+    "text": "Kann mir jemand erklären, wie der Login-Prozess für Sitecore funktioniert?",
+    "intent": "login",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.5207582116127014
+    }
+  },
+  {
+    "text": "Ich versuche, mich auf der Webseite anzumelden, aber es funktioniert nicht.",
+    "intent": "login",
+    "intent_prediction": {
+      "name": "site_delete_en",
+      "confidence": 0.375365674495697
+    }
+  },
+  {
+    "text": "Ich benötige den Link zur Anmeldeseite vom Schulungssystem. Wo finde ich diesen?",
+    "intent": "login",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.5701130628585815
+    }
+  },
+  {
+    "text": "Ich habe Probleme mit der englischen Version unserer News-Artikel. Trotz englischem Inhalt wird 'Only in German' angezeigt. Wie kann ich das ändern?",
+    "intent": "warning_only_in_german",
+    "intent_prediction": {
+      "name": "site_delete_en",
+      "confidence": 0.8382294178009033
+    }
+  },
+  {
+    "text": "Wir haben eine englische Seite für ein Event, das abgesagt wurde. Wie kann ich diese spezifische Seite entfernen, ohne die deutsche zu beeinflussen?",
+    "intent": "site_delete_en",
+    "intent_prediction": {
+      "name": "site_structure_german_english",
+      "confidence": 0.876058042049408
+    }
+  },
+  {
+    "text": "Ich habe eine englischsprachige Seite erstellt, die jetzt nicht mehr benötigt wird. Wie kann ich sie sicher aus dem System entfernen?",
+    "intent": "site_delete_en",
+    "intent_prediction": {
+      "name": "site_delete",
+      "confidence": 0.7848628759384155
+    }
+  },
+  {
+    "text": "Auf unserer Website gibt es eine englische Seite, die irrtümlich erstellt wurde. Wie kann ich sie entfernen, ohne andere Seiten zu beeinflussen?",
+    "intent": "site_delete_en",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.27400365471839905
+    }
+  },
+  {
+    "text": "Bitte ändert den Titel von Herrn Müller im System zu 'Senior Manager', da er kürzlich befördert wurde.",
+    "intent": "contact_edit",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.7448359727859497
+    }
+  },
+  {
+    "text": "Ich habe bemerkt, dass Frau Schmidts Telefonnummer Fauf unserer Webseite nicht aktuell ist. Können wir das schnellstmöglich korrigieren?",
+    "intent": "contact_edit",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.32413917779922485
+    }
+  },
+  {
+    "text": "Wie kann ich die E-Mail-Adresse von Frau Lehmann in unserem internen Verzeichnis aktualisieren? Sie hat eine neue berufliche E-Mail-Adresse.",
+    "intent": "contact_edit",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.9949354529380798
+    }
+  },
+  {
+    "text": "Ich möchte, dass die Kontaktdetails von Dr. Weber auf unserer Teamseite aktualisiert werden, um ihre neue Position als Forschungsleiterin widerzuspiegeln.",
+    "intent": "contact_edit",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.5428487658500671
+    }
+  },
+  {
+    "text": "In der englischen Version unserer Fakultätsseite gibt es die Meldung, dass manche Inhalte nur auf Englisch sind. Können Sie mir helfen, das zu identifizieren und zu ändern?",
+    "intent": "warning_some_content_only_available_in_german",
+    "intent_prediction": {
+      "name": "site_delete_en",
+      "confidence": 0.5665413737297058
+    }
+  },
+  {
+    "text": "Ich möchte in der Sidenavigation unserer Fakultätsseite einen Link zu unserer neuen Forschungsabteilung hinzufügen. Wie gehe ich am besten vor?",
+    "intent": "navigation_edit_visibility",
+    "intent_prediction": {
+      "name": "break",
+      "confidence": 0.3391266167163849
+    }
+  },
+  {
+    "text": "Auf unserer Kursseite möchte ich zusätzlich den Link zu unserre Themenseite einfügen. Kann mir jemand erklären, wie ich diese hinzufügen kann?",
+    "intent": "navigation_edit_visibility",
+    "intent_prediction": {
+      "name": "infobox_delete",
+      "confidence": 0.4184959828853607
+    }
+  },
+  {
+    "text": "Auf unserer Veranstaltungsseite möchte ich Links zu ähnlichen Events in der Seitenleiste hinzufügen. Wie kann ich das umsetzen?",
+    "intent": "navigation_edit_visibility",
+    "intent_prediction": {
+      "name": "site_not_published",
+      "confidence": 0.3860280513763428
+    }
+  },
+  {
+    "text": "Ist es möglich, auf der englischen Version unserer Website einen zusätzlichen Abschnitt hinzuzufügen, der auf der deutschen Seite nicht existiert?",
+    "intent": "site_structure_german_english",
+    "intent_prediction": {
+      "name": "site_delete_en",
+      "confidence": 0.6660899519920349
+    }
+  },
+  {
+    "text": "Ich habe festgestellt, dass einige unserer Elemente auf der englischen Seite immer wieder rausgelöscht werden. Woran kann das liegen?",
+    "intent": "site_structure_german_english",
+    "intent_prediction": {
+      "name": "site_delete_en",
+      "confidence": 0.2869566082954407
+    }
+  },
+  {
+    "text": "Unsere Forschungsseiten sind in Deutsch und Englisch verfügbar, jedoch möchte ich ein spezifisches Dokument nur in der enlgischen Version anlegen. Geht das?",
+    "intent": "site_structure_german_english",
+    "intent_prediction": {
+      "name": "site_delete_en",
+      "confidence": 0.9671210646629333
+    }
+  },
+  {
+    "text": "Wir möchten auf der englischen Seite ein spezifisches Forschungsprojekt hervorheben, das auf der deutschen Seite nicht relevant ist. Wie können wir das realisieren?",
+    "intent": "site_structure_german_english",
+    "intent_prediction": {
+      "name": "site_delete_en",
+      "confidence": 0.3929581046104431
+    }
+  },
+  {
+    "text": "Bei mir wird ein Teaser der nur auf der englsichen Seite erscheinen soll immer wieder von der Seite gelöscht. Wieso?",
+    "intent": "site_structure_german_english",
+    "intent_prediction": {
+      "name": "site_delete_en",
+      "confidence": 0.3700812757015228
+    }
+  },
+  {
+    "text": "Wie kann ich sicherstellen, dass beim Posten unserer Veranstaltungsseite auf sozialen Netzwerken das richtige Bild erscheint?",
+    "intent": "open_graph",
+    "intent_prediction": {
+      "name": "picture_popup",
+      "confidence": 0.2901832163333893
+    }
+  },
+  {
+    "text": "Ich möchte das Open Graph Bild für unsere Hauptseite ändern, damit es besser zu unserer aktuellen Kampagne passt. Wo finde ich die Einstellungen dafür?",
+    "intent": "open_graph",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.9679557085037231
+    }
+  },
+  {
+    "text": "Ich habe versucht, ein Popup für das Bild auf unserer Website einzurichten, aber es leitet stattdessen auf eine leere Seite um. Können Sie mir helfen, das zu korrigieren?",
+    "intent": "picture_popup",
+    "intent_prediction": {
+      "name": "login",
+      "confidence": 0.2591530680656433
+    }
+  },
+  {
+    "text": "Wie kann ich ein Popup-Fenster für eine Bildergalerie auf der Startseite unserer Website hinzufügen, sodass die Bilder in voller Größe angezeigt werden?",
+    "intent": "picture_popup",
+    "intent_prediction": {
+      "name": "picture_error",
+      "confidence": 0.3990418314933777
+    }
+  },
+  {
+    "text": "Ich brauche Unterstützung beim Einrichten eines Popups für die Produktbilder in unserem Online-Shop. Könntet ihr mir die Schritte dafür erklären?",
+    "intent": "picture_popup",
+    "intent_prediction": {
+      "name": "login",
+      "confidence": 0.32110458612442017
+    }
+  },
+  {
+    "text": "Bei der Fotogalerie auf unserer Projektseite öffnet sich kein Popup, wenn man auf die Bilder klickt. Muss ich dafür etwas Spezielles in den Einstellungen ändern?\"",
+    "intent": "picture_popup",
+    "intent_prediction": {
+      "name": "infobox_delete",
+      "confidence": 0.5920183062553406
+    }
+  },
+  {
+    "text": "Unsere Pressemitteilung erscheint nicht auf der Webseite. Kann jemand helfen?",
+    "intent": "site_not_published",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.36448729038238525
+    }
+  },
+  {
+    "text": "Die Seite mit den Informationen zu unserem neuen Kursangebot wurde erstellt, ist aber nicht auf der Website zu finden.",
+    "intent": "site_not_published",
+    "intent_prediction": {
+      "name": "infobox_delete",
+      "confidence": 0.7857828736305237
+    }
+  },
+  {
+    "text": "Unsere Teamseite wurde aktualisiert und die alte Version muss gelöscht werden. Kann ich das direkt im System tun? Die alte Seite ist hier: https://www.hslu.ch/de-ch/team/alt/",
+    "intent": "site_delete",
+    "intent_prediction": {
+      "name": "break",
+      "confidence": 0.49336424469947815
+    }
+  },
+  {
+    "text": "Es gibt eine Fehlerseite auf unserer Website, die entfernt werden muss. Sie führt zu Verwirrung bei den Besuchern. Wie gehe ich vor, um sie zu löschen? Die URL ist: https://www.hslu.ch/de-ch/fehlerseite/",
+    "intent": "site_delete",
+    "intent_prediction": {
+      "name": "site_not_published",
+      "confidence": 0.38235217332839966
+    }
+  },
+  {
+    "text": "Nach der Fusion vor zwei verscheidenen Themenbereichen müssen wir die URLs unserer Unterseite ändern. Wie mache ich das?",
+    "intent": "url_change",
+    "intent_prediction": {
+      "name": "site_delete_en",
+      "confidence": 0.3753569424152374
+    }
+  }
+]

@@ -1,0 +1,554 @@
+[
+  {
+    "text": "Wir möchten auf unserer Kampagnenseite [https:////hslu.ch/kampagne.ch] ein Video mit Kundenfeedback einfügen. Wie binde ich es ein?",
+    "intent": "insert_video",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.6005163192749023
+    }
+  },
+  {
+    "text": "Ich habe Schwierigkeiten, das Moodboard auf der mobilen Version einzurichten.",
+    "intent": "mobile_moodboard",
+    "intent_prediction": {
+      "name": "site_delete_en",
+      "confidence": 0.48045429587364197
+    }
+  },
+  {
+    "text": "Auf dem Smartphone wird das Moodboard unserer Kampagnenseite nicht angezeigt, obwohl es in Sitecore eingestellt ist. Wie behebe ich das?",
+    "intent": "mobile_moodboard",
+    "intent_prediction": {
+      "name": "warning_some_content_only_available_in_german",
+      "confidence": 0.23021678626537323
+    }
+  },
+  {
+    "text": "Wir haben ein neues Moodboard für unsere Kursseite erstellt, aber es wird in der mobilen Ansicht nicht richtig dargestellt. Welche Einstellungen muss ich vornehmen?",
+    "intent": "mobile_moodboard",
+    "intent_prediction": {
+      "name": "login",
+      "confidence": 0.3379628658294678
+    }
+  },
+  {
+    "text": "Ich habe ein Moodboard für die mobile Ansicht unserer Website https://hslu.ch/ hinzugefügt, aber es erscheint nur ein grauer Platzhalter. Wie kann ich das Bild sichtbar machen?",
+    "intent": "mobile_moodboard",
+    "intent_prediction": {
+      "name": "open_graph",
+      "confidence": 0.22746042907238007
+    }
+  },
+  {
+    "text": "Ich versuche, das Moodboard unserer Fakultätsseite https://hslu.ch/fakulaet für die mobile Ansicht zu optimieren, aber es wird nicht korrekt dargestellt. Welche Schritte muss ich unternehmen?",
+    "intent": "mobile_moodboard",
+    "intent_prediction": {
+      "name": "break",
+      "confidence": 0.5280439853668213
+    }
+  },
+  {
+    "text": "Die Box mit dem Spendenaufruf ist nicht mehr relevant. Wie kann ich sie von der Seite nehmen?",
+    "intent": "infobox_delete",
+    "intent_prediction": {
+      "name": "break",
+      "confidence": 0.2119147926568985
+    }
+  },
+  {
+    "text": "Seit dem letzten Update kann ich mich nicht mehr in Sitecore anmelden. Gibt es eine Lösung dafür?",
+    "intent": "login",
+    "intent_prediction": {
+      "name": "site_delete",
+      "confidence": 0.4171408712863922
+    }
+  },
+  {
+    "text": "Kann mir jemand erklären, wie der Login-Prozess für Sitecore funktioniert?",
+    "intent": "login",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.3201625943183899
+    }
+  },
+  {
+    "text": "Ich versuche, mich auf der Webseite anzumelden, aber es funktioniert nicht.",
+    "intent": "login",
+    "intent_prediction": {
+      "name": "contact_edit",
+      "confidence": 0.3629642724990845
+    }
+  },
+  {
+    "text": "Ich benötige den Link zur Anmeldeseite vom Schulungssystem. Wo finde ich diesen?",
+    "intent": "login",
+    "intent_prediction": {
+      "name": "picture_error",
+      "confidence": 0.18412750959396362
+    }
+  },
+  {
+    "text": "Ich versuche, die englische Seite unseres Forschungsprojekts zu aktualisieren, aber der Hinweis 'Only in German' bleibt bestehen. Können Sie mir helfen, das zu korrigieren?",
+    "intent": "warning_only_in_german",
+    "intent_prediction": {
+      "name": "warning_some_content_only_available_in_german",
+      "confidence": 0.15823911130428314
+    }
+  },
+  {
+    "text": "Wir haben eine englische Seite für ein Event, das abgesagt wurde. Wie kann ich diese spezifische Seite entfernen, ohne die deutsche zu beeinflussen?",
+    "intent": "site_delete_en",
+    "intent_prediction": {
+      "name": "site_structure_german_english",
+      "confidence": 0.2924770414829254
+    }
+  },
+  {
+    "text": "Wir haben einige englische Seiten, die nicht mehr verwendet werden. Kann ich sie löschen, und wenn ja, wie mache ich das richtig?",
+    "intent": "site_delete_en",
+    "intent_prediction": {
+      "name": "site_delete",
+      "confidence": 0.5727342963218689
+    }
+  },
+  {
+    "text": "Ich muss die englische Version einer speziellen Projektseite entfernen. Gibt es eine Anleitung, wie ich das sicher tun kann?",
+    "intent": "site_delete_en",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.21628037095069885
+    }
+  },
+  {
+    "text": "Auf unserer Website gibt es eine englische Seite, die irrtümlich erstellt wurde. Wie kann ich sie entfernen, ohne andere Seiten zu beeinflussen?",
+    "intent": "site_delete_en",
+    "intent_prediction": {
+      "name": "insert_video",
+      "confidence": 0.17855621874332428
+    }
+  },
+  {
+    "text": "Bitte ändert den Titel von Herrn Müller im System zu 'Senior Manager', da er kürzlich befördert wurde.",
+    "intent": "contact_edit",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.3797115087509155
+    }
+  },
+  {
+    "text": "Ich habe bemerkt, dass Frau Schmidts Telefonnummer Fauf unserer Webseite nicht aktuell ist. Können wir das schnellstmöglich korrigieren?",
+    "intent": "contact_edit",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.29163217544555664
+    }
+  },
+  {
+    "text": "Wie kann ich die E-Mail-Adresse von Frau Lehmann in unserem internen Verzeichnis aktualisieren? Sie hat eine neue berufliche E-Mail-Adresse.",
+    "intent": "contact_edit",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.9322482943534851
+    }
+  },
+  {
+    "text": "Könnt ihr bitte Herrn Bauers Jobbezeichnung auf der Website ändern? Er ist jetzt Leiter der Marketingabteilung.",
+    "intent": "contact_edit",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.4663340449333191
+    }
+  },
+  {
+    "text": "Ich möchte, dass die Kontaktdetails von Dr. Weber auf unserer Teamseite aktualisiert werden, um ihre neue Position als Forschungsleiterin widerzuspiegeln.",
+    "intent": "contact_edit",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.6862258315086365
+    }
+  },
+  {
+    "text": "In der englischen Version unserer Fakultätsseite gibt es die Meldung, dass manche Inhalte nur auf Englisch sind. Können Sie mir helfen, das zu identifizieren und zu ändern?",
+    "intent": "warning_some_content_only_available_in_german",
+    "intent_prediction": {
+      "name": "site_structure_german_english",
+      "confidence": 0.29134315252304077
+    }
+  },
+  {
+    "text": "Ich versuche, die Seitennavigation unserer Homepage zu ändern, um auf unsere neuen Social-Media-Kanäle zu verweisen. Wie mache ich das?",
+    "intent": "navigation_edit_visibility",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.4866408407688141
+    }
+  },
+  {
+    "text": "Auf unserer Veranstaltungsseite möchte ich Links zu ähnlichen Events in der Seitenleiste hinzufügen. Wie kann ich das umsetzen?",
+    "intent": "navigation_edit_visibility",
+    "intent_prediction": {
+      "name": "insert_video",
+      "confidence": 0.3893732726573944
+    }
+  },
+  {
+    "text": "Ich habe festgestellt, dass einige unserer Elemente auf der englischen Seite immer wieder rausgelöscht werden. Woran kann das liegen?",
+    "intent": "site_structure_german_english",
+    "intent_prediction": {
+      "name": "warning_some_content_only_available_in_german",
+      "confidence": 0.33400964736938477
+    }
+  },
+  {
+    "text": "Bei mir wird ein Teaser der nur auf der englsichen Seite erscheinen soll immer wieder von der Seite gelöscht. Wieso?",
+    "intent": "site_structure_german_english",
+    "intent_prediction": {
+      "name": "break",
+      "confidence": 0.2139265388250351
+    }
+  },
+  {
+    "text": "Wie kann ich sicherstellen, dass beim Posten unserer Veranstaltungsseite auf sozialen Netzwerken das richtige Bild erscheint?",
+    "intent": "open_graph",
+    "intent_prediction": {
+      "name": "break",
+      "confidence": 0.4174424111843109
+    }
+  },
+  {
+    "text": "Auf unserer Projektseite haben wir das Open Graph Bild geändert, aber es wird immer noch das alte Bild in sozialen Medien angezeigt. Was kann ich tun?",
+    "intent": "open_graph",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.5167577266693115
+    }
+  },
+  {
+    "text": "Ich möchte das Open Graph Bild für unsere Hauptseite ändern, damit es besser zu unserer aktuellen Kampagne passt. Wo finde ich die Einstellungen dafür?",
+    "intent": "open_graph",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.8811737298965454
+    }
+  },
+  {
+    "text": "Beim Teilen unserer Forschungsseite auf sozialen Medien wird ein veraltetes Bild angezeigt.",
+    "intent": "open_graph",
+    "intent_prediction": {
+      "name": "break",
+      "confidence": 0.49294403195381165
+    }
+  },
+  {
+    "text": "Ich habe versucht, ein Popup für das Bild auf unserer Website einzurichten, aber es leitet stattdessen auf eine leere Seite um. Können Sie mir helfen, das zu korrigieren?",
+    "intent": "picture_popup",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.3116505742073059
+    }
+  },
+  {
+    "text": "Wie kann ich ein Popup-Fenster für eine Bildergalerie auf der Startseite unserer Website hinzufügen, sodass die Bilder in voller Größe angezeigt werden?",
+    "intent": "picture_popup",
+    "intent_prediction": {
+      "name": "insert_video",
+      "confidence": 0.4668239653110504
+    }
+  },
+  {
+    "text": "Ich brauche Unterstützung beim Einrichten eines Popups für die Produktbilder in unserem Online-Shop. Könntet ihr mir die Schritte dafür erklären?",
+    "intent": "picture_popup",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.3178095817565918
+    }
+  },
+  {
+    "text": "Bei der Fotogalerie auf unserer Projektseite öffnet sich kein Popup, wenn man auf die Bilder klickt. Muss ich dafür etwas Spezielles in den Einstellungen ändern?\"",
+    "intent": "picture_popup",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.6702067255973816
+    }
+  },
+  {
+    "text": "Beim Versuch, ein Bild auf unserer Team-Seite zu platzieren, erscheint eine Fehlermeldung. Das Bildformat ist JPEG. Was könnte das Problem sein?",
+    "intent": "picture_error",
+    "intent_prediction": {
+      "name": "open_graph",
+      "confidence": 0.4827828109264374
+    }
+  },
+  {
+    "text": "Es gibt eine Fehlermeldung, wenn ich ein Bild in die Bildergallerie hochlade. Kann das an der Bildauflösung liegen?",
+    "intent": "picture_error",
+    "intent_prediction": {
+      "name": "open_graph",
+      "confidence": 0.20951025187969208
+    }
+  },
+  {
+    "text": "Beim Hochladen eines Bilds auf unsere Event-Seite tritt stets eine Fehlermeldung auf. Ich habe alle Bildvorgaben eingehalten. Gibt es eine Lösung?",
+    "intent": "picture_error",
+    "intent_prediction": {
+      "name": "warning_some_content_only_available_in_german",
+      "confidence": 0.3646751642227173
+    }
+  },
+  {
+    "text": "Jedes Mal, wenn ich ein Bild für unser Moodboard hochlade, erscheint eine Fehlermeldung. Sind spezielle Bildformate erforderlich?",
+    "intent": "picture_error",
+    "intent_prediction": {
+      "name": "open_graph",
+      "confidence": 0.3828027546405792
+    }
+  },
+  {
+    "text": "Ich habe eine neue Seite für unser Forschungsprojekt erstellt, aber sie scheint nicht live zu sein. Was könnte das Problem sein?",
+    "intent": "site_not_published",
+    "intent_prediction": {
+      "name": "picture_error",
+      "confidence": 0.34993278980255127
+    }
+  },
+  {
+    "text": "Trotz Veröffentlichungseinstellung für den heutigen Tag ist unsere Eventseite immer noch nicht online. Muss ich noch etwas anderes tun?",
+    "intent": "site_not_published",
+    "intent_prediction": {
+      "name": "warning_some_content_only_available_in_german",
+      "confidence": 0.2770335078239441
+    }
+  },
+  {
+    "text": "Ich habe Änderungen an der Seite unseres Instituts vorgenommen, aber diese sind auf der Website nicht sichtbar. Gibt es eine Verzögerung beim Veröffentlichen?",
+    "intent": "site_not_published",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.3231693208217621
+    }
+  },
+  {
+    "text": "Die Seite für unser neues Studiengangsangebot wurde erstellt, ist aber nicht auffindbar. Könnten Sie bitte überprüfen, ob es ein technisches Problem gibt?",
+    "intent": "site_not_published",
+    "intent_prediction": {
+      "name": "warning_some_content_only_available_in_german",
+      "confidence": 0.2053009420633316
+    }
+  },
+  {
+    "text": "Unsere Pressemitteilung erscheint nicht auf der Webseite. Kann jemand helfen?",
+    "intent": "site_not_published",
+    "intent_prediction": {
+      "name": "break",
+      "confidence": 0.21517527103424072
+    }
+  },
+  {
+    "text": "Ich habe die Seite für unseren jährlichen Bericht aktualisiert, aber sie ist immer noch nicht online. Was muss ich tun, damit sie veröffentlicht wird?",
+    "intent": "site_not_published",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.5282471776008606
+    }
+  },
+  {
+    "text": "Ich habe eine neue Unterseite zu unseren Services hinzugefügt, aber sie ist nicht online gegangen. Gibt es einen Schritt, den ich übersehen habe?",
+    "intent": "site_not_published",
+    "intent_prediction": {
+      "name": "contact_edit",
+      "confidence": 0.23000197112560272
+    }
+  },
+  {
+    "text": "Die Seite mit den Informationen zu unserem neuen Kursangebot wurde erstellt, ist aber nicht auf der Website zu finden.",
+    "intent": "site_not_published",
+    "intent_prediction": {
+      "name": "insert_video",
+      "confidence": 0.2577417492866516
+    }
+  },
+  {
+    "text": "Ich muss eine Seite unserer Abteilung entfernen, da die Informationen nicht mehr aktuell sind. Die URL ist https://www.hslu.ch/de-ch/abteilung/veraltete-seite/. Kann ich das direkt im CMS machen oder benötige ich Unterstützung?",
+    "intent": "site_delete",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.24861375987529755
+    }
+  },
+  {
+    "text": "Da wir unser Projekt abgeschlossen haben, ist die Projektsite nicht mehr nötig. Hier ist der Link: https://www.hslu.ch/de-ch/projekte/abgeschlossen/. Wie kann ich vorgehen, um sie zu löschen?",
+    "intent": "site_delete",
+    "intent_prediction": {
+      "name": "picture_error",
+      "confidence": 0.19650359451770782
+    }
+  },
+  {
+    "text": "Es gibt eine alte Veranstaltungsseite, die nicht mehr benötigt wird. Kann ich sie direkt über das Backend löschen, oder gibt es einen speziellen Prozess dafür? Die Seite ist hier: https://www.hslu.ch/de-ch/events/alt/",
+    "intent": "site_delete",
+    "intent_prediction": {
+      "name": "break",
+      "confidence": 0.36679989099502563
+    }
+  },
+  {
+    "text": "Ich möchte eine Seite mit veralteten Kursinformationen entfernen. Die Seite ist schon offline, aber ich möchte sie komplett löschen. Hier ist der Link: https://www.hslu.ch/de-ch/kurse/veraltet/.",
+    "intent": "site_delete",
+    "intent_prediction": {
+      "name": "open_graph",
+      "confidence": 0.28524401783943176
+    }
+  },
+  {
+    "text": "Wir haben unsere Website umstrukturiert und einige Seiten sind nun überflüssig. Wie kann ich diese sicher entfernen, ohne dass es zu Problemen mit internen Links oder SEO kommt? Zum Beispiel diese Seite: https://www.hslu.ch/de-ch/ueberflüssig/",
+    "intent": "site_delete",
+    "intent_prediction": {
+      "name": "break",
+      "confidence": 0.25984692573547363
+    }
+  },
+  {
+    "text": "Unsere Teamseite wurde aktualisiert und die alte Version muss gelöscht werden. Kann ich das direkt im System tun? Die alte Seite ist hier: https://www.hslu.ch/de-ch/team/alt/",
+    "intent": "site_delete",
+    "intent_prediction": {
+      "name": "break",
+      "confidence": 0.5282486081123352
+    }
+  },
+  {
+    "text": "Die Seite für ein abgelaufenes Event muss von unserer Website entfernt werden. Soll ich sie einfach aus dem CMS löschen? Hier ist der Link zur Seite: https://www.hslu.ch/de-ch/events/abgelaufen/",
+    "intent": "site_delete",
+    "intent_prediction": {
+      "name": "break",
+      "confidence": 0.3294047713279724
+    }
+  },
+  {
+    "text": "Ich muss eine alte Newsseite von unserer Website löschen. Sie enthält veraltete Informationen. Kann ich das selbst machen, oder muss ich das an jemand anderen weiterleiten? Die Seite ist hier: https://www.hslu.ch/de-ch/news/veraltet/",
+    "intent": "site_delete",
+    "intent_prediction": {
+      "name": "break",
+      "confidence": 0.29368525743484497
+    }
+  },
+  {
+    "text": "Ich habe einen neuen Teaser erstellt, aber jetzt gibt es einen grossen Leerraum zwischen den Absätzen. Wie kann ich das anpassen?",
+    "intent": "break",
+    "intent_prediction": {
+      "name": "rich_text_teaser_format",
+      "confidence": 0.3169814646244049
+    }
+  },
+  {
+    "text": "Beim Hinzufügen von manuellen Teasern auf unserer Seite ist ein großer Abstand entstanden. Kann mir jemand helfen, diesen zu entfernen?",
+    "intent": "break",
+    "intent_prediction": {
+      "name": "contact_edit",
+      "confidence": 0.30140578746795654
+    }
+  },
+  {
+    "text": "Ich versuche, die Abstände zwischen den Elementen auf unserer Produktseite zu reduzieren, aber es funktioniert nicht. Was mache ich falsch?",
+    "intent": "break",
+    "intent_prediction": {
+      "name": "picture_error",
+      "confidence": 0.15607969462871552
+    }
+  },
+  {
+    "text": "Auf der Veranstaltungsseite sind die Textblöcke ungleichmäßig verteilt, was zu unschönen Lücken führt. Wie kann ich das korrigieren?",
+    "intent": "break",
+    "intent_prediction": {
+      "name": "rich_text_teaser_format",
+      "confidence": 0.7051486968994141
+    }
+  },
+  {
+    "text": "Die Spalten auf unserer Über uns-Seite sind nicht richtig ausgerichtet, was zu großen Zwischenräumen führt. Wie kann ich das ändern?",
+    "intent": "break",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.28427737951278687
+    }
+  },
+  {
+    "text": "Nach dem Einfügen eines neuen Teasers auf der Kursseite sind die Abstände zu den anderen Elementen zu groß. Wie passe ich das an?",
+    "intent": "break",
+    "intent_prediction": {
+      "name": "site_delete",
+      "confidence": 0.18484297394752502
+    }
+  },
+  {
+    "text": "Die Icons auf unserer Service-Seite sind nicht gleichmäßig verteilt, es gibt zu große Zwischenräume. Kann mir jemand zeigen, wie ich das behebe?",
+    "intent": "break",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.2613458037376404
+    }
+  },
+  {
+    "text": "Für unsere Marketingkampagne möchte ich unser neuestes Produktvideo auf YouTube hochladen. Wo kann ich die Datei ablegen, damit ihr das erledigen könnt?",
+    "intent": "youtube",
+    "intent_prediction": {
+      "name": "insert_video",
+      "confidence": 0.49552488327026367
+    }
+  },
+  {
+    "text": "Wir haben ein Update zu unserem Schulungsprogramm und möchten das alte Video auf YouTube durch ein neues ersetzen. Wie gehen wir dabei vor?",
+    "intent": "youtube",
+    "intent_prediction": {
+      "name": "insert_video",
+      "confidence": 0.7531994581222534
+    }
+  },
+  {
+    "text": "Ich habe ein Video für unsere jährliche Veranstaltung, das auf YouTube hochgeladen werden soll. Könnt ihr mir den Prozess dafür erklären?",
+    "intent": "youtube",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.2651451528072357
+    }
+  },
+  {
+    "text": "Das Video unseres letzten Events muss dringend von YouTube entfernt werden, da es veraltete Informationen enthält. Wer kann das für uns erledigen?",
+    "intent": "youtube",
+    "intent_prediction": {
+      "name": "infobox_delete",
+      "confidence": 0.7179093956947327
+    }
+  },
+  {
+    "text": "Ich habe ein Tutorial-Video erstellt, das auf unserem YouTube-Kanal veröffentlicht werden soll. An wen kann ich mich wenden?",
+    "intent": "youtube",
+    "intent_prediction": {
+      "name": "rich_text_teaser_format",
+      "confidence": 0.2026619017124176
+    }
+  },
+  {
+    "text": "Das Video in unserem YouTube-Kanal hat einen Tippfehler im Titel. Wie kann ich das korrigieren oder wer kann das für mich tun?",
+    "intent": "youtube",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.8116937279701233
+    }
+  },
+  {
+    "text": "Wir haben ein neues Video für unsere Webseite, das auch auf YouTube verfügbar sein soll. Könnt ihr mir helfen, es dort hochzuladen?",
+    "intent": "youtube",
+    "intent_prediction": {
+      "name": "warning_some_content_only_available_in_german",
+      "confidence": 0.27835169434547424
+    }
+  },
+  {
+    "text": "Nach der Fusion vor zwei verscheidenen Themenbereichen müssen wir die URLs unserer Unterseite ändern. Wie mache ich das?",
+    "intent": "url_change",
+    "intent_prediction": {
+      "name": "youtube",
+      "confidence": 0.19133926928043365
+    }
+  }
+]

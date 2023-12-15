@@ -95,15 +95,14 @@ stories:
   - intent: site_delete
   - action: action_default_ask_affirmation
   - action: utter_site_delete
-  - action: action_question_answered
-  - action: utter_buttons_site_delete_en # Suggests 'site_delete_en' intent due to its similarity with site deletion.
+  - action: action_default_ask_affirmation
 
 - story: site delete en
   steps:
   - intent: site_delete_en
   - action: action_default_ask_affirmation
   - action: utter_site_delete_en
-  - action: action_question_answered
+  - action: action_default_ask_affirmation
 
 - story: site invisible
   steps:
