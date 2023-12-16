@@ -1,0 +1,165 @@
+{
+  "site_delete_en": {
+    "precision": 0.875,
+    "recall": 0.7,
+    "f1-score": 0.7777777777777777,
+    "support": 10,
+    "confused_with": {
+      "url_change": 3
+    }
+  },
+  "warning_only_in_german": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 10,
+    "confused_with": {
+      "warning_some_content_only_available_in_german": 2
+    }
+  },
+  "contact_edit": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "open_graph": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 10,
+    "confused_with": {
+      "navigation_edit_visibility": 2
+    }
+  },
+  "site_not_published": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 10,
+    "confused_with": {
+      "site_structure_german_english": 2
+    }
+  },
+  "break": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "insert_video": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "picture_error": {
+    "precision": 0.9,
+    "recall": 0.9,
+    "f1-score": 0.9,
+    "support": 10,
+    "confused_with": {
+      "url_change": 1
+    }
+  },
+  "site_delete": {
+    "precision": 1.0,
+    "recall": 0.6,
+    "f1-score": 0.7499999999999999,
+    "support": 10,
+    "confused_with": {
+      "url_change": 3,
+      "picture_error": 1
+    }
+  },
+  "rich_text_teaser_format": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "url_change": {
+    "precision": 0.5263157894736842,
+    "recall": 1.0,
+    "f1-score": 0.6896551724137931,
+    "support": 10,
+    "confused_with": {}
+  },
+  "infobox_delete": {
+    "precision": 1.0,
+    "recall": 0.9,
+    "f1-score": 0.9473684210526316,
+    "support": 10,
+    "confused_with": {
+      "url_change": 1
+    }
+  },
+  "login": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "site_structure_german_english": {
+    "precision": 0.8,
+    "recall": 0.8,
+    "f1-score": 0.8000000000000002,
+    "support": 10,
+    "confused_with": {
+      "url_change": 1,
+      "site_delete_en": 1
+    }
+  },
+  "picture_popup": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "navigation_edit_visibility": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 10,
+    "confused_with": {}
+  },
+  "warning_some_content_only_available_in_german": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 10,
+    "confused_with": {}
+  },
+  "mobile_moodboard": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "accuracy": 0.9055555555555556,
+  "macro avg": {
+    "precision": 0.9315545808966862,
+    "recall": 0.9055555555555556,
+    "f1-score": 0.9083138808940383,
+    "support": 180
+  },
+  "weighted avg": {
+    "precision": 0.9315545808966863,
+    "recall": 0.9055555555555556,
+    "f1-score": 0.9083138808940382,
+    "support": 180
+  },
+  "micro avg": {
+    "precision": 0.9055555555555556,
+    "recall": 0.9055555555555556,
+    "f1-score": 0.9055555555555556,
+    "support": 180
+  }
+}

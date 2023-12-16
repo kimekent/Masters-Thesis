@@ -1,0 +1,147 @@
+[
+  {
+    "text": "Um eine fehlerhafte Unterseite, wie diese hier https://www.hslu.ch/de-ch/fehler/unterseite/ , zu entfernen, muss ich das direkt im CMS machen oder gibt es einen anderen Workflow?",
+    "entities": [
+      {
+        "start": 47,
+        "end": 91,
+        "value": "https://www.hslu.ch/de-ch/fehler/unterseite/",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 47,
+        "end": 91,
+        "confidence_entity": 0.8936209082603455,
+        "value": "https://www.hslu.ch/de-ch/fehler/unterseite/",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 177,
+        "end": 178,
+        "confidence_entity": 0.847700297832489,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Was ist das Prozedere, um nicht mehr benötigte Fakultätsseiten zu löschen, beispielsweise https://www.hslu.ch/de-ch/fakultaet/unnötig/?",
+    "entities": [
+      {
+        "start": 90,
+        "end": 134,
+        "value": "https://www.hslu.ch/de-ch/fakultaet/unnötig/",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 21,
+        "end": 22,
+        "confidence_entity": 0.5142869353294373,
+        "value": ",",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 90,
+        "end": 134,
+        "confidence_entity": 0.9648041129112244,
+        "value": "https://www.hslu.ch/de-ch/fakultaet/unnötig/",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Für die Entfernung einer veralteten Dozentenseite, lokalisiert unter https://www.hslu.ch/de-ch/dozenten/alt/, suche ich nach der passenden Vorgehensweise. Wie soll ich vorgehen?",
+    "entities": [
+      {
+        "start": 69,
+        "end": 108,
+        "value": "https://www.hslu.ch/de-ch/dozenten/alt/",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 69,
+        "end": 108,
+        "confidence_entity": 0.8847367763519287,
+        "value": "https://www.hslu.ch/de-ch/dozenten/alt/",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 176,
+        "end": 177,
+        "confidence_entity": 0.6381227970123291,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Bei der Löschung der alten Partnerseite, die hier zu finden ist https://www.hslu.ch/de-ch/partner/veraltet/, muss ich spezielle Schritte befolgen?",
+    "entities": [
+      {
+        "start": 64,
+        "end": 107,
+        "value": "https://www.hslu.ch/de-ch/partner/veraltet/",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 64,
+        "end": 107,
+        "confidence_entity": 0.9373635649681091,
+        "value": "https://www.hslu.ch/de-ch/partner/veraltet/",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 145,
+        "end": 146,
+        "confidence_entity": 0.6035678386688232,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Kann ich eine nicht mehr relevante Publikationsseite, wie die folgende https://www.hslu.ch/de-ch/publikationen/unnötig/ , eigenständig im CMS entfernen?",
+    "entities": [
+      {
+        "start": 71,
+        "end": 119,
+        "value": "https://www.hslu.ch/de-ch/publikationen/unnötig/",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 71,
+        "end": 119,
+        "confidence_entity": 0.9203079342842102,
+        "value": "https://www.hslu.ch/de-ch/publikationen/unnötig/",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 151,
+        "end": 152,
+        "confidence_entity": 0.7369280457496643,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

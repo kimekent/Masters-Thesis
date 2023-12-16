@@ -1,0 +1,42 @@
+[
+  {
+    "text": "Was ist die korrekte Vorgehensweise, um eine englische Inhaltsseite, die veraltet ist, von unserer Website zu nehmen?",
+    "intent": "site_delete_en",
+    "intent_prediction": {
+      "name": "site_structure_german_english",
+      "confidence": 0.5269864797592163
+    }
+  },
+  {
+    "text": "Gibt es eine Möglichkeit, die englische Version einer Seite zu entfernen, während die deutsche Seite weiterhin live bleiben?",
+    "intent": "site_delete_en",
+    "intent_prediction": {
+      "name": "site_structure_german_english",
+      "confidence": 0.7211050391197205
+    }
+  },
+  {
+    "text": "Ich sehe auf der englischen Übersichtsseite unserer Website immer noch die Warnung, dass gewisse Inhalte nur auf Deutsch zugänglich sind. Wie kann ich das Problem beheben?",
+    "intent": "warning_some_content_only_available_in_german",
+    "intent_prediction": {
+      "name": "site_structure_german_english",
+      "confidence": 0.8566428422927856
+    }
+  },
+  {
+    "text": "Beim Aktualisieren des Bildes in einem manuellen Teaser. Welche technischen Anforderungen übersehe ich möglicherweise?",
+    "intent": "picture_error",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.6571539640426636
+    }
+  },
+  {
+    "text": "Für das dauerhafte Entfernen einer alten Ankündigungsseite, benötige ich Unterstützung. Kann ich das alleine durchführen?",
+    "intent": "site_delete",
+    "intent_prediction": {
+      "name": "site_delete_en",
+      "confidence": 0.7947806715965271
+    }
+  }
+]

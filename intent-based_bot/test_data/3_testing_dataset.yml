@@ -1,0 +1,238 @@
+version: "3.1"
+
+# This file contains the one set of testing utterances that were used to evaluate the nlu component of the rasa chatbot.
+
+nlu:
+- intent: mobile_moodboard
+  examples: |
+    - Warum zeigt mein Smartphone das Moodboard nicht an, obwohl es auf dem Tablet funktioniert?
+    - Wie stelle ich sicher, dass das Moodboard auch auf allen mobilen Geräten dargestellt wird?
+    - Mein Moodboard wird auf dem Mobilgerät nicht angezeigt, wieso?
+    - Gibt es eine Möglichkeit, dass das Moodboard auch auf dem Handy angezeigt wird?
+    - Warum lädt das Moodboard auf der mobilen Webseite nicht?
+    - Wie kann ich das Moodboard auf der mobilen Seite einfügen?
+    - Ich möchte ein Moodboard für die mobile Webseite einbinden, wie gehe ich da vor?
+    - Das Moodboard wird auf dem Handy anicht angezeigt obwohl ich eins hizugefügt habe. Was könnte das Promblem sein?
+    - Kann ich auch ein mobiles Moodboard erstellen oder werden diese nur in der Desktop Variante dargestellt?
+    - Wie aktualisiere ich ein bestehendes Moodboard, damit es auch auf mobilen Geräten funktioniert?
+
+- intent: infobox_delete
+  examples: |
+    - Wo finde ich die Option, um die Info-Box auf unserer Hauptseite zu löschen?
+    - Was sind die Schritte, um die Infobox auf unserer Webseite zu entfernen?
+    - Gibt es eine einfache Möglichkeit, die Infobox zu deaktivieren?
+    - Kann ich die Info-Box auf unserer Über-uns-Seite selbst entfernen?
+    - Wie kann ich die Infobox von unserer Kontaktseite nehmen?
+    - Ich sehe keine 'Löschen'-Option für die Infobox. Wie gehe ich vor?
+    - Wie kann ich die Infobox von der Seminarseite zu löschen?
+    - Ich möchte die Info Box mit den Öffnungszeiten während der Feiertage entfernen. Wie funktioniert das?
+    - Wie kann ich die Info-Box dauerhaft entfernen?
+    - Was muss ich tun, um die Infobox mit dem Countdown zu unserem Event von der Landingpage zu löschen?
+
+- intent: login
+  examples: |
+    - Ich bin neu hier und muss mich bei Sitecore anmelden. Könnte mir jemand erklären, wie das geht?
+    - Kann mir jemand helfen, wie ich auf der Sitecore-Plattform Zugang bekomme? Ich bin mir bei den Schritten nicht sicher.
+    - Ich habe meine Login-Informationen für Sitecore vergessen. Kann jemand aushelfen?
+    - Wo finde ich die Anmeldeseite für Sitecore, und welche Anmeldedaten benötige ich dafür?
+    - Ich versuche, in Sitecore einzusteigen, aber es funktioniert nicht. Was mache ich falsch?
+    - Gibt es eine Anleitung oder Hilfe für den ersten Login bei Sitecore? Ich komme nicht weiter.
+    - Kann jemand mir den direkten Link für den Sitecore-Login schicken? Ich finde ihn nicht.
+    - Ich bin mir nicht sicher, wie ich mich bei Sitecore anmelden soll. Kann mir das jemand Schritt für Schritt erklären?
+    - Welche Schritte muss ich befolgen, um mich bei Sitecore einzuloggen?
+    - Ich habe Probleme, mich bei Sitecore einzuloggen. Könnte mir jemand dabei helfen?
+
+- intent: warning_only_in_german
+  examples: |
+    - Ich bemerke, dass trotz der Verfügbarkeit einer englischen Seite der Warnhinweis 'Only in German' auf unserer Seite erscheint. Was ist zu tun?
+    - Auf der Download-Seite für internationale Studierende wird der Text 'Only in German' angezeigt, obwohl ich die englischen Dateien hochgeladen habe. Gibt es eine Lösung dafür?
+    - Unsere Bibliothekswebseite zeigt bei den englischsprachigen Publikationen irrtümlich 'Only in German' an. Wie kann ich das korrigieren?
+    - Warum wird bei der Downloadliste auf Englisch immer noch 'Only in German' angezeigt, und wie ändere ich das?
+    - Die englische Übersetzung unserer Dokumente sind verfügbar, aber der Hinweis 'Only in German' ist weiterhin sichtbar. Wie aktualisiere ich das?
+    - Ich erhalte Rückmeldungen, dass trotz hochgeladener englischer Inhalte 'Only in German' auf unserer Webseite zu sehen ist. Was könnte das Problem sein?
+    - Wie kann ich den Fehler beheben, dass auf unserer englischsprachigen Seite der Vermerk 'Only in German' angezeigt wird?
+    - Unsere Seite sind zweisprachig, doch auf der englischen Seite steht 'Only in German'. Wie stelle ich das richtig ein?
+    - Ich habe die Übersetzungen überprüft, aber die Warnung 'Only in German' taucht immer noch auf der englischen Produktseite auf. Was fehlt?
+    - Trotz Zweisprachigkeit erscheint bei unserer Website fälschlicherweise 'Only in German'. Wie kann ich das ändern?
+
+- intent: site_delete_en
+  examples: |
+    - Wie kann ich gezielt die englische Sprachversion einer Seite von unserer mehrsprachigen Website entfernen?
+    - Ich möchte die englische Version einer bestimmten Seite löschen. Was sind die Schritte dafür?
+    - Kannst du mir den Prozess erklären, um nur die englische Version einer Seite auf unserer Website zu löschen, ohne andere Sprachversionen zu stören?
+    - Welche Vorsichtsmassnahmen muss ich treffen, um nur die englische Seite aus unserem Internetauftritt zu entfernen?
+    - Gibt es eine Möglichkeit, die englische Version einer Seite selektiv zu löschen, ohne die deutsche zu beeinträchtigen?
+    - Wie kann ich vorgehen, um eine veraltete englische Informationsseite von unserer Webseite zu nehmen?
+    - Wie entferne ich eine englische Unterseite von unserer Homepage, ohne die deutsche Sprachversionen zu verändern?
+    - Was ist der richtige Weg, um eine englische Fassung einer bestimmten Seite zu löschen?
+    - Ich brauche Hilfe beim Löschen einer englischen Version einer Seite – können Sie mir eine detaillierte Anleitung geben?
+    - Wie kann ich eine englische Inhaltsseite sicher und effektiv aus unserem Webangebot entfernen, ohne die deutschen Inhalte zu stören?
+
+- intent: contact_edit
+  examples: |
+    - Könnt ihr die Jobbezeichnung von Herrn Fischer in unserem Contactteaser auf den neuesten Stand bringen?
+    - Herrn Zimmermanns Kontaktdaten zeigt noch die Telefonnummer an. Wie kann ich diese aktualisieren lassen?
+    - Frau Wagner hat ihren Doktortitel erhalten. Können wir das in ihrem Kontaktteaser auf der Webseite ergänzen?
+    - Es gibt einen Tippfehler im Namen von Herrn Schmidt auf im Kontakt Teaser, können wir das berichtigen?
+    - Ich muss die Berufbezeichnung für Frau Beckers im Kontaktteaser ändern, wie mache ich das?
+    - Kann ich die E-Mail-Adresse von Herrn Lorenz im Kontaktteaser selbst ändern oder muss das über den Support laufen?
+    - Frau Neumann hat geheiratet und heisst jetzt Frau Bauer. Wie kann ich ihren Namen im System ändern?
+    - Der Contact Teaser von Herrn Koch enthält veraltete Informationen. Wer kann das aktualisieren?
+    - Wie kann ich die Kontaktinformation im Contact Teaser ändern?
+    - Wer kann die Angaben im Kontaktteaser ändern?
+
+- intent: warning_some_content_only_available_in_german
+  examples: |
+    - Ich sehe auf der englischen Übersetzung unserer Seite die Benachrichtigung, dass gewisse Informationen nur auf Deutsch existieren. Weiso?
+    - Trotz vollständiger Übersetzung unserer Site in Englisch wird eine Warnung angezeigt, dass Inhalte nur auf Deutsch verfügbar sind. Wo könnte der Fehler liegen?
+    - Ich habe festgestellt, dass auf der englischsprachigen Unterseite unserer Bibliothek steht, dass Teile nur in Deutsch vorhanden sind. Wie finde ich die nicht übersetzten Elemente?
+    - Auf der englischen Landing-Page unserer Webseite wird ein Hinweis angezeigt, dass einige Inhalte nur auf Deutsch verfügbar sind. Wie kann ich das Problem beheben?
+    - Es gibt eine Warnung auf unserer englischen Seite, dass bestimmte Artikel nur auf Deutsch verfügbar sind. Wie kann ich alle Inhalte ins Englische übertragen?
+    - Auf der englischsprachigen Seite unseres Kulturprogramms erscheint die Meldung "some content is only available in german". Wie gehe ich vor, um das zu korrigieren?
+    - Ich habe alle Text unserer Englischen Seite übersetzt, aber auf der Website steht immer noch some contetnt is only available in german. Wie entferne ich das?
+    - Im englischen Bereich unserer Seite wird signalisiert, dass spezifische inhalte nur auf Deutsch vorliegen. Wie kann ich alles vollständig ins Englische übersetzen?
+    - Obwohl ich der Meinung bin, dass unsere Hilfeseiten komplett zweisprachig sind, wird in der englischen Ansicht angezeigt "some Content is only Available in German".
+    - Auf der englischen Version unserer Seite wird erwähnt some Content is only Available in german. Wie kann ich das berichtigen?
+
+- intent: navigation_edit_visibility
+  examples: |
+    - Wie bearbeite ich die Navigationsleiste, um eine neue Seite aufzunehmen?
+    - Kannst du mir Schritt für Schritt erklären, wie ich einen Menüpunkt für unsere Partnerhochschulen in der Navigation hinzufüge?
+    - Was sind die Schritte, um in der Navigation einen Link für Sonderangebote zu integrieren?
+    - Wie füge ich einen Link zu unserem Newsletter-Archiv in der Sidenavigaion unserer Website ein?
+    - Welche Einstellungen muss ich vornehmen, um in der Navigation unserer Website einen neuen Link einer anderen Seite einzufügen?
+    - Kann ich in der Navigation manuell einen neuen Link einfügen?
+    - Wie aktualisiere ich die Navigation meiner Website, um einen neuen Menüpunkt hinzuzufügen?
+    - Was muss ich tun, um in der Side-Navigation eine zusätzliche Seite einzufügen?
+    - Wie integriere ich einen Link zu unserem Veranstaltungskalender in die Side Navigation der Webseite?
+    - Gibt es eine Möglichkeit, einen zusätzlichen Link manuell in der Side Navigation unsere Website einzubinden?
+
+- intent: site_structure_german_english
+  examples: |
+    - Wie kann ich auf der englischen Seite andere Elemente einfügen als auf der deutshcen Seite?
+    - Gibt es eine Möglichkeit, bestimmte Teaser nur auf der englischen Version unserer Website zu veröffentlichen, während sie auf der deutschen Seite nicht erscheinen?
+    - Kann ich auf der Startseite der englischen Website eine andere Bildergalerie einbinden als auf der deutschen?
+    - Wie kann ich eine zusätzliche Seite nur in der englischen Sprachversion einrichten?
+    - Ist es machbar, ein Anmeldeformular für Newsletter nur auf der englischen Seite zu integrieren, weil wir momentan nur einen englischsprachigen Newsletter anbieten?
+    - Kann ich den englischsprachigen Besuchern unserer Website andere Kontaktmöglichkeiten bieten als den deutschsprachigen, um die internationale Ausrichtung zu betonen?
+    - Wie kann ich auf der englischen Version ein zusätzliches Element einfügen, der auf der deutschen Version nicht benötigt wird?
+    - Ist es möglich, die Inhalte nur auf der englischen Seite so zu verändern?
+    - Wie stelle ich es an, dass gewisse Inhalte nur auf der englischen Website angezeigt werden und nicht im deutschen?
+    - Können wir eine Bildergalerie nur auf der englischen Seite unserer Website einbinden?
+
+- intent: open_graph
+  examples: |
+    - Warum wird das Open Graph Bild, das ich für unsere Produktseite festgelegt habe, nicht auf Twitter angezeigt?
+    - Wie kann ich das Open Graph Bild für individuelle Websiten anpassen?
+    - Gibt es eine Möglichkeit, das Standard-Open Graph Bild unserer Webseite zu überschreiben, wenn ich einen bestimmten Artikel teile?
+    - Wie aktualisiere ich das Bild, das auf Social Media angezeigt wird, wenn ich das Bild teile?
+    - Kann ich das Bild das erscheint, wenn ich meine Website auf Social Media teile, manuell beinflussen?
+    - Was muss ich tun, um das Open Graph Bild für Site auf sozialen Netzwerken zu aktualisieren?
+    - Gibt es eine Methode, um das Bild das auf Facebook geteilt wird wenn ich einen Link zu meiner Seite teile zu ändern?
+    - Wie passe ich das Bild an das auf Twitter angezeigt wird, wenn ich einen Link zur Webiste teile?
+    - Was sind die Schritte, um das Open Graph Bild für einen neu veröffentlichten Artikel einzustellen, bevor er geteilt wird?
+    - Wie konfiguriere ich ein Open Graph Bild, damit es korrekt in der Vorschau auf LinkedIn erscheint?
+
+- intent: picture_popup
+  examples: |
+    - Wie integriere ich ein Popup, um Bilder auf unserer Webseite im Popup zu zeigen, wenn man darauf klickt?
+    - Was ist der beste Weg, um ein Popup-Bildfenster auf meiner Landing Page zu erstellen, das beim Klicken erscheint?
+    - Kann jemand erklären, wie man eine Popup-Galerie für die Bilder unserer letzten Veranstaltung einrichtet, damit sie beim Klicken in voller Grösse erscheinen?
+    - Wie konfiguriere ich ein Popup für die Anzeige von Grafiken, das bei Mausklick aktiviert wird?
+    - Ich möchte, dass die Bilder in unserem Teaser beim Draufklicken mit der Maus in einem Popup erscheinen. Wie kann ich das umsetzen?
+    - Gibt es eine einfache Möglichkeit, ein Klick-Popup für unsere Bilder zu implementieren, sodass die zugehörigen Bilder vergrössert dargestellt werden?
+    - Wie füge ich eine Popup-Funktion zu den Bildern in unserer Site hinzu, damit Besucher sie in Grossansicht betrachten können?
+    - Welche Schritte sind erforderlich, um ein Popup für Bilder auf unserer Website zu aktivieren, damit man Details beim Klicken besser sieht?
+    - Wieso funktioniert mein Popup Bild nicht?
+    - Ich habe das Häckchen bei Popup gesetzt. Trotzdem wird das Bild bei Klick nicht Grösser dargestellt. Warum?
+
+- intent: picture_error
+  examples: |
+    - Warum zeigt die Webseite einen Fehler an, wenn ich versuche, ein Bild zu aktualisieren, obwohl es im vorgeschriebenen Format ist?
+    - Beim Hochladen eines Bildes für das neue Produkt auf unserer Seite bekomme ich eine Fehlermeldung. Woran könnte das liegen?
+    - Ich sehe eine Fehlermeldung, wenn ich versuche, das Bild in unserem Teaser zu ändern. Was sollte ich überprüfen?
+    - Trotz richtiger Bildabmessungen erhalte ich eine Fehlermeldung beim Versuch, eine Grafik auf der Website einzufügen.
+    - Warum kann ich kein Bild in Bildergallerie einfügen, ohne dass eine Fehlermeldung erscheint, selbst nach mehreren Versuchen mit verschiedenen Bildformaten?
+    - Beim Hochladen von Bildern in die Bildergallerie auf unserer Website stösst jedes Bild auf eine Fehlermeldung. Wieso?
+    - Jedes Mal, wenn ich das Bild in unserem manullen Teaseraktualisieren will, kommt eine Fehlermeldung. Was könnte diese Fehlermeldung verursachen?
+    - Warum erhalte ich eine Fehlermeldung beim Versuch, eine Infografik auf der Webiste zhinzuzufügen?
+    - Das Hinzufügen eines neuen Bilds auf der Angebotsseite wird durch eine permanente Fehlermeldung behindert.
+    - Wieso erscheint beim Aktualisieren der Bildergalerie immer eine Fehlermeldung bei den Bildern?
+
+- intent: site_not_published
+  examples: |
+    - Ich habe versucht, unsere Website zu aktualisieren, aber die Änderungen sind nicht im Internet zu sehen. Wie kann das sein?
+    - Wir haben für unser Benefizkonzert eine spezielle Seite erstellt, doch sie ist nicht zugänglich. Was könnte ich falsch gemacht haben?
+    - Ich habe das Layout unserer Projektseite überarbeitet, aber die neue Version wird nicht angezeigt. Was ist der nächste Schritt?
+    - Der neue Agendaeintrag den ich neu hinzugefügt habe ist nicht live. Was könnte das Problem bei der Veröffentlichung sein?
+    - Ich habe eine Ankündigung zu unserem nächsten Webinar auf die Seite gestellt, aber sie erscheint nicht.
+    - Meine neue Website erscheint nicht online. WOran liegt das?
+    - Unsere neue Online Infoveranstaltung ist nicht online. Jedoch habe ich die Seite bereits gestern erstell. Gibt es einen Grund, warum die Seite nicht erscheint?
+    - Ich eine neue Infoveranstaltung veröffentlicht, jedoch ist die Seite noch nicht live, wieso?
+    - Meine Infoveranstaltung die ich gestern erstellt habe ist nicht live. Was soll ich jetzt tun?
+    - Ich habe alle notwendigen Schritte zur Veröffentlichung unserer News-Seite befolgt, aber sie ist immer noch nicht online.
+
+- intent: site_delete
+  examples: |
+    - Wie kann ich eine fehlerhafte Seite entfernen? Brauche ich dafür spezielle Berechtigungen? Die Seite, die ich meine, ist [https://www.hslu.ch/de-ch/publikationen/fehlerhaft/](site)
+    - Wir haben eine alte Informationsseite. Muss ich etwas beachten, bevor ich sie lösche? Hier ist die URL [https://www.hslu.ch/de-ch/buerozeiten/alt/](site)
+    - Ich möchte eine veraltete Seite von unserer Website löschen. Gibt es dafür ein Standardverfahren?
+    - Unsere Fakultät hat eine Reorganisation durchlaufen und bestimmte Seiten sollten entfernt werden. Wie kann ich diese Seiten vom Netz nehmen?
+    - Es gibt eine Seite mit einem veralteten Studienplan, die von unserer Website gelöscht werden muss. Wie kann ich dies korrekt umsetzen? Die Seite ist hier zu finden [https://www.hslu.ch/de-ch/studienplan/veraltet/](site)
+    - Wie entferne ich eine nicht mehr aktuelle Seiten?
+    - Ich habe eine Seite, die gelöscht werden sollte. Wie melde ich das oder kann ich das selbst beheben? Die Seite ist [https://www.hslu.ch/de-ch/kontakt/fehlerhaft/](site)
+    - Wir möchten die alten Kursbeschreibungsseiten entfernen. WIe gehe ich da vor?
+    - Auf unserer Seite gibt es ein Duplikat einer Anmeldeseite für ein Seminar, das zu Verwirrung führt. Wie kann ich die überflüssige Seite löschen?
+    - Ich habe bemerkt, dass eine alte Modulbeschreibungen immer noch auf unserer Website sind. Kann ich diese einfach löschen?
+
+- intent: break
+  examples: |
+    - Die Bilder in unserer Galerie sind ungleichmässig angeordnet, was zu unschönem Freiraum führt. Wie kann ich eine gleichmässige Anordnung erzielen?
+    - Nach dem Hinzufügen von Teasern zu unserer Website sind die Abstände zwischen ihnen unregelmässig. Wie stelle ich das ein?
+    - Zwischen den manuellen Tesern auf unserer Webseite hat es plötzlich zu viel Abstand. Wie kann ich den Abstand verringern?
+    - Wie kann ich den ungleich grossen Abstand zwischen den Inhalten auf unserer Homepage korrigieren?
+    - Auf der Mitarbeiterseite sind die Teaser nicht in einer Linie, es entstehen Lücken. Wie ordne ich sie richtig an?
+    - Wenn ich eien Teaser der Seite hinzufüge verschiebt es diesen immer auf die rechte Seite. Wie kann ich das verhindern?
+    - Wie kann ich einen Teaser an einer bestimmten Stelle auf der Seite einfügen ohne dass dieser sich selbständig verschiebt?
+    - Ich habe mehrere Teaser auf meiner Seite die willkürlich angeordnet sind. WIe kann ich die Anordnung der Teaser manuell beinflussen?
+    - Nach dem Einfügen von manuellen Teasern auf unserer Website, hat es die bestehenden Teaser verschoben. Jetzt hat es zum Teil komisch aussehende Lücken zwischen den Teasern. Wie behebe ich dieses Probem?
+    - Wieso rutscht mein Teaser immer auf die rechte Seite? Ich möchte ihn links platzieren.
+
+- intent: insert_video
+  examples: |
+    - Wer kann mir helfen, ein neues Video auf unseren YouTube-Kanal hochzuladen und es auf der Website zu integrieren?
+    - Ich habe ein Video, das auf YouTube hochgeladen werden muss. Wen kann ich dazu kontaktieren?
+    - Wer ist für das Hinzufügen von YouTube-Videos zu unserer Website zuständig? Ich habe hier ein Video, das veröffentlicht werden soll.
+    - Kann mir jemand den Prozess erklären, wie man ein Video auf YouTube hochlädt und es dann auf unserer Website einbindet?
+    - Gibt es eine Anleitung zum Hochladen von Videos auf unseren YouTube-Kanal und zum Einbetten auf der Website?
+    - Ich muss ein Video auf YouTube hochladen und auf unserer Seite verlinken. Wer kann dabei assistieren?
+    - Ich bin mir nicht sicher, wie man Videos auf YouTube stellt und sie dann auf unserer Website veröffentlicht. Kann mir jemand helfen?
+    - Wer kann das Hochladen eines Videos auf YouTube übernehmen und sicherstellen, dass es auf unserer Webseite erscheint?
+    - Ich benötige Unterstützung beim Hochladen eines Videos auf unseren YouTube-Kanal und bei der Einbindung auf der Website.
+    - Kann jemand ein YouTube-Video für uns hochladen und den Link auf unserer Webseite einfügen?
+
+- intent: rich_text_teaser_format
+  examples: |
+    - Wie konfiguriere ich den Rich Text Teaser auf unserer Teamseite, damit der Text nicht zweispaltig, sondern als Ganzes angezeigt wird?
+    - Ich möchte einen umfangreichen Text im Rich Text Teaser auf der News-Seite einfügen. Er wird jedoch in zwei Spalten geteilt. Wie kann ich eine einspaltige Anzeige erzwingen?
+    - Auf der Produktseite wird der Beschreibungstext im Rich Text Teaser zweigeteilt. Wie kann ich sicherstellen, dass der Text in voller Breite ohne Spalten dargestellt wird?
+    - Ich habe Schwierigkeiten, den Rich Text Teaser auf der Homepage für eine durchgängige Textdarstellung zu formatieren. Was muss ich tun, um eine zweispaltige Ansicht zu vermeiden?
+    - Wie passe ich den Teaser auf meiner Projektwebseite an, damit der Inhalt in einer einspaltigen, anstatt einer zweispaltigen Anzeige erscheint?
+    - Ich arbeite an der Darstellung eines Interviews im Rich Text Teaser auf unserer Presse-Seite, aber es teilt sich in zwei Spalten. Wie ändere ich das in eine einspaltige Anzeige?
+    - Wie kann ich den Rich Text Teaser auf der Seite unserer Sonderveranstaltung so einrichten, dass der Text durchgehend und nicht in Spalten unterteilt erscheint?
+    - Ich versuche, einen Text auf unserer Seite zu platzieren, aber er wird automatisch zweispaltig angezeigt. Welche Schritte sind erforderlich, um eine einspaltige Darstellung zu erreichen?
+    - Gibt es eine Möglichkeit, den Rich Text Teaser in der mobilen Ansicht unserer Service-Seite so anzupassen, dass der Text nicht mehr zweispaltig, sondern fliessend angezeigt wird?
+    - Auf der Seite mit unseren Website möchte ich längere Zitate einbinden, aber sie werden zweispaltig dargestellt. Wie kann ich das Layout ändern, um eine einheitliche Textansicht zu bekommen?
+
+- intent: url_change
+  examples: |
+    - Was sind die Schritte, um die URL einer bestehenden Seite in unserem CMS zu bearbeiten?
+    - Wie kann ich eine URL ändern?
+    - Gibt es eine Möglichkeit, URLs zu ändern?
+    - Wie aktualisiere ich die URL unserer Website, nachdem der Name der Seite geändert wurde?
+    - Welche Schritte muss ich befolgen, um die URL unserer Hauptseite anzupassen, nachdem wir Änderungen vorgenommen haben?
+    - Ich benötige Hilfe dabei, die URL unserer Kontaktseite zu ändern.
+    - Die URL unseres Projekts enthält einen Fehler. Wie gehe ich vor, um diesen zu korrigieren?
+    - Ist es möglich, die URL einer bestehenden Seite zu ändern, ohne die Seite selbst zu beeinträchtigen?
+    - Gibt es eine Methode, eine individuelle URL für eine unserer Websiten zu erstellen?
+    - Ich möchte die URL unserer Webseite anpassen, um sie besser auf unsere Inhalte abzustimmen. Wie mache ich das?

@@ -1,0 +1,42 @@
+[
+  {
+    "text": "Welche Schritte sind notwendig, um ein \"How-to\"-Video in unsere Hilfeseite einzufügen?",
+    "intent": "insert_video",
+    "intent_prediction": {
+      "name": "site_not_published",
+      "confidence": 0.3982195258140564
+    }
+  },
+  {
+    "text": "Gibt es eine Möglichkeit, die englische Version einer Seite zu entfernen, während die deutsche Seite weiterhin live bleiben?",
+    "intent": "site_delete_en",
+    "intent_prediction": {
+      "name": "site_structure_german_english",
+      "confidence": 0.6899767518043518
+    }
+  },
+  {
+    "text": "Ich möchte die englische Version einer Kampagnenseite von unserer Webseite löschen. Können Sie mir den Prozess dafür erklären?",
+    "intent": "site_delete_en",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.534259021282196
+    }
+  },
+  {
+    "text": "Kann ich die Angaben im Contactteaser selbst ändern, oder muss das die IT-Abteilung machen?",
+    "intent": "contact_edit",
+    "intent_prediction": {
+      "name": "site_delete",
+      "confidence": 0.4234948456287384
+    }
+  },
+  {
+    "text": "Beim Aktualisieren des Bildes in einem manuellen Teaser. Welche technischen Anforderungen übersehe ich möglicherweise?",
+    "intent": "picture_error",
+    "intent_prediction": {
+      "name": "site_delete_en",
+      "confidence": 0.5371933579444885
+    }
+  }
+]

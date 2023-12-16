@@ -1,0 +1,89 @@
+[
+  {
+    "text": "Um eine fehlerhafte Unterseite, wie diese hier https://www.hslu.ch/de-ch/fehler/unterseite/ , zu entfernen, muss ich das direkt im CMS machen oder gibt es einen anderen Workflow?",
+    "entities": [
+      {
+        "start": 47,
+        "end": 91,
+        "value": "https://www.hslu.ch/de-ch/fehler/unterseite/",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 47,
+        "end": 91,
+        "confidence_entity": 0.7830759286880493,
+        "value": "https://www.hslu.ch/de-ch/fehler/unterseite/",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 177,
+        "end": 178,
+        "confidence_entity": 0.940157949924469,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Für die Entfernung einer veralteten Dozentenseite, lokalisiert unter https://www.hslu.ch/de-ch/dozenten/alt/, suche ich nach der passenden Vorgehensweise. Wie soll ich vorgehen?",
+    "entities": [
+      {
+        "start": 69,
+        "end": 108,
+        "value": "https://www.hslu.ch/de-ch/dozenten/alt/",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 69,
+        "end": 108,
+        "confidence_entity": 0.8125964403152466,
+        "value": "https://www.hslu.ch/de-ch/dozenten/alt/",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 176,
+        "end": 177,
+        "confidence_entity": 0.8114780187606812,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Kann ich eine nicht mehr relevante Publikationsseite, wie die folgende https://www.hslu.ch/de-ch/publikationen/unnötig/ , eigenständig im CMS entfernen?",
+    "entities": [
+      {
+        "start": 71,
+        "end": 119,
+        "value": "https://www.hslu.ch/de-ch/publikationen/unnötig/",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 71,
+        "end": 119,
+        "confidence_entity": 0.8213401436805725,
+        "value": "https://www.hslu.ch/de-ch/publikationen/unnötig/",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 151,
+        "end": 152,
+        "confidence_entity": 0.6559138298034668,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

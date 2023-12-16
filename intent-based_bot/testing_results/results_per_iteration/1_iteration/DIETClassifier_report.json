@@ -1,0 +1,28 @@
+{
+  "site": {
+    "precision": 0.24,
+    "recall": 0.6,
+    "f1-score": 0.34285714285714286,
+    "support": 10,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.24,
+    "recall": 0.6,
+    "f1-score": 0.34285714285714286,
+    "support": 10
+  },
+  "macro avg": {
+    "precision": 0.24,
+    "recall": 0.6,
+    "f1-score": 0.34285714285714286,
+    "support": 10
+  },
+  "weighted avg": {
+    "precision": 0.24,
+    "recall": 0.6,
+    "f1-score": 0.34285714285714286,
+    "support": 10
+  },
+  "accuracy": 0.9944631680308137
+}

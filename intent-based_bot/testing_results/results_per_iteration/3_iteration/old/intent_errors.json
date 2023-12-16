@@ -1,0 +1,50 @@
+[
+  {
+    "text": "Welche Vorsichtsmassnahmen muss ich treffen, um nur die englische Seite aus unserem Internetauftritt zu entfernen?",
+    "intent": "site_delete_en",
+    "intent_prediction": {
+      "name": "site_delete",
+      "confidence": 0.4426880478858948
+    }
+  },
+  {
+    "text": "Wie kann ich eine englische Inhaltsseite sicher und effektiv aus unserem Webangebot entfernen, ohne die deutschen Inhalte zu stören?",
+    "intent": "site_delete_en",
+    "intent_prediction": {
+      "name": "site_delete",
+      "confidence": 0.37809649109840393
+    }
+  },
+  {
+    "text": "Wie kann ich eine zusätzliche Seite nur in der englischen Sprachversion einrichten?",
+    "intent": "site_structure_german_english",
+    "intent_prediction": {
+      "name": "site_delete_en",
+      "confidence": 0.9993257522583008
+    }
+  },
+  {
+    "text": "Kann ich den englischsprachigen Besuchern unserer Website andere Kontaktmöglichkeiten bieten als den deutschsprachigen, um die internationale Ausrichtung zu betonen?",
+    "intent": "site_structure_german_english",
+    "intent_prediction": {
+      "name": "warning_only_in_german",
+      "confidence": 0.25515323877334595
+    }
+  },
+  {
+    "text": "Ist es möglich, die Inhalte nur auf der englischen Seite so zu verändern?",
+    "intent": "site_structure_german_english",
+    "intent_prediction": {
+      "name": "warning_some_content_only_available_in_german",
+      "confidence": 0.6301613450050354
+    }
+  },
+  {
+    "text": "Können wir eine Bildergalerie nur auf der englischen Seite unserer Website einbinden?",
+    "intent": "site_structure_german_english",
+    "intent_prediction": {
+      "name": "break",
+      "confidence": 0.3718070387840271
+    }
+  }
+]

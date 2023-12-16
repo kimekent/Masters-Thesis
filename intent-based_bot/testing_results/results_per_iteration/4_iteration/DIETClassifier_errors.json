@@ -1,0 +1,31 @@
+[
+  {
+    "text": "Um eine fehlerhafte Unterseite, wie diese hier https://www.hslu.ch/de-ch/fehler/unterseite/ , zu entfernen, muss ich das direkt im CMS machen oder gibt es einen anderen Workflow?",
+    "entities": [
+      {
+        "start": 47,
+        "end": 91,
+        "value": "https://www.hslu.ch/de-ch/fehler/unterseite/",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 47,
+        "end": 91,
+        "confidence_entity": 0.908626139163971,
+        "value": "https://www.hslu.ch/de-ch/fehler/unterseite/",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "site",
+        "start": 177,
+        "end": 178,
+        "confidence_entity": 0.7636855244636536,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "text": "Wie kann ich eine fehlerhafte Seite entfernen? Brauche ich dafür spezielle Berechtigungen? Die Seite, die ich meine, ist https://www.hslu.ch/de-ch/publikationen/fehlerhaft/",
+    "entities": [
+      {
+        "start": 121,
+        "end": 172,
+        "value": "https://www.hslu.ch/de-ch/publikationen/fehlerhaft/",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 121,
+        "end": 171,
+        "confidence_entity": 0.9603233337402344,
+        "value": "https://www.hslu.ch/de-ch/publikationen/fehlerhaft",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wir haben eine alte Informationsseite. Muss ich etwas beachten, bevor ich sie lösche? Hier ist die URL https://www.hslu.ch/de-ch/buerozeiten/alt/",
+    "entities": [
+      {
+        "start": 103,
+        "end": 145,
+        "value": "https://www.hslu.ch/de-ch/buerozeiten/alt/",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 103,
+        "end": 144,
+        "confidence_entity": 0.9155604839324951,
+        "value": "https://www.hslu.ch/de-ch/buerozeiten/alt",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Es gibt eine Seite mit einem veralteten Studienplan, die von unserer Website gelöscht werden muss. Wie kann ich dies korrekt umsetzen? Die Seite ist hier zu finden https://www.hslu.ch/de-ch/studienplan/veraltet/",
+    "entities": [
+      {
+        "start": 164,
+        "end": 211,
+        "value": "https://www.hslu.ch/de-ch/studienplan/veraltet/",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 164,
+        "end": 210,
+        "confidence_entity": 0.8943782448768616,
+        "value": "https://www.hslu.ch/de-ch/studienplan/veraltet",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ich habe eine Seite, die gelöscht werden sollte. Wie melde ich das oder kann ich das selbst beheben? Die Seite ist https://www.hslu.ch/de-ch/kontakt/fehlerhaft/",
+    "entities": [
+      {
+        "start": 115,
+        "end": 160,
+        "value": "https://www.hslu.ch/de-ch/kontakt/fehlerhaft/",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 115,
+        "end": 159,
+        "confidence_entity": 0.9512555599212646,
+        "value": "https://www.hslu.ch/de-ch/kontakt/fehlerhaft",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

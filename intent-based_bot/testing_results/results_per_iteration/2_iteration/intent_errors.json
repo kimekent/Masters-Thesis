@@ -1,0 +1,282 @@
+[
+  {
+    "text": "Ich möchte auf der Startseite ein Willkommensvideo einbetten. Kann ich das direkt über das CMS machen oder benötige ich technische Unterstützung?",
+    "intent": "insert_video",
+    "intent_prediction": {
+      "name": "site_delete",
+      "confidence": 0.8013144731521606
+    }
+  },
+  {
+    "text": "Wir benötigen den Info-Hinweis auf die Sommerpause nicht mehr. Wie entferne ich ihn von der Webseite?",
+    "intent": "infobox_delete",
+    "intent_prediction": {
+      "name": "site_delete",
+      "confidence": 0.8201324939727783
+    }
+  },
+  {
+    "text": "Die Box mit dem Spendenaufruf ist nicht mehr relevant. Wie kann ich sie von der Seite nehmen?",
+    "intent": "infobox_delete",
+    "intent_prediction": {
+      "name": "site_delete",
+      "confidence": 0.8412563800811768
+    }
+  },
+  {
+    "text": "Ich versuche, mich auf der Webseite anzumelden, aber es funktioniert nicht.",
+    "intent": "login",
+    "intent_prediction": {
+      "name": "contact_edit",
+      "confidence": 0.7545283436775208
+    }
+  },
+  {
+    "text": "In der englischen Version unseres Kursangebots wird noch 'Only in German' angezeigt, obwohl alle Materialien übersetzt wurden. Wie kann ich das entfernen?",
+    "intent": "warning_only_in_german",
+    "intent_prediction": {
+      "name": "site_delete_en",
+      "confidence": 0.48598232865333557
+    }
+  },
+  {
+    "text": "Ich habe eine englischsprachige Seite erstellt, die jetzt nicht mehr benötigt wird. Wie kann ich sie sicher aus dem System entfernen?",
+    "intent": "site_delete_en",
+    "intent_prediction": {
+      "name": "site_delete",
+      "confidence": 0.6992968916893005
+    }
+  },
+  {
+    "text": "Ich habe bemerkt, dass Frau Schmidts Telefonnummer Fauf unserer Webseite nicht aktuell ist. Können wir das schnellstmöglich korrigieren?",
+    "intent": "contact_edit",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.7733709812164307
+    }
+  },
+  {
+    "text": "Wie kann ich die E-Mail-Adresse von Frau Lehmann in unserem internen Verzeichnis aktualisieren? Sie hat eine neue berufliche E-Mail-Adresse.",
+    "intent": "contact_edit",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.98969566822052
+    }
+  },
+  {
+    "text": "Ich möchte, dass die Kontaktdetails von Dr. Weber auf unserer Teamseite aktualisiert werden, um ihre neue Position als Forschungsleiterin widerzuspiegeln.",
+    "intent": "contact_edit",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.9665628671646118
+    }
+  },
+  {
+    "text": "Bei der englischen Version unserer Veranstaltungsseite wird noch angezeigt, dass Teile des Inhalts nur auf Englisch verfügbar sind. Wie finde ich heraus, welche Teile das sind?",
+    "intent": "warning_some_content_only_available_in_german",
+    "intent_prediction": {
+      "name": "site_delete_en",
+      "confidence": 0.7017061114311218
+    }
+  },
+  {
+    "text": "Auf der englischen Seite unseres Projekts wird angezeigt, dass einige Abschnitte nur auf Englisch vorhanden sind. Wie kann ich das überprüfen und beheben?",
+    "intent": "warning_some_content_only_available_in_german",
+    "intent_prediction": {
+      "name": "site_delete_en",
+      "confidence": 0.6426659226417542
+    }
+  },
+  {
+    "text": "In der englischen Version unserer Fakultätsseite gibt es die Meldung, dass manche Inhalte nur auf Englisch sind. Können Sie mir helfen, das zu identifizieren und zu ändern?",
+    "intent": "warning_some_content_only_available_in_german",
+    "intent_prediction": {
+      "name": "site_delete_en",
+      "confidence": 0.47706034779548645
+    }
+  },
+  {
+    "text": "Ich versuche, die Seitennavigation unserer Homepage zu ändern, um auf unsere neuen Social-Media-Kanäle zu verweisen. Wie mache ich das?",
+    "intent": "navigation_edit_visibility",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.5686349272727966
+    }
+  },
+  {
+    "text": "Auf unserer Veranstaltungsseite möchte ich Links zu ähnlichen Events in der Seitenleiste hinzufügen. Wie kann ich das umsetzen?",
+    "intent": "navigation_edit_visibility",
+    "intent_prediction": {
+      "name": "site_delete",
+      "confidence": 0.745450496673584
+    }
+  },
+  {
+    "text": "Ist es möglich, auf der englischen Version unserer Website einen zusätzlichen Abschnitt hinzuzufügen, der auf der deutschen Seite nicht existiert?",
+    "intent": "site_structure_german_english",
+    "intent_prediction": {
+      "name": "site_delete_en",
+      "confidence": 0.7828873991966248
+    }
+  },
+  {
+    "text": "Ich habe festgestellt, dass einige unserer Elemente auf der englischen Seite immer wieder rausgelöscht werden. Woran kann das liegen?",
+    "intent": "site_structure_german_english",
+    "intent_prediction": {
+      "name": "site_delete_en",
+      "confidence": 0.7503973841667175
+    }
+  },
+  {
+    "text": "Unsere Forschungsseiten sind in Deutsch und Englisch verfügbar, jedoch möchte ich ein spezifisches Dokument nur in der enlgischen Version anlegen. Geht das?",
+    "intent": "site_structure_german_english",
+    "intent_prediction": {
+      "name": "site_delete_en",
+      "confidence": 0.492360919713974
+    }
+  },
+  {
+    "text": "Wir möchten auf der englischen Seite ein spezifisches Forschungsprojekt hervorheben, das auf der deutschen Seite nicht relevant ist. Wie können wir das realisieren?",
+    "intent": "site_structure_german_english",
+    "intent_prediction": {
+      "name": "site_delete",
+      "confidence": 0.6737644076347351
+    }
+  },
+  {
+    "text": "Bei mir wird ein Teaser der nur auf der englsichen Seite erscheinen soll immer wieder von der Seite gelöscht. Wieso?",
+    "intent": "site_structure_german_english",
+    "intent_prediction": {
+      "name": "site_delete",
+      "confidence": 0.2863195836544037
+    }
+  },
+  {
+    "text": "Auf unserer Projektseite haben wir das Open Graph Bild geändert, aber es wird immer noch das alte Bild in sozialen Medien angezeigt. Was kann ich tun?",
+    "intent": "open_graph",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.38611704111099243
+    }
+  },
+  {
+    "text": "Ich möchte das Open Graph Bild für unsere Hauptseite ändern, damit es besser zu unserer aktuellen Kampagne passt. Wo finde ich die Einstellungen dafür?",
+    "intent": "open_graph",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.939593493938446
+    }
+  },
+  {
+    "text": "Wie kann ich das Open Graph Bild für eine spezielle Unterseite unserer Website festlegen, damit es korrekt auf sozialen Medien angezeigt wird?",
+    "intent": "open_graph",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.517742931842804
+    }
+  },
+  {
+    "text": "Ich habe versucht, ein Popup für das Bild auf unserer Website einzurichten, aber es leitet stattdessen auf eine leere Seite um. Können Sie mir helfen, das zu korrigieren?",
+    "intent": "picture_popup",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.6838308572769165
+    }
+  },
+  {
+    "text": "Wie kann ich ein Popup-Fenster für eine Bildergalerie auf der Startseite unserer Website hinzufügen, sodass die Bilder in voller Größe angezeigt werden?",
+    "intent": "picture_popup",
+    "intent_prediction": {
+      "name": "mobile_moodboard",
+      "confidence": 0.4223381578922272
+    }
+  },
+  {
+    "text": "Ich brauche Unterstützung beim Einrichten eines Popups für die Produktbilder in unserem Online-Shop. Könntet ihr mir die Schritte dafür erklären?",
+    "intent": "picture_popup",
+    "intent_prediction": {
+      "name": "infobox_delete",
+      "confidence": 0.2592035233974457
+    }
+  },
+  {
+    "text": "Ich möchte, dass unsere Veranstaltungsfotos in gross angezeigt werden, wenn man sie anklickt. Wie setze ich das um?",
+    "intent": "picture_popup",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.2546772360801697
+    }
+  },
+  {
+    "text": "Die Seite für unser neues Studiengangsangebot wurde erstellt, ist aber nicht auffindbar. Könnten Sie bitte überprüfen, ob es ein technisches Problem gibt?",
+    "intent": "site_not_published",
+    "intent_prediction": {
+      "name": "warning_some_content_only_available_in_german",
+      "confidence": 0.7820895314216614
+    }
+  },
+  {
+    "text": "Unsere Pressemitteilung erscheint nicht auf der Webseite. Kann jemand helfen?",
+    "intent": "site_not_published",
+    "intent_prediction": {
+      "name": "mobile_moodboard",
+      "confidence": 0.44757944345474243
+    }
+  },
+  {
+    "text": "Die Seite mit den Informationen zu unserem neuen Kursangebot wurde erstellt, ist aber nicht auf der Website zu finden.",
+    "intent": "site_not_published",
+    "intent_prediction": {
+      "name": "infobox_delete",
+      "confidence": 0.40330392122268677
+    }
+  },
+  {
+    "text": "Ich muss eine Seite unserer Abteilung entfernen, da die Informationen nicht mehr aktuell sind. Die URL ist https://www.hslu.ch/de-ch/abteilung/veraltete-seite/. Kann ich das direkt im CMS machen oder benötige ich Unterstützung?",
+    "intent": "site_delete",
+    "intent_prediction": {
+      "name": "infobox_delete",
+      "confidence": 0.485988587141037
+    }
+  },
+  {
+    "text": "Es gibt eine Fehlerseite auf unserer Website, die entfernt werden muss. Sie führt zu Verwirrung bei den Besuchern. Wie gehe ich vor, um sie zu löschen? Die URL ist: https://www.hslu.ch/de-ch/fehlerseite/",
+    "intent": "site_delete",
+    "intent_prediction": {
+      "name": "site_delete_en",
+      "confidence": 0.5468926429748535
+    }
+  },
+  {
+    "text": "Beim Hinzufügen von manuellen Teasern auf unserer Seite ist ein großer Abstand entstanden. Kann mir jemand helfen, diesen zu entfernen?",
+    "intent": "break",
+    "intent_prediction": {
+      "name": "picture_error",
+      "confidence": 0.2305160015821457
+    }
+  },
+  {
+    "text": "Die Spalten auf unserer Über uns-Seite sind nicht richtig ausgerichtet, was zu großen Zwischenräumen führt. Wie kann ich das ändern?",
+    "intent": "break",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.660474419593811
+    }
+  },
+  {
+    "text": "Nach dem Einfügen eines neuen Teasers auf der Kursseite sind die Abstände zu den anderen Elementen zu groß. Wie passe ich das an?",
+    "intent": "break",
+    "intent_prediction": {
+      "name": "site_structure_german_english",
+      "confidence": 0.8472680449485779
+    }
+  },
+  {
+    "text": "Ich möchte die URL unserer Service-Seite anpassen, da sie veraltet ist. Wie gehe ich vor?",
+    "intent": "url_change",
+    "intent_prediction": {
+      "name": "infobox_delete",
+      "confidence": 0.35315242409706116
+    }
+  }
+]

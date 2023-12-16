@@ -1,0 +1,138 @@
+[
+  {
+    "text": "Ich möchte die Info Box mit den Öffnungszeiten während der Feiertage entfernen. Wie funktioniert das?",
+    "intent": "infobox_delete",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.4644426107406616
+    }
+  },
+  {
+    "text": "Ich bemerke, dass trotz der Verfügbarkeit einer englischen Seite der Warnhinweis 'Only in German' auf unserer Seite erscheint. Was ist zu tun?",
+    "intent": "warning_only_in_german",
+    "intent_prediction": {
+      "name": "warning_some_content_only_available_in_german",
+      "confidence": 0.5928499102592468
+    }
+  },
+  {
+    "text": "Die englische Übersetzung unserer Dokumente sind verfügbar, aber der Hinweis 'Only in German' ist weiterhin sichtbar. Wie aktualisiere ich das?",
+    "intent": "warning_only_in_german",
+    "intent_prediction": {
+      "name": "warning_some_content_only_available_in_german",
+      "confidence": 0.7795816659927368
+    }
+  },
+  {
+    "text": "Welche Vorsichtsmassnahmen muss ich treffen, um nur die englische Seite aus unserem Internetauftritt zu entfernen?",
+    "intent": "site_delete_en",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.6866168975830078
+    }
+  },
+  {
+    "text": "Wie kann ich vorgehen, um eine veraltete englische Informationsseite von unserer Webseite zu nehmen?",
+    "intent": "site_delete_en",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.7528745532035828
+    }
+  },
+  {
+    "text": "Wie kann ich eine englische Inhaltsseite sicher und effektiv aus unserem Webangebot entfernen, ohne die deutschen Inhalte zu stören?",
+    "intent": "site_delete_en",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.8412359356880188
+    }
+  },
+  {
+    "text": "Wie kann ich eine zusätzliche Seite nur in der englischen Sprachversion einrichten?",
+    "intent": "site_structure_german_english",
+    "intent_prediction": {
+      "name": "site_delete_en",
+      "confidence": 0.5490281581878662
+    }
+  },
+  {
+    "text": "Können wir eine Bildergalerie nur auf der englischen Seite unserer Website einbinden?",
+    "intent": "site_structure_german_english",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.6026011109352112
+    }
+  },
+  {
+    "text": "Gibt es eine Methode, um das Bild das auf Facebook geteilt wird wenn ich einen Link zu meiner Seite teile zu ändern?",
+    "intent": "open_graph",
+    "intent_prediction": {
+      "name": "navigation_edit_visibility",
+      "confidence": 0.47749677300453186
+    }
+  },
+  {
+    "text": "Wie passe ich das Bild an das auf Twitter angezeigt wird, wenn ich einen Link zur Webiste teile?",
+    "intent": "open_graph",
+    "intent_prediction": {
+      "name": "navigation_edit_visibility",
+      "confidence": 0.24597476422786713
+    }
+  },
+  {
+    "text": "Warum zeigt die Webseite einen Fehler an, wenn ich versuche, ein Bild zu aktualisieren, obwohl es im vorgeschriebenen Format ist?",
+    "intent": "picture_error",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.7412027716636658
+    }
+  },
+  {
+    "text": "Ich habe versucht, unsere Website zu aktualisieren, aber die Änderungen sind nicht im Internet zu sehen. Wie kann das sein?",
+    "intent": "site_not_published",
+    "intent_prediction": {
+      "name": "site_structure_german_english",
+      "confidence": 0.27573123574256897
+    }
+  },
+  {
+    "text": "Wir haben für unser Benefizkonzert eine spezielle Seite erstellt, doch sie ist nicht zugänglich. Was könnte ich falsch gemacht haben?",
+    "intent": "site_not_published",
+    "intent_prediction": {
+      "name": "site_structure_german_english",
+      "confidence": 0.47082585096359253
+    }
+  },
+  {
+    "text": "Wie kann ich eine fehlerhafte Seite entfernen? Brauche ich dafür spezielle Berechtigungen? Die Seite, die ich meine, ist https://www.hslu.ch/de-ch/publikationen/fehlerhaft/",
+    "intent": "site_delete",
+    "intent_prediction": {
+      "name": "picture_error",
+      "confidence": 0.626112699508667
+    }
+  },
+  {
+    "text": "Unsere Fakultät hat eine Reorganisation durchlaufen und bestimmte Seiten sollten entfernt werden. Wie kann ich diese Seiten vom Netz nehmen?",
+    "intent": "site_delete",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.29388388991355896
+    }
+  },
+  {
+    "text": "Wie entferne ich eine nicht mehr aktuelle Seiten?",
+    "intent": "site_delete",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.7085642218589783
+    }
+  },
+  {
+    "text": "Wir möchten die alten Kursbeschreibungsseiten entfernen. WIe gehe ich da vor?",
+    "intent": "site_delete",
+    "intent_prediction": {
+      "name": "url_change",
+      "confidence": 0.553962767124176
+    }
+  }
+]

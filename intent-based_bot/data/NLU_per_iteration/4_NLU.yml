@@ -1,0 +1,695 @@
+nlu:
+# 1. Trained Websupport Intents:----------------------------------------------------------------------------------------
+- intent: break
+  examples: |
+    - Ich bin am Seitenaufbau für unseren Master. Habe hierfür drei Teaser erstellt – blöd nun nur, dass der dritte Teaser rechtsbündig und nicht linksbündig angezeigt wird. Ich konnte leider nicht herausfinden, wie ich den MSCIFM-Teaser auf die linke Seite bugsieren kann.
+    - Ich habe einen Teaser überarbeitet und dann an eine andere Position verschoben. Nun hat es mir alles durcheinander gebracht und die Darstellung stimmt nicht mehr (Preview). Könnt ihr mir helfen, damit das wieder sortiert ist? [https://stage-www.hslu.ch/de-CH/Technik-Architektur/institute/gebaeudetechnik-und-energie/](site) Unter der Rubrik «aktuell» sollen zuerst das «Bauforum» und daneben auf derselben Zeile der «Technologieradar» sein…
+    - Auf dieser Seite ist die Darstellung der Beiträge (siehe ganz unten) verschoben. Ich habe keine Ahnung wie ich das Rückgängig machen kann. Könntet ihr dies bitte mal überprüfen? [https://www.hslu.ch/de-ch/wirtschaft/weiterbildung/cas/ikm/online-communication-and-marketing/](site)
+    - Gestern habe ich im Sitecore 5 neue Videos auf der Webseite des EMBA Luzern geladen. [https://www.hslu.ch/de-ch/wirtschaft/weiterbildung/mas/ibr/executive-mba-luzern/testimonials/](site) Bereits im Bearbeitungsmodus war es mir nicht möglich, in der mittleren Reihe zwei Videos nebeneinander zu platzieren. Bei der ersten und der zweiten Reihe ging das ohne Probleme. Auch war es nicht möglich, ein Video an den leeren Platz zu verschieben, da mir die Verschiebung nur an die Stellen möglich war, wo es bereits Videos hatte.
+    - Unter folgenden Seite: [https://www.hslu.ch/de-ch/design-kunst/studium/bachelor/graphic-design/arbeiten-aus-dem-studium/arbeiten-aus-dem-2-studienjahr/](site) Müsste der unterste Video Teaser „Bourbaki Clips“ links gesetzt sein. Ist im Backend so gesetzt, leider erscheint er live auf der rechten Seite? Könnt ihr mir hier bitte weiterhelfen?
+    - Gerade habe ich einen neuen Forschungsteaser auf dieser Seite gesetzt [https://stage-www.hslu.ch/de-ch/design-kunst/forschung/kunst-design-und-oeffentlichkeit/#?filters=1242](site) Es ergibt sich leider eine Lücke zwischen den Projekten, ich nehme an es liegt daran, dass die Beschreibung beim nur dreizeilig ist "Erforschung von Möglichkeiten nicht-hierarchischer Kollaborationen anhand besonderer Filmmethoden".
+    - Ich habe bei dieser Seite die Teaser neu erfasst: www.hslu.ch/de-ch/soziale-arbeit/weiterbildung/ (von der Übersichtsseite zur Inhaltsseite). Ich habe sie so angeordnet, dass immer die mit einer Zeile im Titel zusammenstehen und die mit zwei, weil es ja sonst die Teaser verschiebt. Der unterste Teaser «Sozialmanagement und Sozialpolitik» zeigt es mir in Sitecore auf der linken Seite an, ebenso in der Vorschau. Live ist er allerdings auf der rechten Seite. Wieso?
+    - Ich habe Änderungen für den BScMDSE auf der Website vorgenommen. [https://www.hslu.ch/de-ch/wirtschaft/studium/bachelor/mobility/](site) Für mich (Google Chrome) sieht alles wunderbar aus; jedoch bei Ann-Kathrin wird der Bereich verschoben dargestellt – siehe unten. Gibt es eine Möglichkeit dieses Darstellungsproblem im Internet Explorer zu beheben?
+    - Auf der Forschung Seite von Kunst, Design, Öffentlichkeit: [https://www.hslu.ch/de-ch/design-kunst/forschung/kunst-design-und-oeffentlichkeit/archiv-publikationen/](site) Zwischen den Manuellen Teasern ist einfach ein weisser Hohlraum – im Sitecore Webvorschau ist alles normal. Synchronisiert gibt’s diesen Leerraum – wieso und wie behebe ich den Fehler?
+    - Ich bin ein bisschen am «knobeln» wegen der Reihenfolge der manuellen Teaser. Link: [https://stage-www.hslu.ch/de-ch/wirtschaft/agenda/veranstaltungen/2023/04/20/ikm-sgkm-jahrestagung-2023/?sourceurl=/sgkm2023](site) Hier zeigt es mir die Logos in der korrekten Ansicht an: In der Vorschau sieht es jedoch so aus: Es verschiebt das Logo «HH Herbert von Halem Verlag» nach rechts. Ich möchte es links positioniert haben. Wie kann ich das umgehen?
+    - Ganz unten auf dieser Seite wird der letzte Teaser (Master Kunst) nach rechts gerückt: [https://www.hslu.ch/de-ch/design-kunst/studium/master/](site) Was müssen wir tun, damit der Teaser links dargestellt wird?
+    - Wie kann ich den Teaser an einer bestimmten Stelle einfügen ohne dass sich dieser willkürlich verschiebt?
+    - Wir haben mehrere Bildelemente auf unserer Website eingefügt. Nun gibt es zwischen den Bildern grosse Zwischenräume und ich weiss nicht wie ich diese entfernen kann.
+    - Ich habe einen weiteren Textblock auf der Seite eingefügt. Das hat dazu geführt, dass sich die anderen Elemente auf der Seite alle verschoben haben und jetzt weisse Abschände zischen den Elementen gibt. Wie entferne ich diese?
+    - Bei mir auf der Seite hat es zwischen den Texelementen unschöne Zwischenräume. Ich kann diese nicht entfernen.
+    - Zwischen den Bildern auf meiner Website gibt es zu grosse Abstände.
+    - Wie entferne ich Lücken zwischen den Teasern?
+    - Ich arbeite an der Seite für unseren neuen Kurs und möchte die Teaser enger zusammenrücken. Wie kann ich Zwischenräume reduzieren?
+    - Auf der Projektseite sind die Bilder zu weit auseinander. Wie kann ich die Lücken schliessen?
+    - Ich versuche, auf unserer Eventseite die Teaser näher zusammenzubringen. Gibt es eine Möglichkeit, unnötige Zwischenräume zu entfernen?
+    - Beim Bearbeiten der Hauptseite der Fakultät sind die Textblöcke zu weit auseinander. Wie reduziere ich die Abstände?
+    - Auf unserer Teamseite möchte ich die Teaser dichter zusammenbringen. Wie eliminiere ich die Leerräume?
+    - Auf der Studiengangseite habe ich zwei manuelle Teaser eingefügt. Einer wird ganz links und der andere ganz rechts angezeigt. Wie kann ich sie unter einander anzeichen lassen?
+    - Bei der Gestaltung unserer Startseite gibt es eine weisser Abstand zwischen den Teasern. Kann ich die Abstände verringern?
+    - Ich habe auf der Produktseite mehrere Infoboxen eingefügt, aber es gibt zu grosse Leerflächen zwischen ihnen. Wie lösche ich diese Zwischenräume?
+    - Wie kann ich die ungleichmässigen Abstände zwischen den Bildergalerien auf unserer Homepage korrigieren?
+    - Kann jemand erklären, wie man die unerwünschten grossen Zwischenräume zwischen den Abschnitten unserer FAQ-Seite entfernt?
+    - Was kann ich tun, wenn zwischen den Teasern auf unserer Seite zu viel Leerraum ist?
+    - Gibt es eine Möglichkeit, den Abstand zwischen den Teasern entfernen?
+    - Wie verhindere ich, dass zwischen den manuellen Teasern auf meiner Seite zu viel Platz entsteht?
+    - Die Teaser in unserem Website sind ungleichmässig verteilt – wie kann ich für ein harmonischeres Layout sorgen?
+    - Ich habe Schwierigkeiten, die Abstände zwischen den Teasern anzupassen.
+    - Nach dem Einfügen eines manuellen Teasers sind die Abstände daneben zu weit. Wie behebe ich das?
+    - Wie kann einen manuellen Teaser auf die Linke Seite platzieren? Er wird immer automatisch nach rechts verschoben.
+    - Die Teaser auf unserer Teamseite haben unerwünschte Abstände zwischen sich. Wie kann ich diese entfernen?
+    - Warum gibt es unerwartete Zwischenräume zwischen den Teasern auf unserer Seite, und wie kann ich das korrigieren?
+    - Wie kann ich die Reihenfolge der Teaser auf meiner Seite beeinflussen, um eine bessere Anordnung zu erreichen?
+    - Ich versuche, einen Teaser an einer spezifischen Stelle einzufügen, aber er verschiebt sich immer.
+    - Gibt es einen weg um den Teaser links einzufügen, er verschiebt sich immer nach rechts
+    - Wie kann ich ungewollte Leerräume zwischen Teasern auf unserer Website entfernen?
+    - Kann mir jemand erklären, wie man die Position von Teasern auf einer Seite festlegt, ohne dass sie sich willkürlich verschieben?
+    - Warum erscheinen auf meiner Seite grosse Lücken zwischen den Teasern und wie kann ich das beheben?
+    - Ich habe Probleme mit der Anordnung von Teasern auf unserer Seite. Wie kann ich die Positionen genau festlegen?
+    - Wie kann ich sicherstellen, dass die Teaser auf unserer Seite in der gewünschten Reihenfolge erscheinen?
+    - Warum werden die Teaser immer nach rechts gerutscht? Ich will sie links anordnen.
+
+- intent: contact_edit
+  examples: |
+    - Könntet ihr bitte die engl. Jobfunktion von x anpassen. In DE ist dies Co-Leiter Competence Center Tourismus deshalb bitte in E >> Co-Head of Competence Center Tourism
+    - x möchte bei seiner Funktion gerne die Bezeichnung Co-Leitung CC Public & Nonprofit Management und nicht Co-Leiter International Office. Ich habe es im Sitecore unter «Funktion» hinzugefügt, und es ist ersichtlich, auf der Website aber leider nicht. Könnt ihr diese Änderung bei seinem Profil bitte anpassen?
+    - Ich hätte gerne auf den Webseiten des International Office (diese und alle «Unterseiten»: [https://www.hslu.ch/de-ch/wirtschaft/international/](site)), die Funktion «Co-Leiter International Office», aber auf allen anderen Webseiten sollte ich «Co-Leiter CC Public & Nonprofit Management» sein. Es sieht aus, wie wenn das geht (siehe oben).
+    - Ich möchte auf der Website Master IDS: [https://stage-www.hslu.ch/de-ch/wirtschaft/studium/master/applied-information-and-data-science/](site) x als Stv. Studiengangleiterin hinzufügen. Sie hat bereits ein Kontaktböxli als Dozentin, was muss ich machen, dass ich Ihre Verantwortlichkeit auf Stv. Studiengangleiterin ändern kann?
+    - Ich bin über einen Fehler gestossen. Die Funktion bei den Personen zeigt es nicht überall gleich an.
+    - Kann ich bei einer Kontaktperson eine andere Emailadresse als im System hinterlegt hinzufügen?
+    - x wird auf Sitecore als Programmadministratorin anstatt als Programmorganisatorin bezeichnet. Wo kann ich das ändern?
+    - Wie kann ich die Kontaktangaben einer Person anpassen?
+    - Ich möchte alle Kontaktteaser einer Person ändern.
+    - Ich möchte den Jobtitel anpassen. Wie geht das?
+    - Wie kann ich einen Kontaktteaser bearbeiten?
+    - Ich habe gerade gesehen, dass der Nachname einer Person im Kontaktteaser nicht stimmt. Wie kann ich das überall anpassen?
+    - Die Jobfunktion ist veraltet und ich möchte diese anpassen. Wie mache ich das?
+    - Ich möchte gerne den Titel in einer Kontaktbox überarbeiten.
+    - Kann ich den Kontakteaser einmalig überschreiben?
+    - Wo kann ich die Kontaktangaben einer Person anpassen?
+    - Wie kann ich den Titel einer Person ändern?
+    - Ich möchte permanent die Telefonnummer einer Person anpassen.
+    - Die Jobbezeichnung stimmt bei einer Person im Kontaktteaser nicht. Wie kann ich dies ändern?
+    - Wie kann ich die Kontaktdetails einer Person überschreiben?
+    - Können wir die Büroadresse von Herrn Schmidt in unserem Kontaktteaser ändern? Er ist in ein neues Büro umgezogen.
+    - Ist es möglich, den Kontaktteaser von Frau Wagner in unserer Online-Datenbank zu aktualisieren, um ihre neue Position als Abteilungsleiterin zu reflektieren?
+    - Frau Klein hat geheiratet und ihren Nachnamen geändert. Wie kann ich ihren Namen im Kontakt Teaser korrigieren?
+    - Herrn Fischers Profilbild in der Mitarbeiter-App ist veraltet. Können wir ein aktuelles Foto hochladen?
+    - Ich muss die Handynummer von Frau Maier in unserem Kontakt Teaser aktualisieren. Sie hat eine neue Nummer.
+    - Wie ändere ich die Abteilungszugehörigkeit von Herrn Gross im Kontaktteaser?
+    - Frau Langes neuer Titel als \'Projektleiterin\' ist noch nicht im Contactteaser aktualisiert worden. Wer kann das übernehmen?
+    - In einem Contact Teaser auf userer Website ist die E-Mail-Adresse nicht mehr korrekt. Wer kann das ändern?
+    - Wie kann ich die Kontaktinformationen unseres Geschäftsführers Herrn Neumann für die Pressemitteilungen anpassen?
+    - Die Job Bezeichnung von Herrn Beck in seinem Kontaktteaser enthält noch seine alte Position. Wie kann ich das für ihn aktualisieren?
+    - Wie aktualisiere ich die Telefonnummer in der Kontaktbox unserer Webseite?
+    - Kann mir jemand erklären, wie man die E-Mail-Adresse in einer vorhandenen Contact Box ändert?
+    - Ich muss den Namen in unserer Kontaktbox korrigieren. Wie gehe ich da vor?
+    - Wie kann ich die Informationen in einem Kontaktteaser auf unserer Website anpassen?
+    - Gibt es eine Möglichkeit, die Jobbezeichnung in einer unserer Kontaktboxen zu ändern?
+    - Wer kann mir helfen, die Kontaktdaten in der Kontakt Box zu aktualisieren?
+    - Wie bearbeite ich die Angaben in einem Kontaktteaser, um sie auf dem neuesten Stand zu halten?
+    - Wie kann ich spezifische Informationen in einer Kontaktbox auf unserer Seite ändern?
+    - Gibt es einen schnellen Weg, um die Kontaktinformationen in einer Contactbox unserer Website zu überarbeiten?
+    - Ich möchte die berufliche Position einer Person in unserer Kontakt-Box aktualisieren. Wie mache ich das?
+
+- intent: infobox_delete
+  examples: |
+    - Ich möchte diese Info-Box löschen, da ein alter Text drin war.
+    - Wir haben den pinken Kasten auf der IFZ Startsite entfernt und «Hochschule Luzern Standard» ausgewählt. Leider sieht dieser graue Balken sehr unschön aus. Was muss ausgewählt werden, dass dieser graue Balken verschwindet?
+    - Wie kann ich eine Infobox löschen?
+    - Kann ich eine Infobox entfernen oder muss diese immer auf der Website vorhanden sein?
+    - Wie kann ich eine Infobox von der Seite lösen?
+    - Kann ich eine Infobox ausblenden?
+    - Ich möchte die Infobox auf unserer Teamseite entfernen, da sie veraltete Informationen enthält.
+    - Wie kann ich die Infobox auf der Hauptseite löschen?
+    - Ich muss die Infobox auf unserer Projektseite entfernen, da die Informationen jetzt woanders stehen.
+    - Gibt es eine Möglichkeit, eine Infobox zu löschen, ohne den Rest der Seite zu beeinflussen?
+    - Wie kann ich eine Infobox auf unserer Kursseite entfernen, wenn sie nicht mehr benötigt wird?
+    - Kann ich die Infobox auf der Startseite deaktivieren oder ist sie ein festes Element der Seite?
+    - Ich möchte die Infobox auf der Über uns-Seite löschen, da sie nicht mehr aktuell ist.
+    - Was sind die Schritte, um die Infobox für die bevorstehenden Veranstaltungen auf unserer Website zu entfernen?
+    - Wie deaktiviere ich die Info Box auf unserer Spendenseite?
+    - Kann ich die "Neuigkeiten"-Infobox auf der rechten Seite unserer Homepage selbst löschen?
+    - Wie kann ich die alte Infobox von der Kontaktseite nehmen?
+    - Was muss ich tun, um die Info-Box auf unserer Newsite zu entfernen?
+    - Die Info-Box auf unserer Website wird nicht mehr gebraucht. Kann ich sie einfach löschen?
+    - Wie kann ich die Infobox aus unserer Website entfernen?
+    - Die Infobox mist veraltet. Wie entferne ich sie von unserer Über-uns-Seite?
+    - Wie kann ich die Info box von unserer Seite löschen?
+    - Die Infobox auf unserer Webiste ist nicht mehr korrekt. Wie kann ich die Box entfernen?
+    - Was sind die Schritte um die Infobox von der Kontaktseite zu entfernen?
+    - Wie kann ich die Info box mit dem Hinweis auf die bevorstehende Wartung von der Homepage nehmen?
+    - Gibt es eine Möglichkeit, die info-Box unserer Infoseite schnell zu löschen?
+    - Kann ich die Infobox auf unserer Seite deaktivieren?
+    - Wie kann ich die "Über uns" Info-Box von unserer Webseite entfernen, da die Informationen jetzt anderswo stehen?
+    - Was muss ich tun, um die Infobox zu entfernen, da alle Events abgesagt wurden?
+    - Kann mir jemand erklären, wie ich die Sidebar mit den FAQ-Empfehlungen löschen kann?
+    - Ich möchte die Infobox von unserer Website entfernen. Kannst du mir helfen?
+    - Wie deaktiviere ich die Info-Box, die auf unserer Seite erscheint [https://hslu.ch/studienseite](site) ?
+    - Wie werde ich die Infobox los?
+
+- intent: login
+  examples: |
+    - Ich habe länger nicht mehr auf dem System gearbeitet. Wie kann ich mich einloggen, auf welcher Seite und mit meinem normalen HSLU Login?
+    - Könntet Ihr mir bitte kurz helfen mit dem Login für die Webseite?
+    - Durch meine heutige Umstellung auf Windows 10 habe ich meine Login-URL für Sitecore verloren. Könntet ihr mir kurz den Link zusenden?
+    - Wie kann ich mich bei Sitecore einloggen?
+    - Was sind die Zugangsdaten zu Sitecore?
+    - Kannst du mir sagen, wie ich ins System reinkomme?
+    - Kann mir jemand den genauen Prozess erklären, wie ich mich bei Sitecore anmelden kann?
+    - Ich versuche, auf Sitecore zuzugreifen, aber ich bin mir nicht sicher, wie das geht. Könnt ihr mir helfen?
+    - Gibt es eine spezielle URL oder Methode, um sich bei Sitecore einzuloggen?
+    - Kann mir bitte jemand den Login-Vorgang für Sitecore Schritt für Schritt erläutern?
+    - Ich bin neu hier und würde gerne wissen, wie ich mich bei Sitecore einloggen kann. Gibt es dazu eine Anleitung?
+    - Wo finde ich die Login-Seite für Sitecore und welche Anmeldeinformationen benötige ich?
+    - Ich stehe vor dem Problem, dass ich nicht weiss, wie ich den Zugang zu Sitecore erhalte. Könnte mir jemand die Schritte erklären?
+    - Ich muss einige Änderungen auf der Webseite vornehmen, aber ich komme nicht in Sitecore rein. Wie gehe ich vor?
+    - Könnt ihr mir bitte die URL für das Sitecore-Login und die nötigen Schritte dazu mitteilen?
+    - Ich habe Schwierigkeiten, mich bei Sitecore einzuloggen. Könnte mir jemand den korrekten Login-Prozess erklären?
+    - Wie genau melde ich mich bei Sitecore an, wenn ich schon länger nicht mehr im System gearbeitet habe?
+    - Könnte mir jemand den genauen Vorgang erklären, um mich in Sitecore einzuloggen?
+    - Ich habe Schwierigkeiten, mich bei Sitecore anzumelden. Kann mir jemand helfen?
+    - Wie gelange ich wieder in das Sitecore-System, nachdem ich auf Windows 10 aktualisiert habe?
+    - Kann jemand mir die Schritte mitteilen, um auf Sitecore zuzugreifen?
+    - Ich benötige Unterstützung beim Zugriff auf Sitecore. Wer kann mir den Prozess erläutern?
+    - Wie komme ich wieder in das Sitecore-System rein, nachdem ich eine Weile abwesend war?
+    - Welche Anmeldedaten benötige ich, um mich erfolgreich bei Sitecore einzuloggen?
+    - Kann mir jemand helfen, wie ich Zugang zu Sitecore erhalte?
+    - Ich habe Probleme, mich in Sitecore anzumelden. Könnte mir jemand einen Tipp geben?
+
+- intent: mobile_moodboard
+  examples: |
+    - Es geht um die Seite: [https://www.hslu.ch/de-ch/design-kunst/studium/vorkurs/](site) . Bei mir auf dem Handy erscheint ein altes mobile Moodboard Jahresausstellung 2016, auf dem Desktop erscheint das richtige Vorkurs, allgemein. Ich habe die History gelöscht auf dem Handy, aber es erscheint trotzdem das alte Moodboard . Der alte Slide ist im Backend absichtlich nicht GANZ gelöscht, er sollte aber unsichtbar sein „dieser Slide wurde noch nicht zur Seite hinzugefügt“. Ist dies ein Bug oder habe ich irgendwo etwas falsch gemacht?
+    - Könnt ihr mir weiterhelfen? Ich wollte die Moodboards der Hauptseite Objektdesign auch in der "mobilen" Version sichtbar machen [https://stage-www.hslu.ch/de-ch/design-kunst/studium/bachelor/objektdesign/](site) . Es zeigt bei der "extended preview" nur bei iPad und Desktop die Moodboards an, nicht jedoch in der "mobile version".
+    - Wir haben festgestellt, dass auf der mobilen Einstiegsseite von DMI die Titelbilder nicht angezeigt werden und ich finde nicht raus wieso. Ist es möglich, dass Ihr das Problem beheben könnt?
+    - Ich habe gesehen, dass – wenn ich unsere Seiten auf dem Handy anschaue – bei einigen das Moodboard gar nicht erscheint, bei anderen aber ein «leeres Bild» erscheint. Ist es besser ein Bild fürs Handy einzufügen oder – falls nein – was kann ich machen, dass kein «leeres Bild» erscheint?
+    - Uns ist soeben aufgefallen, dass das untenstehende Bild in der Mobile Ansicht nicht angezeigt wird.
+    - Warum wird das Moodboard auf der mobilen Version unserer Website nicht angezeigt?
+    - Ich habe bemerkt, dass das Moodboard auf meinem Smartphone fehlt. Könnt ihr mir erklären, warum es nicht sichtbar ist?
+    - Auf der mobilen Seite ist das Moodboard nicht zu sehen. Gibt es einen speziellen Grund dafür?
+    - Kann mir jemand sagen, warum das Moodboard auf der mobilen Ansicht unserer Seite nicht erscheint?
+    - Ich stelle fest, dass das Moodboard auf der Handy-Version unserer Website nicht angezeigt wird. Woran könnte das liegen?
+    - Gibt es einen bekannten Fehler, der verhindert, dass das Moodboard auf mobilen Geräten angezeigt wird?
+    - Warum ist das Moodboard nur auf der Desktop-Version sichtbar, aber nicht auf dem Handy?
+    - Ich frage mich, warum das Moodboard auf der mobilen Webseite nicht zu sehen ist. Kann das behoben werden?
+    - Ist es normal, dass das Moodboard auf der mobilen Version nicht erscheint, oder gibt es dafür eine technische Erklärung?
+    - Was könnte der Grund sein, dass das Moodboard auf der mobilen Version unserer Website nicht angezeigt wird?
+    - Warum wird das Moodboard nicht auf meinem Handy angezeigt, obwohl es auf dem Desktop korrekt erscheint?
+    - Kann mir jemand helfen zu verstehen, warum das Moodboard auf der mobilen Version unserer Seite fehlt?
+    - Was könnte der Grund dafür sein, dass das Moodboard auf mobilen Geräten nicht sichtbar ist?
+    - Gibt es einen speziellen Grund, warum das Moodboard nur auf dem Desktop und nicht auf meinem Handy angezeigt wird?
+    - Wie kann ich das Problem beheben, dass das Moodboard auf der mobilen Seite nicht erscheint?
+    - Sollte ich ein anderes Bild für die mobile Ansicht hochladen, wenn das Moodboard nicht angezeigt wird?
+    - Könnte es sein, dass ein Bug verhindert, dass das Moodboard auf der mobilen Website angezeigt wird?
+    - Was muss ich tun, um das Moodboard auch in der mobilen Ansicht sichtbar zu machen?
+    - Ist es möglich, dass das Moodboard aus technischen Gründen auf dem Handy nicht geladen wird?
+    - Warum erscheint ein altes Moodboard auf der mobilen Seite, obwohl ich es bereits aus dem Backend entfernt habe?
+
+- intent: navigation_edit_visibility
+  examples: |
+    - Wir sind am Überarbeiten unserer Weiterbildungsseiten und wollten dabei die Seiten-Navigation anpassen : Wir möchten zusätzlich in der Seiten-Navigation auf unsere FAQ-Seite verlinken : [https://www.hslu.ch/de-ch/wirtschaft/institute/ikm/weiterbildung-kommunikation-marketing/faq/](site) Und den ersten Link auf die aktuelle Seite «MAS Brand an Marketing Management» möchten wir rauslöschen. Wie kann ich das machen?
+    - Die folgende Seite [https://www.hslu.ch/de-ch/wirtschaft/institute/ibr/kompetenzen/unternehmensentwicklung-fuehrung-personal/cc-ufp-unternehmensentwicklung/cc-ufp-innovation/produktionsinnovation/](site) enthält eine Side Navigation. Auf diese Side Navigation möchten wir die Verlinkung zum dazugehörigen Forschungsprojekt vornehmen.
+    - Wie können wir eine Seite in der Navigation aufnehmen, die nicht direkte Unterseite der jetzigen Seite ist?
+    - Wie kann ich eine benutzerdefinierte Navigation erstellen.
+    - Kann ich die Seiten, die in der Navigation sind, anpassen.
+    - Kann ich eigene Links in die Navigation aufnehmen.
+    - Wie kann ich die Seiten, die in der Navigation verlinkt werden, auswählen.
+    - Ist die Seitennavigation anpassbar.
+    - Kann ich die Seiten in der Side-Navigation überschreiben?
+    - Wie kann ich auf unserer Webiste die Navigationsleiste bearbeiten, um die Seite für Exchange Students sichtbar zu machen?
+    - Was muss ich tun, um in der Navigation einen Link zu unserem neuen Studiengang anzulegen?
+    - Kann ich eine Unterseite einer anderen Seite in der Side Navigation einfügen?
+    - Wie füge ich einen neuen Link in der Navigation hinzu?
+    - Gibt es eine Möglichkeit, bestimmte Navigationslinks manuell der Navigation hinzuzufügen?
+    - Wie kann ich eine Seite in unserer Side-Navigation aufnehmen?
+    - Kannst du mir sagen, wie ich einen Link zu einer andern Seite einfügen kann, die keine direkte Unterseite ist?
+    - Wie aktualisiere ich die Navigationsleiste, um einen neue Seite mit aufzunehmen?
+    - Was sind die Schritte, um in unserer Navigation einen neuen Link einzufügen?
+    - Wie integriere ich einen neuen Abschnitt in unsere Side Navigation?
+    - Wie füge ich einen Link zu unserer FAQ-Seite in der seitlichen Navigation hinzu?
+    - Kann mir jemand erklären, wie ich eine externe Seite in die Seitennavigation integrieren kann?
+    - Was sind die Schritte, um einen Link in der Seiten-Navigation unserer Website hinzuzufügen?
+    - Wie kann ich einen benutzerdefinierten Link zur Side-Navigation hinzufügen?
+    - Kann ich die Links in der Seitennavigation unserer Webseite selbst anpassen?
+    - Wie bearbeite ich die Sidenavigation, um einen neuen Bereich unserer Website hinzuzufügen?
+    - Gibt es eine Möglichkeit, die Seitennavigation zu ändern, um spezifische Seiten einzuschliessen?
+    - Wie ändere ich die Seiten, die in unserer Seitennavigation angezeigt werden?
+    - Wie kann ich einen direkten Link zu unserem neuen Forschungsprojekt in der Seitennavigation einbauen?
+    - Kann ich in der Navigationsleiste unserer Website einen Link zu einem neuen Studiengang einrichten?
+
+- intent: open_graph
+  examples: |
+    - Wir haben bei der Website des IFZ FinTech Forum ein Bild drin. Leider erscheint beim Posten auf LinkedIn ein anderes Bild. Das Häkchen „Open Graph Image anzeigen“ ist gesetzt. Aber ich weiß nicht wo, das Bild drin ist. Bitte lasst mich wissen, wo ich das Bild austauschen muss, damit das Bild von der Website erscheint (oranges Bild).
+    - Wir möchten ein Post auf LinkedIn machen. In unsere Post geben wir die folgenden Webpage: [https://www.hslu.ch/de-ch/technik-architektur/forschung/kompetenzzentren/thermische-energiesysteme-und-verfahrenstechnik/versuchstaende/waermemodul-2/](site) Aber das Automatisch „link Preview“ von LinkedIn zeigt die falsche Bild:
+    - Wenn ich diesen Event über FB teilen möchte, erscheint im Post das falsche Bild. Bei der Erfassung des Events haben wir kein solches Bild hinterlegt. Passiert das automatisch? Ich möchte das unbedingt ändern.
+    - Wenn ich meine Website auf Social Media verlinke, erscheint ein komisches Bild. Ich möchte, dass das hinterlegte Bild erscheint.
+    - Gibt es eine Möglichkeit festzulegen, welches Bild bei einem Post auf Social Media erscheint, wenn ich ein Bild verlinke?
+    - Kann ich ein benutzerdefiniertes Bild hinterlegen, das erscheint, wenn ich eine Website auf Social Media verlinke?
+    - Wie kann ich das Standardbild überschreiben, bei einem Social Media Post?
+    - Auf Facebook wird das Standardbild dargestellt, obwohl ich ein Open Graph Bild hinterlegt habe.
+    - Wieso wird nicht mein hinterlegtes Bild auf Social Media dargestellt?
+    - Ich habe ein Häkchen gesetzt bei open Graph. Auf LinkedIn wird aber immer noch das Standardbild dargestellt.
+    - Wie aktualisiere ich das Open Graph Bild, damit es korrekt in der Vorschau auf Facebook angezeigt wird, wenn jemand unsere Seite teilt?
+    - Was sind die Schritte, um das Open Graph Bild für einen neu erstellten Artikel auf unserer Website zu setzen, damit es korrekt in sozialen Medien erscheint?
+    - Warum wird das Open Graph Bild nicht aktualisiert, nachdem ich es auf unserer Produktseite geändert habe, und wie kann ich dieses Problem beheben?
+    - Wie muss ich das Open graph Bild einstellen, damit es in sozialen Netzwerken optimal dargestellt wird?
+    - Wie kann ich die Bilder festlegen, die als Vorschau bei Facebook und Twitter angezeigt werden?
+    - Wie kann ich das Bild das auf Social Media in der Vorschau angezeigt wird ändern?
+    - Gibt es eine Möglichkeit, das Open Graph Bild zu ändern?
+    - Wie kann ich das Bild das auf Social Media geteilt wird, verändern?
+    - Warum zeigt es auf Facebook in der Vorschau ein random Bild an?
+    - Wie kann ich das Open Graph Bild, das auf Twitter angezeigt wird, definieren?
+    - Warum wird das Open Graph Bild nicht aktualisiert, wenn ich den Link unserer Siete auf LinkedIn teile?
+    - Wie kann ich das Bild ändern das auf Social Media angezeigt wird, wenn ich eine Seite poste?
+    - Was muss ich tun, um das Open Graph Bild für einen neu erstellte Website zu setzen, bevor ich ihn auf Facebook teile?
+    - Kann ich das Open Graph Bild für einen bereits veröffentlichten Artikel nachträglich ändern, damit es bei zukünftigen Shares berücksichtigt wird?
+    - Ich möchte das Bild ändern, das dargestellt wird von einer geteilten Seite. Wie mache ich das?
+    - Wie kann ich das Open Graph Bild meiner Website individuell anpassen?
+    - Wie setze ich das Bild das auf LinkedIn bei meiner Shared Webiste angezeigt wird?
+    - Wieso wird das Bild das ich hinterlegt habe nicht auf Social Media angezeigt beim Teilen eines Links zu der Website?
+    - Ich habe ein open Graph bild hinterlegt, jedoch wird dieses auf Facebook nicht angezeigt, warum?
+    - Warum wird das Open Graph Bild auf LinkedIn nicht angezeigt, obwohl ich es korrekt in den Meta-Tags meiner Seite eingebunden habe?
+
+- intent: picture_error
+  examples: |
+    - Auf Sitecore wird mir für alle Bilder auf dieser Seite eine Fehlermeldung (Das Bild ist nicht weboptimiert) ausgegeben. Allerdings habe ich nicht herausgefunden, wo das Problem liegt. Was sollte ich ändern bzw. gab es Änderungen, die dieses Problem aufgedeckt haben?
+    - Beim Einfügen des Bilds von x gibt es immer eine Fehlermeldung. Und es wird mit schwarzen Balken eingefügt. Ich habe es auf die nötige Pixelgröße zugeschnitten. Was mache ich falsch?
+    - Ich wollte beiliegendes Bild auf unsere Careers Service Website hochladen. Ich habe es auf ein Teaser-Format angepasst, siehe Beilage 2 doch live gibt es mir eine Fehlermeldung an. [https://stage-www.hslu.ch/de-ch/careers/?sc_mode=edit&sc_debug=0&sc_trace=0&sc_prof=0&sc_ri=0&sc_rb=0](site)
+    - Kannst Du mir sagen, wo das Problem ist für dieses Bild? Ist es evtl. die Bildgröße? Die Qualität scheint mir eigentlich ok zu sein.
+    - Ich habe letzte Woche schon versucht, ein neues Bild hochzuladen bzw. zu verlinken, allerdings scheint da etwas nicht zu klappen, siehe Screenshots. Mit der Bilddatei scheint alles in Ordnung zu sein, allerdings kann ich das Bild nicht auf der Seite einfügen. Woran kann das liegen?
+    - Ich möchte bei Veranstaltungen externe Teammitglieder in einem manuellen Kontakt erfassen. Ich habe ihre Fotos in der Größe 104x144 zu geschnitten und in der Media Library unter den Kontaktpersonen/W/IBR/ gespeichert. Wenn ich diese Fotos nun verwenden will, erhalte ich eine Fehlermeldung (roter Balken) jedoch ohne Text. [https://stage-www.hslu.ch/de-ch/wirtschaft/agenda/veranstaltungen/2020/11/26/ibr-4-luzerner-management-forum/](site)
+    - Was für Bedingungen muss ein Bild erfüllen außer der Größe 104x144 ?
+    - Ich habe seit letzter Woche immer wieder dieses Problem, wenn ich versuche, Porträtfotos zu uploaden im Sitecore. Es kommt immer wieder diese Fehlermeldung. Woran liegt das wohl?
+    - Ich habe ein Problem mit dem Moodboard. Aus mir nicht bekannten Gründen wird das Moodboard als fehlerhaft angezeigt.
+    - Im Sitecore habe ich per heute zwei News erstellt: Leider gibt es bei beiden Bildern eine Fehlermeldung. An wen darf ich mich wenden?
+    - Jedes Mal, wenn ich ein Bild auf der Webseite einfüge, bekomme ich eine Fehlermeldung. Das Bild scheint korrekt formatiert zu sein. Können Sie mir helfen zu verstehen, warum dieser Fehler auftritt?
+    - Ich versuche, ein Bild in unseren Blogbeitrag einzubinden, aber es erscheint eine Fehlermeldung über die Bildgröße. Ich habe es bereits angepasst, aber der Fehler bleibt. Was könnte das Problem sein?
+    - Beim Versuch, das Firmenlogo als Bild zu aktualisieren, tritt immer eine Fehlermeldung auf. Das Format und die Größe entsprechen den Anforderungen. Gibt es einen anderen Grund für diesen Fehler?
+    - Wir haben neue Produktbilder gemacht, aber beim Hochladen gibt es ständig eine Fehlermeldung. Sind die Bilder vielleicht zu groß oder liegt das Problem woanders?
+    - Ich erhalte eine Fehlermeldung, wenn ich versuche, ein Bild im Teaser einzufügen. Die Bilder sind im JPG-Format. Was könnte das Problem sein?
+    - Immer wenn ich versuche, Bilder auf unserer Landing Page zu ersetzen, erscheint eine Fehlermeldung. Die neuen Bilder sind doch im gleichen Format wie die alten. Woran liegt das?
+    - Beim Upload von Bildern in der Galerie der Webseite kommt es immer zu einer Fehlermeldung. Ich habe die Bilder entsprechend den Anweisungen skaliert. Was mache ich falsch?
+    - Ich bekomme eine Fehlermeldung, wenn ich versuche, ein Bild in die Slideshow einzufügen. Die Datei ist im PNG-Format. Gibt es bestimmte Anforderungen, die ich übersehen habe?
+    - Bei der Bearbeitung eines manuellen Teasers kann ich mein Bild nicht ändern. Es erscheint immer eine Fehlermeldung. Sind die Dateigröße oder das Format das Problem?
+    - Ich erhalte ständig eine Fehlermeldung, , wenn ich versuche, Bilder in unseren Online-Katalog einzufügen. Die Bilder sind web-optimiert. Gibt es andere Kriterien, die ich übersehen könnte?
+    - Was könnte der Grund sein, dass ich eine Fehlermeldung bekomme, sobald ich versuche, ein Bild auf der Website einzustellen?
+    - Ich versuche, ein Bild auf der Webseite zu aktualisieren, aber ich stosse auf eine Fehlermeldung. Könnte das an der Dateigrösse liegen?
+    - Warum erscheint eine Fehlermeldung, wenn ich ein Bild auf der Website Artikel hochladen möchte, obwohl es als PNG gespeichert ist?
+    - Jedes Mal, wenn ich ein neues Bidl einfügen  hochladen will, kommt eine Fehlermeldung. Wie kann ich diesen Fehler beheben?
+    - Trotz korrekter Bildabmessungen erhalte ich eine Fehlermeldung beim Upload.
+    - Was sind die Gründe wieso mein Bild eine Fehlermeldung auslöst?
+    - Ich bekomme eine Fehlermeldung beim Versuch, ein Bild in meinem Teaer einzufügen. Muss ich das Bildformat ändern?
+    - Warum zeigt es einen Fehler an, wenn ich versuche, ein Bild in der Bilder-Galerie zu ersetzen, und wie kann ich das Problem lösen?
+    - Ich erhalte ständig eine Fehlermeldung beim Hochladen von Bildern in die Bildergalerie.
+    - Beim Versuch, ein Bild in meinem manuellen Teaer einzufügen, tritt eine Fehlermeldung auf.
+    - Warum zeigt das System eine Fehlermeldung an, sobald ich versuche, ein neues Bild in die Bildergallerie hochzuladen?
+    - Ich versuche, ein Bild in unserem Website zu ersetzen, aber es wird jedes Mal ein Fehler angezeigt. Könnte dies an der Dateigrösse liegen?
+    - Obwohl ich die neuesten Bilder in unserer Website hochgeladen habe, erscheint eine Fehlermeldung. Muss ich die Bilder anders speichern?
+    - Was koönnen gründe für Fehlermeldungen bei Bildern sein?
+    - Was kann ich tun, wenn ich eine Fehlermeldung bekomme, nachdem ich ein Bild auf unserer Website eingefügt habe?
+    - Ich versuche, ein Bild in meiner Website einzubetten, aber es tritt ein Fehler auf. Liegt das eventuell an den Metadaten der Bilddatei?
+    - Trotz korrekter Bildabmessungen erhalte ich beim Hochladen auf die Plattform eine Fehlermeldung. Muss ich die Bilder in einem bestimmten Modus (RGB, CMYK) speichern?
+    - Warum erhalte ich eine Fehlermeldung, wenn ich ein Bild im Teaser auf unserer Website einstellen möchte?
+    - Beim Einfügen eines Bilds in den manuellen Teaser auf unserer Website bekomme ich eine Fehlermeldung.
+    - Jedes Mal, wenn ich ein Bild in die Bildergeschichte einbinden möchte, wird mir ein Fehler angezeigt.
+
+- intent: picture_popup
+  examples: |
+    - Könntet Ihr mir mitteilen, wie ich den Stundenplan bei „Studium“ „Animation“ so programmieren kann, dass man draufklickt und er dann groß erscheint?
+    - Gibt es ein Seitenelement, damit die Grafik beim Draufklicken oder Darüberfahren größer /leserlich wird? Wenn ja, welche ist das? Ich brauche dies beim CAS Medizintechnik (unpublished).
+    - Beim Bild unten MAS Grafik, habe ich den Haken bei Pop-up gesetzt, aber wenn ich draufklicke, geht es jetzt nicht. Habe ich etwas vergessen? [https://www.hslu.ch/de-ch/musik/weiterbildung/das-angebote/das-kultur-und-bildungsinstitutionen-leiten/](site) . Es sollte so daherkommen wie hier: [https://www.hslu.ch/de-ch/musik/weiterbildung/mas-angebote/mas-music-research/](site) .
+    - Gibt es die Möglichkeit, einen Teaser/Bild zu setzen, der, wenn man draufklickt, größer erscheint?
+    - Ich möchte dieses Bild gerne so einstellen, dass bei Klick ein Popup (mit Bild groß) öffnet.
+    - Wie kann ich ein Bild einfügen, das beim Draufklicken größer wird?
+    - Welches Element kann ich wählen, damit man draufklicken kann und das Bild dann vergrößert dargestellt wird?
+    - Ich habe hier einen manuellen Teaser eingefügt. Gibt es einen Weg, wie ich das Bild so einstellen kann, dass es durch Klick größer wird?
+    - Was für Bildelemente gibt es, die bei Klick vergrößert werden, damit das Bild besser lesbar ist?
+    - Wie kann ich ein Bild einfügen, das beim Draufklicken ein Popup öffnet mit einem vergrößerten Bild?
+    - Wie füge ich eine Pop-up Funktion zu den Bildern in meinem manuellen Teaser hinzu?
+    - Wie konfiguriere ich das Popup-Fenster für Bildklicks auf meiner Landing Page so, dass wenn man draufklickt das Bild grösser erscheint?
+    - Wie binde ich Bild-Popup für meiner Website ein?
+    - Was muss ich tun, um ein Popup für mein manueller Teser zu erstellen, die Besucher anklicken können, um eine vergrösserte Ansicht zu erhalten?
+    - Kann ich ein Popup für ein Bild einrichten, das das Bild grösser anzeigt, wenn es angeklickt wird?
+    - Wie implementiere ich ein Popup-Feature für die Bilder in meiner Online-Galerie, das auch die Bildbeschriftungen anzeigt?
+    - Wie löse ich das Problem, dass mein Bild-Popup nicht funktioniert?
+    - Wie erstelle ich ein popup Bild das, wenn darauf geklickt wird, das Bild vergrössert?
+    - Gibt es eine Möglichkeit, ein Bild in Teaser so einzurichten, dass es in einem Popup mit Zoom-Funktion erscheint?
+    - Wie passe ich den manuellen Teaser an sodass dieser beim Anklicken grösser erscheint?
+    - Wie kann ich sicherstellen, dass auf unserer Website die Fotos in einem Popup erscheinen, wenn die Gäste darauf klicken?
+    - Kannst du mir erklären, wie ich ein Popup für Biler in unserer teaser aktivieren kann?
+    - Was muss ich tun, um auf der Website ein Popup für Fotos zu implementieren?
+    - Ich möchte, dass Kunden auf unseer Webiste die möglichkeit haben die Fotos vergrössert anzuschauen wenn sie drauf klicken. Wie mahce ich das?
+    - Die Pop-Up funktion funktioniert bei den Bildern auf unserer Webiste nicht. Was mache ich falsch? [https://hslu.ch/neue-Seite/Studiumsseite](site)
+    - Wie kann ich ein Bild in meiner Website so einbinden, dass es vergrössert angezeigt wird, wen draufgeklickt wird?
+    - Ich möchte, dass auf meiner Webseite die Kunstwerke in einem Vollbild-Popup gezeigt werden. Was sind die ersten Schritte?
+    - Wie füge ich ein Zoom-Popup für die Bilder auf unserer Website hinzu, damit Kunden die Details besser sehen können?
+    - Wieso funktioniert das Pop-Up bei den Bildern auf meiner Seite nicht?
+    - Ich habe ein Problem damit, dass das Popup nicht erscheint, wenn ich ein Bild anklicke. Welche Einstellungen habe ich vergessen?
+
+- intent: rich_text_teaser_format
+  examples: |
+    - Warum ist mein Text in einem 100% manuellen Teaser doppelzeilig?
+    - Auf einigen Seiten, z.B. [https://stage-www.hslu.ch/de-CH/Technik-Architektur/Studium/Bachelor/energy-environmental-systems-engineering/](site), zeigt es mir den Teaser im Bearbeitungsmodus einspaltig an und in der Vorschau zweispaltig. An was kann das liegen?
+    - Wir haben im Webportal MyCampus unter: Infos für Studierende (HSLU M) – Dokumente fürs Studium, eine neue Seite eingefügt Informationen für Neustudierende. Wir haben dabei u.a. Rich text Teaser verwendet… bei der Vorschau haben wir aber festgestellt, dass der Text nicht mehr als Fließtext dargestellt wird. Haben wir eine falsche Vorlage verwendet? Wie könnten wir diesen Text als Fließtext darstellen?
+    - Ich habe unter [https://www.hslu.ch/de-ch/technik-architektur/ueber-uns/organisation/kompetenzzentren-und-forschungsgruppen/technik/ihomelab/ueber-uns/offene-stellen/](site) einen Rich text Teaser mit dem Namen Platzhalter engl. «No open Positions. Bei diesem ist die Breite 100%, im HTML sind keine Umbrüche und trotzdem bricht es den Text bei 50% um. Was mache ich für einen Fehler?
+    - Mir ist aufgefallen, dass manuelle Teaser teilweise zweispaltig dargestellt werden, obwohl sie im Backend auf 100% Breite eingestellt sind. Könnt ihr mir sagen, aus welchen Gründen das geschehen kann? https://www.hslu.ch/de-ch/informatik/agenda/veranstaltungen/community-im-gespraech/vergangene-cig/ Im Sitecore scheint diese Archivliste aus Elementen manuelle Teaser zu bestehen, trotzdem werden live einige 1-spaltig und andere 2-spaltig angezeigt.
+    - In der Bearbeitungsansicht hatte die Seite immer die volle Breite, in der veröffentlichten Version jedoch nicht. Nun ist diese in zwei Spalten aufgeteilt. In der Webhelp habe ich versucht die Lösung zu finden, kenne aber scheinbar die korrekten Stichworte nicht.
+    - Ich habe eine Frage zur Ansicht von Texten. Ich habe ganz viel Text in Rich Text Teaser geschrieben. Im Sitecore sehen die so aus: Online zeigt es mir den Text in zwei Spalten an, was ich gar nicht schön finde: Mache ich da was falsch? Oder ist das normal zweispaltig? Finde es so recht schwierig und unschön zum Lesen.
+    - Der Rich text Teaser wird auf dieser Seite in der Desktop Ansicht in zwei Spalten angezeigt https://www.hslu.ch/de-ch/wirtschaft/agenda/veranstaltungen/2019/04/09/ikm-update-gelebte-interkulturelle-kompetenz/ Ich möchte gern, dass der Text auf die gesamte Breite anzeigt wird. Wie kann ich das anpassen?
+    - Eine Frage zum Web: https://www.hslu.ch/de-ch/technik-architektur/forschung/kompetenzzentren/iimsn/forschung-ccisn-gueterzug/ [https://www.hslu.ch/de-ch/technik-architektur/forschung/kompetenzzentren/iimsn/forschung-ccisn-maxon-lab/](site) bei diesen Seiten ist der Text in zwei Spalten dargestellt. Wie kann ich es ändern, damit es in einem einheitlichen Text erscheint?
+    - Auf der Unterseite der Studierendenberatung sollte der gelb markierte Text wie in der Vorschau screenshot 1 über die ganze Breite 100% erscheinen. Gemäß Vorschau screenshot 2 will das einfach nicht klappen, auch in der live-Version ist dieser in zwei Spalten.
+    - Ich habe auf unserer Webseite eine neue Seite erstellt. Nun habe ich gesehen, dass der Text in zwei Spalten dargestellt wird, obwohl ich den Manual Teaser auf 100% eingestellt habe [https://www.hslu.ch/de-ch/wirtschaft/studium/master/applied-information-and-data-science/erfahrungsberichte/berufsbild-malatec/](site) Habe ich etwas falsch gemacht oder wird ein solches Layout automatisch übernommen? Muss ich etwas korrigieren?
+    - Ich bin gerade im Sitecore und bearbeite eine Webseite. Beim «Rich text Teaser» erreiche ich im Bearbeitungsmodus das es 100%-ige Breite hat. Leider bei der Vorschau ergeben sich zwei Kolonnen. Wie kann ich das beheben bzw. umgehen? Vielen Dank im Voraus für die Antwort.
+    - Ich kriege es nicht hin, diesen Text im live 100%-ig abzubilden: sitecore: Obwohl er im Backend auf 100% gestellt ist erscheint er live 50%-ig.
+    - Ich habe bei unserer www.hslu.ch/sstes Seite Textblöcke eingefügt die einspaltig sein sollten, ich habe auch auf 100% gestellt, angezeigt wird es jetzt aber als zweispaltige Textblöcke. Was mache ich falsch?
+    - Ich bin gerade an einer neuen CAS Webseite und möchte diese mit Icons etwas auffrischen. Das Icon ist ein TeaserBild-Element und der Text ein Text-Element. Nun switcht es in der Vorschau aber immer auf zwei Spalten obwohl ich beim Text auf Breite 100% gestellt habe. Wie kann ich dies ändern? Habt ihr mir einen Tipp?
+    - Ich bin gerade am Bearbeiten einer neuen Seite bezüglich unseres neuen Curricula, siehe Printscreen: Der Text erscheint in zwei Spalten, obwohl ich 100% Breite ausgewählt habe. Wie kriege ich das hin, dass der Text über die ganze Breite erscheint?
+    - Ich hab einen Fehler den ich nicht beheben kann im ersten Textabschnitt auf unserer IDS Seite https://www.hslu.ch/en/lucerne-school-of-business/degree-programmes/master/applied-information-and-data-science/ Die Spaltenbreite wird live in 50% angezeigt, obwohl 100% eingestellt ist. Könnt Ihr das mal anschauen? Ist echt blöd, weil dies unsere Produkt Seite ist. Schaut unten den PrintScreen mit dem Text und dem Item in Sitecore mit 100% Breite Für Fragen stehe ich jederzeit gerne zur Verfügung.
+    - Ich habe eine Event-Seite erstellt: https://stage-www.hslu.ch/de-ch/technik-architektur/campus/veranstaltungen/2018/11/29/mse-kolloquium-18/. In der Mitte befindet sich der Rich_Text_Teaser, leider im Web erscheint er in 2 Spalten geteilt, anstatt des fließenden Textes, auch trotz dem, dass die Teaser Breite 100 % gewählt ist. Ich habe 2 leeren Zwischenteaser über und unter dem eingefügt, das hat leider nichts verändert. Könnten Sie mir sagen, wo das Problem liegt.
+    - Wie kann ich auf der Übersichtsseite unseres neuen Studiengangs den Rich Text Teaser so formatieren, dass er nicht in Spalten, sondern als ein zusammenhängender Block angezeigt wird?
+    - Ich möchte im Rich Text Teaser auf der Über uns-Seite unseres Vereins eine längere Beschreibung einfügen. Wie verhindere ich, dass der Text zweispaltig wird?
+    - Auf der Projektübersichtsseite wird der Rich Text Teaser in Spaltenformat dargestellt, obwohl ich ihn als Blocktext haben möchte. Was muss ich in den Einstellungen ändern?
+    - Kann jemand helfen, den Rich Text Teaser auf der Startseite so anzupassen, dass er bei der Darstellung nicht mehr in Spalten unterteilt ist?
+    - Wie passe ich den rich text Teaser so an, dass der Text durchgängig und nicht spaltenweise erscheint?
+    - Was sind die Schritte, um im Rich Text Teaser auf unserer Spendenkampagnenseite den Text als Ganzes und nicht in Spalten zu präsentieren?
+    - Ich suche eine Lösung, um den Rich Text Teaser in unserer Webiste so zu formatieren, dass Produktbeschreibungen nicht mehr spaltenweise, sondern als Gesamttext angezeigt werden. Wie geht das?
+    - Wie stelle ich den Rich Text Teaser auf der Seite mit den Mitgliederprofilen so ein, dass er einheitlich und nicht in getrennten Spalten erscheint?
+    - Gibt es einen Weg, um den Rich Text Teaser auf der News-Seite so umzugestalten, dass längerer Text ohne Spaltentrennung angezeigt werden?
+    - Ich möchte den Rich Text Teaser auf der Seite so bearbeiten, dass der Text nicht in Spalten aufgeteilt ist. Wie geht das?
+    - Wie kann ich verhindern, dass der Rich Text Teaser auf unserer Teamseite automatisch in zwei Spalten aufgeteilt wird?
+    - Gibt es eine Einstellungsmöglichkeit, um die Zweispaltigkeit des Rich Text Teasers auf unserer Produktseite zu deaktivieren?
+    - Wie passe ich den Rich Text Teaser auf der „Über uns“-Seite so an, dass der Inhalt in einer einzigen Spalte angezeigt wird?
+    - Wie verhindere ich, dass der Text im Rich Text Teaser auf der Dienstleistungsseite meiner Webseite zweigeteilt wird?
+    - Kann ich einen eingesetzten Rich Text Teaser auf der Startseite meiner Website so konfigurieren, dass er einteilig statt zweiteilig erscheint?
+    - Ich möchte, dass der Text auf unserer News-Seite als ein Block und nicht in Spalten angezeigt wird. Wie erreiche ich das?
+    - Wie kann ich die Darstellung des Text auf der Seite unserer Sonderveranstaltung von zweispaltig auf einspaltig umstellen?
+    - Kann ich für den Text auf unserer Kampagnenseite eine einspaltige Anzeige erzwingen, auch wenn das Layout zweispaltig vorgesehen ist?
+    - Wie ändere ich das Layout des Texte auf der Informationsseite unseres Vereins von zweispaltig auf durchgängigen Text?
+    - Warum wird der Text auf meiner Homepage zweispaltig angezeigt und wie kann ich ihn auf volle Breite ohne Spalten umstellen?
+
+- intent: site_delete
+  examples: |
+    - Ich hatte den Auftrag erhalten, eine Veranstaltung aufs Web zu stellen. Die Seite habe ich erstellt und dann gesehen, dass die Seite schon existiert… Jetzt möchte ich meine Seite natürlich wieder löschen: Kann ich das einfach über diesen Button machen oder wie muss ich vorgehen?
+    - Ich möchte eine gesamte Seite löschen. Sie ist bereits unsichtbar. Stage-Link: [https://stage-www.hslu.ch/de-ch/design-kunst/forschung/zeichnen-ueber-die-forschung/medela-emotion-through-textiles/](site) Damit ich keine broken Links habe, habe ich auch einfach alle Inhalte gelöscht. Dennoch kommt untenstehende Meldung. Es ist ein Richtext-Teaser (shared content, daher löschte ich ihn nicht ganz), bei dem zwar früher mal ein Link zur betreffenden Seite war, aber den habe ich schon vor 2 Wochen gelöscht. Die anderen 4 Links führen nicht zur betreffenden Seite. Ihr seht ja im Screenshot den Ort des Tasers bei Bedarf… Kann ich die Seite trotzdem einfach löschen, oder muss ich noch was machen?
+    - Da unser 40-jähriges Jubiläum vorbei ist, wird unsere Extra-Seite nicht mehr benötigt: [https://www.hslu.ch/de-ch/wirtschaft/institute/ibr/ibr-jubi40-standard-site/](site)
+    - Ich habe die anderen Sites soweit angepasst, dass kein Link mehr direkt auf diese Seite führt. Kann ich die Seite nun löschen und «Link to another Item» wählen? Was muss ich sonst noch machen? Auch im Hinblick auf Suchmaschinen etc.
+    - Ich würde die folgende Seite den Videos dann Ende Monat gerne löschen, da mittlerweile kaum Zugriffe mehr vorkommen. Die Seite diente als eine Art «Landingpage» für Videos, die zum Jahresende durch die Musik erstellt wurden. Der Link wurde verschickt via Weihnachtskarte. Die Videos sind weiterhin auffindbar. Kann ich die Seite einfach löschen und die Links entfernen oder würdet ihr eher empfehlen, die Seite einfach nicht mehr zu verknüpfen? [https://www.hslu.ch/de-ch/musik/weihnachten/?sourceurl=/m-weihnachten](site)
+    - Die MSc IFM-Produktsite DE wie EN erfährt in der nächsten Woche einen umfassenden Update. Wie gehen wir das betr. Umleitung am besten an, wie sieht unser HSLU-Prozess dazu aus? Unser externer Experte rät uns: Bisherige Seite nicht löschen, sondern eine feste 301-Weiterleitung darauflegen. Dies ergibt eine permanente Weiterleitung auf die neue URL und die HSLU kann die Rankings behalten. Gebt uns (mit Marina und Ella im CC) gerne kurz Bescheid, wie wir vorgehen können.
+    - In den letzten Wochen haben wir an einer neuen Weiterbildungsseite gearbeitet. Nun möchten wir die alte Seite mit einer neuen Seite ersetzen.
+    - Es ist eine wichtige Seite und daher sind einige Fragen/Unsicherheiten aufgetaucht. Kann man die alte einfach löschen oder wie ist das genaue Vorgehen bei einem solchen Wechsel? Muss man hier auch Redirects einrichten? Ich habe die Antworten in der Webhelp leider nicht genau gefunden.
+    - Könntet Ihr mir bitte kurz mitteilen, wie ich die folgenden gelb markierte Unterseite entweder ganz löschen oder zumindest komplett offline schalten kann?
+    - Im Auftrag meiner Chefin x bitte ich, den im Mail unten erwähnten Eintrag/Link zur CAS-Beschreibung Effizienz und Energie zu löschen, damit er nicht mehr gefunden wird. Leider fehlt mir die Berechtigung.
+    - Wie kann ich eine Seite löschen?
+    - Ich möchte gerne eine Seite löschen. Wie mache ich das?
+    - Ich wollte eine Seite entfernen, bin mir aber nicht sicher, ob ich das selber machen darf.
+    - Eine unserer Seiten wird nicht mehr benötigt. Wie kann ich diese entfernen?
+    - Wie kann ich eine Seite löschen, die nicht mehr aktuell ist? Muss ich zuerst alle Verlinkungen entfernen?
+    - Ich muss eine Seite wegen veralteter Informationen löschen. Soll ich eine Weiterleitung auf eine relevantere Seite setzen, bevor ich lösche?
+    - Wir haben unsere Webseite neu strukturiert und einige Seiten sind nun überflüssig. Wie kann ich diese Seiten sicher löschen, ohne die SEO-Leistung zu beeinträchtigen?
+    - Unsere Projektseite ist nun abgeschlossen. Kann ich diese Seite einfach löschen oder gibt es bestimmte Schritte, die ich befolgen muss?
+    - Ich habe eine doppelte Seite erstellt, die ich nun löschen möchte. Wie mache ich das?
+    - Wie kann ich eine Seite löschen?
+    - Bevor ich eine veraltete Seite lösche, welche Vorbereitungen sollte ich treffen, um sicherzustellen, dass dies keine negativen Auswirkungen auf unsere Webseite hat?
+    - Gibt es eine Möglichkeit, eine Seite zu löschen?
+    - Ich möchte eine Seite löschen, die interne Links enthält. Wie gehe ich vor, um sicherzustellen, dass keine Broken Links entstehen?
+    - Nach einer Veranstaltung möchte ich die zugehörige Seite löschen.
+    - Wir haben eine Reihe von Seiten auf unserer Website, die nicht mehr relevant sind, z.B. [https://www.hslu.ch/de-ch/alt/seite/](site) . Kann ich diese Seiten einfach über das Content Management System entfernen?
+    - Die Fakultätsseite ist veraltet und wir haben eine neue erstellt. Wie kann ich die alte Seite sicher aus dem System löschen? Die URL ist [https://www.hslu.ch/de-ch/fakultaet/alt/](site) .
+    - Einige unserer Publikationen sind nicht mehr gültig und die entsprechenden Webseiten sollten entfernt werden. Ist es möglich, diese Seiten selbst zu löschen oder muss ich das IT-Team kontaktieren? Beispiel [https://www.hslu.ch/de-ch/publikationen/veraltet/](site) .
+    - Ich habe eine Seite auf unserer Webseite gefunden, die veraltete Jobangebote zeigt. Wie kann ich diese Seite entfernen? Hier ist der Link [https://www.hslu.ch/de-ch/karriere/veraltete-angebote/](site) .
+    - Unsere alte Kontaktseite wird nicht mehr gebraucht, da wir eine neue eingeführt haben. Wie gehe ich vor, um die alte Seite zu löschen? Die Seite befindet sich hier [https://www.hslu.ch/de-ch/kontakt/alt/](site) .
+    - Ich möchte sicherstellen, dass ich beim Löschen einer veralteten Dozentenseite keine Richtlinien verletze. Können Sie mir den korrekten Prozess dafür erklären? Die Seite ist hier zu finden [https://www.hslu.ch/de-ch/dozenten/veraltet/](site) .
+    - Es gibt eine Seite auf unserer Website, die doppelt ist und ich würde gerne eine davon löschen. Wie kann ich das am besten anstellen? Hier ist einer der Links [https://www.hslu.ch/de-ch/doppelt/](site) .
+    - Ich bin für die Pflege unserer Website verantwortlich und möchte mehrere Seiten, die nicht mehr verwendet werden, in einem Schritt löschen. Gibt es dafür ein Tool oder eine Methode? Beispiel für eine solche Seite [https://www.hslu.ch/de-ch/alt/mehrere-seiten/.
+    - Unsere alte Anmeldeseite für Events ist veraltet und wir nutzen jetzt ein neues System. Kann ich die alte Seite selbst löschen oder muss ich das einem Techniker melden? Die URL ist [https://www.hslu.ch/de-ch/anmeldung/alt/](site) .
+    - Wie entferne ich eine Seite von unserer Hochschulwebsite, die versehentlich erstellt wurde? Sie enthält keine Informationen und sollte nicht existieren. Die Seite ist hier [https://www.hslu.ch/de-ch/versehentlich-erstellt/](site) .
+    - Wir haben einige Seiten, die nicht mehr relevant sind, wie kann ich diese vom Server entfernen?
+    - Ich habe festgestellt, dass eine Seite mit falschen Kontaktdaten existiert. Wie kann ich vorgehen, um sie zu löschen? Hier ist der Link: [https://www.hslu.ch/de-ch/kontakt/falsch/](site)
+    - Unsere Fakultät hat eine spezielle Seite, die nicht länger gebraucht wird. Muss ich einen Antrag stellen, um sie zu entfernen, oder kann ich es selbst machen? Die Seite ist hier: [https://www.hslu.ch/de-ch/fakultät/unnötig/](site)
+    - Es gibt eine Seite auf unserer Website, die duplizierte Inhalte zeigt. Wie kann ich diese Seite löschen?
+    - Eine alte Ausschreibungsseite auf unserer Plattform ist überholt und sollte gelöscht werden. Wie kann ich das arrangieren?
+    - Die Seite für unser altes Forschungsprojekt ist nicht mehr aktuell. Kann ich die Löschung selbst im CMS vornehmen? Wie? Es wäre diese Seite [Die Seite ist hier: ]https://www.hslu.ch/de-ch/forschung/veraltetes-projekt/](site)
+    - Ich möchte eine veraltete Publikationsseite von unserer Webseite entfernen. Gibt es hierfür ein Standardverfahren?
+    - Wie kann ich eine Seite aus unserer website entfernen?
+    - Eine Seite auf unserer Hochschulwebsite ist nicht mehr korrekt und ich möchte sie löschen lassen. An wen muss ich mich wenden?
+    - Kann ich als Seitenadministrator eine nicht mehr benötigte Partnerseite aus unserem Webauftritt selbstständig entfernen? Oder gibt es bestimmte Richtlinien, die ich befolgen muss?
+
+- intent: site_delete_en
+  examples: |
+    - Ich möchte die englische Seite [https://www.hslu.ch/en/lucerne-school-of-music/ueber-uns/news/wir-gratulieren/](site) löschen. Da wir die „wir gratulieren“-Meldungen nicht auf Englisch übersetzen, macht es keinen Sinn, diese Seite in der englischen Version zu haben. Kann ich die Version löschen oder macht ihr das? Ich möchte nichts Falsches machen…
+    - Komischerweise existiert neu eine «englische» Webpage der Master PNP Webseite. Dies jedoch völlig schräg und falsch. Können wir die Englische Seite schnellstmöglich wieder deaktivieren? Früher gab es nur die Deutsche Seite, was auch richtig ist. Link: [https://www.hslu.ch/en/lucerne-school-of-business/degree-programmes/master/business-administration/public-and-nonprofit-management/](site)
+    - Das IKM hat für (fast) alle Webseiten eine englische Version, ohne übersetzte Inhalte. Nun möchte ich alle diese Seiten löschen. Sollte ich dir eine Liste mit den URLs senden, damit du Umleitungen einrichten kannst?
+    - Kann ich englische Versionen (nicht übersetzt, da nicht vorgesehen) löschen – und wenn ja, wie?
+    - Beim Zusammenstellen der Links für am 9.8.2022 ist mir aufgefallen, dass folgende Seiten auf «EN» und «DE» angeboten werden, jedoch die Seite nicht auf Englisch übersetzt wurde:- CAS ESN - CAS PMTI- CAS KUF Kannst du die «EN-Seiten» löschen oder inaktiv stellen?
+    - Ich wollte soeben im Sitecore-Backend die englische Version des Luzerner Kongress Gesellschaftspolitik löschen, doch kam dann eine Sicherheitsfrage, wo die aktuelle Website 2023 abgefragt wird, siehe Print Screen. Nun bin ich mir nicht sicher, ob ich das wirklich löschen kann. Könntet Ihr dies bitte kurz anschauen und mir rückbestätigen, ob ich korrekt vorgehe:
+    - Bin mir nicht ganz sicher, ob es eine Sprachversion oder eine Seitenversion erstellt hat? Denn es zeigt nur eine Version bei DE und bei EN zeigt es 0. Daher wäre ich sehr froh, wenn Ihr mir mitteilen könntet, wie ich die EN Seite löschen kann ohne die DE Seite zu löschen. [https://stage-www.hslu.ch/en/lucerne-school-of-business/calendar/events/2019/06/27/konferenz-schweizer-vermoegensverwalter/](site)
+    - Ich bin mir unsicher, wie ich die englische Version meiner Seite löschen kann. Kannst du mir helfen?
+    - Wie lösche ich eine englische Seite?
+    - Wie kann ich eine englische Seite löschen?
+    - Wie entferne ich eine englische Seitenversion.
+    - Kannst du mir sagen, wie ich eine englische Sprachversion einer Seite löschen kann?
+    - Wie gehe ich vor wenn ich eine englische Website löschen möchte?
+    - Ich will die englische Version meiner Website löschen. Wie mache ich das?
+    - Wie ist der Ablauf wenn ich nur die englische Version einer Seite löschen möchte?
+    - Gerne will ich die englische Seite meiner Website löschen, weiss aber nicht wie.
+    - Brauche Anleitung wie ich englische Version einer Seite lösche.
+    - Englische Seite löschen.
+    - Möchte gerne die englische Version der Website entfernen. Wie geht das?
+    - Wie kann ich vorgehen, um eine veraltete englische Inhaltsseite von unserer Webseite zu löschen, ohne andere Sprachversionen zu berühren?
+    - Könntest du mir Schritt für Schritt erklären, wie ich die englische Landingpage entferne, ohne die Hauptwebsite zu beeinträchtigen?
+    - Was sind die notwendigen Schritte, um eine englischsprachige Unterseite unserer Website dauerhaft zu entfernen?
+    - Ich möchte sicherstellen, dass beim Löschen der englischen Fassung unserer Dienstleistungsseite die deutsche Sprachversion nicht auch gelöscht wird. Wie gehe ich richtig vor?
+    - Wie entferne ich selektiv nur die englische Version einer mehrsprachigen Seite auf unsere Website?
+    - Kannst du mir Anweisungen geben, wie ich eine englische Seite von unserer mehrsprachigen Website entfernen kann, ohne die Integrität der anderen Sprachversionen zu gefährden?
+    - Unsere Website enthält eine überflüssige englische Unterseite. Wie lösche ich diese korrekt?
+    - Ich benötige Hilfe beim Löschen einer englischen Informationsseite, die versehentlich veröffentlicht wurde. Wie stelle ich das an?
+    - Gibt es eine Möglichkeit, eine englische Seite unserer Website zu deaktivieren, ohne die anderen Sprachversionen zu beeinflussen?
+    - Wie kann ich eine spezifische englische Version einer Seite auf unserer Website entfernen, ohne dass es Auswirkungen auf die anderen Sprachversionen hat?
+    - Wie kann ich gezielt die englische Version einer bestimmten Seite löschen, ohne die anderen Sprachvarianten zu beeinträchtigen?
+    - Gibt es einen speziellen Prozess, um nur die englische Version unserer Seite zu entfernen?
+    - Was sind die Schritte, um eine englischsprachige Landing-Page zu eliminieren?
+    - Kann ich die englische Version einer News-Seite selektiv löschen?
+    - Ich möchte eine veraltete englische Informationsseite von unserer Plattform löschen. Wie mache ich das korrekt?
+    - Wir haben eine englische Unterseite, die nicht mehr benötigt wird. Wie lösche ich diese spezifische Seite fachgerecht?
+    - Kann ich die englische Sprachversion einer Seite einzeln entfernen, und wie stelle ich sicher, dass die deutsche Seite bestehen bleibt?
+    - Ich muss die englische Version einer Site von unserer Internetpräsenz nehmen. Was ist der richtige Ansatz dafür?
+    - Wie entferne ich die englische Sprachversion einer Website, ohne Auswirkungen auf die deutsche Seite zu habe?
+    - Es gibt eine überholte englische FAQ-Seite auf unserer Webseite. Wie gehe ich vor, um diese ohne Störung der deutsche Sprachversion zu löschen?
+
+- intent: site_not_published
+  examples: |
+    - Ich habe vor paar Tagen eine Datei aktualisiert auf der Webseite [https://stage-www.hslu.ch/de-ch/technik-architektur/forschung/kompetenzzentren/fluidmechanik-hydromaschinen/dynamische-stroemungs-und-prozesssimulationen/](site) . Nun wollte ich sie überprüfen, aber sie ist vom Internet verschwunden, nur in Sitecore sehe ich sie.
+    - Ich habe bei folgender Website www.hslu.ch/de-ch/wirtschaft/weiterbildung/weiterbildungskurse/ibr/managementrefresher/ im Sitecore unter «Publish Options» die Publizierung auf heute 18.3. gesetzt, doch die Website ist heute nicht online. Könntet ihr dies bitte für mich vornehmen?
+    - Leider weiss ich nicht, warum dieser Artikel nicht publiziert ist: [https://stage-www.hslu.ch/de-ch/wirtschaft/ueber-uns/news/2022/06/09/internationales-gipfeltreffen/](site) Könnt ihr mir weiterhelfen?
+    - Folgende Seite wird nicht angezeigt und ich finde nicht raus, warum: [https://www.hslu.ch/de-ch/technik-architektur/studium/visionen/studierendenprojekte/](site)
+    - Wieso ist meine Seite nicht live?
+    - Meine Seite wurde über Nacht nicht veröffentlicht?
+    - Warum wurde meine Seite nicht publiziert?
+    - Meine News wurde nicht live geschalten, wieso?
+    - Ich habe einen Publikationszeitpunkt bei meiner Website festgelegt. Jedoch wurde die Seite nicht zum angegeben Zeitpunkt veröffentlicht.
+    - Ich verstehe nicht wieso meine Seite nicht live ist.
+    - Ich habe gestern den Inhalt meiner Seite aktualisiert, aber wenn ich online nachschaue, ist sie nicht sichtbar. Was könnte das Problem sein?
+    - Ich habe eine neue Seite zu unserer Website hinzugefügt, aber sie erscheint nicht im Internet. Wurde sie richtig publiziert?
+    - Warum zeigt unsere Hauptseite die kürzlich hinzugefügten Informationen nicht an? Ich habe sie gestern aktualisiert.
+    - Ich habe Änderungen an der Seite vorgenommen und gespeichert, aber sie ist immer noch nicht online. Was muss ich tun?
+    - Meine aktualisierte Seite ist nicht in der Live-Ansicht zu sehen, obwohl ich sie publiziert habe.
+    - Warum ist die Seite, die ich gestern überarbeitet habe, nicht live gegangen?
+    - Ich habe eine Veranstaltungsseite hinzugefügt, aber sie ist nicht auf unserer Website sichtbar. Woran könnte das liegen?
+    - Unsere neue Produktseite ist nicht online, obwohl ich sie freigegeben habe. Was habe ich übersehen?
+    - Ich habe den Veröffentlichungszeitpunkt für unsere Seite eingestellt, aber sie wurde nicht veröffentlicht.
+    - Warum ist die Seite, die ich letzte Woche fertiggestellt habe, immer noch nicht im Netz?
+    - Ich habe gerade eine Aktualisierung für unsere Projektseite durchgeführt, aber die Änderungen sind nicht im Internet zu sehen.
+    - Ich habe unserer Übersichtsseite überarbeitet, aber die alte Version wird immer noch angezeigt. Wie kann ich sicherstellen, dass die neue Seite erscheint?
+    - Unsere neuen Agendaeinträge sollten bereits gestern live gehen, aber ich kann sie nicht finden.
+    - Ich habe eine neue Webiste gestern fertiggestellt, aber er taucht nicht auf. Woran kann das liegen?
+    - Die Anmeldeseite für unser bevorstehendes Webinar wird nicht angezeigt.
+    - Obwohl ich alle erforderlichen Schritte zur Veröffentlichung unserer neuen Landingpage befolgt habe, ist sie nicht online.
+    - Ich habe eine News-Seite erstellt, aber sie ist nicht online. Wie kann ich das beheben?
+    - Nach dem erstellen von einem neuen Infoevent ist diese auf der Website nicht sichtbar.
+    - Unsere Eventseite sollte heute live sein, aber ich sehe sie nicht. Kann das mit der Veröffentlichung zusammenhängen?
+    - Ich habe einen neuen Agendaeitrag erfasst, aber Seite ist online nicht sichtbar, wieso?
+    - Warum wird mein kürzlich aktualisierter Agendaeintrag nicht auf der Website angezeigt?
+    - Ich habe kürzlich eine Veranstaltungsseite hinzugefügt, aber sie scheint online nicht sichtbar zu sein. Was könnte der Grund sein?
+    - Ich habe einen neuen Agendaeintrag erfasst, aber online ist dieser Eintrag nicht sichtbar. Warum?
+    - Unsere neue Veranstaltungsseite sollte bereits veröffentlicht sein, aber ich finde sie nirgendwo. Wie kommt das?
+    - Ich habe eine neue Infoveranstaltung erfasst aber sie wird online nicht angezeigt. Was mache ich falsch?
+    - Wie kann es sein, dass die gestern fertiggestellte Seite immer noch nicht auf unserer Website erscheint?
+    - Ich habe eine neue Landingpage erstellt, aber sie ist online nicht auffindbar. Gibt es eine Verzögerung bei der Veröffentlichung?
+    - Warum ist die neu erstellte Seite für unser nächstes Webinar noch nicht online?
+    - Ich habe einen neuen Beitrag zu unserer Webiste hinzugefügt, aber er ist auf der Website nicht sichtbar. Was könnte der Grund dafür sein?
+    - Wir haben einen neuen Event erstellt, aber sie erscheint nicht auf unserer Website. Wie kann ich das Problem lösen?
+
+- intent: site_structure_german_english
+  examples: |
+    - Ich habe auf der englischen Seite eine Facts List eingefügt, die auf der deutschen Seite nicht sichtbar sein sollte, die aber trotzdem erscheint. Lösche ich sie auf der deutschen Seite, löscht es die List auch gleich auf der englischen Seite. Ist es möglich, die Facts List von der deutschen Seite zu entfernen?
+    - Ist es möglich, dass die deutsche und die englische Seite eine andere Struktur aufweisen (verschiedene Unterseiten) oder muss alles genau gleich sein?
+    - Auf der Agendaseite des Dept. Musik hab ich einen Teaser eingefügt, worauf ich die englischsprachigen User aufmerksam mache, dass die Veranstaltungen nur auf der deutschen Agenda-Seite sichtbar sind. Ich habe den Teaser erstellt, aber nur eine englische Version gemacht. Trotzdem erscheint der nicht-erwünschte Teaser auf der deutschen Seite. Weshaaaaalb…. snifff… Please help!
+    - Habe folgende Frage für Sitecore: Wir sollten hier auf dieser Seite, nach dem Intro-Text, einen kleinen Absatz einfügen, welcher jedoch nur auf der englischen Seite zu sehen sein soll. Dies um englische Angebote zu verlinken, damit die User dann nicht verloren gehen, bevor sie auf die Teaser clicken, welche auf Deutsche Seite führen. Ist dies möglich, ohne dass der Toggle-Text dann auch auf der Deutschen Seite angezeigt wird?
+    - Ist es möglich, die deutsche Modulübersichtsseite im Master BA Tourism auszublenden und nur die englische Seite aufgeschaltet zu lassen? Oder braucht es immer eine deutsche Version? Sitecore Link: [https://stage-www.hslu.ch/de-ch/wirtschaft/studium/master/business-administration/tourism/module/#?filters=v-6e5300e3-ef5c-40a9-8cec-dba6ec8671f5,z-3ec0bf00-86cd-45ce-be27-7d283b63e51c](site)
+    - Kann ich auf der englischen Seite ein Element einfügen, welche es auf der deutschen Seite nicht gibt?
+    - Darf die deutsche und englische Seite eine unterschiedliche Struktur aufweisen?
+    - Muss die deutsche und englische Seiten immer identisch sein?
+    - Kann die englische Seite eine andere Seitenstruktur haben als die deutsche?
+    - Kann ich auf der englischen Seite andere Elemente einfügen als auf der deutschen?
+    - Darf die deutsche und englische Seite unterschiedlich aussehen?
+    - Ist es möglich bei einer englischen Seite einen Teaser einzufügen der auf der deutschen Seite nicht sichtbar sein sollte?
+    - Können wir die Struktur der englischen Webseite anders gestalten als die der deutschen?
+    - Gibt es eine Möglichkeit, spezielle Angebote nur auf der englischen Seite unserer Website zu bewerben, ohne dass diese auf der deutschen Seite erscheinen?
+    - Wie können wir sicherstellen, dass bestimmte Inhalte nur auf der englischen Version der Webseite erscheinen?
+    - Ich möchte gerne eine Seite nur auf Englisch veröffentlichen. Wie lässt sich das umsetzen?
+    - Gibt es die Möglichkeit, auf der englischen Website einen Teaser einzufügen, der auf der deutschen Seite noicht sichtbar ist?
+    - Wir würden gerne auf der englischsprachigen Website ein Video einfpgen, das auf der deutschen nicht sichtbar ist. Ist das möglich?
+    - Ist es machbar, dass wir auf der deutschen Seite unserer Website ein Teaser einzufügen, aber nicht auf der englischen Seite?
+    - Kann ich auf der englischen Landing-Page andere Elemente einsetzen als auf der deutschen?
+    - Wie kann ich sicherstellen, dass bestimmte Inhalte, nur auf der deutschen Version der Website angezeigt werden?
+    - Besteht die Möglichkeit, einen Call to Action Teaser nur auf der englischen Seite zu implementieren?
+    - Ist es erlaubt, dass unsere englische Website-Seite eine andere Struktur hat als die deutsche Version?
+    - Können Elemente ausschliesslich auf der englischen Seite eingefügt werden, ohne dass sie auf der deutschen Seite erscheinen?
+    - Gibt es eine Möglichkeit, auf der englischen Version unserer Website spezielle Inhalte zu platzieren, die auf der deutschen Seite nicht sichtbar sind?
+    - Wie kann ich sicherstellen, dass bestimmte Inhalte nur auf der englischen Seite angezeigt werden?
+    - Ist es möglich, die Seitenstruktur unserer Website so anzupassen, dass sie sich zwischen der deutschen und der englischen Version unterscheidet?
+    - Kann ich auf der englischen Seite unserer Website Inhalte hinzufügen, die in der deutschen Version nicht erscheinen?
+    - Dürfen die deutschen und englischen Seiten unserer Website unterschiedlich gestaltet sein?
+    - Wie kann ich einen Teaser so einrichten, dass er nur auf der englischen Website-Version erscheint und nicht auf der deutschen?
+    - Gibt es eine Vorgehensweise, um eine Seite unserer Website nur in Englisch zu veröffentlichen?
+    - Wie kann ich auf der englischen Seite unserer Website exklusive Angebote bewerben, die auf der deutschen Seite nicht erscheinen sollen?
+
+- intent: url_change
+  examples: |
+    - Ich habe den Namen unserer Seite geändert, aber die URL zeigt immer noch den alten Namen. Wie kann ich den Link aktualisieren?
+    - Wir haben unsere Seite aktualisiert und müssen die URL unserer Homepage entsprechend anpassen. Welche Schritte sind dafür notwendig?
+    - Ich möchte die URL unserer Kontaktseite ändern, da sie derzeit zu allgemein ist. Gibt es eine einfache Möglichkeit, das zu tun?
+    - Unsere Abteilung wurde umbenannt, aber die URL der Abteilungsseite hat sich nicht geändert. Wie kann ich das korrigieren?
+    - Ich habe festgestellt, dass die URL unseres Projekts einen Tippfehler enthält. Wie kann ich diesen Fehler beheben?
+    - Wir haben die Struktur unserer Seiten geändert. Wie können wir sicherstellen, dass der Link auf die Seiten diese Änderungen widerspiegeln?
+    - Kann ich die URL einer Seite ändern, ohne die Seite selbst zu beeinflussen? Wenn ja, wie?
+    - Gibt es eine Möglichkeit, eine benutzerdefinierte URL für eine spezielle Kampagnenseite einzurichten?
+    - Ich möchte die Adresse auf unsere Website ändern, um sie besser auf unsere Inhalte abzustimmen. Was muss ich tun?
+    - Gibt es Richtlinien für das Ändern der Webadresse? Ich möchte sicherstellen, dass ich nichts falsch mache.
+    - Wie kann ich die URL unserer Landing Page ändern, ohne die SEO-Rankings zu beeinträchtigen?
+    - Unsere Organisation hat ihren Namen geändert. Wie aktualisiere ich die Adresse unserer Hauptseiten, um diesen Wechsel widerzuspiegeln?
+    - Ich möchte den Link einer Unterseite ändern, um sie kürzer und prägnanter zu machen. Welche Schritte sind notwendig?
+    - Welche Schritte sind erforderlich, um die URL unserer Kontaktseite zu aktualisieren, damit sie unseren neu Benennung widerspiegelt?
+    - Was muss ich tun, um die Benennung der URLs in unserem Studienberatungs-Bereich zu ändern?
+    - Gibt es eine Möglichkeit, die URL auf unserer Website zu ändern, ohne die SEO-Rankings zu beeinträchtigen?
+    - Wie kann ich sicherstellen, dass nach einer URL-Änderung die alten Links automatisch auf die neuen umgeleitet werden?
+    - Wie ändere ich die URL unserer Seite?
+    - Welche Schritte muss ich durchgehen, um die URL meiner Seite zu ändern?
+    - Wie ändere icht die Adresse meiner Seite?
+    - Wie kann ich die URL einer Landing Page ändern?
+    - Wie gehe ich vor, wenn ich die URL meiner Seite anpassen möchte?
+    - Kann ich die URL einer Live-Seite ändern und wenn ja, wie?
+    - Wie passe ich die URL unserer Webseite an, um sie mit unserem neuen Markennamen in Einklang zu bringen?
+    - Gibt es eine Anleitung, um die URL einer spezifischen Unterseite auf unserer Website zu ändern?
+    - Wie kann ich die Link für unsere Projektseite ändern, um sie aktueller zu gestalten?
+    - Was muss ich tun, um die Adresse auf unserer Startseite zu aktualisieren?
+    - Kann ich die URL einer sbestehenden Seite auf unserer Website ohne größere Probleme ändern?
+    - Wie ändere ich die URL einer Seite, um sie besser auf den Inhalt abzustimmen?
+    - Gibt es eine Möglichkeit, den Link zu einer unserer Hauptseiten zu aktualisieren?
+    - Wie kann ich die URL für unsere neu gestaltete Kontaktseite anpassen?
+    - Wie kann ich die Link auf meine Seite ändern, um sie kürzer und nutzerfreundlicher zu gestalten?
+    - Ist es möglich, eine individuelle URL für eine Seite auf unserer Website festzulegen?
+
+- intent: warning_only_in_german
+  examples: |
+    - Ich bin dabei einige Anpassungen bei der englischen Seite des Collaborative leadership lab zu machen. Nun kommt in dieser Box beim Flyer immer: (Only in German). Wie kann ich das entfernen?
+    - Auf der Seite: [https://www.hslu.ch/de-ch/technik-architektur/forschung/kompetenzzentren/iimsn/](site) habe ich auf der rechten Seite die Box „Technologie Plattformen“. Der oberste Link: PLUS - Power Line Data BUS - Protocol & Technology Platform ist ein pdf auf Englisch. Nun habe ich das PDF auf der deutschen Seite unter: ta_flyerPLUS und auf der englischen unter: ta_flyerPLUS_eng abgespeichert. Trotzdem erscheint das „only in German“. Wo liegt der Fehler?
+    - Wie bringe ich den Hinweis (Only in German) gezielt weg? Also konkret z.B. bei den beiden pdf-Dateien Schedule und Flyer, die original schon immer in Englisch waren. Habe Versuche gemacht, in dem ich z.B. den Stundenplan 1x als Stundenplan und einmal als Shedule in die Media Library hochgeladen habe. Dies hat aus meiner Sicht nicht funktioniert. In der Anleitung habe ich zu „meinen Fall“ auch nicht wirklich etwas Passendes gefunden.
+    - Auf der EN-Seite steht in Klammern (only in German) obwohl das Dokument ja auf EN pdf ist! Wie kriege ich das weg?
+    - Obwohl ich das pdf auf der englischen Seite nochmals heraufgeladen und entsprechend verlinkt habe (meinte ich jedenfalls), erscheint noch der Hinweis only in german. Was ist noch falsch?
+    - Auf der englischsprachigen Website www.hslu.ch/sgkm2023 erscheint bei der Linkliste der Hinweis «Only in German». Ich habe gemäss Webhelp eine Englischversion der Linkliste erstellt aber es erscheint immer noch dieser Hinweis: Was habe ich falsch gemacht?
+    - Ich habe hier 2 x das Problem, dass der Hinweise «Only in German» nicht weggeht. Habe von beiden items die EN-Version angelegt. BA/BSc modules (Architecture and Engineering) HSLU TA Fact Sheet SY 2223 im CTA-Teaser rechgts Habt ihr noch einen Tipp?
+    - Warum wird bei den englischen Zusammenfassungen unserer Veröffentlichungen immer noch der Hinweis "Only In German" angezeigt, obwohl sie übersetzt sind
+    - Kann es sein, dass ein Fehler vorliegt? Unsere Pressemitteilungen sind zweisprachig, aber auf der englischen Seite steht 'Only in German'.
+    - Wie kann ich den Fehler Only in German beheben, der auf der englischen Übersichtsseite unserer Dienstleistungen erscheint, trotz vorhandener Übersetzungen?
+    - Trotz korrekter Einstellungen wird bei meiner englischen Seite 'Only in German' angezeigt. Wie kann ich das korrigieren?
+    - Ich sehe auf der englischen Seite das Label Only in german, obwohl die Dokumente übersetzt wurden. Wie aktualisiere ich das?
+    - Warum bleibt der Hinweis only in german auf der englischen Variante unserer Homepage bestehen, obwohl ich alle Texte übersetzt habe?
+    - Was soll ich tun, wenn auf der englischen Version der Seite für internationale Studierende fälschlicherweise "Only in German" im Downloadbereich steht?
+    - Unsere PDFs sind in beiden Sprachen verfügbar, aber online wird Only in german angezeigt. Wo liegt das Problem?
+    - Ich habe alle Sektionen unserer englischen Webseite überprüft, aber der Vermerk Only in German verschwindet nicht. Was übersehe ich?
+    - Wie behebe ich das Problem, dass auf unserer englischsprachigen Seite irrtümlich 'only in German' neben den Stellenbeschreibungen steht?
+    - Trotz hochgeladener englischer Beschreibungen erscheint auf unserer Seite immer der Hinweis "Nur auf Deutsch verfügbar". Wie kann ich das korrigieren?
+    - Unser internationales Publikum sieht auf der Download-Seite das Label "Only in German", obwohl es eine englische Option gibt. Wie behebe ich das?
+    - Warum wird bei unseren mehrsprachigen FAQ-Sektionen immer noch "Only in German" angezeigt, obwohl Übersetzungen vorhanden sind?
+    - Ich habe die englische Übersetzung eingefügt, trotzdem steht dort "Nur auf Deutsch". Wie lässt sich das ändern?
+    - Auf der englischen Version der Startseite wird bei einigen PDFs "Nur in Deutsch" signalisiert. Wie aktualisiere ich das, um es zu entfernen?
+    - In unserem internationalen Webshop erscheint bei Produktbeschreibungen der Warnhinweis "Only in German", obwohl sie übersetzt wurden. Was muss ich tun?
+    - Ich sehe den Fehler "Only in German" bei unserer englischsprachigen Seite bei der Downloadliste. Wie kann ich das beheben?
+    - Bei der englischen Präsentationdownloads steht fälschlicherweise "Nur auf Deutsch". Wie kann ich das Label entfernen?
+    - Ich möchte die "Only in German"-Warnung von unserer Downloadliste entfernen. Kannst du mir sagen wie das geht?
+    - Unsere englische Informationsseite für internationale Studierende zeigt immer noch das "Only in German"-Schild an; was ist der nächste Schritt, um dies zu korrigieren?
+
+- intent: warning_some_content_only_available_in_german
+  examples: |
+    - Auf dieser englischen Seite auf MyCampus erhalte ich den Hinweis, dass nicht alles in Englisch vorhanden ist. Die ganze Seite inkl. der weiterführenden Links ist aber komplett auf Englisch; d.h. dieser Hinweis ist falsch und müsste weg.
+    - Mir ist aufgefallen, dass auf einigen unserer englischen Seiten die Info (roter Balken) erscheint. Das sollte doch nicht sein, oder?
+    - Wir geben uns mit konsequenten Übersetzung unserer Objektdesign-Webseite große Mühe und können behaupten, dass sie abgesehen von den Bildunterschriften durchgehend übersetzt ist. Trotzdem erscheint in der englischen Fassung immer oben groß und rot der Hinweis «Some content is not available in English.» Ich finde, damit tun wir uns keinen Gefallen, weil es einen falschen Eindruck oberflächlicher Zusammenfassungen vermittelt. Ist es möglich, dies auf allen Seiten des OD auszuschalten? Könntest Du das für uns machen bzw. veranlassen?
+    - Leider kommt bei der Englischen Version immer oben der rote Balken «Some content is not available in English», obwohl wir ALLES auf der Seite übersetzt haben. Woran liegt das und wie können wir das ändern?
+    - Bei mir erscheint noch die Fehlermeldung «Some content is not available in English» und ich finde nicht so recht raus woran das liegt. Könnte euer geschultes Auge mir helfen?
+    - Ich erhalte leider auf den meisten unserer englischen Sprachversionen die Fehlermeldung Some parts of this content are currently available in German only. Leider habe ich keine Ahnung, weshalb hier noch die Fehlermeldung erscheint, und dies trifft auf die meisten Seiten zu. Für mich ist hier nirgendwo mehr deutscher Text ersichtlich. Wie finde ich hier den Fehler mit realistischem Zeitaufwand?
+    - Die Seite [http://www.hslu.ch/en/lucerne-school-of-engineering-architecture/About-us/Organization/Competence-centres-and-research-groups/Engineering-and-Technology/iHomeLab/Sensors-and-Health-Technologies/](site) zeigt immer noch den Hinweis, dass nicht alle Elemente übersetzt wurden. Die ganze englische Seite wurde übersetzt. Auch alle bestehenden Elemente (z.B. Seitennavigation) sind in Englisch vorhanden. Trotzdem zeigt es immer noch den Hinweis. Wie kann ich rausfinden, welches Element diesen Hinweis verursacht?
+    - Auf den Seiten vom PhD Programm Eco Social Innovation by Design wird auf der Startseite sowie den Unterseiten oben die Meldung angezeigt, dass die Inhalte teilweise nur auf Deutsch verfügbar sind. Die Übersetzungen sind aber überall gemacht. Auch die Alt-Texte bei den Teaser Bildern habe ich übersetzt. Wo liegt das Problem?
+    - Eine kurze Frage: Damit der Hinweis (Seite nicht komplett übersetzt) verschwindet. Finde ich irgendwo eine Auflistung welche Elemente fehlen? Und müssen auch alle Bilder doppelt (de/en) hochgeladen werden, damit die Nachricht nicht angezeigt wird?
+    - Trotz vollständiger Übersetzung unserer englischen Seite erscheint immer noch der Hinweis, dass manche Inhalte nur auf Deutsch verfügbar sind. Wie kann ich diesen Fehler beheben?
+    - Ich habe alle Texte auf der englischen Version unserer Seite übersetzt, aber der Hinweis «Some content is not available in English» bleibt bestehen. Gibt es versteckte Inhalte, die ich übersehen habe?
+    - Auf der englischen Fassung unserer Webseite wird immer noch angezeigt, dass Inhalte nur auf Deutsch verfügbar sind, obwohl ich alles übersetzt habe. Wo könnte das Problem liegen?
+    - Auch nachdem ich alle Teaser und Texte auf der englischen Seite übersetzt habe, erscheint der Hinweis auf nur auf Deutsch verfügbare Inhalte. Wie finde ich die Ursache?
+    - Kann mir jemand helfen herauszufinden, warum der Hinweis «Some content is not available in English» auf unserer komplett übersetzten englischen Seite immer noch angezeigt wird?
+    - Ich habe alle Seiteninhalte unserer englischen Version übersetzt, aber es wird immer noch gemeldet, dass einige Inhalte nur auf Deutsch verfügbar sind. Wie kann ich das Problem identifizieren?
+    - Trotz sorgfältiger Übersetzung aller Inhalte wird auf unserer englischsprachigen Seite der Hinweis auf nur auf Deutsch verfügbare Inhalte angezeigt. Was übersehe ich möglicherweise?
+    - Wie kann ich überprüfen, welche Elemente auf meiner englischen Webseite den Hinweis «Some content is not available in English» verursachen, obwohl ich alles übersetzt habe?
+    - Gibt es eine Möglichkeit zu sehen, welche Teile meiner englischsprachigen Webseite angeblich nicht übersetzt sind, da der Hinweis auf nicht verfügbare deutsche Inhalte weiterhin erscheint?
+    - Auf unserer englischen Seite erscheint der Hinweis über nur auf Deutsch verfügbare Inhalte, obwohl ich mir sicher bin, dass ich alles übersetzt habe. Wie kann ich das Problem lösen?
+    - Warum zeigt die englische Übersetzung unserer Homepage immer noch an, dass bestimmte Teile lediglich auf Deutsch vorhanden sind, obwohl ich alles übersetzt habe?
+    - Wie kann ich den Hinweis entfernen, dass auf der englischen Seite unserer Website einige Inhalte nur auf Deutsch verfügbar sind?
+    - Ich habe die Texte unserer Website ins Englische übertragen, aber es wird immer noch gemeldet, dass Inhalte nur auf Deutsch verfügbar sind. Was übersehe ich eventuell?
+    - Wie stelle ich fest, welche Elemente auf der englischen Version unserer Seite den Hinweis tragen, dass sie nur auf Deutsch verfügbar sind?
+    - Was kann ich tun, wenn trotz vollständiger Übersetzung unserer Seiten in die englische Sprache der Warnhinweis auf Some Content is only available in German erscheint?
+    - Wie gehe ich vor, um den Fehler zu beheben, dass auf der englischen Übersichtsseite unserer Seiten noch immer angezeigt wird, dass manche Informationen nur auf Deutsch sind?
+    - In der englischen Fassung unserer Website wird darauf hingewiesen, dass einige Inhalte nur auf Deutsch vorliegen. Wie kann ich die Ursache finden und korrigieren?
+    - Welche Schritte sind nötig, um den Hinweis some content is only available in english zu entfernen?
+    - Warum erscheint auf der englischen Unterseite der Vermerk Some Content is Only available in English?
+    - Ich habe alle Texte auf unserer Website ins Englische übersetzt, aber der es zeigt weiterhin an, dass einige Inhalte nur auf Deutsch verfügbar sind. Wie kann ich das Problem beheben?
+    - Warum erscheint auf der übersetzten Seite der Hinweis, dass einige Informationen nur auf Deutsch verfügbar sind, obwohl ich alles übersetzt habe?
+    - Wie kann ich den Fehler beheben, dass auf der englischen Landing Page steht, Inhalte seien nur auf Deutsch, trotz vollständiger Übersetzung?
+    - Was kann ich tun, wenn die englische Version unserer Seite fälschlicherweise anzeigt, dass manche Inhalte nur auf Deutsch vorhanden sind?
+    - Wie stelle ich sicher, dass auf der englischen Version unserer Seite nicht mehr angezeigt wird, dass Teile nur auf Deutsch sind, nachdem ich alles übersetzt habe?
+    - Was sollte ich überprüfen, wenn die Warnmeldung some content is only available in german auftaucht?
+    - Wie kann ich die Anzeige "Some content is only available in german" entfernen?
+    - Auf der englischen Version unserer Website ein Hinweis Some Content is Only Available in german gezeigt, obwohl ich sie übersetzt habe. Was könnte ich übersehen haben?
+    - Trotz sorgfältiger Übersetzung erscheint auf unserer englischsprachigen seite der Hinweis some content is only available in german. Wie kann ich das Problem finden und lösen?
+    - Kann es sein, dass technische Einstellungen dafür verantwortlich sind, dass auf unserer englischen Seite der Hinweis some content is only available in german erscheint?
+    - Wieso wird auf der englischen Seite angegeben: "Some Content is only available in german"
+
+- intent: insert_video
+  examples: |
+    - Das IBR hat neue MBA Videos, welche auf YouTube sollten. Ich habe die Dateien hier reingelegt. Stills auch für Sandra für Website.
+    - Auf dieser Website ist das CAS BW bereits eingebunden, somit bereits auf YouTube. Nun müssen wir das Video austauschen, da gewisse Facts nicht mehr stimmen. Ich habe die Clips hier reingelegt: Benötigt ihr jeweils Large oder Medium? Hab beides reingelegt
+    - Könntet ihr bitte das Video MAS Leadership auf YouTube, Kanal Wirtschaft WB laden, habe es hier reingelegt. Text: Der modulare aufgebaute MAS Leadership and Management kann in verschiedenen Varianten abgeschlossen werden. Generell müssen zwei Pflichtmodule in den Bereichen Führung und Management und ein Wahlmodul Vertiefung im Fachbereich Leadership absolviert werden. In diesem Video erklärt die Programmleiterin Prof. Dr. Stephanie Kaudela-Baum, wie sich der MAS modular zusammensetzt und flexibel besucht werden kann.
+    - Könnt Ihr bitte diesen Clip für das Projekt PlurAlps auf YouTube stellen, public. Er wäre auf dem X Drive zu finden. Der Text dazu würde folgendermaßen lauten: Gelingende Integration In Tourismusregionen profitieren nicht nur die zuziehenden Arbeitskräfte, sondern auch die Gemeinden und Unternehmen von gelingender Integration. Das Projekt "PlurAlps" der Hochschule Luzern – Soziale Arbeit zeigt die Hintergründe sowie einfache und wirksame Maßnahmen. Hier erfahren Sie mehr: hslu.ch/pluralps
+    - Könnt Ihr mir bitte helfen? Ich bräuchte bitte Hilfe mit der Einbettung von folgender Videoaufnahme: Dabei ging es insbesondere darum: Der Film müsste an der Stelle 00:10 und 16:57 geschnitten werden (Letzte Aussage: Vielen Dank für Ihre Aufmerksamkeit) Und dann bitte im YouTube-Kanal mit unserem Logo eingebettet werden, unlisted. Der Film findet sich hier. Hier wäre der Text dazu: ITC und Netzwerke Die Interdisziplinären Themencluster (ITC) fördern die inter- und transdisziplinäre Forschung und Lehre an der Hochschule Luzern. Die letzte Ausgabe ihrer Veranstaltungsreihe «Blick in die Werkstatt» war dem Thema Netzwerke gewidmet. Sozialraumexperte und Hauptreferent Herbert Schubert zeigte auf, was innovative Netzwerke besonders auszeichnet. Mehr zu den ITC unter.
+    - Bereits im letzten Jahr warst du mir eine große Hilfe beim Hochladen von Videos auf YouTube. Dürfte ich dich nochmals bitten, drei Videos von uns auf YouTube hochzuladen? Diese wären hier abgelegt.
+    - Könnt ihr bitte den Clip hier auf YouTube stellen und den Link mir und Salome senden? Titel: Pauline Müller, Bachelor XS Schmuck 2020, DOUX LEURRE Text: Vergängliche und extravagante Gesichtsmetamorphosen // Ephemeral and flamboyant facial metamorphosis Link.
+    - Darf ich euch bitten, eine Version des untenstehenden Deutschen Videos Master BIE auf YouTube zu laden und mir den Code anzugeben für auf die Webseite? Videos.
+    - Für folgende zwei Videos brauche ich einen YouTube Link. Der zweite Film ist hier abgelegt, ich habe mal alle Versionen abgelegt. Falls ich noch etwas nachschicken muss, könnt ihr euch bei mir melden.
+    - Ich hätte eine dringende Frage: Könnte mir bitte jemand helfen damit, dieses mp4-Video auf YouTube zu stellen? Es ist zum Thema «Innenentwicklung gestalten» und es ist ein gemeinsames Projekt der Departemente W und SA. Die Projektseite ist hier. Was bräuchtet Ihr dazu noch von mir? Als Hinweis: Die deutsche Version wurde vor einem Jahr bei YouTube aufgeladen und ist auf der IBR Seite eingebettet.
+    - Ich habe mal eine Seite vorbereitet und auf «never publish» gesetzt, wo ich die Videos hochladen wollte. Die produzierten Videos, die ich nun erhalten habe, sind aber alle größer als Sitecore es zulässt. Ich habe bis jetzt noch gar nie Videos hochgeladen und weiß nicht, ob es eine Möglichkeit gibt, wie wir die auf die vorgegebene maximale Größe verkleinern können. Ich wäre um jede Hilfe dankbar! Die Videos sind hier abgelegt: T:\x_transfer\ta Begrüßung Erstsemester HS2020
+    - Ich wollte ein Video als Manueller Teaser einbinden (192 MB, mp4). Irgendwie beim Hochladen in Medialibrary/Teasers kam die Meldung „mp4“-Format wird nicht unterstützt. In Anleitungen habe ich nur gefunden, dass Videos über Vimeo oder Youtube verlinkt werden. Welche Größe/Format darf ein Video haben, damit es in Medialibrary abgelegt werden kann?
+    - Ich möchte gerne auf der Seite [https://www.hslu.ch/de-ch/wirtschaft/agenda/veranstaltungen/2019/11/28/ikm-update-voice-november-2019/](site) das Video https://www.youtube.com/watch?v=9OoF5auVF0I einfügen.
+    - Wie kann ich ein Video auf der Seite einfügen?
+    - Wie kann ich ein Video auf der Website einfügen, wenn ich keine mp3-Dateien hochladen kann?
+    - Ich möchte unser Schulungsvideo auf die Website stellen, wie kann das machen.
+    - Wir haben eine neue Videoaufnahme gemacht und möchten diese nun auf der Website einfügen. Kannst du mir sagen wie das geht?
+    - Wie kann ich Videos, die größer als die erlaubte Größe sind, für unsere Website komprimieren und hochladen?
+    - Beim Versuch, ein 192 MB großes MP4-Video hochzuladen, erhalte ich eine Fehlermeldung, dass das Format nicht unterstützt wird. Gibt es Einschränkungen bezüglich der Videogröße oder des Formats?
+    - Wie kann ich ein Erklärvideo auf unserer Website integrieren?
+    - Ich will ein Video von unserem Infoenevent auf der Homepage anzeigen. Welche Vorgehensweise wird empfohlen?
+    - Kann ich ein Anleitungsvideo direkt auf unserer Seite einbetten, und wenn ja, wie?
+    - Welche Schritte sind erforderlich, um einTestimonial-Video auf der Seite einzufügen?
+    - Was muss ich tun, um ein Video von unserer letzten Messe auf der News-Seite unserer Website zu platzieren?
+    - Wie füge ich ein How-To-Video in den Support-Bereich unserer Website ein?
+    - Ich möchte ein Behind-the-Scenes-Video in die Karriereseite unserer Firma einbetten.
+    - Welche Optionen gibt es, um ein Webinar-Video auf der Website hochzuladen?
+    - Wie kann ich ein animiertes Video, in einem manuellen Teaser einfügen?
+    - Wir haben ein Update-Video. Wie kann ich es auf der Webiste verfügbar machen?
+# 2. General Intents:---------------------------------------------------------------------------------------------------
+
+- intent: bot_challenge
+  examples: |
+    - Wer bist du?
+    - Bist du ein Roboter?
+    - Wie heisst du?
+    - Was kannst du?
+    - Was für Fragen kann ich dir stellen?
+
+- intent: greet
+  examples: |
+    - hi
+    - hey
+    - hallo
+
+- intent: goodbye
+  examples: |
+    - Tschüss
+    - Auf wiedersehen
+    - Bis bald
