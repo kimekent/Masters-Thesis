@@ -293,7 +293,12 @@ ax.set_ylabel('BLEU-4 Score', fontsize=16)
 ax.set_xticks(index + bar_width)
 ax.set_xticklabels(tasks, fontsize=14)
 ax.legend(fontsize=12)
+ax.set_yticks(np.arange(0, 1.1, 0.1))
 ax.set_ylim([0, 1])
+
+# Adding customized grid lines
+ax.grid(True, color='#D9D9D9')  # Set the color of the grid lines
+ax.set_axisbelow(True)
 
 # Show BLEU plot
 plt.show()
@@ -312,7 +317,12 @@ ax.set_ylabel('ROUGE-L Score', fontsize=16)
 ax.set_xticks(index + bar_width)
 ax.set_xticklabels(tasks, fontsize=14)
 ax.legend(fontsize=12)
+ax.set_yticks(np.arange(0, 1.1, 0.1))
 ax.set_ylim([0, 1])
+
+# Adding customized grid lines
+ax.grid(True, color='#D9D9D9')  # Set the color of the grid lines
+ax.set_axisbelow(True)
 
 # Show ROUGE plot
 plt.show()
@@ -333,7 +343,12 @@ ax.set_ylabel('Average F1-Score', fontsize=16)
 ax.set_xticks(index + bar_width)
 ax.set_xticklabels(tasks, fontsize=14)
 ax.legend(fontsize=12)
+ax.set_yticks(np.arange(0, 1.1, 0.1))
 ax.set_ylim([0, 1])
+
+# Adding customized grid lines
+ax.grid(True, color='#D9D9D9')  # Set the color of the grid lines
+ax.set_axisbelow(True)
 
 # Show semantic similarity bar plot
 plt.show()

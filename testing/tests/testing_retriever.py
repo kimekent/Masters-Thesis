@@ -292,6 +292,7 @@ for csv_file, num_docs in csv_files_adjusted_scores:
 
 # Convert the counts of relevant retrievals to percentages.
 # The percentage represents the percentage of answerable questions for the retrieved docs
+total_questions = len(pd.read_csv(path + r'\testing\testing_results\retriever_results\retriever_adjusted_scores_20.csv'))/2
 for retriever in answerable_questions_adjusted_scores:
     for num_docs in answerable_questions_adjusted_scores[retriever]:
         answerable_questions_adjusted_scores[retriever][num_docs] = (answerable_questions_adjusted_scores[retriever][num_docs] / total_questions) * 100
@@ -355,6 +356,11 @@ ax.set_ylabel('Question Answerability Rate', fontsize=16)
 #ax.set_title('Question Answerability Rate by Document Count and Retriever', fontsize=20)
 ax.set_xticks(x)
 ax.set_xticklabels(labels, fontsize=14)
+ax.set_yticks(np.arange(0, max(adjusted_DPR_counts + adjusted_openai_counts + unadjusted_DPR_counts + unadjusted_openai_counts) + 10, 10))
+
+# Adding customized grid lines
+ax.grid(True, color='#D9D9D9')  # Set the color of the grid lines
+ax.set_axisbelow(True)
 
 ax.legend(fontsize=14)
 

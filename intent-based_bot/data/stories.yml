@@ -93,14 +93,12 @@ stories:
 - story: site delete
   steps:
   - intent: site_delete
-  - action: action_default_ask_affirmation
   - action: utter_site_delete
   - action: action_default_ask_affirmation
 
 - story: site delete en
   steps:
   - intent: site_delete_en
-  - action: action_default_ask_affirmation
   - action: utter_site_delete_en
   - action: action_default_ask_affirmation
 
