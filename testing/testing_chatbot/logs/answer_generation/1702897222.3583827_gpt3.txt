@@ -1,0 +1,401 @@
+PROMPT:
+
+Deine Aufgabe ist es, auf die folgende AKTUELLE FRAGE zu antworten, indem du dich strikt an die Informationen aus den WEBHELP-ARTIKELN und den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN hältst. 
+Die WEBHELP-ARTIKELN und den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN beziehen sich alle auf Fragen zum CMS Sitecore.
+Vermeide bei der Antwort Wiederholungen.
+Verwende zum Beantworten der Frage ausschliesslich die Informationen aus den WEBHELP-ARTIKEL und den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN.
+Finde Parallelen zwischen der AKTUELLEN FRAGE und den WEBHELP-ARTIKEL und den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN und versuche dann die Frage zu beantworten.
+Wenn keine passenden Informationen zum beantworten der Frage in den WEBHELP-ARTIKEL und den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN vorhanden sind, antworte mit "Leider kann ich deine Frage nicht beantworten". Wenn explizit in der Frage ein anderes Tool erwähnt wird, als in den WEBHELP-ARTIKELN und den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN, dann antworte mit "Leider kann ich deine Frage nicht beantworten"
+Verwende in deiner Antwort nie Informationen, die nicht in den WEBHELP-ARTIKEL und den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN vorhanden sind.
+Erfinde keine Informationen, die nicht auch so in den WEBHELP-ARTIKEL und den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN stehen. Verändere nie die Fakten in den den WEBHELP-ARTIKEL und den ÄHNLICHEN FRAGEN UND DAZUGEHÖRIGEN ANTWORTEN nur um die Frage zu beantworten.
+Antworte in der DU-Form.
+Bei längerem Text verwende Aufzählungszeichen.
+Verlinke hilfreiche Webhelp-Artikel in der Antwort.
+
+AKTUELLE FRAGE: Ich sollte bei unseren Bachelor-Studiengänge die Links zur Anmeldung entfernen, da das Anmeldefenster geschlossen wurde.
+ 
+Bei den meisten konnte ich das machen, da der Link im Teaser zur Bearbeitung vorhanden war und ich löschen konnte.
+Jedoch beim Call to Action Teaser kommen ich und auch Martina Gander nicht drauf, wo dieser Link zu löschen ist.
+Es geht um den Bachelor Business Psychology wo auf der Hauptwebseite diese Box vorhanden ist und ein «Onla Link» zur Verfügung steht.
+
+Wenn ich jedoch den Teaser bearbeiten will, ist dieser Link nirgends vorhanden:
+
+
+ÄHNLICHE FRAGEN UND DAZUGEHÖRIGE ANTWORTEN:
+Q: Ich sollte bei unseren Bachelor-Studiengänge die Links zur Anmeldung entfernen, da das Anmeldefenster geschlossen wurde.
+ 
+Bei den meisten konnte ich das machen, da der Link im Teaser zur Bearbeitung vorhanden war und ich löschen konnte.
+Jedoch beim Call to Action Teaser kommen ich und auch Martina Gander nicht drauf, wo dieser Link zu löschen ist.
+Es geht um den Bachelor Business Psychology wo auf der Hauptwebseite diese Box vorhanden ist und ein «Onla Link» zur Verfügung steht.
+
+Wenn ich jedoch den Teaser bearbeiten will, ist dieser Link nirgends vorhanden:
+A: Damit die Anmeldung aus dem Call-To-Action Teaser entfernt wird, muss in der Facts List der Evento-Anlass zur Online Anmeldung entfernt werden.
+
+Bei der gewünschten Seite wurde dies nun umgesetzt.
+Für die anderen Seiten, wo man sich nicht mehr anmelden darf, muss dies auch noch erledigt werden.
+Du kannst im Extended Preview sehen, ob deine Änderung im Live-Modus auch so aussieht.
+ 
+Der folgende Webhelp-Link zeigt dir noch mehr Angaben zu diesem Thema:
+https://applsupport.hslu.ch/webhelp/index.html?hm_links_der_linkliste_zuweisen.htm
+(Tipp: klappe alle Inhalte auf, dann siehst du mehr Informationen wie z. B. Status-Meldungen Call-To-Action-Teaser…), etc. Es klingt im ersten Moment etwas kompliziert, wird aber nach häufigem Gebrauch immer klarer und einfach im Einsatz.
+Q: 
+Ich möchte eine gesamte Seite löschen. Sie ist bereits unsichtbar. Stage-Link:
+ <<link>>
+Damit ich keine broken Links habe, habe ich auch einfach alle Inhalte gelöscht. Dennoch kommt untenstehende Meldung: 
+Es ist ein Richtext-Teaser (shared content, daher löschte ich ihn nicht ganz), bei dem zwar frueher mal ein Link zur betreffenden Seite war, aber den habe ich schon vor 2 Wochen gelöscht.
+ Die anderen 4 Links fuehren nicht zur betreffenden Seite.
+Ihr seht ja im Screenshot den Ort des Tasers bei Bedarf
+ Kann ich die Seite trotzdem einfach löschen, oder muss ich noch was machen?
+ 
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu löschen kann so vorgegangen werden:
+ 1) Auf die zu löschende Seite navigieren und im Ribbon-Menü den Befehl "Home > Delete Page" aufrufen.
+2) Den Warnhinweis lesen und gegebenenfalls auf OK klicken.
+3) Zeigen Links auf dieses Seite, erscheint ein weiteres Hinweisfenster. Es muss entschieden werden, was mit diesen Linkst geschehen soll 
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm)
+Q: Auf <<link>> möchte ich den umrandeten Call-to-actrion-Teaser «unpublishen», weil er im Moment keinen Inhalt hat. Auf das Herbstsemester hin wird sich das wieder fuellen und deshalb möchte ich ihn nicht löschen, sondern nur voruebergehend nicht anzeigen. Ich habe aber nicht herausgefunden, wo/wie ich das unpubish definiere analog zu
+ 
+A: Der Call to Action Teaser kann leider nicht ein- und ausgeblendet werden. Wenn er nicht mehr sichtbar sein soll, muss man ihn löschen und wieder neu hinzufuegen.
+ 
+Q: Ich bin mal wieder auf ein Problem gestossen:
+<<link>>
+ 
+Auf dieser Seite ist zwischen Introtext und Teasers bei der mobilen Version Englisch «Branchentag 2018» sichtbar (was da nicht hingehört), auf der Desktop-Version wie auch dort, wo ich bearbeiten kann, ist dies nicht sichtbar, sodass ich es auch nicht rauslöschen kann > siehe Screenshots.
+
+A: Wenn ein grauer Balken an der Stelle der Infobox erscheint, kann dies daran liegen, dass die Farbe der Infobox angepasst wurde oder der ganze Infobox Platzhalter wurde entfernt.   
+Wichtig: Die Infobox darf nur über die Page Options hinzugefügt oder entfernt werden. Hier stehts noch beschrieben: https://applsupport.hslu.ch/webhelp/hm_infoboxtext.htm?zoom_highlightsub=infobox
+Falls der Infobox-Platzhalter gelöscht wurde, bitte beim [websupport](mailto:websuport@hslu.ch) melden. 
+
+Q: Wir sind amÜberarbeiten unserer Weiterbildungsseiten und wollten dabei die Seiten-Navigation anpassen: 
+ 
+Wir möchten zusätzlich in der Seiten-Navigation auf unsere FAQ-Seite verlinken: <<link>>
+Und den ersten Link auf die aktuelle Seite «MAS Brand an Marketing Management» möchten wir rauslöschen.
+ Wie kann ich das machen? 
+A: Die Side-Navigation zeigt die Unterseiten der aktuellen Seite in der Sidebar an. Um eine benutzerdefinierte Navigation zu erstellen, die Seiten enthält, die nicht Unterseiten sind, kann eine virtuelle Navigation eingefügt werden.
+https://applsupport.hslu.ch/webhelp/hm_virtueller_navigationseintrag.htm
+
+ 
+Q: Beim Master BA (W) haben wir soebendie Info-Box rueckgängig angepasst.
+ 
+Die Verlinkung fuehrt nun auf die Online Info-Events. Auf der deutschen Webseite klappt alles wunderbar. Auf der Englischen Webseite fuehrt die Verlinkung jedoch auch auf die deutschen Info-Events und nicht auf die englische Webseite. 
+Könnt ihr mir da weiterhelfen?
+ 
+A: Bei Verlinkungen zu einer Sitecore Seite sollte die Verlinkung über den Baum zur entsprechenden Seite eingefügt werden. So wird dann die Seite auch immer in der richtigen Sprachversion dargestellt. Verlinkt man eine Seite über einen externen Link kann immer nur entweder die deutsche oder die englische URL hinterlegt werden.
+Mehr Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_links-einfuegen.htm).
+ 
+Q: Auf der Faktenseite vom BA Camera Arts sind zwei Teaser aufgeschaltet (siehe print screen).
+Der in gelb markierte hat einen alten Link und ist eigentlich nicht publiziert, wir müssen ihn nächste Woche anpassen und neu aufschalten für die Infotage.
+Darum haben wir für die Zwischenzeit einen zusätzlichen Teaser (Hinweis mit Anmeldungen offen ab 1. Dezember) aufgeschaltet, welcher dann ersetzt wird.
+Bei der Vorschau im Sitecore wird der obere Teaser nicht angezeigt, was eigentlich korrekt wäre.
+
+A: Will ein Redaktor einen Inhalt vor der Veröffentlichung mehrmals editieren oder bis zu einem gewissen Zeitpunkt zurückhalten, können die Publish Options genutzt werden. Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+- Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird.
+- Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+- Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Mehr dazu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm)
+Q: Wir haben die folgende Seite neu gebaut: 
+<<link>>
+ und haben sie eigentlich hier <<link>>
+im rechten Call-To-Action- Teaser unter " Unser Angebot" verlinkt. Live erscheint es jedoch nicht. Könnt ihr mir hier vielleicht weiterhelfen?
+A: Wenn eine Seite nicht erscheint kann das an den Publish Einstellungen liegen: 
+Im Experience Editor kann auf der Seite über die den Befehl "Campus > Publish Options" im Ribbon-Menü kontrolliert werden, ob und wann Inhalte publiziert werden.
+
+Im Feld "Publish" definiert die Redaktion, wann ein nicht veröffentlichter Inhalt publiziert wird. Achtung: Die Seite wird immer auf den nächstfolgenden Veröffentlichungszeitpunkt live geschalten (entweder um 12:05 oder 00:05).
+
+Im Feld "Unpublish" definiert die Redaktion, wann ein veröffentlichter Inhalt zurückgezogen wird.
+
+Ist die Checkbox "Never publish" angekreuzt, wird ein Inhalt nicht publiziert.
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files in der Media Library angewandt werden.
+
+Publish / Unpublish kann auch bei einzelnen Teaser oder auf Files angewandt werden
+
+Ein weiterer Grun könnte an den Sprachversionen liegen. Seiten wie auch Seitenelemente müssen immer auf deutsch vorhanden sein. Wenn ein Teaser in der deutschen Version gelöscht wird, wird er auch in der englischen gelöscht. Es gilt die Regel, keine Inhalte nur in englisch, da dies fuer SEO schädlich ist.
+ 
+Q: Die Online-Info-Veranstaltung von heute Abend ist dem Lehrgang zugewiesen, taucht jedoch nicht mehr in der CTA-Box der Info-Veranstaltungen auf.
+MAS Private Banking & Wealth Management <<link>>
+Info-V von heute Abend
+<<link>>
+Ich bin gerade ratlos, weshalb. Anscheinend war die Info-Veranstaltung bis gestern noch im CTA-Teaser der Lehrgangs-Landing-Page.
+Das muss fuer heute nicht mehr gelöst werden, die Admin sendet den Interessenten nun den direkten Link zu. Aber was kann ich machen, dass dies nicht mehr passiert oder handelt es sich um einen technischen Bug?
+ 
+A: Wenn ein Agendaeintrag nicht (mehr) im Call to Action Teaser auftaucht, könnte es an der "Start-Zeit-Problematik" liegen. Bei WeVe Anmeldungen kann es an den Einstellungen des Agendaeintrags liegen.
+Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit des Ereignisses im Call to Action Teaser. Wurde sowohl keine Startzeit also auch keine Endzeit für den Event festgelegt, dann bleibt der Event bis 00:00h im Call to Action Teaser. Danach wird er weder in der Filterliste, noch im automatischen CtA-Teaser angezeigt (live ist er weiterhin).
+Damit die Anmeldung über ONLA / WeVe funktioniert, muss die Evento ID in der Facts-Liste auf der Produktseite hinterlegt werden und beim Call to Action Teaser die Checkbox  "Kontextabhängige Informationen aus Evento anzeigen" aktiviert aktiviert sein (Standard)! Bei einer deaktivierten Checkbox, wird entsprechend kein Link bzw. Status Meldung angezeigt. Mehr dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_links_der_linkliste_zuweisen.htm)
+
+Q: Kann man die Seite "Externe Projektwoche 2018 in Hamburg" aus der Navigation ausblenden? Es sollte lediglich der Teaser auf die Seite verweisen. 
+ 
+A: In den Navigations Options einer Seite kann definiert werden welche Seiten in der Flyout-Navigation, in der Side-Navigation und in den Breadcrumbs angezeigt werden sollten und welche nicht. Mehr Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/hm_navigations_options-ribbon.htm?zoom_highlightsub=navigation+option)
+ 
+Q: Ich habe ein Angebot CAS Eigenverbrauchsoptimierung dummerweise verschoben und dadurch funktioniert der Link nicht mehr, der gestern mit einem Massenmail versandt wurde!! 
+<<link>>
+ 
+Das Angebot ist unter Technik-Architektur, Weiterbildung, Technik hochgeladen. Wir bitten dringend um eure Hilfe, dass dies so schnell als möglich und nicht erst am Mittag aktualisiert wird.
+
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Q: Gestern hatte ich eine Info-Veranstaltung und plötzlich ist mir aufgefallen, dass am Nachmittag (möglicherweise auch schon am Vormittag), die Info-Veranstaltung auf der Produkt-Webseite fehlte. Dies, obwohl ich im Evento eingestellt habe, dass man sich bis heute anmelden kann. Unter den «Veranstaltungen» war der Anmeldelink jedoch noch zu finden. Wisst ihr an was das liegt? Wie kann ich sicherstellen, dass der Anmeldelink auch auf den Produkt-Webseiten sicher bis zum Zeitpunkt der Veranstaltung publiziert ist? 
+
+
+A: Wenn ein Agendaeintrag nicht (mehr) im Call to Action Teaser auftaucht, könnte es an der "Start-Zeit-Problematik" liegen. Bei WeVe Anmeldungen kann es an den Einstellungen des Agendaeintrags liegen.
+Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit des Ereignisses im Call to Action Teaser. Wurde sowohl keine Startzeit also auch keine Endzeit für den Event festgelegt, dann bleibt der Event bis 00:00h im Call to Action Teaser. Danach wird er weder in der Filterliste, noch im automatischen CtA-Teaser angezeigt (live ist er weiterhin).
+Damit die Anmeldung über ONLA / WeVe funktioniert, muss die Evento ID in der Facts-Liste auf der Produktseite hinterlegt werden und beim Call to Action Teaser die Checkbox  "Kontextabhängige Informationen aus Evento anzeigen" aktiviert aktiviert sein (Standard)! Bei einer deaktivierten Checkbox, wird entsprechend kein Link bzw. Status Meldung angezeigt. Mehr dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_links_der_linkliste_zuweisen.htm)
+
+Q: Ich habe bei dieser Seite die Teaser neu erfasst: www.hslu.ch/de-ch/soziale-arbeit/weiterbildung/ (von der Übersichtsseite zur Inhaltsseite). Ich habe sie so angeordnet, dass immer die mit einer Zeile im Titel zusammenstehen und die mit zwei, weil es ja sonst die Teaser verschiebt. Der unterste Teaser «Sozialmanagement und Sozialpolitik» zeigt es mir in Sitecore auf der linken Seite an, ebenso in der Vorschau. Live ist er allerdings auf der rechten Seite. Wieso?
+ 
+ 
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Ich bin unteranderem fuer folgende Seite (inkl. Unterseiten) verantwortlich: <<link>>
+Leider kommt bei der Englischen Version immer oben der rote Balken «Some content is not available in English», obwohl wir ALLES auf der Seite übersetzt haben. Woran liegt das und wie können wir das ändern?
+In der Sidebar wird auch bei einigen Links «only in German» automatisch angehängt. Das ist aber falsch; beim Yearbook 2019/2020 ist alles in beiden Sprachen im PDF (aber beim Yearbook 2018/2019 steht dann wieder nichts?) und die Info Veranstaltungen sind sowieso NUR auf Englisch da der ganze Studiengang auf Englisch ist.
+ 
+A: Falls alle Texte auf englisch übersetzt wurden, und die Meldung 'Some Content is only available in German' immer noch erscheint, liegt es daran, dass es von mindestens einem Element auf der Seite noch keine Englische Version gibt. Damit die Meldung verschwindet muss von jedem Element, auch Bilder und PDFs, eine englische Version erstellt werden. Im Backend kannst du jedes Element durchgehen und so leicht nachschauen, welche Items noch keine englische Version besitzt.
+Oftmals ist es der Kontaktteaser. Es sieht auf englisch dann korrekt aus, weil Sitecore automatisch die korrekte Berufsbezeichnung übernimmt, Sitecore merkt aber auch, dass nichts angepasst wurde und geht dann davon aus, dass es noch deutsch ist. Es muss dann einfach eine englische Version davon im Backend angelegt werden. 
+Die Meldung wird auch oft durch PDFs ausgelöst, die nur in einer Sprachversion vorhanden sind. Korrekt wuerde man ein PDF mit nur deutschen Infos hochladen und dann von demselben PDF-Item noch eine englische Version erstellen und das in der englischen Seitenversion anhängen. 
+Bitte auch die Alt-Texte der Bilder kontrollieren.  
+[Hier](https://applsupport.hslu.ch/webhelp/hm_sprachversion.htm?zoom_highlightsub=englische+version) ist beschrieben, wie eine englische Version eines Elements erstellt werden kann.
+Q: Wie kann ich den akademischen Titel einer Person in ihrem Kontaktteaser bearbeiten?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Wir werden eine Rückblick-Seite löschen und nur noch die Verlinkung in die ehemalige Veranstaltung bestehen lassen. 
+ 
+Die Seite, die gelöscht wird hat folgende URL:
+<<link>>
+ 
+Falls noch Verlinkungen auf diese Seite führen, sollten sie direkt auf diese URL umgeleitet werden:
+ 
+<<link>>
+ 
+Könnt ihr mir bitte mitteilen, wann die Umleitung steht, damit ich die Seite dann sofort löschen kann. Besten Dank!
+
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu löschen kann so vorgegangen werden:
+ 1) Auf die zu löschende Seite navigieren und im Ribbon-Menü den Befehl "Home > Delete Page" aufrufen.
+2) Den Warnhinweis lesen und gegebenenfalls auf OK klicken.
+3) Zeigen Links auf dieses Seite, erscheint ein weiteres Hinweisfenster. Es muss entschieden werden, was mit diesen Linkst geschehen soll 
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm)
+Q: Ich habe einen Teaser ueberarbeitet und dann an eine andere Position verschoben. Nun hat es mir alles durcheinander gebracht und die Darstellung stimmt nicht mehr (Preview). Könnt ihr mir helfen, damit das wieder sortiert ist?
+<<link>>
+Unter der Rubrik «aktuell» sollen zuerst das «Bauforum» und daneben auf derselben Zeile der «Technologieradar» sein
+ 
+A: Bitte auch die Alt-Texte der Bilder kontrollieren.  
+Q: 
+ Ich bin am Seitenaufbau fuer unseren Master. Habe hierfuer drei Teaser erstellt  blöd nun nur, dass der dritte Teaser rechtsbuendig und nicht linksbuendig angezeigt wird.
+ Ich konnte leider nicht herausfinden, wie ich den MSCIFM-Teaser auf die linke Seite bugsieren kann.
+ Könnt ihr mir bitte helfen?
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Da unser 40-jähriges Jubiläum vorbei ist, wird unsere Extra-Seite nicht mehr benötigt: <<link>> Ich habe die anderen Sites soweit angepasst, dass kein Link mehr direkt auf diese Seite fuehrt. Kann ich die Seite nun löschen und "Link to antoher Item" wählen? Was muss ich sonst noch machen? Auch im Hinblick auf Suchmaschinen etc.
+ 
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um eine Seite zu löschen kann so vorgegangen werden:
+ 1) Auf die zu löschende Seite navigieren und im Ribbon-Menü den Befehl "Home > Delete Page" aufrufen.
+2) Den Warnhinweis lesen und gegebenenfalls auf OK klicken.
+3) Zeigen Links auf dieses Seite, erscheint ein weiteres Hinweisfenster. Es muss entschieden werden, was mit diesen Linkst geschehen soll 
+Mehr Infos danzu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_seite_löschen.htm)
+Q: Auf der Studiengangseite habe ich zwei manuelle Teaser eingefügt. Einer wird ganz links und der andere ganz rechts angezeigt. Wie kann ich sie unter einander anzeichen lassen?
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Bei folgendem Seminar wird die CTA-Box nicht angezeigt:
+<<link>>
+Da Anmeldungen nicht mehr möglich sind, mussten wir die Verknuepfung zur Anmeldeseite rausnehmen. Bei Anhang cta-sitecore.png sieht ihr, was eigentlich angezeigt werden sollte. Dies machen wir jedoch seit Jahre so, bisher hat es die Box immer angezeigt. Das Problem ist neu. Hat sich hier etwas mit einem Release geändert oder ist das ein Bug?
+ 
+A: Wenn ein Agendaeintrag nicht (mehr) im Call to Action Teaser auftaucht, könnte es an der "Start-Zeit-Problematik" liegen. Bei WeVe Anmeldungen kann es an den Einstellungen des Agendaeintrags liegen.
+Start-Zeit-Problematik: Der Event bleibt nur solange in der Filterliste und im Call to Action Teaser, bis die End-Zeit erreicht ist. Ist keine End-Zeit eingestellt, dann bleibt der Event bis zur Startzeit des Ereignisses im Call to Action Teaser. Wurde sowohl keine Startzeit also auch keine Endzeit für den Event festgelegt, dann bleibt der Event bis 00:00h im Call to Action Teaser. Danach wird er weder in der Filterliste, noch im automatischen CtA-Teaser angezeigt (live ist er weiterhin).
+Damit die Anmeldung über ONLA / WeVe funktioniert, muss die Evento ID in der Facts-Liste auf der Produktseite hinterlegt werden und beim Call to Action Teaser die Checkbox  "Kontextabhängige Informationen aus Evento anzeigen" aktiviert aktiviert sein (Standard)! Bei einer deaktivierten Checkbox, wird entsprechend kein Link bzw. Status Meldung angezeigt. Mehr dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_links_der_linkliste_zuweisen.htm)
+
+Q: 
+ Ich bin dabei einige Anpassungen bei der englischen Seite des Collaborative leadership lab zu machen.
+ Nun kommt in dieser Box beim Flyer immer: (Only in German). Wie kann ich das entfernen?
+ 
+ 
+A: Damit der Hinweis "only in German" verschwindet, musst du in der Media Library vom Dokument eine englische Version anlegen. In der Media-Library ist es möglich, von einem Bild- oder Dokument-Item auch eine Sprachversion (EN) zu erstellen. So kann kann z.B. bei einem PDF-Item in der englischen Version auch ein englisches Dokument hochgeladen werden. Wird solch ein File-Item, zum Beispiel mit einer Link und Download Liste verlinkt, stellt Sitecoreautomatisch das richtige Dokument (PDF) entsprechen der aktuellen Sprache zur Verfügung. Dazu musst du in der Media Library in demselben Item, indem sich die deutsche Version befindet, die Sprache oben Rechts wechseln und dann das englische Dokument dort anhängen. Mehr dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_file-item-englische-version-er.htm)
+Q: Ich habe eine Frage zum manuellen Teaser: fuer die online Info-Veranstaltung an der I, schalte ich einen Teaser mit der Grafik vom Programmablauf auf. Wenn ich jedoch die englische Grafik einsetze, zeigt es mir bei der deutschen Version die Grafik nicht mehr an. Könnt ihr mir hier weiterhelfen?
+ 
+A: Sprachversionen gibt es nicht nur für Seiten sondern auch für Elemente und Datein. 
+- Wenn ein Element auf der englischen Seite einen anderen Text enthalten soll, muss zuerst eine englische Version dieses Elements erstellt werden.
+- Damit auf der englischen Seite das englische Bild dargestellt wird, muss in der Media Library eine englische Version der Grafik hinterlegt werden. Dann wird auf der Seite die Grafik der Sprache nach gewechselt.
+ Mehr dazu [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_sprachversion.htm)
+Q: 
+ Ganz unten auf dieser Seite wird der letzte Teaser (Master Kunst) nach rechts gerueckt:
+ <<link>>
+ Was müssen wir tun, damit der Teaser links dargestellt wird?
+
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Die Vorkurs-Seite "Grundlagen der Gestaltung“ ist nun durch eine virtuelle Navigation in der Weiterbildung verlinkt.
+ 
+<<link>>
+verlinkt in:
+<<link>>
+ 
+Nun ist der Kurs in der Flyoutnavigation verklinkt, erscheint aber nicht in der Filterliste.
+ 
+Samuel Frei (zuständig Weiterbildung) hat mir vorgeschlagen, ich könnte folgendes probieren (siehe unten).
+Bevor ich das mache, wollte ich wissen, ob ich es DARF machen:-) und ob es funktioniert.
+
+A: Voraussetzung dafür, dass eine Seite in eine Filterliste aufgenommen wird, ist dass diese online ist. Mehr dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm). 
+Spezifisch bei Aus- und Weiterbildungslisten, ist eine weitere Voraussetzung, dass der richtige Seitentyp ausgewählt wurde. In Aus- und Weiterbildungslisten, werden nur [Aus-](https://applsupport.hslu.ch/webhelp/index.html?hm_ausbildung_einfuegen.htm) bzw. [Weiterbildungsseiten](https://applsupport.hslu.ch/webhelp/index.html?hm_weiterbildung_einfuegen.htm) aufgelistet.
+Ausserdem müssen alle Angaben auf der Produktseite ausgefüllt wurden. Bei Weiterbildungsseiten z.B. die Programmart.
+Q: Unter folgenden Seite:
+ <<link>> 
+Muesste der unterste Video Teaser Bourbaki Clips links gesetzt sein.
+Ist im Backend so gesetzt, leider erscheint er live auf der rechten Seite?
+Könnt ihr mir hier bitte weiterhelfen?
+
+A: Manchmal kann es dazu kommen, dass Elemente nicht an der richtigen Stelle platziert werden. Werden z.B. mehrere Teaser platziert, werden diese automatisch angeordnet. Dies kann aber dazu führen, dass das Layout nicht wie gewünscht aussieht. Durch Einfügen eines geschützten Umbruch, kann das Layout strukturiert werden. So können unnötige Lücken vermieden werden oder einzelne Elemente linksbündig oder rechtsbündig platziert werden.
+Wie das geht ist [hier](http://applsupport.hslu.ch/web12/index.html?hm_geschuetzten_umbruch_einfuegen.htm) beschrieben.
+ 
+Q: Wie kann ich die Infobox auf der Hauptseite löschen?
+A: Die Infobox muss wieder ueber die Page Options von der Seite gelöst werden (so wie sie hinzugefuegt wurde).
+1) Im Ribbon-Menü unter Campus > Page Options die leere Infobox der Seite zuweisen. Mit OK bestätigen.
+2) Die Seite mit F5 (Refresh) oder mit Klick auf das Browser-Icon Sitecore_btn_window_refresh neu laden. Danach wird die neue leere Infobox auf der Seite dargestellt.
+Hier die Anleitung mit Bilder: [https://applsupport.hslu.ch/webhelp/index.html?hm_infobox_löschen.htm](https://applsupport.hslu.ch/webhelp/hm_titel__text_eingeben.htm?zoom_highlightsub=infobox).
+Q: 
+ Ich habe beim Fachkurs Grundlagen der Raumaktustik irrtuemlich «in der Übersicht» den ABToggelText gelöscht, statt nur «mehr Infos». Wo kann ich den wieder finden/holen?
+ Wo hätte ich klicken müssen, wenn ich nur mehr Informationen löschen will?
+ 
+A: Da dieses Element standardmässig auf der Seite war (also im Layout der Seite dabei), kann es nach dem Löschen nicht wieder gleich eingefuegt werden wie die anderen Elemente. Daher muss die Site zurückgesetzt werden [Anleitung](https://applsupport.hslu.ch/webhelp/index.html?hm_reset.htm). Nach dem Zurücksetzten müssen die Nicht-Standard-Elemente wieder geholt werden (sind nicht gelöscht, einfach nicht mehr auf der Seite) ueber Add here, select existing. 
+
+Wenn du nur "mehr Informationen" löschen willst, klickst du auf "bearbeiten" und dann löschst du den entsprechenden Text.  Im Edit-Modus steht das "mehr Informationen" weiterhin, aber wenn du in der Preview schaust, siehst du, dass es schon ok ist.
+ 
+ 
+ 
+Q: Wie kann ich einen Kontaktteaser bearbeiten?
+A: Die Angaben im Kontaktteaser fliessen via Schnittstelle Evento /SAP in Sitecore. Sollen die Angaben dauerhaft geändert werden, müssen das folglich die  Personaldatenverantwortlichen in Evento anpassen. Via Sitecore kann einfach pro Kontaktteaser die Funktion einmalig (also dort wo die jeweiligen Kontaktteaser dann liegen) mit dem Element Kontaktperson-Element (manuell) übersteuert werden. Bei diesem Element können alle Daten des Kontakts manuell eingeben werden. Diese  Anpassungen werden aber nur für diese eine Seite gelten. Siehe hier: [https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson](https://applsupport.hslu.ch/webhelp/hm_kontaktperson-element_manuell_.htm?zoom_highlightsub=kontaktperson)
+Q: Ich wollte beiliegendes Bild auf unsere Careers Service Website hochladen. Ich habe es auf ein Teaser-Format angepasst, siehe Beilage 2 doch live gibt es mir eine Fehlermeldung an.
+ <<link>>
+Kannst Du mir sagen wo das Problem ist fuer dieses Bild? Ist es evtl. die Bildgrösse? Die Qualität scheint mir eigentlich ok zu sein.
+ 
+A: Um Fehlermeldungen bei Bildern zu vermeidern, muss das Bild auf die richtige Grösse zugeschnitten werden, progressiv gespeichert werden und ohne Sonderzeichen benannt werden (Umlaute und Klammern sind z.B. nicht erlaubt).  
+- Die Maquetten visualisieren, zu welchem Format ein Bild zugeschnitten werden muss. Zudem findest du hier eine Auflistung aller Bildergrössen: [https://applsupport.hslu.ch/webhelp/index.html?hm_maquetten.htm](https://applsupport.hslu.ch/webhelp/index.html?hm_maquetten.htm)
+- Hier steht beschrieben, wie die Bilder aufbereitet werden müssen: [http://applsupport.hslu.ch/web12/index.html?hm_photoshop.htm](http://applsupport.hslu.ch/web12/index.html?hm_photoshop.htm)
+- Hier die Anleitung zur Namenskonvention [https://applsupport.hslu.ch/webhelp/index.html?hm_präfixe_dateinamen.htm](https://applsupport.hslu.ch/webhelp/index.html?hm_präfixe_dateinamen.htm)
+ 
+Q: Ich erstelle eine neue Unterseite und konnte den Never Publish button nirgends finden.
+Könnt ihr bitte folgende Seite unsichtbar machen? <<link>>
+
+A: Den "Never Publish" Button findest du im Experience Editor unter Campus > Publish Options. Hier noch den Link zum Webhelp-Artikel: [https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm](https://applsupport.hslu.ch/webhelp/index.html?hm_publish_options.htm)
+ 
+Q: Wisst ihr an was es liegt, dass der Link zu den Online Info-Events im Master BA immer nur deutsch oder englisch hinterlegt werden kann und es dann den Link auf der Page der anderen Sprache überscheibt?
+ 
+<<link>>
+
+A: Bei Verlinkungen zu einer Sitecore Seite sollte die Verlinkung über den Baum zur entsprechenden Seite eingefügt werden. So wird dann die Seite auch immer in der richtigen Sprachversion dargestellt. Verlinkt man eine Seite über einen externen Link kann immer nur entweder die deutsche oder die englische URL hinterlegt werden.
+Mehr Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_links-einfuegen.htm).
+ 
+Q: Ich habe auf dieser Seite einen Image Teaser eingebaut und dann noch verlinkt mit einem A3 JPG. Leider geht das Pop-Up nicht auf.
+Was habe ich vergessen? Konnte es in Web-Help nicht rausfinden.
+
+A: Um ein Bild einzufügen, das beim Draufklicken grösser dargestellt wird, kann ein manueller Teaser oder eine Bildergeschichte (mehrere Bilder ) eingefügt werden. Beim Bearbeiten muss die Checkbox "Link (nur Bilder via Media Link) in Popup vergrössern" ausgewählt werden. Das vergrösserte Bild muss als Link ausgewählt werden.
+Falls der Haken bei "Link (nur Bilder via Media Link) in Popup vergrössern" gesetzt wurde aber das Bild beim Draufklicken nicht grösser dargestellt wird, liegt es wohl daran, dass das Bild noch nicht in der grossen Version hochgeladen wurde. Damit dar Popup funktioniert, muss das Bild 1x in der vorgegebenen Grösse für den Teaseroder die Bildergeschichte hochladen werden und 1x in der Grösse, wie es vergrössert dargestellt werden soll. Wenn der Teaser dann bearbeitet wird, kann im Bereich  "Link" durch die Funktion  "Insert Media Link" das grössere Bild und die Checkbox "Link in Popup vergrössern" ausgewählt werden. Dadurch wird das grössere Bild beim Klick auf das Teaserbild angezeigt.
+Q: 
+ Ich habe fuer die Info-Veranstaltung vom MAS Interantional Leadership / DBA eine alte Info vom CAS KMU und Recht genommen, da es diesen nicht mehr gibt.
+ Nun erscheint aber im Link eine falsche Bezeichnung. Könnt ihr mir sagen, wo ich das anpassen kann?
+ 
+A: Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+Um URL zu ändern, kann so vorgegangen werden:
+1) Im Dialog die gewünschte URL eingeben. Soll eine URL auf die ursprüngliche Zeichenfolge zurückgesetzt werden, ist hier ein Stern (*) einzugeben.
+2) Der Button "Validieren" zeigt, wie der letzte Teil der URL (http://www.hslu.ch/Neue-URL) neu in der Adresszeile aussehen wird. Bei der Validation fallen Sonderzeichen ("/,#@...) weg, Umlaute ("ö, ü, ä") werden ausgeschrieben ("ö, ue, ä") und Leerschläge durch Bindestriche ("-") ersetzt.
+3) Durch Klicken auf OK wird die URL entsprechend angepasst.
+Mehr Infos dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_url_bearbeiten.htm)
+
+Q: Leider habe ich folgende Infos nicht mehr gefunden in den Sitecore Schulungsunterlagen und der Online-Hilfe, daher kommt die Frage an euch:
+Wenn ich eine Seite (z.B. die Digitalisierungsseite) unter "ÃƒÅ“ber uns" platziere - ändert sich dann die URL zwingend? Oder kann ich in der Navigation auch einfach eine Verlinkung platzieren und die aktuelle URL beibehalten?
+
+ 
+ 
+ 
+A: Alle Hinweise zum Thema "Seite verschieben" findest du hier:
+https://applsupport.hslu.ch/webhelp/hm_seite_verschieben.htm
+Wenn die Seite verschoben wird, dann ändert sich die URL automatisch. 
+Wenn Seiten umbenennt, verschoben oder gelöscht werden oder die URL einer Seite geändert wird, muss vorher überlegt werden, ob Umleitungen eingerichtet werden müssen. Umleitungen sind nicht bei allen Seiten nötig. Sie werden erst dann eingerichtet wenn das Suchmaschinen Ranking der Seite relevant ist, die Seite viele Seitenaufrufe hat oder intern auf der Website viele Verlinkungen auf diese Seite führen (also eigentlich immer dann, wenn die alte URL weiterhin funktionieren soll). Wichtig ist, dass diese Umleitungen eingerichtet werden bevor die Seite umbenannt, verschoben oder gelöscht wird. Schickt bitte alle Umleitungen, die eingerichtet werden müssen an [websupport@hslu.ch](mailto:websupport@hslu.ch). Bitte die alte und neue URL angeben, sowie was mit der Seite gemacht wird (verschieben, umbenennen, löschen). Falls es mehrere Umleitungen sind gerne in einer Exceltabelle. Sobald wir die Umleitungen eingerichtet haben geben wir euch bescheid und ihr könnt dann die Seiten umbenennen, verschieben oder löschen.
+
+WEBHELP-ARTIKEL 
+ Key: Links zuweisen
+Navigation:  Seitenelemente > Sidebar Container > Call-to-Action-Teaser
+
+In dieser Anleitung wird auch erklärt unter welchen Bedingungen automatisch Infoenvent, WeVe und ONLA Anmeldungslinks im Call-to-Action-Teaser generiert werden und wie auch in der mobilen Version ein Call-to-Action Teaser eingefügt werden kann.
+
+Achtung: Damit die Anmeldung über ONLA / WeVe funktioniert, muss diese Checkbox aktiviert sein (Standard)! Bei einer deaktivierten Checkbox, wird entsprechend kein Link bzw. Status Meldung angezeigt.
+
+Diese Checkbox hat nur bei einer Aus-, Weiterbildungs- oder Eventsseite einen Einfluss, sofern auf der entsprechenden Spezialseite (Factsliste Ausbildung / Factsliste Weiterbildung / Event-Intro) ein Evento Anlass bzw. eine Evento ID hinterlegt wurde. Zudem muss der Call-to-Action-Teaser bei diesen Spezialseiten manuell auf der Seite platziert werden.
+Wurde ein Anlass / Evento-ID hinterlegt, wird automatisch im Call-To-Action-Teaser der WeVe-Link (Event) bzw. ONLA-Link (Aus-, Weiterbildung) mit einer grünen Status Meldung angezeigt.
+
+Aufmerksamkeitsstärkeren Call-to-Action auf mobilen Geräten anzeigen lassen:
+Wie das aussieht und funktioniert, seht ihr im Video hier: https://inside.hslu.ch/fs/it/gap/sitecoreschulungen/Seiten/Startseite.aspx#Action
+ 
+•Checkbox: Kontextabhängige Information aus Evento auch beim zusätzlichen mobilen Call-to-Action anzeigen (wenn Evento-ID hinterlegt wurde
+ 
+•Link: Wenn letztere Checkbox nicht angekreuzt: Manueller Link für den zusätzlichen mobilen Call-to-Action (bitte auch Linkbeschreibung ausfüllen):
+ 
+•Drop-Down: Hintergrundfarbe für den zusätzlichen mobilen Call-to-Action: Magenta, Darkblue
+
+Hinweis: E-Mail einfügen funktioniert für den mobilen Call-to-Action nicht. Will man einen E-Mail-Link erstellen, muss dies mit einem "Hack" auch unter "Externen Link einfügen" und mailto:emailadresse gemacht werden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_links_der_linkliste_zuweisen.htm
+Link: Wenn letztere Checkbox nicht angekreuzt: Manueller Link für den zusätzlichen mobilen Call-to-Action (bitte auch Linkbeschreibung ausfüllen):
+ 
+•Drop-Down: Hintergrundfarbe für den zusätzlichen mobilen Call-to-Action: Magenta, Darkblue
+
+Hinweis: E-Mail einfügen funktioniert für den mobilen Call-to-Action nicht. Will man einen E-Mail-Link erstellen, muss dies mit einem "Hack" auch unter "Externen Link einfügen" und mailto:emailadresse gemacht werden.  Key: Teaser löschen
+Navigation:  Seitenelemente > Content Container > Teaser
+
+1) Über den Button Remove Component in der Floating Toolbar kann ein Teaser wieder gelöscht werden.
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_teaser_loeschen.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_teaser_loeschen.htm  Key: Links zuweisen
+Navigation:  Seitenelemente > Sidebar Container > Call-to-Action-Teaser
+
+In dieser Anleitung wird erklärt, wie einem Call-to-Action Teaser Links zugewiesen werden können. Wie automatische Anmeldelinks für Evento-Anlässe (WeVe) und ONLA generiert werden können wird in einer seperaten Anleitung beschrieben. Nicht hier.
+
+1) Im Kontext-Menü auf den Editier-Button klicken.
+ 
+2) Im neuen Fenster können die folgenden Felder editiert werden:
+ 
+•Titel
+•Linkliste - Durch Klicken auf Insert Link / Insert Media Link oder Insert External Link können Links der Linkliste hinzugefügt werden (siehe Punkt 3)
+Link Position ändern: In der Linkliste einen Link auswählen und durch das Klicken auf den Pfeil nach oben oder nach unten verschieben.
+Link löschen: In der Linkliste einen Link auswählen und durch Klicken auf das Lösch-Icon den Link entfernen.
+Link editieren: In der Linkliste einen Link auswählen und durch Klicken auf das Editier-Icon den Link anpassen.
+•Text
+•Telefonnummer
+•E-Mail
+•Checkbox: Kontextabhängige Informationen aus Evento anzeigen (mehr Infos Dazu in seperater Anleitung)
+
+3) Durch Klicken eines Insert ... Buttons öffnet sich ein neues Fenster. Je nach Linktyp sehen die Fenster unterschiedlich aus. Die entsprechenden Felder ausfüllen und den Link durch OK der Linkliste hinzufügen:
+ 
+Wichtig: Auf Speichern klicken, damit dieses Element auch gesichert und die Änderungen sichtbar werden!
+ 
+Hinweis: Die Namen der Seiten-Items können auch in englischer Sprache erscheinen. Für die Verlinkung spielt dies jedoch keine Rolle, da der Link auf das Seiten-Item zeigt und nicht auf eine Sprachversion.
+ 
+Insert Internal Link:
+Mit Insert Link können interne Sitecore-Seiten verlinkt werden.
+
+Insert Media Library Link:
+Mit insert Medialink können PDF's und Bilder aus der Media Library verlinkt werden.
+
+Insert External Link:
+Mit insert external Link können externe Seiten verlinkt werden.
+
+E-Mail Link
+Ein E-Mail Link muss als ein externer Link erfasst werden.
+ 
+Hinweis: E-Mail einfügen funktioniert für den mobilen Call-to-Action nicht. Will man einen E-Mail-Link erstellen, muss dies mit einem "Hack" auch unter "Externen Link einfügen" und mailto:emailadresse gemacht werden. 
+ 
+Link: https://applsupport.hslu.ch/webhelp/hm_links_der_linkliste_zuweisen.htm
+
+
+Link: https://applsupport.hslu.ch/webhelp/hm_links_der_linkliste_zuweisen.htm
+
+PRÄZISE ANTWORT:
+
+====== 
+
+RESPONSE:
+
+Damit die Anmeldung aus dem Call-To-Action Teaser entfernt wird, muss in der Facts List der Evento-Anlass zur Online Anmeldung entfernt werden. Die Anleitung dazu findest du [hier](https://applsupport.hslu.ch/webhelp/index.html?hm_links_der_linkliste_zuweisen.htm).

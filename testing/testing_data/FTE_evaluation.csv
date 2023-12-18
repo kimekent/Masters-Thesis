@@ -1,0 +1,214 @@
+﻿Incident-ID,Status,Betreff,Beschreibung,Lösungsbeschreibung,Anfrageart,Gelöst Dauer in h,Erstellt Datum Zeit,Incident-Typ,Herkunft
+20230901-0065,Geschlossen,Link in Call-to-Action Teaser nicht zu deaktivieren/entfernen,"Ich sollte bei unseren Bachelor-Studiengänge die Links zur Anmeldung entfernen, da das Anmeldefenster geschlossen wurde.
+ 
+Bei den meisten konnte ich das machen, da der Link im Teaser zur Bearbeitung vorhanden war und ich löschen konnte.
+Jedoch beim Call to Action Teaser kommen ich und auch Martina Gander nicht drauf, wo dieser Link zu löschen ist.
+Es geht um den Bachelor Business Psychology wo auf der Hauptwebseite diese Box vorhanden ist und ein «Onla Link» zur Verfügung steht.
+
+Wenn ich jedoch den Teaser bearbeiten will, ist dieser Link nirgends vorhanden:
+","Damit die Anmeldung aus dem Call-To-Action Teaser entfernt wird, muss in der Facts List der Evento-Anlass zur Online Anmeldung entfernt werden.
+
+Bei der gewünschten Seite wurde dies nun umgesetzt.
+Für die anderen Seiten, wo man sich nicht mehr anmelden darf, muss dies auch noch erledigt werden.
+Du kannst im Extended Preview sehen, ob deine Änderung im Live-Modus auch so aussieht.
+ 
+Der folgende Webhelp-Link zeigt dir noch mehr Angaben zu diesem Thema:
+https://applsupport.hslu.ch/webhelp/index.html?hm_links_der_linkliste_zuweisen.htm
+(Tipp: klappe alle Inhalte auf, dann siehst du mehr Informationen wie z. B. Status-Meldungen Call-To-Action-Teaser…), etc. Es klingt im ersten Moment etwas kompliziert, wird aber nach häufigem Gebrauch immer klarer und einfach im Einsatz.",Dokumentation nicht gelesen,5.15,01.09.2023 10:41,Service Request,E-Mail
+20230905-0130,Geschlossen,Anmeldeprozess,"Wir haben uns gerade Gedanken darüber gemacht, wie wir den Weg zur Online-Anmeldung für die Seitenbesucher:innen einfacher gestalten können. Wenn wir das richtig sehen, ist der aktuelle Standard-Weg via Call-to-Action-Box in der Seitenspalte auf der Faktenseite. Auf mobilen Geräten wird jedoch diese erst am Ende der Seite dargestellt. Ist es möglich den direkten Link zur Online-Anmeldung von den jeweiligen Studienrichtungen auch in einer blauen Textbox zu verlinken?
+Diese ist besser sichtbar & leitet so unsere Besucher:innen einfacher durch den Anmeldeprozess. 
+","Es ist nicht möglich, dass die Online Anmeldungen über Textboxen oder andere Elemente vorgenommen wird. Dies wurde bewusst so programmiert. Der Prozess über die Zwischenseite wurde deshalb angepasst, weil es Anpassungen auf Seiten von ONLA gab und nicht auf Seiten Sitecore. Deshalb sind die Anmeldungen nur auf Seiten möglich, wo auch eine Factsliste eingebunden ist. Diese gibt grundsätzlich vor, was in den CtA-Boxen als Onla-Link integriert wird.
+ 
+Grundsätzlich wäre ja ein anderer Prozess für die Online-Anmeldung angedacht, als wie es bei D&K umgesetzt ist. Ich sende dir dazu noch zwei Video-Beispiele per Teams. Da siehst du, dass es bei D&K aktuell mehr Klicks mehr benötigt als bei den anderen Departementen.
+ 
+Liebe Grüsse
+Tanja",Dokumentation nicht gelesen,37.5,05.09.2023 14:46,Service Request,E-Mail
+20230906-0204,Geschlossen,WG: Falsch verlinkt,"Auf der Seite https://www.hslu.ch/de-ch/hochschule-luzern/campus/labs-und-infrastruktur/mensen/ scheint die Mensa T&A falsch verlinkt zu sein. Es öffnet immer die Mensa der Wirtschaft.
+",Das Ticket wurde an Aline Schwarzentruber weitergeleitet.,Dokumentation nicht gelesen,7.47,06.09.2023 15:39,Service Request,E-Mail
+20230907-0053,Geschlossen,Sitecore,"Wir haben auf MyCampus ein Dokument ausgetauscht, welches unbedingt so schnell wie möglich publiziert werden muss.
+ 
+Wäre es möglich, dass ihr dies manuell veröffentlichen könnt?
+Es betrifft dieses Dokument: https://stage-mycampus.hslu.ch/sitecore/shell/-/media/campus/common/files/dokumente/other/mycampus/m/m-modullisten-webeinschreibung/restplatzboerse-fs23.pdf?la=de-ch","Das Dokument sollte nun mit dem allegemeinen Pubilshing um 12.05 Uhr veröffentlicht worden sein.
+In Zukunft hilft es uns, wenn du die Seite, welche bearbeitet werde muss, auch mit schickst.
+Sowie auch eine Begründung, warum dieses Dokument zu einer anderen Zeit veröffentlicht werden muss.",Dokumentation nicht gelesen,2.6,07.09.2023 10:05,Service Request,E-Mail
+20230911-0067,Geschlossen,"WG: Frage zu MyCampus, Sitecore","Ich melde mich bei dir, weil ich eine Frage zu Sitecore und MyCampus habe. Und zwar ist in der mobilen Webansicht eine Infobox zu sehen mit Informationen zur Webeinschreibung. Nun möchte ich sie gerne löschen, weiss jedoch nicht wie. Kannst du mir da weiterhelfen? 
+","Die gewünschte Infobox kann so ähnlich gelöscht werden wie bei einem Moodboard.
+Du musst unter Campus > Page > Page Options die Infobox abwählen.
+ 
+Im folgenden Link findest du den Webhelp-Artikel:
+https://applsupport.hslu.ch/webhelp/hm_infobox_loeschen.htm
+",Dokumentation nicht gelesen,3.56,11.09.2023 10:51,Service Request,E-Mail
+20230912-0067,Geschlossen,Seitennavigation,"Leider kriege ich es nicht hin, auf folgender Seite den Titel der Seite zu ändern zu «Fakten zu allen Master-Angeboten» :
+
+ 
+ 
+
+
+","Der Linktext in der Side Navigation kommt nicht von der virtuellen Navigation sondern von der Seite selbst (Siehe gelbe Markierungen).
+Hier müsste der Linktext in der Side-Navigation korrigiert werden.",Dokumentation nicht gelesen,12.94,12.09.2023 11:16,Service Request,E-Mail
+20230912-0150,Geschlossen,AW: Anfrage Websupport wurde gelöst: [#20230725-0026] / [WG: Website MSc Banking and Finance],"Bei einer englsichen Ausbildungsseite habe ich das Zeitmodell part-time, 4 semesters gewählt. Gibt es eine Möglichkeit dies auf der Seite als  «4 semester model» anzeigen zu lassen?
+Ich kann aber das Zeitmodell nur via Drop-Down Auswahlmenü wählen und dort ist dieser gewünschte Name nicht vorhanden. Nur auf Deutsch «Teilzeit 4 Semester»
+ 
+Wie kann man hier ein neues Modell zur Auswahlliste hinzufügen? / einen neuen Namen des Modells hinzufügen?
+ 
+Im WebHelp finde ich nur, die Hinterlegung des Modells, aber nicht wie ich im Auswahlmenü/Drop-Down ein neues Modell oder einen neuen Namen hinzufügen kann.
+WebHelp Suche unter:
+https://applsupport.hslu.ch/webhelp/index.html?hm_konfiguration_autom__erstellte.htm
+https://applsupport.hslu.ch/webhelp/index.html?hm_durchfuehrungen.htm
+ 
+Seite des Masters zu verändern:
+https://www.hslu.ch/en/lucerne-school-of-business/degree-programmes/master/banking-and-finance/modules/#?filters=v-a08a6cd5-c864-4d39-b4a7-41108dd989ab,z-99caff11-b30e-43b5-b8d9-44037a32d9a5
+","Das Zeitmodell ""Teilzeit - 4 Semester"" hat in Sitecore für englische Seiten die Übersetzung ""part-time, 4 semesters"" hinterlegt.
+Die Auswahl der Zeitmodelle ist global geregelt und kann von Webautoren nicht übersteuert werden.
+Eine Ergänzung ist nicht vorgesehen, da alle Studienformen und Zeitmodelle abgedeckt sind.
+Zudem ist damit ein einheitlicher Auftritt gewährleistet.
+",Dokumentation nicht gelesen,10.09,12.09.2023 15:21,Service Request,E-Mail
+20230920-0161,Geschlossen,Ladefehler im Sidecore,"Ich habe wieder das Problem, dass meine Seite live nicht richtig geladen wird, resp die Anpassungen nicht übernommen werden. Wäre es möglich diese morgen kurz zu aktualisieren – die verantwortliche Person an der Informatik möchte die Seite morgen Korrekturlesen – daher stehe ich etwas unter Zeitdruck. Falls es nicht möglich ist, kannst du mir kurz Bescheid geben, damit ich sie informieren kann? Link der Seite: https://www.hslu.ch/en/lucerne-school-of-information-technology/degree-programs/bachelor/international-it-management/ oder https://stage-www.hslu.ch/en/lucerne-school-of-information-technology/degree-programs/bachelor/international-it-management/",Seiten wurden über Nacht neu publiziert und funktionieren nun.,Dokumentation nicht gelesen,4.43,20.09.2023 21:40,Service Request,E-Mail
+20230921-0088,Geschlossen,Sitecore Websites kopieren,"Folgende Website muss ich dreimal erstellen, da die Veranstaltung an drei verschiedenen Daten stattfindet:
+https://www.hslu.ch/de-ch/wirtschaft/agenda/veranstaltungen/2024/01/24/ibr-boxenstopp-peer-coaching/
+ 
+Darf ich die Seite im Sitecore kopieren/duplizieren? Ich habe mal gemeint, das dürfe man nicht, aus irgendeinem Grund. Was könnt Ihr mir empfehlen, dass ich nicht alles dreimal von vorne eingeben muss?","Du sieht das genau richtig. Seiten dürfen nicht kopiert oder dupliziert werden.
+Ansonsten werden Änderungen von einer Seite auf die kopierten Seiten übertragen.
+ 
+Es empfiehlt sich sonst mit ""shared Items"" zu arbeiten. So kann das Erstellen der Seiten etwas erleichtert werden.",Dokumentation nicht gelesen,8.75,21.09.2023 11:45,Service Request,E-Mail
+20230925-0105,Geschlossen,"Sitecore Fehler ""Pending""?","Ich habe in den letzten Tagen einige Events aufgeschaltet. Dabei ist mir aufgefallen, dass diese nach dem Live-Schalten nicht angezeigt werden.
+Ich vermute, es liegt daran, dass das Kästchen «Pending» aktiviert ist. Dieses hatte ich aber abgewählt. Nun, nach den Mittags-Live-Termin ist es wieder ausgewählt und die Seite entsprechend nicht Live auffindbar.
+Dasselbe Problem hatte ich am Freitag mit zwei weiteren Veranstaltungen. Deswegen habe ich heute speziell darauf geachtet.
+Am Freitag hatte es erst beim zweiten Mal funktioniert (Mittag nicht, anschliessend nochmals abgewählt, am Abend funktionierte es). Heute habe ich es für den Abend-Release bereits wieder abgewählt.
+ 
+Als ich heute an den beiden Terminen vom Freitag nochmals etwas anpassen musste, war «Pending» wieder ausgewählt, die Seiten jedoch noch live.
+ 
+Ist es ein Fehler im System, dass «Pending» automatisch wieder gesetzt wird, obwohl es zuvor abgewählt wurde und die Änderungen auch gespeichert wurden?
+ 
+Das Problem trat bei folgenden Veranstaltungen auf:
+2023 11 22 AIML-Autumn-Student-Industry-Event-2023
+2024 04 24 AIML-Spring-Student-Industry-Event-2024
+2024 11 29 AIML-Autumn-Student-Industry-Event-2024","Das Kästchen ""Pending"" wird jeweils automatisch gesetzt und bedeutet, dass der Event noch nicht abgelaufen ist.
+Hier findest du den Webhelp-Artikel dazu:
+https://applsupport.hslu.ch/webhelp/hm_agenda---automatisch-gesteuert.htm
+ 
+Dass Event-Seiten etwas länger dauern, bis sie live sind, ist bei uns bereits bekannt. (Sollte jedoch nicht länger als einen Tag gehen...)
+Es liegt daran, dass die Indexierung der Seite etwas länger geht als bei anderen Seiten.
+ 
+Soweit ich in der Veranstaltungsübersicht der Informatik gesehen habe, sollten jedoch alle gewünschten Events vorhanden sein. 
+ 
+In Zukunft hilft es uns, wenn du jeweils Links zu den gesagten Seiten senden könntest.
+So können wir das Problem einfacher und schneller finden.",Dokumentation nicht gelesen,4.18,25.09.2023 13:57,Service Request,E-Mail
+20230927-0076,Geschlossen,Anmeldelinks auf Hauptseiten hinzufügen,Wieso kann ich bei der Factliste keinen Onla-Anlass hinterlegen?,"Ich konnte nun das Problem mit der IT anschauen.
+Diese beiden Wunschseiten von dir sind keine Ausbildungsseiten. (Ich bin davon ausgegangen, dass sie welche sind. Diesbezüglich habe ich dir ja bereits gesagt, dass man solche Item nicht löschen darf - kurze Randnotiz;))
+ 
+Aus diesem Grund kann auch keine Factsliste Ausbildung entstehen.
+Das heisst auch, dass man auf den Hauptseiten keine Evento-Codes einfügen kann.",Dokumentation nicht gelesen,38.15,27.09.2023 12:07,Service Request,E-Mail
+20231004-0158,Geschlossen,Dringend: Übersichtsseite - Probleme mit Versionen,"Ich habe eine 2. Seitenversion erstellt. Die Version dieser beiden Seiten ist 2 und ist die Richtige und geht hoffentlich morgen live. Fraglich ist, was mit den beiden 1 Versionen passiert….","Ich konnte das nun abklären mit deinen beiden Versionen.
+Wenn du auf deinen gewünschten Seiten unter ""Versionen"" > ""Entfernen"" klickst, kannst du entscheiden, ob nur die Aktuelle Version gelöscht werden sollte oder alle.
+Da wir nicht gross mit solchen Versionen arbeiten, war ich mir eben nicht ganz sicher, aber es sollte so funktionieren.
+Das beduetet jedoch auch, dass solche Versionen nicht gross verwendet werden sollten...
+
+Bezüglich deiner zweiten Frage und den Englischen-Items.
+Wenn du im Content Editor auf deine gewünschte Seite gehst und ""Data"" öffnest, findest du alle benutzten Items von dieser Seite.
+Anschliessend musst du nur noch die Sprache ändern und auf alle verwendeten Items klicken.
+So siehst du welche eine EN-Version haben und welche nicht.
+ 
+Ich habe dir hier mal alle angestrichen, welche keine EN-Version haben.
+ 
+Hoffe dir hilft es so weiter.
+ 
+Beste Grüsse
+Marina",Dokumentation nicht gelesen,4.5,04.10.2023 18:06,Service Request,E-Mail
+20231012-0045,Geschlossen,Zwiespältigkeit entfernen,"ich bekomme bei einem Rich-Text Teaser die Zweispaltigkeit nicht weg.
+ 
+Bearbeitungsmodus 1-spaltig:                                                          Vorschaumodus 2-spaltig:
+ 
+               
+ 
+Kann ich damit rechnen, dass es bei Veröffentlichung trotzdem 1-spaltig ist oder findet Ihr einen Fehler?
+ 
+https://stage-www.hslu.ch/?sc_mode=edit&sc_itemid={0fc3716d-71f3-41b3-a28a-5c8cc0789da2}&sc_ee_fb=false&sc_debug=0&sc_trace=0&sc_prof=0&sc_ri=0&sc_rb=0
+ 
+https://www.hslu.ch/de-ch/technik-architektur/ueber-uns/organisation/kompetenzzentren-und-forschungsgruppen/technik/bioscience-and-medical-engineering/medizintechnik/device-development/
+","Diese Anfrage haben wir bereits einmal erhalten.
+Laut der Webhelp wird dieses Item bei der Web (Live-Version) sowie auch in der Vorschau zweispaltig angezeigt.
+Es gibt jedoch Items, welche nur eine Spalteanzahl haben. Nämlich Toggle Text und Formatierter Text ohne Bild.
+Mehr Informationen findest du unter dem Webhelp-Artikel ganz unten:
+https://applsupport.hslu.ch/webhelp/hm_haeufige_fehler.htm",Dokumentation nicht gelesen,8,12.10.2023 10:02,Service Request,E-Mail
+20231018-0022,Geschlossen,Publikation GIF auf Webseite,"Ich bekomme immer eine Fehlermeldung beim abspeichern von GIF – weisst du an was dies liegen könnte? à ich habe leider in der Webhelp nicht wirklich etwas dazu gefunden (https://applsupport.hslu.ch/webhelp/index.html?hm_bilder.htm)
+","Ich schliesse dieses Ticket, da das GIF auf deiner gewünschten Seite eingebettet ist.",Dokumentation nicht gelesen,24.24,18.10.2023 08:55,Service Request,E-Mail
+20231023-0092,Geschlossen,Agenda-Eintrag,"Wie kann ich ein gelöschtes Element wiederherstellen?
+","Wenn du ein gelöschtes Item wieder brauchen möchtest, kannst du dieses im Papierkorb finden und wiederherstellen.
+
+",Dokumentation nicht gelesen,4.6,23.10.2023 12:08,Service Request,E-Mail
+20231025-0057,Geschlossen,Infobox: externen Link de/en,Wie erstelle ich eine englische Version eines Elements? Wie erstelle ich eine englische version einer Infobox?,"Ich habe auf der Seite selbst den Folder ""Infobox"" noch als englische Version gespeichert. Aber von der Infobox selbst gibt es bereits eine englische Version:
+Im Preview schaltet die Infobox um und es wird bei EN die Infobox in EN angezeigt.",Dokumentation nicht gelesen,61.98,25.10.2023 10:20,Service Request,E-Mail
+20231025-0073,Geschlossen,Möglichkeit Side-Navigation auf Mobile Ansicht,"Gemäss nachfolgender Rückmeldung auf eine Anfrage im Februar ist es nicht möglich, die Side-Navigation auf der mobilen Ansicht zu sehen:
+ 
+ 
+Die Side-Navigation kann jeweils nur eine Ebene der Navigation abbilden. Das heisst, wenn die aktuelle Seite die Hauptseite ist, dann werden alle direkten Unterseiten abgebildet, wenn dies über ""Navigations Options"" ausgewählt ist. Aber weitere Unterseiten auf tieferen Ebenen können nicht abgebildet werden.
+ 
+Das Flyout bezieht sich nicht auf die Side-Navigation, sondern auf die Hauptnavigation. Level 0 und 1 werden immer angezeigt: 
+ 
+Aber alle Navigations-Ebenen ab 2 werden als Flyout angezeigt, also das Menu öffnet sich, wenn man mit der Maus darüber fährt:
+ 
+Empfehlung: Es sollten alle Seiten über das Flyout oder den Inhalt auf der Seite selbst erreichbar sein. Die Side-Navigation wird auf Mobile nicht angezeigt. So könnten Unterseiten für den User auf Mobile nicht erreichbar sein, weil diese nur über die Side-Navigation verlinkt  sind.
+ 
+Wenn die Unterseite in der Side-Navigation angezeigt werden soll, ist dies lediglich möglich, wenn diese Seite auf eine höhere Navigations-Ebene verschoben wird.
+ 
+ 
+Meine Frage: Wir haben viele Angebote mit Unterseiten und Side-Navigation. Müssen wir diese Seiten für den Mobile-User mit einem Teaser oder Link verlinken, damit dieser auch auf die Unterseiten zugreifen kann?
+","Das ist unsere Empfehlung. Unterseiten sollten stets über die Hauptnavigation (in Mobile als ""Hamburger-Menu"" dargestellt) oder über Teaser und Verlinkungen im Text erreichbar sein. Es empfiehlt sich, die Vorschau über den Extended Preview zu verwenden, um die mobile Ansicht der Website anzuschauen und die UserJourney nachzuvollziehen.
+",Dokumentation nicht gelesen,0.09,25.10.2023 11:30,Service Request,E-Mail
+20231026-0141,Geschlossen,MyCampus - D&K Exchange semester,"Wie kann dieser Balken (gelbe Markierung) ""Some Content is only available in German"" entfernt werden? Hier geht’s zum Link:
+","Der Balken kann manuell nicht entfernt werden. Das ist eine automatische Meldung, welche nicht mehr erscheint, wenn der gesamte Content der Seite auf englisch übersetzt ist. Es hilft, wenn man sich die Seite in html anschaut. Dann fallen evtl. auch Meta-Texte auf, welche noch auf Deutsch hinterlegt sind. 
+ 
+Bei besagter Seite ist bspw. die gesamte URL immer noch Deutsch, obwohl es sich um eine englische Seite handelt. Auch die URL wird angeschaut. Wenn die Seite englisch ist und auch im Code ersichtlich ist, dass es sich bezüglich Sprache um eine englische Seite handelt, muss auch die URL übersetzt werden. Auch im Footer sind noch Direct entry und Quick links vorhanden, die auf Deutsch integriert sind.
+",Dokumentation nicht gelesen,0.36,26.10.2023 16:38,Service Request,E-Mail
+20231101-0040,Geschlossen,Infoveranstaltung erscheint nicht auf der Produktseite,"Kannst du mir bitte helfen? Ich habe vorgestern eine SA-Infoveranstaltung (16.11) aufgeschaltet, erscheint sie aber noch immer nicht auf der Produktseite in der Info-Box Infoveranstaltungen:
+ 
+https://www.hslu.ch/de-ch/soziale-arbeit/agenda/veranstaltungen/2023/11/16/info-event-bachelor-nki/
+","Bei den Events dauert manchmal der Index etwas länger, da er nicht alle paar Minuten neu gebildet wird. Auf jeden Fall ist der Event aktuell in der Übersicht zusehen:
+",Dokumentation nicht gelesen,14.53,01.11.2023 22:48,Service Request,E-Mail
+20231102-0040,Geschlossen,WeVE Formulare Mehrfachauswahl,"Bei der Musik WB haben sie dieses Formular, welches mit einem WeVE Formular ersetzt werden sollte.
+ 
+Nun wurde ihnen aber intern gesagt, dass keine Mehrfachauswahl-Felder möglich sind bei WeVe.
+Siehe Teil Kursauswahl mit mehreren Kursen. 
+ 
+https://www.hslu.ch/de-ch/musik/weiterbildung/weiterbildungskurse/kurse-musikschulleiterinnen/wb-anmeldung-leitungskurs/ 
+ 
+Neue Felder müssen anscheinend bei der IT eingerichtet werden? Wir haben uns eben gefragt, ob es nicht auch bei anderen Departementen schon so eingesetzt wird? ","Über die möglichen Felder bei WeVe können wir keine Auskunft geben. Dafür müsst ihr euch an den Service Desk wenden. Die Einstellungen der WeVe-Formulare in Evento läuft nicht über DMS. Wir wissen leider nicht, ob es dieses Feld nun schon gibt.
+ ",Dokumentation nicht gelesen,12.23,02.11.2023 09:53,Service Request,E-Mail
+20231103-0099,Geschlossen,Kontaktangaben IKM im Footer,"Auf unsere Institutswebsite ist bei den Kontaktangaben im Footer unsere Hauptmailadresse nicht angegeben. Link: https://stage-www.hslu.ch/de-ch/wirtschaft/institute/ikm/
+  
+Könnt ihr bitte ikm@hslu.ch analog den anderen Instituten ergänzen?
+ ","Die Anpassung wurde vorgenommen und sollte nach dem nächsten Deployment sichtbar sein.
+",Dokumentation nicht gelesen,1.9,03.11.2023 14:07,Service Request,E-Mail
+20231107-0042,Geschlossen,Veröffentlichte Veranstaltung erscheint mit Infoboxfilter nicht," Im Backend des Events vom 19.02 sind die Major/Organisatoren entsprechend gepflegt, trotzdem taucht der Event nicht in der Eventfilterliste auf, wieso?","Der Index hatte Probleme, weshalb es in der Liste noch nicht ersichtlich war. Inzwischen ist es wieder sichtbar.
+",Dokumentation nicht gelesen,29.62,07.11.2023 10:17,Service Request,E-Mail
+20231114-0062,Geschlossen,Call to Action auf mobiler Version oben,"Ist es möglich, dass dder Call to Action Teaser für die Anmeldung oben an der Seite angezeigt wird auf mobilen Geräten? 
+","Damit wir das grundsätzliche Verständnis haben, sprichst du in deinem Fall von dem Item ""InfoVeranstaltungen Aus-/Weiterbildungen"", welches nicht auf der Mobile Version ersichtlich ist.
+Den Call-to-Action-Teaser wird auf der Mobile Version angezeigt, jedoch wie du bereits gemerkt hast, ganz unten. Das hat mit dem Responsive Design zu tun.
+ 
+Das InfoVeranstaltungs-Item wurde nur für Desktop entwickelt, um die Veranstaltungen besser hervor heben zu können.
+In deinem Fall hast du den Link zu den Veranstaltungen in der gelben InfoBox ebenfalls drinnen. Aus diesem Grund, wäre dieses Item eh überflüssig, weil es dann ja auch noch in der Factslist steht.
+ ",Dokumentation nicht gelesen,18.6,14.11.2023 11:18,Service Request,E-Mail
+20231115-0018,Geschlossen,Integration Logos auf Webseite,"Die HSLU lanciert im Januar 2024 zusammen mit der PH Luzern und der Uni Luzern einen Studiengang für Geflüchtete, wobei der Lead bei der HSLU liegt. Ich habe den Auftrag erhalten, eine Seite aufzusetzen und die Frage ist nun, ob es möglich ist, die Logos der PH und Uni neben dem HSLU-Logo ganz oben zu ergänzen? Mein Auftraggeber ist das International Office DACH und die Seite soll unter diesem Menureiter integriert werden.","Leider kann das Einsetzten von anderen Logos im Header nicht funktionieren.
+Sonst müsste man das Gobal ändern und da es nur für eine Seite ist, empfehle ich dir die Logos einfach auf der Seite an und für sich einzubauen.
+Tanja meinte es wäre höchstens noch möglich die Logos im Footer einzusetzen.",Dokumentation nicht gelesen,10.31,15.11.2023 08:01,Service Request,E-Mail
+20231116-0055,Geschlossen,Sitecore Unterbruch,"wie lange dauert der Unterbruch von Sitecore denn? Und findet der 12.00 Uhr Publish statt?
+","Der Unterbruch dauert in der Regel ca. 1-1.5 h. Aber das ist stark davon abhängig, ob alles nach Plan verläuft. Die Meldung zu den regelmässigen Unterbrüchen sind auf Inside drauf:
+ https://inside.hslu.ch/fs/it/gap/Seiten/InfoWiki/Sitecore.aspx
+ 
+Bis Mittag wird es sicher durch sein und das Publishing findet ebenfalls ganz normal statt.",Dokumentation nicht gelesen,0.16,16.11.2023 10:26,Service Request,E-Mail
+20231123-0064,Gelöst,Website wiederherstellen,"Aus unbekannten Gründen wurde diese Nacht beim Up-Date fast meinen ganzen Webinhalt gelöscht. Könnt ihr bitte die Seite wieder zum Zustand von gestern Nachmittag herstellen. Es handelt sich um folgende Seite:
+https://www.hslu.ch/en/lucerne-school-of-art-and-design/events/veranstaltungen/2023/12/15/figuring-the-invisible/
+ 
+Und bitte ganz dringend, die Anmeldungen laufen, die Tagung ist in wenigen Wochen!
+","Wenn die Fehler bei den EN und DE Items nicht behoben werden, kann es immer wieder zu Fehlern kommen. Mal wird es ein paar Tage ordentlich aussehen und dann kann es sich wieder ändern.
+ 
+Bezüglich der Customer Journey würde ich euch zudem empfehlen und an die WebGovernance erinnern, dass auf deutschen Seiten deutscher Inhalt und auf englischen Seiten englischer Inhalt integriert werden soll. 
+ ",Dokumentation nicht gelesen,23.91,23.11.2023 10:57,Service Request,E-Mail
+20231124-0057,Geschlossen,Banner IFM Webseiten englisch - entfernen,"Bei uns auf der IFM-Homepage erscheint auf den englischsprachigen Seiten (z.B. Majors, Modules,Time Models - International Financial Management | Lucerne University of Applied Sciences and Arts (hslu.ch)) folgender Banner: ""some content is only available in german""
+
+Das ist falsch, denn die Seiten sind vollständig und der Banner soll dringend entfernt werden.  ","Der Banner kann nicht entfernt werden. Das ist automatisiert. Wenn noch auf irgendeine Weise deutscher Text erkannt wird, dann erscheint auch dieses Banner. Beispielsweise sind bei den meisten keine Alt-Texte hinterlegt. So wird der Dateiname genommen, der teilweise noch auf Deutsch ist. ",Dokumentation nicht gelesen,1.83,24.11.2023 14:38,Service Request,E-Mail
+20231128-0015,Gelöst,Seite Anmeldeverfahren,"Wir möchten gerne auf den Anmeldeseiten wie z.B. dieser https://www.hslu.ch/de-ch/hochschule-luzern/informationen-online-anmeldung-dk-ba-ma-vk/?prf=ab&eid=172404 links nach dem Introtext einen Link zu der Übersichtsseite der Aufnahmeverfahren https://www.hslu.ch/de-ch/design-kunst/studium/informationen-fuer-studieninteressierte/aufnahmeverfahren-und-zulassungsbedingungen/ einfügen. 
+Wer bearbeitet diese Seiten?
+ ","Hier findet ihr ein eListe mit Zuständigkeiten: https://inside.hslu.ch/mk/Seiten/InfoWiki/Webseite.aspx).
+",Dokumentation nicht gelesen,0.14,28.11.2023 08:35,Service Request,E-Mail
