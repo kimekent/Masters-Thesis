@@ -10,7 +10,14 @@ This repository contains the components for building, running and testing the in
 - `domain.yml`: Outlines the chatbot's domain, detailing the intents, entities, slots, and action templates. It also includes the text responses the bot should use for each recognized intent.
 - `credentials.yml`: Contains the necessary credentials for integrating the intent-less Rasa chatbot with Microsoft Teams.
 - `endpoints.yml`: Specifies the endpoints for the chatbot backend services, such as the tracker store and action server.
-- `models/`: Stores the final chatbot models. There are two versions: one trained with spaCy embeddings and another trained with BERT embeddings using the configuration specified in the `BERT_pipeline/`.
+- `models/`: Stores the final chatbot models. There are 5 models to choose from: 
+	- 1: '20231216-180718-alternating-agreement.tar.gz'
+	- 2: '20231216-163751-silent-shares.tar.gz'
+	- 3: '20231216-182555-obtuse-parallel.tar.gz'
+	- 4: '20231216-185922-chromatic-bevel.tar.gz'
+	- BERT-Pipeline: '20231216-212421-impulsive-frequency.tar.gz'
+
+Models 1-4 are trained on a spaCy pipeline with spaCy tokenizer and featurizer. The "BERT-Pipeline model is trained on a pipeline usining BERT-embeddings ("distilbert-base-german-cased"), using the configuration specified in the `BERT_pipeline/`. Model 4 showed the best performance measured on F1 score.
 - `BERT_pipeline/`: Contains the necessary files to set up the BERT pipeline. The BERT pipeline uses BERT embeddings for NLU.
 - `test_data/`: Contains the test data used to test the model.
 - `testing_results`: Stores the output from the testing phase of the chatbot. It includes detailed `intent_reports` for each iteration. Additionally, the latest iteration's results are captured in `intent_error.json`, `intent_confusion_matrix.png`, and `intent_histogram.png`.
@@ -71,7 +78,8 @@ To run the intent-based Rasa chatbot:
 2. Install the necessary language model:
 `python -m spacy download de_core_news_sm`
 3. Start the Rasa shell in the terminal:
-`rasa shell`
+`rasa shell -m 'models\"model name"`
+The list of models to choose from are listed under Files and Content -- Intent-based Chatbot.
 4. In a separate terminal, start the actions server:
 `cd intent-based_chatbot`
 `rasa run actions`
