@@ -17,7 +17,7 @@ This repository contains the components for building, running and testing the in
 	- 4: '20231216-185922-chromatic-bevel.tar.gz'
 	- BERT-Pipeline: '20231216-212421-impulsive-frequency.tar.gz'
 
-Models 1-4 are trained on a spaCy pipeline with spaCy tokenizer and featurizer. The "BERT-Pipeline model is trained on a pipeline usining BERT-embeddings ("distilbert-base-german-cased"), using the configuration specified in the `BERT_pipeline/`. Model 4 showed the best performance measured on F1 score.
+Models 1-4 are trained on a spaCy pipeline with spaCy tokenizer and featurizer. The "BERT-Pipeline" model is trained on a pipeline usining BERT-embeddings ("distilbert-base-german-cased"), using the configuration specified in the `BERT_pipeline/`. Model 4 showed the best performance measured on F1 score.
 - `BERT_pipeline/`: Contains the necessary files to set up the BERT pipeline. The BERT pipeline uses BERT embeddings for NLU.
 - `test_data/`: Contains the test data used to test the model.
 - `testing_results`: Stores the output from the testing phase of the chatbot. It includes detailed `intent_reports` for each iteration. Additionally, the latest iteration's results are captured in `intent_error.json`, `intent_confusion_matrix.png`, and `intent_histogram.png`.

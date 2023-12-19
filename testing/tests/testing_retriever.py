@@ -7,15 +7,19 @@ Key Components and Steps:
 
 - Retrievers Testing: Tests both retrievers on a set of web support queries (Step 3).
 
-- Retrieval Evaluation: Assesses the effectiveness of each retriever in accurately fetching relevant documents (Step 5).
+- Retrieval Evaluation: Assesses the effectiveness of each retriever in accurately fetching relevant documents (Step 5)
+    and calculating precision, recall and F1 score per retriever and fetched number of documents (step 7)
+    Precision = Number of relevant retrievals / total number of retrievals
+    Recall = Number of relevant retrievals /  total number of relevant documents
+    F1 score = 2×((Precision+Recall)/(Precision×Recall)=)
 
 - Visualization: Results are visualized with bar charts, showcasing the rate of correctly answered questions by document
-    count for each retriever (Step 6).
+    count for each retriever (Step 6 and 8).
 
 To run this script update the 'path' variable to the root directory of this project and add your OpenAI API key to
 'openaiapikey.txt' in the root directory of this project.
 
-For visualization, execute Steps 5 and 6 using the saved result CSV files.
+For visualization, execute Steps 5 and 8 using the saved result CSV files.
 """
 
 
@@ -328,7 +332,7 @@ for retriever in unadjusted_answerable_questions:
     for num_docs in unadjusted_answerable_questions[retriever]:
         unadjusted_answerable_questions[retriever][num_docs] = (unadjusted_answerable_questions[retriever][num_docs] / total_questions) * 100
 
-# 6. Visualizing the results--------------------------------------------------------------------------------------------
+# 6. Visualizing the Answerability Rate---------------------------------------------------------------------------------
 # Preparing data for plotting
 labels = sorted(answerable_questions_adjusted_scores['OpenAI'].keys())
 adjusted_DPR_counts = [answerable_questions_adjusted_scores['DPR'][label] for label in labels]
@@ -342,11 +346,11 @@ width = 0.35  # Width of the bars
 fig, ax = plt.subplots()
 
 # Plot the adjusted results
-rects1 = ax.bar(x - width / 2, adjusted_DPR_counts, width, label='Adjusted DPR Retriever', color='#1a2639')
+rects1 = ax.bar(x - width / 2, adjusted_DPR_counts, width, label='Adjusted BERT Retriever', color='#1a2639')
 rects2 = ax.bar(x + width / 2, adjusted_openai_counts, width, label='Adjusted OpenAI Retriever', color='#c24d2c')
 
 # Plot the unadjusted results
-rects3 = ax.bar(x - width / 2, unadjusted_DPR_counts, width, label='Unadjusted DPR Retriever', alpha=0.5, color='#1f77b4', hatch='//')
+rects3 = ax.bar(x - width / 2, unadjusted_DPR_counts, width, label='Unadjusted BERT Retriever', alpha=0.5, color='#1f77b4', hatch='//')
 rects4 = ax.bar(x + width / 2, unadjusted_openai_counts, width, label='Unadjusted OpenAI Retriever', alpha=0.5, color='#ff7f0e', hatch='//')
 
 # Add some text for labels, title and custom x-axis tick labels, etc.
@@ -372,7 +376,7 @@ ax.legend(loc='upper left', bbox_to_anchor=(1, 1), fontsize=14)
 plt.tight_layout()
 
 plt.show()
-#-----------------------------------------------------------------------------------------------------------------------
+
 
 # Print the answerability rates for each retriever and number of retrieved documents
 print('Answerability Rates: ' + str(unadjusted_answerable_questions))
@@ -381,3 +385,136 @@ for retriever, docs_counts in unadjusted_answerable_questions.items():
     print(f'\nRetriever: {retriever}')
     for num_docs, rate in docs_counts.items():
         print(f'  Documents Retrieved: {num_docs}, Answerability Rate: {rate:.2f}%')
+
+# 7. Calculating precision, recall and F1 score of retrievers-----------------------------------------------------------
+with open(path + r"\testing\testing_chatbot\indexes\OpenAI_index.json", 'r', encoding='utf-8') as file:
+    index = json.load(file)
+
+intent_count = {}
+
+# Create Dictionary with each intent as key and number of occurences as values
+for element in index:
+    if element['metadata']['source'] == "websupport_question":
+    # Extract the intent from the metadata
+        intent = element['metadata']['intent']
+
+        # Update the count of the intent in the dictionary
+        if intent in intent_count:
+            intent_count[intent] += 1
+        else:
+            intent_count[intent] = 1
+
+
+# Initialize a dictionary to store precision, recall and f1 score per retriever and number of retrieved documents
+results = {}
+
+for csv_file, num_docs in csv_files_adjusted_scores:
+    results[num_docs] = {'OpenAI_retriever': {'precision': 0, 'recall': 0, 'count': 0},
+                         'BERT_retriever': {'precision': 0, 'recall': 0, 'count': 0}}
+
+    df = pd.read_csv(csv_file)
+
+    for i, row in df.iterrows():
+        total_number_relevant_docs = 0
+        question_intent = row['intent']  # Get intent of question
+        # get list of retrieved web support question IDs and webhelp article links.
+        retrieved_documents = ast.literal_eval(row['reference'])
+        total_number_of_docs = len(retrieved_documents)
+        print(total_number_of_docs)
+
+        for doc in retrieved_documents:
+            # Check if the retrieved doc has an ID that is associated with same intent as the question
+            # for which it retrieved the doc.
+            if doc in lists_by_intent.get(question_intent, []):
+                total_number_relevant_docs += 1
+            # Check if a webhelp article that is associated with that question was retrieved.
+            if doc in lists_by_ID.get(df_full_websupport_dataset["Incident-ID"][i], []):
+                total_number_relevant_docs += 1
+
+        # Calculate precision and recall
+        if total_number_of_docs > 0 and question_intent in intent_count:
+            precision = total_number_relevant_docs / total_number_of_docs
+            recall = total_number_relevant_docs / intent_count[question_intent]
+
+            retriever = row['source']
+            if retriever in results[num_docs]:
+                results[num_docs][retriever]['precision'] += precision
+                results[num_docs][retriever]['recall'] += recall
+                results[num_docs][retriever]['count'] += 1
+
+# Calculate the average for each retriever at each doc count
+for num_docs in results:
+    for retriever in results[num_docs]:
+        if results[num_docs][retriever]['count'] > 0:
+            results[num_docs][retriever]['precision'] /= results[num_docs][retriever]['count']
+            results[num_docs][retriever]['recall'] /= results[num_docs][retriever]['count']
+
+        # If at least one web support answer with the same intent as question or one webhelp article that is assosiated
+        # to the question is retrieved, the amount of answerable questions goes up by one.
+        if row['source'] == "BERT_retriever":
+            precision_bert = total_number_relevant_docs/total_number_of_docs
+            recall = total_number_relevant_docs / intent_count[question_intent]
+        elif row['source'] == "OpenAI_retriever":
+            precision_openAI = total_number_relevant_docs/total_number_of_docs
+            recall = total_number_relevant_docs / intent_count[question_intent]
+
+# Iterate through the dictionary and calculate F1 scores
+for num_docs, retrievers in results.items():
+    for retriever, metrics in retrievers.items():
+        precision = metrics['precision']
+        recall = metrics['recall']
+        # Calculate F1 score, avoid division by zero
+        if precision + recall > 0:
+            f1_score = 2 * (precision * recall) / (precision + recall)
+        else:
+            f1_score = 0
+        # Add F1 score to the dictionary
+        metrics['f1_score'] = f1_score
+
+# Choose a beta value greater than 1 to emphasize recall
+beta = 2  # for example, you can adjust this as needed
+
+# Iterate through the dictionary and calculate Fβ scores
+for num_docs, retrievers in results.items():
+    for retriever, metrics in retrievers.items():
+        precision = metrics['precision']
+        recall = metrics['recall']
+        # Calculate Fβ score, avoid division by zero
+        if (beta**2 * precision) + recall > 0:
+            f_beta = (1 + beta**2) * (precision * recall) / ((beta**2 * precision) + recall)
+        else:
+            f_beta = 0
+        # Add Fβ score to the dictionary
+        metrics['f_beta'] = f_beta
+
+# 8. Visualizing precision, recall and F1 score-------------------------------------------------------------------------
+# Parameters for plotting
+num_docs_list = [20, 30, 40, 50, 60, 70]
+metrics = ['precision', 'recall', 'f1_score']
+retrievers = ['OpenAI_retriever', 'BERT_retriever']
+colors = ['#c24d2c', '#3e4a61', '#1a2639']  # Different colors for each metric
+bar_width = 0.35
+index = np.arange(len(retrievers))
+
+# Create subplots
+fig, axes = plt.subplots(1, 6, figsize=(20, 6), sharey=True)
+
+for k, num_docs in enumerate(num_docs_list):
+    for i, metric in enumerate(metrics):
+        values = [results.get(num_docs, {}).get(retriever, {}).get(metric, 0) for retriever in retrievers]
+        axes[k].bar(index + bar_width*i, values, bar_width, color=colors[i], label=metric)
+
+    axes[k].set_title(f'{num_docs} Docs')
+    axes[k].set_xticks(index + bar_width)
+    axes[k].set_xticklabels(retrievers, rotation=45)
+    if k == 0:
+        axes[k].set_ylabel('Scores')
+    axes[k].set_ylim(0, 1)
+
+handles, labels = axes[0].get_legend_handles_labels()
+fig.legend(handles, labels, loc='lower center', ncol=len(metrics), bbox_to_anchor=(0.5, 0.05))
+
+# Adjust the layout to make room for the legend
+plt.tight_layout(rect=[0, 0.1, 1, 0.9])
+# plt.suptitle('Comparison of Precision, Recall, and F1 Score for OpenAI and BERT Retriever')
+plt.show()
