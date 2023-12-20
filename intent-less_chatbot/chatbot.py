@@ -28,7 +28,7 @@ openai.api_key = os.getenv('OPENAI_API_KEY')  # Add OpenAI API key to this .txt 
 from functions import num_tokens_from_string, remove_history, save_file, adjust_similarity_scores
 
 # OpenAI Libraries and functions
-from functions import gpt3_1106_completion
+from functions import gpt_completion
 
 # Libraries for initializing the retriever and the Chroma vector store
 from langchain.vectorstores import Chroma
@@ -80,8 +80,9 @@ if __name__ == '__main__':
             # in multi-question sessions.
             current_retriever_prompt = retriever_prompt.replace('<<query>>', query)
             print("current retreiver prompt: " + current_retriever_prompt)
-            restructured_query = gpt3_1106_completion(prompt=current_retriever_prompt,
-                                                      log_directory=retriever_prompt_log_directory)
+            restructured_query = gpt_completion(prompt=current_retriever_prompt,
+                                                model='gpt-4-1106-preview',
+                                                log_directory=retriever_prompt_log_directory)
             print('restructured query: ' + restructured_query)
         else:
             restructured_query = query
@@ -133,7 +134,7 @@ if __name__ == '__main__':
             #print('current prompt: ' + current_prompt)
 
             # Generate answer to prompt
-            response = gpt3_1106_completion(prompt=current_prompt, log_directory=intent_less_path + r'\gpt3_logs\prompt',
+            response = gpt_completion(prompt=current_prompt, log_directory=intent_less_path + r'\gpt3_logs\prompt',
                                             max_tokens=1000)
             print('response: ' + response)
 

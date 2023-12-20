@@ -5,7 +5,7 @@ This file contains the functions that are used to run the intent-less chatbot lo
 
 from time import time, sleep
 import openai
-def gpt3_1106_completion(prompt, model='gpt-3.5-turbo-1106', temperature=0.7, max_tokens=1000, log_directory=None):
+def gpt_completion(prompt, model='gpt-3.5-turbo-1106', temperature=0.7, max_tokens=1000, log_directory=None):
     """
     Generate text using OpenAI's gpt-3.5-turbo-1106 model and log the response.
     This generation function is used to generate answers to users websupport quesitons.
