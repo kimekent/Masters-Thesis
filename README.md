@@ -1,5 +1,5 @@
 # Masters-Thesis
-This repository contains the components for building, running and testing the intent-based Rasa chatbot and the intent-less chatbot discussed in my master's thesis. bellow you will find a list of the files contained in this repository and instructions on how to run the scripts.
+This repository contains the components for building, running and testing the intent-based Rasa chatbot and the intent-less chatbot discussed in my master's thesis. Bellow you will find a list of the files contained in this repository and instructions on how to run the scripts.
 
 ## Files and Content
 
@@ -126,7 +126,7 @@ Integration with Microsoft Teams:
 5. In the Azure portal, set the messaging endpoint to your Ngrok URL followed by /webhooks/botframework/webhook.
 6. Add Microsoft Teams as a channel and open the chatbot in Teams.
 
-#### Running the Intent-less Chatbot on Teams
+#### Running the Intent-Less Chatbot on Teams
 1. Navigate to intent-less_chatbot `\intent-less_chatbot_on_teams`.
 2. Run the chatbot:
 `python app.py`
