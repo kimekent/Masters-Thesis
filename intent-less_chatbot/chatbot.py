@@ -135,7 +135,7 @@ if __name__ == '__main__':
 
             # Generate answer to prompt
             response = gpt_completion(prompt=current_prompt, log_directory=intent_less_path + r'\gpt3_logs\prompt',
-                                            max_tokens=1000)
+                                      model='gpt-4-1106-preview', max_tokens=1000)
             print('response: ' + response)
 
 
