@@ -1,4 +1,4 @@
-# Masters-Thesis
+# Master's Thesis
 This repository contains the components for building, running and testing the intent-based Rasa chatbot and the intent-less chatbot discussed in my master's thesis. Bellow you will find a list of the files contained in this repository and instructions on how to run the scripts.
 
 ## Files and Content
