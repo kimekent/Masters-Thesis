@@ -47,7 +47,7 @@ pipeline:
     weight_sparsity: 0.7
     batch_size: [64,256]
     embedding_dimension: 30
-  - name: EntitySynonymMapper
+  #- name: EntitySynonymMapper
   # Used for selecting a response based on the training data. Also trained for 100 epochs.
   - name: ResponseSelector
     epochs: 100

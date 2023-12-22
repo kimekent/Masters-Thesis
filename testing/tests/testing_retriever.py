@@ -420,7 +420,6 @@ for csv_file, num_docs in csv_files_adjusted_scores:
         # get list of retrieved web support question IDs and webhelp article links.
         retrieved_documents = ast.literal_eval(row['reference'])
         total_number_of_docs = len(retrieved_documents)
-        print(total_number_of_docs)
 
         for doc in retrieved_documents:
             # Check if the retrieved doc has an ID that is associated with same intent as the question
@@ -471,6 +470,7 @@ for num_docs, retrievers in results.items():
         # Add F1 score to the dictionary
         metrics['f1_score'] = f1_score
 
+print(results)
 # Choose a beta value greater than 1 to emphasize recall
 beta = 2  # for example, you can adjust this as needed
 

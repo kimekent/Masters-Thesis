@@ -1,9 +1,9 @@
 # Masters-Thesis
-This repository contains the components for building, running and testing the intent-based rasa chatbot and the intent-less chatbot discussed in my masters thesis. bellow you will find a list of the files contained in this repository and instructions on how to run the scripts.
+This repository contains the components for building, running and testing the intent-based Rasa chatbot and the intent-less chatbot discussed in my master's thesis. bellow you will find a list of the files contained in this repository and instructions on how to run the scripts.
 
 ## Files and Content
 
-#### Intent-based Chatbot
+#### Intent-Based Chatbot
 - `data/`: Includes the intent-less Rasa NLU training data (`nlu.yml`), as well as the stories (`stories.yml`) and rules (`rules.yml`) that guide the dialogue management.
 - `actions/`: Holds the custom action scripts for the chatbot.
 - `config.yml`: Contains the NLU pipeline and policies.
@@ -17,13 +17,13 @@ This repository contains the components for building, running and testing the in
 	- 4: '20231216-185922-chromatic-bevel.tar.gz'
 	- BERT-Pipeline: '20231216-212421-impulsive-frequency.tar.gz'
 
-Models 1-4 are trained on a spaCy pipeline with spaCy tokenizer and featurizer. The "BERT-Pipeline" model is trained on a pipeline usining BERT-embeddings ("distilbert-base-german-cased"), using the configuration specified in the `BERT_pipeline/`. Model 4 showed the best performance measured on F1 score.
+Models 1-4 are trained on a spaCy pipeline with spaCy tokenizers and featurizers. The "BERT-Pipeline" model is trained on a pipeline usining BERT-embeddings ("distilbert-base-german-cased"), using the configuration specified in the `BERT_pipeline/`. Model 4 showed the best performance measured on F1 score.
 - `BERT_pipeline/`: Contains the necessary files to set up the BERT pipeline. The BERT pipeline uses BERT embeddings for NLU.
 - `test_data/`: Contains the test data used to test the model.
 - `testing_results`: Stores the output from the testing phase of the chatbot. It includes detailed `intent_reports` for each iteration. Additionally, the latest iteration's results are captured in `intent_error.json`, `intent_confusion_matrix.png`, and `intent_histogram.png`.
 - `MS_teams_files/`: Includes customized Rasa files essential for running the chatbot on Microsoft Teams.
 
-#### Intent-less Chatbot:
+#### Intent-Less Chatbot:
 - `data/`: Contains the cleaned web support ticketing dataset and scraped web help articles.
 - `ETL_web_help_articles/`: Contains scripts used to scrape and split web help articles.
 - `create_chroma_db.py`: Script used to create the Chroma vector database.
@@ -32,7 +32,7 @@ Models 1-4 are trained on a spaCy pipeline with spaCy tokenizer and featurizer. 
 - `chatbot.py`: Script to interact with the intent-less chatbot via the terminal. Requires adding an OpenAI API key and updating the file path.
 - `prompts/`: Includes prompt `.txt` files for answer generation and question reformulation for the retriever.
 - `gpt3_logs/`: Saves the logs from interactions with the intent-less chatbot.
-- `openaiapikey.txt`: Placeholder text file. Paste the OpenAI API key here and update the path in `chatbot.py`.
+- `openaiapikey.txt`: Placeholder text file. Paste the OpenAI API key here and update the path in `chatbot.py` to run the intent-less chatbot in terminal.
 - `words_to_check_for_adjusted_similarity_score.txt`: List of words checked to rescore the retriever similarity scores.
 
 #### Testing
@@ -43,7 +43,7 @@ Models 1-4 are trained on a spaCy pipeline with spaCy tokenizer and featurizer. 
   - Conversation turn dataset to evaluate the memory component of the chatbot.
   - Test set for benchmarking the intent-based Rasa chatbot against the intent-less OpenAI chatbot.
   - Web help article collection.
-  - Curated list of words for adjusted similarity scoring in retrieval.
+  - Curated list of words for scaling similarity scores during retrieval.
 - `testing_results/`: Stores the outcomes of the chatbot tests.
 - `testing-websupport-and-webhelp-db/`: Chroma vector DB with the training web support Q&A and web help articles.
 - `tests/`: Holds unit tests.
@@ -54,14 +54,14 @@ Models 1-4 are trained on a spaCy pipeline with spaCy tokenizer and featurizer. 
 - `testing_chroma_db_websupport-and-webhelp.py`: Script used to create the testing Chroma vector database.
 - `TF-IDF_per_intent.py`: A Python script that calculates the Term Frequency-Inverse Document Frequency (TF-IDF) for each intent, a statistical measure used to evaluate the importance of a word to an intent in a collection or corpus.
 
-#### Intent-less Chatbot on Teams
+#### Intent-Less Chatbot on Teams
 - `bots/`: The core of the intent-less chatbot's functionality for Teams. It includes `echo_bot.py`, detailing the chatbot's operations, and contains all necessary components such as utility functions, prompt files, the vector database for queries, log files, the placeholder for the OpenAI API key, and state management files that track the chatbot's current context, query counts, and a text file with words used to adjust retrieval scores.
 - `functions/`: Contains utility and helper functions used throughout the chatbot's codebase to perform various tasks and operations.
 - `app.py`: The main Python executable script that initiates the chatbot application, serving as the entry point for the chatbot service.
 - `config.py`: A configuration file in Python format which contains settings and variables that dictate how the chatbot operates within the Teams environment.
 
 ## Set up and Installation
-Before running any scripts, you need to install the required dependencies:
+To run the scripts the required dependencies can be installed with the following commands:
 
 1. Clone a copy of this repo:
 `git clone https://github.com/kimekent/Masters-Thesis.git`
@@ -70,7 +70,7 @@ Before running any scripts, you need to install the required dependencies:
 3. Install the dependencies  from the root level of the repo using: `pip install -r requirements.txt`
 
 
-#### Intent-based chatbot
+#### Intent-Based Chatbot
 To run the intent-based Rasa chatbot:
 
 1. Navigate to the intent-based_chatbot directory:
@@ -86,7 +86,7 @@ The list of models to choose from are listed under Files and Content -- Intent-b
 5. Now, you can interact with the chatbot in the Rasa shell.
 
 
-#### Intent-less chatbot
+#### Intent-Less Chatbot
 To run the intent-less chatbot:
 
 1. Modify the root folder path in chatbot.py to your project's root folder.
@@ -107,15 +107,15 @@ For testing:
 1. Create an Azure Bot Service Instance.
 2. Install [Ngrok](https://ngrok.com/download).
 
-#### Intent-based Chatbot
+#### Intent-Based Chatbot
 Integration with Microsoft Teams:
 
-1. Replace actions/actions.py with the content from MS_teams_files/teams_actions.py.
+1. Replace `actions/actions.py` with the content from `MS_teams_files/teams_actions.py`.
 2. Add `intent-based_chatbo/MS_teams_files/cards.py` to the `intent-based_chatbo/actions/` directory.
 3. Update `intent-based_chatbot\domain.yml` with the content from `intent-based_chatbot/MS_teams_files/domain_teams.yml`.
 4. Add Bot Framework credentials (app_id and app_password) in intent-based_chatbot/credentials.py. These credentials can be found in your Azure bot under 'Configurations' > 'Manage Password'.
 
-#### Running the Inten-based Chatbot on Teams
+#### Running the Intent-Based Chatbot on Teams
 1. Navigate to intent-based_chatbot.
 2. Start Rasa:
 `rasa run`
@@ -126,11 +126,34 @@ Integration with Microsoft Teams:
 5. In the Azure portal, set the messaging endpoint to your Ngrok URL followed by /webhooks/botframework/webhook.
 6. Add Microsoft Teams as a channel and open the chatbot in Teams.
 
-#### Running the Inten-less Chatbot on Teams
-1. Navigate to intent-less_chatbot.
+#### Running the Intent-less Chatbot on Teams
+1. Navigate to intent-less_chatbot `\intent-less_chatbot_on_teams`.
 2. Run the chatbot:
 `python app.py`
 3. Start Ngrok on the same port:
 `ngrok http [port]`
 4. In the Azure portal, set the messaging endpoint to your Ngrok URL followed by /api/messages.
 5. Add Microsoft Teams as a channel and open the chatbot in Teams.
+
+
+### Suggested Utterances to Try
+The chatbots are trained to answer websupport questions. Some sample utterances include:
+
+#### Questions
+- Wie lösche ich die englische Sprachversion einer Seite, ohne die Deutsche zu löschen?
+- Wieso wird mein Text zweispaltig dargestellt?
+- In der Kontaktbox wird die falsche Kontaktinformation dargestellt, wie kann ich diese anpassen.
+- Wieso wird meine Infoveranstaltung in der Filterliste nicht dargestellt?
+- Ich möchte eine Seite in die Sidenavigation aufnehmen, die keine direkte Unterseite ist. Geht das?
+- wieso wird mein manueller teaser zweispaltig dargestellt?
+
+#### To Test Fallback:
+- Wie ist das Wetter heute?
+- Wie kann ich einen Mailverlauf im CRM aufsetzten?
+- Wie kann ich mich bei Google Analytics einloggen?
+
+#### To Test Conversation Turn Capabilities of Intent-Less Chatbot
+- Was ist ein Anker? Wie kann ich ihn einfügen?
+- Wie lösche ich eine Seite? Es ist eine englische Seite?
+- Wie kann ich eine Infobox löschen? Nun möchte ich sie wieder hinzufügen.
+

@@ -41,7 +41,7 @@ pipeline:
 # It is trained for 100 epochs to effectively learn from your training data.
 - name: DIETClassifier
   epochs: 100
-- name: EntitySynonymMapper
+#- name: EntitySynonymMapper
 # Used for selecting a response based on the training data. Also trained for 100 epochs.
 - name: ResponseSelector
   epochs: 100
